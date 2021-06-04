@@ -1,0 +1,44 @@
+name: "Check the branch name"
+on:
+  push:
+    branches:
+      # All branches.
+      - '**'        # Matches all branches.
+      - '!master'   # Excludes master.
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Check if the branch uses standardized naming scheme.
+        shell: bash
+        run: |
+          # Make the match case insensitive
+          shopt -s nocasematch
+
+          BRANCH_NAME=$(git rev-parse --abbrev-ref HEAD)
+          # Regex to match the Jira ticket naming convention.
+          REGEX="(revert|hotfix|no-ticket|dependabot)|([A-Z]|[a-z])+-[0-9]+"
+
+          if [[ "${BRANCH_NAME}" =~ ${REGEX} ]]; then
+            exit 0
+          fi
+
+          cat <<\EOF
+          ========================================================================
+          Error: Invalid branch name.
+
+          The branch name should contain the name of the corresponding ticket in Jira e.g.
+
+          INFRA-123, CIT-51, EX-2, OFFICE-43, etc...
+
+          This is a requirement from our SOC2 auditors.
+
+          If you for any reason cannot connect this PR to a ticket, add the string "HOTFIX"
+          anywhere in the name of the pull request and GitHub Actions build will pass.
+
+          Please contact secops@cobalt.io or infra@cobalt.io for more details.
+          ========================================================================
+          EOF
+
+          exit 1
