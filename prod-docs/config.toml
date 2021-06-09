@@ -1,0 +1,23 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Cobalt Product Documentation"
+theme = "docsy"
+
+# Updates .Lastmod with last git commit date
+enableGitInfo = true
+
+# Language settings
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+
+# Everything below this are Site Params
+
+# Comment out if you don't want the "print entire section" link enabled.
+[outputs]
+section = ["HTML", "print"]
+
+[params]
+copyright = "Cobalt"
+privacy_policy = "https://cobalt.io/terms/privacy"
