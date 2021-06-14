@@ -12,7 +12,8 @@ When editing documentation, you should learn how to [build the docs "locally"](#
 
 - The package manager for your operating system
 - Hugo
-- npm (Node package manager)
+- npm and Node.js (Install from nodejs.org)
+  - Do **not** install with brew; risk of version conflicts
 - gem (Ruby package manager)
 
 In addition, the following tools can help you verify ("lint") proposed documentation changes:

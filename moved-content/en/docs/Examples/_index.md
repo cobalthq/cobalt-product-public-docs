@@ -6,6 +6,7 @@ weight: 3
 date: 2017-01-05
 description: >
   See your project in action!
+toc_hide: true
 ---
 
 {{% pageinfo %}}
