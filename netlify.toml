@@ -1,0 +1,32 @@
+[build]
+command = "hugo --gc --minify"
+
+[context.production.environment]
+HUGO_VERSION = "0.83.1"
+HUGO_EXTENDED = "1"
+
+[context.deploy-preview]
+HUGO_VERSION = "0.83.1"
+HUGO_EXTENDED = "1"
+
+[context.branch-deploy]
+HUGO_VERSION = "0.83.1"
+HUGO_EXTENDED = "1"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.83.1"
+HUGO_EXTENDED = "1"
+
+[[redirects]]
+from = "/docs/content/*"
+to = "/docs/content/"
+status = 200
+
+[[redirects]]
+from = "/docs/*"
+to = "/docs/sections/"
+status = 200
+
+[[redirects]]
+from = "/*"
+to = "/docs/"
