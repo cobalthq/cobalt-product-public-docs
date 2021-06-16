@@ -10,9 +10,18 @@ menu:
 
 {{% pageinfo %}}
 Cobalt is creating product documentation. As we build it, we plan to expand
-our product documentation to help you visualize and diagnose problems that
-you may have, without creating a ticket.
+our documentation to help you visualize how our product can help you
+simplify the pentest process.
+
+We hope that future docs can help you make best use of Cobalt software.
 {{% /pageinfo %}}
+
+{{% alert title="Note" %}}
+This documentation is a product of Cobalt Labs, Inc. As noted in our
+[Terms of use](https://cobalt.io/terms/general), when we use
+"Us”, “We”, “Our”, or “Cobalt”, we're referring to Cobalt Labs, Inc.,
+a Delaware Corporation. 
+{{% /alert %}}
 
 We hope to create a "Getting Started" guide soon. We're starting the process
 with links to existing Cobalt literature.
