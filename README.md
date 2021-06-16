@@ -4,7 +4,7 @@ You can find the source files for published Cobalt Product Documentation in this
 
 - Built on the [Hugo](https://gohugo.io/) static site generator
 - Themed with [Docsy](https://github.com/google/docsy)
-- Written in the [CommonMark](ihttps://commonmark.org/) Markdown specification
+- Written in [Goldmark](https://github.com/yuin/goldmark/), compatible with the [CommonMark](ihttps://commonmark.org/) Markdown specification
 
 ## Build Prerequisites
 
