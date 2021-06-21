@@ -19,7 +19,7 @@ We hope that future docs can help you make best use of Cobalt software.
 {{% alert title="Note" %}}
 This documentation is a product of Cobalt Labs, Inc. As noted in our
 [Terms of use](https://cobalt.io/terms/general), when we use
-"Us”, “We”, “Our”, or “Cobalt”, we're referring to Cobalt Labs, Inc.,
+"Us”, “We”, “Our”, "Cobalt.io", or “Cobalt”, we're referring to Cobalt Labs, Inc.,
 a Delaware Corporation. 
 {{% /alert %}}
 
