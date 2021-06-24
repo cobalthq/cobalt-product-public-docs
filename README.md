@@ -126,11 +126,11 @@ mjang-cobalt, @mikejang on Slack, #docs channel
 ## SOC2 Compliance
 This repository complies only with some of the SOC2 compliant conventions laid out in our [Git conventions](https://zombie.atlassian.net/wiki/spaces/ENG/pages/540770575/Git%2Bconventions) Confluence page.
 
-While this repository does *not* host customer-exposed production workloads, the SOC2 conventions are a good practice.
-This repository deviates from SOC2 conventions in the following ways for the noted reasons:
+SOC2 is not a requirement, as this repository does *not* host customer-exposed production workloads. However,
+the SOC2 conventions are a good practice. This repository deviates from SOC2 conventions in the following ways for the noted reasons:
 
 - Allows updates to PRs without dismissing pull request approvals.
   - Supports minor changes, such as typo corrections, without having to restart the PR approval process.
-  - Until I have a repository that supports doc builds, I need to copy and iterate. When I'm ready for input from others, I'll commit to requesting approvals for "major" changes.
+  - Until we have a repository that supports doc builds, the documentation team (of one) needs to copy and iterate. 
 - Allows administrators to bypass restrictions.
   - Supports "quality at speed" by allowing administrators to make / commit minor changes, such as typo corrections.
