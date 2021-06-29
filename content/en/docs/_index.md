@@ -60,3 +60,8 @@ designed to help and inform you about:
 - Standards and how you can meet them
 - Life at Cobalt
 
+<!--
+Suggestion from Grahame: I know it's early days, but could be cool to link to a few of these articles. 
+Especially any that are specifically relevant to the API. 
+(Customer testimonials could also be good, in case anyone's coming to the API first.)
+-->
