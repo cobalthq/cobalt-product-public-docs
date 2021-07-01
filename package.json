@@ -19,5 +19,9 @@
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "postcss-cli": "^7.1.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.4.0",
+    "@emotion/server": "^11.4.0"
   }
 }
