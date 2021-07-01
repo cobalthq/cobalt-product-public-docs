@@ -26,6 +26,19 @@ a Delaware Corporation.
 We hope to create a "Getting Started" guide soon. We're starting the process
 with links to existing Cobalt literature.
 
+<br>
+<div class="mx-auto">
+        <a class="btn btn-lg btn-primary mr-3 mb-4" href="https://cobaltio.zendesk.com/hc/en-us/categories/360005476672-Cobalt-Platform">
+                Support Articles <i class="fas"></i>
+        </a>
+        <a class="btn btn-lg btn-outline-primary mr-3 mb-4" href="https://docs.cobalt.io">
+                API Docs <i class="fab"></i>
+        </a>
+        <a class="btn btn-lg btn-info mr-3 mb-4" href="https://cobalt.io/blog">
+                Blog Posts <i class="fab"></i>
+        </a>
+</div>
+
 ## Support Articles
 
 When customers need help with the Cobalt App, they frequently rely on support articles, available through the [Cobalt Zendesk](https://cobaltio.zendesk.com/hc/en-us/categories/360005476672-Cobalt-Platform) interface.
