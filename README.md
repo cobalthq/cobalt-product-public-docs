@@ -57,6 +57,21 @@ Once you've made your working copy of the site repo, from the repo root folder, 
 hugo server
 ```
 
+You'll need to install some modules:
+
+```
+npm install postcss-cli
+```
+
+### Set up the Docsy theme
+
+Before you can build your site in Hugo with the Docsy theme, you have to install it.
+One way to do so is with the following command:
+
+```
+git submodule update --init --recursive
+```
+
 ## Run container locally
 
 You can run docsy-example inside a [Docker](https://docs.docker.com/)
