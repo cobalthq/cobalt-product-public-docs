@@ -7,7 +7,7 @@ enableRobotsTXT = true
 theme = ["docsy"]
 
 # Will give values to .Lastmod etc.
-enableGitInfo = false
+enableGitInfo = true
 
 # Language settings
 contentDir = "content/en"
@@ -154,6 +154,3 @@ footer_about_disable = true
 #	url = "https://example.org/mail"
 #	icon = "fa fa-envelope"
 #        desc = "Discuss development issues around the project"
-
-[params.print]
-disable_toc = true
