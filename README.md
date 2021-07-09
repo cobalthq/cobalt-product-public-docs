@@ -66,6 +66,9 @@ If you already have Hugo installed, and have just cloned this repo, you'll need 
   git submodule update --init --recursive
   ```
 
+  - There's a bug, https://github.com/google/docsy/issues/626. Use the workaround described in the bug to point the
+     Docsy submodule to a specific commit.
+
 Once you've made your working copy of the site repo, from the repo root folder, run:
 
 ```
