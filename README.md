@@ -32,11 +32,11 @@ In addition, the following tools can help you verify ("lint") proposed documenta
 
 [Docsy](https://github.com/google/docsy) is a Hugo theme for technical documentation sites, providing easy site navigation, structure, and more.
 
-The theme is included in this project as a Git submodule:
+The theme is included in this project as a Git submodule (the version may vary):
 
 ```bash
 ▶ git submodule
- a053131a4ebf6a59e4e8834a42368e248d98c01d themes/docsy (heads/master)
+ f82dd5efa0eb5a03086498686f9e60f7bd2bb5f3 themes/docsy (remotes/origin/tekton-example-23-gf82dd5e)
 ```
 
 The theme is based on the [Docsy Example Project](https://example.docsy.dev/). For detailed theme instructions, see the Docsy user guide: https://docsy.dev/docs/.
@@ -52,12 +52,11 @@ To build and run the site locally, you need the following:
     hugo version
     ```
 
-If you already have Hugo installed, and have just cloned this repo, you'll need to:
-
-- Install an NPM module:
+- If you already have Hugo installed, and have just cloned this repo, you'll need to [install two more NPM packages](https://github.com/google/docsy#prerequisites).
 
   ```
-  npm install postcss-cli
+  sudo npm install -D --save autoprefixer
+  sudo npm install -D --save postcss-cli
   ```
 
 - Set up the Docsy theme
@@ -72,51 +71,8 @@ If you already have Hugo installed, and have just cloned this repo, you'll need 
 Once you've made your working copy of the site repo, from the repo root folder, run:
 
 ```
-hugo server
+hugo server -D
 ```
-
-
-## Run container locally
-
-You can run docsy-example inside a [Docker](https://docs.docker.com/)
-container, the container runs with a volume bound to the `docsy-example`
-folder. This approach doesn't require you to install any dependencies other
-than [Docker Desktop](https://www.docker.com/products/docker-desktop) on
-Windows and Mac, and [Docker Compose](https://docs.docker.com/compose/install/)
-on Linux.
-
-1. Build the docker image 
-
-   ```bash
-   docker-compose build
-   ```
-
-1. Run the built image
-
-   ```bash
-   docker-compose up
-   ```
-
-   > NOTE: You can run both commands at once with `docker-compose up --build`.
-
-1. Verify that the service is working. 
-
-   Open your web browser and type `http://localhost:1313` in your navigation bar,
-   This opens a local instance of the docsy-example homepage. You can now make
-   changes to the docsy example and those changes will immediately show up in your
-   browser after you save.
-
-### Cleanup
-
-To stop Docker Compose, on your terminal window, press **Ctrl + C**. 
-
-To remove the produced images run:
-
-```console
-docker-compose rm
-```
-For more information see the [Docker Compose
-documentation](https://docs.docker.com/compose/gettingstarted/).
 
 ## Troubleshooting
 
