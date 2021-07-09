@@ -3,33 +3,23 @@ title: "Getting Started"
 linkTitle: "Getting Started"
 weight: 2
 description: >
-  What does your user need to know to try your project?
+  Information to help end-users visualize their journey with Cobalt.
 ---
 
 {{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
+Use this document to visualize your journey through Cobalt to secure your systems.
 {{% /pageinfo %}}
 
-Information in this section helps your user try your project themselves.
+You want to enhance the security of your software. You're ready to set up penetration tests
+(pentests) to elevate your security posture. With pentest-driven solutions, you can comply
+with regulations and enhance the confidence of your customers.
 
-* What do your users need to do to start using your project? This could include downloading/installation instructions, including any prerequisites or system requirements.
+You've come to the right place.
 
-* Introductory “Hello World” example, if appropriate. More complex tutorials should live in the Tutorials section.
+If you're considering Cobalt, read this document, and visualize the process.
+If you've already purchased Cobalt, use this document to start your journey.
 
-Consider using the headings below for your getting started page. You can delete any that are not applicable to your project.
+While it's helpful if you have a background as a developer, it's not required to understand
+the pentest process. 
 
-## Prerequisites
-
-Are there any system requirements for using your project? What languages are supported (if any)? Do users need to already have any software or tools installed?
-
-## Installation
-
-Where can your user find your project code? How can they install it (binaries, installable package, build from source)? Are there multiple options/versions they can install and how should they choose the right one for them?
-
-## Setup
-
-Is there any initial setup users need to do after installation to try your project?
-
-## Try it out!
-
-Can your users test their installation, for example by running a command or deploying a Hello World example?
+If the language of software security confuses you, refer to our [Glossary].
