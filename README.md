@@ -43,13 +43,31 @@ The theme is based on the [Docsy Example Project](https://example.docsy.dev/). F
 
 ## Build the docs locally
 
-To build and run the site locally, you need a recent `extended` version of [Hugo](https://gohugo.io). For more information, see the [Docsy Getting Started Guide](https://www.docsy.dev/docs/getting-started/#prerequisites-and-installation) guide.
+To build and run the site locally, you need the following:
 
-If you're installing Hugo on MacOS using `brew`, the default installation is the `extended` version. To confirm, run:
+- A recent `extended` version of [Hugo](https://gohugo.io). For more information, see the [Docsy Getting Started Guide](https://www.docsy.dev/docs/getting-started/#prerequisites-and-installation) guide.
+  - If you're installing Hugo on MacOS using `brew`, the default installation is the `extended` version. To confirm, run:
 
-```
-hugo version
-```
+    ```
+    hugo version
+    ```
+
+If you already have Hugo installed, and have just cloned this repo, you'll need to:
+
+- Install an NPM module:
+
+  ```
+  npm install postcss-cli
+  ```
+
+- Set up the Docsy theme
+
+  ```
+  git submodule update --init --recursive
+  ```
+
+  - There's a bug, https://github.com/google/docsy/issues/626. Use the workaround described in the bug to point the
+     Docsy submodule to a specific commit.
 
 Once you've made your working copy of the site repo, from the repo root folder, run:
 
@@ -57,20 +75,6 @@ Once you've made your working copy of the site repo, from the repo root folder, 
 hugo server
 ```
 
-You'll need to install some modules:
-
-```
-npm install postcss-cli
-```
-
-### Set up the Docsy theme
-
-Before you can build your site in Hugo with the Docsy theme, you have to install it.
-One way to do so is with the following command:
-
-```
-git submodule update --init --recursive
-```
 
 ## Run container locally
 
@@ -116,7 +120,7 @@ documentation](https://docs.docker.com/compose/gettingstarted/).
 
 ## Troubleshooting
 
-As you run the website locally, you may run into the following error:
+As you run the website locally, you may run into the following errors:
 
 ```
 ➜ hugo server
@@ -127,8 +131,11 @@ Built in 288 ms
 Error: Error building site: TOCSS: failed to transform "scss/main.scss" (text/x-scss): resource "scss/scss/main.scss_9fadf33d895a46083cdd64396b57ef68" not found in file cache
 ```
 
-This error occurs if you have not installed the extended version of Hugo.
-See our [user guide](https://www.docsy.dev/docs/getting-started/) for instructions on how to install Hugo.
+This error occurs for one of the following reasons:
+
+- If you have not installed the extended version of Hugo. 
+  See the Docsy [user guide](https://www.docsy.dev/docs/getting-started/) for instructions on how to install Hugo.
+- If you have not installed the `postcss-cli` NPM package.
 
 ## Work in Progress
 
