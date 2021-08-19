@@ -1,16 +1,26 @@
 
 ---
-title: "Summary"
-linkTitle: " "
+title: "Overview: Cobalt Documentation"
+linkTitle: "Overview"
+type: "docs"
 weight: 20
-type: docs
+
+cascade:
+- type: "blog"
+  # set to false to include a blog section in the section nav along with docs
+  toc_root: false
+  _target:
+    path: "/blog/**"
+- type: "docs"
+  _target:
+    path: "/**"
 menu:
   main:
     weight: 20
 ---
 
-We hope to create a "Getting Started" guide soon. We're starting the process
-with links to existing Cobalt literature.
+This page includes links to other Cobalt literature.
+We now have a [Getting Started](./getting-started/) guide!
 
 <br>
 <div class="mx-auto">
