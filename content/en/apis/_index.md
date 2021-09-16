@@ -2,5 +2,5 @@
 title: API Reference
 manualLink: "https://docs.cobalt.io"
 description: >
-  This is a test
+  Link to API Reference Documentation
 ---
