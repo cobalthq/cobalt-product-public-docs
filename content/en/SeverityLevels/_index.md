@@ -25,7 +25,7 @@ When our pentesters find vulnerabilities, they use the standard OWASP risk model
 and then classify them into one of the following levels:
 
 | Category      | Score | Description                                                                                                                                                     |
-|---------------|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:-------------|:------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Informational | 1     | Does not not impact your business. Examples: Captchas, TODO.                                                                                                     |
 | Low           | 2-4   | Limited to minimal impact vulnerabilities. Such vulnerabilities do not appear, except in an unusual combination of circumstances.                                                                       |
 | Medium        | 5-15  | Includes vulnerabilities that are: <br>  * Medium risk, medium impact. <br>  * Low risk, high impact. <br>  * High risk, low impact. <br>                          |
