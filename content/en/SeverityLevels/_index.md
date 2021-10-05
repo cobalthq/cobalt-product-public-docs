@@ -30,7 +30,7 @@ and then classify them into one of the following levels:
 | High          | 16-24 | Impacts the security of your application/platform/hardware, including supported systems. Includes high probability vulnerabilities with a high business impact. |
 | Medium        | 5-15  | Includes vulnerabilities that are: <br>  * Medium risk, medium impact. <br>  * Low risk, high impact. <br>  * High risk, low impact. <br>                          |
 | Low           | 2-4   | Limited to minimal impact vulnerabilities. Such vulnerabilities do not appear, except in an unusual combination of circumstances.                                                                       |
-| Informational | 1     | Does not not impact your business. Examples: Captchas, TODO.                                                                                                     |
+| Informational | 1     | Minimal risk to your business. Examples: Captchas, TODO.                                                                                                     |
 
 {{% alert title="Note" color="note" %}}
 We've set up our severity levels to more closely match standards such as the
