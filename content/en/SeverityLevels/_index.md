@@ -34,7 +34,6 @@ and then classify them into one of the following levels:
 
 {{% alert title="Note" color="note" %}}
 We've set up our severity levels to more closely match standards such as the
-[Common Vulnerability Scoring System](https://www.first.org/cvss/specification-document#Qualitative-Severity-Rating-Scale)
-This varies from standard practice with software logging systems.
+[Common Vulnerability Scoring System](https://www.first.org/cvss/specification-document#Qualitative-Severity-Rating-Scale). This varies from standard practice with software logging systems.
 {{% /alert %}}
 
