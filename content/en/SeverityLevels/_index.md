@@ -12,7 +12,7 @@ levels, to help you prioritize them.
 {{% /pageinfo %}}
 
 As noted by [OWASP](https://owasp.org/www-community/OWASP_Risk_Rating_Methodology), 
-while it is important to discover vulnerabilities, you also need to estimate the
+while it is important to discover vulnerabilities, it's also important to understand
 the associated risk to the business.
 
 We follow the standard risk model described by OWASP, where:
