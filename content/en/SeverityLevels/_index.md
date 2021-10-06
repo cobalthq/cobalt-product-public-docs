@@ -21,6 +21,15 @@ We follow the standard risk model described by OWASP, where:
 Risk = Likelihood * Impact
 ```
 
+In this case, the risk rating is based on the following factors:
+
+- Likelihood: Specifies the probability of exploiting the [finding](../getting-started/glossary/#finding).
+May include factors such as:
+
+  - Skill required for an attacker to exploit a [vulnerability](../getting-started/glossary/#vulnerability).
+  - Availability of documented exploits
+  - Ease of exploiting the vulnerability.
+
 When our pentesters find vulnerabilities, they use the standard OWASP risk model
 and then classify them into one of the following levels:
 
@@ -31,9 +40,3 @@ and then classify them into one of the following levels:
 | Medium        | 5-15  | Includes vulnerabilities that are: <br>  * Medium risk, medium impact. <br>  * Low risk, high impact. <br>  * High risk, low impact. <br>                          |
 | Low           | 2-4   | Specifies minimal impact vulnerabilities. Such vulnerabilities do not appear, except in an unusual combination of circumstances.                                                                       |
 | Informational | 1     | Notes vulnerabilities of minimal risk to your business. Examples: Captchas, TODO.                                                                                                     |
-
-{{% alert title="Note" color="note" %}}
-We've set up our severity levels to more closely match standards such as the
-[Common Vulnerability Scoring System](https://www.first.org/cvss/specification-document#Qualitative-Severity-Rating-Scale). This varies from standard practice with software logging systems.
-{{% /alert %}}
-
