@@ -26,9 +26,18 @@ In this case, the risk rating is based on the following factors:
 - Likelihood: Specifies the probability of exploiting the [finding](../getting-started/glossary/#finding).
 May include factors such as:
 
-  - Skill required for an attacker to exploit a [vulnerability](../getting-started/glossary/#vulnerability).
+  - Skill required for an attacker to exploit a [vulnerability](../getting-started/glossary/#vulnerability)
   - Availability of documented exploits
-  - Ease of exploiting the vulnerability.
+  - Ease of exploiting the vulnerability
+
+<br>
+
+- Impact: Depends on the effect on technical and business operations. May include:
+
+  - Loss of confidentiality
+  - Problems with data integrity
+  - Reduced availability of data or systems
+  - Potential losses of money or reputation
 
 When our pentesters find vulnerabilities, they use the standard OWASP risk model
 and then classify them into one of the following levels:
