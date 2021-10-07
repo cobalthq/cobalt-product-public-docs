@@ -9,4 +9,4 @@ HUGO_ENV = "production"
 [[redirects]]
   from = "https://cobalt-docs-test.netlify.app/*"
   to = "https://co27.io/docs/:splat"
-  status = 301
+  status = 301 
