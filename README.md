@@ -73,6 +73,9 @@ Once you've made your working copy of the site repo, from the repo root folder, 
 ```
 hugo server -D
 ```
+## Search Engine Optimization (SEO)
+
+Includes custom settings in layouts/partials/head.html for <title> and <meta> tags. Based in part on https://harrycresswell.com/writing/hugo-seo-accurate-page-titles/.
 
 ## Troubleshooting
 
