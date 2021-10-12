@@ -23,7 +23,6 @@ In addition, the following tools can help you verify ("lint") proposed documenta
 
 ### Tools in evaluation:
 
-- A link checker <!-- such as [html-proofer](https://github.com/gjtorikian/html-proofer) -->
 - [Vale](https://github.com/errata-ai/vale), a syntax-aware linter 
 - [Netlify](https://www.netlify.com/) for CI tests and doc deployment
 
@@ -73,6 +72,33 @@ Once you've made your working copy of the site repo, from the repo root folder, 
 ```
 hugo server -D
 ```
+
+## Check links
+
+You can check links with htmltest. The `.htmltest.yml` includes options to
+avoid trailing slashes. The `htmltest` command works on the HTML content built
+in the public/ subdirectory.
+
+After you fix broken links, run the following commands to rebuild content in
+the public/ subdirectory:
+
+```
+hugo mod clean
+hugo
+```
+
+If you don't run these commands, you'll see the same link errors that you "thought" you fixed.
+
+You can then rerun the htmltest command.
+
+While there are a couple of open issues with the output, related to the link
+to our Zendesk articles, it does detect other broken links.
+
+```
+  Non-OK status: 403 --- index.html --> https://cobaltio.zendesk.com/hc/en-us/categories/360005476672-Cobalt-Platform
+  Non-OK status: 403 --- index.html --> https://cobaltio.zendesk.com/hc/en-us/categories/360005476672-Cobalt-Platform
+```
+
 ## Search Engine Optimization (SEO)
 
 Includes custom settings in layouts/partials/head.html for <title> and <meta> tags. Based in part on https://harrycresswell.com/writing/hugo-seo-accurate-page-titles/.
