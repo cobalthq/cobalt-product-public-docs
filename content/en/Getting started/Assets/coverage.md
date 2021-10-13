@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Once you've sized an [asset](../asset-size/), you can select the desired pentest coverage.
+Once you've sized an [asset](../asset-size), you can select the desired pentest coverage.
 {{% /pageinfo %}}
 
 ## Coverage and Credits
@@ -24,7 +24,7 @@ source of truth for the number of required credits.
 ### Sizing and Credits
 
 We specify sizing criteria by asset type and size. For more information see our guide
-on how to [Size Your Assets](../asset-size/).
+on how to [Size Your Assets](../asset-size).
 
 You can set your assets to one of five sizes:
 

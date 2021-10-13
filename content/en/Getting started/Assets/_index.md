@@ -36,7 +36,7 @@ The asset screen prompts you for the following information:
 
 - Asset Image: Use it to help identify what you need from a list of many assets.
 - Asset Title: Set up a descriptive name to attract attention from the best pentesters.
-- [Asset Type](./asset-type/): Select one of the options described in the linked page.
+- [Asset Type](./asset-type): Select one of the options described in the linked page.
 - Asset Scoping: Review the guidance on:
   - [Asset Size](./asset-size)
   - [Coverage and Scope](./coverage)

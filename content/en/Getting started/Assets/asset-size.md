@@ -119,7 +119,7 @@ ways. While some RESTful APIs can have dozens of endpoints, a GraphQL API has a
 single endpoint.
 
 If you're sizing a GraphQL API, identify a list of [queries and
-mutations](https://graphql.org/learn/queries/). For pentest purposes, that's
+mutations](https://graphql.org/learn/queries). For pentest purposes, that's
 functionally equivalent to the number of RESTful API endpoints.
 
 To scope an API, you need to specify the number of the following

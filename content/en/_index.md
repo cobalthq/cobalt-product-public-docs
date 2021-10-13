@@ -20,7 +20,7 @@ menu:
 ---
 
 This page includes links to other Cobalt literature.
-We now have a [Getting Started](./getting-started/) guide!
+We now have a [Getting Started](./getting-started) guide!
 
 <br>
 <div class="mx-auto">
@@ -44,7 +44,7 @@ Once connected, you'll have access to more support articles.
 
 ## API Documentation
 
-Cobalt has a read-only [RESTful API](https://docs.cobalt.io/)
+Cobalt has a read-only [RESTful API](https://docs.cobalt.io)
 that allows you to call the following data related to your pentests:
 
 - Organizations

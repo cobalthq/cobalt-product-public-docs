@@ -28,7 +28,7 @@ to understand the pentest process. If the language of software security confuses
 you, refer to our [Glossary](./glossary).
 
 In this Getting Started Guide, we take you through the process to create a pentest, and
-set [expectations](./what-to-expect/).
+set [expectations](./what-to-expect).
 
 ![UI Flow for Pentests](/PentestFlow.png "UI Flow for Pentests")
 
@@ -49,7 +49,7 @@ Our journey then takes you through the following steps to create a pentest:
    - Add and modify the objectives of your choice.
    - To help our penetration testers, include more information about your asset,
      such as architecture and coding language. You'll see more details about
-     what to include when you [Define Your Assets](./assets/).
+     what to include when you [Define Your Assets](./assets).
 1. Define [details](./details) of your environment.
    Is your asset in production or in development? Does part of your system
    reside on a Cloud platform? You'll answer these questions in this step.

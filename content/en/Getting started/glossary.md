@@ -41,7 +41,7 @@ following categories:
 
 ## Application Security Verification Standard (ASVS)
 
-The [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)
+The [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard)
 relates to pentests of web application technical security controls.
 
 ## Attacker
@@ -61,7 +61,7 @@ Also known as "opaque box testing".
 The Center for Internet Security is an independent nonprofit organization which develops and
 refines best practice security solutions.
 
-One of the test criteria used by our pentesters is [CIS Controls v8](https://www.cisecurity.org/controls/v8/),
+One of the test criteria used by our pentesters is [CIS Controls v8](https://www.cisecurity.org/controls/v8),
 released in 2021.
 
 ## Dynamic Page
@@ -97,7 +97,7 @@ with white box and black box testing.
 ## Known Vulnerability
 
 Identified in well-known security documentation such as a security bulletin or a CVE
-(Common Vulnerabilities and Exposures) from [MITRE](https://cve.mitre.org/).
+(Common Vulnerabilities and Exposures) from [MITRE](https://cve.mitre.org).
 
 ## Mitigate 
 
@@ -122,7 +122,7 @@ the onboarding archtype.
 
 ## Open Web Application Security Project (OWASP)
 
-[OWASP](https://owasp.org/) is a nonprofit foundation with "Top 10" security
+[OWASP](https://owasp.org) is a nonprofit foundation with "Top 10" security
 issues for different asset types, including Web apps, APIs, and Cloud systems.
 
 ## Open Source Security Testing Methodology Manual (OSSTMM)
