@@ -120,4 +120,4 @@ with any other documentation for your asset.
 
 At this point, you've completed all entries in the Asset section of the pentest wizard.
 You can now select **Create asset and pentest** to move to the next part of the wizard,
-the [Pentest Objectives](../../pentest-objectives/).
+the [Pentest Objectives](../../pentest-objectives).
