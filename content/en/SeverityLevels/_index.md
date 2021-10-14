@@ -44,8 +44,8 @@ and then classify them into one of the following levels:
 
 | Category      | Score | Description                                                                                                                                                     |
 |:-------------|:------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Critical      | 25    | Includes vulnerabilities such as administrative access, remote code execution, financial theft, and more.                                                                 |
+| Critical      | 25    | Includes vulnerabilities that require immediate attention.                                                                 |
 | High          | 16-24 | Impacts the security of your application/platform/hardware, including supported systems. Includes high probability vulnerabilities with a high business impact. |
-| Medium        | 5-15  | Includes vulnerabilities that are: <br>  * Medium risk, medium impact. <br>  * Low risk, high impact. <br>  * High risk, low impact. <br>                          |
+| Medium        | 5-15  | Includes vulnerabilities that are: medium risk, medium impact; low risk, high impact; high risk, low impact.                         |
 | Low           | 2-4   | Specifies common vulnerabilities with minimal impact.
 | Informational | 1     | Notes vulnerabilities of minimal risk to your business.                                                                                                     |
