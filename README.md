@@ -75,7 +75,7 @@ hugo server -D
 
 ## Check links
 
-You can check links with htmltest. The `.htmltest.yml` includes options to
+You can check links with [htmltest](https://github.com/wjdp/htmltest). The `.htmltest.yml` includes options to
 avoid trailing slashes. The `htmltest` command works on the HTML content built
 in the public/ subdirectory.
 
