@@ -1,0 +1,12 @@
+DirectoryPath: "public"
+EnforceHTTPS: true
+IgnoreURLs:
+- "example.com"
+- "www.example.com"
+IgnoreInternalURLs:
+- "/misc/js/script.js"
+IgnoreDirs:
+- "lib"
+CacheExpires: "6h"
+IgnoreDirectoryMissingTrailingSlash: true
+IgnoreExternalBrokenLinks: true
