@@ -39,6 +39,9 @@ May include factors such as:
   - Reduced availability of data or systems
   - Potential losses of money or reputation
 
+The OWASP Risk Rating Methodology specifies High, Medium, and Low levels. We've 
+added Critical and Informational levels to help you prioritize our findings.
+
 When our pentesters find vulnerabilities, they use the standard OWASP risk model
 and then classify them into one of the following levels:
 
