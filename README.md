@@ -105,6 +105,8 @@ Includes custom settings in layouts/partials/head.html for <title> and <meta> ta
 
 ## Troubleshooting
 
+### Build Errors
+
 As you run the website locally, you may run into the following errors:
 
 ```
@@ -121,6 +123,17 @@ This error occurs for one of the following reasons:
 - If you have not installed the extended version of Hugo. 
   See the Docsy [user guide](https://www.docsy.dev/docs/getting-started/) for instructions on how to install Hugo.
 - If you have not installed the `postcss-cli` NPM package.
+
+### Link punctuation format error
+
+If you run into a format error, where punctuation seems to have extra space after links,
+you may need to reconfigure your IDE. For example, if you use vim, you can add
+the following lines to your vim configuration file (~/.vimrc):
+
+```
+set noendofline
+set nofixendofline
+```
 
 ## Work in Progress
 
