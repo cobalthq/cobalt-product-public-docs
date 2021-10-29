@@ -1,13 +1,12 @@
-baseURL = "/"
-title = "Cobalt Labs Product Documentation"
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
 
-enableRobotsTXT = true
-
-# Hugo allows theme composition (and inheritance). The precedence is from left to right.
-theme = ["docsy"]
-
-# Will give values to .Lastmod etc.
-enableGitInfo = false
+# Change the default theme
+theme = "hyde-master"
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
 
 # Language settings
 contentDir = "content/en"
