@@ -53,7 +53,7 @@ id = "UA-42527593-2"
 
 [languages]
 [languages.en]
-title = "  Product Documentation"
+title = "  Product Docs"
 description = "Documentation for Penetration testing as a Service"
 languageName ="English"
 # Weight used for sorting.
