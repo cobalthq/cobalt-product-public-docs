@@ -27,6 +27,6 @@ to residents of one or more countries, you can do so here:
 ![Pentester Limits](/PentesterLimits.png "Specify legal or regulatory limitations on pentesters.")
 
 Congratulations! If you're ready with your pentest, select
-**Save Changes** and **Submit for Review**.
-Once you do so, you might want to know [what to expect after you create a
+**Save & Exit** > **Yes** > **Submit For Review**.
+Once you do so, learn [what to expect after you create a
 pentest](../what-to-expect).
