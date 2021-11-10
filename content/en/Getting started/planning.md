@@ -28,5 +28,5 @@ to residents of one or more countries, you can do so here:
 
 Congratulations! If you're ready with your pentest, select
 **Save & Exit** and **Yes**.
-Once you do so, you might want to know [what to expect after you create a
+Once you do so, learn [what to expect after you create a
 pentest](../what-to-expect).
