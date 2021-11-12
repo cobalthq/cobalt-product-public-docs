@@ -99,9 +99,21 @@ to our Zendesk articles, it does detect other broken links.
   Non-OK status: 403 --- index.html --> https://cobaltio.zendesk.com/hc/en-us/categories/360005476672-Cobalt-Platform
 ```
 
+## Review Grammar
+
+This repository includes `beta` rules based on the [Vale grammar linter](docs.errata.ai/vale). You can set
+up a Vale plugin with the VSCode IDE, per https://github.com/errata-ai/vale-vscode. You can find these rules
+in the `styles/` subdirectory. They include:
+
+- Modified rules from GitLab in the `cobalt/` subdirectory
+- [Google Developer Style Guide](https://github.com/errata-ai/Google) rules, customized for Vale
+- Rules associated with the [write-good](https://github.com/btford/write-good) grammar linter
+
+These rules are a "Work in Progress"; we may overrule/modify them as we use them to evaluate Cobalt content.
+
 ## Search Engine Optimization (SEO)
 
-Includes custom settings in layouts/partials/head.html for <title> and <meta> tags. Based in part on https://harrycresswell.com/writing/hugo-seo-accurate-page-titles/.
+Includes custom settings in layouts/partials/head.html for `<title>` and `<meta>` tags. Based in part on https://harrycresswell.com/writing/hugo-seo-accurate-page-titles/.
 
 ## Troubleshooting
 
@@ -138,12 +150,15 @@ set nofixendofline
 ## Work in Progress
 
 ### Add CODEOWNERS
+
 [CODEOWNERS](.github/CODEOWNERS)
 
 ### Who to ask for help
+
 mjang-cobalt, @mikejang on Slack, #docs channel
 
 ## SOC2 Compliance
+
 This repository complies only with some of the SOC2 compliant conventions laid out in our [Git conventions](https://zombie.atlassian.net/wiki/spaces/ENG/pages/540770575/Git%2Bconventions) Confluence page.
 
 SOC2 is not a requirement, as this repository does *not* host customer-exposed production workloads. However,
