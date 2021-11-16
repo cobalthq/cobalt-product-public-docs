@@ -176,6 +176,8 @@ discoverability
 dismissable
 Disqus
 Divio
+doc
+docx
 Dockerfile
 Dockerfiles
 Dockerize
@@ -232,6 +234,7 @@ Gemojione
 Getter
 Getters
 gettext
+gif
 Git
 Gitaly
 Gitea
@@ -254,6 +257,7 @@ Gradle
 Grafana
 Grafonnet
 gravatar
+gz
 Gzip
 Haml
 hardcode
@@ -300,6 +304,8 @@ JavaScript
 Jenkins
 Jenkinsfile
 Jira
+jpg
+jpeg
 jq
 jQuery
 jsdom
@@ -387,6 +393,7 @@ ModSecurity
 Monokai
 monorepo
 monorepos
+mov
 multiline
 mutex
 nameserver
@@ -425,6 +432,7 @@ parallelization
 parallelizations
 passwordless
 Patroni
+pdf
 pentest
 pentester
 pentests
@@ -441,6 +449,7 @@ Pipfile
 Pipfiles
 Piwik
 plaintext
+png
 Poedit
 polyfill
 polyfills
@@ -488,6 +497,7 @@ queryable
 Quicktime
 Rackspace
 Raspbian
+rar
 rbenv
 rbtrace
 Rdoc
@@ -701,6 +711,7 @@ truthy
 Truststore
 Twilio
 Twitter
+txt
 TypeScript
 Ubuntu
 unapplied
@@ -838,6 +849,8 @@ worktrees
 Worldline
 Xcode
 Xeon
+xls
+xlsx
 YouTrack
 ytt
 Yubico

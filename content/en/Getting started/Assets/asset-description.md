@@ -97,13 +97,13 @@ You can upload files in the following categories and formats:
 - Spreadsheets (.csv, .xls, .xlsx)
 - Videos (.mov, .mp4) 
 
-Our app limits uploads to a maximum of 100MB.
+Our app limits uploads to a maximum of 100 MB.
 
 ![Asset Documentation Screen](/gsg/AssetDocumentation.png "Uploads related to your asset")
 
 If you'd like to upload files in a different format, you can try to:
 
-- Compress or archive the file(s) into one of the noted formats.
+- Compress or archive the files into one of the noted formats.
   - For example, you can use a "Zip" tool built for your operating system to
     save your file with a **.zip** file extension.
 - Contact your CSM or support@cobalt.io for guidance.

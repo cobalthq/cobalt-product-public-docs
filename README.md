@@ -12,9 +12,9 @@ When editing documentation, you should learn how to [build the docs "locally"](#
 
 - The package manager for your operating system
 - Hugo
-- npm and Node.js (Install from nodejs.org)
+- npm and Node.js from nodejs.org
   - Do **not** install with brew; risk of version conflicts
-- gem (Ruby package manager)
+- gem, the Ruby package manager
 
 In addition, the following tools can help you verify ("lint") proposed documentation changes:
 
@@ -31,7 +31,7 @@ In addition, the following tools can help you verify ("lint") proposed documenta
 
 [Docsy](https://github.com/google/docsy) is a Hugo theme for technical documentation sites, providing easy site navigation, structure, and more.
 
-The theme is included in this project as a Git submodule (the version may vary):
+This repository includes the theme as a Git submodule:
 
 ```bash
 ▶ git submodule
@@ -51,7 +51,7 @@ To build and run the site locally, you need the following:
     hugo version
     ```
 
-- If you already have Hugo installed, and have just cloned this repo, you'll need to [install two more NPM packages](https://github.com/google/docsy#prerequisites).
+- If you already have Hugo installed, and have just cloned this reposoitory, you'll should then [install two more NPM packages](https://github.com/google/docsy#prerequisites).
 
   ```
   sudo npm install -D --save autoprefixer
@@ -67,15 +67,15 @@ To build and run the site locally, you need the following:
   - There's a bug, https://github.com/google/docsy/issues/626. Use the workaround described in the bug to point the
      Docsy submodule to a specific commit.
 
-Once you've made your working copy of the site repo, from the repo root folder, run:
+After you've made your working copy of the site repo, from the repo root folder, run:
 
 ```
 hugo server -D
 ```
 
-## Check links
+## Test links
 
-You can check links with [htmltest](https://github.com/wjdp/htmltest). The `.htmltest.yml` includes options to
+You can test links with [htmltest](https://github.com/wjdp/htmltest). The `.htmltest.yml` includes options to
 avoid trailing slashes. The `htmltest` command works on the HTML content built
 in the public/ subdirectory.
 
@@ -109,7 +109,11 @@ in the `styles/` subdirectory. They include:
 - [Google Developer Style Guide](https://github.com/errata-ai/Google) rules, customized for Vale
 - Rules associated with the [write-good](https://github.com/btford/write-good) grammar linter
 
+<<<<<<< HEAD
 These rules are a "Work in Progress"; we may overrule/modify them as we use them to evaluate Cobalt content.
+=======
+These rules are a "Work in Progress"; we may overrule/modify them as we use them to review Cobalt content.
+>>>>>>> a9200f2 ([DOCS-30] Set up Vale linting rules (#55))
 
 ## Search Engine Optimization (SEO)
 
@@ -132,14 +136,14 @@ Error: Error building site: TOCSS: failed to transform "scss/main.scss" (text/x-
 
 This error occurs for one of the following reasons:
 
-- If you have not installed the extended version of Hugo. 
+- If you haven't installed the extended version of Hugo. 
   See the Docsy [user guide](https://www.docsy.dev/docs/getting-started/) for instructions on how to install Hugo.
-- If you have not installed the `postcss-cli` NPM package.
+- If you haven't installed the `postcss-cli` NPM package.
 
 ### Link punctuation format error
 
 If you run into a format error, where punctuation seems to have extra space after links,
-you may need to reconfigure your IDE. For example, if you use vim, you can add
+you may want to reconfigure your IDE. For example, if you use vim, you can add
 the following lines to your vim configuration file (~/.vimrc):
 
 ```
@@ -155,11 +159,17 @@ set nofixendofline
 
 ### Who to ask for help
 
+<<<<<<< HEAD
 mjang-cobalt, @mikejang on Slack, #docs channel
 
 ## SOC2 Compliance
 
 This repository complies only with some of the SOC2 compliant conventions laid out in our [Git conventions](https://zombie.atlassian.net/wiki/spaces/ENG/pages/540770575/Git%2Bconventions) Confluence page.
+=======
+mjang-cobalt, @mikejang on the Cobalt internal #docs Slack channel
+
+## SOC2 Compliance
+>>>>>>> a9200f2 ([DOCS-30] Set up Vale linting rules (#55))
 
 SOC2 is not a requirement, as this repository does *not* host customer-exposed production workloads. However,
 the SOC2 conventions are a good practice. This repository deviates from SOC2 conventions in the following ways for the noted reasons:

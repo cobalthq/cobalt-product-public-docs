@@ -417,6 +417,8 @@ parallelization
 parallelizations
 passwordless
 Patroni
+pentest
+pentester
 performant
 PgBouncer
 pgLoader
