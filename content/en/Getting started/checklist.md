@@ -34,7 +34,7 @@ Under the Objectives tab, you can review:
 Under the Details tab, you can review:
 
 - The target [Environment](../details/#environment) for your asset
-- [Rate-limiting controls](../detals/#controls)
+- [Rate-limiting controls](../details/#controls)
 - [Cloud platform components](../details/#cloud-platform-components)
 - [Test data](../details/#test-data) sensitivity
 

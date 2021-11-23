@@ -36,7 +36,7 @@ When you've finished this Getting Started Guide, you'll have a plan and scope th
 our pentesters can use to test your asset(s). When you purchase credits from Cobalt,
 we send you an email invitation, which you can use to [Sign in to Cobalt](./sign-in).
 
-Our journey then takes you through the following steps to create a pentest:
+Our journey then takes you through the following stages to create a pentest:
 
 1. [Define Your Assets](./assets). Our pentesters analyze all kinds of
    assets, from web apps to internal networks.
@@ -55,6 +55,8 @@ Our journey then takes you through the following steps to create a pentest:
    reside on a Cloud platform? You'll answer these questions in this step.
 1. Start [planning](./planning) the test. Define your desired
    test intensity, which drives the number of credits to use.
+1. Review your pentest request. Use our [Pentest Checklist](./checklist) to make
+   sure you've included _all_ information that our pentesters need.
 
 Relax! Once you've set up a pentest, we start analyzing your asset. When
 possible, we share results even before we create your report. Here's what
