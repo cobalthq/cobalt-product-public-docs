@@ -25,7 +25,7 @@ If you've already purchased Cobalt credits, use this document to start your jour
 
 While it's helpful if you have a background in security, it's not required
 to understand the pentest process. If the language of software security confuses
-you, refer to our [Glossary](./glossary).
+you, refer to our [Glossary](../glossary).
 
 In this Getting Started Guide, we take you through the process to create a pentest, and
 set [expectations](./what-to-expect).
@@ -43,9 +43,9 @@ Our journey then takes you through the following steps to create a pentest:
 1. Create [objectives](./pentest-objectives) for your pentest.
    - By default, our pentests are based on standards defined by the
      [Open Web Application Security
-     Project (OWASP)](./glossary#open-web-application-security-project-owasp) and in
+     Project (OWASP)](../glossary#open-web-application-security-project-owasp) and in
      the [Open Source Security Testing Methodology
-     Manual](./glossary/#open-source-security-testing-methodology-manual-osstmm).
+     Manual](../glossary/#open-source-security-testing-methodology-manual-osstmm).
    - Add and modify the objectives of your choice.
    - To help our penetration testers, include more information about your asset,
      such as architecture and coding language. You'll see more details about

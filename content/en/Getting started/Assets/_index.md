@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Help our pentesters test your [assets](../glossary#asset) more quickly.
+Help our pentesters test your [assets](../../glossary#asset) more quickly.
 {{% /pageinfo %}}
 
 When you set up a pentest through the UI, you're going through the following stages of our pentest wizard:

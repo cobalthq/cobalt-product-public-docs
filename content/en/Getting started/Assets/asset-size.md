@@ -48,8 +48,8 @@ test [coverage](../coverage).
 To scope a Web asset, you need to specify the number of the following
 characteristics of that asset:
 
-- [User Roles](../../glossary#user-role)
-- [Dynamic Pages](../../glossary#dynamic-page)
+- [User Roles](../../../glossary#user-role)
+- [Dynamic Pages](../../../glossary#dynamic-page)
 
 When scoping an Asset, include every type of User Role and Dynamic Page.
 Be thorough. If you forget certain roles or pages, your pentest might not
@@ -92,9 +92,9 @@ part of our tests of a Web asset.
 To scope a Mobile asset, you need to specify the number of the following
 characteristics of that asset:
 
-- [User Roles](../../glossary#user-role)
+- [User Roles](../../../glossary#user-role)
 - Operating Systems (OS), such as Android, iOS, Windows Phone, and Tizen
-- [Mobile Screens](../../glossary#mobile-screen)
+- [Mobile Screens](../../../glossary#mobile-screen)
 
 When scoping an Asset, include every User Role, Operating System, and Mobile Screen.
 Be thorough. If you forget certain roles, pages, or screens, your pentest might not
@@ -125,8 +125,8 @@ functionally equivalent to the number of RESTful API endpoints.
 To scope an API, you need to specify the number of the following
 characteristics of that asset:
 
-- [User Roles](../../glossary#user-role)
-- [(API) Endpoints](../../glossary#api-endpoint) or GraphQL queries/mutations
+- [User Roles](../../../glossary#user-role)
+- [(API) Endpoints](../../../glossary#api-endpoint) or GraphQL queries/mutations
 
 When scoping an asset, do include every _user role_ and _endpoint_.
 If you forget some, you may sacrifice quality in penetration testing.
