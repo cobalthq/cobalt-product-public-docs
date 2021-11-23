@@ -1,0 +1,1 @@
+The static/gsg directory includes screenshots for the Getting Started Guide.

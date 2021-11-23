@@ -31,6 +31,6 @@ We also support tests that span multiple categories, including:
 
 Once you've classified your asset, select an Asset Type:
 
-![Select an Asset Type](/AssetType.png "Select an asset type")
+![Select an Asset Type](/gsg/AssetType.png "Select an asset type")
 
 The next step is to [Size Your Assets](../asset-size)
