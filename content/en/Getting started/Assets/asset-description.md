@@ -99,7 +99,7 @@ You can upload files in the following categories and formats:
 
 Our app limits uploads to a maximum of 100MB.
 
-![Asset Documentation Screen](/AssetDocumentation.png "Uploads related to your asset")
+![Asset Documentation Screen](/gsg/AssetDocumentation.png "Uploads related to your asset")
 
 If you'd like to upload files in a different format, you can try to:
 

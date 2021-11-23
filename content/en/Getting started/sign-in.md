@@ -21,7 +21,7 @@ Welcome to the Cobalt Platform: Let's Get Started
 
 Open the email. It should include a link to Get Started:
 
-![Cobalt Welcome Email](/WelcomeEmail.png "Get Started")
+![Cobalt Welcome Email](/gsg/WelcomeEmail.png "Get Started")
 
 Now you can:
 
@@ -41,7 +41,7 @@ Now you can:
 1. The next time you want to sign in, navigate to https://app.cobalt.io.
    - Your username is your email address.
 
-![Cobalt Sign In Screen](/SignIn.png "sign in")
+![Cobalt Sign In Screen](/gsg/SignIn.png "sign in")
 
 <br>
 

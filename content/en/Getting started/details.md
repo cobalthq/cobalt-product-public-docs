@@ -16,7 +16,7 @@ specific assets.
 Pentest requirements for Web and API assets are identical. However, 
 tests of a Web asset include tests of APIs used to populate content on that asset.
 
-![Pentest Details](/PentestDetails.png "Define details for your desired pentest.") 
+![Pentest Details](/gsg/PentestDetails.png "Define details for your desired pentest.") 
 
 The Details page of the pentest wizard requests information about:
 
@@ -43,7 +43,7 @@ We need to know the environment of the pentest asset. The standard options are:
 If you define your environment differently, let us know. Add that information
 in comments.
 
-![Target Environment](/TargetEnvironment.png "Describe the environment that you want tested.")
+![Target Environment](/gsg/TargetEnvironment.png "Describe the environment that you want tested.")
 
 ### Controls
 
@@ -56,7 +56,7 @@ You could use systems like:
 - Web-Application Firewalls (WAF)
 - IP-based restrictions using allowlists/denylists, or services like `iptables`.
 
-![Rate Controls](/RateControls.png "Describe the environment that you want tested.")
+![Rate Controls](/gsg/RateControls.png "Describe the environment that you want tested.")
 
 If you do have rate controls, include details. For example, you might include
 details similar to:
@@ -69,7 +69,7 @@ If part of your asset resides in the cloud, you may not need a separate cloud as
 test. As described in this question, if your asset includes "systems" installed on 
 a cloud, you can include the platform and system name in the text box.
 
-![Cloud Platform Details](/CloudPlatformDetails.png "Does your asset include cloud components?")
+![Cloud Platform Details](/gsg/CloudPlatformDetails.png "Does your asset include cloud components?")
 
 In some cases, you may need to inform your Cloud provider about tests. For guidance,
 see our page on [Cloud Methodologies](../pentest-objectives/methodologies/cloud).

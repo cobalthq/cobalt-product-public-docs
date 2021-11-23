@@ -30,7 +30,7 @@ you, refer to our [Glossary](./glossary).
 In this Getting Started Guide, we take you through the process to create a pentest, and
 set [expectations](./what-to-expect).
 
-![UI Flow for Pentests](/PentestFlow.png "UI Flow for Pentests")
+![UI Flow for Pentests](/gsg/PentestFlow.png "UI Flow for Pentests")
 
 When you've finished this Getting Started Guide, you'll have a plan and scope that
 our pentesters can use to test your asset(s). When you purchase credits from Cobalt,

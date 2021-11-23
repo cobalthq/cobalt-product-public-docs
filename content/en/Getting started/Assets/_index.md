@@ -20,7 +20,7 @@ When you set up a pentest through the UI, you're going through the following sta
 This section can help you define your asset. In the Cobalt UI, you can
 define pentest objectives in the following screen:
 
-![Asset Screen](/AssetScreen.png "Define your asset here")
+![Asset Screen](/gsg/AssetScreen.png "Define your asset here")
 
 This page corresponds to the Assets that you can set up in the Cobalt app.
 You can access the UI to define your assets in the following ways:

@@ -14,7 +14,7 @@ Once you've read this page, you'll know what to enter as an asset size. As
 shown in the asset page of the UI, you can select sizes between _Extra Small_
 and _Extra Large_.
 
-![Asset Size](/AssetSize.png "Select a size for your asset")
+![Asset Size](/gsg/AssetSize.png "Select a size for your asset")
 
 The size you select depends on the complexity of your asset. We provide
 guidance on this page for each of the following [Asset Types](../asset-type): 
@@ -33,7 +33,7 @@ have one of these "multiple category" assets, you'll see a link to a basic
 guide in the UI. For example, if you've selected a Web + API Asset Type, you'll
 see a link to a "Web + API Scoping Guide":
 
-![Link to Scoping Guides in the UI](/ScopingGuide.png "Link to Web + API Scoping Guide")
+![Link to Scoping Guides in the UI](/gsg/ScopingGuide.png "Link to Web + API Scoping Guide")
 
 The following sections can help you understand the following characteristics of assets:
 
