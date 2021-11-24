@@ -31,4 +31,4 @@ to residents of one or more countries, you can do so here:
 Congratulations! If you're ready with your pentest, select
 **Save & Exit** > **Yes**.
 
-In the next screen, you can review your work, as a [checklist](../checklist].
+In the next screen, you can review your work, as a [checklist](../checklist).
