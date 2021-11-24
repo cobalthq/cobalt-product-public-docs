@@ -57,7 +57,6 @@ Our journey takes you through the steps required to create a pentest:
    on a Cloud platform?
 1. Start [planning](./planning) the test. Define your desired pentest start
    date. We need time to find the best available pentesters for your assets.
-   test intensity, which drives the number of credits to use.
 1. Review your pentest request. Use our [Pentest Checklist](./checklist) to make
    sure you've included _all_ information that our pentesters need.
 
