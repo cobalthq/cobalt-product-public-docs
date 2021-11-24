@@ -33,7 +33,7 @@ set [expectations](./what-to-expect).
 ![UI Flow for Pentests](/gsg/PentestFlow.png "UI Flow for Pentests")
 
 When you've finished this Getting Started Guide, you'll have a plan and scope that
-our pentesters can use to test your asset(s). When you purchase credits from Cobalt,
+our pentesters can use to test your assets. When you purchase credits from Cobalt,
 we send you an email invitation, which you can use to [Sign in to Cobalt](./sign-in).
 
 ## Overview
@@ -43,7 +43,7 @@ Our journey takes you through the steps required to create a pentest:
 1. [Define Your Assets](./assets). Our pentesters analyze all kinds of
    assets, from web apps to internal networks.
 1. Create [objectives](./pentest-objectives) for your pentest.
-   - By default, our pentests are based on standards defined by the
+   - By default, our pentesters use standards defined by the
      [Open Web Application Security
      Project (OWASP)](./glossary#open-web-application-security-project-owasp) and in
      the [Open Source Security Testing Methodology
@@ -53,8 +53,8 @@ Our journey takes you through the steps required to create a pentest:
      such as architecture and coding language. You'll see more details about
      what to include when you [Define Your Assets](./assets).
 1. Define [details](./details) of your environment.
-   Is your asset in production or in development? Does part of your system
-   reside on a Cloud platform?
+   Is your asset in production or in development? Is part of your system
+   on a Cloud platform?
 1. Start [planning](./planning) the test. Define your desired pentest start
    date. We need time to find the best available pentesters for your assets.
    test intensity, which drives the number of credits to use.
