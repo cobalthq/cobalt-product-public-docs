@@ -4,6 +4,8 @@ linkTitle: "Glossary"
 weight: 400
 description: >
  Learn more about the language of software security.
+aliases:
+ - /en/Getting Started/glossary.md
 ---
 
 {{% pageinfo %}}
