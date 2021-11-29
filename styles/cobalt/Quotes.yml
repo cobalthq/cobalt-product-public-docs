@@ -1,7 +1,7 @@
 extends: existence
-message: "Commas and periods go inside quotation marks."
+message: "Commas and periods go inside quotation marks, unless it's a literal string."
 link: 'https://developers.google.com/style/quotation-marks'
-level: error
+level: warning
 nonword: true
 tokens:
   - '"[^"]+"[.,?]'
