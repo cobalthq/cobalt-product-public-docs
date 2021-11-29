@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Help our pentesters test your [assets](../glossary#asset) more quickly.
+Help our pentesters test your [assets](../glossary#asset) faster.
 {{% /pageinfo %}}
 
 When you set up a pentest through the UI, you're going through the following stages of our pentest wizard:
@@ -34,7 +34,7 @@ setting up a pentest.
 
 The asset screen prompts you for the following information:
 
-- Asset Image: Use it to help identify what you need from a list of many assets.
+- Asset Image: Use it to help identify what you need from a list of assets.
 - Asset Title: Set up a descriptive name to attract attention from the best pentesters.
 - [Asset Type](./asset-type): Select one of the options described in the linked page.
 - Asset Scoping: Review the guidance on:

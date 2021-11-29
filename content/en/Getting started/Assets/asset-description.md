@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Help our pentesters test your assets more quickly.
+Help our pentesters test your assets faster.
 {{% /pageinfo %}}
 
 <!-- What I've set up is different from the "Asset Description" popup.
@@ -55,11 +55,11 @@ Help us find the right pentesters for your asset. Include a high-level overview
 of the application. Add details such as:
 
 - Coding Language.
-- Functions or features central to the functionality of your asset.
+- Functions or features central to the capability of your asset.
   - Business risks associated with specific functions or features.
 - Special endpoints associated with your dynamic pages.
   - While our pentesters can find the API endpoints used by your web app with
-    browser "Developer Tools", let us know if you have special concerns with
+    browser "Developer Tools," let us know if you have special concerns with
     one or more endpoints.
 
 ### Network Assets (External and Internal)
@@ -97,7 +97,7 @@ You can upload files in the following categories and formats:
 - Spreadsheets (.csv, .xls, .xlsx)
 - Videos (.mov, .mp4) 
 
-Our app limits uploads to a maximum of 100 MB.
+Our app limits uploads to 100 MB.
 
 ![Asset Documentation Screen](/gsg/AssetDocumentation.png "Uploads related to your asset")
 
@@ -106,7 +106,7 @@ If you'd like to upload files in a different format, you can try to:
 - Compress or archive the files into one of the noted formats.
   - For example, you can use a "Zip" tool built for your operating system to
     save your file with a **.zip** file extension.
-- Contact your CSM or support@cobalt.io for guidance.
+- Contact your Customer Success Manager (CSM) or support@cobalt.io for guidance.
 
 For complex assets, we encourage spreadsheets. The UI includes links to the following
 templates:
@@ -115,7 +115,7 @@ templates:
 - User role matrix
 
 We've included suggested data in the downloadable Excel (.xlsx) files.
-We encourage you to replace this information with other data, and upload it
+We encourage you to replace this information with other data, and upload it 
 with any other documentation for your asset.
 
 At this point, you've completed all entries in the Asset section of the pentest wizard.

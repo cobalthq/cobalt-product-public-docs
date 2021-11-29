@@ -7,11 +7,11 @@ description: >
 ---
 
 {{% pageinfo %}}
-Make sure our pentesters have the info they need.
+Make sure our pentesters have the information they need.
 {{% /pageinfo %}}
 
 In previous sections, you've saved what you've entered for the pentest.
-Now you can check your work. Before selecting **Submit For Review**, follow this
+Now you can review your work. Before selecting **Submit For Review**, follow this
 checklist for Objectives, Details, and your Asset.
 
 ![Review Your Work](/gsg/ReviewYourPentest.png "Review pentest details.")

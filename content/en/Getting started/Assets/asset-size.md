@@ -22,7 +22,7 @@ guidance on this page for each of the following [Asset Types](../asset-type):
 <!-- Pulls info from the layouts/shortcodes/<name>.html file --> 
 {{% asset-categories %}}
 
-We also support tests that span multiple categories, including:
+We also support tests that span categories, including:
 
 - Web + API
 - Web + External Network
@@ -70,21 +70,20 @@ Cobalt subdivides the number of User Roles and Dynamic Pages into the following 
 | Dynamic Pages | 0 - 30      | 30 - 60 | 60 - 90  | 90 - 120 | > 120       |
 
 If your numbers fit in different categories, use your judgment. Review your
-findings with your CSM, or email support@cobalt.io. If you choose a "bigger" category,
-you're likely to get a more complete test.
+findings with your Customer Success manager (CSM), or email support@cobalt.io.
+If you choose a "bigger" category, you're likely to get a more complete test.
 
-As part of our tests for Dynamic Pages, we normally also test the backend API
+As part of our tests for Dynamic Pages, we also test the backend API
 endpoints frequently used to populate content on those pages.
 
-In addition, our pentesters need to know more about your Web asset, including:
+Our pentesters need to know more about your Web asset, including:
 
 - Application type, such as a page-driven website or a [single-page application](https://developer.mozilla.org/en-US/docs/Glossary/SPA)
 - Special endpoints associated with your dynamic pages
 
 {{% alert title="Note" color="note" %}}
-If the only APIs in your assets are used to populate dynamic web pages,
-you may not need to set up a separate API asset. We test such APIs as
-part of our tests of a Web asset.
+If the only APIs in your assets populate dynamic web pages, you may not need to set up a
+separate API asset. We test such APIs as part of our tests of a Web asset.
 {{% /alert %}}
 
 ## Mobile
@@ -150,7 +149,7 @@ To scope an External Network, you need to specify the number of affected public 
 |:-----------------------|:-------------:|:-----------:|:----------:|:----------:|:-----------:|
 | Public IP Addresses    | 1 - 149       | 150 - 299   | 300 - 449  | 450 - 599  | 600 - 749   |
 
-If you're working with more external IP addresses, you can set up multiple external network
+If you're working with more external IP addresses, you can set up additional external network
 assets. One way to organize such assets is by subnet.
 
 ## Internal Network
@@ -162,7 +161,7 @@ To scope an Internal Network, you need to specify the number of affected IP addr
 | Private IP Addresses   | 1 - 149       | 150 - 299   | 300 - 449  | 450 - 599  | 600 - 749   |
 | Servers                | 1 - 49        | 50 - 99     | 100 - 149  | 150 - 199  | 200 - 249   |
 
-If you're working with more internal IP addresses, you can set up multiple internal network
+If you're working with more internal IP addresses, you can set up additional internal network
 assets. One way to organize such assets is by subnet.
 
 If you're working with servers on the cloud, you can also set up a [Cloud Configuration](#cloud-configuration)
@@ -185,11 +184,11 @@ To scope a Cloud Configuration asset, total the number of services you use on th
 |:-----------------------|:------------:|:---------:|:----------:|:----------:|:-----------:|
 | Services               | 1 - 49       | 50 - 99   | 100 - 149  | 150 - 199  | 200 - 249   |
 
-If you're working with more services, you can set up multiple cloud configuration assets.
+If you're working with more services, you can set up additional cloud configuration assets.
 
 ## Assets of Multiple Types
 
-In many cases, assets fit into multiple categories. To that end, Cobalt supports pentests on
+Sometimes, assets fit into more than one category. To that end, Cobalt supports pentests on
 assets in the following groups of categories:
 
 - Web + API

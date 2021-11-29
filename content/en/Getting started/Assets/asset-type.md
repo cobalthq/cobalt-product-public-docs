@@ -19,9 +19,9 @@ For each asset, we provide guidance for each of the following asset types:
 | API              | API is an Application Programming Interface. Use for APIs independent of a Web app. |
 | External Network | Any network that's directly exposed to the internet.                                              |
 | Internal Network | Any network with either a limited or no interface to the internet.                                |
-| Cloud Config     | For systems on "the Cloud", using services such as Amazon AWS, Microsoft Azure, or Google GCP.    |
+| Cloud Config     | For systems on "the Cloud," using services such as Amazon AWS, Microsoft Azure, or Google GCP.    |
 
-We also support tests that span multiple categories, including:
+We also support tests that span two categories, including:
 
 - Web + API
   - If the only APIs you use supply information to your web app, select the 
