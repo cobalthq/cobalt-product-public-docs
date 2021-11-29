@@ -109,11 +109,7 @@ in the `styles/` subdirectory. They include:
 - [Google Developer Style Guide](https://github.com/errata-ai/Google) rules, customized for Vale
 - Rules associated with the [write-good](https://github.com/btford/write-good) grammar linter
 
-<<<<<<< HEAD
 These rules are a "Work in Progress"; we may overrule/modify them as we use them to evaluate Cobalt content.
-=======
-These rules are a "Work in Progress"; we may overrule/modify them as we use them to review Cobalt content.
->>>>>>> a9200f2 ([DOCS-30] Set up Vale linting rules (#55))
 
 ## Search Engine Optimization (SEO)
 
@@ -159,17 +155,9 @@ set nofixendofline
 
 ### Who to ask for help
 
-<<<<<<< HEAD
-mjang-cobalt, @mikejang on Slack, #docs channel
+mjang-cobalt, @mikejang on Slack, internal Cobalt #docs channel
 
 ## SOC2 Compliance
-
-This repository complies only with some of the SOC2 compliant conventions laid out in our [Git conventions](https://zombie.atlassian.net/wiki/spaces/ENG/pages/540770575/Git%2Bconventions) Confluence page.
-=======
-mjang-cobalt, @mikejang on the Cobalt internal #docs Slack channel
-
-## SOC2 Compliance
->>>>>>> a9200f2 ([DOCS-30] Set up Vale linting rules (#55))
 
 SOC2 is not a requirement, as this repository does *not* host customer-exposed production workloads. However,
 the SOC2 conventions are a good practice. This repository deviates from SOC2 conventions in the following ways for the noted reasons:
