@@ -54,7 +54,7 @@ that allows you to call the following data related to your pentests:
 - Events
 - Tokens
 
-To use our REST calls, you'll need to generate an API Token from your
+To use our REST calls, you'll need an API Token from your
 [Cobalt profile](https://app.cobalt.io/settings/api-token).
 
 
