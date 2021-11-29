@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-If you do not see a term defined on this page, refer to one of the governmental or industry standards
+If you don't see a term defined on this page, refer to one of the governmental or industry standards
 cited in the [References](#references).
 {{% /pageinfo %}}
 
@@ -17,7 +17,7 @@ we configure and use Cobalt software.
 ## Allowlist
 
 An allowlist explicitly lets identified systems access. In networks, an allowlist can specify IP
-addresses. On many systems, you can find allowlists and denylists in files like
+addresses. You can typically find allowlists and denylists in files like
 `/etc/hosts.allow` and `/etc/hosts.deny`.
 
 ## API Endpoint
@@ -34,7 +34,7 @@ action on data sent from that URL:
 
 ## Asset
 
-For pentesting, an asset is a software component of value. Cobalt can perform pentests on assets in the
+For pentests, an asset is a software component of value. Cobalt can perform pentests on assets in the
 following categories:
 
 {{% asset-categories %}}
@@ -46,15 +46,15 @@ relates to pentests of web application technical security controls.
 
 ## Attacker
 
-Sometimes also known as a Threat Actor, Malicious Hacker, “Black-hat Hacker”, or “Cracker”. May be 
-an individual, a group, or even a nation-state. Specified as “attacker” in Cobalt pentest reports.
+Sometimes also known as a Threat Actor, Malicious Hacker, "Black-hat Hacker", or "Cracker". May be 
+an individual, a group, or even a nation-state. Specified as "attacker" in Cobalt pentest reports.
 
 ## Black Box Testing
 
 Where the pentester has no knowledge of the internal details of the asset. Contrast
 with gray box and white box testing.
 
-Also known as "opaque box testing".
+Also known as "opaque box testing."
 
 ## CIS (Center for Internet Security)
 
@@ -84,12 +84,12 @@ reports, as something that a threat actor can exploit. Examples:
 Where the pentester has limited knowledge of the internal details of the asset. Contrast
 with white box and black box testing.
 
-Also known as "translucent box testing".
+Also known as "translucent box testing."
 
 ## Jump Box
 
 Also known as a jump host or a jump server, a jump box is a system (typically) on an internal
-network or a DMZ, used to access and manage devices in a separate security zone.
+network or a DMZ. Jump boxes are used to access and manage devices in a separate security zone.
 
 Where the pentester has limited knowledge of the internal details of the asset. Contrast
 with white box and black box testing.
@@ -133,7 +133,7 @@ wired, analog, or digital.
 
 ## Operations Security (OpSec)
 
-Operations Security, commonly known as OpSec, identifes critical information, and if/how it
+Operations Security, commonly known as OpSec, identifies critical information, and if/how it
 may be used by opponents or enemies. OpSec measures can reduce security risks.
 
 ## Org Owner
@@ -179,7 +179,7 @@ Cobalt, and differs slightly from the NIST definition of
 Original sponsor of a set of standards for testing networks. SANS stands for SysAdmin, Audit,
 Network, and Security. The SANS Top 20 has been migrated to CIS Controls Version 8.
 
-## Single-page Application
+## Single-Page Application
 
 For more information, see https://developer.mozilla.org/en-US/docs/Glossary/SPA
 
@@ -194,7 +194,8 @@ A User Role specifies the permissions or privileges associated with a user. Comm
 - Full User
 - Guest
 
-This is not a comprehensive list. When scoping an Asset, it's important to include a complete number of user roles. If you miss a user role, you may sacrifice quality in penetration testing. 
+This is not a comprehensive list. When scoping an Asset, include a complete list of user roles.
+If you miss a user role, you may sacrifice quality in penetration testing. 
 
 ## Vulnerability
 
@@ -211,7 +212,7 @@ At Cobalt, we focus on manual pentests (enhanced with automated tools). Also see
 Assessment and Management](https://niccs.cisa.gov/about-niccs/cybersecurity-glossary#V), as
 defined by the US Cybersecurity and Infrastructure Agency (CISA)
 
-## Vulnerability Report (manual)
+## Vulnerability Report (Manual)
 
 A document that provides information about one specific finding. Cobalt vulnerability reports are based on manual tests. Such reports include:
 
@@ -219,7 +220,7 @@ A document that provides information about one specific finding. Cobalt vulnerab
 - Locations, such as files or hardware
 - Recommendations to remediate
 
-## Vulnerability Report (automated)
+## Vulnerability Report (Automated)
 
 A document created by an automated scanning tool. Primarily used to list known vulnerabilities
 associated with specific code patterns.
@@ -229,7 +230,7 @@ associated with specific code patterns.
 Where the pentester has full knowledge of the internal details of the asset. Contrast
 with black box and gray box testing.
 
-Also known as "clear box testing".
+Also known as "clear box testing."
 
 ## References
 

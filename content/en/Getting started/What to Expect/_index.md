@@ -34,7 +34,7 @@ results. Here's what you can expect:
    ![Pentest Sample Discussion](/gsg/SampleSlackFinding.png "Sample communication from pentester")
 
    {{% alert title="Note" color="note" %}}
-   As our pentesters share the vulnerabilities they find in "real-time", you can
+   As our pentesters share the vulnerabilities they find in "real-time," you can
    start remediating your code before you see a Pentest report.
    {{% /alert %}}
 
@@ -61,7 +61,7 @@ results. Here's what you can expect:
 1. You're welcome to customize the pentest report. For more information, see the
    following blog post on how you can [Customize Your Pentest
    Reports](https://cobalt.io/blog/cobalt-platform-deep-dive-customize-your-pentest-reports-per-your-needs).
-1. Within days, our pentesters then finalize and share a more formal pentest report.
+1. Within days, our pentesters share a more formal pentest report.
    You're welcome to download this
    [sample test report (PDF)](/gsg/GettingStarted_Sample_WebApp_Report.pdf) for a web app.
 

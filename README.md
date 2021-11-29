@@ -21,7 +21,7 @@ In addition, the following tools can help you verify ("lint") proposed documenta
 - Spell checker such as `aspell` or `ispell`
 - Markdown linter; we use `markdownlint-cli`
 
-### Tools in evaluation:
+### Tools in Evaluation:
 
 - [Vale](https://github.com/errata-ai/vale), a syntax-aware linter 
 - [Netlify](https://www.netlify.com/) for CI tests and doc deployment
@@ -40,7 +40,7 @@ This repository includes the theme as a Git submodule:
 
 The theme is based on the [Docsy Example Project](https://example.docsy.dev/). For detailed theme instructions, see the Docsy user guide: https://docsy.dev/docs/.
 
-## Build the docs locally
+## Build the Docs Locally
 
 To build and run the site locally, you need the following:
 
@@ -51,7 +51,7 @@ To build and run the site locally, you need the following:
     hugo version
     ```
 
-- If you already have Hugo installed, and have just cloned this reposoitory, you'll should then [install two more NPM packages](https://github.com/google/docsy#prerequisites).
+- If you already have Hugo installed, and have just cloned this repository, you'll should then [install two more NPM packages](https://github.com/google/docsy#prerequisites).
 
   ```
   sudo npm install -D --save autoprefixer
@@ -67,13 +67,13 @@ To build and run the site locally, you need the following:
   - There's a bug, https://github.com/google/docsy/issues/626. Use the workaround described in the bug to point the
      Docsy submodule to a specific commit.
 
-After you've made your working copy of the site repo, from the repo root folder, run:
+After you've made your working copy of the site repository, from its root folder, run:
 
 ```
 hugo server -D
 ```
 
-## Test links
+## Test Links
 
 You can test links with [htmltest](https://github.com/wjdp/htmltest). The `.htmltest.yml` includes options to
 avoid trailing slashes. The `htmltest` command works on the HTML content built
@@ -109,7 +109,7 @@ in the `styles/` subdirectory. They include:
 - [Google Developer Style Guide](https://github.com/errata-ai/Google) rules, customized for Vale
 - Rules associated with the [write-good](https://github.com/btford/write-good) grammar linter
 
-These rules are a "Work in Progress"; we may overrule/modify them as we use them to evaluate Cobalt content.
+These rules are a "Work in Progress"; we may overrule/modify them as we use them to review Cobalt content.
 
 ## Search Engine Optimization (SEO)
 
@@ -136,7 +136,7 @@ This error occurs for one of the following reasons:
   See the Docsy [user guide](https://www.docsy.dev/docs/getting-started/) for instructions on how to install Hugo.
 - If you haven't installed the `postcss-cli` NPM package.
 
-### Link punctuation format error
+### Link Punctuation Format Error
 
 If you run into a format error, where punctuation seems to have extra space after links,
 you may want to reconfigure your IDE. For example, if you use vim, you can add
@@ -153,7 +153,7 @@ set nofixendofline
 
 [CODEOWNERS](.github/CODEOWNERS)
 
-### Who to ask for help
+### Who to Ask for Help
 
 mjang-cobalt, @mikejang on Slack, internal Cobalt #docs channel
 

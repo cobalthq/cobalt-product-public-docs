@@ -135,6 +135,7 @@ exceptions:
   - RAID
   - RAM
   - RBAC
+  - RDMS
   - RDP
   - RDS
   - REST

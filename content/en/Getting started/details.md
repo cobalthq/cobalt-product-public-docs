@@ -13,19 +13,19 @@ Some detail requirements vary by the type of asset.
 Our pentests have common requirements for all assets, as well as requirements for
 specific assets. 
 
-Pentest requirements for Web and API assets are identical. However, 
+Pentest requirements for Web and API assets are identical. However,
 tests of a Web asset include tests of APIs used to populate content on that asset.
 
-![Pentest Details](/gsg/PentestDetails.png "Define details for your desired pentest.") 
+![Pentest Details](/gsg/PentestDetails.png "Define details for your desired pentest.")
 
 The Details page of the pentest wizard requests information about:
 
 - The target environment
-- For cloud providers, whether authorization is needed
+- For cloud providers, if you need their authorization
 
 ## Common Pentest Requirements
 
-All of our pentests share the characteristics listed in this section:
+Our pentests share the characteristics listed in this section:
 
 ### Network Information
 
@@ -47,9 +47,7 @@ in comments.
 
 ### Controls
 
-Tell us about how you've regulated access to your systems. For example,
-many organizations set up firewalls that limit access to specified traffic to
-reduce the risk of Denial-of-Service attacks.
+Tell us about how you've regulated access to your systems. For example, administrators may set up firewall rules that limit access to specified traffic to reduce the risk of Denial-of-Service attacks.
 
 You could use systems like:
 
@@ -59,7 +57,7 @@ You could use systems like:
 ![Rate Controls](/gsg/RateControls.png "Describe the environment that you want tested.")
 
 If you do have rate controls, include details. For example, you might include
-details similar to:
+details such as:
 
 - Limit `ping` messages (ICMP) to 2/second
 
@@ -83,8 +81,7 @@ You're welcome to add more information here.
 
 ### Test Data
 
-We need to know about the environment being tested, whether production data
-is available on the test system.
+Our pentesters need to know about the environment that they're testing, as well as whether they can find production data on the test system.
 
 Our pentesters also need information on test data. If your apps contain:
 
@@ -92,12 +89,11 @@ Our pentesters also need information on test data. If your apps contain:
 - Protected Health Information (PHI)
 - Credit-card holder data (CHD)
 
-Our pentesters will take extra care to protect that information.
-<!-- Is this true? -->
+Our pentesters take extra care to protect that information.
 
 Some apps support the use of credit cards for purchases. If you provide
 test credit card numbers, you can share that information in the 
-[instructions](../pentest-objectives/special-instructions) or in the "Kickoff call".
+[instructions](../pentest-objectives/special-instructions) or in the "Kickoff call."
 
 {{% alert title="Note" color="note" %}}
 All Cobalt pentesters have signed a Non-Disclosure Agreement (NDA).

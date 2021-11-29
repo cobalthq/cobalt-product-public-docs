@@ -14,6 +14,7 @@ anonymized
 Ansible
 Anthos
 Apdex
+apk
 Apparmor
 approvers
 architected
@@ -133,6 +134,7 @@ crosslinks
 Crossplane
 CrowdIn
 CSV
+csv
 Cyber
 cybersecurity
 Dangerfile
@@ -294,6 +296,8 @@ innersourcing
 interdependencies
 interdependency
 interruptible
+io
+ipa
 irker
 issuables
 Istio
@@ -406,6 +410,8 @@ namespacings
 Nanoc
 negatable
 Netlify
+NodeJS
+nodejs
 Nokogiri
 noteable
 noteables
@@ -437,6 +443,7 @@ pentest
 pentester
 pentests
 pentesters
+pentesting
 performant
 PgBouncer
 pgLoader
@@ -685,6 +692,7 @@ timeboxes
 timeboxing
 timecop
 tiptap
+Tizen
 toc
 todos
 tokenizer
@@ -821,12 +829,15 @@ vendored
 versionless
 viewport
 viewports
+vim
+vimrc
 virtualized
 virtualizing
 Vue
 Vuex
 Vulnerability
 vulnerability
+vulnerabilities
 walkthrough
 walkthroughs
 WebdriverIO
@@ -847,6 +858,7 @@ Wordpress
 worktree
 worktrees
 Worldline
+www
 Xcode
 Xeon
 xls
