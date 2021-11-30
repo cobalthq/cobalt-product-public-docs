@@ -5,9 +5,9 @@
 #
 # For a list of all options, see https://errata-ai.gitbook.io/vale/getting-started/styles
 extends: substitution
-message: 'Use the US spelling "%s" instead of the British "%s".'
+message: 'Use the US spelling "%s" instead of the British "%s", except for verified formal names.'
 link: https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#language
-level: error
+level: warning
 ignorecase: true
 swap:
   aeon: eon

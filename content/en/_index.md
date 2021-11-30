@@ -1,6 +1,6 @@
 
 ---
-title: "Overview: Cobalt Documentation"
+title: "Overview of Cobalt Documentation"
 linkTitle: "Overview"
 type: "docs"
 weight: 20
@@ -64,7 +64,7 @@ Cobalt has an extensive library of [blog posts](https://cobalt.io/blog),
 designed to help and inform you about:
 
 - Cobalt and our product
-- Profiles for many of Our pentesters
+- Profiles for our pentesters
 - Advice for our customers
 - Standards and how you can meet them
 - Life at Cobalt

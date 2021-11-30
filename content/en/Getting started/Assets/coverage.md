@@ -50,8 +50,7 @@ varies by coverage level:
 | Large       | Extended coverage for key assets with complex functionality. |
 | Extra Large | Comprehensive tests for assets with complex functionality.         |
 
-These are general guidelines. Every situation is unique. You may select more (or less)
-rigorous testing levels.
+Every situation is unique. You may select more (or less) rigorous testing levels.
 
 {{% alert title="Note" color="note" %}}
 By default, an "Extra Small" Asset size (1 credit) is associated with "Standard"

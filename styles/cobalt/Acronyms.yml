@@ -28,6 +28,7 @@ exceptions:
   - CDN
   - CHD
   - CIDR
+  - CIS
   - CLI
   - CNA
   - CNAME
@@ -35,6 +36,7 @@ exceptions:
   - CPU
   - CRIME
   - CSRF
+  - CSM
   - CSS
   - CSV
   - CVE
@@ -42,6 +44,7 @@ exceptions:
   - DAG
   - DAST
   - DHCP
+  - DMZ
   - DNS
   - DOM
   - DSA
@@ -107,11 +110,13 @@ exceptions:
   - LTS
   - MIME
   - MIT
+  - MITRE
   - MVC
   - NAT
   - NDA
   - NFS
   - NGINX
+  - NIST
   - NOTE
   - NPM
   - NTP
@@ -150,6 +155,7 @@ exceptions:
   - SAAS
   - SAML
   - SAN
+  - SANS
   - SAST
   - SATA
   - SCIM
@@ -196,6 +202,7 @@ exceptions:
   - VCS
   - VPC
   - VPN
+  - WHOIS
   - WIP
   - WSL
   - XML

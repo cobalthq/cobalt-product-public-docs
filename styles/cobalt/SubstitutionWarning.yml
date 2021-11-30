@@ -12,7 +12,6 @@ level: warning
 ignorecase: true
 swap:
   code base: codebase
-  config: configuration
   distro: distribution
   file name: filename
   filesystem: file system

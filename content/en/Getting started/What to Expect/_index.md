@@ -38,10 +38,10 @@ results. Here's what you can expect:
    start remediating your code before you see a Pentest report.
    {{% /alert %}}
 
-1. Once the pentest is complete, we replace the "In Review" label with "Remediation".
+1. Once the pentest is complete, we replace the "In Review" label with "Remediation."
 1. You can start assessing all discovered vulnerabilities. In the Cobalt app, navigate
    to **Pentests**. Select your pentest, and navigate to the Findings tab.
-   - Scroll down until you see "Activity". Depending on your assessment, you can
+   - Scroll down until you see "Activity." Depending on your assessment, you can
      set the finding to one of the following states:
 
      - Pending Fix, when your developers are remediating the finding.
