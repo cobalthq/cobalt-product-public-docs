@@ -36,6 +36,7 @@ exceptions:
   - CPU
   - CRIME
   - CSRF
+  - CSM
   - CSS
   - CSV
   - CVE
@@ -201,6 +202,7 @@ exceptions:
   - VCS
   - VPC
   - VPN
+  - WHOIS
   - WIP
   - WSL
   - XML

@@ -118,6 +118,7 @@ colocating
 compilable
 composable
 Conda
+Config
 Consul
 Contentful
 Corosync
