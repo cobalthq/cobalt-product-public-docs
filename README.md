@@ -119,7 +119,7 @@ These rules are a "Work in Progress"; we may overrule/modify them as we use them
 To review your content against the given style guide rules, run the following command:
 
 ```
-vale /path/to/your/<i>content</i>.md
+vale /path/to/your/filename.md
 ```
 
 ## Search Engine Optimization (SEO)
