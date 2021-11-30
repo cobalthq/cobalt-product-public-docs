@@ -13,7 +13,7 @@ Now you can set a date for the pentest.
 By default, we can help you schedule pentests with a start date at least
 two (2) business days after you select "Submit for Review."
 
-Normally, we complete our pentests in two (2) weeks.
+We reserve two (2) weeks to complete our pentests.
 
 ![Pentester Planning](/gsg/PentestPlanning.png "Schedule your pentest. Start at least 2 business days from today.")
 

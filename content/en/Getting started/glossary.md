@@ -46,7 +46,7 @@ relates to pentests of web application technical security controls.
 
 ## Attacker
 
-Sometimes also known as a Threat Actor, Malicious Hacker, "Black-hat Hacker", or "Cracker". May be 
+Sometimes also known as a Threat Actor, Malicious Hacker, "Black-hat Hacker," or "Cracker." May be 
 an individual, a group, or even a nation-state. Specified as "attacker" in Cobalt pentest reports.
 
 ## Black Box Testing
@@ -208,7 +208,7 @@ Contrast with [Known Vulnerability](#known-vulnerability).
 ## Vulnerability Management
 
 The cyclical practice of identifying, classifying, remediating, and mitigating vulnerabilities.
-At Cobalt, we focus on manual pentests (enhanced with automated tools). Also see [Vulnerabilty
+At Cobalt, we focus on manual pentests (enhanced with automated tools). Also see [Vulnerability
 Assessment and Management](https://niccs.cisa.gov/about-niccs/cybersecurity-glossary#V), as
 defined by the US Cybersecurity and Infrastructure Agency (CISA)
 

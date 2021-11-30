@@ -71,7 +71,7 @@ Cobalt subdivides the number of User Roles and Dynamic Pages into the following 
 
 If your numbers fit in different categories, use your judgment. Review your
 findings with your Customer Success manager (CSM), or email support@cobalt.io.
-If you choose a "bigger" category, you're likely to get a more complete test.
+If you choose a "bigger" category, you'll get a more complete test.
 
 As part of our tests for Dynamic Pages, we also test the backend API
 endpoints frequently used to populate content on those pages.
@@ -109,7 +109,7 @@ Cobalt subdivides these properties into the following categories:
 
 If your numbers fit in different categories, use your judgment. Review your
 findings with your CSM, or email support@cobalt.io. If you choose a "bigger" category,
-you're likely to get a more complete test.
+you'll get a more complete test.
 
 ## API
 
@@ -139,7 +139,7 @@ Cobalt subdivides the number of User Roles and Dynamic Pages into the following 
 
 If your numbers fit in different categories, use your judgment. Review your
 findings with your CSM, or email support@cobalt.io. If you choose a "bigger" category,
-you're likely to get a more complete test.
+you'll get a more complete test.
 
 ## External Network
 

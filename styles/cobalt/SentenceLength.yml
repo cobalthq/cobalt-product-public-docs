@@ -5,9 +5,9 @@
 #
 # For a list of all options, see https://errata-ai.gitbook.io/vale/getting-started/styles
 extends: occurrence
-message: 'Shorter sentences improve readability (max 25 words).'
+message: 'Shorter sentences improve readability (max 28 words).'
 scope: sentence
 link: https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#language
 level: warning
-max: 25
+max: 28
 token: \b(\w+)\b
