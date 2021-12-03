@@ -110,17 +110,30 @@ brew install vale
 You can set up a Vale plugin with the VSCode IDE, per https://github.com/errata-ai/vale-vscode. 
 Find these rules in the `styles/` subdirectory. They include:
 
-- Modified rules from GitLab in the `cobalt/` subdirectory
-- [Google Developer Style Guide](https://github.com/errata-ai/Google) rules, customized for Vale
+- Modified rules from GitLab in the `styles/cobalt/` subdirectory
+- [Google Developer Style Guide](https://github.com/errata-ai/Google) rules, customized for Vale, in the `styles/Google` subdirectory
 - Rules associated with the [write-good](https://github.com/btford/write-good) grammar linter
 
-These rules are a "Work in Progress"; we may overrule/modify them as we use them to review Cobalt content.
+These rules are a "Work in Progress"; we may overrule/modify them as we use them to review Cobalt content. For example, if you find a common word / acronym that we use, you're
+welcome to add it (with a PR) to our `styles/cobalt/spelling-exceptions.txt` file.
 
-To review your content against the given style guide rules, run the following command:
+### Use Vale in Your IDE
+
+If you've set up Vale in VSCode, 
+
+While I've set up Vale as a plugin for other IDEs (including vim), I haven't documented
+the process here.
+
+### Use Vale at the Command Line
+
+To review your content against the given style guide rules, first navigate to the root
+directory for this repository. Then run the following command:
 
 ```
 vale /path/to/your/filename.md
 ```
+
+As long as you're in the root directory for this repository, you can use Vale at the command line to lint Markdown files in any local directory.
 
 ## Search Engine Optimization (SEO)
 
