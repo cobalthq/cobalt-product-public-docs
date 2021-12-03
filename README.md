@@ -99,28 +99,9 @@ to our Zendesk articles, it does detect other broken links.
   Non-OK status: 403 --- index.html --> https://cobaltio.zendesk.com/hc/en-us/categories/360005476672-Cobalt-Platform
 ```
 
-## English Grammar Linter
+## English Grammar Linter (Vale)
 
-This repository includes `beta` rules based on the [Vale grammar linter](docs.errata.ai/vale). To install Vale on a Mac, run:
-
-```
-brew install vale
-```
-
-You can set up a Vale plugin with the VSCode IDE, per https://github.com/errata-ai/vale-vscode. 
-Find these rules in the `styles/` subdirectory. They include:
-
-- Modified rules from GitLab in the `cobalt/` subdirectory
-- [Google Developer Style Guide](https://github.com/errata-ai/Google) rules, customized for Vale
-- Rules associated with the [write-good](https://github.com/btford/write-good) grammar linter
-
-These rules are a "Work in Progress"; we may overrule/modify them as we use them to review Cobalt content.
-
-To review your content against the given style guide rules, run the following command:
-
-```
-vale /path/to/your/filename.md
-```
+For more information, see [GrammarLinter.md](./GrammarLinter.md)
 
 ## Search Engine Optimization (SEO)
 
