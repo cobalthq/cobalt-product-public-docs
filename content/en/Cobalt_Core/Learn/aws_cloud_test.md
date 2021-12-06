@@ -1,7 +1,7 @@
 ---
-title: "Core Newsletter"
-linkTitle: "Core Newsletter"
-weight: 2
+title: "Amazon AWS Cloud Configuration Pentesting"
+linkTitle: "AWS Cloud Configuration Pentesting"
+weight: 80
 description: >
   Some one-line description
 ---

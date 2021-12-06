@@ -1,7 +1,7 @@
 ---
-title: "Cobalt Core Guidebook"
-linkTitle: "Cobalt Core"
-weight: 30
+title: "Welcome to the Guidebook"
+linkTitle: "Cobalt Core Guidebook"
+weight: 5
 description: >
   Content for our Cobalt Core Pentesters
 menu:
