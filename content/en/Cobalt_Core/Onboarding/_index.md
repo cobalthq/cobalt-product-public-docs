@@ -1,7 +1,7 @@
 ---
-title: "Amazon AWS Cloud Configuration Pentesting"
-linkTitle: "AWS Cloud Config Pentests"
-weight: 80
+title: "Onboarding"
+linkTitle: "Onboarding"
+weight: 5
 description: >
   Some one-line description
 ---

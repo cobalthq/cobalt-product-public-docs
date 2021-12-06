@@ -1,7 +1,7 @@
 ---
-title: "Core Newsletter"
-linkTitle: "Core Newsletter"
-weight: 2
+title: "Other"
+linkTitle: "Other"
+weight: 5
 description: >
   Some one-line description
 ---
