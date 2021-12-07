@@ -1,0 +1,16 @@
+---
+title: "Integrate the Cobalt API With External Software"
+linkTitle: "External Integration"
+weight: 10
+description: >
+  Manage assets with your API
+---
+
+{{% pageinfo %}}
+Some one-line summary
+{{% /pageinfo %}}
+
+We have an API. In this document, we'll describe use cases, "cookbook-style" that you can
+apply to your Pentests.
+
+<!-- Add more content if desired -->
