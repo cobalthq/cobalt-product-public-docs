@@ -10,4 +10,4 @@ level: error
 ignorecase: true
 link: https://docs.gitlab.com/ee/development/documentation/styleguide/index.html#trademark
 tokens:
-  - GitLab's
+  - Cobalt's
