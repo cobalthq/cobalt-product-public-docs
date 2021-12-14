@@ -13,11 +13,9 @@ Our pentesters share what they've found before they write your report.
 Now that you've done all the work needed to set up a pentest, you might be anxious for
 results. Here's what you can expect:
 
-1. Once you've finished setting up a pentest, select **Pentests** in the left-hand
-   pane. You should see your pentest listed, with an "In Review" label.
-1. You should see a link to a Slack channel, dedicated for your pentest.
-1. Add the colleagues of your choice to the Slack channel. Choose colleagues who can
-   benefit from direct communication with our pentesters.
+<!-- see layouts/shortcodes/pentest-in-review.html for content -->
+{{% pentest-in-review %}}
+
 1. We'll select the best available testers before the start of the pentest. We need
    at least 48 hours. (We may need more time, if you have limits on the pentesters that
    we can use.)
