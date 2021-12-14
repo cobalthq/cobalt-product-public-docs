@@ -51,5 +51,4 @@ Under the Asset tab, you can review:
 Congratulations! If you're ready with your pentest, select
 **Submit for Review**.
 
-Once you do so, learn [what to expect after you create a
-pentest](../what-to-expect).
+Once you do so, learn about what you should do [During the Pentest](../during_the_pentest).
