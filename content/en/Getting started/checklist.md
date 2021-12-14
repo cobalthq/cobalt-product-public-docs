@@ -51,4 +51,4 @@ Under the Asset tab, you can review:
 Congratulations! If you're ready with your pentest, select
 **Submit for Review**.
 
-Once you do so, learn about how you should [Prepare Your Pentest Team](../prep_pentest_team/).
+Once you do so, learn about how you should [Prepare Your Security Team](../prep_security_team/).

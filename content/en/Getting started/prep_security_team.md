@@ -1,6 +1,6 @@
 ---
-title: "Prepare Your Pentest Team"
-linkTitle: "Prepare Your Pentest Team"
+title: "Prepare Your Security Team"
+linkTitle: "Prepare Your Security Team"
 weight: 260
 description: >
   Help our pentesters test your asset.
