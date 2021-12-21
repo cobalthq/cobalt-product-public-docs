@@ -46,6 +46,11 @@ Under the Asset tab, you can review:
 - [Description](../assets/asset-description/)
 - [Documentation](../assets/asset-description/#asset-documentation)
 
+## Reports
+
+{{% pentest-report-requirements %}}
+<!-- For content, see the following file: layouts/shortcodes/pentest-report-requirements.html -->
+
 ## When You're Ready
 
 Congratulations! If you're ready with your pentest, select

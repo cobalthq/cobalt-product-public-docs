@@ -89,7 +89,8 @@ Make sure to include the:
 
 ## Asset Documentation
 
-You can upload files in the following categories and formats:
+To share more about your assets, you can upload the documentation of your choice. Our app accepts files
+in the following categories and formats:
 
 - Archives (.gz, .rar, .tar, .zip)
 - Documents (.doc, .docx, .pdf, .txt)

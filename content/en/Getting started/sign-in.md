@@ -41,12 +41,13 @@ Now you can:
 1. The next time you want to sign in, navigate to https://app.cobalt.io.
    - Your username is your email address.
 
-![Cobalt Sign In Screen](/gsg/SignIn.png "sign in")
+   ![Cobalt Sign In Screen](/gsg/SignIn.png "sign in")
 
-<br>
+   <br>
 
-You can now use the Cobalt app to start setting up a Pentest. The next step is
-to [Define Your Assets](../assets).
+   You can now use the Cobalt app to start setting up a Pentest.
+
+1. Select **Create a Pentest**. Now proceed to the next step, [Define Your Assets](../assets).
 
 {{% alert title="Note" color="note" %}}
 We support two-factor authentication. After you sign in, select the icon in the upper-right
