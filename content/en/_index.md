@@ -82,10 +82,7 @@ visualize how our product can help you simplify the pentest process.
 We hope that future docs can help you make best use of Cobalt software.
 {{% /pageinfo %}}
 
-{{% alert %}}
 This documentation is a product of Cobalt Labs, Inc. As noted in our
-[Terms of use](https://cobalt.io/terms/general), when we use
-"Us", "We", "Our", "Cobalt.io", or "Cobalt, we're referring to Cobalt Labs, Inc.,
-a Delaware Corporation. 
-{{% /alert %}}
+[Terms of use](https://cobalt.io/terms/general), when we use "Us", "We", "Our", "Cobalt.io",
+or "Cobalt, we're referring to Cobalt Labs, Inc., a Delaware Corporation. 
 
