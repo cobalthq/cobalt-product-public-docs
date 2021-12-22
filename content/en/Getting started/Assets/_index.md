@@ -10,6 +10,9 @@ description: >
 Help our pentesters test your [assets](../glossary#asset) faster.
 {{% /pageinfo %}}
 
+When you see a **Let's get started!** screen, select **Create a new pentest for a new asset**.
+The other option is beyond the scope of our Getting Started guide.
+
 When you set up a pentest through the UI, you're going through the following stages of our pentest wizard:
 
 - Define Your Assets

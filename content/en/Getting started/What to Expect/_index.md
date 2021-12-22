@@ -15,7 +15,7 @@ results. Here's what you can expect:
 
 1. Once you've finished setting up a pentest, select **Pentests** in the left-hand
    pane. You should see your pentest listed, with an "In Review" label.
-1. You should see a link to a Slack channel, dedicated for your pentest.
+1. Select your pentest. You should see a link to a Slack channel, dedicated for your pentest.
 1. Add the colleagues of your choice to the Slack channel. Choose colleagues who can
    benefit from direct communication with our pentesters.
 1. We'll select the best available testers before the start of the pentest. We need
