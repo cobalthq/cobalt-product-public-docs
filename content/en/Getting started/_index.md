@@ -66,3 +66,7 @@ you can [expect](./what-to-expect).
 
 Assuming you've received an email invitation, take the next step.
 [Sign in to Cobalt](./sign-in).
+
+In Kubernetes, _scheduling_ refers to making sure that {{< glossary_tooltip text="Pods" term_id="pod" >}}
+are matched to {{< glossary_tooltip text="Nodes" term_id="node" >}} so that
+{{< glossary_tooltip term_id="kubelet" >}} can run them.
