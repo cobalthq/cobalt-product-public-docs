@@ -16,7 +16,7 @@ Use this document to visualize your journey through Cobalt to secure your system
 You want to enhance the security of your software. You're ready to set up
 penetration tests (pentests) to elevate your security posture. With
 pentest-driven solutions, you can comply with regulations and enhance
-the confidence of your customers. You want results yesterday.
+the confidence of your customers. You want results as soon as possible.
 
 You've come to the right place.
 
@@ -27,8 +27,8 @@ While it's helpful if you have a background in security, it's not required
 to understand the pentest process. If the language of software security confuses
 you, refer to our [Glossary](./glossary).
 
-In this Getting Started Guide, we take you through the process to create a pentest, and
-set [expectations](./what-to-expect).
+In this Getting Started Guide, we take you through the process to create a pentest,
+step by step, and set [expectations](./what-to-expect).
 
 ![UI Flow for Pentests](/gsg/PentestFlow.png "UI Flow for Pentests")
 
@@ -60,7 +60,7 @@ Our journey takes you through the steps required to create a pentest:
 1. Review your pentest request. Use our [Pentest Checklist](./checklist) to make
    sure you've included _all_ information that our pentesters need.
 
-Relax! Once you've set up a pentest, we start analyzing your asset. When
+Once you've set up a pentest, we start analyzing your asset. When
 possible, we share results even before we create your report. Here's what
 you can [expect](./what-to-expect). 
 

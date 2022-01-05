@@ -53,8 +53,7 @@ Under the Asset tab, you can review:
 
 ## When You're Ready
 
-Congratulations! If you're ready with your pentest, select
-**Submit for Review**.
+If you're ready with your pentest, select **Submit for Review**.
 
 Once you do so, learn [what to expect after you create a
 pentest](../what-to-expect).

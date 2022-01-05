@@ -32,7 +32,6 @@ to residents of one or more countries, you can do so here:
 
 ![Pentester Limits](/gsg/PentesterLimits.png "Specify legal or regulatory limitations on pentesters.")
 
-Congratulations! If you're ready with your pentest, select
-**Save & Exit** > **Yes**.
+If you're ready with your pentest, select **Save & Exit** > **Yes**.
 
 In the next screen, you can review your work, as a [checklist](../checklist).

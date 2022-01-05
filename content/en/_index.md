@@ -19,8 +19,8 @@ menu:
     weight: 20
 ---
 
-This page includes links to other Cobalt literature.
-We now have a [Getting Started](./getting-started) guide!
+This page includes links to other Cobalt literature, including our
+[Getting Started](./getting-started) guide.
 
 <br>
 <div class="mx-auto">
