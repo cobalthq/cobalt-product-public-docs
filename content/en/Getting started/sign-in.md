@@ -53,7 +53,3 @@ Now you can:
 
 We support two-factor authentication. After you sign in, select the icon in the upper-right
 corner and select **Security Settings**.
-
-If you've subscribed to the [Enterprise Tier](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Service-Tiers), we also support SAML (Security Assertion Markup Language), which supports SSO
-(Single Sign-On) based on third party accounts such as Google. To set up SAML,
-select **Settings > Identity & Access** from the left-hand menu.
