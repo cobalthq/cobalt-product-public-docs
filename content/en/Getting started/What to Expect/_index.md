@@ -19,7 +19,7 @@ results. Here's what you can expect:
 1. Add the colleagues of your choice to the Slack channel. Choose colleagues who can
    benefit from direct communication with our pentesters.
 1. We'll select the best available testers before the start of the pentest. The time we need
-   depends on your [Service Tier](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Service-Tiers)
+   depends on your [PtaaS Tier](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Cobalt-PtaaS-Tiers)
    and any special requirements you have.
    - As soon as we've selected your pentesters, and have moved your pentest to
      the "Planned" state, you'll see them in your Slack channel.
