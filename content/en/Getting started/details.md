@@ -10,8 +10,11 @@ description: >
 Some detail requirements vary by the type of asset.
 {{% /pageinfo %}}
 
-Our pentests have common requirements for all assets, as well as requirements for
-specific assets. 
+<!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
+{{% big-pic-UI-steps %}}
+
+In this section, you can specify pentest details. Our pentests have common requirements
+for all assets, as well as requirements for specific assets. 
 
 Pentest requirements for Web and API assets are identical. However,
 tests of a Web asset include tests of APIs used to populate content on that asset.
