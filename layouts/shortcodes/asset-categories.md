@@ -1,6 +1,0 @@
-- Web apps
-- External networks
-- Internal networks
-- Mobile apps
-- APIs
-- Cloud configuration (AWS, Azure, GCP)
