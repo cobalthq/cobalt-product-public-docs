@@ -49,12 +49,7 @@ Now you can:
 
 1. Select **Create a Pentest**. Now proceed to the next step, [Define Your Assets](../assets).
 
-{{% alert title="Note" color="note" %}}
+## Authentication
+
 We support two-factor authentication. After you sign in, select the icon in the upper-right
 corner and select **Security Settings**.
-
-We also support SAML (Security Assertion Markup Language), which supports SSO
-(Single Sign-On) based on third party accounts such as Google. To set up SAML,
-select **Settings > Identity & Access** from the left-hand menu.
-{{% /alert %}}
-

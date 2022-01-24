@@ -10,14 +10,19 @@ description: >
 Now you can set a date for the pentest.
 {{% /pageinfo %}}
 
-By default, we can help you schedule pentests with a start date at least
-two (2) business days after you select "Submit for Review."
+Depending on your [PtaaS Tier](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Cobalt-PtaaS-Tiers),
+we can help you schedule pentests with a start date from at least one to three business days after
+after you select "Submit for Review."
 
 We reserve two (2) weeks to complete our pentests.
 
-![Pentester Planning](/gsg/PentestPlanning.png "Schedule your pentest. Start at least 2 business days from today.")
+![Pentester Planning](/gsg/PentestPlanning.png "Schedule your pentest. Your allowed start date depends on your Service Tier and any special requirements.")
 
 On the Pentest Planning screen, you can also update the asset scope, and the number of credits required for the test.
+
+If you have any special requirements, such as qualifications for pentester certifications,
+we reserve the right to start the pentest later than the flow time specified in your
+[PtaaS Tier](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Cobalt-PtaaS-Tiers).
 
 ## Additional Requests
 
