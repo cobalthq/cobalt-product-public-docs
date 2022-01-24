@@ -14,7 +14,7 @@ The **Let's get started!** screen includes two options:
 
 - **Create a new pentest from an existing asset**
   - This option opens a drop-down text box. Use it to select from assets that you've
-    previously created. It populates the Asset screen with available information.
+    created. It populates the Asset screen with available information.
 - **Create a new pentest for a new asset**.
 
 <!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
