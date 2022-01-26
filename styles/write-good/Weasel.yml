@@ -32,6 +32,7 @@ tokens:
   - closely
   - coldly
   - completely
+  - congratulations
   - consequently
   - correctly
   - courageously
@@ -145,6 +146,7 @@ tokens:
   - recently
   - recklessly
   - regularly
+  - relax
   - remarkably
   - relatively
   - reluctantly
@@ -204,3 +206,4 @@ tokens:
   - worldly
   - wrinkly
   - yearly
+  - yesterday
