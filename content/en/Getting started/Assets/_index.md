@@ -10,15 +10,15 @@ description: >
 Help our pentesters test your [assets](../glossary#asset) faster.
 {{% /pageinfo %}}
 
-When you see a **Let's get started!** screen, select **Create a new pentest for a new asset**.
-The other option is beyond the scope of our Getting Started guide.
+The **Let's get started!** screen includes two options:
 
-When you set up a pentest through the UI, you're going through the following stages of our pentest wizard:
+- **Create a new pentest from an existing asset**
+  - This option opens a drop-down text box. Use it to select from assets that you've
+    created. It populates the Asset screen with available information.
+- **Create a new pentest for a new asset**.
 
-- Define Your Assets
-- Create Pentest Objectives
-- Add Details
-- Plan the Pentest
+<!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
+{{% big-pic-UI-steps %}}
 
 This section can help you define your asset. In the Cobalt UI, you can
 define pentest objectives in the following screen:
@@ -50,3 +50,6 @@ The asset screen prompts you for the following information:
 
 The UI provides the information that you need to add an Asset Image and Title.
 Now take the next step and define your [Asset Type](./asset-type).
+
+<!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/invite-help.md -->
+{{% invite-help %}}
