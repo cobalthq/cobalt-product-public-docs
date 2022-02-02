@@ -64,6 +64,18 @@ refines best practice security solutions.
 One of the test criteria used by our pentesters is [CIS Controls v8](https://www.cisecurity.org/controls/v8),
 released in 2021.
 
+## Credit (Cobalt-specific)
+
+A credit is a unit of work that can be applied to any pentest. The number of credits required for a pentest
+depends on the scope of the [asset](#asset) that you want us to test.
+
+In the Cobalt app, select **Credits** to review your credit balance. If you need more credits, contact your
+[CSM](#customer-success-manager-csm).
+
+## Customer Success Manager (CSM)
+
+Cobalt employees who own the relationship with assigned customers.
+
 ## Dynamic Page
 
 Web applications typically include _static_ and _dynamic_ web pages. A Dynamic Page includes content
@@ -141,6 +153,19 @@ may be used by opponents or enemies. OpSec measures can reduce security risks.
 A Cobalt term for users who have top-level (sudo) administrative privileges for their organizations
 in the Cobalt app.
 
+## Organization (Cobalt-specific)
+
+A group of users who are allowed to access all information related to your pentest experience.
+This includes your:
+
+- [Pentests](#pentest)s
+- [Pentest Reports](#pentest-report)
+- [Assets](#asset)
+
+You can review the people in your organization in your UI, by selecting **People > Organization Members**. You
+can also add new members to your organization on the same screen. For more information, see our article on
+[How do I add new users?](https://cobaltio.zendesk.com/hc/en-us/articles/360058712491-How-do-I-add-new-users-).
+
 ## Pentest
 
 Short for penetration test.
@@ -149,6 +174,11 @@ Short for penetration test.
 
 Combines manual and human testing with a modern delivery platform to deploy
 penetration testing programs. 
+
+## Pentest Brief
+
+Refers to the information that customers include when they [Create Pentest Objectives](../pentest-objectives) and
+[Specify Pentest Details](../details).
 
 ## Pentest Report
 
@@ -196,6 +226,25 @@ A User Role specifies the permissions or privileges associated with a user. Comm
 
 This is not a comprehensive list. When scoping an Asset, include a complete list of user roles.
 If you miss a user role, you may sacrifice quality in penetration testing. 
+
+## User Role (Cobalt-specific)
+
+In the Cobalt app, available user roles depend on whether you're working with an
+[organization](#organization-cobalt-specific)) or a pentest:
+
+- Organization user roles:
+  - Owner
+  - Member
+  </p>
+  In an organization, both owners and members can view all pentests, assets, and organization members.
+  Organization owners and members can add and remove users.
+  </p>
+- Pentest user roles:
+  - Team member
+  </p>
+  A pentest team member (also known as a collaborator) can only view and edit a specific pentest. 
+
+For more information, see [What do the user roles mean](https://cobaltio.zendesk.com/hc/en-us/articles/360057093472-What-do-the-user-roles-mean-).
 
 ## Vulnerability
 
