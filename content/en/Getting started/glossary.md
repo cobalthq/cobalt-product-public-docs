@@ -158,7 +158,7 @@ in the Cobalt app.
 A group of users who are allowed to access all information related to your pentest experience.
 This includes your:
 
-- [Pentests](#pentest)s
+- [Pentests](#pentest)
 - [Pentest Reports](#pentest-report)
 - [Assets](#asset)
 
