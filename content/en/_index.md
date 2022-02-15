@@ -37,7 +37,7 @@ This page includes links to other Cobalt literature, including our
 
 ## Support Articles
 
-When customers need help with the Cobalt App, they frequently rely on support articles, available through the [Cobalt Zendesk](https://cobaltio.zendesk.com/hc/en-us/categories/360005476672-Cobalt-Platform) interface.
+When customers need help with the Cobalt Application, they frequently rely on support articles, available through the [Cobalt Zendesk](https://cobaltio.zendesk.com/hc/en-us/categories/360005476672-Cobalt-Platform) interface.
 
 If you're a Cobalt customer, connect to Zendesk and select the **Sign in** link.
 Once connected, you'll have access to more support articles.
