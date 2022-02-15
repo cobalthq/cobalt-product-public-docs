@@ -17,7 +17,7 @@ What's next? Cobalt is growing its Product Documentation team to help solidify o
 
 Typical security documentation is dense. If you can create content for complex topics at a Flesch-Kincaid grade level 10 (or below!), we want to talk to you. If you enjoy making an impact, we as the Cobalt Product team want to hear from you.
 
-We're looking for the second person on the Product Documentation team, who would back up and work with Mike.
+We're looking for the second person on the Product Documentation team, who would back up and work with Mike (link to Linkedin).
 
 ## What You Would Do
 
@@ -36,9 +36,9 @@ The ideal candidate can:
 ## You Must Have
 
 - 5+ years of professional experience creating content.
-- Understanding of Git (Experience with other version control systems is OK).
+- Understanding of Git.
 - The skills to create content for developer personas.
-- The ability to work with developer content or have the background to learn if needed.
+- The ability to work with developer content.
 - A proactive attitude & willingness to contribute to team discussions.
 - A high comfort level in a remote-first, globally distributed company.
 - A growth oriented mindset — you're always interested in learning and stepping out of your comfort zone.
