@@ -10,7 +10,7 @@ menu:
 ---
 
 {{% pageinfo %}}
-Use this document to visualize your journey through Cobalt to secure your systems.
+Use this document to visualize your journey through Cobalt to secure all of your systems.
 {{% /pageinfo %}}
 
 You want to enhance the security of your software. You're ready to set up
