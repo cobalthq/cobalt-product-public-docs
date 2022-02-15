@@ -17,7 +17,7 @@ What's next? Cobalt is growing its Product Documentation team to help solidify o
 
 Typical security documentation is dense. If you can create content for complex topics at a Flesch-Kincaid grade level 10 (or below!), we want to talk to you. If you enjoy making an impact, we as the Cobalt Product team want to hear from you.
 
-We're looking for the second person on the Product Documentation team, who would back up and work with Mike (link to Linkedin).
+We're looking for the second person on the Product Documentation team, who would back up and work with [Mike](https://www.linkedin.com/in/mijang/).
 
 ## What You Would Do
 
