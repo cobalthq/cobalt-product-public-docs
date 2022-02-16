@@ -20,8 +20,6 @@ The **Let's get started!** screen includes two options:
 <!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
 {{% big-pic-UI-steps %}}
 
-This is a test for pronouns like he and she.
-
 This section can help you define your asset. In the Cobalt UI, you can
 define pentest objectives in the following screen:
 
