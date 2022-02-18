@@ -58,8 +58,9 @@ results. Here's what you can expect:
 
    If you need access to the archived channel, contact your Customer Success Manager
    or support@cobalt.io.
-1. You're welcome to customize the pentest report. For more information, see the
-   following blog post on how you can [Customize Your Pentest
+1. If you've purchased a qualifying [Cobalt PtaaS Tier](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Cobalt-PtaaS-Tiers), you can customize your Pentest report.
+   However, we report _all_ findings. For more information, see the following blog post
+   on how you can [Customize Your Pentest
    Reports](https://cobalt.io/blog/cobalt-platform-deep-dive-customize-your-pentest-reports-per-your-needs).
 1. Within days, our pentesters share a more formal pentest report.
    You're welcome to download this
