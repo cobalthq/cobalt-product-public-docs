@@ -14,15 +14,15 @@ Now that you've done all the work needed to set up a pentest, you might be anxio
 results. Here's what you can expect:
 
 1. Once you've finished setting up a pentest, select **Pentests** in the left-hand
-   pane. You should see your pentest listed, with an "In Review" label.
+   pane. You should see your pentest listed, with an _In Review_ label.
 1. Select your pentest. You should see a link to a Slack channel, dedicated for your pentest.
 1. Add the colleagues of your choice to the Slack channel. Choose colleagues who can
    benefit from direct communication with our pentesters.
 1. We'll select the best available testers before the start of the pentest. The time we need
    depends on your [PtaaS Tier](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Cobalt-PtaaS-Tiers)
    and any special requirements you have.
-   - As soon as we've selected your pentesters, and have moved your pentest to
-     the "Planned" state, you'll see them in your Slack channel.
+   - As soon as we've selected your pentesters, and have moved your pentest from
+     _In Review_ to _Planned_, you'll see them in your Slack channel.
 1. You may get questions from your pentesters in Slack. You can also elaborate
    on your requirements in that same channel.
 1. As our pentesters analyze your asset, they'll add updates frequently in your
@@ -38,10 +38,10 @@ results. Here's what you can expect:
    start remediating your code before you see a Pentest report.
    {{% /alert %}}
 
-1. Once the pentest is complete, we replace the "In Review" label with "Remediation."
+1. Once the pentest is complete, we replace the _Planned_ label with _Remediation_.
 1. You can start assessing all discovered vulnerabilities. In the Cobalt app, navigate
    to **Pentests**. Select your pentest, and navigate to the Findings tab.
-   - Scroll down until you see "Activity." Depending on your assessment, you can
+   - Scroll down until you see **Activity**. Depending on your assessment, you can
      set the finding to one of the following states:
 
      - Pending Fix, when your developers are remediating the finding.
@@ -67,3 +67,6 @@ results. Here's what you can expect:
    [sample test report (PDF)](/gsg/GettingStarted_Sample_WebApp_Report.pdf) for a web app.
 
    <!-- Timing confirmed with Grahame -->
+
+Our [Pentest States](../../../penteststates/) page includes more information about each pentest
+state, including _Draft_, _In Review_, _Planned_, _Remediation_, and _Closed_.
