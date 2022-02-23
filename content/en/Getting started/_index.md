@@ -64,5 +64,5 @@ Once you've set up a pentest, we start analyzing your asset. When
 possible, we share results even before we create your report. Here's what
 you can [expect](./what-to-expect). 
 
-Assuming you've received an email invitation, take the next step.
+Assuming you've received an email invitation, take the next step.dfsa
 [Sign in to Cobalt](./sign-in).
