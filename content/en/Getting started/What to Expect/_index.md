@@ -38,7 +38,7 @@ results. Here's what you can expect:
    start remediating your code before you see a Pentest report.
    {{% /alert %}}
 
-1. Once the pentest is complete, we replace the _Planned_ label with _Remediation_.
+1. Once the pentest is complete, we move your pentest from _Planned_ to _Remediation_.
 1. You can start assessing all discovered vulnerabilities. In the Cobalt app, navigate
    to **Pentests**. Select your pentest, and navigate to the Findings tab.
    - Scroll down until you see **Activity**. Depending on your assessment, you can
