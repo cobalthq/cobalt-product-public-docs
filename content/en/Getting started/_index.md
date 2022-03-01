@@ -20,6 +20,8 @@ the confidence of your customers. You want results as soon as possible.
 
 You've come to the right place.
 
+{{%expand "Learn more." %}}
+
 If you're considering Cobalt, use this document to help you visualize the process.
 If you've already purchased Cobalt credits, use this document to start your journey.
 
@@ -35,6 +37,7 @@ step by step, and set [expectations](./what-to-expect).
 When you've finished this Getting Started Guide, you'll have a plan and scope that
 our pentesters can use to test your assets. When you purchase credits from Cobalt,
 we send you an email invitation, which you can use to [Sign in to Cobalt](./sign-in).
+{{% /expand%}}
 
 ## Overview
 
