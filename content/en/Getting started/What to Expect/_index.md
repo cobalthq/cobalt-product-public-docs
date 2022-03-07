@@ -62,7 +62,7 @@ results. Here's what you can expect:
    However, we report _all_ findings. For more information, see the following blog post
    on how you can [Customize Your Pentest
    Reports](https://cobalt.io/blog/cobalt-platform-deep-dive-customize-your-pentest-reports-per-your-needs).
-1. <a id="report-timing">Within days, our pentesters share a formal report.
+1. <a id="report-timing">Within a few days, our pentesters share a formal report.
    You're welcome to download this
    [sample test report (PDF)](/gsg/GettingStarted_Sample_WebApp_Report.pdf) for a web app.
 
