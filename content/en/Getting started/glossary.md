@@ -163,6 +163,42 @@ A summary of all vulnerability reports, including observations on positive secur
 
 Within Cobalt, this is also known as a Report or a Final Report.
 
+## Pentest Report States
+
+You can find the same content in our [Pentest States](../../penteststates/) page.
+As we work on penetration tests, we classify each pentest in one of the following states:
+
+### Draft
+{{% draft-pentest-state %}}
+
+### In Review
+
+{{% in-review-pentest-state %}}
+
+### Planned
+
+{{% planned-pentest-state %}}
+
+### Live
+
+{{% live-pentest-state %}}
+
+### Paused
+
+{{% paused-pentest-state %}}
+
+### Remediation
+
+{{% remediation-pentest-state %}}
+
+### Closed
+
+{{% closed-pentest-state %}}
+
+### Cancelled
+
+{{% cancelled-pentest-state %}}
+
 ## Remediate
 
 To fix a vulnerability identified by a pentest or incident report. Examples:
