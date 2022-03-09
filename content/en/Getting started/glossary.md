@@ -165,14 +165,15 @@ penetration testing programs.
 
 ## Pentest Report
 
-A summary of all vulnerability reports, including observations on positive security measures. Target audience: executives. Includes:
+A summary of all vulnerability reports, including observations on positive security measures. Target audiences: executives, security engineers, and developers. Includes:
 
 - Executive Summary (of tests performed)
-- Executive Analysis (testing efforts)
-- Methodology (based on asset type)
-- Methodology (for assessing risk)
+- Scope of Work (testing efforts)
+- Methodology
 - Summary of Findings
 - Recommendations
+- Post-Test Remediation
+- Finding Details
 
 Within Cobalt, this is also known as a Report or a Final Report.
 
