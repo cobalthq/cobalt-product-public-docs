@@ -10,11 +10,12 @@ description: >
 This feature is limited to subscribers in the following [PtaaS Tiers](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Cobalt-PtaaS-Tiers): Premium, Enterprise.
 {{% /pageinfo %}}
 
-We allow you to customize pentest reports by leaving out sections, before you download the
-report as a PDF.
+You can simplify what's included in your pentest reports. This page describes available pentest
+report types, along with what you can do to leave out one or more sections from your reports.
 
 In our application, we make pentest reports available when they're ready for 
-[Remediation](../../penteststates/). 
+[Remediation](../../penteststates/), or when they're [Closed](../../penteststates/). 
+To find and customize what you see in a report, take the following steps:
 
 1. Select Pentests, select the State dropdown box, and select Remediation.
 
@@ -39,8 +40,10 @@ In our application, we make pentest reports available when they're ready for
 
    ![Customize a pentest report](/gsg/CustomizePentestReport.png "Select the eye icon to leave a section out of a pentest report.")
 
-
 1. When you've finished customizing your report, scroll to the top of the page and select **Apply**. 
+
+1. Now you can select **Download** to download your pentest report, as a PDF file, with the
+   changes you configured.
 
 ### Pentest Report Types
 
