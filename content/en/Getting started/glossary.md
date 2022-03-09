@@ -69,7 +69,8 @@ released in 2021.
 A credit is a unit of work that can be applied to any pentest. The number of credits required for a pentest
 depends on the scope of the [asset](#asset) that you want us to test.
 
-In the Cobalt app, select **Credits** to review your credit balance. If you need more credits, contact your
+In the Cobalt app, select **Credits** to review your credit balance. Credits appear on the
+day that your subscription starts. If you need more credits, contact your
 [CSM](#customer-success-manager-csm).
 
 ## Customer Success Manager (CSM)
@@ -177,7 +178,7 @@ penetration testing programs.
 
 ## Pentest Brief
 
-Refers to the information that customers include when they [Create Pentest Objectives](../pentest-objectives) and
+Refers to the information that you include when you [Create Pentest Objectives](../pentest-objectives) and
 [Specify Pentest Details](../details).
 
 ## Pentest Report
