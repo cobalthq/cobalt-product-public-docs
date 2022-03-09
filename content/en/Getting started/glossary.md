@@ -167,13 +167,27 @@ penetration testing programs.
 
 A summary of all vulnerability reports, including observations on positive security measures. Target audiences: executives, security engineers, and developers. Includes:
 
-- Executive Summary (of tests performed)
-- Scope of Work (testing efforts)
+- Executive Summary 
+  - Describes tests performed with criteria
+- Executive Analysis
+  - High-level summary of vulnerabilities
 - Methodology
+  - Pentest Process
+- Scope of Work
+  - Target description
+  - Environment
+  - Assumptions and Constraints
+  - Test Methodologies
+  - Web app-specific issues (endpoints, fuzzing)
+  - Secure test cases
 - Summary of Findings
-- Recommendations
+  - Trends and critical issues
+- Summary of Recommendations
+  - Highlights of the work we recommend to remediate findings
 - Post-Test Remediation
+  - List of details with type, severity, state, and resolution
 - Finding Details
+  - More information on each finding
 
 Within Cobalt, this is also known as a Report or a Final Report.
 
