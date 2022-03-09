@@ -171,17 +171,17 @@ A summary of all vulnerability reports, including observations on positive secur
   - Describes tests performed with criteria
 - Executive Analysis
   - High-level summary of vulnerabilities
-- Methodology
-  - Pentest Process
 - Scope of Work
   - Target description
   - Environment
+  - In-scope Testing Methodologies
   - Assumptions and Constraints
   - Test Methodologies
   - Web app-specific issues (endpoints, fuzzing)
   - Secure test cases
 - Summary of Findings
   - Trends and critical issues
+  - Auto-generated graphs
 - Summary of Recommendations
   - Highlights of the work we recommend to remediate findings
 - Post-Test Remediation
