@@ -17,12 +17,12 @@ In our application, we make pentest reports available when they're ready for
 [Remediation](../../penteststates/), or when they're [Closed](../../penteststates/). 
 To find and customize what you see in a report, take the following steps:
 
-1. Select Pentests, select the State dropdown box, and select Remediation.
+1. Select **Pentests**, select the **State** dropdown box, and select **Remediation**.
 
    ![Filter for Pentests in Remediation](/gsg/PentestRemediation.png "You can review Pentest reports in remediation.")
 
-1. Now select your pentest, and select the Report tab. You'll see Report Sections, along with
-   a drop-down option that allows you to select from the following report types:
+1. Now select your pentest, and select the **Report** tab. You'll see report sections,
+   along with a drop-down option that allows you to select from the following report types:
 
    - Customer Letter
    - Attestation
