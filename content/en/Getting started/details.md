@@ -39,9 +39,7 @@ Private Network. We'll share these addresses when you create an actual pentest.
 
 We need to know the environment of the pentest asset. The standard options are:
 
-- Production (Serves end users)
-- Staging (Proposed future production environment)
-- Development (App in work; may not be fully tested)
+{{% environment %}}
 
 If you define your environment differently, let us know. Add that information
 in comments.
