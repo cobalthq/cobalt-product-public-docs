@@ -75,10 +75,6 @@ different asset sizes and coverage levels:
 {{% pentest-report-requirements %}}
 <!-- For content, see the following file: layouts/shortcodes/pentest-report-requirements.html -->
 
-If you want a pentest report, you must set up a test of at least two credits. 
-If you have a one credit pentest, you'll still have access to the non-report
-items listed in [Pentest Expectations](https://developer.cobalt.io/getting-started/what-to-expect/).
-
 We do not create multiple pentest reports for large assets. For example, if you
 want separate pentest reports for different APIs, set up different pentests
 for each API.
