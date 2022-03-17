@@ -108,7 +108,7 @@ We measure each factor on a scale from 1 (very low) to 5 (very high).
 
 ## Severity Definitions
 
-Based on [Risk Factors](#risk-factors), we assign a rating to each finding, based on the
+Based on [Risk Factors](#risk-factors), we assign a rating to each finding, using the
 following equation:
 
 ```
