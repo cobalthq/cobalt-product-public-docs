@@ -24,10 +24,7 @@ To find and customize what you see in a report, take the following steps:
 1. Now select your pentest, and select the **Report** tab. You'll see report sections,
    along with a drop-down option that allows you to select from the following report types:
 
-   - Customer Letter
-   - Attestation
-   - Full Report
-   - Full Report + Finding Details
+   {{% pentest-report-types %}}
 
    For more information, see our table of [Pentest Report Types](#pentest-report-types).
 
