@@ -72,8 +72,8 @@ and grammar-based fuzzing. For more information, see:
 
 ### Test Cases that Thwarted Exploitation Attempts
 
-This section lists the tests that we performed that did _not_ find vulnerabilities
-when we tested your asset.
+This section lists the tests that did _not_ find vulnerabilities
+while testing your asset.
 
 ## Methodology
 
