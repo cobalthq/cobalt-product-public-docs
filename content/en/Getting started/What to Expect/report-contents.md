@@ -41,7 +41,7 @@ to their Cobalt profiles.
 Our executive summary includes:
 
 - A high-level summary of the tests we performed
-- A table with the number of [findings](../../glossary/#finding) that we identified in different [severity levels](../../../severitylevels/)
+- A table with the number of [findings](../../glossary/#finding) that we identified, categorized by different [severity levels](../../../severitylevels/)
 - Highlights of any significant findings
 
 ## Scope of Work
