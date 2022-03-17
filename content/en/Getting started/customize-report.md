@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-This feature is limited to subscribers in the following [PtaaS Tiers](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Cobalt-PtaaS-Tiers): Premium, Enterprise.
+This feature may be limited to subscribers with specific [PtaaS Tiers](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Cobalt-PtaaS-Tiers).
 {{% /pageinfo %}}
 
 You can simplify what's included in your pentest reports. This page describes available pentest
