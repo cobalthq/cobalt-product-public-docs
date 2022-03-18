@@ -70,6 +70,12 @@ Web applications typically include _static_ and _dynamic_ web pages. A Dynamic P
 that can be customized, either through an application server (server-side) or through code such as
 JavaScript running in the browser (client-side).
 
+## Environment
+
+In the context of a Cobalt pentest, you can specify one of three options for an environment:
+
+{{% environment %}}
+
 ## Finding
 
 A potential security flaw in an app or physical hardware. We include findings in vulnerability
