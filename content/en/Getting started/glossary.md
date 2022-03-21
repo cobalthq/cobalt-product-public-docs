@@ -39,6 +39,13 @@ following categories:
 
 {{% asset-categories %}}
 
+## Application Security (AppSec)
+
+Application security is the practice of using security software, hardware, techniques,
+best practices, and procedures to protect computer applications from external security
+threats.
+[Source: TechTarget](https://www.techtarget.com/searchsoftwarequality/definition/application-security).
+
 ## Application Security Verification Standard (ASVS)
 
 The [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard)
