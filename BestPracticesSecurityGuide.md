@@ -1,4 +1,4 @@
-## How Cobalt Core Pentesters Contribute to Cobalt Product Documentation
+## Best Practices for Security
 
 We're starting a [Best Practices for Security](./content/en/BestPractices/_index.md) guide. In
 this guide, we feature content from our [Cobalt Core](https://cobalt.io/our-pentesters) pentesters.
