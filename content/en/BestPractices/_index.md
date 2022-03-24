@@ -2,6 +2,8 @@
 title: "Best Practices for Security"
 linkTitle: "Best Practices"
 weight: 600
+# The `toc_hide` entry hides the link from the menu. The content still available at <URL>/bestpractices/
+toc_hide: true
 description: >
   Recommendations for developers focused on security.
 ---
