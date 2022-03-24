@@ -1,6 +1,6 @@
 ## Best Practices for Security
 
-We're starting a [Best Practices for Security](./content/en/BestPractices/_index.md) guide. In
+We're writing a [Best Practices for Security](./content/en/BestPractices/_index.md) guide. In
 this guide, we feature content from our [Cobalt Core](https://cobalt.io/our-pentesters) pentesters.
 
 We'll work towards content that's more readable than most security documentation. We want
