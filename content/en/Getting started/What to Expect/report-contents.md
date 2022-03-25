@@ -14,13 +14,12 @@ We provide following types of pentest reports:
 
 {{% pentest-report-types %}}
 
-Our Full Report + Finding Details includes all of the following sections. With one exception,
-our other reports leave out some of these sections. If you've purchased an appropriate
-{{% ptaas-tier %}}, you can customize what you see in any of these reports.
+Our Full Report + Finding Details includes all of the following sections. If you've purchased an appropriate
+{{% ptaas-tier %}}, you can customize what you see in all but the Attestation Letter.
 
-We provide an Attestation Letter as a one-page report that you can share with external
-stakeholders such as prospects or customers. For more information, you're welcome to download
-this [sample Attestation Letter](/gsg/Sample_Attestation_Letter.pdf) for a web app.
+The Attestation Letter is a one-page report that you can share with external stakeholders 
+such as prospects or customers. For more information, download this [sample Attestation
+Letter](/gsg/Sample_Attestation_Letter.pdf) for a web app.
 
 {{% alert title="Note" color="note" %}}
 We do not leave out any finding details from the Full Report + Finding Details report.
