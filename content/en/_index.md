@@ -85,4 +85,3 @@ We hope that future docs can help you make best use of Cobalt software.
 This documentation is a product of Cobalt Labs, Inc. As noted in our
 [Terms of use](https://cobalt.io/terms/general), when we use "Us", "We", "Our", "Cobalt.io",
 or "Cobalt, we're referring to Cobalt Labs, Inc., a Delaware Corporation. 
-
