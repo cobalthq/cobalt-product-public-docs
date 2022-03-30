@@ -18,7 +18,7 @@ Our Full Report + Finding Details includes all of the following sections. If you
 {{% ptaas-tier %}}, you can customize what you see in all but the Attestation Letter.
 
 The Attestation Letter is a one-page report that you can share with external stakeholders 
-such as prospects or customers. For more information, download this [sample Attestation
+such as prospects or customers. You're welcome to download this [sample Attestation
 Letter](/gsg/Sample_Web_Attestation_Letter.pdf) for a web app.
 
 {{% alert title="Note" color="note" %}}
