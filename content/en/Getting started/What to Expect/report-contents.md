@@ -19,7 +19,7 @@ Our Full Report + Finding Details includes all of the following sections. If you
 
 The Attestation Letter is a one-page report that you can share with external stakeholders 
 such as prospects or customers. For more information, download this [sample Attestation
-Letter](/gsg/Sample_Attestation_Letter.pdf) for a web app.
+Letter](/gsg/Sample_Web_Attestation_Letter.pdf) for a web app.
 
 {{% alert title="Note" color="note" %}}
 We do not leave out any finding details from the Full Report + Finding Details report.
