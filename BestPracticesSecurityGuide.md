@@ -18,4 +18,4 @@ installation instructions, see our [Grammar Linter](./GrammarLinter.md) page.
 
 We use the [Creative Commons CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) license.
 
-We ask our selected Cobalt Core authors to sign a freelance [contract](./content/en/bestpractices/Cobalt_Contributor_Agreement_Template.md).
+We ask our selected Cobalt Core authors to sign a freelance [contract](./bestprac/Cobalt_Contributor_Agreement_Template.pdf).
