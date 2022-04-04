@@ -155,11 +155,6 @@ This section includes a disclaimer.
 
 ## Appendix A - Finding Details
 
-In this section, we go into details for each vulnerability. Our descriptions include the following:
+In this section, we go into details for each finding. Our descriptions include the following:
 
-- Vulnerability Type
-- Description 
-- Affected URLs
-- Proof of Concept of the vulnerability
-- Severity
-- Suggested Fix
+{{% finding-details %}}
