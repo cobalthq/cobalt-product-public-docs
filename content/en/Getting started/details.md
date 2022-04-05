@@ -32,11 +32,11 @@ Our pentests share the characteristics listed in this section:
 
 ### Network Information
 
-Our pentesters send requests from one or more of IP addresses on a Virtual
+Our pentesters send requests from one or more IP addresses on a Virtual
 Private Network. Share this pentest with your network administrator. They may need
 to know the IP addresses that we use:
 
-{{% expand "IP addresses." %}}
+{{% expand "List of IP addresses:" %}}
 
 {{% traffic-ip-addresses %}}
 
