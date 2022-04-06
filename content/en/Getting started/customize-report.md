@@ -44,6 +44,8 @@ To find and customize what you see in a report, take the following steps:
   | Report Type                   | Description                                                                                                                                                    |
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Customer Letter               | An executive summary of the pentest. May be used as a certificate of completion. Great for external shareholders. Includes:<br>  <br>- Executive Summary <br>- Methodology |
-| Attestation                   | Adds the following information to the customer letter: <br> <br>- Pentester user information <br>- An overall list of findings                                                                     |
+| Attestation Report            | Adds the following information to the customer letter: <br> <br>- Pentester user information <br>- An overall list of findings                                                                     |
 | Full Report                   | Includes the following report sections, beyond attestation:<br>  <br>- Executive Summary <br>- Scope of Work <br>- Methodology <br>- Summary of Findings <br>- Recommendations <br>- Post-Test Remediation     |
 | Full Report + Finding Details | Adds details of every test finding to the full report. Details include:<br>  <br>- Vulnerability Type <br>- Description <br>- Proof of Concept <br>- Severity <br>- Suggested Fix     | 
+
+We also offer an Attestation Letter, which is 
