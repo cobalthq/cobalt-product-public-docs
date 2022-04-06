@@ -17,8 +17,7 @@ We provide following types of pentest reports:
 Our Full Report + Finding Details includes all of the following sections. If you've purchased an appropriate
 {{% ptaas-tier %}}, you can customize what you see in all but the Attestation Letter.
 
-The Attestation Letter is a one-page report that you can share with external stakeholders 
-such as prospects or customers. We base the letter on our [Executive Summary](#executive-summary).
+{{% attestation-letter %}}
 
 {{% alert title="Note" color="note" %}}
 We do not leave out any finding details from the Full Report + Finding Details report.

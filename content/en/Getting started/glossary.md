@@ -56,6 +56,10 @@ relates to pentests of web application technical security controls.
 Sometimes also known as a Threat Actor, Malicious Hacker, "Black-hat Hacker," or "Cracker." May be 
 an individual, a group, or even a nation-state. Specified as "attacker" in Cobalt pentest reports.
 
+## Attestation Letter
+
+{{% attestation-letter %}}
+
 ## Black Box Testing
 
 Where the pentester has no knowledge of the internal details of the asset. Contrast
