@@ -67,7 +67,7 @@ with gray box and white box testing.
 
 Also known as "opaque box testing."
 
-## CIS (Center for Internet Security)
+## Center for Internet Security (CIS)
 
 The Center for Internet Security is an independent nonprofit organization which develops and
 refines best practice security solutions.
@@ -92,11 +92,10 @@ In the context of a Cobalt pentest, you can specify one of three options for an 
 A potential security flaw in an app or physical hardware. We include findings in vulnerability
 reports, as something that a threat actor can exploit.
 
-In our reports, the [Finding Details](../what-to-expect/report-contents/#appendix-a---finding-details/) section includes the following information:
+When you select [Full Report + Finding Details](/getting-started/what-to-expect/report-contents/#appendix-a---finding-details),
+we add a detailed list of findings to your report, which includes:
 
 {{% finding-details %}}
-
-{{% finding-vulnerability-logic %}}
 
 ## Gray Box Testing
 
@@ -117,6 +116,8 @@ with white box and black box testing.
 
 A "well-known" security vulnerability. Documented in a security bulletin or a CVE
 (Common Vulnerabilities and Exposures) from [MITRE](https://cve.mitre.org).
+
+In Cobalt pentest reports, you may see this as a published or documented vulnerability.
 
 ## Mitigate 
 
@@ -239,8 +240,6 @@ attacker who crosses privilege boundaries (and performs unauthorized actions) wi
 
 Contrast with [Known Vulnerability](#known-vulnerability). A vulnerability may be part of a
 [finding](#finding).
-
-{{% finding-vulnerability-logic %}}
 
 ## Vulnerability Management
 
