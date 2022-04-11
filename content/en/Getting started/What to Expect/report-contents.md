@@ -12,11 +12,13 @@ Our pentest reports include what you need to further secure your systems.
 
 We provide following types of pentest reports:
 
+<!-- Find the content of this variable in the layouts/shortcodes directory -->
 {{% pentest-report-types %}}
 
 Our Full Report + Finding Details includes all of the following sections. If you've purchased an appropriate
 {{% ptaas-tier %}}, you can customize what you see in all but the Attestation Letter.
 
+<!-- Find the content of this variable in the layouts/shortcodes directory -->
 {{% attestation-letter %}}
 
 {{% alert title="Note" color="note" %}}
