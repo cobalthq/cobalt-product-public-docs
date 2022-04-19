@@ -21,6 +21,8 @@ In addition, the following tools can help you verify ("lint") proposed documenta
 - Spell checker such as `aspell` or `ispell`
 - Markdown linter; we use `markdownlint-cli`
 
+Hi! Welcome to the docs!!!
+
 ### Tools in Evaluation:
 
 - [Vale](https://github.com/errata-ai/vale), a syntax-aware linter 
