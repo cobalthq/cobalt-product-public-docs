@@ -22,7 +22,7 @@ NO-TICKET_reason_for_change
 If you're a Cobalt employee, include the group name acronym with the ticket, such as:
 
 ```
-EX-NO-TICKET
+EX-NO-TICKET_reason_for_change
 ```
 
 We'll include a Continuous Integration job which reviews branch names.
