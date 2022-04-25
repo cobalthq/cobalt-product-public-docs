@@ -56,6 +56,10 @@ relates to pentests of web application technical security controls.
 Sometimes also known as a Threat Actor, Malicious Hacker, "Black-hat Hacker," or "Cracker." May be 
 an individual, a group, or even a nation-state. Specified as "attacker" in Cobalt pentest reports.
 
+## Attestation Letter
+
+{{% attestation-letter %}}
+
 ## Black Box Testing
 
 Where the pentester has no knowledge of the internal details of the asset. Contrast
@@ -165,14 +169,29 @@ penetration testing programs.
 
 ## Pentest Report
 
-A summary of all vulnerability reports, including observations on positive security measures. Target audience: executives. Includes:
+A summary of all vulnerability reports, including observations on positive security measures. Target audiences: executives, security engineers, and developers. Includes:
 
-- Executive Summary (of tests performed)
-- Executive Analysis (testing efforts)
-- Methodology (based on asset type)
-- Methodology (for assessing risk)
+- Executive Summary 
+  - Describes tests performed with criteria
+- Executive Analysis
+  - High-level summary of vulnerabilities
+- Scope of Work
+  - Target description
+  - Environment
+  - In-scope Testing Methodologies
+  - Assumptions and Constraints
+  - Test Methodologies
+  - Web app-specific issues (endpoints, fuzzing)
+  - Secure test cases
 - Summary of Findings
-- Recommendations
+  - Trends and critical issues
+  - Auto-generated graphs
+- Summary of Recommendations
+  - Highlights of the work we recommend to remediate findings
+- Post-Test Remediation
+  - List of details with type, severity, state, and resolution
+- Finding Details
+  - More information on each finding
 
 Within Cobalt, this is also known as a Report or a Final Report.
 
