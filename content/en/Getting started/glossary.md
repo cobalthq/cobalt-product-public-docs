@@ -75,6 +75,50 @@ refines best practice security solutions.
 One of the test criteria used by our pentesters is [CIS Controls v8](https://www.cisecurity.org/controls/v8),
 released in 2021.
 
+## Cobalt Users
+
+When using the Cobalt UI, you may encounter a variety of different users, in the following
+categories:
+
+- Organization Roles: If you're a Cobalt customer, you may be an `Org Owner`, `Org Member`, or
+  a `PT Team Member`..
+- Pentester Roles: If you're a Cobalt pentester, you may be a `PT Pentester` or a `PT Lead`.
+  `Pentest Lead`.
+
+Select Cobalt employees may be assigned as administrators, as `Cobalt Staff`.
+
+### Org Member
+
+An `Org Member` is a user of the Cobalt App who can create an [asset](#asset) or a
+[pentest](#pentest). That user can also see the pentesters who are working on their asset.
+If allowed by their {{% ptaas-tier %}}, they can also manage integration with Jira and GitHub.
+
+### Org Owner
+
+An `Org Owner` can also add/remove the users of their choice, by their email addresses, as
+`Org Owner` or `Org Member`. They can also manage the [Org Members](#org-member) assigned to a
+specific pentest. If allowed by their {{% ptaas-tier %}}, they can also manage
+[SAML](#security-assertion-markup-language-saml) settings for the users in their organization.
+
+### PT Team Member
+
+A `PT Team Member` is a customer representative during a pentest. That user can review and
+respond to each [finding](#finding) identified by a Cobalt pentester.
+
+### PT Lead
+
+A `PT Lead` is a Cobalt pentester who leads other Cobalt pentesters in their efforts to test
+an asset. When applicable, the `PT Lead` also drafts the [pentest report](#pentest-report).
+
+### PT Pentester
+
+A `PT Pentester` is a Cobalt pentester whose participating in testing an asset.
+
+### Cobalt Staff
+
+Cobalt Staff members may help you manage the users in your organization. They may also help
+manage work on your pentests.
+
 ## Dynamic Page
 
 Web applications typically include _static_ and _dynamic_ web pages. A Dynamic Page includes content
@@ -208,6 +252,8 @@ To fix a vulnerability identified by a pentest or incident report. Examples:
 Contrast with [mitigate](#mitigate). This reflects how we use **remediate** at
 Cobalt, and differs slightly from the NIST definition of 
 [remediation](https://csrc.nist.gov/glossary/term/remediation).
+
+## Security Assertion Markup Language (SAML)
 
 ## SANS Institute
 
