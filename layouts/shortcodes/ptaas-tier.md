@@ -1,1 +1,1 @@
-[PtaaS Tier](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Cobalt-PtaaS-Tiers)
+[PtaaS Tier](https://www.cobalt.io/pentest-pricing)
