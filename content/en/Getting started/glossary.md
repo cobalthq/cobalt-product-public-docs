@@ -272,7 +272,7 @@ the [Security Assertion Markup Language (SAML)](https://www.oasis-open.org/commi
 "... is an XML-based framework for communicating user authentication, entitlement, and attribute
 information. As its name suggests, SAML allows business entities to make assertions regarding
 the identity, attributes, and entitlements of a subject (an entity that is often a human user)
-to other entities, such as a partner company or another enterprise application.
+to other entities, such as a partner company or another enterprise application."
 
 ## SANS Institute
 
