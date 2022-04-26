@@ -80,7 +80,7 @@ released in 2021.
 When using the Cobalt UI, you may encounter a variety of different users, in the following
 categories:
 
-- Organization Roles: If you're a Cobalt customer, your account may have one of the following roles:
+- Organization Roles: If you're a Cobalt customer, your account may have one or more of the following roles:
   - Organization Owner: Also known as an _Org Owner_
   - Organization Member: Also known as an _Org Member_
   - Pentest Team Member: Also known as a _PT Team Member_
