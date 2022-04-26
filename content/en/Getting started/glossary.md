@@ -80,38 +80,38 @@ released in 2021.
 When using the Cobalt UI, you may encounter a variety of different users, in the following
 categories:
 
-- Organization Roles: If you're a Cobalt customer, you may be an `Org Owner`, `Org Member`, or
-  a `PT Team Member`.
-- Pentester Roles: If you're a Cobalt pentester, you may be a `PT Pentester` or a `PT Lead`.
+- Organization Roles: If you're a Cobalt customer, you may be an _Org Owner_, _Org Member_, or
+  a _PT Team Member_.
+- Pentester Roles: If you're a Cobalt pentester, you may be a _PT Pentester_ or a _PT Lead_.
 
-Select Cobalt employees may be assigned as administrators, as `Cobalt Staff`.
+Select Cobalt employees may be assigned as administrators, as _Cobalt Staff_.
 
 ### Org Member
 
-An `Org Member` is a user of the Cobalt App who can create an [asset](#asset) or a
+An _Org Member_ is a user of the Cobalt App who can create an [asset](#asset) or a
 [pentest](#pentest). That user can also see the pentesters who are working on their asset.
 If allowed by their {{% ptaas-tier %}}, they can also manage integration with Jira and GitHub.
 
 ### Org Owner
 
-An `Org Owner` can also add/remove the users of their choice, by their email addresses, as
-`Org Owner` or `Org Member`. They can also manage the [Org Members](#org-member) assigned to a
+An _Org Owner_ can also add/remove the users of their choice, by their email addresses, as
+_Org Owner_ or _Org Member_. They can also manage the [Org Members](#org-member) assigned to a
 specific pentest. If allowed by their {{% ptaas-tier %}}, they can also manage
 [SAML](#security-assertion-markup-language) settings for the users in their organization.
 
 ### PT Team Member
 
-A `PT Team Member` is a customer representative during a pentest. That user can review and
+A _PT Team Member_ is a customer representative during a pentest. That user can review and
 respond to each [finding](#finding) identified by a Cobalt pentester.
 
 ### PT Lead
 
-A `PT Lead` is a Cobalt pentester who leads other Cobalt pentesters in their efforts to test
-an asset. When applicable, the `PT Lead` also drafts the [pentest report](#pentest-report).
+A _PT Lead_ is a Cobalt pentester who leads other Cobalt pentesters in their efforts to test
+an asset. When applicable, the _PT Lead_ also drafts the [pentest report](#pentest-report).
 
 ### PT Pentester
 
-A `PT Pentester` is a Cobalt pentester whose testing a specific asset.
+A _PT Pentester_ is a Cobalt pentester whose working with a _PT Lead_ to test a specific asset.
 
 ### Cobalt Staff
 
