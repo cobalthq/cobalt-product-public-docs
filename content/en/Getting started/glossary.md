@@ -81,9 +81,8 @@ When using the Cobalt UI, you may encounter a variety of different users, in the
 categories:
 
 - Organization Roles: If you're a Cobalt customer, you may be an `Org Owner`, `Org Member`, or
-  a `PT Team Member`..
+  a `PT Team Member`.
 - Pentester Roles: If you're a Cobalt pentester, you may be a `PT Pentester` or a `PT Lead`.
-  `Pentest Lead`.
 
 Select Cobalt employees may be assigned as administrators, as `Cobalt Staff`.
 
@@ -98,7 +97,7 @@ If allowed by their {{% ptaas-tier %}}, they can also manage integration with Ji
 An `Org Owner` can also add/remove the users of their choice, by their email addresses, as
 `Org Owner` or `Org Member`. They can also manage the [Org Members](#org-member) assigned to a
 specific pentest. If allowed by their {{% ptaas-tier %}}, they can also manage
-[SAML](#security-assertion-markup-language-saml) settings for the users in their organization.
+[SAML](#security-assertion-markup-language) settings for the users in their organization.
 
 ### PT Team Member
 
@@ -112,7 +111,7 @@ an asset. When applicable, the `PT Lead` also drafts the [pentest report](#pente
 
 ### PT Pentester
 
-A `PT Pentester` is a Cobalt pentester whose participating in testing an asset.
+A `PT Pentester` is a Cobalt pentester whose testing a specific asset.
 
 ### Cobalt Staff
 
@@ -253,7 +252,14 @@ Contrast with [mitigate](#mitigate). This reflects how we use **remediate** at
 Cobalt, and differs slightly from the NIST definition of 
 [remediation](https://csrc.nist.gov/glossary/term/remediation).
 
-## Security Assertion Markup Language (SAML)
+## Security Assertion Markup Language
+
+As defined by the Organization for the Advancement of Structured Information Standards (OASIS),
+the [Security Assertion Markup Language (SAML)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=security)
+"... is an XML-based framework for communicating user authentication, entitlement, and attribute
+information. As its name suggests, SAML allows business entities to make assertions regarding
+the identity, attributes, and entitlements of a subject (an entity that is often a human user)
+to other entities, such as a partner company or another enterprise application.
 
 ## SANS Institute
 
