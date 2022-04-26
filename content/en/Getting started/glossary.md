@@ -80,8 +80,11 @@ released in 2021.
 When using the Cobalt UI, you may encounter a variety of different users, in the following
 categories:
 
-- Organization Roles: If you're a Cobalt customer, you may be an _Org Owner_, _Org Member_, or
-  a _PT Team Member_.
+- Organization Roles: If you're a Cobalt customer, your account may have one of the following roles:
+  - Organization Owner: Also known as an _Org Owner_
+  - Organization Member: Also known as an _Org Member_
+  - Pentest Team Member: Also known as a _PT Team Member_
+
 - Pentester Roles: If you're a Cobalt pentester, you may be a _PT Pentester_ or a _PT Lead_.
 
 Select Cobalt employees may be assigned as administrators, as _Cobalt Staff_.
@@ -92,13 +95,13 @@ article: [What do the user roles mean?](https://cobaltio.zendesk.com/hc/en-us/ar
 <!-- Per https://zombie.atlassian.net/browse/DOCS-5 I should add info from an internal
 spreadsheet, but need to find pull code in Hugo -->
 
-### Org Member
+### Organization Member
 
 An _Org Member_ is a user of the Cobalt App who can create an [asset](#asset) or a
 [pentest](#pentest). That user can also see the pentesters who are working on their asset.
 If allowed by their {{% ptaas-tier %}}, they can also manage integration with Jira and GitHub.
 
-### Org Owner
+### Organization Owner
 
 An _Org Owner_ is the administrator for a customer organization within the Cobalt app. As such,
 they can:
@@ -112,17 +115,17 @@ they can:
 - If allowed by their {{% ptaas-tier %}}, they can also manage
 [SAML](#security-assertion-markup-language) settings for the users in their organization.
 
-### PT Team Member
+### Pentest Team Member
 
 A _PT Team Member_ is a customer representative during a pentest. That user can review and
 respond to each [finding](#finding) identified by a Cobalt pentester.
 
-### PT Lead
+### Pentest Lead
 
 A _PT Lead_ is a Cobalt pentester who leads other Cobalt pentesters in their efforts to test
 an asset. When applicable, the _PT Lead_ also drafts the [pentest report](#pentest-report).
 
-### PT Pentester
+### Pentester
 
 A _PT Pentester_ is a Cobalt pentester whose working with a _PT Lead_ to test a specific asset.
 
@@ -269,10 +272,7 @@ Cobalt, and differs slightly from the NIST definition of
 
 As defined by the Organization for the Advancement of Structured Information Standards (OASIS),
 the [Security Assertion Markup Language (SAML)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=security)
-"... is an XML-based framework for communicating user authentication, entitlement, and attribute
-information. As its name suggests, SAML allows business entities to make assertions regarding
-the identity, attributes, and entitlements of a subject (an entity that is often a human user)
-to other entities, such as a partner company or another enterprise application."
+SAML is an XML-based framework for communicating user authentication, entitlement, and attribute information. 
 
 ## SANS Institute
 
@@ -294,7 +294,7 @@ A User Role specifies the permissions or privileges associated with a user. Comm
 - Full User
 - Guest
 
-This is not a comprehensive list. When scoping an Asset, include a complete list of user roles.
+When scoping an Asset, include a complete list of user roles.
 If you miss a user role, you may sacrifice quality in penetration testing. 
 
 ## Vulnerability
