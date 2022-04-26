@@ -86,6 +86,12 @@ categories:
 
 Select Cobalt employees may be assigned as administrators, as _Cobalt Staff_.
 
+You can review a list of permissions associated with each organization role in the following
+article: [What do the user roles mean?](https://cobaltio.zendesk.com/hc/en-us/articles/360057093472-What-do-the-user-roles-mean-).
+
+<!-- Per https://zombie.atlassian.net/browse/DOCS-5 I should add info from an internal
+spreadsheet, but need to find pull code in Hugo -->
+
 ### Org Member
 
 An _Org Member_ is a user of the Cobalt App who can create an [asset](#asset) or a
@@ -94,9 +100,16 @@ If allowed by their {{% ptaas-tier %}}, they can also manage integration with Ji
 
 ### Org Owner
 
-An _Org Owner_ can also add/remove the users of their choice, by their email addresses, as
-_Org Owner_ or _Org Member_. They can also manage the [Org Members](#org-member) assigned to a
-specific pentest. If allowed by their {{% ptaas-tier %}}, they can also manage
+An _Org Owner_ is the administrator for a customer organization within the Cobalt app. As such,
+they can:
+
+- Add/remove the users of their choice, by their email addresses, as an _Org Member_ or a
+  _PT Team Member_.
+- View collaborators, the members of their pentest team. That team includes 
+  - _PT Team Members_
+  - _PT Lead_
+  - _PT Pentester_ (when applicable)
+- If allowed by their {{% ptaas-tier %}}, they can also manage
 [SAML](#security-assertion-markup-language) settings for the users in their organization.
 
 ### PT Team Member
