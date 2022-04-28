@@ -1,0 +1,6 @@
+- Vulnerability Type
+- Description 
+- Affected URLs
+- Proof of Concept of the vulnerability
+- Severity
+- Suggested Fix

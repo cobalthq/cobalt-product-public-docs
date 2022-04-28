@@ -67,7 +67,7 @@ with gray box and white box testing.
 
 Also known as "opaque box testing."
 
-## CIS (Center for Internet Security)
+## Center for Internet Security (CIS)
 
 The Center for Internet Security is an independent nonprofit organization which develops and
 refines best practice security solutions.
@@ -90,11 +90,12 @@ In the context of a Cobalt pentest, you can specify one of three options for an 
 ## Finding
 
 A potential security flaw in an app or physical hardware. We include findings in vulnerability
-reports, as something that a threat actor can exploit. Examples:
+reports, as something that a threat actor can exploit.
 
-- [Cross-Side Scripting (XSS)](https://owasp.org/www-project-top-ten/2017/A7_2017-Cross-Site_Scripting_(XSS))
-- [Injection](https://owasp.org/www-project-top-ten/2017/A1_2017-Injection)
-- [Broken Authentication](https://owasp.org/www-project-top-ten/2017/A2_2017-Broken_Authentication)
+When you select [Full Report + Finding Details](/getting-started/what-to-expect/report-contents/#appendix-a---finding-details),
+we add a detailed list of findings to your report, which includes:
+
+{{% finding-details %}}
 
 ## Gray Box Testing
 
@@ -113,8 +114,10 @@ with white box and black box testing.
 
 ## Known Vulnerability
 
-Identified in well-known security documentation such as a security bulletin or a CVE
+A "well-known" security vulnerability. Documented in a security bulletin or a CVE
 (Common Vulnerabilities and Exposures) from [MITRE](https://cve.mitre.org).
+
+In Cobalt pentest reports, you may see this as a published or documented vulnerability.
 
 ## Mitigate 
 
@@ -231,11 +234,12 @@ If you miss a user role, you may sacrifice quality in penetration testing.
 
 ## Vulnerability
 
-A finding discovered during a pentest. Also a specific weakness which can be exploited by a
-[threat actor](https://niccs.cisa.gov/about-niccs/cybersecurity-glossary#T), such as an attacker,
-to cross privilege boundaries (and perform unauthorized actions) within a computer system.
+A security issue discovered during a pentest. Also a specific weakness which can be exploited
+by a [threat actor](https://niccs.cisa.gov/about-niccs/cybersecurity-glossary#T), such as an
+attacker who crosses privilege boundaries (and performs unauthorized actions) within a computer system.
 
-Contrast with [Known Vulnerability](#known-vulnerability).
+Contrast with [Known Vulnerability](#known-vulnerability). A vulnerability may be part of a
+[finding](#finding).
 
 ## Vulnerability Management
 
@@ -256,6 +260,14 @@ A document that provides information about one specific finding. Cobalt vulnerab
 
 A document created by an automated scanning tool. Primarily used to list known vulnerabilities
 associated with specific code patterns.
+
+## Vulnerability Type
+
+How Cobalt classifies the [vulnerability](#vulnerability). Examples include:
+
+- Client Side Injection
+- Server Security Misconfiguration > Lack of Password Confirmation
+- Broken Authentication and Session Management
 
 ## White Box Testing
 
