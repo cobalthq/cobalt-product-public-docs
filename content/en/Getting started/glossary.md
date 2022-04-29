@@ -123,8 +123,8 @@ organizations in the Cobalt app.
 
 ### Organization Member
 
-An _Organization Member_ is a user of the Cobalt App who can create a
-[pentest](#pentest). That user can also see the pentesters who are working on their asset.
+An _Organization Member_ is a user of the Cobalt App who can create an [asset](#asset) as well
+as a [pentest](#pentest). That user can also see the pentesters who are working on their asset.
 If allowed by their {{% ptaas-tier %}}, they can also manage integration with Jira and GitHub.
 
 - An _Organization Member_ may also be a [_Pentest Team Member_](#pentest-team-member).
@@ -134,7 +134,7 @@ If allowed by their {{% ptaas-tier %}}, they can also manage integration with Ji
 A _Pentest Team Member_ is a customer (organization) representative during a specific pentest.
 That user can review and respond to each [finding](#finding) identified by a Cobalt _Pentester_ or _Pentest Lead_.
 
-That _Pentest Team Member_ can also add one ore more users as a _Pentest Team Member_. 
+That _Pentest Team Member_ can also add one or more users as a _Pentest Team Member_. 
 
 A _Pentest Team Member_ does not have to be an _Organization Owner_ or an _Organization Member_.
 
@@ -145,7 +145,7 @@ an asset. When applicable, the Pentest Lead also drafts the [pentest report](#pe
 
 ### Pentester
 
-A _Pentester_ is a Cobalt pentester whose working with a _Pentest Lead_ to test a specific asset.
+A _Pentester_ is a Cobalt pentester who works with a _Pentest Lead_ to test a specific asset.
 
 ### Cobalt Staff
 
@@ -244,7 +244,10 @@ may be used by opponents or enemies. OpSec measures can reduce security risks.
 
 ## Pentest
 
-Short for penetration test.
+Short for penetration test. As described in the [Getting Started Guide](/getting-started/),
+you can draft a pentest. Once you submit it for review, Cobalt reviews your pentest and assigns
+a [Pentest Lead](#pentest-lead) and frequently one or more [Pentesters](#pentester) who then
+test the [asset](#asset) specified in your pentest.
 
 ## Pentest as a Service (PtaaS)
 
