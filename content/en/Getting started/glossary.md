@@ -75,6 +75,83 @@ refines best practice security solutions.
 One of the test criteria used by our pentesters is [CIS Controls v8](https://www.cisecurity.org/controls/v8),
 released in 2021.
 
+## Cobalt Users
+
+When using the Cobalt UI, you may encounter a variety of different users, in the following
+roles:
+
+- Organization Roles: If you're a Cobalt customer, your account may have one or more of the following roles:
+  - Organization Owner
+  - Organization Member
+  - Pentest Team Member
+
+- Pentester Roles: Cobalt pentesters who are assigned to your pentest have one of two roles:
+  - Lead
+  - Pentester
+
+  Some Cobalt pentesters may be a _Lead_ in one test, a _Pentester_ in a second test, and
+  possibly no role and no involvement in your other pentests.
+
+Select Cobalt employees may be assigned as administrators, as _Cobalt Staff_.
+
+You can review a list of permissions associated with each organization role in the following
+article: [What do the user roles mean?](https://cobaltio.zendesk.com/hc/en-us/articles/360057093472-What-do-the-user-roles-mean-).
+
+<!-- Per https://zombie.atlassian.net/browse/DOCS-5 I should add info from an internal
+spreadsheet, but need to find pull code in Hugo -->
+
+### Organization Owner
+
+An _Organization Owner_ is the administrator for a customer organization within the Cobalt app. As such, they can:
+
+- Add/remove the users of their choice, by their email addresses, as an _Organization Member_
+  or _Organization Owner_.
+- View collaborators, the members of their pentest team. That team includes:
+  - _Pentest Team Member_, typically an organization employee.
+  - _Pentest Lead_, the Cobalt pentester responsible for the pentest.
+  - _Pentester_, one or more additional Cobalt pentesters whose helping with the pentest.
+  Smaller pentests may only have a _Pentest Lead_.
+
+- An _Organization Owner_ may also be a [_Pentest Team Member_](#pentest-team-member).
+
+- If allowed by their {{% ptaas-tier %}}, they can also manage
+[multi-factor authentication (MFA)](#multi-factor-authentication) as well as
+[SAML](#security-assertion-markup-language) settings for the users in their organization.
+
+An _Organization Owner_ also has top-level (sudo) administrative privileges for their
+organizations in the Cobalt app.
+
+### Organization Member
+
+An _Organization Member_ is a user of the Cobalt App who can create an [asset](#asset) as well
+as a [pentest](#pentest). That user can also see the pentesters who are working on their asset.
+If allowed by their {{% ptaas-tier %}}, they can also manage integration with Jira and GitHub.
+
+- An _Organization Member_ may also be a [_Pentest Team Member_](#pentest-team-member).
+
+### Pentest Team Member
+
+A _Pentest Team Member_ is a customer (organization) representative during a specific pentest.
+That user can review and respond to each [finding](#finding) identified by a Cobalt _Pentester_ or _Pentest Lead_.
+
+That _Pentest Team Member_ can also add one or more users as a _Pentest Team Member_. 
+
+A _Pentest Team Member_ does not have to be an _Organization Owner_ or an _Organization Member_.
+
+### Pentest Lead
+
+A _Pentest Lead_ is a Cobalt pentester who leads other Cobalt pentesters in their efforts to test
+an asset. When applicable, the Pentest Lead also drafts the [pentest report](#pentest-report).
+
+### Pentester
+
+A _Pentester_ is a Cobalt pentester who works with a _Pentest Lead_ to test a specific asset.
+
+### Cobalt Staff
+
+Cobalt Staff members may help you manage the users in your organization. They may also help
+manage work on your pentests.
+
 ## Dynamic Page
 
 Web applications typically include _static_ and _dynamic_ web pages. A Dynamic Page includes content
@@ -140,6 +217,15 @@ screens fall into several archetypes.
 You may have multiple screens of an archtype. For example, you may have 10 mobile screens for
 the onboarding archtype.
 
+## Multi-factor Authentication
+<!-- `Multi-factor` is consistent with Google terminology  -->
+
+Authentication which uses two or more different factors, which may include:
+- Something you know, such as a password or a PIN number
+- Something you have, such as an identity token
+- Something you are, which works with biometric authentication
+<!-- source: https://csrc.nist.gov/glossary/term/mfa -->
+
 ## Open Web Application Security Project (OWASP)
 
 [OWASP](https://owasp.org) is a nonprofit foundation with "Top 10" security
@@ -156,14 +242,12 @@ wired, analog, or digital.
 Operations Security, commonly known as OpSec, identifies critical information, and if/how it
 may be used by opponents or enemies. OpSec measures can reduce security risks.
 
-## Org Owner
-
-A Cobalt term for users who have top-level (sudo) administrative privileges for their organizations
-in the Cobalt app.
-
 ## Pentest
 
-Short for penetration test.
+Short for penetration test. As described in the [Getting Started Guide](/getting-started/),
+you can draft a pentest. Once you submit it for review, Cobalt reviews your pentest and assigns
+a [Pentest Lead](#pentest-lead) and frequently one or more [Pentesters](#pentester) who then
+test the [asset](#asset) specified in your pentest.
 
 ## Pentest as a Service (PtaaS)
 
@@ -209,6 +293,12 @@ Contrast with [mitigate](#mitigate). This reflects how we use **remediate** at
 Cobalt, and differs slightly from the NIST definition of 
 [remediation](https://csrc.nist.gov/glossary/term/remediation).
 
+## Security Assertion Markup Language
+
+As defined by the Organization for the Advancement of Structured Information Standards (OASIS),
+the [Security Assertion Markup Language (SAML)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=security)
+SAML is an XML-based framework for communicating user authentication, entitlement, and attribute information. 
+
 ## SANS Institute
 
 Original sponsor of a set of standards for testing networks. SANS stands for SysAdmin, Audit,
@@ -229,7 +319,7 @@ A User Role specifies the permissions or privileges associated with a user. Comm
 - Full User
 - Guest
 
-This is not a comprehensive list. When scoping an Asset, include a complete list of user roles.
+When scoping an Asset, include a complete list of user roles.
 If you miss a user role, you may sacrifice quality in penetration testing. 
 
 ## Vulnerability
