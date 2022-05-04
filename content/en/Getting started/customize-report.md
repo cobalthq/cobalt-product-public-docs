@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-This feature may be limited to subscribers with specific [PtaaS Tiers](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Cobalt-PtaaS-Tiers).
+This feature may be limited to subscribers with a specific {{% ptaas-tier %}}.
 {{% /pageinfo %}}
 
 You can simplify what's included in your pentest reports. This page describes available pentest
@@ -45,7 +45,7 @@ To find and customize what you see in a report, take the following steps:
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Customer Letter               | An executive summary of the pentest. May be used as a certificate of completion. Great for external shareholders. Includes:<br>  <br>- Executive Summary <br>- Methodology |
 | Attestation Report            | Adds the following information to the customer letter: <br> <br>- Pentester user information <br>- An overall list of findings                                                                     |
-| Attestation Letter            | Includes the [executive summary](../what-to-expect/report-contents/executive-summary) as a formal letter, suitable for external stakeholders or customers                                                                     |
+| Attestation Letter            | Includes the [executive summary](/getting-started/what-to-expect/report-contents/#executive-summary) as a formal letter, suitable for external stakeholders or customers                                                                     |
 | Full Report                   | Includes the following report sections, beyond attestation:<br>  <br>- Executive Summary <br>- Scope of Work <br>- Methodology <br>- Summary of Findings <br>- Recommendations <br>- Post-Test Remediation     |
 | Full Report + Finding Details | Adds details of every test finding to the full report. Details include:<br>  <br>- Vulnerability Type <br>- Description <br>- Proof of Concept <br>- Severity <br>- Suggested Fix     | 
 
