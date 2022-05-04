@@ -19,7 +19,7 @@ results. Here's what you can expect:
 1. Add the colleagues of your choice to the Slack channel. Choose colleagues who can
    benefit from direct communication with our pentesters.
 1. We'll select the best available testers before the start of the pentest. The time we need
-   depends on your [PtaaS Tier](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Cobalt-PtaaS-Tiers)
+   depends on your {{% ptaas-tier %}}.
    and any special requirements you have.
    - As soon as we've selected your pentesters, and have moved your pentest from
      _In Review_ to _Planned_, you'll see them in your Slack channel.
@@ -58,7 +58,7 @@ results. Here's what you can expect:
 
    If you need access to the archived channel, contact your Customer Success Manager
    or support@cobalt.io.
-1. If you've purchased a qualifying [Cobalt PtaaS Tier](https://cobaltio.zendesk.com/hc/en-us/articles/4408839706132-Cobalt-PtaaS-Tiers), you can customize your Pentest report.
+1. If you've purchased a qualifying {{% ptaas-tier %}}, you can customize your Pentest report.
    However, we report _all_ findings. For more information, see the following blog post
    on how you can [Customize Your Pentest
    Reports](https://cobalt.io/blog/cobalt-platform-deep-dive-customize-your-pentest-reports-per-your-needs).
