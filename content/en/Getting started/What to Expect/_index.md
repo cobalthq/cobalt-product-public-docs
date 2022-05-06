@@ -19,8 +19,7 @@ results. Here's what you can expect:
 1. Add the colleagues of your choice to the Slack channel. Choose colleagues who can
    benefit from direct communication with our pentesters.
 1. We'll select the best available testers before the start of the pentest. The time we need
-   depends on your {{% ptaas-tier %}}.
-   and any special requirements you have.
+   depends on your {{% ptaas-tier %}} and any special requirements you have.
    - As soon as we've selected your pentesters, and have moved your pentest from
      _In Review_ to _Planned_, you'll see them in your Slack channel.
 1. You may get questions from your pentesters in Slack. You can also elaborate
