@@ -109,7 +109,7 @@ An _Organization Owner_ is the administrator for a customer organization within 
 - View collaborators, the members of their pentest team. That team includes:
   - _Pentest Team Member_, typically an organization employee.
   - _Pentest Lead_, the Cobalt pentester responsible for the pentest.
-  - _Pentester_, one or more additional Cobalt pentesters whose helping with the pentest.
+  - _Pentester_, one or more additional Cobalt pentesters who are helping with the pentest.
   Smaller pentests may only have a _Pentest Lead_.
 
 - An _Organization Owner_ may also be a [_Pentest Team Member_](#pentest-team-member).
@@ -336,7 +336,7 @@ Contrast with [Known Vulnerability](#known-vulnerability). A vulnerability may b
 The cyclical practice of identifying, classifying, remediating, and mitigating vulnerabilities.
 At Cobalt, we focus on manual pentests (enhanced with automated tools). Also see [Vulnerability
 Assessment and Management](https://niccs.cisa.gov/about-niccs/cybersecurity-glossary#V), as
-defined by the US Cybersecurity and Infrastructure Agency (CISA)
+defined by the US Cybersecurity and Infrastructure Agency (CISA).
 
 ## Vulnerability Report (Manual)
 

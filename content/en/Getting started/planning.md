@@ -11,8 +11,7 @@ Now you can set a date for the pentest.
 {{% /pageinfo %}}
 
 Depending on your {{% ptaas-tier %}},
-we can help you schedule pentests with a start date from at least one to three business days after
-after you select "Submit for Review."
+we can help you schedule pentests with a start date from at least one to three business days after you select "Submit for Review."
 
 <!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
 {{% big-pic-UI-steps %}}
