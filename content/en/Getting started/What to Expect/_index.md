@@ -8,6 +8,7 @@ description: >
 
 {{% pageinfo %}}
 Our pentesters share what they've found before they write your report.
+{{% min-credits-report %}}.
 {{% /pageinfo %}}
 
 Now that you've done all the work needed to set up a pentest, you might be anxious for
