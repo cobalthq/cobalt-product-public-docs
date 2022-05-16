@@ -3,14 +3,14 @@ title: "Customize Your Pentest Report"
 linkTitle: "Customize Your Report"
 weight: 310
 description: >
-  You may be able to customize your pentest report.
+  You may be able to create a customized pentest report.
 ---
 
 {{% pageinfo %}}
 This feature may be limited to subscribers with a specific {{% ptaas-tier %}}.
 {{% /pageinfo %}}
 
-You can simplify what's included in your pentest reports. This page describes available pentest
+You can modify what's included in your pentest reports. This page describes available pentest
 report types, along with what you can do to leave out one or more sections from your reports.
 
 In our application, we make pentest reports available when they're ready for 
@@ -48,5 +48,11 @@ To find and customize what you see in a report, take the following steps:
 | Attestation Letter            | Includes the [executive summary](/getting-started/what-to-expect/report-contents/#executive-summary) as a formal letter, suitable for external stakeholders or customers                                                                     |
 | Full Report                   | Includes the following report sections, beyond attestation:<br>  <br>- Executive Summary <br>- Scope of Work <br>- Methodology <br>- Summary of Findings <br>- Recommendations <br>- Post-Test Remediation     |
 | Full Report + Finding Details | Adds details of every test finding to the full report. Details include:<br>  <br>- Vulnerability Type <br>- Description <br>- Proof of Concept <br>- Severity <br>- Suggested Fix     | 
+| Customized Report             | After you customize a report, you'll see this option. You can start from any of the other report templates, except the Attestation Letter. |
 
+{{% alert title="Note" color="note" %}}
+Unless you've customized a report, you won't see a Customized Report option.
+If you repeat the process, you'll overwrite any existing Customized Report.
+{{% /alert %}}
+ 
 {{% attestation-letter %}}
