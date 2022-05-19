@@ -30,11 +30,11 @@ You can set your assets to one of five sizes:
 
 | Size        | Default Credits |
 |-------------|:---------------:|
-| Extra Small | 1               |
-| Small       | 2               |
-| Medium      | 3               |
-| Large       | 4               |
-| Extra Large | 5               |
+| Extra Small | 4               |
+| Small       | 8               |
+| Medium      | 12              |
+| Large       | 16              |
+| Extra Large | 20              |
 
 
 ### Coverage Levels and Credits
@@ -62,13 +62,13 @@ or "Extra Light" coverage of an "Extra Small" asset.
 The following table specifies the number of credits associated with
 different asset sizes and coverage levels:
 
-|             | Extra Light | Light | Standard | Large | Extra Large |
-|-------------|:-----------:|:-----:|:--------:|:-----:|:-----------:|
-| Extra Small | X           | X     | 1        | 2     | 3           |
-| Small       | X           | 1     | 2        | 3     | 4           |
-| Medium      | 1           | 2     | 3        | 4     | 5           |
-| Large       | 2           | 3     | 4        | 5     | 6           |
-| Extra Large | 3           | 4     | 5        | 6     | 7           |
+|             | Extra Light | Light | Standard | Large | Extra Large  |
+|-------------|:-----------:|:-----:|:--------:|:-----:|:------------:|
+| Extra Small | X           | X     | 4        | 8     | 12           |
+| Small       | X           | 4     | 8        | 12    | 16           |
+| Medium      | 4           | 8     | 12       | 16    | 20           |
+| Large       | 8           | 12    | 16       | 20    | 24           |
+| Extra Large | 12          | 16    | 20       | 24    | 28           |
 
 ### Pentest Reports
 

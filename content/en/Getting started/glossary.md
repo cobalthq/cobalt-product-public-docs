@@ -282,6 +282,8 @@ A summary of all vulnerability reports, including observations on positive secur
 
 Within Cobalt, this is also known as a Report or a Final Report.
 
+{{% min-credits-report %}}
+
 ## Remediate
 
 To fix a vulnerability identified by a pentest or incident report. Examples:
