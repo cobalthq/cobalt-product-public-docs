@@ -69,3 +69,5 @@ you can [expect](./what-to-expect).
 
 Assuming you've received an email invitation, take the next step.
 [Sign in to Cobalt](./sign-in).
+
+This is a test paragraph.
