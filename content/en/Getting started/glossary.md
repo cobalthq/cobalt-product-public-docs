@@ -102,6 +102,13 @@ spreadsheet, but need to find pull code in Hugo -->
 
 ### Organization Owner
 
+In the Cobalt UI, you'll see this user role as "Owner". Users in that role can:
+
+- Manage users and settings 
+- Create and edit assets and pentests
+
+{{%expand "Learn more." %}}
+
 An _Organization Owner_ is the administrator for a customer organization within the Cobalt app. As such, they can:
 
 - Add/remove the users of their choice, by their email addresses, as an _Organization Member_
@@ -121,13 +128,24 @@ An _Organization Owner_ is the administrator for a customer organization within 
 An _Organization Owner_ also has top-level (sudo) administrative privileges for their
 organizations in the Cobalt app.
 
+{{% /expand%}}
+
 ### Organization Member
+
+In the Cobalt UI, you'll see this user role as "Member". Users in that role can:
+
+- View users and settings 
+- Create and edit assets and pentests
+
+{{%expand "Learn more." %}}
 
 An _Organization Member_ is a user of the Cobalt App who can create an [asset](#asset) as well
 as a [pentest](#pentest). That user can also see the pentesters who are working on their asset.
 If allowed by their {{% ptaas-tier %}}, they can also manage integration with Jira and GitHub.
 
 - An _Organization Member_ may also be a [_Pentest Team Member_](#pentest-team-member).
+
+{{% /expand%}}
 
 ### Pentest Team Member
 
@@ -149,7 +167,7 @@ A _Pentester_ is a Cobalt pentester who works with a _Pentest Lead_ to test a sp
 
 ### Cobalt Staff
 
-Cobalt Staff members may help you manage the users in your organization. They may also help
+_Cobalt Staff_ members may help you manage the users in your organization. They may also help
 manage work on your pentests.
 
 ## Dynamic Page
