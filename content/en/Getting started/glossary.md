@@ -167,7 +167,7 @@ A _Pentester_ is a Cobalt pentester who works with a _Pentest Lead_ to test a sp
 
 ### Cobalt Staff
 
-Cobalt Staff members may help you manage the users in your organization. They may also help
+_Cobalt Staff_ members may help you manage the users in your organization. They may also help
 manage work on your pentests.
 
 ## Dynamic Page
