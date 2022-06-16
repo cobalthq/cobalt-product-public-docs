@@ -139,7 +139,7 @@ In the Cobalt UI, you'll see this user role as "Member". Users in that role can:
 
 {{%expand "Learn more." %}}
 
-An _Organization Member_ is a user of the Cobalt App who can create an [asset](#asset) as well
+An _Organization Member_ is a user of the Cobalt app who can create an [asset](#asset) as well
 as a [pentest](#pentest). That user can also see the pentesters who are working on their asset.
 If allowed by their {{% ptaas-tier %}}, they can also manage integration with Jira and GitHub.
 
