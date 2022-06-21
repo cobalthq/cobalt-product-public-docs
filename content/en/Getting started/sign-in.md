@@ -19,7 +19,7 @@ You've just received an email with the following title:
 Welcome to the Cobalt Platform: Let's Get Started
 ```
 {{% alert title="Note" color="note" %}}
-SAML-based single sign-on (SSO) is available to all <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tiers</a>.
+SAML-based single sign-on (SSO) availability is based on your <!-- is available to all --> <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tier</a>.
 {{% /alert %}}
 
 Open the email. It should include a link to Get Started:
