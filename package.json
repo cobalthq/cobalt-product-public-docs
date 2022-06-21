@@ -18,6 +18,10 @@
   "homepage": "https://github.com/google/docsy-example#readme",
   "devDependencies": {
     "autoprefixer": "^9.8.6",
+    "markdownlint": "^0.25.1",
     "postcss-cli": "^7.1.2"
+  },
+  "dependencies": {
+    "markdownlint-cli": "^0.31.1"
   }
 }

@@ -18,6 +18,9 @@ You've just received an email with the following title:
 ```
 Welcome to the Cobalt Platform: Let's Get Started
 ```
+{{% alert title="Note" color="note" %}}
+SAML-based single sign-on (SSO) is available to all {{% ptaas-tier %}}s.
+{{% /alert %}}
 
 Open the email. It should include a link to Get Started:
 
