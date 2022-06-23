@@ -125,6 +125,8 @@ An _Organization Owner_ is the administrator for a customer organization within 
 [multi-factor authentication (MFA)](#multi-factor-authentication) as well as
 [SAML](#security-assertion-markup-language) settings for the users in their organization.
 
+- If an _Organization Owner_ represents a partner company that manages pentests for third parties, they can enable [co-branded pentest reports](../checklist/#co-branded-reports).
+
 An _Organization Owner_ also has top-level (sudo) administrative privileges for their
 organizations in the Cobalt app.
 

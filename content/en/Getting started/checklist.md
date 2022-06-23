@@ -51,6 +51,12 @@ Under the Asset tab, you can review:
 {{% pentest-report-requirements %}}
 <!-- For content, see the following file: layouts/shortcodes/pentest-report-requirements.html -->
 
+### Co-branded Reports
+
+If your organization manages pentests for third parties, you can add your company logo to all reports. In co-branded reports, your company logo appears next to the Cobalt logo.
+
+An [_Organization Owner_](../glossary/#organization-owner) of a partner company can enable co-branded reports. Navigate to the **Settings** tab in your dashboard, and scroll down to the **Report Branding** section.
+
 ## When You're Ready
 
 If you're ready with your pentest, select **Submit for Review**.
