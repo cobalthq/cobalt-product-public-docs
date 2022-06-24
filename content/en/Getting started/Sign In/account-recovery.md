@@ -26,12 +26,12 @@ Follow these steps:
 
 1. On the page prompting you to enter a one-time code, select **Start account recovery process**.
 
-1. Once you get an email with a recovery code, enter the code, and select **Verify**.
+1. Once you get an email with a one-tme verification code, enter the code, and select **Verify**.
 
 1. Your _Organization Owner_ gets notified and turns off 2FA for your account.
    - If you are the only _Organization Owner_, we'll turn off 2FA for you.
 
-1. You get an email notification confirming that 2FA was turned off.
+1. You get an email notification confirming that your 2FA settings were updated.
 
 1. You can now sign in without a second authentication factor.
    - If your organization enforces 2FA, enable it upon signing in.
@@ -47,10 +47,9 @@ As an [_Organization Owner_](../../glossary/#organization-owner), you can turn o
 1. On the **People** page of your dashboard, locate the user who submitted the request.
 
 1. Select the three-dot icon on the right, and then select **Turn Off 2FA**.
+   - We verified the user's identity with a one-time verification code. However, we recommend that you verify their identity again before turning off 2FA.
 
 1. Select **Confirm** in the overlay that appears.
-
-1. You get an email notification confirming that 2FA was turned off for a user.
 
 ## Forgot Your Password
 
