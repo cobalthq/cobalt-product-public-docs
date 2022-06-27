@@ -52,7 +52,7 @@ Now you can:
 
 1. Select **Create a Pentest**. Now proceed to the next step, [Define Your Assets](../assets).
 
-## Authentication
+## Two-Factor Authentication
 
 We support two-factor authentication. After you sign in, select the icon in the upper-right
 corner and select **Security Settings**.
