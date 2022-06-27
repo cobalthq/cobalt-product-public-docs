@@ -26,7 +26,7 @@ Follow these steps:
 
 1. On the page prompting you to enter a one-time code, select **Start account recovery process**.
 
-1. Once you get an email with a one-tme verification code, enter the code, and select **Verify**.
+1. Once you get an email with a one-time verification code, enter the code, and select **Verify**.
 
 1. Your _Organization Owner_ gets notified and turns off 2FA for your account.
    - If you are the only _Organization Owner_, we'll turn off 2FA for you.
