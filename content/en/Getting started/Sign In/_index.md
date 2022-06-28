@@ -18,9 +18,6 @@ You've just received an email with the following title:
 ```
 Welcome to the Cobalt Platform: Let's Get Started
 ```
-{{% alert title="Note" color="note" %}}
-SAML-based single sign-on (SSO) availability is based on your <!-- is available to all --> <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tier</a>.
-{{% /alert %}}
 
 Open the email. It should include a link to Get Started:
 
@@ -41,18 +38,31 @@ Now you can:
 
 1. Once you've set a password, you should see the Cobalt app.
 
-1. The next time you want to sign in, navigate to https://app.cobalt.io.
-   - Your username is your email address.
+1. Next time you can sign in to Cobalt in the following ways:
+   - From the {{% sign-in %}} page, with:
+      - A username and password. Your username is your email address.
+      - A Google account that you used to sign in to Cobalt
+      ![Cobalt Sign In page](/gsg/SignIn.png "Cobalt Sign In page")
+   - Through [SAML SSO](#saml-sso), if configured
 
-   ![Cobalt Sign In Screen](/gsg/SignIn.png "sign in")
+## SAML SSO
 
-   <br>
+We support single sign-on (SSO) based on [Security Assertion Markup Language](../glossary/#security-assertion-markup-language) 2.0 (SAML 2.0). Once enabled, you can sign in to the Cobalt app through a third-party identity provider selected by your company.
 
-   You can now use the Cobalt app to start setting up a Pentest.
+{{% alert title="Note" color="note" %}}
+SAML-based single sign-on (SSO) is available to all <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tiers</a>.
+{{% /alert %}}
 
-1. Select **Create a Pentest**. Now proceed to the next step, [Define Your Assets](../assets).
+Once your [_Organization Owner_](../glossary/#organization-owner) has configured SAML SSO, you need to sign in to the Cobalt app through the identity provider instead of the Cobalt {{% sign-in %}} page. Procedures differ for each identity provider.
+
+Learn more about [configuring SAML SSO](https://cobaltio.zendesk.com/hc/en-us/sections/360012774052--SAML-SSO-).
 
 ## Two-Factor Authentication
 
-We support two-factor authentication. After you sign in, select the icon in the upper-right
-corner and select **Security Settings**.
+We support two-factor authentication (2FA). After you sign in, select the profile icon in the upper-right corner, and then select **Security Settings**.
+
+If you’re using [SAML SSO](#saml-sso) to sign in, you don’t need to turn on 2FA.
+
+## Next Step
+
+You can now start setting up a Pentest. Select **Create a Pentest**, and proceed to the next step to [define your assets](../assets).
