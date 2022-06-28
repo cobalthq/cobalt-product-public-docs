@@ -13,9 +13,9 @@ Navigate to the **Credits** tab to analyze how your company uses Cobalt [credits
 Here, you can see the following:
 
 - Current credit balance
-- {{% ptaas-tier %}} shown as "Subscription Plan"
 - Contract end date showing when your credits expire
 - History of pending and completed credit transactions
+  - You may also see your {{% ptaas-tier %}} shown as "Subscription Plan".
 
 Whenever the credit balance changes, the transaction history updates with the following details:
 
