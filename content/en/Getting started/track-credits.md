@@ -27,4 +27,4 @@ Whenever the credit balance changes, the transaction history updates with the fo
 - Transaction amount showing the number of added or subtracted credits
 - Number of credits remaining on the account balance once the transaction is completed
 
-To download the history of your transactions in CSV format, select **Download CSV**. You can import the file into the spreadsheet software of your choice.
+To download the history of completed transactions in CSV format, select **Download CSV**. You can import the file into the spreadsheet software of your choice.
