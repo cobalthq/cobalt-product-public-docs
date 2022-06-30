@@ -15,7 +15,7 @@ The **Let's get started!** screen includes two options:
 - **Create a new pentest from an existing asset**
   - This option opens a drop-down text box. Use it to select from assets that you've
     created. It populates the Asset screen with available information.
-- **Create a new pentest for a new asset**.
+- **Create a new pentest for a new asset**
 
 <!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
 {{% big-pic-UI-steps %}}
@@ -30,7 +30,7 @@ You can access the UI to define your assets in the following ways:
 
 - Select Assets in the left-hand pane, and select New Asset.
 - Select Assets or Pentests in the left-hand pane, and select Create a Pentest.
-  When you set up a pentest, the wizard allows you to define an asset. 
+  When you set up a pentest, the wizard allows you to define an asset.
 
 This Getting Started Guide assumes that you're setting up an asset as part of
 setting up a pentest.
@@ -46,7 +46,7 @@ The asset screen prompts you for the following information:
 - [Asset Description](./asset-description): Add information that can help your
   pentesters fully analyze your asset.
 - [Asset Documentation](./asset-description/#asset-documentation): Upload documentation,
-  architecture diagrams, images, spreadsheets, videos related to your asset.
+  architecture diagrams, images, spreadsheets, or videos related to your asset.
 
 The UI provides the information that you need to add an Asset Image and Title.
 Now take the next step and define your [Asset Type](./asset-type).
