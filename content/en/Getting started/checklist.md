@@ -66,7 +66,7 @@ An [_Organization Owner_](../glossary/#organization-owner) of a partner company 
 <li>List of client organizations you manage</li>
 <li>Reason: Enable partner co-branding functionality</li></ul></li>
 
-<li>Once we've processed your request, you become a <i>Cobalt Partner</i>, which you can verify on the <b>People</b> tab next to your name.</li>
+<li>Once we've processed your request, you get access to specific functionality as a <i>Cobalt Partner</i>, which you can verify on the <b>People</b> tab next to your name.</li>
 
 <li>To enable co-branded reports for an organization you manage:
 <ul><li>Select the organization in the upper-left corner.</li>
