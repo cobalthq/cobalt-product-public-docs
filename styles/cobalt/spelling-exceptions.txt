@@ -872,3 +872,5 @@ Zendesk
 ZenTao
 zsh
 Zstandard
+
+<!--This file was created by [GitLab](https://about.gitlab.com/), licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/). We modified the file content to include Cobalt spelling exceptions.-->
