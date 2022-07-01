@@ -28,7 +28,7 @@ we reserve the right to start the pentest later than the flow time specified in 
 
 ## Additional Requests
 
-You can also specify special requirements for pentesters. For example, if
+You can also add special requirements for pentesters. For example, if
 industry, company, or national regulations require that you limit pentesters
 to residents of one or more countries, you can do so here:
 
