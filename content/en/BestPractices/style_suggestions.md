@@ -16,16 +16,18 @@ While you don't need to define common technical concepts like _domain name_ and
 _IP address_, we recommend that you use links to help define more complex terms
 like [Server Side Request Forgery](https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/).
 
-To promote readability, use the following checklist. 
+To promote readability, use the following checklist:
 
 - Write in plain English. Provide brief descriptions for technical terms that
   our audience of developers may not know.
 - Stay positive. Avoid words like `don't` or `can't`. Readers frequently miss
   the `not` in a sentence.
+- Consider using our implementation of [Vale](../../../GrammarLinter.md). When
+  integrated with your IDE, it highlights writing styles that we want you to
+follow.
 
 - Keep your sentences relatively short. Our implementation of
-  [Vale](../../../GrammarLinter.md)
-discourages the use of sentences of more than 28 words.
+  [Vale](../../../GrammarLinter.md) discourages the use of sentences of more than 28 words.
 - Use active voice and the present tense. Examples:
   - Run the _ps_ command.
   - Include a second factor for authentication.
