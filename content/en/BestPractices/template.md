@@ -11,6 +11,10 @@ description: >
   <Substitute the description of your choice.>
 ---
 
+We include this template for your convenience. You're welcome to copy this file
+(and change the file name) to help you write your article. Examine the source
+code for this article, as you'll see some help text in comments.
+
 <!-- For the title:
 
 - If you want to address the OWASP item in general, use the name of the OWASP Top 10 item
@@ -32,13 +36,13 @@ Introduce your topic to our audience of developers. While they'll certainly unde
 
 Describe how problems might happen. Include consequences. When possible, incorporate code samples and commands. Developers are known to focus on code samples and commands as patterns (and anti-patterns).
 
-## Prevent <Name of Problem>
+## Prevention <or Prevent Name of Problem>
 
 Address each example. If you've included code samples and commands earlier, include related samples to illustrate "good" patterns.
 
 You could also set up a table of "bad" and "good" patterns.
 
-## Alternative Solution 
+## Alternatives
 
 You could combine Examples and Prevention in different scenarios; some authors have organized articles with the following outline:
 
