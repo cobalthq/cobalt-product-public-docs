@@ -12,7 +12,7 @@ description: >
 ---
 
 We include this template for your convenience. You're welcome to copy this file
-(and change the file name) to help you write your article. Examine the source
+(and change the filename) to help you write your article. Examine the source
 code for this article, as you'll see some help text in comments.
 
 <!-- For the title:
