@@ -3,14 +3,14 @@ title: "What's in a Pentest Report"
 linkTitle: "Contents of a Pentest Report"
 weight: 310
 description: >
-  Here's what can you expect in a Pentest Report.
+  Here's what you can expect in a Pentest Report.
 ---
 
 {{% pageinfo %}}
 Our pentest reports include what you need to further secure your systems.
 {{% /pageinfo %}}
 
-We provide following types of pentest reports:
+We provide the following types of pentest reports:
 
 <!-- Find the content of this variable in the layouts/shortcodes directory -->
 {{% pentest-report-types %}}
@@ -136,7 +136,7 @@ Where applicable, we also include a list of open ports and services.
 
 ### General Risk Profile
 
-We include a color coded chart based on impact and likelihood of each vulnerability.
+We include a color-coded chart based on impact and likelihood of each vulnerability.
 <!-- I'd include an example, but what I see doesn't present well in the build -->
 
 ## Recommendations

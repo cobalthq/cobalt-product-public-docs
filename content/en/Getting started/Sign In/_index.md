@@ -48,7 +48,7 @@ Now you can:
 
    <br>
 
-   You can now use the Cobalt app to start setting up a Pentest.
+   You can now use the Cobalt app to start setting up a pentest.
 
 1. Select **Create a Pentest**. Now proceed to the next step, [Define Your Assets](../assets).
 
