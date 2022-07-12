@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Refer to this page if you lose access to your authenticator app or forget your password. If you have problems signing in through SAML SSO, contact your administrator for help.
+Refer to this page if you lose access to your authenticator app or forget your password. If you have problems signing in through [SAML SSO](../#saml-sso), contact your administrator for help.
 {{% /pageinfo %}}
 
 ## Lost Access to Your Authenticator
