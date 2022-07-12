@@ -1,1 +1,1 @@
-[PtaaS Tier](https://www.cobalt.io/pentest-pricing)
+[PtaaS tier](https://www.cobalt.io/pentest-pricing)

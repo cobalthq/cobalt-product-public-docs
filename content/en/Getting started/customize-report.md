@@ -17,10 +17,10 @@ In our application, we make pentest reports available when they're ready for
 [Remediation](../../penteststates/), or when they're [Closed](../../penteststates/). 
 To find and customize what you see in a report, take the following steps:
 
-1. Select **Pentests**, select the **State** dropdown box, and select **Remediation**.
+1. Select **Pentests**, select the **State** list, and select **Remediation**.
 
 1. Now select your pentest, and select the **Report** tab. You'll see report sections,
-   along with a drop-down option that allows you to select from the [Pentest Report
+   along with the **Report** list that allows you to select from the [Pentest Report
    Types](#pentest-report-types) shown in the linked table.
 
    <!-- I think this is better without the screenshot   
