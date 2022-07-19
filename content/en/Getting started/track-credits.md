@@ -15,7 +15,7 @@ Here, you can see the following:
 - Current credit balance
 - Contract end date showing when your credits expire
 - History of pending and completed credit transactions
-  - You may also see your {{% ptaas-tier %}} shown as "Subscription Plan".
+  - You may also see your {{% ptaas-tier %}} shown as "Subscription Plan."
 
 Whenever the credit balance changes, the transaction history updates with the following details:
 
