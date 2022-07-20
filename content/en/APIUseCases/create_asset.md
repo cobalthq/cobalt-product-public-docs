@@ -1,5 +1,5 @@
 ---
-title: "Use our API to Create an Asset"
+title: "Use Our API to Create an Asset"
 linkTitle: "Create an Asset"
 weight: 110
 description: >
@@ -11,8 +11,10 @@ Use this document with our [Cobalt API documentation](https://docs.cobalt.io) to
 manage assets and pentests.
 {{% /pageinfo %}}
 
-To create an [asset](../../getting-started/glossary/#asset) with our API, you'll
-run the following general steps:
+<!-- Future task: set up variables for `YOUR-PERSONAL-API-TOKEN` and
+`YOUR-V2-ORGANIZATION-TOKEN`. May support automated populating of REST calls. -->
+
+This page describes how you can use our API To create an [asset](../../getting-started/glossary/#asset). 
 
 ## Create an API Token in the Cobalt UI
 
@@ -26,6 +28,9 @@ run the following general steps:
 Save the API Token. After you exit the modal, you won't see the full token again.
 If you lose it, you may have to revoke the token and start over.
 
+Substitute the API Token for `YOUR-PERSONAL-API-TOKEN` in the REST calls
+described on this page.
+
 ## Use the API Token to authorize access 
 
 Next, you can use the API Token to authorize access to our other endpoints. Take
@@ -38,6 +43,7 @@ curl https://api.cobalt.io/orgs \
      -H "Authorization: Bearer YOUR-PERSONAL-API-TOKEN"
 ```
 
+{{%expand "Review sample output." %}}
 You should see output similar to:
 
 ```
@@ -49,8 +55,8 @@ You should see output similar to:
   "data": [
     {
       "resource": {
-"id": "some_id",
-"name": "Saxophone - Alto",
+        "id": "some_id",
+        "name": "Saxophone - Alto",
         "token": "YOUR-V2-ORGANIZATION-TOKEN"
       },
       "links": {
@@ -62,8 +68,10 @@ You should see output similar to:
   ]
 }
 ```
-
-From this output, save the `api_org_token`.
+{{% /expand %}}
+  
+From the output, save the value for `token`. That is your organization token.
+In our API documentation, you'll see this as `YOUR-V2-ORGANIZATION-TOKEN`.
 
 For more information, see our API reference documentation on the
 [organizations](https://docs.cobalt.io/v2/#organizations) `orgs` endpoint.
@@ -88,7 +96,7 @@ curl -X POST "https://api.cobalt.io/assets" \
   -v
   --data '{
             "title": "Test Asset",
-            "description": "Lorem ipsum",
+            "description": "How to describe the asset to our pentesters",
             "asset_type": "web"
           }'
 ```
@@ -107,11 +115,58 @@ results, which is why I recommend a `-v` -->
 | Message    | Meaning          |
 |------------|------------------|
 | HTTP/2 201 | Asset created    |
+| HTTP/2 401 | No asset created. Check the value of your API Token|
+| HTTP/2 404 | No asset created. Check the value of YOUR-V2-ORGANIZATION-TOKEN|
 | HTTP/2 409 | No asset created |
 
+<!-- Maybe this table really belongs in our API reference? -->
 
 ## Confirm Your New Asset
 
+You can now confirm your new Asset through the UI. But to add more information
+to your Asset, you'll need the Asset ID. In this section, you'll learn how to
+find that ID over REST.
 
+Start by running the REST call to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets):
+
+```
+curl -X GET "https://api.cobalt.io/assets" \
+  -H "Accept: application/vnd.cobalt.v2+json" \
+  -H "Authorization: Bearer YOUR-PERSONAL-API-TOKEN" \
+  -H "X-Org-Token: YOUR-V2-ORGANIZATION-TOKEN"
+```
+
+If you've set up more than one Asset, you may need to search through the output.
+For more information about each Asset response field, see our API documentation
+reference to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets).
+
+{{% expand "Review sample output." %}}
+```
+{
+  "data": {
+    "resource": {
+      "id": "RESOURCE-ID",
+      "title": "Test Asset",
+      "description": "How to describe the asset to our pentesters",
+      "asset_type": "web",
+      "logo": null,
+      "attachments": []
+    },
+    "links": {
+      "ui": {
+        "url": "https://api.cobalt.io/links/<endpoint for the asset>"
+      }
+    }
+  }
+}
+```
+{{% /expand %}}
+
+Before you can update the asset with more information, you need the `id` for the
+Asset. If you've set up more than one Asset, you'll need to identify the `title`
+that you used when you [created the asset](#create-an-asset).
 
 ## Update Your Asset With Details
+
+Now that you've created an Asset, you may want to add more information. Now that
+you've 
