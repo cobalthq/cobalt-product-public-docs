@@ -11,8 +11,6 @@ link: https://about.gitlab.com/handbook/communication/#top-misused-terms
 level: error
 ignorecase: true
 swap:
-  asset: Asset
-  assets: Assets
   Cobalt App: Cobalt app
   codequality: code quality
   Customer [Pp]ortal: Customers Portal
