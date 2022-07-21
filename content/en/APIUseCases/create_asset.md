@@ -40,7 +40,8 @@ Substitute that value for `YOUR-PERSONAL-API-TOKEN`:
 ```
 curl https://api.cobalt.io/orgs \
      -H "Accept: application/vnd.cobalt.v2+json" \
-     -H "Authorization: Bearer YOUR-PERSONAL-API-TOKEN"
+     -H "Authorization: Bearer YOUR-PERSONAL-API-TOKEN" \
+     | jq .
 ```
 
 {{%expand "Review sample output." %}}
@@ -83,7 +84,7 @@ Now that you have the following information:
 - `YOUR-PERSONAL-API-TOKEN`
 - `YOUR-V2-ORGANIZATION-TOKEN` 
 
-You can create an [Asset](../getting-started/glossary/#asset) with the following
+You can create an [asset](../getting-started/glossary/#asset) with the following
 REST call:
 
 ```
@@ -119,21 +120,21 @@ results, which is why I recommend a `-v` -->
 | HTTP/2 404 | No asset created. Check the value of YOUR-V2-ORGANIZATION-TOKEN|
 | HTTP/2 409 | No asset created |
 
-<!-- Maybe this table really belongs in our API reference? -->
+<!-- Maybe this table really belongs in our API reference, next to
+https://docs.cobalt.io/v2/#errors?  -->
 
 ## Confirm Your New Asset
 
-You can now confirm your new Asset through the UI. But to add more information
-to your Asset, you'll need the Asset ID. In this section, you'll learn how to
-find that ID over REST.
-
-Start by running the REST call to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets):
+You can now confirm your new asset through the UI. But to add more information
+to your asset, you'll need the asset ID. You can find this ID with the REST call
+to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets):
 
 ```
 curl -X GET "https://api.cobalt.io/assets" \
   -H "Accept: application/vnd.cobalt.v2+json" \
   -H "Authorization: Bearer YOUR-PERSONAL-API-TOKEN" \
-  -H "X-Org-Token: YOUR-V2-ORGANIZATION-TOKEN"
+  -H "X-Org-Token: YOUR-V2-ORGANIZATION-TOKEN" \
+  | jq .
 ```
 
 If you've set up more than one Asset, you may need to search through the output.
@@ -162,11 +163,67 @@ reference to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets).
 ```
 {{% /expand %}}
 
-Before you can update the asset with more information, you need the `id` for the
-Asset. If you've set up more than one Asset, you'll need to identify the `title`
-that you used when you [created the asset](#create-an-asset).
+If you've set up more than one asset, you'll see the `id` in the same
+code block as the `title`, which you may have used to [create the asset](#create-an-asset).
 
-## Update Your Asset With Details
+Save the value of the asset `id` as `YOUR-ASSET-IDENTIFIER`. You'll use that ID,
+which starts with `as_`, when updating or uploading information to your asset.
 
-Now that you've created an Asset, you may want to add more information. Now that
-you've 
+## Add or Modify Asset Details
+
+Now that you've created an asset and have the asset ID, you can add more
+information with the following REST call:
+
+
+```
+curl -X PUT 'https://api.cobalt.io/assets/YOUR-ASSET-IDENTIFIER' \
+  -H 'Accept: application/vnd.cobalt.v2+json' \
+  -H 'Authorization: Bearer YOUR-PERSONAL-API-TOKEN' \
+  -H 'Content-Type: application/vnd.cobalt.v2+json' \
+  -H 'X-Org-Token: YOUR-V2-ORGANIZATION-TOKEN' \
+  --data '{
+            "title": "Updated title",
+            "description": "Updated description",
+            "asset_type": "web",
+            "size": "m",
+            "coverage": "standard"
+          }' \
+  -v
+```
+
+When you review the output of the REST call with the `-v`, look for the line
+with `HTTP/2`. You'll see one of the following lines:
+<!-- The output is associated with a `201` message, which doesn't include
+results, which is why I recommend a `-v` -->
+
+| Message    | Meaning          |
+|------------|------------------|
+| HTTP/2 201 | Asset created    |
+| HTTP/2 401 | No asset created. Check the value of your API Token|
+| HTTP/2 404 | No asset created. Check the value of YOUR-V2-ORGANIZATION-TOKEN|
+| HTTP/2 409 | No asset created |
+
+
+## Include an Asset Attachment
+
+You can help our pentesters by including images or even PDFs. As noted in our
+[Asset Documentation](../getting-started/assets/asset-description/#asset-documentation),
+you can upload several kinds of files through our UI. You can also upload the
+same types of files through our API. 
+
+As an example, the following command uploads the `image.jpg` file as asset
+documentation:
+
+```
+curl -X POST 'https://api.cobalt.io/assets/YOUR-ASSET-IDENTIFIER/attachments' \
+  -H 'Accept: application/vnd.cobalt.v2+json' \
+  -H 'Authorization: Bearer YOUR-PERSONAL-API-TOKEN' \
+  -H 'Content-Type: multipart/form-data' \
+  -H 'Idempotency-Key: A-UNIQUE-IDENTIFIER-TO-PREVENT-UNINTENTIONAL-DUPLICATION' \
+  -H 'X-Org-Token: YOUR-V2-ORGANIZATION-TOKEN' \
+  --form 'attachment=@"/path/to/image.jpg"' \
+  -v
+```
+
+As with [Add or Modify Asset Details](#add-or-modify-asset-details), you'll see
+no output when you run a properly formatted version of this command.

@@ -52,3 +52,6 @@ read the output:
 }
 
 ```
+
+For your convenience, we include `| jq .` in all of our sample REST calls that
+provide actual output.
