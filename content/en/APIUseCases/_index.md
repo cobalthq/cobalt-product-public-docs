@@ -3,7 +3,7 @@ title: "API Use Cases"
 linkTitle: "API Use Cases"
 weight: 100
 description: >
-  Practical uses for our API.
+  Includes practical uses for our API.
 ---
 
 {{% pageinfo %}}

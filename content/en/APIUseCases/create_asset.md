@@ -34,8 +34,7 @@ described on this page.
 ## Use the API Token to authorize access 
 
 Next, you can use the API Token to authorize access to our other endpoints. Take
-the API Token that you [generated](#create-an-api-token-in-the-cobalt-ui).
-Substitute that value for `YOUR-PERSONAL-API-TOKEN`:
+the API Token that you [generated](#create-an-api-token-in-the-cobalt-ui). Substitute that value for `YOUR-PERSONAL-API-TOKEN`:
 
 ```
 curl https://api.cobalt.io/orgs \
@@ -84,8 +83,7 @@ Now that you have the following information:
 - `YOUR-PERSONAL-API-TOKEN`
 - `YOUR-V2-ORGANIZATION-TOKEN` 
 
-You can create an [asset](../getting-started/glossary/#asset) with the following
-REST call:
+You can create an [asset](../getting-started/glossary/#asset) with the following REST call:
 
 ```
 curl -X POST "https://api.cobalt.io/assets" \
@@ -94,12 +92,12 @@ curl -X POST "https://api.cobalt.io/assets" \
   -H 'Content-Type: application/vnd.cobalt.v2+json' \
   -H 'Idempotency-Key: A-UNIQUE-IDENTIFIER-TO-PREVENT-UNINTENTIONAL-DUPLICATION' \
   -H 'X-Org-Token: YOUR-V2-ORGANIZATION-TOKEN' \
-  -v
   --data '{
             "title": "Test Asset",
             "description": "How to describe the asset to our pentesters",
             "asset_type": "web"
-          }'
+          }' \
+  -v
 ```
 
 For more information on each parameter, see our API Reference documentation on
@@ -123,11 +121,10 @@ results, which is why I recommend a `-v` -->
 <!-- Maybe this table really belongs in our API reference, next to
 https://docs.cobalt.io/v2/#errors?  -->
 
-## Confirm Your New Asset
+## Find Your Asset ID
 
-You can now confirm your new asset through the UI. But to add more information
-to your asset, you'll need the asset ID. You can find this ID with the REST call
-to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets):
+To add or modify or information related to your asset, you'll need the asset ID.
+You can find this ID with the REST call to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets):
 
 ```
 curl -X GET "https://api.cobalt.io/assets" \
@@ -146,7 +143,7 @@ reference to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets).
 {
   "data": {
     "resource": {
-      "id": "RESOURCE-ID",
+      "id": "YOUR-ASSET-IDENTIFIER",
       "title": "Test Asset",
       "description": "How to describe the asset to our pentesters",
       "asset_type": "web",
@@ -190,6 +187,9 @@ curl -X PUT 'https://api.cobalt.io/assets/YOUR-ASSET-IDENTIFIER' \
           }' \
   -v
 ```
+
+You can find optional values for `size` and `coverage` in our API reference on
+how to [Update an Asset](https://docs.cobalt.io/v2/#update-an-asset).
 
 When you review the output of the REST call with the `-v`, look for the line
 with `HTTP/2`. You'll see one of the following lines:
