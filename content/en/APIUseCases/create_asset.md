@@ -31,7 +31,7 @@ If you lose it, you may have to revoke the token and start over.
 Substitute the API Token for `YOUR-PERSONAL-API-TOKEN` in the REST calls
 described on this page.
 
-## Use the API Token to authorize access 
+## Use the API Token to Authorize Access 
 
 Next, you can use the API Token to authorize access to our other endpoints. Take
 the API Token that you [generated](#create-an-api-token-in-the-cobalt-ui). Substitute that value for `YOUR-PERSONAL-API-TOKEN`:
@@ -70,7 +70,7 @@ You should see output similar to:
 ```
 {{% /expand %}}
   
-From the output, save the value for `token`. That is your organization token.
+From the output, save the value for `token` as your organization token.
 In our API documentation, you'll see this as `YOUR-V2-ORGANIZATION-TOKEN`.
 
 For more information, see our API reference documentation on the
