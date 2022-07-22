@@ -1,20 +1,18 @@
 ---
-title: "Use Our API to Create an Asset"
+title: "Create an Asset"
 linkTitle: "Create an Asset"
 weight: 110
 description: >
-  Use this sequence of REST calls to create an asset.
+  Run this sequence of REST calls to create an asset.
 ---
 
 {{% pageinfo %}}
 Use this document with our [Cobalt API documentation](https://docs.cobalt.io) to
-manage assets and pentests.
+define your assets on the Cobalt platform.
 {{% /pageinfo %}}
 
 <!-- Future task: set up variables for `YOUR-PERSONAL-API-TOKEN` and
 `YOUR-V2-ORGANIZATION-TOKEN`. May support automated populating of REST calls. -->
-
-This page describes how you can use our API To create an [asset](../../getting-started/glossary/#asset). 
 
 ## Create an API Token in the Cobalt UI
 
@@ -25,18 +23,18 @@ This page describes how you can use our API To create an [asset](../../getting-s
 1. In the modal that appears, you should see your API Token, in the **Secret
    Token** text box.
 
-Save the API Token. After you exit the modal, you won't see the full token again.
+Save the API Token. After you close the overlay, you won't see the full token again.
 If you lose it, you may have to revoke the token and start over.
 
-Substitute the API Token for `YOUR-PERSONAL-API-TOKEN` in the REST calls
+Substitute the API token for `YOUR-PERSONAL-API-TOKEN` in the REST calls
 described on this page.
 
 ## Use the API Token to Authorize Access 
 
-Next, you can use the API Token to authorize access to our other endpoints. Take
+Next, you can use the API Token to authorize access to the Cobalt API. Take
 the API Token that you [generated](#create-an-api-token-in-the-cobalt-ui). Substitute that value for `YOUR-PERSONAL-API-TOKEN`:
 
-```
+```bash
 curl https://api.cobalt.io/orgs \
      -H "Accept: application/vnd.cobalt.v2+json" \
      -H "Authorization: Bearer YOUR-PERSONAL-API-TOKEN" \
@@ -56,7 +54,7 @@ You should see output similar to:
     {
       "resource": {
         "id": "some_id",
-        "name": "Saxophone - Alto",
+        "name": "Name of your organization",
         "token": "YOUR-V2-ORGANIZATION-TOKEN"
       },
       "links": {
@@ -69,6 +67,7 @@ You should see output similar to:
 }
 ```
 {{% /expand %}}
+</br>
   
 From the output, save the value for `token` as your organization token.
 In our API documentation, you'll see this as `YOUR-V2-ORGANIZATION-TOKEN`.
@@ -83,9 +82,9 @@ Now that you have the following information:
 - `YOUR-PERSONAL-API-TOKEN`
 - `YOUR-V2-ORGANIZATION-TOKEN` 
 
-You can create an [asset](../getting-started/glossary/#asset) with the following REST call:
+You can create an [asset](../../getting-started/glossary/#asset) with the following REST call:
 
-```
+```bash
 curl -X POST "https://api.cobalt.io/assets" \
   -H 'Accept: application/vnd.cobalt.v2+json' \
   -H 'Authorization: Bearer YOUR-PERSONAL-API-TOKEN' \
@@ -100,11 +99,11 @@ curl -X POST "https://api.cobalt.io/assets" \
   -v
 ```
 
-For more information on each parameter, see our API Reference documentation on
+For more information on each parameter, see our API reference documentation on
 how to [Create an Asset](https://docs.cobalt.io/v2/#create-an-asset).
 
 The command we use includes a `-v`, which sets up output in verbose mode. The
-command works without it; however, you would see no response from the REST call.
+command works without it. However, you would see no response from the REST call.
 
 When you review the output of the REST call with the `-v`, look for the line
 with `HTTP/2`. You'll see one of the following lines:
@@ -114,19 +113,19 @@ results, which is why I recommend a `-v` -->
 | Message    | Meaning          |
 |------------|------------------|
 | HTTP/2 201 | Asset created    |
-| HTTP/2 401 | No asset created. Check the value of your API Token|
-| HTTP/2 404 | No asset created. Check the value of YOUR-V2-ORGANIZATION-TOKEN|
-| HTTP/2 409 | No asset created |
+
+For a list of error codes, see the [Errors](https://docs.cobalt.io/v2/#errors)
+section of our API reference.
 
 <!-- Maybe this table really belongs in our API reference, next to
 https://docs.cobalt.io/v2/#errors?  -->
 
 ## Find Your Asset ID
 
-To add or modify or information related to your asset, you'll need the asset ID.
+To add or modify information related to your asset, you'll need the asset ID.
 You can find this ID with the REST call to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets):
 
-```
+```bash
 curl -X GET "https://api.cobalt.io/assets" \
   -H "Accept: application/vnd.cobalt.v2+json" \
   -H "Authorization: Bearer YOUR-PERSONAL-API-TOKEN" \
@@ -134,9 +133,14 @@ curl -X GET "https://api.cobalt.io/assets" \
   | jq .
 ```
 
-If you've set up more than one Asset, you may need to search through the output.
-For more information about each Asset response field, see our API documentation
+If you've set up more than one asset, you may need to search through the output.
+For more information about each asset response field, see our API documentation
 reference to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets).
+
+{{% alert title="Tip" color="tip" %}}
+You can use `jq` to filter assets by their `title` and `id`. To do so, end the
+REST call with `| jq -r ".detail" | .resource | .title, .id`.
+{{% /alert %}}
 
 {{% expand "Review sample output." %}}
 ```
@@ -159,9 +163,10 @@ reference to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets).
 }
 ```
 {{% /expand %}}
+</br>
 
 If you've set up more than one asset, you'll see the `id` in the same
-code block as the `title`, which you may have used to [create the asset](#create-an-asset).
+object as the `title`, which you may have used to [create the asset](#create-an-asset).
 
 Save the value of the asset `id` as `YOUR-ASSET-IDENTIFIER`. You'll use that ID,
 which starts with `as_`, when updating or uploading information to your asset.
@@ -172,7 +177,7 @@ Now that you've created an asset and have the asset ID, you can add more
 information with the following REST call:
 
 
-```
+```bash
 curl -X PUT 'https://api.cobalt.io/assets/YOUR-ASSET-IDENTIFIER' \
   -H 'Accept: application/vnd.cobalt.v2+json' \
   -H 'Authorization: Bearer YOUR-PERSONAL-API-TOKEN' \
@@ -198,23 +203,21 @@ results, which is why I recommend a `-v` -->
 
 | Message    | Meaning          |
 |------------|------------------|
-| HTTP/2 201 | Asset created    |
-| HTTP/2 401 | No asset created. Check the value of your API Token|
-| HTTP/2 404 | No asset created. Check the value of YOUR-V2-ORGANIZATION-TOKEN|
-| HTTP/2 409 | No asset created |
+| HTTP/2 204 | Asset updated    |
 
+For a list of error codes, see the [Errors](https://docs.cobalt.io/v2/#errors)
+section of our API reference.
 
 ## Include an Asset Attachment
 
-You can help our pentesters by including images or even PDFs. As noted in our
-[Asset Documentation](../getting-started/assets/asset-description/#asset-documentation),
-you can upload several kinds of files through our UI. You can also upload the
-same types of files through our API. 
+You can help our pentesters by including one of the options noted in our
+[Asset Documentation](../../getting-started/assets/asset-description/#asset-documentation).
+You can also upload the same types of files through our API. 
 
 As an example, the following command uploads the `image.jpg` file as asset
 documentation:
 
-```
+```bash
 curl -X POST 'https://api.cobalt.io/assets/YOUR-ASSET-IDENTIFIER/attachments' \
   -H 'Accept: application/vnd.cobalt.v2+json' \
   -H 'Authorization: Bearer YOUR-PERSONAL-API-TOKEN' \
