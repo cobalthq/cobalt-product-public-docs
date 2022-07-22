@@ -44,7 +44,7 @@ curl https://api.cobalt.io/orgs \
 {{%expand "Review sample output." %}}
 You should see output similar to:
 
-```
+```json
 {
   "pagination": {
     "next_page": null,
@@ -134,7 +134,8 @@ curl -X GET "https://api.cobalt.io/assets" \
 ```
 
 If you've set up more than one asset, you may need to search through the output.
-For more information about each asset response field, see our API documentation
+You can also limit the number of assets in the output with the `limit`
+parameter. For more information about each asset response field, see our API
 reference to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets).
 
 {{% alert title="Tip" color="tip" %}}
@@ -143,7 +144,7 @@ REST call with `| jq -r ".detail" | .resource | .title, .id`.
 {{% /alert %}}
 
 {{% expand "Review sample output." %}}
-```
+```json
 {
   "data": {
     "resource": {
