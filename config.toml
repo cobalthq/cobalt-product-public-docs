@@ -68,7 +68,6 @@ enableGitInfo = true
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-      hardWraps = true
 
 # Everything below this are Site Params
 
