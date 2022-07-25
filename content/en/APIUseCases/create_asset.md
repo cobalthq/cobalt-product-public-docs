@@ -140,7 +140,7 @@ reference to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets).
 
 {{% alert title="Tip" color="tip" %}}
 You can use `jq` to filter assets by their `title` and `id`. To do so, end the
-REST call with `| jq -r ".detail" | .resource | .title, .id`.
+REST call with `| jq -r ".data[] | .resource | .title, .id"`.
 {{% /alert %}}
 
 {{% expand "Review sample output." %}}
