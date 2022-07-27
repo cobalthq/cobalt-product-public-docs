@@ -11,6 +11,13 @@ Use this document with our [Cobalt API documentation](https://docs.cobalt.io) to
 define your assets on the Cobalt platform.
 {{% /pageinfo %}}
 
+To use our API, you need a Cobalt account with membership in your organization.
+Your organization owner can create an account and
+[assign you as a
+member](https://cobaltio.zendesk.com/hc/en-us/articles/360058712491-How-do-I-add-new-users-).
+Your organization owner is typically the user who interacts with the Cobalt
+Customer Success Manager (CSM).
+
 You can create an [asset](../../getting-started/glossary/#asset) in the UI.
 If you prefer to automate the process and or work from the command line, can also use
 our API.
