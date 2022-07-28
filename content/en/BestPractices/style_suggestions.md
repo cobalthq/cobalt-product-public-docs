@@ -22,12 +22,12 @@ To promote readability, use the following checklist:
   our audience of developers may not know.
 - Stay positive. Avoid words like `don't` or `can't`. Readers frequently miss
   the `not` in a sentence.
-- Consider using our implementation of [Vale](../../../GrammarLinter.md). When
+- Consider using our implementation of [Vale](https://github.com/cobalthq/cobalt-product-public-docs/blob/main/GrammarLinter.md). When
   integrated with your IDE, it highlights writing styles that we want you to
 follow.
 
 - Keep your sentences relatively short. Our implementation of
-  [Vale](../../../GrammarLinter.md) discourages the use of sentences of more than 28 words.
+  [Vale](https://github.com/cobalthq/cobalt-product-public-docs/blob/main/GrammarLinter.md) discourages the use of sentences of more than 28 words.
 - Use active voice and the present tense. Examples:
   - Run the _ps_ command.
   - Include a second factor for authentication.
