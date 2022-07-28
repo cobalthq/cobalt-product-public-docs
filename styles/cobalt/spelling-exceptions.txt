@@ -17,6 +17,7 @@ Apdex
 apk
 Apparmor
 approvers
+Aquatone
 architected
 architecting
 archtype
@@ -174,11 +175,13 @@ deserializers
 deserializes
 DevOps
 Dhall
+Dirble
 disambiguates
 discoverability
 dismissable
 Disqus
 Divio
+Dnscan
 doc
 docx
 Dockerfile
@@ -364,6 +367,7 @@ Makefile
 Makefiles
 Markdown
 markdownlint
+Masscan
 matcher
 matchers
 Matomo
@@ -411,6 +415,8 @@ namespacings
 Nanoc
 negatable
 Netlify
+Nikto
+Nmap
 NodeJS
 nodejs
 Nokogiri
@@ -624,6 +630,7 @@ sparklines
 spidering
 Splunk
 SpotBugs
+sqlmap
 Stackdriver
 Stackprof
 starrer

@@ -13,4 +13,4 @@ extends: spelling
 message: 'Spelling check: "%s"?'
 level: warning
 ignore:
-  - gitlab/spelling-exceptions.txt
+  - cobalt/spelling-exceptions.txt
