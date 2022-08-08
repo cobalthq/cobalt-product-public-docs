@@ -129,6 +129,12 @@ with `HTTP/2`. If the command is successful, you'll see
 For a list of error codes, see the [Errors](https://docs.cobalt.io/v2/#errors)
 section of our API reference.
 
+{{% alert title="Tip" color="tip" %}}
+Once you create an asset, you can [Find Your Asset ID](#find-your-asset-id) and
+[Add or Modify Asset Details](#add-or-modify-asset-details) through the API. You
+can also sign in to our UI and modify details of your newly created asset.
+{{% /alert %}}
+
 ## Find Your Asset ID
 
 To add or modify information related to your asset, you'll need the asset ID.
@@ -216,6 +222,7 @@ with `HTTP/2`. If the command is successful, you'll see:
 For a list of error codes, see the [Errors](https://docs.cobalt.io/v2/#errors)
 section of our API reference.
 
+<!-- Leaving out due to current bug, API-1069
 ## Include an Asset Attachment
 
 You can help our pentesters by including one of the options noted in our
@@ -237,4 +244,6 @@ curl -X POST 'https://api.cobalt.io/assets/{{% asset-id %}}/attachments' \
 ```
 
 As with [Add or Modify Asset Details](#add-or-modify-asset-details), you'll see
-no output when you run a properly formatted version of this command.
+no output when you run a properly formatted version of this command. -->
+
+
