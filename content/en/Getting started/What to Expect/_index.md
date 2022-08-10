@@ -47,7 +47,7 @@ results. Here's what you can expect:
      - Pending Fix, when your developers are remediating the finding.
      - Ready for Re-Test, assumes that your developers have fixed the issue, and you're ready
        for our pentesters to validate your fix. Retesting may depend on
-       your {{% ptaas-tier % }}.
+       your {{% ptaas-tier %}}.
      - Accepted Risk, when you've determined that the finding is either not critical,
        or is beyond your control.
        For more information, see the following blog post on [Accepted Risk](https://cobalt.io/blog/explain-accepted-risk-in-a-few-easy-steps).
