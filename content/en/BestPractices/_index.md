@@ -25,4 +25,4 @@ date of release.
 
 | Article Title | Release Date |
 |---------------|--------------|
-| [Validate User Input](#akhan-input-validation) |              |
+| [Validate User Input](./akhan_input_validation) |              |
