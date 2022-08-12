@@ -25,9 +25,9 @@ until we have enough articles to actually organize. -->
 Once we've merged content into this guide, we'll list them in the following table with the
 date of release.
 
-| Article                                                              | Release Date |
-|----------------------------------------------------------------------|--------------|
-| [Protect Against Server-Side Request Forgery](./defend-against-ssrf) | 2022-08-17   |
-| [Security Misconfiguration](./securitymisconfiguration)              | 2022-08-17   |
-| [Validate User Input](./akhan_input_validation)                      | 2022-08-17   |
+| Article                                                              | Release Date | Author                |
+|----------------------------------------------------------------------|--------------|-----------------------|
+| [Protect Against Server-Side Request Forgery](./defend-against-ssrf) | 2022-08-17   | {{% harsh-bothra %}}  |
+| [Validate User Input](./akhan_input_validation)                      | 2022-08-17   | {{% payloadartist %}} |
+| [Security Misconfiguration](./securitymisconfiguration)              | 2022-08-17   | {{% shashank %}}      |
 
