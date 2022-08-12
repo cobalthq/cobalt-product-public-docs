@@ -2,8 +2,6 @@
 title: "Best Practices for Security"
 linkTitle: "Best Practices"
 weight: 600
-# The `toc_hide` entry hides the link from the menu. The content still available at <URL>/bestpractices/
-toc_hide: true
 description: >
   Recommendations for developers focused on security.
 ---
@@ -19,12 +17,17 @@ We'll provide practical examples that you can use as patterns to secure your
 [assets](../getting-started/glossary/#assets).
 
 <!-- Plan: set up subdirectories based on each OWASP Top 10 entry. Add an `_index.md` file, with a brief description from https://owasp.org/Top10/ and add each article in that subdirectory -->
+<!-- Keep the first articles in the "top-level" BestPractices subdirectory,
+until we have enough articles to actually organize. -->
 
 ## Available Articles
 
 Once we've merged content into this guide, we'll list them in the following table with the
 date of release.
 
-| Article Title | Release Date |
-|---------------|--------------|
-|               |              |
+| Article                                                              | Release Date |
+|----------------------------------------------------------------------|--------------|
+| [Protect Against Server-Side Request Forgery](./defend-against-ssrf) | 2022-08-17   |
+| [Security Misconfiguration](./securitymisconfiguration)              | 2022-08-17   |
+| [Validate User Input](./akhan_input_validation)                      | 2022-08-17   |
+
