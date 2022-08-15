@@ -44,7 +44,7 @@ Let's see some examples of SSRF attacks.
 
 In the following code example, the application accepts user-supplied input through the `url` parameter and passes it to the `urllib.request.urlopen(url).read()` function. The application processes URLs without filtration, which may lead to an SSRF attack.
 
-An attacker may pass a URL such as `https://www.target.com/test/?url=http://127.0.0.1` to the vulnerable code and access the localhost `127.0.0.1`.
+An attacker may pass a URL such as `https://www.example.com/test/?url=http://127.0.0.1` to the vulnerable code and access the localhost `127.0.0.1`.
 
 ```python
 from flask import request
