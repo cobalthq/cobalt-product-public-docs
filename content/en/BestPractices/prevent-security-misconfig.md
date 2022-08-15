@@ -141,7 +141,6 @@ Misconfigurations in the cloud infrastructure or services may lead to data compr
 To prevent this:
 
 - Implement security automation to identify misconfigurations
-
 - Install updates and review your cloud security configurations on a regular basis
 
 ## Best Practices
