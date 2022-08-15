@@ -134,7 +134,8 @@ To prevent this:
 - Remove any sensitive files or directories from the URL paths
 - Check your code before releasing it
   - Avoid committing code that is meant only for the development environment
-- To prevent URL fuzzing or a brute-force attack, apply a web application firewall and rate limiting checks
+- Apply a web application firewall with rate limiting checks to prevent URL fuzzing or a brute-force attack
+- Set up mandatory access control systems such as SELinux to protect key files
 
 ### Misconfigured Cloud Services
 
