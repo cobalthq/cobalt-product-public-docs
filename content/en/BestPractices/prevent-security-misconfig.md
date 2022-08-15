@@ -66,7 +66,7 @@ To prevent this:
 
 Directory listing allows users to see all files and directories stored on a web server. A malicious actor may get unauthorized access to sensitive files. Search the web with `intitle: "index of /"` to see websites that have directory listing enabled.
 
-In the following example, we show how to prevent this problem for an Apache Tomcat web server:
+In the following example, we show how to prevent this problem for a Tomcat web server:
 
 1. Open the `conf/web.xml` file in the directory where Tomcat is installed.
 
@@ -90,7 +90,7 @@ In the following example, we show how to prevent this problem for an Apache Tomc
 
 1. In the Apache web server, create a `.htaccess` file in the related directory.
 
-1. Add the following lines to the `httpd.conf` file, or replace existing lines with:
+1. Add the following lines to the Apache web server configuration file, or replace existing lines with:
 
      ```
      <Directory /{YOUR DIRECTORY}>
@@ -125,6 +125,7 @@ Sensitive files that may appear in a URL path include:
 - Backup files
 - Log files
 - Database files
+- Configuration files
 
 An attacker may discover sensitive files by brute-forcing the URL paths.
 
@@ -132,6 +133,7 @@ To prevent this:
 
 - Remove any sensitive files or directories from the URL paths
 - Check your code before releasing it
+  - Avoid committing code that is meant only for the development environment
 - To prevent URL fuzzing or a brute-force attack, apply a web application firewall and rate limiting checks
 
 ### Misconfigured Cloud Services
@@ -141,11 +143,12 @@ Misconfigurations in the cloud infrastructure or services may lead to data compr
 To prevent this:
 
 - Implement security automation to identify misconfigurations
+  - Use a DAST tool such as [OWASP Zap](https://www.zaproxy.org/) to identify vulnerabilities
 - Install updates and review your cloud security configurations on a regular basis
 
 ## Best Practices
 
-- Follow a security checklist to prevent common misconfigurations
+- Create and follow a security checklist
 - Use security design review and threat modeling in your development lifecycle
 - Perform a security check for each software layer before releasing it to the production environment
 - Scan the production environment with a security scanner
