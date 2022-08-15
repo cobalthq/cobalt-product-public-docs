@@ -70,8 +70,6 @@ In the following example, we show how to prevent this problem for an Apache Tomc
 
 1. Open the `conf/web.xml` file in the directory where Tomcat is installed.
 
-     - In Windows 10, the default installation directory is `C:\Program Files (x86)\Apache Software Foundation\Tomcat 9.0`.
-
 1. In the file, set `<param-value>false</param-value>` to `false` for `<param-name>listings</param-name>`:
 
      ```
