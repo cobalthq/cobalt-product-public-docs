@@ -18,9 +18,9 @@ results. Here's what you can expect:
    pane. You should see your pentest listed, with an _In Review_ label.
 1. We'll select the best available testers before the start of the pentest. The time we need
    depends on your {{% ptaas-tier %}} and any special requirements you have.
-1. Once we start the pentest, you’ll start getting updates from pentesters. You can communicate with pentesters:
+1. Once we start the pentest, you’ll start getting updates from pentesters:
    - On the **Pentester Updates** tab of the pentest page
-   - In a Slack channel dedicated for your pentest. You should see a link to the Slack channel on the pentest page next to the pentest status.
+   - In a Slack channel dedicated for your pentest where you can communicate with pentesters. You should see a link to the Slack channel on the pentest page next to the pentest status.
       - Add the colleagues of your choice to the Slack channel. Choose colleagues who can benefit from direct communication with our pentesters.
       - As soon as we’ve moved your pentest from _In Review_ to _Planned_, you’ll see your pentesters in the Slack channel.
 1. You may get questions from your pentesters. You can also elaborate
@@ -52,12 +52,9 @@ results. Here's what you can expect:
        or is beyond your control.
        For more information, see the following blog post on [Accepted Risk](https://cobalt.io/blog/explain-accepted-risk-in-a-few-easy-steps).
 
-1. You can continue to collaborate with pentesters:
-   - On the **Pentester Updates** tab of the pentest page
-   - In the Slack channel. We keep the channel open until you've set each finding to:
-      - Accepted Risk
-      - Fixed
-
+1. We keep the Slack channel open until you've set each finding to:
+   - Accepted Risk
+   - Fixed
    If you need access to the archived Slack channel, contact your Customer Success Manager or support@cobalt.io.
 1. If you've purchased a qualifying {{% ptaas-tier %}}, you can customize your pentest report.
    However, we report _all_ findings. For more information, see the following blog post
