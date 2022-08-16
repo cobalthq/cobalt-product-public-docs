@@ -119,6 +119,11 @@ async function quantityCheck (req: Request, res: Response, next: NextFunction, i
   - The [OWASP Input Validation Cheat Sheet
     recommends](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html#goals-of-input-validation)
     that you use input validation as early as possible in the data flow.
+- Check if the user input matches the right format.
+  - For example, the application should limit date of birth entries to ISO 8601 format (DD-MM-YYYY).
+- Make sure user input fits the given business context. For example:
+  - Limit entries in quantity fields to positive whole numbers. Prevent negative or fractional entries.
+  - Set sensible minimum and maximum values for the quantity. Small quantities may not be financially viable for a given transaction.
 - Include an **allow list** of valid inputs. Attackers can often bypass the deny
   lists. For example, you could use the following to validate a US zip code:
 
