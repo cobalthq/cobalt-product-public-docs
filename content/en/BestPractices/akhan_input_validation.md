@@ -63,14 +63,13 @@ to call a
 [`quantityCheck()`](https://github.com/juice-shop/juice-shop/blob/bd7e8f3c7af1a8f38ba4fa866000136cb472449a/routes/basketItems.ts#L90)
 function.
 
-It checks the quantity in the request payload with validation logic, using
-`product.limitPerUser`. However, it does not check if the quantity exceeds the:
+The `quantityCheck()` function validates the quantity in the request payload, as it checks:
 
-- Limit per user
-- Limit per order
+- If the product is available (`const product = await QuantityModel.findOne({ where: { ProductId: id } })`)
+- If the quantity exceeds the quantity available (`product.quantity >= quantity`)
+- If the quantity exceeds the limit per user ((`product.limitPerUser && product.limitPerUser >= quantity)`) except for deluxe users (`security.isDeluxe(req)`)
 
-It even skips the check for deluxe users (`security.isDeluxe(req)`). However, it
-does *not* check if the quantity is positive.
+However, it does **not** check if the quantity is a positive whole number.
 
 This small mistake is costly. Users can freely input negative values for
 `quantity`. In that case:
