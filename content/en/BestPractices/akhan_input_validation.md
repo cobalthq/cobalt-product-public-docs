@@ -118,7 +118,7 @@ async function quantityCheck (req: Request, res: Response, next: NextFunction, i
 - Validate all user input before processing it
   - The [OWASP Input Validation Cheat Sheet
     recommends](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html#goals-of-input-validation)
-that you use input validation as early as possible in the data flow,
+    that you use input validation as early as possible in the data flow,
 - Include an **allow list** of valid inputs. Attackers can often bypass the deny
   lists. For example, you could use the following to validate a US zip code:
 
