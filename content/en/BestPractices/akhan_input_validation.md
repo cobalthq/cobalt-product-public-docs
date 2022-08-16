@@ -84,7 +84,7 @@ Without such checks, this error could lead to substantial business losses.
 
 In the following code sample, we include code that:
 
-- Checks if the quantity is greater than zero (`quantity > 0`)
+- Throws an error for invalid quantities (`quantity <= 0`)
 - Runs a boolean check for decimal integers (`Number.isInteger(quantity, 10)`)
 - Returns an HTTP 400 error if the noted checks fail
 
