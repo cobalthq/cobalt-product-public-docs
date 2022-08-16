@@ -73,8 +73,11 @@ It even skips the check for deluxe users (`security.isDeluxe(req)`). However, it
 does *not* check if the quantity is positive.
 
 This small mistake is costly. Users can freely input negative values for
-`quantity`. If an attacker adds `-100` to their basket, the Juice Shop adds 100
-times the value of the item to their wallet.
+`quantity`. In that case:
+
+- Assume an attacker adds `-100` units to their basket
+  - The attacker then checks out of their shopping cart, with the `wallet` payment option
+- The Juice Shop adds 100 times the value of the item to the wallet
 
 ### Impact
 
