@@ -57,9 +57,9 @@ It's a perfect example of how an innocent mistake can cause huge business losses
 
 ### Analysis
 
-The OWASP Juice Shop uses an [API
-Post](https://github.com/juice-shop/juice-shop/blob/bd7e8f3c7af1a8f38ba4fa866000136cb472449a/server.ts#L370)
-to call a
+The OWASP Juice Shop frontend initiates an [API
+Post](https://github.com/juice-shop/juice-shop/blob/bd7e8f3c7af1a8f38ba4fa866000136cb472449a/server.ts#L370) request to add items
+to the user's basket. The middleware function that is mounted on that API route handler (or API path) calls the
 [`quantityCheck()`](https://github.com/juice-shop/juice-shop/blob/bd7e8f3c7af1a8f38ba4fa866000136cb472449a/routes/basketItems.ts#L90)
 function.
 
