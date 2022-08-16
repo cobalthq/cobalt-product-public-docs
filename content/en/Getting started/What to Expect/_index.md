@@ -53,7 +53,7 @@ results. Here's what you can expect:
        For more information, see the following blog post on [Accepted Risk](https://cobalt.io/blog/explain-accepted-risk-in-a-few-easy-steps).
 
 1. You can continue to collaborate with pentesters:
-   - On the **Pentester Updates** tab
+   - On the **Pentester Updates** tab of the pentest page
    - In the Slack channel. We keep the channel open until you've set each finding to:
       - Accepted Risk
       - Fixed
