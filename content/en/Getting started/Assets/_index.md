@@ -39,9 +39,6 @@ The asset screen prompts you for the following information:
 - Asset Image: Use it to help identify what you need from a list of assets.
 - Asset Title: Set up a descriptive name to attract attention from the best pentesters.
 - [Asset Type](./asset-type): Select one of the options described in the linked page.
-- Asset Scoping: Review the guidance on:
-  - [Asset Size](./asset-size)
-  - [Coverage and Scope](./coverage)
 - [Asset Description](./asset-description): Add information that can help your
   pentesters fully analyze your asset.
 - [Asset Documentation](./asset-description/#asset-documentation): Upload documentation,
