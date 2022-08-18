@@ -173,12 +173,6 @@ A _Pentester_ is a Cobalt pentester who works with a _Pentest Lead_ to test a sp
 _Cobalt Staff_ members may help you manage the users in your organization. They may also help
 manage work on your pentests.
 
-## Dynamic Page
-
-Web applications typically include _static_ and _dynamic_ web pages. A Dynamic Page includes content
-that can be customized, either through an application server (server-side) or through code such as
-JavaScript running in the browser (client-side).
-
 ## Environment
 
 In the context of a Cobalt pentest, you can specify one of three options for an environment:
@@ -194,6 +188,10 @@ When you select [Full Report + Finding Details](/getting-started/what-to-expect/
 we add a detailed list of findings to your report, which includes:
 
 {{% finding-details %}}
+
+## GraphQL Mutation
+
+For more information, see https://graphql.org/learn/queries/#mutations
 
 ## Gray Box Testing
 
@@ -217,7 +215,7 @@ A "well-known" security vulnerability. Documented in a security bulletin or a CV
 
 In Cobalt pentest reports, you may see this as a published or documented vulnerability.
 
-## Mitigate 
+## Mitigate
 
 To apply preventative measures. Based on problems identified by a pentest or incident report.
 Examples:
@@ -262,6 +260,14 @@ wired, analog, or digital.
 
 Operations Security, commonly known as OpSec, identifies critical information, and if/how it
 may be used by opponents or enemies. OpSec measures can reduce security risks.
+
+## Page
+
+Web applications typically include _static_ and _dynamic_ web pages.
+
+- A static page contains stable content that appears the same for every user who opens the page.
+- A dynamic page includes content that can be customized, either through an application server (server-side) or through code such as
+JavaScript running in the browser (client-side).
 
 ## Pentest
 
@@ -315,6 +321,10 @@ To fix a vulnerability identified by a pentest or incident report. Examples:
 Contrast with [mitigate](#mitigate). This reflects how we use **remediate** at
 Cobalt, and differs slightly from the NIST definition of 
 [remediation](https://csrc.nist.gov/glossary/term/remediation).
+
+## Route
+
+In web applications, routing is a mechanism that determines which functionality is triggered when a user sends specific HTTP requests. A _route_ is a URL pattern associated with a handler that processes the request.
 
 ## Security Assertion Markup Language
 
