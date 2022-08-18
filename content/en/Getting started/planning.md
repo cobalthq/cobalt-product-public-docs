@@ -20,7 +20,7 @@ we can help you schedule pentests with a start date from at least one to three b
 
 We reserve two (2) weeks to complete our pentests.
 
-![Pentester Planning](/gsg/PentestPlanning02.png "Schedule your pentest. Your allowed start date depends on your PtaaS Tier and any special requirements.")
+![Pentester Planning](/gsg/PentestPlanningCredits.png "Schedule your pentest. Your allowed start date depends on your PtaaS Tier and any special requirements.")
 
 If you have any special requirements, such as qualifications for pentester certifications,
 we reserve the right to start the pentest later than the flow time specified in your
