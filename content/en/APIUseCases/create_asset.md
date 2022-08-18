@@ -228,7 +228,7 @@ section of our API reference.
 ## Include an Asset Attachment
 
 You can help our pentesters by including one of the options noted in our
-[Asset Documentation](../../getting-started/assets/asset-description/#asset-documentation).
+[Attachments](../../getting-started/assets/asset-description/#attachments).
 You can also upload the same types of files through our API. 
 
 As an example, the following command uploads the `image.jpg` file as asset

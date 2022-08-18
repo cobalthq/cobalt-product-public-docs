@@ -24,7 +24,7 @@ For all assets, we'd appreciate a:
 
 Include links to published documentation related to the
 asset. You can upload documentation, diagrams, and more in various
-file formats under [Asset Documentation](#asset-documentation).
+file formats under [Attachment(s)](#attachments).
 
 The following sections detail additional needs for different kinds of assets:
 
@@ -87,9 +87,9 @@ Make sure to include the:
 - Unique users / roles
 - Applicable network / architecture diagrams
 
-## Asset Documentation
+## Attachments
 
-To share more about your assets, you can upload the documentation of your choice. Our app accepts files
+To share more about your assets, you can upload the documentation of your choice under **Attachment(s)**. Our app accepts files
 in the following categories and formats:
 
 - Archives (.gz, .rar, .tar, .zip)
@@ -100,7 +100,7 @@ in the following categories and formats:
 
 Our app limits uploads to 100 MB.
 
-![Asset Documentation Screen](/gsg/AssetDocumentation.png "Uploads related to your asset")
+![Asset Attachments Screen](/gsg/AssetAttachments.png "Uploads related to your asset")
 
 If you'd like to upload files in a different format, you can try to:
 

@@ -22,7 +22,7 @@ The **Let's get started!** screen includes two options:
 This section can help you define your asset. In the Cobalt UI, you can
 define pentest objectives in the following screen:
 
-![Asset Screen](/gsg/AssetScreen.png "Define your asset here")
+![Asset Screen](/gsg/PentestWizardAsset.png "Define your asset here")
 
 This page corresponds to the Assets that you can set up in the Cobalt app.
 You can access the UI to define your assets in the following ways:
@@ -41,7 +41,7 @@ The asset screen prompts you for the following information:
 - [Asset Type](./asset-type): Select one of the options described in the linked page.
 - [Asset Description](./asset-description): Add information that can help your
   pentesters fully analyze your asset.
-- [Asset Documentation](./asset-description/#asset-documentation): Upload documentation,
+- [Attachment(s)](./asset-description/#attachments): Upload documentation,
   architecture diagrams, images, spreadsheets, or videos related to your asset.
 
 The UI provides the information that you need to add an Asset Image and Title.
