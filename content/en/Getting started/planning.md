@@ -131,10 +131,12 @@ Once you’ve identified the [pentest scope](#scope-the-pentest), you can see th
 
 Note the following:
 
-- We accept pentests of at least five (5) credits.
-- We’ll write a report for pentests of at least five (5) credits.
-- Pentests requiring more than 20 credits don’t get immediate confirmation. We’ll specify the number of required credits after reviewing the pentest.
-- We may adjust the number of credits after reviewing your pentest.
+<ul>
+<li>We accept pentests of at least five (5) credits.</li>
+<li>{{% min-credits-report %}}.</li>
+<li>Pentests requiring more than 20 credits don’t get immediate confirmation. We’ll specify the number of required credits after reviewing the pentest.</li>
+<li>We may adjust the number of credits after reviewing your pentest.</li>
+</ul>
 
 ## Additional Requests
 
