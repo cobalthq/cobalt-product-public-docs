@@ -173,6 +173,14 @@ A _Pentester_ is a Cobalt pentester who works with a _Pentest Lead_ to test a sp
 _Cobalt Staff_ members may help you manage the users in your organization. They may also help
 manage work on your pentests.
 
+## Compliance Audit
+
+As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a comprehensive review of an organization's adherence to governing documents such as whether a Certification Practice Statement satisfies the requirements of a Certificate Policy and whether an organization adheres to its Certification Practice Statement.
+
+## Comprehensive Pentest
+
+A pentest performed for [security audit](#security-audit), [compliance audit](#compliance-audit), or customer attestation that includes comprehensive [reports](/platform-deep-dive/pentests/reports/) intended for external stakeholders.<!-- Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/). -->
+
 ## Environment
 
 In the context of a Cobalt pentest, you can specify one of three options for an environment:
@@ -330,7 +338,11 @@ In web applications, routing is a mechanism that determines which functionality 
 
 As defined by the Organization for the Advancement of Structured Information Standards (OASIS),
 the [Security Assertion Markup Language (SAML)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=security)
-SAML is an XML-based framework for communicating user authentication, entitlement, and attribute information. 
+SAML is an XML-based framework for communicating user authentication, entitlement, and attribute information.
+
+## Security Audit
+
+As [defined](https://csrc.nist.gov/glossary/term/security_audit) by NIST, an independent review and examination of a system’s records and activities to determine the adequacy of system controls, ensure compliance with established security policy and procedures, detect breaches in security services, and recommend any changes that are indicated for countermeasures.
 
 ## SANS Institute
 
