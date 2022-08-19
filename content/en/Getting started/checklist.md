@@ -40,7 +40,7 @@ Under the Details tab, you can review:
 
 ## Reports
 
-{{% min-credits-report %}}.
+<p>{{% min-credits-report %}}.</p>
 
 ### Co-branded Reports
 
