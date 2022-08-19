@@ -57,7 +57,7 @@ Include those User Roles and Pages/Routes that should be in scope for this pente
 You may not need to include _every_ user role. For example, if you have dedicated administrative roles for backups, logs, and printers, that counts as one (1) role.
 {{% /alert %}}
 
-As part of our tests for Dynamic Pages, we also test the backend API endpoints frequently used to populate content on those pages.
+As part of our tests for dynamic pages, we also test the backend API endpoints frequently used to populate content on those pages.
 
 Our pentesters need to know more about your Web asset, including:
 
