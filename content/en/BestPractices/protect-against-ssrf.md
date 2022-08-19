@@ -21,19 +21,12 @@ SSRF has a wide range of impacts. For example, it may allow a threat actor to pe
 A malicious actor may achieve the following through a successful SSRF exploitation:
 
 - Scan a local or remote port
-
 - Read a local file
-
 - Interact with internal apps, services, or network
-
 - Read metadata from cloud platforms such as Amazon Web Services (AWS), Microsoft Azure, Google Cloud, or DigitalOcean
-
 - Perform attacks:
-
   - Remote Code Execution (RCE) by chaining services on the internal network
-
   - Reflected Cross-Site Scripting (XSS)
-
   - Cross-Site Request Forgery (CSRF)
 
 ## Attack Scenarios
@@ -132,9 +125,7 @@ For applications hosted on cloud platforms such as AWS, Microsoft Azure, or Goog
 In the following code sample, we provide code that:
 
 - Accepts user input from the `image_url` parameter and passes it to the `$url` function without any sanitization
-
 - Checks `header("Content-Type: image/png");` for the `image/png` header type
-
 - Passes malicious user-supplied input from `$file` to the `fpassthru()` function and returns data to the user
 
 ```php
@@ -182,22 +173,16 @@ Now that you've explored several SSRF exploitation scenarios, learn how to mitig
 
 - Disallow unnecessary protocols
   - Restrict the use of unnecessary protocols such as `file://`, `gopher://`, or `schema://`. An attacker may use them to bypass the restrictions you've set.
-
 - Restrict verbose responses from the server
   - Always use non-verbose, generic error messages. A threat actor may use verbose messages to perform blind attacks.
-
 - Never trust user-supplied input
   - Properly validate and sanitize user-supplied input before passing it to sensitive methods such as URL parsers. When writing code, consider user-supplied input as unsafe.
-
 - Implement a strong allowlist
   - Use allowlist-based validation for the IP addresses and DNS names to which your application requires access. This prevents an attacker from trying to request unintended resources.
-
 - Implement the [principle of least privilege](https://www.cisa.gov/uscert/bsi/articles/knowledge/principles/least-privilege)
   - This principle states that a user should be granted only the minimum necessary rights to perform an operation, for the shortest time possible.
-
 - Deploy a restrictive firewall
   - Use a web application firewall (WAF) with strict blocking rules to detect, block, and log any malicious payload or unintended input.
-
 - Use the cloud built-in protection mechanism
   - Use security features that your cloud provider offers to mitigate against common security vulnerabilities. For example, the AWS Cloud provides the [Instance Metadata Service Version 2 (IMDSv2)](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-service.html) method that protects against SSRF attacks and blocks unauthorized access to metadata.
 
