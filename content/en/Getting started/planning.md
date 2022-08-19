@@ -133,7 +133,6 @@ Note the following:
 
 <ul>
 <li><a href="/getting-started/glossary/#comprehensive-pentest">Comprehensive Pentests</a> start from 5 credits and go up to 20 credits. Comprehensive Pentests requiring more than 20 credits don’t get immediate confirmation. We’ll specify the number of required credits after reviewing the pentest.</li>
-<li>{{% min-credits-report %}}</li>
 <li>We may adjust the number of credits after reviewing your pentest</li>
 </ul>
 
