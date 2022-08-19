@@ -18,7 +18,7 @@ member](https://cobaltio.zendesk.com/hc/en-us/articles/360058712491-How-do-I-add
 Your organization owner is typically the user who interacts with the Cobalt
 Customer Success Manager (CSM).
 
-You can create an [asset](../../getting-started/glossary/#asset) in the UI.
+You can create an [asset](/getting-started/glossary/#asset) in the UI.
 If you prefer to automate the process and or work from the command line, can also use
 our API.
 
@@ -228,7 +228,7 @@ section of our API reference.
 ## Include an Asset Attachment
 
 You can help our pentesters by including one of the options noted in our
-[Attachments](../../getting-started/assets/asset-description/#attachments).
+[Attachments](/getting-started/assets/asset-description/#attachments).
 You can also upload the same types of files through our API. 
 
 As an example, the following command uploads the `image.jpg` file as asset
