@@ -27,7 +27,7 @@ date of release.
 
 | Article                                                              | Release Date | Author                |
 |----------------------------------------------------------------------|--------------|-----------------------|
-| [Validate User Input](./akhan_input_validation)                      | 2022-08-19   | {{% payloadartist %}} |
-| [Protect Against Server-Side Request Forgery](./defend-against-ssrf) | 2022-08-19   | {{% harsh-bothra %}}  |
+| [Validate User Input](./input-validation)                      | 2022-08-19   | {{% payloadartist %}} |
+| [Protect Against Server-Side Request Forgery](./protect-against-ssrf) | 2022-08-19   | {{% harsh-bothra %}}  |
 | [Prevent Security Misconfiguration](./prevent-security-misconfig)              | 2022-08-19   | {{% shashank %}}      |
 
