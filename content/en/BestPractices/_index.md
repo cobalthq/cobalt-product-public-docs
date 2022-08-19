@@ -16,6 +16,10 @@ program. You've read through the 2021 version of the [OWASP Top 10](https://owas
 We'll provide practical examples that you can use as patterns to secure your
 [assets](../getting-started/glossary/#assets).
 
+<!-- Plan: set up subdirectories based on each OWASP Top 10 entry. Add an `_index.md` file, with a brief description from https://owasp.org/Top10/ and add each article in that subdirectory -->
+<!-- Keep the first articles in the "top-level" BestPractices subdirectory,
+until we have enough articles to actually organize. -->
+
 ## Available Articles
 
 Once we've merged content into this guide, we'll list them in the following table with the
@@ -26,3 +30,4 @@ date of release.
 | [Validate User Input](./input-validation)                      | 2022-08-19   | {{% payloadartist %}} |
 | [Protect Against Server-Side Request Forgery](./protect-against-ssrf) | 2022-08-19   | {{% harsh-bothra %}}  |
 | [Prevent Security Misconfiguration](./prevent-security-misconfig)              | 2022-08-19   | {{% shashank %}}      |
+
