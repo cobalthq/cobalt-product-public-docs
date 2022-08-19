@@ -15,7 +15,7 @@ Once you select **Create a Pentest**, you land on the **Let's Get Started** scre
 Before you start defining your assets, select the [pentest type](/platform-deep-dive/pentests/pentest-types/) that you want to perform.
 
 - {{% agile-pentest %}}
-- {{% comprehensive-pentest %}}
+- A Comprehensive Pentest is performed for [security audit](/getting-started/glossary/#security-audit), [compliance audit](/getting-started/glossary/#compliance-audit), or customer attestation and includes comprehensive [reports](/platform-deep-dive/pentests/reports/) intended for external stakeholders
 
 Select how you want to proceed with your asset:
 
