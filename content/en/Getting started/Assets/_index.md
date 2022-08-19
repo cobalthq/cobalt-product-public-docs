@@ -10,11 +10,18 @@ description: >
 Help our pentesters test your [assets](../glossary#asset) faster.
 {{% /pageinfo %}}
 
-The **Let's get started!** screen includes two options:
+Once you select **Create a Pentest**, you land on the **Let's Get Started** screen.
 
-- **Create a new pentest from an existing asset**
-  - From the list of your assets that appears, choose an asset. Once you select **Next**, you can see the Asset screen with available information.
-- **Create a new pentest for a new asset**
+Before you start defining your assets, select the [pentest type](/platform-deep-dive/pentests/pentest-types/) that you want to perform.
+
+- {{% agile-pentest %}}
+- {{% comprehensive-pentest %}}
+
+Select how you want to proceed with your asset:
+
+- **Create a new asset**
+- **Use an existing asset**
+  - From the list of your assets that appears, choose an asset. Once you select **Continue**, you can see the Asset screen with available information.
 
 <!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
 {{% big-pic-UI-steps %}}
@@ -52,3 +59,5 @@ Now take the next step and define your [Asset Type](./asset-type).
 
 <!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/invite-help.md -->
 {{% invite-help %}}
+
+We'll write a Full Report for Compliance Pentests.
