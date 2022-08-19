@@ -2,8 +2,6 @@
 title: "Best Practices for Security"
 linkTitle: "Best Practices"
 weight: 600
-# The `toc_hide` entry hides the link from the menu. The content still available at <URL>/bestpractices/
-# toc_hide: true
 description: >
   Recommendations for developers focused on security.
 ---
@@ -23,6 +21,8 @@ We'll provide practical examples that you can use as patterns to secure your
 Once we've merged content into this guide, we'll list them in the following table with the
 date of release.
 
-| Article Title | Release Date |
-|---------------|--------------|
-| [Validate User Input](./akhan_input_validation) |              |
+| Article                                                              | Release Date | Author                |
+|----------------------------------------------------------------------|--------------|-----------------------|
+| [Validate User Input](./input-validation)                      | 2022-08-19   | {{% payloadartist %}} |
+| [Protect Against Server-Side Request Forgery](./protect-against-ssrf) | 2022-08-19   | {{% harsh-bothra %}}  |
+| [Prevent Security Misconfiguration](./prevent-security-misconfig)              | 2022-08-19   | {{% shashank %}}      |

@@ -190,7 +190,7 @@ In the context of a Cobalt pentest, you can specify one of three options for an 
 A potential security flaw in an app or physical hardware. We include findings in vulnerability
 reports, as something that a threat actor can exploit.
 
-When you select [Full Report + Finding Details](/getting-started/what-to-expect/report-contents/#appendix-a---finding-details),
+When you select [Full Report + Finding Details](/platform-deep-dive/pentests/reports/report-contents/#appendix-a---finding-details),
 we add a detailed list of findings to your report, which includes:
 
 {{% finding-details %}}
