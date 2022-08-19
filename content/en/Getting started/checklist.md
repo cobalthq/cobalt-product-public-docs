@@ -40,7 +40,7 @@ Under the Details tab, you can review:
 
 ## Reports
 
-<p>{{% min-credits-report %}}.</p>
+You can download a pentest [report](/platform-deep-dive/pentests/reports/) to view security issues that our pentesters found.
 
 ### Co-branded Reports
 
