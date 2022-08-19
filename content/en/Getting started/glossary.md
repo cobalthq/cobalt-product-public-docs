@@ -179,7 +179,7 @@ As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a co
 
 ## Comprehensive Pentest
 
-A pentest performed for [security audit](#security-audit), [compliance audit](#compliance-audit), or customer attestation that includes comprehensive [reports](/platform-deep-dive/pentests/reports/) intended for external stakeholders.<!-- Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/). -->
+{{% comprehensive-pentest %}}.<!-- Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/). -->
 
 ## Environment
 
