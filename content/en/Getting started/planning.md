@@ -120,31 +120,32 @@ To scope a pentest for a Cloud Configuration asset, specify the number of the fo
 Sometimes, assets fit into more than one category. To that end, Cobalt supports pentests on assets in the following groups of categories:
 
 - Web + API
-- Web + Internal Network
+- Web + External Network
 - Web + Mobile
 
 To scope a pentest for a combined asset, specify the number of characteristics for each asset type that it includes.
 
 ## View Required Credits
 
-Once you’ve identified the [pentest scope](#scope-the-pentest), you can see the number of required [credits](https://www.cobalt.io/pentest-pricing#cobaltcredits) in **Credit(s) Per Pentest**. Whenever you adjust the scope, the number of credits updates. Under **Credits**, you can also view your **Available Balance**.
+Once you’ve identified the [pentest scope](#scope-the-pentest), you can see the number of required credits in **Credit(s) Per Pentest**. Whenever you adjust the scope, the number of credits updates. Under **Credits**, you can also view your **Available Balance**.
 
 Note the following:
 
 <ul>
-<li>We accept pentests of at least five (5) credits.</li>
+<li>Compliance Pentests start from 5 credits and go up to 20 credits. Compliance Pentests requiring more than 20 credits don’t get immediate confirmation. We’ll specify the number of required credits after reviewing the pentest.</li>
 <li>{{% min-credits-report %}}.</li>
-<li>Pentests requiring more than 20 credits don’t get immediate confirmation. We’ll specify the number of required credits after reviewing the pentest.</li>
 <li>We may adjust the number of credits after reviewing your pentest.</li>
 </ul>
 
 ## Additional Requests
 
-You can also specify special requirements for pentesters. For example, if
+You can specify special requirements for pentesters. For example, if
 industry, company, or national regulations require that you limit pentesters
 to residents of one or more countries, you can do so here:
 
 ![Pentester Limits](/gsg/PentesterLimits.png "Specify legal or regulatory limitations on pentesters.")
+
+We can't guarantee that we'll accept your additional request. This may also delay scheduling the pentest.
 
 If you're ready with your pentest, select **Save & Exit** > **Yes**.
 
