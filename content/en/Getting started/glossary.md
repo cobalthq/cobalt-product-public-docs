@@ -177,9 +177,9 @@ manage work on your pentests.
 
 As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a comprehensive review of an organization's adherence to governing documents such as whether a Certification Practice Statement satisfies the requirements of a Certificate Policy and whether an organization adheres to its Certification Practice Statement.
 
-## Comprehensive Pentest
+<!-- ## Comprehensive Pentest
 
-{{% comprehensive-pentest %}}.<!-- Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/). -->
+{{% comprehensive-pentest %}}. Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/). -->
 
 ## Environment
 
