@@ -132,7 +132,7 @@ Once you’ve identified the [pentest scope](#scope-the-pentest), you can see th
 Note the following:
 
 <ul>
-<li>Compliance Pentests start from 5 credits and go up to 20 credits. Compliance Pentests requiring more than 20 credits don’t get immediate confirmation. We’ll specify the number of required credits after reviewing the pentest.</li>
+<li>Comprehensive Pentests start from 5 credits and go up to 20 credits. Comprehensive Pentests requiring more than 20 credits don’t get immediate confirmation. We’ll specify the number of required credits after reviewing the pentest.</li>
 <li>{{% min-credits-report %}}</li>
 <li>We may adjust the number of credits after reviewing your pentest</li>
 </ul>
