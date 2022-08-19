@@ -40,8 +40,7 @@ Under the Details tab, you can review:
 
 ## Reports
 
-{{% min-credits-report %}}.
-<!-- For content, see the following file: layouts/shortcodes/pentest-report-requirements.html -->
+<p>{{% min-credits-report %}}.</p>
 
 ### Co-branded Reports
 
