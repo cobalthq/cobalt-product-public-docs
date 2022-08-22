@@ -178,7 +178,7 @@ manage work on your pentests.
 As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a comprehensive review of an organization's adherence to governing documents such as whether:
 
  - A Certification Practice Statement satisfies the requirements of a Certificate Policy
- - An organization adheres to its Certification Practice Statement.
+ - An organization adheres to its Certification Practice Statement
 
 <!-- ## Comprehensive Pentest
 
