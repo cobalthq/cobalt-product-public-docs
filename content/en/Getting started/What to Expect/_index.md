@@ -7,8 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Our pentesters share what they've found before they write your report.
-{{% min-credits-report %}}.
+Our pentesters share what they've found before they write your [report](/platform-deep-dive/pentests/reports/).
 {{% /pageinfo %}}
 
 Now that you've done all the work needed to set up a pentest, you might be anxious for
