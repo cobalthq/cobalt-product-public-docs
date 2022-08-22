@@ -175,7 +175,10 @@ manage work on your pentests.
 
 ## Compliance Audit
 
-As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a comprehensive review of an organization's adherence to governing documents such as whether a Certification Practice Statement satisfies the requirements of a Certificate Policy and whether an organization adheres to its Certification Practice Statement.
+As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a comprehensive review of an organization's adherence to governing documents such as whether:
+
+ - A Certification Practice Statement satisfies the requirements of a Certificate Policy
+ - An organization adheres to its Certification Practice Statement.
 
 <!-- ## Comprehensive Pentest
 
