@@ -333,14 +333,14 @@ Contrast with [mitigate](#mitigate). This reflects how we use **remediate** at
 Cobalt, and differs slightly from the NIST definition of 
 [remediation](https://csrc.nist.gov/glossary/term/remediation).
 
-## Route (software)
+## Route (Software)
 
-In software, it’s a system for resource navigation. If you’re working in the browser, you might be familiar with routing as it relates to:
+As defined by [Manning](#https://freecontent.manning.com/routing-with-react-in-modern-front-end-web-applications/), in software, it’s a system for resource navigation. If you’re working in the browser, you might be familiar with routing as it relates to:
 
  - URLs
  - Resources, such as paths to images and scripts, and so on
  
-On the server, matching incoming request paths (https://api.ifelse.io/users/1) to resources from a database. 
+If you’re working on the server, matching incoming request paths (https://api.ifelse.io/users/1) to resources from a database. 
 
 ## Security Assertion Markup Language
 
