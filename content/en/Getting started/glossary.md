@@ -335,7 +335,7 @@ Cobalt, and differs slightly from the NIST definition of
 
 ## Route (Software)
 
-As defined by [Manning](#https://freecontent.manning.com/routing-with-react-in-modern-front-end-web-applications/), in software, it’s a system for resource navigation. If you’re working in the browser, you might be familiar with routing as it relates to:
+As defined by [Manning](https://freecontent.manning.com/routing-with-react-in-modern-front-end-web-applications/), in software, it’s a system for resource navigation. If you’re working in the browser, you might be familiar with routing as it relates to:
 
  - URLs
  - Resources, such as paths to images and scripts, and so on
