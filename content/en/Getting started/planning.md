@@ -79,7 +79,7 @@ Include those User Roles and Screens that should be in scope for this pentest. B
 
 ### API
 
-We can test both RESTful and GraphQL APIs. However, these APIs work in different ways. While some RESTful APIs can have dozens of endpoints, a GraphQL API has a single endpoint.
+We can test both RESTful and GraphQL APIs. However, these APIs work in different ways. RESTful APIs set up data on different endpoints. GraphQL uses a single endpoint, but uses mutations to manage different categories of data.
 
 If you’re sizing a GraphQL API, identify a list of [queries and mutations](https://graphql.org/learn/queries). For pentest purposes, that’s functionally equivalent to the number of RESTful API endpoints.
 
