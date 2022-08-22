@@ -1,7 +1,7 @@
 ---
 title: Protect against Server-Side Request Forgery
 linkTitle: Protect against SSRF
-weight: 620
+weight: 630
 description: >
   Protect your app against SSRF attacks.
 ---

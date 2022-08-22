@@ -28,6 +28,6 @@ date of release.
 | Article                                                              | Release Date | Author                |
 |----------------------------------------------------------------------|--------------|-----------------------|
 | [Validate User Input](./input-validation)                      | 2022-08-19   | {{% payloadartist %}} |
-| [Protect Against Server-Side Request Forgery](./protect-against-ssrf) | 2022-08-19   | {{% harsh-bothra %}}  |
 | [Prevent Security Misconfiguration](./prevent-security-misconfig)              | 2022-08-19   | {{% shashank %}}      |
+| [Protect Against Server-Side Request Forgery](./protect-against-ssrf) | 2022-08-19   | {{% harsh-bothra %}}  |
 
