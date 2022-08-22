@@ -333,9 +333,14 @@ Contrast with [mitigate](#mitigate). This reflects how we use **remediate** at
 Cobalt, and differs slightly from the NIST definition of 
 [remediation](https://csrc.nist.gov/glossary/term/remediation).
 
-## Route
+## Route (software)
 
-In web applications, routing is a mechanism that determines which functionality is triggered when a user sends specific HTTP requests. A _route_ is a URL pattern associated with a handler that processes the request.
+In software, it’s a system for resource navigation. If you’re working in the browser, you might be familiar with routing as it relates to:
+
+ - URLs
+ - Resources, such as paths to images and scripts, and so on
+ 
+On the server, matching incoming request paths (https://api.ifelse.io/users/1) to resources from a database. 
 
 ## Security Assertion Markup Language
 
