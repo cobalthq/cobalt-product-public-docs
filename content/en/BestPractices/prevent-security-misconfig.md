@@ -1,7 +1,7 @@
 ---
 title: Prevent Security Misconfiguration
 linkTitle: Prevent Security Misconfiguration
-weight: 630
+weight: 620
 description: >
   Configure your software properly to avoid security issues.
 ---
