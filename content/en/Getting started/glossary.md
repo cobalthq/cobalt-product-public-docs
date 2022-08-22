@@ -340,7 +340,7 @@ As defined by [Manning](https://freecontent.manning.com/routing-with-react-in-mo
  - URLs
  - Resources, such as paths to images and scripts, and so on
  
-If you’re working on the server, matching incoming request paths (https://api.ifelse.io/users/1) to resources from a database. 
+If you’re working on the server, matching incoming request paths to resources from a database. 
 
 ## Security Assertion Markup Language
 
