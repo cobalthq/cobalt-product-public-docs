@@ -59,5 +59,3 @@ Now take the next step and define your [Asset Type](./asset-type).
 
 <!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/invite-help.md -->
 {{% invite-help %}}
-
-We'll write a Full Report for Compliance Pentests.
