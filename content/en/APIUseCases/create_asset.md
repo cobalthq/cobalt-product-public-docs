@@ -210,6 +210,7 @@ curl -X PUT 'https://api.cobalt.io/assets/{{% asset-id %}}' \
           }' \
   -v
 ```
+<!-- Remove asset size and coverage when Comprehensive Pentests are launched (Sept 7). -->
 
 You can find optional values for `size` and `coverage` in our API reference on
 how to [Update an Asset](https://docs.cobalt.io/v2/#update-an-asset).
