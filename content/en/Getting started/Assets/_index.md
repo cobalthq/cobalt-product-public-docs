@@ -10,18 +10,11 @@ description: >
 Help our pentesters test your [assets](../glossary#asset) faster.
 {{% /pageinfo %}}
 
-Once you select **Create a Pentest**, you land on the **Let's Get Started** screen.
+The **Let's get started!** screen includes two options:
 
-Before you start defining your assets, select the [pentest type](/platform-deep-dive/pentests/pentest-types/) that you want to perform.
-
-- {{% agile-pentest %}}
-- A Comprehensive Pentest is performed for [security audit](/getting-started/glossary/#security-audit), [compliance audit](/getting-started/glossary/#compliance-audit), or customer attestation and includes comprehensive [reports](/platform-deep-dive/pentests/reports/) intended for external stakeholders
-
-Select how you want to proceed with your asset:
-
-- **Create a new asset**
-- **Use an existing asset**
-  - From the list of your assets that appears, choose an asset. Once you select **Continue**, you can see the Asset screen with available information.
+- **Create a new pentest from an existing asset**
+  - From the list of your assets that appears, choose an asset. Once you select **Next**, you can see the Asset screen with available information.
+- **Create a new pentest for a new asset**
 
 <!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
 {{% big-pic-UI-steps %}}
