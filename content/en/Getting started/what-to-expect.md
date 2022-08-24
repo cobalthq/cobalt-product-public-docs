@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Our pentesters share what they've found before they write your report.
+Our pentesters share what they've found before they write your [report](/platform-deep-dive/pentests/reports/).
 {{% min-credits-report %}}.
 {{% /pageinfo %}}
 
