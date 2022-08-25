@@ -1,6 +1,6 @@
 ---
-title: "Understand Pentest Coverage"
-linkTitle: "Understand Pentest Coverage"
+title: "Understand Pentest Scoping"
+linkTitle: "Understand Pentest Scoping"
 weight: 40
 toc_hide: true
 description: >
