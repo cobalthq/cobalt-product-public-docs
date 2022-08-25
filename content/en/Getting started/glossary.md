@@ -180,9 +180,9 @@ As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a co
  - A Certification Practice Statement satisfies the requirements of a Certificate Policy
  - An organization adheres to its Certification Practice Statement
 
-<!-- ## Comprehensive Pentest
+## Comprehensive Pentest
 
-{{% comprehensive-pentest %}}. Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/). -->
+{{% comprehensive-pentest %}}.<!-- Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/). -->
 
 ## Environment
 
