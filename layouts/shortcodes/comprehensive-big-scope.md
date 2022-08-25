@@ -1,1 +1,1 @@
-Comprehensive Pentests requiring more than 20 credits don’t get immediate confirmation. We’ll specify the number of required credits after reviewing the pentest.
+Comprehensive Pentests requiring more than 20 credits don’t get immediate credit confirmation. We’ll specify the number of required credits after reviewing the pentest.
