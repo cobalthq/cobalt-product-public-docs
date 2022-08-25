@@ -1,7 +1,7 @@
 ---
 title: "Pentest Expectations"
 linkTitle: "Pentest Expectations"
-weight: 300
+weight: 260
 description: >
   What happens after you've set up your pentest.
 ---

@@ -1,0 +1,1 @@
+[Cobalt credits](https://www.cobalt.io/pentest-pricing#cobaltcredits)
