@@ -182,7 +182,7 @@ As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a co
 
 ## Comprehensive Pentest
 
-{{% comprehensive-pentest %}}.<!-- Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/). -->
+{{% comprehensive-pentest %}}. Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/).
 
 ## Environment
 
