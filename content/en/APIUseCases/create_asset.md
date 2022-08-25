@@ -19,7 +19,7 @@ Your organization owner is typically the user who interacts with the Cobalt
 Customer Success Manager (CSM).
 
 You can create an [asset](/getting-started/glossary/#asset) in the UI.
-If you prefer to automate the process and or work from the command line, can also use
+If you prefer to automate the process and/or work from the command line, you can also use
 our API.
 
 To create or modify an asset with our API, follow the sequence of commands shown
