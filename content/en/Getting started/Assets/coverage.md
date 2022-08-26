@@ -6,7 +6,7 @@ toc_hide: true
 description: >
   The pentest scope determines the number of credits required for a pentest.
 ---
-
+<!-- Do not delete this page until the link in the UI is changed. See CX-2970 for details.-->
 {{% pageinfo %}}
 Refer to [Plan and Scope the Pentest](/getting-started/planning/) for details.
 {{% /pageinfo %}}
