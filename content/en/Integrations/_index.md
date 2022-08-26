@@ -41,4 +41,4 @@ Refer to the [API documentation](https://docs.cobalt.io/) for details.
 We're working to integrate more solutions with the Cobalt platform. You can suggest a tool that would support your workflows:
 
 - On the **Integrations** page under **Suggest an Integration**
-- By sending an email at [integrations@cobalt.io](mailto:integrations@cobalt.io)
+- By sending an email to [integrations@cobalt.io](mailto:integrations@cobalt.io)
