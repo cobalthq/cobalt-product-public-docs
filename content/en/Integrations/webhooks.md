@@ -23,7 +23,6 @@ sequenceDiagram
    Your App->>Cobalt Platform: Notify me of new pentest events
    Cobalt Platform-->>Your App: Pentest created
    Cobalt Platform-->>Your App: Finding created
-   Cobalt Platform-->>Your App: Asset updated
    Cobalt Platform-->>Your App: Finding state changed
 {{< /mermaid >}}
 <br>
@@ -42,9 +41,9 @@ Before you start creating webhooks, complete the configuration in your app.
 
 When you set up a webhook, you subscribe to the following events related to your pentests.
 
-| Asset | Pentest | Finding |
+| Pentests | Findings |
 |---|---|---|
-| <li>Asset created</li><li>Asset updated</li><li>Asset deleted</li> | <li>Pentest created</li><li>[Pentest state](/penteststates/) changed</li><li>Pentest deleted</li> | <li>Finding created</li><li>Comment created for a finding</li><li>Finding state changed</li><li>Finding deleted</li>
+<li>Pentest created</li><li>[Pentest state](/penteststates/) changed</li> | <li>Finding created</li><li>Finding deleted</li>
 
 ## Configure Webhooks in the UI
 
