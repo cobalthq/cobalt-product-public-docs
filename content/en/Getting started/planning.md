@@ -49,7 +49,7 @@ Once you’ve scoped the pentest, see how many [credits](#view-required-credits)
 To scope a pentest for a Web asset, specify the number of the following characteristics of that asset:
 
 - [User Roles](../glossary/#user-role)
-- [Pages](../glossary/#page)/[Routes](../glossary/#route)
+- [Pages](../glossary/#web-page)/[Routes](../glossary/#route)
 
 Include those User Roles and Pages/Routes that should be in scope for this pentest. Be thorough. If you forget certain roles or pages/routes, your pentest might not cover all critical details.
 
