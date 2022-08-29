@@ -14,6 +14,10 @@ cited in the [References](#references).
 The definitions included in this page may vary from the cited standards, based on how
 we configure and use Cobalt software.
 
+## Agile Pentest
+
+{{% agile-pentest %}}. Learn more about the [pentest types](/platform-deep-dive/pentests/pentest-types/).
+
 ## Allowlist
 
 An allowlist explicitly lets identified systems access. In networks, an allowlist can specify IP
