@@ -22,13 +22,13 @@ In the Cobalt app, navigate to the **Integrations** page to get started.
 <!-- Links to Zendesk are temporary. We'll change them once the content is moved to Product Docs. -->
 | Integration | Type | Use |
 |:---|:---|:---|
-| <img src="/gsg/IntegrationsJira.png" width="30"> [Jira](https://cobaltio.zendesk.com/hc/en-us/sections/4407694113044-Integration-Guides) | Native | Push Cobalt findings as issues to Jira Cloud, Server, or Data Center. Synchronize Cobalt findings with Jira tickets bi-directionally.
-| <img src="/gsg/IntegrationsGithub.png" width="30"> [GitHub](https://cobaltio.zendesk.com/hc/en-us/articles/360058712591-How-do-I-set-up-GitHub-Integration-) | Native | Push Cobalt findings as issues to GitHub
-| <img src="/gsg/IntegrationsWebhooks.png" width="30"> [Webhooks](/integrations/webhooks/) | Native | Subscribe to real-time notifications for pentest events using API-based webhooks
-| <img src="/gsg/IntegrationsJupiterone.png" width="30"> [JupiterOne](https://community.askj1.com/kb/articles/994-cobalt-integration-with-jupiterone) | Partner | Analyze pentest data with JupiterOne tools
-| <img src="/gsg/IntegrationsTugboat.png" width="30"> [Tugboat Logic](https://tugboatlogic.com/integrations/cobalt/) | Partner | Pull Cobalt pentest information into a Tugboat Logic-based InfoSec program
-| <img src="/gsg/IntegrationsDefectdojo.png" width="30"> [DefectDojo](https://defectdojo.github.io/django-DefectDojo/integrations/parsers/#cobaltio-api-import) | Partner | Import your Cobalt pentest findings into DefectoDojo with Cobalt API
-| <img src="/gsg/IntegrationsKennasecurity.png" width="30"> [Kenna Security](https://github.com/KennaSecurity/toolkit/tree/main/tasks/connectors/cobaltio#readme) | Partner | Import Cobalt pentest findings
+| <img src="/integrations/Jira.png" width="30"> [Jira](https://cobaltio.zendesk.com/hc/en-us/sections/4407694113044-Integration-Guides) | Native | <li>Push Cobalt findings as issues to Jira Cloud, Server, or Data Center</li><li>Synchronize Cobalt findings with Jira tickets bi-directionally</li>
+| <img src="/integrations/Github.png" width="30"> [GitHub](https://cobaltio.zendesk.com/hc/en-us/articles/360058712591-How-do-I-set-up-GitHub-Integration-) | Native | Push Cobalt findings as issues to GitHub
+| <img src="/integrations/Webhooks.png" width="30"> [Webhooks](/integrations/webhooks/) | Native | Subscribe to real-time notifications for pentest events using API-based webhooks
+| <img src="/integrations/Jupiterone.png" width="30"> [JupiterOne](https://community.askj1.com/kb/articles/994-cobalt-integration-with-jupiterone) | Partner | Analyze pentest data with JupiterOne tools
+| <img src="/integrations/Tugboatlogic.png" width="30"> [Tugboat Logic](https://tugboatlogic.com/integrations/cobalt/) | Partner | Pull Cobalt pentest information into a Tugboat Logic-based InfoSec program
+| <img src="/integrations/Defectdojo.png" width="30"> [DefectDojo](https://defectdojo.github.io/django-DefectDojo/integrations/parsers/#cobaltio-api-import) | Partner | Import your Cobalt pentest findings into DefectoDojo with Cobalt API
+| <img src="/integrations/Kennasecurity.png" width="30"> [Kenna Security](https://github.com/KennaSecurity/toolkit/tree/main/tasks/connectors/cobaltio#readme) | Partner | Import Cobalt pentest findings
 
 ## Build Your Own Integration
 
