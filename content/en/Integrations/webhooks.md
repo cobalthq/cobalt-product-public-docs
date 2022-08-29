@@ -34,16 +34,16 @@ You can configure webhooks through the API and in the [Cobalt UI](#configure-web
 
 Before you start creating webhooks, complete the configuration in your app.
 
-1. Generate an **authentication token**. We need this token to authorize HTTP POST requests to your URL and connect to your app.
+1. Generate an **authentication token** in your app. We need this token to authorize HTTP POST requests to your URL and connect to your app.
 1. Make sure that the **URL** where you want to receive notifications is valid and your services work properly.
 
 ## Webhook Events
 
 When you set up a webhook, you subscribe to the following events related to your pentests.
 
-| Pentests | Findings |
+| Asset | Pentest | Finding |
 |---|---|---|
-<li>Pentest created</li><li>[Pentest state](/penteststates/) changed</li> | <li>Finding created</li><li>Finding deleted</li>
+| <li>Asset created</li><li>Asset updated</li><li>Asset deleted</li> | <li>Pentest created</li><li>[Pentest state](/penteststates/) changed</li><li>Pentest deleted</li> | <li>Finding created</li><li>Comment created for a finding</li><li>Finding state changed</li><li>Finding deleted</li>
 
 ## Configure Webhooks in the UI
 
