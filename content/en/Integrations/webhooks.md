@@ -83,7 +83,7 @@ You can check the status of your webhooks on the **Webhooks** page. The followin
 - **Yellow warning**: The webhook stopped responding to events at the specified time. We’ll disable the webhook after 48 hours of failed attempts.
 - **Red error**: The webhook stopped responding, and we disabled it after 48 hours of failed attempts.
 
-Find solutions for common troubleshooting problems in the table below.
+Find solutions for common troubleshooting problems in the table below:
 
 | Problem | Solution |
 |---|---|
