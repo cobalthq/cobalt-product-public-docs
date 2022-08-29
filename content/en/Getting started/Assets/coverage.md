@@ -3,6 +3,7 @@ title: "Understand Pentest Scoping"
 linkTitle: "Understand Pentest Scoping"
 weight: 40
 toc_hide: true
+hide_summary: true
 description: >
   The pentest scope determines the number of credits required for a pentest.
 ---
