@@ -14,8 +14,8 @@ With our API-based webhooks, you can set up an integration between your app and 
 
 When you work with an API, you can become aware of new data in the following ways:
 
-- Repeatedly send requests to the same [API endpoint](/getting-started/glossary/#api-endpoint) to retrieve new information. This process is known as API polling.
-- Configure a webhook that automatically sends updates for new data to the specified URL.
+- Repeatedly send requests to the same [API endpoint](/getting-started/glossary/#api-endpoint) to retrieve new information, which is known as polling.
+- Configure a webhook that automatically sends new data to the specified URL.
 
 {{< mermaid align="left" theme="default" >}}
 sequenceDiagram
@@ -23,6 +23,7 @@ sequenceDiagram
    Your App->>Cobalt Platform: Notify me of new pentest events
    Cobalt Platform-->>Your App: Pentest created
    Cobalt Platform-->>Your App: Finding created
+   Cobalt Platform-->>Your App: Asset updated
    Cobalt Platform-->>Your App: Finding state changed
 {{< /mermaid >}}
 <br>
