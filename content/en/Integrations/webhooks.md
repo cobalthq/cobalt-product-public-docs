@@ -53,7 +53,7 @@ Let’s configure webhooks in the Cobalt app.
 
 To create a webhook:
 
-1. Navigate to the **Integrations** page, and then select **Webhooks** under **Native Integrations**.
+1. In the Cobalt app, navigate to the **Integrations** page, and then select **Webhooks** under **Native Integrations**.
 1. On the **Webhooks** page, select **Create Webhook**.
 1. In the overlay that appears, specify the following:
    - **Webhook Name**
