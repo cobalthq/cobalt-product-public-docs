@@ -36,7 +36,7 @@ You can configure webhooks through the API and in the [Cobalt UI](#configure-web
 Before you start creating webhooks, complete the configuration in your app.
 
 1. Generate an **authentication token** in your app. We need this token to authorize HTTP POST requests to your URL and connect to your app.
-1. Make sure that the **URL** where you want to receive notifications is valid and your services work properly.
+1. Make sure that the **URL** where you want to receive notifications is valid and your services work properly. If possible, test your connections.
 
 ## Webhook Events
 
