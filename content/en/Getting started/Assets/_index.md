@@ -16,7 +16,7 @@ The **Let's get started!** screen includes two options:
   - From the list of your assets that appears, choose an asset. Once you select **Next**, you can see the Asset screen with available information.
 - **Create a new pentest for a new asset**
 
-<!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
+<!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md  -->
 {{% big-pic-UI-steps %}}
 
 This section can help you define your asset. In the Cobalt UI, you can
