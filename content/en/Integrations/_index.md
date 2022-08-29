@@ -32,7 +32,7 @@ Navigate to the **Integrations** page to get started.
 
 ## Build Your Own Integration
 
-Use our API to build your own integrations. You need an [authentication token](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui) to make REST calls.
+Use our API to build your own integrations. You need a Cobalt [API token](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui) to make REST calls.
 
 Refer to the [API documentation](https://docs.cobalt.io/) for details.
 
