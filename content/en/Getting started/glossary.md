@@ -272,14 +272,6 @@ wired, analog, or digital.
 Operations Security, commonly known as OpSec, identifies critical information, and if/how it
 may be used by opponents or enemies. OpSec measures can reduce security risks.
 
-## Page
-
-Web applications typically include _static_ and _dynamic_ web pages.
-
-- A static page contains stable content that appears the same for every user who opens the page.
-- A dynamic page includes content that can be customized, either through an application server (server-side) or through code such as
-JavaScript running in the browser (client-side).
-
 ## Pentest
 
 Short for penetration test. As described in the [Getting Started Guide](/getting-started/),
@@ -409,6 +401,14 @@ How Cobalt classifies the [vulnerability](#vulnerability). Examples include:
 - Client Side Injection
 - Server Security Misconfiguration > Lack of Password Confirmation
 - Broken Authentication and Session Management
+
+## Web Page
+
+A hypertext document on the World Wide Web. Web applications typically include _static_ and _dynamic_ web pages.
+
+- A static page contains stable content that appears the same for every user who opens the page.
+- A dynamic page includes content that can be customized, either through an application server (server-side) or through code such as
+JavaScript running in the browser (client-side).
 
 ## White Box Testing
 
