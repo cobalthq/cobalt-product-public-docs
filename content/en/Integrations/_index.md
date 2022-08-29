@@ -14,7 +14,7 @@ Streamline your pentesting and development workflows with Cobalt integrations.
 The availability of this feature is based on your <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tier</a>.
 {{% /alert %}}
  
-Navigate to the **Integrations** page to get started.
+In the Cobalt app, navigate to the **Integrations** page to get started.
 
 - Set up **Native** integrations in the Cobalt app to push Cobalt data to external apps. Here, you can also create [webhooks](/integrations/webhooks/) to get real-time pentest updates.
 - Enable **Partner** integrations in third-party apps. You need an [API token](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui) to pull Cobalt data to external apps.
