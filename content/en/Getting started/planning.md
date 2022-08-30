@@ -127,7 +127,7 @@ To scope a pentest for a combined asset, specify the number of characteristics f
 
 ## View Required Credits
 
-Once you’ve identified the [pentest scope](#scope-the-pentest), you can see the number of required credits in **Credit(s) Per Pentest**. Whenever you adjust the scope, the number of credits updates. Under **Credits**, you can also view your **Available Balance**.
+Once you’ve identified the [pentest scope](#scope-the-pentest), you can see the number of required credits in **Credit(s) Per Pentest**. Whenever you adjust the scope, our algorithm updates the number of credits. Under **Credits**, you can also view your **Available Balance**.
 
 ### Credit Criteria
 <!-- Update for Agile Pentests -->
