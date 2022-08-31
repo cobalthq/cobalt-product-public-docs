@@ -45,7 +45,7 @@ results. Here's what you can expect:
      set the finding to one of the following states:
 
      - Pending Fix, when your developers are remediating the finding.
-     - Ready for Re-Test, assumes that your developers have fixed the issue, and you're ready
+     - Ready for Retest, assumes that your developers have fixed the issue, and you're ready
        for our pentesters to validate your fix. Retesting may depend on
        your {{% ptaas-tier %}}.
      - Accepted Risk, when you've determined that the finding is either not critical,
