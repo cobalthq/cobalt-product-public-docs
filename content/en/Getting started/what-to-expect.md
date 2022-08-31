@@ -55,7 +55,8 @@ results. Here's what you can expect:
 1. We keep the Slack channel open until you've set each finding to:
    - Accepted Risk
    - Fixed
-   If you need access to the archived Slack channel, contact your Customer Success Manager or support@cobalt.io.
+   <br>{{% contact-csm-support %}} if you need access to the archived Slack channel.
+
 1. If you've purchased a qualifying {{% ptaas-tier %}}, you can customize your pentest report.
    However, we report _all_ findings. For more information, see the following blog post
    on how you can [Customize Your Pentest
