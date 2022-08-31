@@ -132,7 +132,7 @@ Once you’ve identified the [pentest scope](#scope-the-pentest), you can see th
 ### Credit Criteria
 <!-- Update for Agile Pentests -->
 - You can set up a [Comprehensive Pentest](/platform-deep-dive/pentests/pentest-types/) of at least 5 credits, with increments of 1 credit.
-- {{% comprehensive-big-scope %}}
+- {{% pentest-big-scope %}}
 - We may adjust the number of credits after reviewing your pentest.
 
 ## Additional Requests
