@@ -177,11 +177,16 @@ A _Pentester_ is a Cobalt pentester who works with a _Pentest Lead_ to test a sp
 _Cobalt Staff_ members may help you manage the users in your organization. They may also help
 manage work on your pentests.
 
-## Dynamic Page
+## Compliance Audit
 
-Web applications typically include _static_ and _dynamic_ web pages. A Dynamic Page includes content
-that can be customized, either through an application server (server-side) or through code such as
-JavaScript running in the browser (client-side).
+As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a comprehensive review of an organization's adherence to governing documents such as whether:
+
+ - A Certification Practice Statement satisfies the requirements of a Certificate Policy
+ - An organization adheres to its Certification Practice Statement
+
+## Comprehensive Pentest
+
+{{% comprehensive-pentest %}}. Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/).
 
 ## Environment
 
@@ -198,6 +203,10 @@ When you select [Full Report + Finding Details](/platform-deep-dive/pentests/rep
 we add a detailed list of findings to your report, which includes:
 
 {{% finding-details %}}
+
+## GraphQL Mutation
+
+For more information, see https://graphql.org/learn/queries/#mutations
 
 ## Gray Box Testing
 
@@ -221,7 +230,7 @@ A "well-known" security vulnerability. Documented in a security bulletin or a CV
 
 In Cobalt pentest reports, you may see this as a published or documented vulnerability.
 
-## Mitigate 
+## Mitigate
 
 To apply preventative measures. Based on problems identified by a pentest or incident report.
 Examples:
@@ -307,8 +316,6 @@ A summary of all vulnerability reports, including observations on positive secur
 
 Within Cobalt, this is also known as a Report or a Final Report.
 
-{{% min-credits-report %}}
-
 ## Remediate
 
 To fix a vulnerability identified by a pentest or incident report. Examples:
@@ -320,11 +327,24 @@ Contrast with [mitigate](#mitigate). This reflects how we use **remediate** at
 Cobalt, and differs slightly from the NIST definition of 
 [remediation](https://csrc.nist.gov/glossary/term/remediation).
 
+## Route (Software)
+
+As defined by [Manning](https://freecontent.manning.com/routing-with-react-in-modern-front-end-web-applications/), in software, it’s a system for resource navigation. If you’re working in the browser, you might be familiar with routing as it relates to:
+
+ - URLs
+ - Resources, such as paths to images and scripts, and so on
+ 
+If you’re working on the server, matching incoming request paths to resources from a database. 
+
 ## Security Assertion Markup Language
 
 As defined by the Organization for the Advancement of Structured Information Standards (OASIS),
 the [Security Assertion Markup Language (SAML)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=security)
-SAML is an XML-based framework for communicating user authentication, entitlement, and attribute information. 
+SAML is an XML-based framework for communicating user authentication, entitlement, and attribute information.
+
+## Security Audit
+
+As [defined](https://csrc.nist.gov/glossary/term/security_audit) by NIST, an independent review and examination of a system’s records and activities to determine the adequacy of system controls, ensure compliance with established security policy and procedures, detect breaches in security services, and recommend any changes that are indicated for countermeasures.
 
 ## SANS Institute
 
@@ -385,6 +405,14 @@ How Cobalt classifies the [vulnerability](#vulnerability). Examples include:
 - Client Side Injection
 - Server Security Misconfiguration > Lack of Password Confirmation
 - Broken Authentication and Session Management
+
+## Web Page
+
+A hypertext document on the World Wide Web. Web applications typically include _static_ and _dynamic_ web pages.
+
+- A static page contains stable content that appears the same for every user who opens the page.
+- A dynamic page includes content that can be customized, either through an application server (server-side) or through code such as
+JavaScript running in the browser (client-side).
 
 ## White Box Testing
 

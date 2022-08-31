@@ -38,18 +38,9 @@ Under the Details tab, you can review:
 - [Cloud platform components](../details/#cloud-platform-components)
 - [Test data](../details/#test-data) sensitivity
 
-## Asset
-
-Under the Asset tab, you can review:
-
-- [Asset type](../assets/asset-type/)
-- [Description](../assets/asset-description/)
-- [Documentation](../assets/asset-description/#asset-documentation)
-
 ## Reports
 
-{{% pentest-report-requirements %}}
-<!-- For content, see the following file: layouts/shortcodes/pentest-report-requirements.html -->
+You can download a pentest [report](/platform-deep-dive/pentests/reports/) to view security issues that our pentesters found.
 
 ### Co-branded Reports
 
