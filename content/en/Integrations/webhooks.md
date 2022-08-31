@@ -89,4 +89,4 @@ Find solutions for common troubleshooting problems in the table below:
 |---|---|
 | You can’t create a webhook because the name or URL already exists | Enter a unique name and URL for your webhook |
 | <li>You can’t create a webhook because the validation fails</li><li>You don’t get webhook notifications to your URL</li><li>You can't enable a webhook that we disabled or you made inactive earlier</li> | We failed to validate your webhook. Check the following:<li>Your authentication token is valid. Refresh the token or generate a new one if needed.</li><li>The URL is valid and can accept requests.</li>|
-| You can't delete a webhook | Try again or contact support |
+| You can't delete a webhook | <li>Try again</li><li>{{% contact-csm-support %}} for assistance</li> |
