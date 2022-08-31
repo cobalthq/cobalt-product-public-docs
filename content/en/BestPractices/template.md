@@ -1,5 +1,5 @@
 ---
-title: "<Substitute your title>"
+Title: ""
 linkTitle: "<Substitute a possibly shorter title>"
 # Change this weight, based on where it should go in the "Best Practices"
 # section
