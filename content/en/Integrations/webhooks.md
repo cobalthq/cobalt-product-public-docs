@@ -76,7 +76,7 @@ Now you can manage the webhooks that you [created](#create-a-webhook).
 - To **delete** a webhook, select the three-dot icon under **Actions**, and then select **Delete Webhook**.
   - You can make a webhook inactive without deleting it.
 
-## Troubleshooting
+## Troubleshoot Webhooks
 
 You can check the status of your webhooks on the **Webhooks** page. The following icons indicate that there is a problem with your webhook:
 
