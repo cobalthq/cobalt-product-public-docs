@@ -57,7 +57,7 @@ Include those User Roles and Pages/Routes that should be in scope for this pente
 You may not need to include _every_ user role. For example, if you have dedicated administrative roles for backups, logs, and printers, that counts as one (1) role.
 {{% /alert %}}
 
-As part of our tests for dynamic pages, we also test the backend API endpoints frequently used to populate content on those pages.
+As part of our tests for web pages, we also test the backend API endpoints frequently used to populate content on those pages.
 
 Our pentesters need to know more about your Web asset, including:
 
@@ -65,7 +65,7 @@ Our pentesters need to know more about your Web asset, including:
 - Special endpoints associated with your pages
 
 {{% alert title="Note" color="note" %}}
-If the only APIs in your assets populate dynamic web pages, you may not need to set up a separate API asset. We test such APIs as part of our tests of a Web asset.
+If the only APIs in your assets populate web pages, you may not need to set up a separate API asset. We test such APIs as part of our tests of a Web asset.
 {{% /alert %}}
 
 ### Mobile
@@ -79,7 +79,7 @@ Include those User Roles and Screens that should be in scope for this pentest. B
 
 ### API
 
-We can test both RESTful and GraphQL APIs. However, these APIs work in different ways. RESTful APIs set up data on different endpoints. GraphQL uses a single endpoint, but uses mutations to manage different categories of data.
+We can test both RESTful and GraphQL APIs. However, these APIs work in different ways. RESTful APIs set up data on different endpoints. GraphQL has a single endpoint, but uses mutations to manage different categories of data.
 
 If you’re sizing a GraphQL API, identify a list of [queries and mutations](https://graphql.org/learn/queries). For pentest purposes, that’s functionally equivalent to the number of RESTful API endpoints.
 
