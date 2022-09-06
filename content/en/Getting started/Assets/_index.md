@@ -41,7 +41,7 @@ The asset screen prompts you for the following information:
 - [Asset Type](./asset-type): Select one of the options described in the linked page.
 - [Asset Description](./asset-description): Add information that can help your
   pentesters fully analyze your asset.
-- [Attachment(s)](./asset-description/#attachments): Upload documentation,
+- [Attachments](./asset-description/#attachments): Upload documentation,
   architecture diagrams, images, spreadsheets, or videos related to your asset.
 
 The UI provides the information that you need to add an Asset Image and Title.
