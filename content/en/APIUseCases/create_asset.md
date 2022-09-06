@@ -18,7 +18,7 @@ member](https://cobaltio.zendesk.com/hc/en-us/articles/360058712491-How-do-I-add
 Your organization owner is typically the user who interacts with the Cobalt
 Customer Success Manager (CSM).
 
-You can create an [asset](../../getting-started/glossary/#asset) in the UI.
+You can create an [asset](/getting-started/glossary/#asset) in the UI.
 If you prefer to automate the process and/or work from the command line, you can also use
 our API.
 
@@ -210,6 +210,7 @@ curl -X PUT 'https://api.cobalt.io/assets/{{% asset-id %}}' \
           }' \
   -v
 ```
+<!-- Remove asset size and coverage when Comprehensive Pentests are launched (Sept 7). -->
 
 You can find optional values for `size` and `coverage` in our API reference on
 how to [Update an Asset](https://docs.cobalt.io/v2/#update-an-asset).
@@ -228,7 +229,7 @@ section of our API reference.
 ## Include an Asset Attachment
 
 You can help our pentesters by including one of the options noted in our
-[Asset Documentation](../../getting-started/assets/asset-description/#asset-documentation).
+[Attachments](/getting-started/assets/asset-description/#attachments).
 You can also upload the same types of files through our API. 
 
 As an example, the following command uploads the `image.jpg` file as asset
