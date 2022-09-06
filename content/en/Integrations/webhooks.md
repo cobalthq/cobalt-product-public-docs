@@ -63,7 +63,7 @@ To create a webhook:
    - **Authentication Token**: Your [token](#before-you-start) required to authorize API requests that Cobalt sends to your URL.
 1. When ready, select **Save**.
 1. We send a test API request to the specified URL to validate your webhook. The webhook becomes active once the validation is complete.
-   - If the validation fails, we’ll disable your webhook within 24 hours. See [Troubleshooting](#troubleshooting) for more information.
+   - If the validation fails, we’ll disable your webhook within 24 hours. See [Troubleshoot Webhooks](#troubleshoot-webhooks) for more information.
 
 ![Create a webhook in the Cobalt UI](/integrations/CreateWebhook.png "Create a webhook in the Cobalt UI")
 
