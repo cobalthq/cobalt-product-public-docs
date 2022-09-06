@@ -62,8 +62,8 @@ To create a webhook:
      - Use a unique name and URL for each webhook you create.
    - **Authentication Token**: Your [token](#before-you-start) required to authorize API requests that Cobalt sends to your URL.
 1. When ready, select **Save**.
-1. We send a test API request to the specified URL to validate your webhook. The webhook becomes active once the validation is complete.
-   - If the validation fails, we’ll disable your webhook within 24 hours. See [Troubleshoot Webhooks](#troubleshoot-webhooks) for more information.
+1. We send a test event to the specified URL to validate your webhook. The webhook becomes active once the validation is complete.
+   - If the validation fails, we’ll deactivate your webhook within 24 hours. See [Troubleshoot Webhooks](#troubleshoot-webhooks) for more information.
 
 ![Create a webhook in the Cobalt UI](/integrations/CreateWebhook.png "Create a webhook in the Cobalt UI")
 
@@ -80,13 +80,13 @@ Now you can manage the webhooks that you [created](#create-a-webhook).
 
 You can check the status of your webhooks on the **Webhooks** page. The following icons indicate that there is a problem with your webhook:
 
-- **Yellow warning**: The webhook stopped responding to events at the specified time. We’ll disable the webhook after 48 hours of failed attempts.
-- **Red error**: The webhook stopped responding, and we disabled it after 48 hours of failed attempts.
+- **Yellow warning**: The webhook stopped responding to events at the specified time. We’ll deactivate the webhook after 48 hours of failed attempts.
+- **Red error**: The webhook stopped responding, and we deactivated it after 48 hours of failed attempts.
 
 Find solutions for common troubleshooting problems in the table below:
 
 | Problem | Solution |
 |---|---|
 | You can’t create a webhook because the name or URL already exists | Enter a unique name and URL for your webhook |
-| <li>You can’t create a webhook because the validation fails</li><li>You don’t get webhook notifications to your URL</li><li>You can't enable a webhook that we disabled or you made inactive earlier</li> | We failed to validate your webhook. Check the following:<li>Your authentication token is valid. Refresh the token or generate a new one if needed.</li><li>The URL is valid and can accept requests.</li>|
+| <li>You can’t create a webhook because the validation fails</li><li>You don’t get webhook notifications to your URL</li><li>You can't activate a webhook that we deactivated or you made inactive earlier</li> | We failed to validate your webhook. Check the following:<li>Your authentication token is valid. Refresh the token or generate a new one if needed.</li><li>The URL is valid and can accept requests.</li>|
 | You can't delete a webhook | <li>Try again</li><li>{{% contact-csm-support %}} for assistance</li> |
