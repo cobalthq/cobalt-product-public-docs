@@ -362,7 +362,7 @@ A User Role specifies the permissions or privileges associated with a user. Comm
 - Full User
 - Guest
 
-When [scoping a pentest](/getting-started/planning/), include a complete list of user roles.
+When [scoping a pentest](/getting-started/planning/#scope-the-pentest), include a complete list of user roles.
 If you miss a user role, you may sacrifice quality in penetration testing. 
 
 ## Vulnerability
