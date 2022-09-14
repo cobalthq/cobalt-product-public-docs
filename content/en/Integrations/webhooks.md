@@ -17,18 +17,17 @@ When you work with an API, you can become aware of new data in the following way
 - Repeatedly send requests to the same [API endpoint](/getting-started/glossary/#api-endpoint) to retrieve new information, which is known as polling.
 - Configure a webhook that automatically sends new data to the specified URL.
 
+<!--Update the diagram once new webhook events are released.-->
 {{< mermaid align="left" theme="default" >}}
 sequenceDiagram
   title Webhook for pentest events
    Your App->>Cobalt Platform: Notify me of new pentest events
    Cobalt Platform-->>Your App: Pentest created
    Cobalt Platform-->>Your App: Finding created
-   Cobalt Platform-->>Your App: Asset updated
-   Cobalt Platform-->>Your App: Finding state changed
 {{< /mermaid >}}
 <br>
 
-You can configure webhooks through the API and in the [Cobalt UI](#configure-webhooks-in-the-ui).
+You can configure webhooks through the [API](https://docs.cobalt.io/v2/#webhooks) and in the [Cobalt UI](#configure-webhooks-in-the-ui).
 <!-- Provide a link to API docs or API use case. -->
 
 ## Before You Start
@@ -40,11 +39,16 @@ Before you start creating webhooks, complete the configuration in your app.
 
 ## Webhook Events
 
-When you set up a webhook, you subscribe to the following events related to your pentests.
+When you set up a webhook, you subscribe to the following events related to your pentests:
 
+- Pentest created
+- Finding created
+
+<!--
 | Asset | Pentest | Finding |
 |---|---|---|
 | <li>Asset created</li><li>Asset updated</li><li>Asset deleted</li> | <li>Pentest created</li><li>[Pentest state](/penteststates/) changed</li><li>Pentest deleted</li> | <li>Finding created</li><li>Comment created for a finding</li><li>Finding state changed</li><li>Finding deleted</li>
+-->
 
 ## Configure Webhooks in the UI
 
