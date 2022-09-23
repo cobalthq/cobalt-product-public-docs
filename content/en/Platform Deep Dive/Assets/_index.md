@@ -22,7 +22,7 @@ For assets of multiple types, you may consider to set up one or more pentests, d
 
 {{%expand "Learn more." %}}
 
-Your asset combines a web and mobile application. You may want to test them together, in one pentest, if:
+For example, if your asset combines a web and mobile application, you may want us to test them together, in one pentest, if:
 
 - The two applications share some of the same code and functionalities.
 - One pentest report is sufficient for your purposes.
