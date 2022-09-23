@@ -3,7 +3,7 @@ publish = "public"
 command = "cd themes/docsy && git submodule update -f --init && git checkout f82dd5e && cd ../..   && hugo"   
   
 [build.environment]
-HUGO_VERSION = "0.87.0"
+HUGO_VERSION = "0.103.1"
 HUGO_ENV = "production"
 
 [[redirects]]
