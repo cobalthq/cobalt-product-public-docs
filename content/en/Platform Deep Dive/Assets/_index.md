@@ -18,7 +18,7 @@ We can perform pentests on assets in the following categories:
 
 {{% asset-types-table %}}
 
-For assets of multiple types, you may consider to set up one or more pentests, depending on the characteristics of your software.
+For assets of multiple types, you may want to set up one or more pentests, depending on the characteristics of your software.
 
 {{%expand "Learn more." %}}
 
