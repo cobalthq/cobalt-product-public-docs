@@ -1,4 +1,3 @@
-
 ---
 title: "Overview of Cobalt Documentation"
 linkTitle: "Overview"
