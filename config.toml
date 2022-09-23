@@ -71,7 +71,7 @@ enableGitInfo = true
 # Everything below this are Site Params
 
 [outputs]
-section = ["HTML", "print", "RSS"]
+section = ["HTML", "RSS"]
 
 [params]
 copyright = "Cobalt Labs"
