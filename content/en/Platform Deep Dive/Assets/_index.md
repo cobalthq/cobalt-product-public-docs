@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Our security professionals perform pentests on different types of assets. Learn how to create and manage your assets.
+Our security professionals perform pentests on different types of assets. Learn how to set up your assets for our pentests.
 {{% /pageinfo %}}
 
 {{% asset-definition %}} Once you've created an asset, you can launch pentests for it.
