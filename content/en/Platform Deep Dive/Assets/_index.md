@@ -40,7 +40,7 @@ You can create an asset in the following ways:
     - Navigate to the **Assets** page, and select **New Asset**.
   - When setting up a pentest:
     - On the **Let's Get Started** screen, select **Create a new pentest for a new asset**.
-- Using the [Cobalt API](/apiusecases/create_asset/#create-an-asset)
+- With the [Cobalt API](/apiusecases/create_asset/#create-an-asset)
 
 ### Asset Details
 
