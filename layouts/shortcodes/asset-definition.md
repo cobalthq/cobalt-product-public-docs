@@ -1,0 +1,1 @@
+For pentests, an asset is a software component of value.

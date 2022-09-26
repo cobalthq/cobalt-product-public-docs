@@ -34,7 +34,7 @@ action on data sent from that URL:
 
 ## Asset
 
-For pentests, an asset is a software component of value. Cobalt can perform pentests on assets in the
+{{% asset-definition %}} Cobalt can perform pentests on assets in the
 following categories:
 
 {{% asset-categories %}}

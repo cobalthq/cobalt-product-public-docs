@@ -34,15 +34,7 @@ You can access the UI to define your assets in the following ways:
 This Getting Started Guide assumes that you're setting up an asset as part of
 setting up a pentest.
 
-The asset screen prompts you for the following information:
-
-- Asset Image: Use it to help identify what you need from a list of assets.
-- Asset Title: Set up a descriptive name to attract attention from the best pentesters.
-- [Asset Type](./asset-type): Select one of the options described in the linked page.
-- [Asset Description](./asset-description): Add information that can help your
-  pentesters fully analyze your asset.
-- [Attachment(s)](./asset-description/#attachments): Upload documentation,
-  architecture diagrams, images, spreadsheets, or videos related to your asset.
+{{% asset-details %}}
 
 The UI provides the information that you need to add an Asset Image and Title.
 Now take the next step and define your [Asset Type](./asset-type).
