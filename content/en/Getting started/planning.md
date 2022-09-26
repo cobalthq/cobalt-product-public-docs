@@ -130,8 +130,10 @@ To scope a pentest for a combined asset, specify the number of characteristics f
 Once you’ve identified the [pentest scope](#scope-the-pentest), you can see the number of required credits in **Credit(s) Per Pentest**. Whenever you adjust the scope, our algorithm updates the number of credits. Under **Credits**, you can also view your **Available Balance**.
 
 ### Credit Criteria
-<!-- Update for Agile Pentests -->
-- You can set up a [Comprehensive Pentest](/platform-deep-dive/pentests/pentest-types/) of at least 5 credits, with increments of 1 credit.
+
+- The minimum number of credits required for a pentest depends on the [pentest type](/platform-deep-dive/pentests/pentest-types/):
+  - [Agile Pentest](/getting-started/glossary/#agile-pentest): {{% agile-credits %}}
+  - [Comprehensive Pentest](/getting-started/glossary/#comprehensive-pentest): {{% comprehensive-credits %}}
 - {{% pentest-big-scope %}}
 - We may adjust the number of credits after reviewing your pentest.
 
