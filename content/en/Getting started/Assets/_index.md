@@ -32,10 +32,6 @@ Select how you want to proceed with your asset:
 
 {{% asset-details %}}
 
-The UI provides the information that you need to add an **Asset Title** and **Image**.
-Now take the next step and define your [Asset Type](/getting-started/assets/asset-type/).
-
 ![Specify asset details](/gsg/AssetScreen.png "Specify asset details")
 
-<!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/invite-help.md -->
-{{% invite-help %}}
+The UI provides the information that you need to add an **Asset Title** and **Image**. Now take the next step and define your [Asset Type](/getting-started/assets/asset-type/).

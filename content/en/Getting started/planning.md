@@ -20,7 +20,7 @@ we can help you schedule pentests with a start date from at least one to three b
 
 We reserve two (2) weeks to complete our pentests.
 
-![Pentester Planning](/gsg/PentestPlanningCredits.png "Schedule your pentest. Your allowed start date depends on your PtaaS Tier and any special requirements.")
+![Planning and scoping a pentest](/gsg/PlanScopePentest.png "Schedule and scope your pentest")
 
 If you have any special requirements, such as qualifications for pentester certifications,
 we reserve the right to start the pentest later than the flow time specified in your
@@ -137,16 +137,6 @@ Once you’ve identified the [pentest scope](#scope-the-pentest), you can see th
 - {{% pentest-big-scope %}}
 - We may adjust the number of credits after reviewing your pentest.
 
-## Additional Requests
-
-You can specify special requirements for pentesters. For example, if
-industry, company, or national regulations require that you limit pentesters
-to residents of one or more countries, you can do so here:
-
-![Pentester Limits](/gsg/PentesterLimits.png "Specify legal or regulatory limitations on pentesters.")
-
-We can't guarantee that we'll accept your additional request. This may also delay scheduling the pentest.
-
-If you're ready with your pentest, select **Save & Exit** > **Yes**.
+If you're ready with your pentest, select **Save & Exit**.
 
 In the next screen, you can review your work, as a [checklist](../checklist).
