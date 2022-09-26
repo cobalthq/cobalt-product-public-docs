@@ -1,0 +1,21 @@
+name: build
+
+on: push
+
+jobs:
+  markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Check markdown files to detect broken links
+        uses: gaurav-nelson/github-action-markdown-link-check@1.0.14
+        with:
+          folder-path: 'versions/v1/content, versions/v2/content'
+          use-quiet-mode: 'no'
+          use-verbose-mode: 'yes'
+      - name: Lint markdown files
+        uses: avto-dev/markdown-lint@v1.5.0
+        with:
+          args: 'versions/**/content/*.md'
+          config: '.markdownlint.yaml'
