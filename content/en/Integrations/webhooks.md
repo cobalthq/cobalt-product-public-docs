@@ -2,6 +2,8 @@
 title: "Get Pentest Updates with Webhooks"
 linkTitle: "Webhooks"
 weight: 10
+toc_hide: true
+hide_summary: true
 description: >
   Set up webhook notifications for your organization.
 ---
