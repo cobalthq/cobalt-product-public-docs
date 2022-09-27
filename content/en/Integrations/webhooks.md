@@ -26,6 +26,8 @@ sequenceDiagram
    Your App->>Cobalt Platform: Notify me of new pentest events
    Cobalt Platform-->>Your App: Pentest created
    Cobalt Platform-->>Your App: Finding created
+   Cobalt Platform-->>Your App: Pentest state changed
+   Cobalt Platform-->>Your App: Finding state changed
 {{< /mermaid >}}
 <br>
 
