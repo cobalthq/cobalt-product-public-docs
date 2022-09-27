@@ -47,7 +47,7 @@ When you set up a webhook, you subscribe to the following events related to your
 
 | Pentest | Finding |
 |---|---|
-| <li>Pentest created</li><li>[Pentest state](/penteststates/) changed</li> | <li>Finding created</li><<li>Finding state changed</li>
+| <li>Pentest created</li><li>[Pentest state](/penteststates/) changed</li> | <li>Finding created</li><li>Finding state changed</li>
 
 ## Configure Webhooks in the UI
 
