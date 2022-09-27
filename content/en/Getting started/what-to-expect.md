@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Our pentesters share what they've found before they write your [report](/platform-deep-dive/pentests/reports/).
+Our pentesters share what they've found before they submit your [report](/platform-deep-dive/pentests/reports/).
 {{% /pageinfo %}}
 
 Now that you've done all the work needed to set up a pentest, you might be anxious for
@@ -57,9 +57,8 @@ results. Here's what you can expect:
    <br>{{% contact-csm-support %}} if you need access to the archived Slack channel.
 
 1. If you've purchased a qualifying {{% ptaas-tier %}}, you can customize your pentest report.
-   However, we report _all_ findings. For more information, see the following blog post
-   on how you can [Customize Your Pentest
-   Reports](https://cobalt.io/blog/cobalt-platform-deep-dive-customize-your-pentest-reports-per-your-needs).
+   However, we report _all_ findings. For more information, see [Customize Your Pentest
+   Report](/platform-deep-dive/pentests/reports/customize-report/).
 1. <a id="report-timing">Based on your Service Level Agreement, our pentesters then share a formal report.
    You're welcome to download this
    [sample test report (PDF)](/gsg/GettingStarted_Sample_WebApp_Report.pdf) for a web app.
