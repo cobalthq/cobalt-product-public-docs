@@ -45,14 +45,9 @@ Read our [Best Practices](https://docs.cobalt.io/v2/#best-practices) for more in
 
 When you set up a webhook, you subscribe to the following events related to your pentests:
 
-- Pentest created
-- Finding created
-
-<!--
-| Asset | Pentest | Finding |
-|---|---|---|
-| <li>Asset created</li><li>Asset updated</li><li>Asset deleted</li> | <li>Pentest created</li><li>[Pentest state](/penteststates/) changed</li><li>Pentest deleted</li> | <li>Finding created</li><li>Comment created for a finding</li><li>Finding state changed</li><li>Finding deleted</li>
--->
+| Pentest | Finding |
+|---|---|
+| <li>Pentest created</li><li>[Pentest state](/penteststates/) changed</li> | <li>Finding created</li><<li>Finding state changed</li>
 
 ## Configure Webhooks in the UI
 
