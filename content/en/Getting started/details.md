@@ -24,7 +24,7 @@ tests of a Web asset include tests of APIs used to populate content on that asse
 The **Add Details** page of the pentest wizard requests information about:
 
 - The target environment
-- For cloud providers, if you need their authorization
+- Cloud providers, if you need their authorization
 
 ## Common Pentest Requirements
 
