@@ -10,3 +10,13 @@ HUGO_ENV = "production"
   from = "https://cobalt-docs.netlify.app"
   to = "https://developer.cobalt.io"
   status = 301
+
+[[plugins]]
+package = "@algolia/netlify-plugin-crawler"
+  [plugins.inputs]
+  branches = ['main', '*', 'feat/add-algolia']
+  mainBranch = 'main'
+  disabled = false
+  pathPrefix = "/blog"
+  customDomain = "cobalt.io"
+  renderJavaScript = true
