@@ -18,7 +18,7 @@ we can help you schedule pentests with a start date from at least one to three b
 <!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
 {{% big-pic-UI-steps %}}
 
-We reserve two (2) weeks to complete our pentests.
+The standard testing period is 14 days. It may vary depending on the pentest scope and other factors.
 
 ![Planning and scoping a pentest](/gsg/PlanScopePentest.png "Schedule and scope your pentest")
 
