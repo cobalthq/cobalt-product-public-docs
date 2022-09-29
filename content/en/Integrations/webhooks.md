@@ -51,6 +51,8 @@ When you set up a webhook, you subscribe to the following events related to your
 |---|---|
 | <li>Pentest created</li><li>[Pentest state](/penteststates/) changed</li> | <li>Finding created</li><li>Finding state changed</li>
 
+For security reasons, we only post essential details about webhook events, such as their ID and type. To retrieve more information about the event, use the [Cobalt API].
+
 ## Configure Webhooks in the UI
 
 Let’s configure webhooks in the Cobalt app.
