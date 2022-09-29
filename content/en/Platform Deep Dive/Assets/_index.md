@@ -64,4 +64,4 @@ To view asset details, select an asset. From here, you can:
 - Edit asset details
 - View associated pentests
 
-![Asset details page](/deepdive/AssetDetailsPage.png "Asset details page")
+<img src="/deepdive/AssetDetailsPage.png" alt="Asset details page" title="Asset details page" width="800">
