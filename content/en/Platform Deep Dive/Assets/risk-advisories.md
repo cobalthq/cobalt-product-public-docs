@@ -42,5 +42,5 @@ Select a vulnerability to view detailed information on the [NVD](https://nvd.nis
 ![Preview NVD risk advisories for your asset](/deepdive/PreviewRiskAdvisories.png "Preview NVD risk advisories for your asset")
 
 {{% alert title="Note" color="note" %}}
-Potential vulnerabilities on the **Risk Advisory** tab don’t belong to your pentests. These are potential risks based on the <a href="https://cve.mitre.org/" target="_blank">Common Vulnerabilities and Exposures (CVE)</a> standard that we show for your reference. Our integration uses the NVD API but is not endorsed or certified by the US [National Institute of Standards and Technology](https://nist.gov).
+Potential vulnerabilities on the **Risk Advisory** tab don’t belong to your pentests. These are potential risks based on the <a href="https://cve.mitre.org/" target="_blank">Common Vulnerabilities and Exposures (CVE)</a> standard that we show for your reference. Our integration uses the NVD API but is not endorsed or certified by the US <a href="https://nist.gov" target="_blank">National Institute of Standards and Technology</a>.
 {{% /alert %}}
