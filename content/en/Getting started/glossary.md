@@ -64,6 +64,10 @@ an individual, a group, or even a nation-state. Specified as "attacker" in Cobal
 
 {{% attestation-letter %}}
 
+## Automated Report
+
+An Automated Report is a system-generated report for an [Agile Pentest](#agile-pentest) intended for internal use. You cannot customize an Automated Report. Learn more about [pentest reports](/platform-deep-dive/pentests/reports/).
+
 ## Black Box Testing
 
 Where the pentester has no knowledge of the internal details of the asset. Contrast
