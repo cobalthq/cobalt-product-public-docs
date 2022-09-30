@@ -56,9 +56,9 @@ Select the three-dot icon under **Action**, and then select the desired option:
 - **Edit Asset** to modify [asset details](#asset-details)
 - **Delete Asset**, if it doesn't have associated pentests
 
-To preview a summary of [potential vulnerabilities](/platform-deep-dive/assets/risk-advisories/) from the [National Vulnerability Database (NVD)](https://nvd.nist.gov/), hold the pointer over the number under **Risk Advisory**. To navigate to the detailed list, select the number.
+To preview a summary of [potential vulnerabilities](/platform-deep-dive/assets/risk-advisories/) based on the [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) standard, hold the pointer over the number under **Risk Advisory**. To navigate to the detailed list, select the number.
 
-![Page listing your assets](/deepdive/AssetsPageNVD.png "Page listing your assets")
+![Page listing your assets](/deepdive/AssetsPageAdvisory.png "Page listing your assets")
 
 To view asset details, select an asset. From here, you can:
 
@@ -66,6 +66,6 @@ To view asset details, select an asset. From here, you can:
 - Edit asset details
 - Delete the asset, if it doesn't have associated pentests
 - View associated pentests
-- Preview [NVD risk advisories](/platform-deep-dive/assets/risk-advisories/) for this asset
+- Preview [risk advisories](/platform-deep-dive/assets/risk-advisories/) for this asset
 
-<img src="/deepdive/AssetDetailsPageNVD.png" alt="Asset details page" title="Asset details page" width="800">
+<img src="/deepdive/AssetDetailsPageAdvisory.png" alt="Asset details page" title="Asset details page" width="800">
