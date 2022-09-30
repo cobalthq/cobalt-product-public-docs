@@ -20,7 +20,7 @@ To see how this change looks in production, scroll down to **Deploy Preview**. S
 
 Help us support a “Write once, publish everywhere” single source of truth. If you see a line that looks like:
 
-![Example shortcode](/git/ExampleShortcode.png "Example shortcode")
+`{{% asset-categories %}}`
 
 You’ve found a [shortcode](https://gohugo.io/content-management/shortcodes/) that we include in multiple documents.
 
