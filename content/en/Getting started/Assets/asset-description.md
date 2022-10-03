@@ -119,6 +119,5 @@ We've included suggested data in the downloadable Excel (.xlsx) files.
 We encourage you to replace this information with other data, and upload it 
 with any other documentation for your asset.
 
-At this point, you've completed all entries in the Asset section of the pentest wizard.
-You can now select **Create asset and pentest** to move to the next part of the wizard,
-the [Pentest Objectives](../../pentest-objectives).
+At this point, you've completed all entries in the **Review Assets** section of the pentest wizard.
+You can now select **Next** to move to the next part of the wizard and set the pentest [requirements](/getting-started/pentest-objectives/).

@@ -3,7 +3,7 @@ title: "Specify Pentest Details"
 linkTitle: "Specify Pentest Details"
 weight: 200
 description: >
-  Describe key details of your Pentest.
+  Describe key details of your pentest.
 ---
 
 {{% pageinfo %}}
@@ -19,12 +19,12 @@ for all assets, as well as requirements for specific assets.
 Pentest requirements for Web and API assets are identical. However,
 tests of a Web asset include tests of APIs used to populate content on that asset.
 
-![Pentest Details](/gsg/PentestDetails.png "Define details for your desired pentest.")
+![Pentest Details](/gsg/AddDetails.png "Define details for your desired pentest.")
 
-The Details page of the pentest wizard requests information about:
+The **Add Details** page of the pentest wizard requests information about:
 
 - The target environment
-- For cloud providers, if you need their authorization
+- Cloud providers, if you need their authorization
 
 ## Common Pentest Requirements
 
@@ -83,7 +83,7 @@ see our page on [Cloud Methodologies](../pentest-objectives/methodologies/cloud)
 ### Additional Guidelines
 
 You may have already addressed these questions when setting up 
-[Special Instructions](../pentest-objectives/special-instructions) when defining pentest objectives.
+[Special Instructions](../pentest-objectives/special-instructions) when defining pentest requirements.
 
 You're welcome to add more information here.
 
@@ -107,5 +107,4 @@ test credit card numbers, you can share that information in the
 All Cobalt pentesters have signed a Non-Disclosure Agreement (NDA).
 {{% /alert %}}
 
-Now that you've filled in the details, you can start planning the actual
-[pentest](../planning).
+Now that you've filled in the details, you can start [planning and scoping](../planning) the actual pentest.

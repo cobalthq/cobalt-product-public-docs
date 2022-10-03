@@ -11,32 +11,47 @@ Make sure our pentesters have the information they need.
 {{% /pageinfo %}}
 
 In previous sections, you've saved what you've entered for the pentest.
-Now you can review your work. Before selecting **Submit For Review**, follow this
-checklist for Objectives, Details, and your Asset.
+Now you can review your work. Before selecting **Submit For Review**, follow this checklist for Objectives and Details.
 
-![Review Your Work](/gsg/ReviewYourPentest.png "Review pentest details.")
+![Review your pentest](/gsg/ReviewPentest.png "Review pentest details")
 
-For all three tabs, you can select **Edit** to make changes.
+For both tabs, you can select **Edit** to make changes.
 
 ## Objectives
 
-Under the Objectives tab, you can review:
+Under the **Objectives** tab, you can review:
 
 - [Targets in scope](../pentest-objectives/pentest-target)
-- [Objectives](../pentest-objectives/methodologies/), which define methodologies
-  that our pentesters use as a checklist.
+- [Objectives](../pentest-objectives/methodologies/), which define methodologies that our pentesters use as a checklist
 - [Test credentials](../pentest-objectives/test-credentials)
-- [Special Instructions](../pentest-objectives/special-instructions)
-- [Additional Requests](../planning/#additional-requests)
+- [Asset](/getting-started/assets/) for which you're setting up the pentest
+- [Technology stack](/getting-started/pentest-objectives/stack/) behind your asset
+- [Test period](/getting-started/planning/#schedule-the-pentest), [scoping parameters](/getting-started/planning/#scope-the-pentest), and required [credits](/getting-started/planning/#view-required-credits)
+
+To view more pentest details, navigate to the **Settings** tab > **Objectives**.
+
+### Additional Requests
+
+You can specify special requirements for pentesters. For example, if
+industry, company, or national regulations require that you limit pentesters
+to residents of one or more countries, you can request this.
+
+1. On the pentest page, navigate to **Settings**, and scroll down to the bottom of the page.
+1. Select **Show advanced options**, and add your notes under **Additional requests**.
+
+![Pentester limits](/gsg/AdditionalRequests.png "Specify legal or regulatory limitations on pentesters.")
+
+We can't guarantee that we'll accept your additional request. This may also delay scheduling the pentest.
 
 ## Details
 
-Under the Details tab, you can review:
+Under the **Details** tab, you can review:
 
-- The target [Environment](../details/#environment) for your asset
-- [Rate-limiting controls](../details/#controls)
-- [Cloud platform components](../details/#cloud-platform-components)
-- [Test data](../details/#test-data) sensitivity
+- The target [environment](/getting-started/details/#environment) for your asset
+- [Rate-limiting controls](/getting-started/details/#controls)
+- [Cloud platform components](/getting-started/details/#cloud-platform-components)
+- [Additional guidelines](/getting-started/details/#additional-guidelines)
+- [Test data](/getting-started/details/#test-data) sensitivity
 
 ## Reports
 

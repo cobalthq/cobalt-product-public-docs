@@ -32,7 +32,7 @@ you, refer to our [Glossary](./glossary).
 In this Getting Started Guide, we take you through the process to create a pentest,
 step by step, and set [expectations](./what-to-expect).
 
-![UI Flow for Pentests](/gsg/PentestFlow.png "UI Flow for Pentests")
+![UI Flow for Pentests](/gsg/PentestFlowOverview.png "UI Flow for Pentests")
 
 When you've finished this Getting Started Guide, you'll have a plan and scope that
 our pentesters can use to test your assets. When you purchase credits from Cobalt,
@@ -43,9 +43,10 @@ we send you an email invitation, which you can use to [Sign in to Cobalt](./sign
 
 Our journey takes you through the steps required to create a pentest:
 
-1. [Define Your Assets](./assets). Our pentesters analyze all kinds of
+1. Select the [pentest type](/platform-deep-dive/pentests/pentest-types/). We offer [Agile](/getting-started/glossary/#agile-pentest) and [Comprehensive Pentests](/getting-started/glossary/#comprehensive-pentest).
+1. Define your [assets](/getting-started/assets/). Our pentesters analyze all kinds of
    assets, from web apps to internal networks.
-1. Create [objectives](./pentest-objectives) for your pentest.
+1. Set [requirements](./pentest-objectives) for your pentest.
    - By default, our pentesters use standards defined by the
      [Open Web Application Security
      Project (OWASP)](./glossary#open-web-application-security-project-owasp) and in
@@ -54,18 +55,18 @@ Our journey takes you through the steps required to create a pentest:
    - Add and modify the objectives of your choice.
    - To help our penetration testers, include more information about your asset,
      such as architecture and coding language. You'll see more details about
-     what to include when you [Define Your Assets](./assets).
-1. Define [details](./details) of your environment.
+     what to include when you [define your assets](/getting-started/assets/).
+1. Define [details](/getting-started/details/) of your environment.
    Is your asset in production or in development? Is part of your system
    on a Cloud platform?
-1. Start [planning](./planning) the test. Define your desired pentest start
-   date. We need time to find the best available pentesters for your assets.
-1. Review your pentest request. Use our [Pentest Checklist](./checklist) to make
+1. [Plan and scope](/getting-started/planning/) the test. Define your desired pentest start
+   date, and specify the pentest scope. We need time to find the best available pentesters for your assets.
+1. Review your pentest request. Use our [Pentest Checklist](/getting-started/checklist/) to make
    sure you've included _all_ information that our pentesters need.
 
 Once you've set up a pentest, we start analyzing your asset. When
 possible, we share results even before we create your report. Here's what
-you can [expect](./what-to-expect). 
+you can [expect](./what-to-expect).
 
 Assuming you've received an email invitation, take the next step.
 [Sign in to Cobalt](./sign-in).

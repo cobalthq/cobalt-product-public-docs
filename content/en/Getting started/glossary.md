@@ -14,6 +14,10 @@ cited in the [References](#references).
 The definitions included in this page may vary from the cited standards, based on how
 we configure and use Cobalt software.
 
+## Agile Pentest
+
+{{% agile-pentest %}}. Learn more about the [pentest types](/platform-deep-dive/pentests/pentest-types/).
+
 ## Allowlist
 
 An allowlist explicitly lets identified systems access. In networks, an allowlist can specify IP
@@ -59,6 +63,10 @@ an individual, a group, or even a nation-state. Specified as "attacker" in Cobal
 ## Attestation Letter
 
 {{% attestation-letter %}}
+
+## Automated Report
+
+An Automated Report is a system-generated report for an [Agile Pentest](#agile-pentest) intended for internal use. You cannot customize an Automated Report. Learn more about [pentest reports](/platform-deep-dive/pentests/reports/).
 
 ## Black Box Testing
 
@@ -162,7 +170,7 @@ A _Pentest Team Member_ does not have to be an _Organization Owner_ or an _Organ
 ### Pentest Lead
 
 A _Pentest Lead_ is a Cobalt pentester who leads other Cobalt pentesters in their efforts to test
-an asset. When applicable, the Pentest Lead also drafts the [pentest report](#pentest-report).
+an asset. When applicable, the Pentest Lead also drafts the [pentest report](#pentest-report) (for [Comprehensive Pentests](#comprehensive-pentest)).
 
 ### Pentester
 
@@ -310,7 +318,7 @@ A summary of all vulnerability reports, including observations on positive secur
 - Finding Details
   - More information on each finding
 
-Within Cobalt, this is also known as a Report or a Final Report.
+Within Cobalt, this is also known as a Report or a Final Report. For more information, see [Pentest Reports](/platform-deep-dive/pentests/reports/).
 
 ## Remediate
 
