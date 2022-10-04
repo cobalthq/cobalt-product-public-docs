@@ -40,17 +40,19 @@ results. Here's what you can expect:
 1. Once the pentest is complete, we move your pentest from _Planned_ to _Remediation_.
 1. You can start assessing all discovered vulnerabilities. In the Cobalt app, navigate
    to **Pentests**. Select your pentest, and navigate to the **Findings** tab.
-   - Scroll down until you see **Activity**. Depending on your assessment, you can
+   - Find the **Status** list on the right of the page. Depending on your assessment, you can
      set the finding to one of the following states:
 
-     - Pending Fix, when your developers are remediating the finding.
-     - Ready for Retest, assumes that your developers have fixed the issue, and you're ready
-       for our pentesters to validate your fix. Retesting may depend on
+     - **Pending Fix**, when your developers are remediating the finding.
+     - **Ready for Retest**, assumes that your developers have fixed the issue, and you're ready
+       for our pentesters to validate your fix. Free retesting duration depends on
        your {{% ptaas-tier %}}.
-     - Accepted Risk, when you've determined that the finding is either not critical,
+       - The timeline for retesting starts after your pentest end date within an active contract. Mark your findings as **Ready for Retest** at least 10 days before your contract ends.
+       - We change the finding status and notify the pentester who posted the finding to retest the issue. If the pentester can’t reproduce the issue, they mark the finding as **Fixed**. Otherwise, they change the status back to **Pending Fix** and write a comment explaining why.
+       - Our pentesters complete retesting within seven (7) business days after submission.
+     - **Accepted Risk**, when you've determined that the finding is either not critical,
        or is beyond your control.
        For more information, see the following blog post on [Accepted Risk](https://cobalt.io/blog/explain-accepted-risk-in-a-few-easy-steps).
-
 1. We keep the Slack channel open until you've set each finding to:
    - Accepted Risk
    - Fixed
