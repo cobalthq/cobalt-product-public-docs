@@ -72,7 +72,7 @@ To create a webhook:
 1. We send a test event to the specified URL to validate your webhook. The webhook becomes active once the validation is complete.
    - If the validation fails, we’ll deactivate your webhook within 24 hours. See [Troubleshoot Webhooks](#troubleshoot-webhooks) for more information.
 
-![Create a webhook in the Cobalt UI](/integrations/CreateWebhookOverlay.png "Create a webhook in the Cobalt UI")
+![Create a webhook in the Cobalt UI](/integrations/CreateWebhook.png "Create a webhook in the Cobalt UI")
 
 ### Manage Webhooks
 
