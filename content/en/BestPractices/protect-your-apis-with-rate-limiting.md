@@ -56,7 +56,7 @@ What is wrong with it?
 	  const { phone } = req.body;	
     	  verify.call(phone)
 	  //...
-})
+  })
 ```
 
 Fraudsters can easily abuse this API endpoint for toll fraud due to the lack of rate limits.
