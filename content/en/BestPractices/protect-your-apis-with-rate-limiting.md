@@ -54,8 +54,8 @@ What is wrong with it?
 ```
   app.post('/verify-phone number',(req, res) => {
 	  const { phone } = req.body;	
-    verify.call(phone)
-//...
+    	  verify.call(phone)
+	  //...
 })
 ```
 
@@ -88,8 +88,8 @@ const callLimiter = rateLimit({
 //...
 app.post('/verify-phone-number', callLimiter, (req, res) => {
 	const { phone } = req.body;	
-  verify.call(phone)
-//...
+  	verify.call(phone)
+	//...
 })
 ```
 
