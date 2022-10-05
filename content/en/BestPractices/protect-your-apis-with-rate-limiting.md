@@ -52,7 +52,7 @@ Consider the following snippet of code. A POST request with a phone number in th
 What is wrong with it?
 
 ```
-  app.post('/verify-phone number',(request, response) => {
+  app.post('/verify-phone number',(req, res) => {
 	  const { phone } = req.body;	
     verify.call(phone)
 //...
@@ -86,7 +86,7 @@ const callLimiter = rateLimit({
 })
  
 //...
-app.post('/verify-phone-number', callLimiter, (request, response) => {
+app.post('/verify-phone-number', callLimiter, (req, res) => {
 	const { phone } = req.body;	
   verify.call(phone)
 //...
