@@ -1,5 +1,5 @@
 ---
-Title: "Protect Your APIs With Rate Limits"
+Title: "Protect Your APIs With Rate Limiting"
 linkTitle: "API Rate Limiting"
 # Change this weight, based on where it should go in the "Best Practices"
 # section
@@ -59,7 +59,7 @@ What is wrong with it?
   })
 ```
 
-Fraudsters can easily abuse this API endpoint for toll fraud due to the lack of rate limits.
+Fraudsters can easily abuse this API endpoint for toll fraud due to the lack of rate limiting.
 
 ### Fix
 
@@ -113,7 +113,7 @@ Use API rate limiting to protect against these kinds of attacks. Refer to the im
  
 ## Some Considerations
   
-Before you implement rate limits for your APIs, also consider these factors:
+Before you implement rate limiting for your APIs, also consider these factors:
   
 ### Will It Impact User Experience?
   
@@ -123,7 +123,7 @@ Well, it depends. You might want to give the user more freedom when using certai
   
 While application layer rate limiting is a very good practice, it might not be sufficient alone if your attackers are more sophisticated. In some cases, attackers can outpace you. They quickly rotate IPs from large numbers of IP addresses belonging to real users that are part of a botnet. In such cases, blocking bad reputation IP addresses from threat intelligence feeds could be a more efficient way.
 
-Furthermore, depending on your use case you might need more advanced anti-fraud and geo-restrictions apart from API rate limits.
+Furthermore, depending on your use case you might need more advanced anti-fraud and geo-restrictions apart from API rate limiting.
   
 ### References
 - [OWASP API Top 10.](https://owasp.org/www-project-api-security/)
