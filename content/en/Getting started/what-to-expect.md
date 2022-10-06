@@ -19,7 +19,7 @@ results. Here's what you can expect:
    depends on your {{% ptaas-tier %}} and any special requirements you have.
 1. Once we start the pentest, you’ll start getting updates from pentesters:
    - On the **Pentester Updates** tab of the pentest page
-   - In a Slack channel dedicated for your pentest where you can communicate with pentesters. You should see a link to the Slack channel on the pentest page next to the pentest status.
+   - In a Slack channel dedicated for your pentest where you can communicate with pentesters. You should see a link to the Slack channel on the pentest page next to the pentest state.
       - Add the colleagues of your choice to the Slack channel. Choose colleagues who can benefit from direct communication with our pentesters.
       - As soon as we’ve moved your pentest from _In Review_ to _Planned_, you’ll see your pentesters in the Slack channel.
 1. You may get questions from your pentesters. You can also elaborate
@@ -48,7 +48,7 @@ results. Here's what you can expect:
        for our pentesters to validate your fix. Free retesting duration depends on
        your {{% ptaas-tier %}}.
        - The timeline for retesting starts after your pentest end date within an active contract. Mark your findings as **Ready for Retest** at least 10 days before your contract ends.
-       - We change the finding state and notify the pentester who posted the finding to retest the issue. If the pentester can’t reproduce the issue, they mark the finding as **Fixed**. Otherwise, they change the status back to **Pending Fix** and write a comment explaining why.
+       - We change the finding state and notify the pentester who posted the finding to retest the issue. If the pentester can’t reproduce the issue, they mark the finding as **Fixed**. Otherwise, they change the state back to **Pending Fix** and write a comment explaining why.
        - Our pentesters complete retesting within seven (7) business days after submission.
      - **Accepted Risk**, when you've determined that the finding is either not critical,
        or is beyond your control.
