@@ -18,9 +18,9 @@ we can help you schedule pentests with a start date from at least one to three b
 <!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
 {{% big-pic-UI-steps %}}
 
-We reserve two (2) weeks to complete our pentests.
+The standard testing period is 14 days. It may vary depending on the pentest scope and other factors.
 
-![Pentester Planning](/gsg/PentestPlanningCredits.png "Schedule your pentest. Your allowed start date depends on your PtaaS Tier and any special requirements.")
+![Planning and scoping a pentest](/gsg/PlanScopePentest.png "Schedule and scope your pentest")
 
 If you have any special requirements, such as qualifications for pentester certifications,
 we reserve the right to start the pentest later than the flow time specified in your
@@ -130,21 +130,13 @@ To scope a pentest for a combined asset, specify the number of characteristics f
 Once you’ve identified the [pentest scope](#scope-the-pentest), you can see the number of required credits in **Credit(s) Per Pentest**. Whenever you adjust the scope, our algorithm updates the number of credits. Under **Credits**, you can also view your **Available Balance**.
 
 ### Credit Criteria
-<!-- Update for Agile Pentests -->
-- You can set up a [Comprehensive Pentest](/platform-deep-dive/pentests/pentest-types/) of at least 5 credits, with increments of 1 credit.
+
+- The minimum number of credits required for a pentest depends on the [pentest type](/platform-deep-dive/pentests/pentest-types/):
+  - [Agile Pentest](/getting-started/glossary/#agile-pentest): {{% agile-credits %}}
+  - [Comprehensive Pentest](/getting-started/glossary/#comprehensive-pentest): {{% comprehensive-credits %}}
 - {{% pentest-big-scope %}}
 - We may adjust the number of credits after reviewing your pentest.
 
-## Additional Requests
-
-You can specify special requirements for pentesters. For example, if
-industry, company, or national regulations require that you limit pentesters
-to residents of one or more countries, you can do so here:
-
-![Pentester Limits](/gsg/PentesterLimits.png "Specify legal or regulatory limitations on pentesters.")
-
-We can't guarantee that we'll accept your additional request. This may also delay scheduling the pentest.
-
-If you're ready with your pentest, select **Save & Exit** > **Yes**.
+If you're ready with your pentest, select **Save & Exit**.
 
 In the next screen, you can review your work, as a [checklist](../checklist).

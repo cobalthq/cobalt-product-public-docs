@@ -21,7 +21,7 @@ Welcome to the Cobalt Platform: Let's Get Started
 
 Open the email. It should include a link to Get Started:
 
-![Cobalt Welcome email](/gsg/WelcomeEmail.png "Get Started")
+![Cobalt Welcome email](/gsg/WelcomeToPlatformEmail.png "Get Started")
 
 Now you can:
 
