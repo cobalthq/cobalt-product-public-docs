@@ -48,7 +48,7 @@ results. Here's what you can expect:
        for our pentesters to validate your fix. Free retesting duration depends on
        your {{% ptaas-tier %}}.
        - The timeline for retesting starts after your pentest end date within an active contract. Mark your findings as **Ready for Retest** at least 10 days before your contract ends.
-       - We change the finding status and notify the pentester who posted the finding to retest the issue. If the pentester can’t reproduce the issue, they mark the finding as **Fixed**. Otherwise, they change the status back to **Pending Fix** and write a comment explaining why.
+       - We change the finding state and notify the pentester who posted the finding to retest the issue. If the pentester can’t reproduce the issue, they mark the finding as **Fixed**. Otherwise, they change the status back to **Pending Fix** and write a comment explaining why.
        - Our pentesters complete retesting within seven (7) business days after submission.
      - **Accepted Risk**, when you've determined that the finding is either not critical,
        or is beyond your control.
