@@ -40,7 +40,7 @@ results. Here's what you can expect:
 1. Once the pentest is complete, we move your pentest from _Planned_ to _Remediation_.
 1. You can start assessing all discovered vulnerabilities. In the Cobalt app, navigate
    to **Pentests**. Select your pentest, and navigate to the **Findings** tab.
-   - Find the **Status** list. Depending on your assessment, you can
+   - Find the **State** list. Depending on your assessment, you can
      set the finding to one of the following states:
 
      - **Pending Fix**, when your developers are remediating the finding.
