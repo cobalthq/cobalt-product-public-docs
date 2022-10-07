@@ -25,7 +25,7 @@ Attackers start by locating a phone verification API endpoint in your applicatio
 
 ### Real-World Example
   
-Recently, a colleague told me how a company booked a loss of over $300k in an incident of toll fraud. This figure would only increase when your business is more valuable.
+Recently, a colleague told me how a company booked a loss of over $300,000 in an incident of toll fraud. This figure would only increase when your business is more valuable.
 
 The attacker took advantage of the lack of rate limiting in the phone verification API endpoint to make many phone calls. Additionally, the attacker picked a time during the weekend to delay detection.
 
