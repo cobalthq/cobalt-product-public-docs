@@ -97,7 +97,11 @@ Attackers may overload the API with a large number of requests. If the requests 
   
 ### Bruteforce And Credential Stuffing Attacks
   
-Attackers often brute force user credentials with lists of common passwords. Similarly, attackers also abuse the lack of rate limiting to perform credential stuffing attacks. In the case of credential stuffing attacks, attackers attempt to log in to user accounts using credentials obtained from other breaches or stolen credentials.
+Attackers can use multiple methods to attack your systems:
+
+- They can brute force user credentials with lists of common passwords. 
+- They can abuse the lack of rate limiting to perform credential stuffing attacks. 
+  - With credential stuffing attacks, attackers attempt to log in to user accounts using credentials obtained from other breaches or stolen credentials.
  
 ### Data Scraping
   
