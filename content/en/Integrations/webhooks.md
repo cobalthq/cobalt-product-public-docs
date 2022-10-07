@@ -38,7 +38,7 @@ You can configure webhooks through the [API](https://docs.cobalt.io/v2/#webhooks
 
 Before you start creating webhooks, complete the configuration in your app.
 
-1. Generate an **authentication token** in your app. We need this token to authorize HTTP POST requests to your URL and connect to your app.
+1. Generate a **webhook secret** in your app. We need this secret to authorize an HTTP POST request to your URL and connect to your app.
 1. Make sure that the **URL** where you want to receive notifications is valid and your services work properly. If possible, test your connections.
 
 Read our [Best Practices](https://docs.cobalt.io/v2/#best-practices) for more information.
@@ -67,7 +67,7 @@ To create a webhook:
    - **Webhook Name**
    - **Webhook URL**: URL to which Cobalt sends HTTP POST requests for pentest [events](#webhook-events).
      - Use a unique name and URL for each webhook you create.
-   - **Authentication Token**: Your [token](#before-you-start) required to authorize API requests that Cobalt sends to your URL.
+   - **Secret**: Your [webhook secret](#before-you-start) required to authorize API requests that Cobalt sends to your URL.
 1. When ready, select **Save**.
 1. We send a test event to the specified URL to validate your webhook. The webhook becomes active once the validation is complete.
    - If the validation fails, we’ll deactivate your webhook within 24 hours. See [Troubleshoot Webhooks](#troubleshoot-webhooks) for more information.
@@ -95,5 +95,5 @@ Find solutions for common troubleshooting problems in the table below:
 | Problem | Solution |
 |---|---|
 | You can’t create a webhook because the name or URL already exists | Enter a unique name and URL for your webhook |
-| <li>You can’t create a webhook because the validation fails</li><li>You don’t get webhook notifications to your URL</li><li>You can't activate a webhook that we or you deactivated earlier</li> | We failed to validate your webhook. Check the following:<li>Your authentication token is valid. Refresh the token or generate a new one if needed.</li><li>The URL is valid and can accept requests.</li>|
+| <li>You can’t create a webhook because the validation fails</li><li>You don’t get webhook notifications to your URL</li><li>You can't activate a webhook that we or you deactivated earlier</li> | We failed to validate your webhook. Check the following:<li>Your webhook secret is valid. Refresh the secret or generate a new one if needed.</li><li>The URL is valid and can accept requests.</li>|
 | You can't delete a webhook | <li>Try again</li><li>{{% contact-csm-support %}} for assistance</li> |
