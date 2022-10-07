@@ -17,10 +17,6 @@ description: >
 
 ## Description
   
-According to the OWASP API Top 10, lack of API rate limiting (Lack of resources and rate limiting) accounts for the 4th most common type of vulnerability in APIs. Attackers are always on the lookout for APIs with weak protection. The impact is not always limited to DoS (Denial of Service). For instance, the attacker can misuse a lack of rate limit to make phone calls to premium phone numbers. While doing so, they can easily cause a lot of financial losses to the business.
-
-To protect your APIs against abuse, you should implement rate limiting properly. Rate limiting is often an overlooked area. In this article, we will explore more into why you should prioritize it today rather than in the future. 
-
 Let’s dig deeper into some abuse scenarios to understand this:
 
 ## Case Study: Abuse Of Phone Calling API For Toll Fraud
