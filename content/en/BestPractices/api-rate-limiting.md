@@ -117,7 +117,11 @@ Before you implement rate limiting for your APIs, consider these factors:
   
 ### Will It Impact User Experience?
   
-Well, it depends. You might want to give the user more freedom when using certain API functionalities. On the other hand, you might want to be stricter for abuse-prone APIs. This requires planning. Plan and tailor your rate limits to your use case before applying them. Choose the limits based on how many requests you expect from the client applications under normal conditions.
+Well, it depends. You might want to give the user more freedom when using certain API functionalities. For instance, you can allow a higher number of requests for an API endpoint that fetches updated stock prices every few seconds.
+
+On the other hand, you might want to be stricter for abuse-prone APIs such. For example, strictly rate limit API endpoints that trigger phone calls that can be abused for toll fraud.
+
+This requires planning. Plan and tailor your rate limits to your use case before applying them. Choose the limits based on how many requests you expect from the client applications under normal conditions.
 
 ### Going Further
   
