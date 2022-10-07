@@ -103,9 +103,9 @@ Attackers often brute force user credentials with lists of common passwords. Sim
   
 You may have configured your code to restrict data scraping from your application. Bad actors may try to get around your measures by pulling information from your APIs at a very high rate.
   
-### Fix
+## The Fix
   
-Use API rate limiting to protect against these kinds of attacks. Refer to the implementation in the previous scenario.
+Use API rate limiting to protect against these kinds of attacks.
  
 ## Considerations
   
