@@ -111,9 +111,9 @@ Companies have policies that restrict data scraping from their application. That
   
 Use API rate limiting to protect against these kinds of attacks. Refer to the implementation in the previous scenario.
  
-## Some Considerations
+## Considerations
   
-Before you implement rate limiting for your APIs, also consider these factors:
+Before you implement rate limiting for your APIs, consider these factors:
   
 ### Will It Impact User Experience?
   
