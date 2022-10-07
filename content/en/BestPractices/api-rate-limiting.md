@@ -61,7 +61,7 @@ Let’s fix that. We can choose from several npm packages. But for this example,
 
 In the following code sample, we:
 
-- Import the 'express-rate-limit' package. 
+- Import the `express-rate-limit` package. 
 - Define a custom rate limit for the API endpoint (`callLimiter`). 
   - Set a time window of 1 hour (60 * 60 * 1000 ms).
   - Set max limits for that window (10 attempts).
