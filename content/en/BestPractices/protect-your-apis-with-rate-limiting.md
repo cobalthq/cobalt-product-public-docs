@@ -12,7 +12,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-  To protect your APIs against abuse, you should implement rate limiting properly. Rate limiting is often an overlooked area. In this article, we will explore more into why you should prioritize it today rather than in the future.
+  To protect your APIs against abuse, you should implement rate limiting. In this article, we explore why you should prioritize it today rather than in the future.
 {{% /pageinfo %}}
 
 ## Description
