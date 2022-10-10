@@ -57,7 +57,7 @@ Select the three-dot icon under **Action**, and then select the desired option:
 
 To preview a summary of [potential vulnerabilities](/platform-deep-dive/assets/risk-advisories/) based on the [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) standard, hold the pointer over the number under **Risk Advisory**. To navigate to the detailed list, select the number.
 
-![Page listing your assets](/deepdive/AssetsPageAdvisory.png "Page listing your assets")
+![Page listing your assets](/deepdive/AssetsPage.png "Page listing your assets")
 
 To view asset details, select an asset. From here, you can:
 
