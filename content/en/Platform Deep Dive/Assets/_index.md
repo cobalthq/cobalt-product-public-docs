@@ -37,6 +37,7 @@ You can create an asset in the following ways:
 
 - In the UI:
   - Navigate to the **Assets** page, and select **New Asset**.
+    - To upload assets in bulk in CSV or XLSX format, select **Bulk Assets**. Once uploaded, you can select an asset to add an image, [technology stack](/platform-deep-dive/assets/risk-advisories/#add-a-technology-stack-for-your-asset), and [attachments](/getting-started/assets/asset-description/#attachments) to it.
   - When setting up a pentest, on the [Let's Get Started](/getting-started/assets/) screen, select **Create a new asset**.
 - With the [Cobalt API](/apiusecases/create_asset/#create-an-asset)
 
