@@ -252,8 +252,8 @@ A mobile screen is what you see on a mobile device, such as an iPhone or an Andr
 described by [Codepath](https://guides.codepath.com/android/Mobile-Screen-Archetypes), mobile 
 screens fall into several archetypes. 
 
-You may have multiple screens of an archtype. For example, you may have 10 mobile screens for
-the onboarding archtype.
+You may have multiple screens of an archetype. For example, you may have 10 mobile screens for
+the onboarding archetype.
 
 ## Multi-factor Authentication
 <!-- `Multi-factor` is consistent with Google terminology  -->
