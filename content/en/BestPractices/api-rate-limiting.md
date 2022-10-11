@@ -130,7 +130,6 @@ set up attacks from a large numbers of IP addresses. Some botnets include IP add
 In response, you could review threat intelligence feeds to block bad reputation IP addresses.
 
 Furthermore, depending on your use case you might need more advanced anti-fraud measures and geo-restrictions.
-
   
 ### References
 - [OWASP API Top 10.](https://owasp.org/www-project-api-security/)
