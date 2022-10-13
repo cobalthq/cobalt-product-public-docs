@@ -37,7 +37,7 @@ You can create assets in the following ways:
 - On the **Assets** page:
   - To add a single asset, select **New Asset**.
   - To upload assets in bulk in CSV or XLSX format, select **Bulk Assets**. Once uploaded, you can select an asset to add an image, [technology stack](/platform-deep-dive/assets/risk-advisories/#add-a-technology-stack-for-your-asset), and [attachments](/getting-started/assets/asset-description/#attachments).
-    - If the upload is successful, all your assets from the file are added. Otherwise, no assets are created. Our algorith doesn't process the request partially. 
+    - If the upload is successful, all your assets from the file are added. Otherwise, no assets are created. Our algorithm doesn't process the request partially. 
     - We don't prevent you from creating duplicate assets.
 - When setting up a pentest, on the [Let's Get Started](/getting-started/assets/) screen, select **Create a new asset**.
 
