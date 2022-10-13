@@ -33,13 +33,15 @@ Otherwise, you may need to set up two pentests to get more granular results.
 
 ## Create an Asset
 
-You can create an asset in the following ways:
+You can create assets in the following ways:
+- On the **Assets** page:
+  - To add a single asset, select **New Asset**.
+  - To upload assets in bulk in CSV or XLSX format, select **Bulk Assets**. Once uploaded, you can select an asset to add an image, [technology stack](/platform-deep-dive/assets/risk-advisories/#add-a-technology-stack-for-your-asset), and [attachments](/getting-started/assets/asset-description/#attachments).
+    - If the upload is successful, all your assets from the file are added. Otherwise, no assets are created. Our algorith doesn't process the request partially. 
+    - We don't prevent you from creating duplicate assets.
+- When setting up a pentest, on the [Let's Get Started](/getting-started/assets/) screen, select **Create a new asset**.
 
-- In the UI:
-  - Navigate to the **Assets** page, and select **New Asset**.
-    - To upload assets in bulk in CSV or XLSX format, select **Bulk Assets**. Once uploaded, you can select an asset to add an image, [technology stack](/platform-deep-dive/assets/risk-advisories/#add-a-technology-stack-for-your-asset), and [attachments](/getting-started/assets/asset-description/#attachments).
-  - When setting up a pentest, on the [Let's Get Started](/getting-started/assets/) screen, select **Create a new asset**.
-- With the [Cobalt API](/apiusecases/create_asset/#create-an-asset)
+You can also use the [Cobalt API](/apiusecases/create_asset/#create-an-asset) to create assets.
 
 ### Asset Details
 
