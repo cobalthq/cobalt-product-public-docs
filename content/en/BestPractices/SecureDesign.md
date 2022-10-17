@@ -20,8 +20,9 @@ Insecure Design is "new category for 2021 focuses on risks related to design and
 
 Insecure design flaws are failures to follow secure design and architecture best practices by the developers, starting from the planning phase of the application. This is a broad category representing different security weaknesses collectively known as insecure design.
 
-# Examples #
-Let’s explore some examples of Insecure Design
+## Examples
+
+Let's explore some examples of Insecure Design.
 
 ## Scenario 1 ##
 
