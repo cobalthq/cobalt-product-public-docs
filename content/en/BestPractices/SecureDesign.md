@@ -24,13 +24,22 @@ Insecure design flaws are failures to follow secure design and architecture best
 
 Let's explore some examples of Insecure Design.
 
-## Scenario 1 ##
+### Scenario 1: Database Users with Too Much Access
 
-**Overly Permissive Application Database User**
+On some databases, administrators set up application database users with administrative privileges. On such systems, attackers who exploit a database system vulnerability can: 
 
-The application database user has the privileges of the database administrator. An attacker exploiting an SQL injection vulnerability in the application can get access to the complete database. Moreover, the privilege allows the attacker to run operating system commands, which could lead to server compromise. 
-  
-Secure design recommends the least privileges for application database users. Since the secure design practices were not followed during the planning phase, the application database user was granted the default admin permissions. The impact of SQL injection can be contained if the permissions of database user are restricted.  
+- Access to the complete database.
+- Run operating system commands, which could compromise your servers. 
+
+That is not a secure design.
+
+Secure design recommends that you configure least privileges for application database users. To follow best practices for secure design:
+
+- As suggested by the OWASP article on [SQL Injection Prevention](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html#least-privilege), "start from the ground up."
+  - Start with read-only access. Add privileges only when needed.
+  - Limit privileges to SQL accounts to specific databases.
+
+With secure design, you can limit the impact of SQL injection to the privileges of the compromised user 
 
 ## Scenario 2 ##
 
