@@ -1,3 +1,19 @@
+---
+title: Prevent Insecure Design in SQL
+linkTitle: Prevent Insecure Design in SQL
+weight: 640
+description: >
+  We'll address some typical design flaws when you set up SQL
+---
+
+{{% pageinfo %}}
+Review some of the risks associated with [Insecure Design](https://owasp.org/Top10/A04_2021-Insecure_Design/),
+as it relates to SQL Learn how secure design can help minimize your risks.
+{{% /pageinfo %}}
+
+As noted by [OWASP](/getting-started/glossary/#open-web-application-security-project-owasp),
+Insecure Design is "new category for 2021 focuses on risks related to design and architectural flaws".
+
 # Prevent Insecure Design # 
 
 # Description #
