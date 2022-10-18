@@ -64,7 +64,7 @@ They can use the `env` attribute of the `Twig_Environment` object to run system 
 
 #### Prevention
 
-Everything works fine if the name is passed into the template, as in the following example.
+To prevent this, pass a name into the template, as in the following example:
 
 ```ts
 $output = $twig->render("Dear {name},", array("first_name" => $user.first_name) ); 
