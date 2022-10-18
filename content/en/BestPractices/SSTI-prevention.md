@@ -66,14 +66,14 @@ They can use the `env` attribute of the `Twig_Environment` object to run system 
 
 To prevent this, pass a name into the template, as in the following example:
 
-```ts
+```php
 $output = $twig->render("Dear {name},", array("first_name" => $user.first_name) ); 
 ```
 ### Jinja2
 
 This Jinja2 code contains a vulnerability. The variable `name` that a user passes is concatenated to the template string.
 
-```ts
+```python
 @app.route("/page")
 def page():
     name = request.values.get('name')
@@ -97,7 +97,7 @@ Improper use of templates may lead to both [Cross-Site Scripting (XSS)](https://
 
 Attackers may circumvent the blacklists that you configured.
  
-```ts
+```python
 @app.route("/page")
 blacklist = ["__class__",”request[request.”]
 def page():
@@ -119,14 +119,14 @@ A threat actor can bypass `__class__` and retrieve the value of a new GET parame
 An attacker can pass the following input to the server using the `name` parameter.
 
 ```ts
-name={{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('id')|attr('read')()}}
+{{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fbuiltins\x5f\x5f')|attr('\x5f\x5fgetitem\x5f\x5f')('\x5f\x5fimport\x5f\x5f')('os')|attr('popen')('id')|attr('read')()}}
 ```
 
 #### Prevention
 
 Pass the `name` variable to the template context.
 
-```ts
+```python
 @app.route("/page")
 def page():
     name = request.values.get('name')
