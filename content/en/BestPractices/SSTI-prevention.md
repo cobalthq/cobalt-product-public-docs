@@ -18,10 +18,9 @@ A server-side template injection allows an attacker to execute server-side comma
 
 For example, depending on the IP address from which a user accesses a site, an injection may look like this:
 
-```ts
-<h1>Welcome to the cobalt!</h1>
-<u>This page is being accessed from the remote address: {{ip}}</u>
-```
+```html
+<h1>Welcome to Example Project!</h1>
+<u>You're accessing this page from a remote address: {{ip}}</u>
 
 It will render the remote address into the {{ip}} variable while reusing the rest of the HTML for every request it receives.
 
