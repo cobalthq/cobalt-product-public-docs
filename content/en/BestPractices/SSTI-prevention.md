@@ -156,10 +156,13 @@ You can turn off risky modules and features in a closed sandbox environment. Thi
 
 It may be challenging to create a sandbox environment. Misconfigurations may result in bypassing the environment.
 
-#### Logic less template
-A logic-less engine template exists, which separates visual rendering from code interpretation. Mustache is one of the most popular.
-In Mustache templates, none of the control flow is explicit, as data drive all control. As a result, application logic cannot be integrated into Mustache templates. It is best to keep the logic and presentation as separate as possible to reduce the risk of template-based attacks.
-Therefore the risk of RCE attacks has therefore been significantly reduced.
+### Use Logic-Less Templates
+
+A logic-less template engine separates visual rendering from code interpretation. [Mustache](https://github.com/mustache/mustache) is one of the most popular engines.
+
+In Mustache templates, none of the control flows is explicit because data drives all the control. As a result, you can't integrate your application logic into templates.
+
+Keep the application logic and presentation as separate as possible to reduce the risk of template-based attacks. This allows you to prevent remote code execution (RCE) attacks.
 
 ## References
 - https://portswigger.net/web-security/server-side-template-injection
