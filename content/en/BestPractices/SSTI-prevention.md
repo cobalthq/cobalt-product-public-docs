@@ -55,11 +55,9 @@ In this example, the user controls the template content using the `name` GET par
 
 #### Impact
 
-An arbitrary shell command can be executed easily by registering `exec` as a filter callback and then calling `getFilter()`.
+An attacker can execute an arbitrary shell command by registering `exec` as a filter callback and then calling `getFilter()`.
 
-An attacker can execute system commands using the "env" attribute of the "Twig_Environment" object.
-
-
+They can use the `env` attribute of the `Twig_Environment` object to run system commands.
 
 ```ts
 Attacker’s input via name parameter,
