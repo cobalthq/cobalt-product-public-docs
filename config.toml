@@ -94,7 +94,7 @@ github_repo = "https://github.com/cobalthq/cobalt-product-public-docs"
 github_branch = "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "f2d0c21d46c3a48ca"
+#gcs_engine_id = "011737558837375720776:fsdu1nryfng"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
