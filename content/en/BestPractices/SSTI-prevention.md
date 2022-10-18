@@ -69,14 +69,9 @@ To prevent this, pass a name into the template, as in the following example:
 ```ts
 $output = $twig->render("Dear {name},", array("first_name" => $user.first_name) ); 
 ```
-
-
-
 ### Jinja2
 
-A vulnerability exists in the following Jinja2 code because the user-supplied variable `name` is concatenated to the template string. When an HTTP GET request is made, the page function accepts a `name` parameter and renders an HTML response with the contents of the name variable.
-
-
+This Jinja2 code contains a vulnerability. The variable `name` that a user passes is concatenated to the template string.
 
 ```ts
 @app.route("/page")
