@@ -143,9 +143,13 @@ For example, designers or integrators can autonomously make a design change with
 
 To prevent an SSTI attack, never allow users to modify or create templates. If you have no other choice, follow our recommendations.
 
-#### Sanitization
-Before using a template, detecting and removing potentially malicious content is necessary. Data transmitted by users must therefore be efficiently analyzed. Various methods can be used to accomplish this (e.g., regex, whitelists of authorised expressions).
-There is, however, a drawback to this solution. In addition, configuration errors can put your environment at risk.
+### Sanitize Data
+
+Before using a template, identify and remove potentially malicious content.
+
+Make sure to efficiently analyze data that users pass. You can use various methods to do this, such as regular expression tools or whitelists of authorized expressions.
+
+However, there is a drawback to this solution. Configuration errors can put your environment at risk.
 
 #### Sandboxing
 The aim is to provide a closed environment where risky modules and features are disabled. For example, if user-supplied data is interpreted, it cannot provide access to other components or data.
