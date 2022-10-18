@@ -28,12 +28,11 @@ SSTI may have a devastating effect. It generally results in remote code executio
 
 ## Attack Scenarios
 
+Let's see some example attack scenarios.
 
-### Twig template
+### Twig Template
 
-
-This code example illustrates SSTI vulnerability in the `getFilter()` function that uses `call_user_func($callback, $name)`. From the HTTP GET request, the server retrieves and executes the `name` parameter:
-
+This code example illustrates an SSTI vulnerability in the `getFilter()` function that uses `call_user_func($callback, $name)`. From the HTTP GET request, the server retrieves and executes the `name` parameter:
 
 ```ts
 public function getFilter($name)
