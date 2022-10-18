@@ -51,7 +51,7 @@ $output = $twig->render($_GET['name'],  array("first_name" => $user.first_name) 
 
 #### Analysis
 
-In the above example, the user controls the template's content via the `name` GET parameter rather than a value passed into it.
+In this example, the user controls the template content using the `name` GET parameter rather than a value passed into it.
 
 #### Impact
 
