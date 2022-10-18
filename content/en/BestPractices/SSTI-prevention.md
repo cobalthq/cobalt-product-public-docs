@@ -112,8 +112,7 @@ def page():
 
 #### Analysis
 
-It is possible to retrieve the value of a new `cobalt` GET parameter using the `request.args.param`. An attacker can bypass `__class__` using this. Since we have also blacklisted `request.args.param`, we will use jinja2 native function called `| attr().` 
-
+A threat actor can bypass `__class__` and retrieve the value of a new GET parameter using `request.args.param`. Because we included `request.args.param` in the blacklist, we can use a native Jinja2 function `| attr().`
 
 #### Impact
 
