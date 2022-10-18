@@ -81,14 +81,13 @@ def page():
     return output
 ```
 
-
 #### Analysis
 
-When an HTTP GET request is made, the page function accepts a 'name' parameter and renders an HTML response with the contents of the name variable.
+When you send an HTTP GET request, the page function accepts the `name` parameter and renders an HTML response with the content of the variable.
 
 #### Impact
 
-As a result of this usage of templates, both XSS vulnerabilities and SSTI vulnerabilities are created. The following code block is an example of an attacker’s input via the `name` parameter.
+Improper use of templates may lead to both [Cross-Site Scripting (XSS)](https://owasp.org/www-community/attacks/xss/) and SSTI vulnerabilities. The following code block is an example of a malicious input through the `name` parameter.
 
 ```ts
 {{config.__class__.__init__.__globals__['os'].popen('ls').read()}}
