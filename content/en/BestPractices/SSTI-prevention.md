@@ -21,6 +21,7 @@ For example, depending on the IP address from which a user accesses a site, an i
 ```html
 <h1>Welcome to Example Project!</h1>
 <u>You're accessing this page from a remote address: {{ip}}</u>
+```
 
 The injection passes a remote address into the `{{ip}}` variable while reusing the rest of the HTML code for every request it receives.
 
