@@ -150,9 +150,11 @@ Make sure to efficiently analyze data that users pass. You can use various metho
 
 However, there is a drawback to this solution. Configuration errors can put your environment at risk.
 
-#### Sandboxing
-The aim is to provide a closed environment where risky modules and features are disabled. For example, if user-supplied data is interpreted, it cannot provide access to other components or data.
-It may be challenging to create a sandbox environment, and misconfigurations may result in bypassing the environment.
+### Set Up a Sandbox Environment
+
+You can turn off risky modules and features in a closed sandbox environment. This allows you to limit access to other application components.
+
+It may be challenging to create a sandbox environment. Misconfigurations may result in bypassing the environment.
 
 #### Logic less template
 A logic-less engine template exists, which separates visual rendering from code interpretation. Mustache is one of the most popular.
