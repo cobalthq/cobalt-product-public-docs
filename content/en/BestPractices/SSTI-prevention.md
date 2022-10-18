@@ -22,9 +22,9 @@ For example, depending on the IP address from which a user accesses a site, an i
 <h1>Welcome to Example Project!</h1>
 <u>You're accessing this page from a remote address: {{ip}}</u>
 
-It will render the remote address into the {{ip}} variable while reusing the rest of the HTML for every request it receives.
+The injection passes a remote address into the `{{ip}}` variable while reusing the rest of the HTML code for every request it receives.
 
-Typically, server-side template injection has a devastating effect. It generally results in remote code execution by completely controlling the back-end server when a server-side template injection vulnerability is exploited. Despite not executing any code, the attacker may still be able to access sensitive server data.
+SSTI may have a devastating effect. It generally results in remote code execution by controlling the backend server. Even if the attacker doesn't execute any code, they may still access sensitive server data.
 
 ## Attack Scenarios
 
