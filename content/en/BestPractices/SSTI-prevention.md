@@ -10,16 +10,13 @@ description: >
 Learn about the Server-Side Template Injection (SSTI) vulnerability, and discover how to prevent it.
 {{% /pageinfo %}}
 
-
-
-SSTI is categorised under injection in the [OWASP Top 10 Web Application Security Risks (2021)](https://owasp.org/www-project-top-ten/) and is ranked 3rd according to its impact and likelihood.
-
+OWASP includes SSTI in the [Top 10 Web Application Security Risks (2021)](https://owasp.org/www-project-top-ten/) and lists it under [Injection](https://owasp.org/Top10/A03_2021-Injection/).
 
 ## Description
 
-The server-side template injection vulnerability allows an attacker to execute server-side commands by injecting malicious data into a template. A vulnerability occurs when invalid user input is embedded in a template engine. This can result in [remote code execution (RCE)](https://www.imperva.com/learn/application-security/remote-code-execution/).
+A server-side template injection allows an attacker to execute server-side commands by injecting malicious data into a template. A vulnerability occurs when a threat actor embeds invalid user input in a template engine. This can result in [remote code execution (RCE)](https://www.imperva.com/learn/application-security/remote-code-execution/).
 
-For example, depending on the IP that accesses a site, the site may look like this:
+For example, depending on the IP address from which a user accesses a site, an injection may look like this:
 
 ```ts
 <h1>Welcome to the cobalt!</h1>
