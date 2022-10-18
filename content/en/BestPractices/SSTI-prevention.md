@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Learn about Server-Side Template Injection (SSTI) exploitation and discover how to prevent them.
+Learn about the Server-Side Template Injection (SSTI) vulnerability, and discover how to prevent it.
 {{% /pageinfo %}}
 
 
