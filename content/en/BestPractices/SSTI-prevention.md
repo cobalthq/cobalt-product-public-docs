@@ -60,10 +60,7 @@ An attacker can execute an arbitrary shell command by registering `exec` as a fi
 They can use the `env` attribute of the `Twig_Environment` object to run system commands.
 
 ```ts
-Attacker’s input via name parameter,
-
 {{_self.env.registerUndefinedFilterCallback("exec")}}{{_self.env.getFilter("id")}}
-```
 
 #### Prevention
 
