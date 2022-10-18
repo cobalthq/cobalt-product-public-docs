@@ -34,7 +34,7 @@ Let's see some example attack scenarios.
 
 This code example illustrates an SSTI vulnerability in the `getFilter()` function that uses `call_user_func($callback, $name)`. From the HTTP GET request, the server retrieves and executes the `name` parameter:
 
-```ts
+```php
 public function getFilter($name)
 {
         [snip]
