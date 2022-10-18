@@ -124,8 +124,7 @@ name={{request|attr('application')|attr('\x5f\x5fglobals\x5f\x5f')|attr('\x5f\x5
 
 #### Prevention
 
-The variable `name` should be passed to the template context.
-
+Pass the `name` variable to the template context.
 
 ```ts
 @app.route("/page")
