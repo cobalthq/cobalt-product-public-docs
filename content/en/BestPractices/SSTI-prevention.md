@@ -1,7 +1,7 @@
 ---
-title: Protect against Server-Side Template Injection
-linkTitle: Protect against SSTI
-weight: 620
+title: Prevent Server-Side Template Injections
+linkTitle: Prevent SSTI
+weight: 670
 description: >
   Keep your app safe from SSTI attacks.
 ---
