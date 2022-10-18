@@ -93,10 +93,9 @@ Improper use of templates may lead to both [Cross-Site Scripting (XSS)](https://
 {{config.__class__.__init__.__globals__['os'].popen('ls').read()}}
 ```
 
+### Bypassing Blacklists
 
-### Bypassing the blacklisting
-
-The problem with blacklists is that they can often be circumvented, which is terrible.
+Attackers may circumvent the blacklists that you configured.
  
 ```ts
 @app.route("/page")
