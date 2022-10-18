@@ -135,11 +135,13 @@ def page():
     return output
 ```
 
+## Best Practices
 
-## Best practices
+A template engine allows you to streamline the process of updating and maintaining your application.
 
-A template engine has advantages and facilitates modifications. For example, a design change can be made without touching the code flow and autonomously by the designers/integrators. The changes are independent of the code and logical processing. In the same way, developers can change logical elements and code without affecting data display or breaking the interface. It makes maintaining the project easier.
-For SSTI prevention, never allow users to modify or create templates. However, when business needs arise, there are solutions:
+For example, designers or integrators can autonomously make a design change without touching the code flow. Their changes are independent of the code and logical processing. Similarly, developers can change logical elements and code without affecting data display or breaking the interface.
+
+To prevent an SSTI attack, never allow users to modify or create templates. If you have no other choice, follow our recommendations.
 
 #### Sanitization
 Before using a template, detecting and removing potentially malicious content is necessary. Data transmitted by users must therefore be efficiently analyzed. Various methods can be used to accomplish this (e.g., regex, whitelists of authorised expressions).
