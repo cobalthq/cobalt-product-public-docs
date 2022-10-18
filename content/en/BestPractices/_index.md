@@ -25,11 +25,11 @@ until we have enough articles to actually organize. -->
 Once we've merged content into this guide, we'll list them in the following table with the
 date of release.
 
-| Article                                                              | Release Date | Author                |
-|----------------------------------------------------------------------|--------------|-----------------------|
-| [Validate User Input](./input-validation)                      | 2022-08-19   | {{% payloadartist %}} |
-| [Prevent Security Misconfiguration](./prevent-security-misconfig)              | 2022-08-19   | {{% shashank %}}      |
+| Article                                                               | Release Date | Author                |
+|-----------------------------------------------------------------------|--------------|-----------------------|
+| [Prevent Insecure Design in SQL](./secure-design)                     | 2022-10-18   | {{% shashank %}}      |
+| [Protect Your APIs With Rate Limiting](./api-rate-limiting)           | 2022-10-18   | {{% payloadartist %}} |
+| [Prevent Server-Side Template Injections](./prevent-ssti)             | 2022-10-18   | {{% payloadartist %}} |
+| [Validate User Input](./input-validation)                             | 2022-08-19   | {{% payloadartist %}} |
+| [Prevent Security Misconfiguration](./prevent-security-misconfig)     | 2022-08-19   | {{% shashank %}}      |
 | [Protect Against Server-Side Request Forgery](./protect-against-ssrf) | 2022-08-19   | {{% harsh-bothra %}}  |
-| [Protect Your APIs With Rate Limiting](./api-rate-limiting) | 2022-10-18   | {{% payloadartist %}}  |
-| [Prevent Insecure Design in SQL](./secure-design) | 2022-10-18   | {{% shashank %}}  |
-| [Prevent Server-Side Template Injections](./prevent-ssti) | 2022-10-18   | {{% unstabl3 %}}  |
