@@ -18,6 +18,16 @@ we configure and use Cobalt software.
 
 {{% agile-pentest %}}. Learn more about the [pentest types](/platform-deep-dive/pentests/pentest-types/).
 
+You may want an Agile Pentest for:
+
+- Recent code changes, such as after a sprint or before a release
+- Specific subsets of your asset, such as:
+  - A single feature such as a new RESTful [API endpoint](#api-endpoint)
+  - One microservice
+- You can also use an Agile Pentest to test:
+  - A single OWASP or OSSTMM category
+  - A specific issue, such as a [known vulnerability](#known-vulnerability)
+
 ## Allowlist
 
 An allowlist explicitly lets identified systems access. In networks, an allowlist can specify IP
@@ -26,15 +36,21 @@ addresses. You can typically find allowlists and denylists in files like
 
 ## API Endpoint
 
-An endpoint is typically a URL used to allow two software applications to communicate with each other.
-For example, `https://api.cobalt.io/orgs` is one endpoint that you can find at `https://docs.cobalt.io`.
+An endpoint is typically a URL used to allow two software applications to communicate with each other. For example, `https://api.cobalt.io/orgs` is one endpoint that you can find at `https://docs.cobalt.io`.
 
-Some endpoints include additional information that may make them seem different. For example, the
-following two URLs are in fact the same endpoint, as the content after the ampersand (&) describes an
-action on data sent from that URL:
+Some [RESTful API](#restful-api) endpoints include additional information that may make them seem different. For example, the following two URLs are in fact the same endpoint, as the content after the ampersand (&) describes an action on data sent from that URL:
 
 - example.com/endpoint1&_prettyPrint=true
 - example.com/endpoint1&_prettyPrint=false
+
+[GraphQL operates](https://graphql.org/learn/serving-over-http/#uris-routes) on a single API endpoint. Functionally, GraphQL queries and mutations are similar to RESTful GET, POST, PUT, and other commands.
+
+## API Scope
+
+See [API Endpoint](#api-endpoint) for how we look at RESTful and GraphQL APIs. To scope our work, when we need information about your API, we need numbers for either:
+
+- RESTful [API endpoints](#api-endpoint)
+- [GraphQL queries and mutations](#graphql-queries-and-mutations)
 
 ## Asset
 
@@ -185,12 +201,27 @@ manage work on your pentests.
 
 As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a comprehensive review of an organization's adherence to governing documents such as whether:
 
- - A Certification Practice Statement satisfies the requirements of a Certificate Policy
- - An organization adheres to its Certification Practice Statement
+- A Certification Practice Statement satisfies the requirements of a Certificate Policy
+- An organization adheres to its Certification Practice Statement
 
 ## Comprehensive Pentest
 
 {{% comprehensive-pentest %}}. Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/).
+
+You may want a Comprehensive Pentest for:
+
+- A comprehensive [security audit](#security-audit) of your software
+- Broad subsets of your asset, such as:
+  - API with all the [endpoints](#api-endpoint) that it includes
+  - All microservices
+- A [compliance audit](#compliance-audit) based on a specific framework, such as [SOC 2](https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
+- All categories from the [OWASP Top 10](https://owasp.org/www-project-top-ten/) list
+- M&amp;A due diligence, to identify and eliminate possible risks for all parties involved
+- A specific customer of third-party attestation request
+
+## Dynamic Web Page
+
+Many applications have web pages with dynamic content, which can be built on the server or the client. Contrast with [Static Web Pages](#static-web-page).
 
 ## Environment
 
@@ -208,9 +239,15 @@ we add a detailed list of findings to your report, which includes:
 
 {{% finding-details %}}
 
-## GraphQL Mutation
+## GraphQL API
 
-For more information, see https://graphql.org/learn/queries/#mutations
+Per https://graphql.org, GraphQL is a query language for your API. A GraphQL API is designed with a single endpoint.
+
+For pentests of a GraphQL API, Cobalt needs the number of [queries and mutations](https://graphql.org/learn/queries/) that you’ve configured. Also see [API Endpoint](#api-endpoint).
+
+## GraphQL Queries and Mutations
+
+For more information, see https://graphql.org/learn/queries/
 
 ## Gray Box Testing
 
@@ -248,12 +285,11 @@ Cobalt, and differs slightly from the NIST definition of
 
 ## Mobile Screen
 
-A mobile screen is what you see on a mobile device, such as an iPhone or an Android system. As
-described by [Codepath](https://guides.codepath.com/android/Mobile-Screen-Archetypes), mobile 
-screens fall into several archetypes. 
+A mobile screen is what you see on a mobile device, such as an iPhone or an Android system. As described by [Codepath](https://guides.codepath.com/android/Mobile-Screen-Archetypes), mobile screens fall into several archetypes.
 
-You may have multiple screens of an archetype. For example, you may have 10 mobile screens for
-the onboarding archetype.
+You may have multiple screens of an archetype. For example, you may have 10 mobile screens for the onboarding archetype.
+
+For pentests of a mobile [asset](#asset), we need the number of screens that you have, for each operating system that you support.
 
 ## Multi-factor Authentication
 <!-- `Multi-factor` is consistent with Google terminology  -->
@@ -296,7 +332,7 @@ penetration testing programs.
 
 A summary of all vulnerability reports, including observations on positive security measures. Target audiences: executives, security engineers, and developers. Includes:
 
-- Executive Summary 
+- Executive Summary
   - Describes tests performed with criteria
 - Executive Analysis
   - High-level summary of vulnerabilities
@@ -320,6 +356,10 @@ A summary of all vulnerability reports, including observations on positive secur
 
 Within Cobalt, this is also known as a Report or a Final Report. For more information, see [Pentest Reports](/platform-deep-dive/pentests/reports/).
 
+## Projects (Cloud Assets)
+
+All resources included in your cloud [asset](#asset). For example, [AWS defines a project](https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/create-project.html) as a collection of resources associated with an asset.
+
 ## Remediate
 
 To fix a vulnerability identified by a pentest or incident report. Examples:
@@ -331,14 +371,22 @@ Contrast with [mitigate](#mitigate). This reflects how we use **remediate** at
 Cobalt, and differs slightly from the NIST definition of 
 [remediation](https://csrc.nist.gov/glossary/term/remediation).
 
+## Resource Group (Cloud)
+
+A set of resources in a cloud [asset](#asset). For more information, see [Google GCP documentation](https://cloud.google.com/monitoring/groups).
+
+## RESTful API
+
+Per [TechTarget](https://www.techtarget.com/searchapparchitecture/definition/RESTful-API), "A RESTful API is an architectural style for an application program interface ([API](https://www.techtarget.com/searchapparchitecture/definition/application-program-interface-API)) that uses HTTP requests to access and use data." Also see [API Endpoint](#api-endpoint).
+
 ## Route (Software)
 
-As defined by [Manning](https://freecontent.manning.com/routing-with-react-in-modern-front-end-web-applications/), in software, it’s a system for resource navigation. If you’re working in the browser, you might be familiar with routing as it relates to:
+As defined by [Manning](https://freecontent.manning.com/routing-with-react-in-modern-front-end-web-applications/), in software, it's a system for resource navigation. If you're working in the browser, you might be familiar with routing as it relates to:
 
- - URLs
- - Resources, such as paths to images and scripts, and so on
- 
-If you’re working on the server, matching incoming request paths to resources from a database. 
+- URLs
+- Resources, such as paths to images and scripts, functions, and so on
+
+If you’re working on the server, matching incoming request paths to resources from a database.
 
 ## Security Assertion Markup Language
 
@@ -359,19 +407,15 @@ Network, and Security. The SANS Top 20 has been migrated to CIS Controls Version
 
 For more information, see https://developer.mozilla.org/en-US/docs/Glossary/SPA
 
+## Static Web Page
+
+Some applications are built solely on HTML, and do not change depending on the user or location. Contrast with [Dynamic Web Pages](#dynamic-web-page).
+
 ## User Role
 
-A User Role specifies the permissions or privileges associated with a user. Common examples of User Roles include:
+{{% user-role %}}
 
-- Global Administrator (such as a UNIX root user)
-- Administrator
-- Group Owner
-- Workspace Administrator
-- Full User
-- Guest
-
-When [scoping a pentest](/getting-started/planning/#scope-the-pentest), include a complete list of user roles.
-If you miss a user role, you may sacrifice quality in penetration testing. 
+When [scoping a pentest](/getting-started/planning/#scope-the-pentest), specify the number of roles that you want to test.
 
 ## Vulnerability
 
@@ -412,11 +456,10 @@ How Cobalt classifies the [vulnerability](#vulnerability). Examples include:
 
 ## Web Page
 
-A hypertext document on the World Wide Web. Web applications typically include _static_ and _dynamic_ web pages.
+A hypertext document on the web. Web applications typically include static and dynamic web pages.
 
-- A static page contains stable content that appears the same for every user who opens the page.
-- A dynamic page includes content that can be customized, either through an application server (server-side) or through code such as
-JavaScript running in the browser (client-side).
+- A [Static Web Page](#static-web-page) contains stable content that appears the same for every user who opens the page.
+- A [Dynamic Web Page](#dynamic-web-page) includes content that can be customized, either through an application server (server-side) or through code such as JavaScript running in the browser (client-side).
 
 ## White Box Testing
 

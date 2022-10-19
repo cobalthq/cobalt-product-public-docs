@@ -1,0 +1,1 @@
+Determine User Roles based on personas, or target user groups of your asset. Group user permissions into several levels, and count the number of such groups.
