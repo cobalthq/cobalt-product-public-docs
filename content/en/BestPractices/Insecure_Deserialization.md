@@ -47,7 +47,7 @@ Output:
   
   
 ![Deserialization diagram from portswigger.net](https://portswigger.net/web-security/images/deserialization-diagram.jpg)
-![](https://portswigger.net/web-security/images/deserialization-diagram.jpg)
+
 
 ## How  can Deserialization be Insecure?
 
