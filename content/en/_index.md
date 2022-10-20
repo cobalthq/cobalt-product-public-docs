@@ -2,6 +2,7 @@
 ---
 title: "Overview of Cobalt Documentation"
 linkTitle: "Overview"
+no_list: true
 type: "docs"
 weight: 20
 

@@ -1,8 +1,5 @@
-
 public/
 resources/
 node_modules/
 tech-doc-hugo/
 tmp/
-package.json
-package-lock.json

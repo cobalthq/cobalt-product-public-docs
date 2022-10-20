@@ -24,7 +24,7 @@ For all assets, we'd appreciate a:
 
 Include links to published documentation related to the
 asset. You can upload documentation, diagrams, and more in various
-file formats under [Asset Documentation](#asset-documentation).
+file formats under [Attachment(s)](#attachments).
 
 The following sections detail additional needs for different kinds of assets:
 
@@ -87,9 +87,9 @@ Make sure to include the:
 - Unique users / roles
 - Applicable network / architecture diagrams
 
-## Asset Documentation
+## Attachments
 
-To share more about your assets, you can upload the documentation of your choice. Our app accepts files
+To share more about your assets, you can upload the documentation of your choice under **Attachment(s)**. Our app accepts files
 in the following categories and formats:
 
 - Archives (.gz, .rar, .tar, .zip)
@@ -100,14 +100,14 @@ in the following categories and formats:
 
 Our app limits uploads to 100 MB.
 
-![Asset Documentation Screen](/gsg/AssetDocumentation.png "Uploads related to your asset")
+![Asset Attachments Screen](/gsg/AssetAttachments.png "Uploads related to your asset")
 
 If you'd like to upload files in a different format, you can try to:
 
 - Compress or archive the files into one of the noted formats.
   - For example, you can use a "Zip" tool built for your operating system to
     save your file with a **.zip** file extension.
-- Contact your Customer Success Manager (CSM) or support@cobalt.io for guidance.
+- {{% contact-csm-support %}} for guidance.
 
 For complex assets, we encourage spreadsheets. The UI includes links to the following
 templates:
@@ -119,6 +119,5 @@ We've included suggested data in the downloadable Excel (.xlsx) files.
 We encourage you to replace this information with other data, and upload it 
 with any other documentation for your asset.
 
-At this point, you've completed all entries in the Asset section of the pentest wizard.
-You can now select **Create asset and pentest** to move to the next part of the wizard,
-the [Pentest Objectives](../../pentest-objectives).
+At this point, you've completed all entries in the **Review Assets** section of the pentest wizard.
+You can now select **Next** to move to the next part of the wizard and set the pentest [requirements](/getting-started/pentest-objectives/).

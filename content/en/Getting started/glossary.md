@@ -14,6 +14,20 @@ cited in the [References](#references).
 The definitions included in this page may vary from the cited standards, based on how
 we configure and use Cobalt software.
 
+## Agile Pentest
+
+{{% agile-pentest %}}. Learn more about the [pentest types](/platform-deep-dive/pentests/pentest-types/).
+
+You may want an Agile Pentest for:
+
+- Recent code changes, such as after a sprint or before a release
+- Specific subsets of your asset, such as:
+  - A single feature such as a new RESTful [API endpoint](#api-endpoint)
+  - One microservice
+- You can also use an Agile Pentest to test:
+  - A single OWASP or OSSTMM category
+  - A specific issue, such as a [known vulnerability](#known-vulnerability)
+
 ## Allowlist
 
 An allowlist explicitly lets identified systems access. In networks, an allowlist can specify IP
@@ -22,19 +36,25 @@ addresses. You can typically find allowlists and denylists in files like
 
 ## API Endpoint
 
-An endpoint is typically a URL used to allow two software applications to communicate with each other.
-For example, `https://api.cobalt.io/orgs` is one endpoint that you can find at `https://docs.cobalt.io`.
+An endpoint is typically a URL used to allow two software applications to communicate with each other. For example, `https://api.cobalt.io/orgs` is one endpoint that you can find at `https://docs.cobalt.io`.
 
-Some endpoints include additional information that may make them seem different. For example, the
-following two URLs are in fact the same endpoint, as the content after the ampersand (&) describes an
-action on data sent from that URL:
+Some [RESTful API](#restful-api) endpoints include additional information that may make them seem different. For example, the following two URLs are in fact the same endpoint, as the content after the ampersand (&) describes an action on data sent from that URL:
 
 - example.com/endpoint1&_prettyPrint=true
 - example.com/endpoint1&_prettyPrint=false
 
+[GraphQL operates](https://graphql.org/learn/serving-over-http/#uris-routes) on a single API endpoint. Functionally, GraphQL queries and mutations are similar to RESTful GET, POST, PUT, and other commands.
+
+## API Scope
+
+See [API Endpoint](#api-endpoint) for how we look at RESTful and GraphQL APIs. To scope our work, when we need information about your API, we need numbers for either:
+
+- RESTful [API endpoints](#api-endpoint)
+- [GraphQL queries and mutations](#graphql-queries-and-mutations)
+
 ## Asset
 
-For pentests, an asset is a software component of value. Cobalt can perform pentests on assets in the
+{{% asset-definition %}} Cobalt can perform pentests on assets in the
 following categories:
 
 {{% asset-categories %}}
@@ -59,6 +79,10 @@ an individual, a group, or even a nation-state. Specified as "attacker" in Cobal
 ## Attestation Letter
 
 {{% attestation-letter %}}
+
+## Automated Report
+
+An Automated Report is a system-generated report for an [Agile Pentest](#agile-pentest) intended for internal use. You cannot customize an Automated Report. Learn more about [pentest reports](/platform-deep-dive/pentests/reports/).
 
 ## Black Box Testing
 
@@ -111,8 +135,10 @@ In the Cobalt UI, you'll see this user role as "Owner". Users in that role can:
 
 An _Organization Owner_ is the administrator for a customer organization within the Cobalt app. As such, they can:
 
-- Add/remove the users of their choice, by their email addresses, as an _Organization Member_
-  or _Organization Owner_.
+- Manage users on the **Organization** tab of the **People** page:
+  - Add/remove the users of their choice, by their email addresses, as an _Organization Member_ or _Organization Owner_.
+  - View the email addresses of users.
+
 - View collaborators, the members of their pentest team. That team includes:
   - _Pentest Team Member_, typically an organization employee.
   - _Pentest Lead_, the Cobalt pentester responsible for the pentest.
@@ -160,7 +186,7 @@ A _Pentest Team Member_ does not have to be an _Organization Owner_ or an _Organ
 ### Pentest Lead
 
 A _Pentest Lead_ is a Cobalt pentester who leads other Cobalt pentesters in their efforts to test
-an asset. When applicable, the Pentest Lead also drafts the [pentest report](#pentest-report).
+an asset. When applicable, the Pentest Lead also drafts the [pentest report](#pentest-report) (for [Comprehensive Pentests](#comprehensive-pentest)).
 
 ### Pentester
 
@@ -171,11 +197,31 @@ A _Pentester_ is a Cobalt pentester who works with a _Pentest Lead_ to test a sp
 _Cobalt Staff_ members may help you manage the users in your organization. They may also help
 manage work on your pentests.
 
-## Dynamic Page
+## Compliance Audit
 
-Web applications typically include _static_ and _dynamic_ web pages. A Dynamic Page includes content
-that can be customized, either through an application server (server-side) or through code such as
-JavaScript running in the browser (client-side).
+As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a comprehensive review of an organization's adherence to governing documents such as whether:
+
+- A Certification Practice Statement satisfies the requirements of a Certificate Policy
+- An organization adheres to its Certification Practice Statement
+
+## Comprehensive Pentest
+
+{{% comprehensive-pentest %}}. Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/).
+
+You may want a Comprehensive Pentest for:
+
+- A comprehensive [security audit](#security-audit) of your software
+- Broad subsets of your asset, such as:
+  - API with all the [endpoints](#api-endpoint) that it includes
+  - All microservices
+- A [compliance audit](#compliance-audit) based on a specific framework, such as [SOC 2](https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
+- All categories from the [OWASP Top 10](https://owasp.org/www-project-top-ten/) list
+- M&amp;A due diligence, to identify and eliminate possible risks for all parties involved
+- A specific customer of third-party attestation request
+
+## Dynamic Web Page
+
+Many applications have web pages with dynamic content, which can be built on the server or the client. Contrast with [Static Web Pages](#static-web-page).
 
 ## Environment
 
@@ -188,10 +234,20 @@ In the context of a Cobalt pentest, you can specify one of three options for an 
 A potential security flaw in an app or physical hardware. We include findings in vulnerability
 reports, as something that a threat actor can exploit.
 
-When you select [Full Report + Finding Details](/getting-started/what-to-expect/report-contents/#appendix-a---finding-details),
+When you select [Full Report + Finding Details](/platform-deep-dive/pentests/reports/report-contents/#appendix-a---finding-details),
 we add a detailed list of findings to your report, which includes:
 
 {{% finding-details %}}
+
+## GraphQL API
+
+Per https://graphql.org, GraphQL is a query language for your API. A GraphQL API is designed with a single endpoint.
+
+For pentests of a GraphQL API, Cobalt needs the number of [queries and mutations](https://graphql.org/learn/queries/) that you’ve configured. Also see [API Endpoint](#api-endpoint).
+
+## GraphQL Queries and Mutations
+
+For more information, see https://graphql.org/learn/queries/
 
 ## Gray Box Testing
 
@@ -215,7 +271,7 @@ A "well-known" security vulnerability. Documented in a security bulletin or a CV
 
 In Cobalt pentest reports, you may see this as a published or documented vulnerability.
 
-## Mitigate 
+## Mitigate
 
 To apply preventative measures. Based on problems identified by a pentest or incident report.
 Examples:
@@ -229,12 +285,11 @@ Cobalt, and differs slightly from the NIST definition of
 
 ## Mobile Screen
 
-A mobile screen is what you see on a mobile device, such as an iPhone or an Android system. As
-described by [Codepath](https://guides.codepath.com/android/Mobile-Screen-Archetypes), mobile 
-screens fall into several archetypes. 
+A mobile screen is what you see on a mobile device, such as an iPhone or an Android system. As described by [Codepath](https://guides.codepath.com/android/Mobile-Screen-Archetypes), mobile screens fall into several archetypes.
 
-You may have multiple screens of an archtype. For example, you may have 10 mobile screens for
-the onboarding archtype.
+You may have multiple screens of an archetype. For example, you may have 10 mobile screens for the onboarding archetype.
+
+For pentests of a mobile [asset](#asset), we need the number of screens that you have, for each operating system that you support.
 
 ## Multi-factor Authentication
 <!-- `Multi-factor` is consistent with Google terminology  -->
@@ -277,7 +332,7 @@ penetration testing programs.
 
 A summary of all vulnerability reports, including observations on positive security measures. Target audiences: executives, security engineers, and developers. Includes:
 
-- Executive Summary 
+- Executive Summary
   - Describes tests performed with criteria
 - Executive Analysis
   - High-level summary of vulnerabilities
@@ -299,9 +354,11 @@ A summary of all vulnerability reports, including observations on positive secur
 - Finding Details
   - More information on each finding
 
-Within Cobalt, this is also known as a Report or a Final Report.
+Within Cobalt, this is also known as a Report or a Final Report. For more information, see [Pentest Reports](/platform-deep-dive/pentests/reports/).
 
-{{% min-credits-report %}}
+## Projects (Cloud Assets)
+
+All resources included in your cloud [asset](#asset). For example, [AWS defines a project](https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/create-project.html) as a collection of resources associated with an asset.
 
 ## Remediate
 
@@ -314,11 +371,32 @@ Contrast with [mitigate](#mitigate). This reflects how we use **remediate** at
 Cobalt, and differs slightly from the NIST definition of 
 [remediation](https://csrc.nist.gov/glossary/term/remediation).
 
+## Resource Group (Cloud)
+
+A set of resources in a cloud [asset](#asset). For more information, see [Google GCP documentation](https://cloud.google.com/monitoring/groups).
+
+## RESTful API
+
+Per [TechTarget](https://www.techtarget.com/searchapparchitecture/definition/RESTful-API), "A RESTful API is an architectural style for an application program interface ([API](https://www.techtarget.com/searchapparchitecture/definition/application-program-interface-API)) that uses HTTP requests to access and use data." Also see [API Endpoint](#api-endpoint).
+
+## Route (Software)
+
+As defined by [Manning](https://freecontent.manning.com/routing-with-react-in-modern-front-end-web-applications/), in software, it's a system for resource navigation. If you're working in the browser, you might be familiar with routing as it relates to:
+
+- URLs
+- Resources, such as paths to images and scripts, functions, and so on
+
+If you’re working on the server, matching incoming request paths to resources from a database.
+
 ## Security Assertion Markup Language
 
 As defined by the Organization for the Advancement of Structured Information Standards (OASIS),
 the [Security Assertion Markup Language (SAML)](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=security)
-SAML is an XML-based framework for communicating user authentication, entitlement, and attribute information. 
+SAML is an XML-based framework for communicating user authentication, entitlement, and attribute information.
+
+## Security Audit
+
+As [defined](https://csrc.nist.gov/glossary/term/security_audit) by NIST, an independent review and examination of a system’s records and activities to determine the adequacy of system controls, ensure compliance with established security policy and procedures, detect breaches in security services, and recommend any changes that are indicated for countermeasures.
 
 ## SANS Institute
 
@@ -329,19 +407,15 @@ Network, and Security. The SANS Top 20 has been migrated to CIS Controls Version
 
 For more information, see https://developer.mozilla.org/en-US/docs/Glossary/SPA
 
+## Static Web Page
+
+Some applications are built solely on HTML, and do not change depending on the user or location. Contrast with [Dynamic Web Pages](#dynamic-web-page).
+
 ## User Role
 
-A User Role specifies the permissions or privileges associated with a user. Common examples of User Roles include:
+{{% user-role %}}
 
-- Global Administrator (such as a UNIX root user)
-- Administrator
-- Group Owner
-- Workspace Administrator
-- Full User
-- Guest
-
-When scoping an Asset, include a complete list of user roles.
-If you miss a user role, you may sacrifice quality in penetration testing. 
+When [scoping a pentest](/getting-started/planning/#scope-the-pentest), specify the number of roles that you want to test.
 
 ## Vulnerability
 
@@ -379,6 +453,13 @@ How Cobalt classifies the [vulnerability](#vulnerability). Examples include:
 - Client Side Injection
 - Server Security Misconfiguration > Lack of Password Confirmation
 - Broken Authentication and Session Management
+
+## Web Page
+
+A hypertext document on the web. Web applications typically include static and dynamic web pages.
+
+- A [Static Web Page](#static-web-page) contains stable content that appears the same for every user who opens the page.
+- A [Dynamic Web Page](#dynamic-web-page) includes content that can be customized, either through an application server (server-side) or through code such as JavaScript running in the browser (client-side).
 
 ## White Box Testing
 
