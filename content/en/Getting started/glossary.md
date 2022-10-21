@@ -136,8 +136,9 @@ In the Cobalt UI, you'll see this user role as "Owner". Users in that role can:
 An _Organization Owner_ is the administrator for a customer organization within the Cobalt app. As such, they can:
 
 - Manage users on the **Organization** tab of the **People** page:
-  - Add/remove the users of their choice, by their email addresses, as an _Organization Member_ or _Organization Owner_.
+  - Add/remove the users of their choice, by their email addresses, as an [_Organization Member_](#organization-member) or _Organization Owner_.
   - View the email addresses of users.
+  - Change user roles, from an _Organization Owner_ to _Organization Member_ and conversely.
 
 - View collaborators, the members of their pentest team. That team includes:
   - _Pentest Team Member_, typically an organization employee.
