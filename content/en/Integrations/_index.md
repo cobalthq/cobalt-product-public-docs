@@ -25,7 +25,7 @@ To get started, navigate to the **Integrations** page in the Cobalt app.
 | Integration | Type | Use |
 |:---|:---|:---|
 | <img src="/integrations/Jira.png" width="30"> [Jira](https://cobaltio.zendesk.com/hc/en-us/sections/4407694113044-Integration-Guides) | Native | <li>Push Cobalt findings as issues to Jira Cloud, Server, or Data Center</li><li>Synchronize Cobalt findings with Jira tickets bi-directionally</li>
-| <img src="/integrations/Github.png" width="30"> [GitHub](https://cobaltio.zendesk.com/hc/en-us/articles/360058712591-How-do-I-set-up-GitHub-Integration-) | Native | Push Cobalt findings as issues to GitHub
+| <img src="/integrations/Github.png" width="30"> [GitHub](https://cobaltio.zendesk.com/hc/en-us/articles/360058712591-How-do-I-set-up-GitHub-Integration-) | Native | Push Cobalt findings as issues to GitHub (cloud only)
 | <img src="/integrations/Webhooks.png" width="30"> [Webhooks](/integrations/webhooks/) | Native | Subscribe to real-time notifications for pentest events using API-based webhooks
 | <img src="/integrations/Jupiterone.png" width="30"> [JupiterOne](https://community.askj1.com/kb/articles/994-cobalt-integration-with-jupiterone) | Partner | Analyze pentest data with JupiterOne tools
 | <img src="/integrations/Tugboatlogic.png" width="30"> [Tugboat Logic](https://tugboatlogic.com/integrations/cobalt/) | Partner | Pull Cobalt pentest information into a Tugboat Logic-based InfoSec program
