@@ -25,13 +25,13 @@ until we have enough articles to actually organize. -->
 Once we've merged content into this guide, we'll list them in the following table with the
 date of release.
 
-### October 20, 2022
+### October 21, 2022
 
 | Article                                                               | Release Date | Author                |
 |-----------------------------------------------------------------------|--------------|-----------------------|
-| [Prevent Insecure Design in SQL](./secure-design)                     | 2022-10-18   | {{% shashank %}}      |
-| [Protect Your APIs With Rate Limiting](./api-rate-limiting)           | 2022-10-18   | {{% payloadartist %}} |
-| [Prevent Server-Side Template Injections](./prevent-ssti)             | 2022-10-18   | {{% unstabl3 %}}      |
+| [Prevent Insecure Design in SQL](./secure-design)                     | 2022-10-21   | {{% shashank %}}      |
+| [Protect Your APIs With Rate Limiting](./api-rate-limiting)           | 2022-10-21   | {{% payloadartist %}} |
+| [Prevent Server-Side Template Injections](./prevent-ssti)             | 2022-10-21   | {{% unstabl3 %}}      |
 
 ### August 19, 2022
 
