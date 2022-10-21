@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "npm run docs-install && npm run build:preview"   
+command = "cd themes/docsy && cd ../.. && hugo"   
   
 [build.environment]
 HUGO_VERSION = "0.104.2"
