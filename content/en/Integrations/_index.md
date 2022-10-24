@@ -2,8 +2,6 @@
 title: "Cobalt Integrations"
 linkTitle: "Integrations"
 weight: 110
-toc_hide: true
-hide_summary: true
 description: >
   Integrate third-party apps and configure webhooks.
 ---
