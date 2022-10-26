@@ -29,6 +29,8 @@ To get started, navigate to the **Integrations** page in the Cobalt app.
 | <img src="/integrations/Tugboatlogic.png" width="30"> [Tugboat Logic](https://tugboatlogic.com/integrations/cobalt/) | Partner | Pull Cobalt pentest information into a Tugboat Logic-based InfoSec program
 | <img src="/integrations/Defectdojo.png" width="30"> [DefectDojo](https://defectdojo.github.io/django-DefectDojo/integrations/parsers/#cobaltio-api-import) | Partner | Import your Cobalt pentest findings into DefectoDojo with Cobalt API
 | <img src="/integrations/Kennasecurity.png" width="30"> [Kenna Security](https://github.com/KennaSecurity/toolkit/tree/main/tasks/connectors/cobaltio#readme) | Partner | Import Cobalt pentest findings
+| <img src="/integrations/PlexTrac.png" width="30"> [PlexTrac](https://docs.plextrac.com/plextrac-documentation/product-documentation/account-management/account-admin/tools-and-integrations/integrations/cobalt) | Partner | Import Cobalt findings into a PlexTrac report
+| <img src="/integrations/anecdotes.png" width="30"> [anecdotes](https://intercom.help/anecdotes/en/articles/6508884-cobalt-getting-started-user-guide) | Partner | Integrate Cobalt findings into the anecdotes.ai compliance operating system
 
 ## Build Your Own Integration
 
