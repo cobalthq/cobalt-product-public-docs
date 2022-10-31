@@ -61,7 +61,7 @@ You can download a pentest [report](/platform-deep-dive/pentests/reports/) to vi
 
 If your organization manages pentests for third parties, you can add your company logo to all reports. In co-branded reports, your company logo appears next to the Cobalt logo.
 
-An [_Organization Owner_](../glossary/#organization-owner) of a partner company can enable co-branded reports.
+An [_Organization Owner_](/getting-started/glossary/#organization-owner) of a partner company can enable co-branded reports.
 
 {{%expand "Learn more." %}}
 
