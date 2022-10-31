@@ -128,8 +128,7 @@ spreadsheet, but need to find pull code in Hugo -->
 
 In the Cobalt UI, you'll see this user role as "Owner". Users in that role can:
 
-- Manage users and settings 
-- Create and edit assets and pentests
+{{% org-owner-permissions %}}
 
 {{%expand "Learn more." %}}
 
@@ -161,8 +160,7 @@ organizations in the Cobalt app.
 
 In the Cobalt UI, you'll see this user role as "Member". Users in that role can:
 
-- View users and settings 
-- Create and edit assets and pentests
+{{% org-member-permissions %}}
 
 {{%expand "Learn more." %}}
 <!-- This is only a test commit -->
