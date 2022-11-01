@@ -140,7 +140,6 @@ To accommodate screen readers, we need "Alt Text" similar to:
 ```
 ![UI Flow for Pentests](/gsg/PentestFlowOverview.png "UI Flow for Pentests")
 ```
--->
 
 ### Avoid htmltest Issues
 
