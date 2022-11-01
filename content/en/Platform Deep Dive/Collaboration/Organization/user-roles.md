@@ -25,6 +25,7 @@ Refer to the table below for a detailed list of permissions and privileges for e
 | Create and manage [Cobalt API tokens](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui) | ✅ | ✅ | ✅ |
 | Access the following pages in the Cobalt app: **Assets**, **Insights**, **People**, **Credits**, **Integrations**, and **Settings** | ❌ | ✅ | ✅ |
 | Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/) | ❌ | ✅ | ✅ |
+| View all users and pentest collaborators within an organization | ❌ | ✅ | ✅ |
 | Manage [integrations](/integrations/) for an organization, including [webhooks](/integrations/webhooks/) | ❌ | ✅ | ✅ |
 | View and edit general organization settings (logo, name) | ❌ | ✅ | ✅ |
 | [Manage users](/platform-deep-dive/collaboration/organization/manage-users/#manage-users-for-your-organization) for an organization | ❌ | ❌ | ✅ |
