@@ -12,11 +12,11 @@ Refer to this page if you lose access to your authenticator app or forget your p
 
 ## Lost Access to Your Authenticator
 
-Users in the following roles can ask an [_Organization Owner_](../../glossary/#organization-owner) to turn off [two-factor authentication](../#two-factor-authentication) (2FA) for their account:
+Users in the following roles can ask an [_Organization Owner_](/getting-started/glossary/#organization-owner) to turn off [two-factor authentication](../#two-factor-authentication) (2FA) for their account:
 
-- [_Organization Owner_](../../glossary/#organization-owner)
-- [_Organization Member_](../../glossary/#organization-member)
-- [_Pentest Team Member_](../../glossary/#pentest-team-member)
+- [_Organization Owner_](/getting-started/glossary/#organization-owner)
+- [_Organization Member_](/getting-started/glossary/#organization-member)
+- [_Pentest Team Member_](/getting-started/glossary/#pentest-team-member)
 
 Follow these steps:
 
@@ -40,7 +40,7 @@ Once you've set up a new authenticator, you can turn on 2FA again.
 
 ### Turn Off 2FA for a User
 
-As an [_Organization Owner_](../../glossary/#organization-owner), you can turn off two-factor authentication for a user following their request.
+As an [_Organization Owner_](/getting-started/glossary/#organization-owner), you can turn off two-factor authentication for a user following their request.
 
 1. Once you get an email notification requesting you to turn off 2FA, select **Recover Account** in the email.
 
