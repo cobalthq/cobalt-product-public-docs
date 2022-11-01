@@ -73,23 +73,85 @@ After you've made your working copy of the site repository, from its root folder
 hugo server -D
 ```
 
-## Test Links
+## Test Links and Alt Attributes
 
-You can test links with [htmltest](https://github.com/wjdp/htmltest). The `.htmltest.yml` includes options to
-avoid trailing slashes. The `htmltest` command works on the HTML content built
-in the public/ subdirectory.
+You can test links and alt text attributes with [htmltest](https://github.com/wjdp/htmltest). 
 
-After you fix broken links, run the following commands to rebuild content in
-the public/ subdirectory:
+### Install htmltest
+
+Follow the instructions to install `htmltest` in the /usr/local/bin folder. The current (1 Nov 2022)
+website suggests the following command, which works if you're using the `bash` shell:
+
+```
+curl https://htmltest.wjdp.uk | sudo bash -s -- -b /usr/local/bin
+```
+
+If you're using the zsh shell (default in MacOS):
+
+```
+curl https://htmltest.wjdp.uk | sudo zsh -s -- -b /usr/local/bin
+```
+
+### Run htmltest
+
+Once installed, run the following commands to make sure you've built the latest version of the docs
+in the `public/` subdirectory:
 
 ```
 hugo mod clean
 hugo
 ```
 
-If you don't run these commands, you'll see the same link errors that you "thought" you fixed.
+You can then run the following command in the root directory of this repository.
 
-You can then rerun the htmltest command.
+```
+htmltest
+```
+
+After you fix any bad links, and address accessibility issues, run the commands in this section again.
+
+### Output from htmltest
+
+You'll see error messages similar to:
+
+#### Bad links (404s)
+
+```
+target does not exist --- platform-deep-dive/pentests/pentest-process/methodologies/api-methodologies/index.html --> ../../special-instructions
+```
+
+In this case, the `../../special-instructions` link does not exist.
+- Links like this are prone to trouble, as they're relative links. Fix: use "absolute links".
+
+#### Alt Text Missing
+
+```
+alt attribute missing --- integrations/index.html --> /integrations/Jira.png
+```
+
+With images, for accessibilty, we need to include "Alt Text". In this case, you might see Markdown code like:
+
+```
+![](/gsg/PentestFlowOverview.png)
+```
+
+<!-- NEED TO TEST
+To accommodate screen readers, we need "Alt Text" similar to: 
+
+```
+![UI Flow for Pentests](/gsg/PentestFlowOverview.png "UI Flow for Pentests")
+```
+-->
+
+### Avoid htmltest Issues
+
+The `.htmltest.yml` includes options to
+
+- Avoid trailing slashes.
+- Ignore links to RFC2606 URLs such as example.com
+
+After you fix broken links, rerun the commands in the [Run htmltest](#run-htmltest) section. Otherwise,
+you'll see the same errors that you "thought" you fixed.
 
 While there are a couple of open issues with the output, related to the link
 to our Zendesk articles, it does detect other broken links.
