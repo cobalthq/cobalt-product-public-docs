@@ -83,13 +83,13 @@ Follow the instructions to install `htmltest` in the /usr/local/bin folder. The 
 website suggests the following command, which works if you're using the `bash` shell:
 
 ```
-curl https://htmltest.wjdp.uk | sudo bash -s -- -b /usr/local/bin
+sudo curl https://htmltest.wjdp.uk | sudo bash -s -- -b /usr/local/bin
 ```
 
 If you're using the zsh shell (default in MacOS):
 
 ```
-curl https://htmltest.wjdp.uk | sudo zsh -s -- -b /usr/local/bin
+sudo curl https://htmltest.wjdp.uk | sudo zsh -s -- -b /usr/local/bin
 ```
 
 ### Run htmltest
