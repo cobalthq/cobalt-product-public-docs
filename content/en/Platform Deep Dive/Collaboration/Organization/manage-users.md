@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Depending on your role, you can manage users for your [organization](#manage-users-for-your-organization) or specific [pentests](#add-and-remove-pentest-collaborators). Learn more about [user roles and permissions](/platform-deep-dive/collaboration/organization/user-roles/).
+Depending on your role, you can manage users for your [organization](#manage-users-for-your-organization) or specific [pentests](#add-and-remove-pentest-team-members). Learn more about [user roles and permissions](/platform-deep-dive/collaboration/organization/user-roles/).
 {{% /pageinfo %}}
 
 ## Manage Users for Your Organization
@@ -51,17 +51,17 @@ To remove a user from your organization:
     - Only from the organization. The user can still collaborate on pentests as a [_Pentest Team Member_](/getting-started/glossary/#pentest-team-member).
     - From the organization and all pentests.
 
-## Add and Remove Pentest Collaborators
+## Add and Remove Pentest Team Members
 
-To [add](#add-a-pentest-collaborator) or [remove users](#remove-pentest-collaborators) from a specific pentest, you should have one of the following [roles](/platform-deep-dive/collaboration/organization/user-roles/):
+To [add](#add-a-pentest-team-member) or [remove users](#remove-a-pentest-team-member) from a specific pentest, you should have one of the following [roles](/platform-deep-dive/collaboration/organization/user-roles/):
 
 - [_Organization Owner_](/getting-started/glossary/#organization-owner)
 - [_Organization Member_](/getting-started/glossary/#organization-member)
-- [_Pentest Team Member_](/getting-started/glossary/#pentest-team-member), also referred to as _pentest collaborator_
+- [_Pentest Team Member_](/getting-started/glossary/#pentest-team-member)
 
-### Add a Pentest Collaborator
+### Add a Pentest Team Member
 
-To add a _Pentest Team Member_, or collaborator, to a specific pentest:
+To add a _Pentest Team Member_ to a specific pentest:
 
 1. In the Cobalt app, select **Pentests**, and locate the desired pentest.
 1. On the pentest page, select **Settings** > **Collaborators**.
@@ -69,9 +69,9 @@ To add a _Pentest Team Member_, or collaborator, to a specific pentest:
 
 The user gets an invitation to collaborate on the pentest.
 
-![Add a Pentest Team Member from a pentest](/deepdive/AddTeamMember.png "Add a Pentest Team Member from a pentest")
+![Add a Pentest Team Member to a pentest](/deepdive/AddTeamMember.png "Add a Pentest Team Member to a pentest")
 
-### Remove Pentest Collaborators
+### Remove a Pentest Team Member
 
 To remove a _Pentest Team Member_ from a pentest:
 
