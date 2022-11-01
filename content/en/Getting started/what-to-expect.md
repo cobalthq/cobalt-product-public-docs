@@ -67,5 +67,5 @@ results. Here's what you can expect:
 
    <!-- Timing confirmed with Grahame -->
 
-Our [Pentest States](../../../penteststates/) page includes more information about each pentest
+Our [Pentest States](/penteststates/) page includes more information about each pentest
 state, including _Draft_, _In Review_, _Planned_, _Remediation_, and _Closed_.
