@@ -135,7 +135,6 @@ With images, for accessibilty, we need to include "Alt Text". In this case, you 
 ![](/gsg/PentestFlowOverview.png)
 ```
 
-<!-- NEED TO TEST
 To accommodate screen readers, we need "Alt Text" similar to: 
 
 ```
