@@ -24,7 +24,7 @@ Refer to the table below for a detailed list of permissions and privileges for e
 | [Invite](/platform-deep-dive/collaboration/organization/manage-users/#add-a-pentest-team-member) _Pentest Team Members_ to a specific pentest and [remove](/platform-deep-dive/collaboration/organization/manage-users/#remove-a-pentest-team-member) them | ✅ | ✅ | ✅ |
 | Access the following pages in the Cobalt app: **Assets**, **Insights**, **People**, **Credits**, **Integrations**, and **Settings** | ❌ | ✅ | ✅ |
 | Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/) | ❌ | ✅ | ✅ |
-| Manage [integrations](/integrations/) for an organization, including [webhooks](https://developer.cobalt.io/integrations/webhooks/) | ❌ | ✅ | ✅ |
+| Manage [integrations](/integrations/) for an organization, including [webhooks](/integrations/webhooks/) | ❌ | ✅ | ✅ |
 | View and edit general organization settings (logo, name) | ❌ | ✅ | ✅ |
 | [Manage users](/platform-deep-dive/collaboration/organization/manage-users/#manage-users-for-your-organization) for an organization | ❌ | ❌ | ✅ |
 | View the email addresses of users on the **People** page | ❌ | ❌ | ✅ |
