@@ -29,3 +29,11 @@ You’ll find the content of the shortcode in the following directory:
 https://github.com/cobalthq/cobalt-product-public-docs/tree/main/layouts/shortcodes
 
 That shortcode has the same base name as what you see in the PR, such as `asset-categories.html`.
+
+## Checklist for PR Author
+
+[ ] Did you check for broken links and alt text?
+
+Be sure to check for broken links and Alt Text issues. We have a partially automated process,
+as described in this section of our repository README:
+[Test Links and Alt Attributes](https://github.com/cobalthq/cobalt-product-public-docs/blob/main/README.md#test-links-and-alt-attributes).
