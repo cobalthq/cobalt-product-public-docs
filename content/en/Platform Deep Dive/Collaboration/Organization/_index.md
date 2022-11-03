@@ -12,7 +12,7 @@ _Organization Owners_ can manage users and adjust settings for their organizatio
 
 When you receive an email invitation from Cobalt, you join a specific organization with a role assigned to you. Within an organization, you and your team get access to the Cobalt platform and the pentest experience.
 
-You can view the organization you belong to in the upper-left corner of the Cobalt app. If you joined multiple organizations, you can switch between them.
+You can view the organization you belong to in the Cobalt app. If you joined multiple organizations, you can switch between them.
 
 ![View your organizations in the Cobalt app](/deepdive/OrganizationsList.png "View your organizations in the Cobalt app")
 
