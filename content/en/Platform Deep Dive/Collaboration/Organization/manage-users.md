@@ -46,7 +46,7 @@ To change a user’s role from [_Owner_](/getting-started/glossary/#organization
 To remove a user from your organization:
 
 1. On the **People** page, locate the user you want to remove.
-1. Select the three-dot icon on the right, and select **Remove User**.
+1. Select the three-dot icon on the same line as the user, and select **Remove User**.
 1. In the overlay that appears, select whether you want to remove a user:
     - Only from the organization. The user can still collaborate on pentests as a [_Pentest Team Member_](/getting-started/glossary/#pentest-team-member).
     - From the organization and all pentests.
