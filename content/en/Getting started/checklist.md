@@ -80,7 +80,7 @@ An [_Organization Owner_](/getting-started/glossary/#organization-owner) of a pa
 <li>Upload the logo image, and select <b>Apply</b>.</li></ul></li>
 
 <li>To verify that co-branding is enabled:
-<ul><li>Go to the <b>Pentests</b> tab, and select a pentest in the <i>Remediation</i> or <i>Closed</i> state.</li>
+<ul><li>Go to the <b>Pentests</b> tab, and select a pentest in the Remediation or Closed state.</li>
 <li>On the <b>Report</b> tab, download a report, and verify that it has your company logo.</li></ul></li>
 </ol>
 
