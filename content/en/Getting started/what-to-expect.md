@@ -14,14 +14,14 @@ Now that you've done all the work needed to set up a pentest, you might be anxio
 results. Here's what you can expect:
 
 1. Once you've finished setting up a pentest, select **Pentests** in the left-hand
-   pane. You should see your pentest listed, with an _In Review_ label.
+   pane. You should see your pentest listed, with an In Review label.
 1. We'll select the best available testers before the start of the pentest. The time we need
    depends on your {{% ptaas-tier %}} and any special requirements you have.
 1. Once we start the pentest, you’ll start getting updates from pentesters:
    - On the **Pentester Updates** tab of the pentest page
    - In a Slack channel dedicated for your pentest where you can communicate with pentesters. You should see a link to the Slack channel on the pentest page next to the pentest state.
       - Add the colleagues of your choice to the Slack channel. Choose colleagues who can benefit from direct communication with our pentesters.
-      - As soon as we’ve moved your pentest from _In Review_ to _Planned_, you’ll see your pentesters in the Slack channel.
+      - As soon as we’ve moved your pentest from In Review to Planned, you’ll see your pentesters in the Slack channel.
 1. You may get questions from your pentesters. You can also elaborate
    on your requirements for the pentest.
    - You'll get in-app and email notifications for each update from pentesters.
@@ -37,7 +37,7 @@ results. Here's what you can expect:
    start remediating your code before you see a pentest report.
    {{% /alert %}}
 
-1. Once the pentest is complete, we move your pentest from _Planned_ to _Remediation_.
+1. Once the pentest is complete, we move your pentest from Planned to Remediation.
 1. You can start assessing all discovered vulnerabilities. In the Cobalt app, navigate
    to **Pentests**. Select your pentest, and navigate to the **Findings** tab.
    - Find the **State** list. Depending on your assessment, you can
@@ -68,4 +68,4 @@ results. Here's what you can expect:
    <!-- Timing confirmed with Grahame -->
 
 Our [Pentest States](/penteststates/) page includes more information about each pentest
-state, including _Draft_, _In Review_, _Planned_, _Remediation_, and _Closed_.
+state, including Draft, In Review, Planned, Remediation, and Closed.
