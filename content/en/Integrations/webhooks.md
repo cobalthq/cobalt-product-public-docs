@@ -94,4 +94,4 @@ Find solutions for common troubleshooting problems in the table below:
 |---|---|
 | You can’t create a webhook because the name or URL already exists | Enter a unique name and URL for your webhook |
 | <li>You can’t create a webhook because the validation fails</li><li>You don’t get webhook notifications to your URL</li><li>You can't activate a webhook that we or you deactivated earlier</li> | We failed to validate your webhook. Check the following:<li>The URL is valid and can accept requests.</li><li>If you're using a webhook secret to validate API requests from Cobalt, make sure that it's valid. Refresh the secret or generate a new one if needed.</li>|
-| You can't delete a webhook | <li>Try again</li><li>{{% contact-csm-support %}} for assistance</li> |
+| You can't delete a webhook | <li>Try again</li><li>Contact {{% csm-support %}} for assistance</li> |
