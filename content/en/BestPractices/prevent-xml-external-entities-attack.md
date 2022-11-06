@@ -2,7 +2,13 @@ XML External Entities (XXE) vulnerability was ranked 4th in the OWASP Top 10 Web
 
 ## Description
 
-XML External Entities (XXE) is a server-side security vulnerability that allows attackers to utilize the misconfigured XML parser to reference an external entity. This could lead to sensitive data exposure, server-side request forgery, remote code execution and denial of service attack scenarios. 
+XML External Entities (XXE) is a server-side vulnerability that allows attackers to utilize the misconfigured XML parser to reference an external entity. This could lead to sensitive data exposure, server-side request forgery, remote code execution and denial of service attack scenarios. 
+
+The XML documents may contain a definition for XML entities, often known as Document Type Definition (DTD). Depending upon their use in the application, the DTDs could be either internal or external. 
+
+In an XXE attack scenario, an attacker attempts to submit an XML file that calls an external entity, for example, with a `file://` URI. This `file://` URI could be used by an attacker to make vulnerable application process the external DTD and read the contents of the internal system file. For example, a URI such as `file:///c:/winnt/win.ini` will allow an attacker to read the file `C:\Winnt\win.ini` content, whereas the URI `file:///etc/passwd` will allow an attacker to read the contents of `/etc/passwd` file. 
+
+Similarly, an attacker may use other URI schemes such as `HTTP://`, `HTTPS://`, `FTP://`, and `GOPHER://`, to mention a few, to exploit the vulnerable application using XXE attack. 
 
 
 XXE has a wide range of impacts. For example, it may allow a threat actor to load external entities and attempt to perform remote code execution or extract sensitive information such as local files. 
@@ -18,9 +24,72 @@ A malicious actor may achieve the following through a successful XXE exploitatio
 
 ## Attack Scenarios
 
-Let’s see some examples of XXE attacks.
+Let’s see some vulnerable code examples to understand the XXE attacks further.
 
 
+### XXE in PHP Framework
+
+The below code example uses a PHP endpoint to parse the XML input and utilizes the `php-xml` module to perform the XML parsing. However, due to the support of external DTD parsing, an attacker could launch an XXE attack.
+
+```
+<?php
+
+require_once('../_helpers/strip.php');
+
+
+libxml_disable_entity_loader (false);
+
+$xml = strlen($_GET['xml']) > 0 ? $_GET['xml'] : '<root><content>No XML found</content></root>';
+
+$document = new DOMDocument();
+$document->loadXML($xml, LIBXML_NOENT | LIBXML_DTDLOAD);
+$parsedDocument = simplexml_import_dom($document);
+
+echo $parsedDocument->content;
+
+```
+
+An attacker can use the `expect://` function of the PHP to perform a remote code execution using XXE, and the payload will look like this: 
+
+```
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE foo [ <!ELEMENT foo ANY >
+<!ENTITY xxe SYSTEM "expect://id" >]>
+<creds>
+    <user>&xxe;</user>
+    <pass>mypass</pass>
+</creds>
+```
+
+The command `expect://id` will return the output of the `id` command of UNIX, which typically produces output such as `uid=0(root) gid=0(root) groups=0(root)`. To remediate such scenarios, you need to disable the unnecessary protocols and functions such as `expect://` in the above example and disable external DTD parsing.
+
+
+### XXE in JavaScript 
+
+JavaScript framework such as `Node.Js` does not provide native XML parsing capabilities. To allow XML parsing, the `libxml` library can be used as shown in the code below: 
+
+```
+const app = require("express")(),
+const libxml = require("libxmljs");
+app.post("/profile/add", (req, res) => {
+  favorite = libxml.parseXml(req.body, { noent: true }); //noent is set to true
+  addToFavorites(favorite)
+});
+```
+
+In the above code, the `noent` property is set as `true`, allowing for external entity parsing leading to an XXE attack. An attacker may craft a malicious payload to make the server parse the external DTD and launch a successful XXE attack. 
+
+From the developer's perspective, avoid setting the `noent` property to `true`, which is disabled by default in the `libxmljs`. For example, the below code is an example of a secure code that does not allow external DTD parsing. 
+
+```
+const app = require("express")(),
+const libxml = require("libxmljs");
+app.post("/profile/add", (req, res) => {
+  favorite = libxml.parseXml(req.body); //noent is not set to true
+  addToFavorites(favorite)
+});
+
+```
 ### XXE on Zend Framework via PHP FPM
 
 This code example is based on  CVE-2015-5161, which exploits a vulnerability in the Zend Framework leading to XXE attack. The following code is an illustration of a PHP application using Zend Framework to implement XML-RPC call:
@@ -58,108 +127,160 @@ To exploit XXE, an attacker can forge a payload like the following, which will r
 ```
 
 
-### XXE in Java Applications:
+### XXE in Java Framework:
 
-Developers often use popular frameworks and functions to implement specific features. However, some functions and methods are not secure and may unintentionally lead to vulnerabilities like XXE. For example, the below code snippet is non-compliant code for Dom4j and Jdom2 libraries: 
-
-#### For Dom4j library:
-
-`SAXReader xmlReader = new SAXReader(); // Noncompliant`
-
-#### For Jdom2 library:
-
-`SAXBuilder builder = new SAXBuilder(); // Noncompliant`
-
-In both of the above libraries, the application evaluates input through the `SAXReader` and `SAXBuilder` functions, resulting in an XXE attack. To minimize your risks, analyze the methods you use to handle user-supplied input for any known security concerns. Avoid insecure methods. If you can’t find an alternative, write a wrapper around the method to filtrate and prevent attacks. Below are examples of compliant code solutions: 
-
-#### For Dom4j library:
+Java Supports different XML parsers such as DOM Parser, SAX Parser, StAX Parser and JAXB, to name a few. When the application is using SAX Parser for XML parsing, it could lead to an XXE attack if `disallow-doctype-decl` is not set to `true` as shown in the code example below:
 
 ```
-SAXReader xmlReader = new SAXReader();
-xmlReader.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
+
+package com.mkyong.xml.sax;
+
+import com.mkyong.xml.sax.handler.PrintAllHandlerSax;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.parsers.SAXParser;
+import javax.xml.parsers.SAXParserFactory;
+import java.io.IOException;
+
+public class ReadXmlSaxParserXXE {
+
+  private static final String FILENAME = "src/main/resources/staff.xml";
+
+  public static void main(String[] args) {
+
+      SAXParserFactory factory = SAXParserFactory.newInstance();
+
+      try {
+
+          // XXE attack
+          SAXParser saxParser = factory.newSAXParser();
+
+          PrintAllHandlerSax handler = new PrintAllHandlerSax();
+
+          saxParser.parse(FILENAME, handler);
+
+      } catch (ParserConfigurationException | SAXException | IOException e) {
+          e.printStackTrace();
+      }
+
+  }
+
+}
+
 ```
 
-#### For Jdom2 library:
+An attacker can craft a payload like the one below to execute XXE in the above vulnerable code, which will return the contents of the `/etc/passwd` file. 
 
 ```
-SAXBuilder builder = new SAXBuilder();
-builder.setProperty(XMLConstants.ACCESS_EXTERNAL_DTD, "");
-builder.setProperty(XMLConstants.ACCESS_EXTERNAL_SCHEMA, "");
+ <?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
+  <company>
+      <staffId>&xxe;</staffId>
+  </company>
 ```
+
+However, this could be prevented by using `setFeature` to disable the DOCTYPE declaration and remediate the XXE attack, as shown in the below code example: 
+
+```
+  SAXParserFactory factory = SAXParserFactory.newInstance();
+
+  try {
+
+      // https://rules.sonarsource.com/java/RSPEC-2755
+      // prevent XXE, completely disable DOCTYPE declaration:
+      factory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
+
+      SAXParser saxParser = factory.newSAXParser();
+
+      PrintAllHandlerSax handler = new PrintAllHandlerSax();
+
+      saxParser.parse(FILENAME, handler);
+
+  } catch (ParserConfigurationException | SAXException | IOException e) {
+      e.printStackTrace();
+  }
+```
+
+You may refer to different Sonar Source Rules to understand the XXE remediation for famous XML parsers using rules such as https://rules.sonarsource.com/java/RSPEC-2755.
+
 
 #### Denial of Service - XML Billion Laugh Attack 
 
 XML parsers are prone to denial of service attacks when a malicious XML document containing the same large entity is repeated repeatedly, causing an infinite processing loop. In addition, due to the lack of restrictions in place, such as a limit on the number of entity expansions, the XML processor can consume a heavy amount of memory and time during the parsing resulting in a Denial of Service attack. 
 
-#### For Dom4j library:
+For example, in the below code example, when the `XMLConstants.FEATURE_SECURE_PROCESSING` feature is set to `false`, it could allow an attacker to perform an XML Billion Laugh Attack: 
 
 ```
 SAXReader xmlReader = new SAXReader();
-xmlReader.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, false); // Noncompliant
+xmlReader.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, false);
+```
+An attacker can craft a billion laugh attack payload like the following to cause a denial of service in the application system: 
+
+```
+<?xml version=”1.0" encoding=”UTF-8"?>
+    
+    <!DOCTYPE example [
+    
+    <!ELEMENT example ANY >
+    
+    <!ENTITY lol “lol”>
+    
+    <!ENTITY lol1 “&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;”>
+    
+    <!ENTITY lol2 “&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;”>
+    
+    <!ENTITY lol3 “&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;&lol2;”>
+    
+    <!ENTITY lol4 “&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;&lol3;”>
+    
+    <!ENTITY lol5 “&lol4;&lol4;&lol4;&lol4;&lol4;&lol4;&lol4;&lol4;&lol4;&lol4;”>
+    
+    <!ENTITY lol6 “&lol5;&lol5;&lol5;&lol5;&lol5;&lol5;&lol5;&lol5;&lol5;&lol5;”>
+    
+    <!ENTITY lol7 “&lol6;&lol6;&lol6;&lol6;&lol6;&lol6;&lol6;&lol6;&lol6;&lol6;”>
+    
+    <!ENTITY lol8 “&lol7;&lol7;&lol7;&lol7;&lol7;&lol7;&lol7;&lol7;&lol7;&lol7;”>
+    
+    <!ENTITY lol9 “&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;&lol8;”>
+    
+    ]>
+    
+    <example>&lol9;</example>
 ```
 
-#### Payload: 
-
-
-To avoid this situation, a further validation can be added via introduction `xmlReader.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);` code elements which will result into a secure code. For example: 
-
-#### For Dom4j library:
+However, to remediate this situation, further validation can be added via setting `XMLConstants.FEATURE_SECURE_PROCESSING` as `true` like in the code below:
 
 ```
 SAXReader xmlReader = new SAXReader();
 xmlReader.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
 ```
 
-
-### File Inclusion via XXE
-
-The XInclude element can be used to include XML files. However, the XML processors replace the XInclude element with the file's content, which may lead to a local file inclusion attack if the reasonable restrictions are not implemented. Below is an example of non-compliant code in the Java Dom4j library: 
-
-#### For Dom4j library:
-
-```
-SAXReader xmlReader = new SAXReader();
-xmlReader.setFeature("http://apache.org/xml/features/xinclude", true); // Noncompliant
-```
-
-#### Payload: 
-
-```
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!DOCTYPE foo [
-  <!ELEMENT foo ANY >
-  <!ENTITY xxe SYSTEM "file:///etc/shadow" >]>
-<foo>&xxe;</foo>
-```
-
-Please note that XIncludes is disabled by default. However, to secure the above code, the XInclude needs to be disabled by setting the property to false as follows: 
-
-#### For Dom4j library:
-
-```
-SAXReader xmlReader = new SAXReader();
-xmlReader.setFeature("http://apache.org/xml/features/xinclude", false);
-```
-
+To understand more scenarios on XXE, you may refer to the following [OWASP XXE Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html).
 
 ## Best Practices
 
 - Disable External Entity Referencing
     - Restrict the DTD and External Entity parsing from the XML parser.
 
+- Use Less Complex Data Formats
+    - Use data formats such as JavaScript Object Notation (JSON) to prevent serialization process that could prevent XXE attack.
+ 
 - Use of Secure Libraries
-    - Implement the latest patches to the XML libraries and always use secure alternatives.
+    - Implement the latest patches to the XML libraries and always use secure alternatives. Make sure to update SOAP to SOAP 1.2 or higher. 
+
+- Implement Whitelisting 
+    - Make sure to sanitize and filter sensitive data within the XML body to ensure a maliciously crafted payload is not accepted.
+
+- Use XSD Validator
+    - To validate XML and XSL file upload functionality, use the XSD validator. 
 
 - Disallow unnecessary protocols
     - Restrict the use of unnecessary protocols such as file://, gopher://, or schema://. An attacker may use them to bypass the restrictions you’ve set.
 
-- Restrict verbose responses from the server
-    - Always use non-verbose, generic error messages. A threat actor may use verbose messages to perform blind attacks.
+- As an additional preventional method, you may also implement SAST tools to scan the source code for XXE vulnerability patterns and harden the code.
 
-- Never trust user-supplied input
-    - Properly validate and sanitize user-supplied input before passing it to sensitive methods such as URL parsers. When writing code, consider user-supplied input as unsafe.
-- Deploy a restrictive firewall
-    - Use a web application firewall (WAF) with strict blocking rules to detect, block, and log any malicious payload or unintended input.
+
 
 ## References
 
@@ -168,3 +289,4 @@ xmlReader.setFeature("http://apache.org/xml/features/xinclude", false);
 - https://owasp.org/www-community/vulnerabilities/XML_External_Entity_(XXE)_Processing
 - https://brightsec.com/blog/xxe-attack
 - https://www.cobalt.io/blog/how-to-execute-an-xml-external-entity-injection-xxe
+- https://learn.snyk.io/lessons/xxe/javascript/
