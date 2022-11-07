@@ -52,7 +52,7 @@ Follow these steps:
 1. You can now sign in without a second authentication factor.
    - If your organization enforces 2FA, enable it upon signing in.
 
-Once you've set up a new authenticator, you can turn on 2FA again.
+Once you've set up a new authenticator, you can turn on 2FA again.<!--Add link to instruction-->
 
 #### Turn Off 2FA for a User
 
@@ -110,5 +110,5 @@ If you believe your account was compromized, reach out to {{% csm-support %}}. W
 
 If you have access to your Cobalt account, do the following:
 
-1. Reset your password.
-1. Reset two-factor authentication.
+1. Reset your password.<!--Add link to instruction-->
+1. Reset two-factor authentication.<!--Add link to instruction-->
