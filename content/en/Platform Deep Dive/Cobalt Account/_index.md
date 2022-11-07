@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Once you've selected **Get Started** in the email invitation and created a password, your Cobalt account is fully set up.
+Once you've confirmed your email address and created a password, your Cobalt account is fully set up.
 {{% /pageinfo %}}
 
 Tune your account settings, and learn how to [recover your account](/platform-deep-dive/cobalt-account/account-recovery/) if you can't sign in.
