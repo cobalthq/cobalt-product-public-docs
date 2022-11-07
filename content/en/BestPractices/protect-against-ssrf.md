@@ -10,7 +10,7 @@ description: >
 See examples of Server-Side Request Forgery (SSRF) exploitation, and learn how to minimize your risks.
 {{% /pageinfo %}}
 
-SSRF is ranked 10<sup>th</sup> in the [OWASP Top 10 Web Application Security Risks (2021)](https://owasp.org/www-project-top-ten/) based on its impact and likelihood.
+SSRF is ranked tenth in the [OWASP Top 10 Web Application Security Risks (2021)](https://owasp.org/www-project-top-ten/) based on its impact and likelihood.
 
 ## Description
 
