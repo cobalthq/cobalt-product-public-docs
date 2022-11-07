@@ -3,7 +3,7 @@ title: Prevent Insecure Design in SQL
 linkTitle: Prevent Insecure Design in SQL
 weight: 640
 description: >
-  We'll address some typical design flaws when you set up SQL
+  We'll address some typical design flaws when you set up SQL.
 ---
 
 {{% pageinfo %}}
