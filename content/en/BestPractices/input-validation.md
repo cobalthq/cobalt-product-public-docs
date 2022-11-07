@@ -3,7 +3,7 @@ title: Validate User Input
 linkTitle: Validate User Input
 weight: 610
 description: >
-  Here's an attack scenario that could cost you money
+  Here's an attack scenario that could cost you money.
 ---
 
 {{% pageinfo %}}
