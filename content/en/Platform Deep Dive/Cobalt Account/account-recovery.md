@@ -20,7 +20,7 @@ Follow these instructions if you can't sign in to Cobalt because:
 - You [forgot your password](#forgot-your-password).
 - You [can’t sign in using SSO](#cant-sign-in-using-sso).
 - You are [locked out of your account](#locked-out-of-your-account).
-- You believe [your account was compromized](#account-was-compromized).
+- You believe [your account was compromised](#account-was-compromised).
 
 {{%expand "Here are some general tips that may help." %}}
 
