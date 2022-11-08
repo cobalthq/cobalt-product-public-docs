@@ -91,7 +91,7 @@ To reset your password:
 1. Enter your email address that you used to [sign in to Cobalt](/getting-started/sign-in/), and select **Reset Password**.
 1. Follow the instructions in the email you receive.
 
-## Can't Sign In Using SSO
+## Can't Sign In Using SAML SSO
 
 If you have problems signing in through [SAML SSO](/getting-started/sign-in/#saml-sso), contact your administrator for help. Ensure that:
 
