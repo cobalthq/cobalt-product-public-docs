@@ -18,7 +18,7 @@ Follow these instructions if you can't sign in to Cobalt because:
   - [One-time codes](#one-time-codes-dont-work) don't work.
   - ["Remember this device" option](#remember-this-device-doesnt-work)  doesn't work.
 - You [forgot your password](#forgot-your-password).
-- You [can’t sign in using SSO](#cant-sign-in-using-saml-sso).
+- You [can’t sign in using SAML SSO](#cant-sign-in-using-saml-sso).
 - You are [locked out of your account](#locked-out-of-your-account).
 - You believe [your account was compromised](#account-was-compromised).
 
@@ -93,10 +93,10 @@ To reset your password:
 
 ## Can't Sign In Using SAML SSO
 
-If you have problems signing in through [SAML SSO](/getting-started/sign-in/#saml-sso), contact your administrator for help. Ensure that:
+If your organization has enabled [SAML SSO](/getting-started/sign-in/#saml-sso), sign in from the identity provider (IdP) system, such as Okta or OneLogin. You can't sign in from the Cobalt {{% sign-in %}} page.
 
-- You're signing in from the identity provider system, such as Okta or OneLogin, and not the Cobalt {{% sign-in %}} page.
-- You've completed the account setup process in the Cobalt app, which includes confirming your email address and password.
+- If you don't see the Cobalt app within your identity provider, contact your IdP admin. They'll add Cobalt to your IdP account. 
+- Ensure that you're a provisioned user both in the identity provider system and Cobalt. Complete the account setup process for Cobalt, which includes confirming your email address and password. The email address for your IdP and Cobalt must match.
 
 ## Locked Out of Your Account
 
