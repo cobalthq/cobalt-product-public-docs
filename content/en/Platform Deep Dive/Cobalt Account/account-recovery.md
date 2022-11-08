@@ -104,9 +104,9 @@ If you make several unsuccessful attempts to sign in, we'll temporarily lock you
 
 Try to sign in again after 15 minutes. If you still can't sign in, contact us at support@cobalt.io.
 
-## Account Was Compromized
+## Account Was Compromised
 
-If you believe your account was compromized, reach out to {{% csm-support %}}. We'll open an investigation.
+If you believe your account was compromised, reach out to {{% csm-support %}}. We'll open an investigation.
 
 If you have access to your Cobalt account, do the following:
 
