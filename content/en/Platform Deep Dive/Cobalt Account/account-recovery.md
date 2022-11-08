@@ -100,9 +100,14 @@ If you have problems signing in through [SAML SSO](/getting-started/sign-in/#sam
 
 ## Locked Out of Your Account
 
-If you make several unsuccessful attempts to sign in, we'll temporarily lock your account. You can see what went wrong in the error message that appears.
+We'll temporarily lock your account in the following cases:
 
-Try to sign in again after 15 minutes. If you still can't sign in, contact us at support@cobalt.io.
+- If you enter an incorrect password 10 times.
+- If you enter an invalid identity verification code 3 times when [recovering access without an authenticator app](#lost-access-to-your-authenticator).
+
+To unlock your account, follow the instructions in the email that you receive.
+
+Alternatively, try to sign in again after 5 minutes. If you still can't sign in, contact us at support@cobalt.io.
 
 ## Account Was Compromised
 
