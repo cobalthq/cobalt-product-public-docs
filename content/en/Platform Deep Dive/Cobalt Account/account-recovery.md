@@ -45,7 +45,7 @@ Follow these steps:
    - With your username and password
    - By selecting **Sign in with Google**
 1. On the page prompting you to enter a one-time code, select **Start account recovery process**.
-1. Once you get an email with a one-time verification code, enter the code, and select **Verify**.
+1. Once you get an email with a one-time identity verification code, enter the code, and select **Verify**.
 1. Your _Organization Owner_ gets notified and turns off 2FA for your account.
    - If you are the only _Organization Owner_, we'll turn off 2FA for you.
 1. You get an email notification confirming that your 2FA settings were updated.
