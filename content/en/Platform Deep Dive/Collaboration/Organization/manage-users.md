@@ -12,10 +12,12 @@ Depending on your role, you can manage users for your [organization](#manage-use
 
 ## Manage Users for Your Organization
 
-As an [_Organization Owner_](/getting-started/glossary/#organization-owner), you can manage users for your organization on the **People** page:
+As an [_Organization Owner_](/getting-started/glossary/#organization-owner), you can manage users for your organization on the **People** page > **Organization**:
 
 - [Invite](#invite-users) and [remove](#remove-users) users
 - [Change their roles](#change-a-users-role)
+
+![Organization tab on the People page](/deepdive/PeopleOrganization.png "View and manage users for your organization on the People page")
 
 ### Invite Users
 
@@ -85,7 +87,7 @@ As an _Organization Owner_, you can remove a _Pentest Team Member_—who doesn't
 
 1. In the Cobalt app, select your organization in the upper-left corner of the screen.
 1. Navigate to the **People** page > **Pentest Collaborators**.
-1. For the _Team Member_ you want to remove, select the three-dot icon on the right, select **Remove User**, and select **Yes** in the overlay to confirm.
+1. For the _Team Member_ you want to remove, select the three-dot icon > **Remove User**, and select **Yes** in the overlay to confirm.
 
 ![Remove a Pentest Team Member from all pentests](/deepdive/RemoveCollaboratorFromAllPentests.png "Add a Pentest Team Member from all pentests")
 
