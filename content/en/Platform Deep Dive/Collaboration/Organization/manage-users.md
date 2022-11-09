@@ -77,7 +77,9 @@ The user gets an invitation to collaborate on the pentest.
 
 To remove a _Pentest Team Member_ from a pentest:
 
-1. In the Cobalt app, select **Pentests**, and locate the desired pentest.
+1. Navigate to the desired pentest in one of the following ways:
+   - Select **Pentests**, and locate the pentest.
+   - On the **People** page, locate the desired user, select **# Pentests**, and select the pentest from which you want to remove the user.
 1. On the pentest page, select **Settings** > **Collaborators**.
 1. Locate the user you want to remove, select **Remove User** ![Trash bin icon](/icons/Trash.png "Trash bin icon"), and select **Yes** in the overlay to confirm.
 
