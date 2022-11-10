@@ -101,8 +101,6 @@ app.post("/profile/add", (req, res) => {
   favorite = libxml.parseXml(req.body); //noent is not set to true
   addToFavorites(favorite)
 });
-
-```
 ### XXE on Zend Framework via PHP FPM
 
 This code example is based on  CVE-2015-5161, which exploits a vulnerability in the Zend Framework leading to XXE attack. The following code is an illustration of a PHP application using Zend Framework to implement XML-RPC call:
