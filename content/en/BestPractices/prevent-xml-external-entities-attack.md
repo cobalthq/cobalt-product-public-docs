@@ -14,25 +14,27 @@ Learn how to protect your application from malicious Extensible Markup Language 
 
 ## Description
 
-XML External Entities (XXE) is a server-side vulnerability that allows attackers to utilize the misconfigured XML parser to reference an external entity. This could lead to sensitive data exposure, server-side request forgery, remote code execution and denial of service attack scenarios. 
+An XML External Entities (XXE) attack is a server-side vulnerability that allows an attacker to exploit a misconfigured XML parser to reference an external entity. This may lead to sensitive data exposure, Server-Side Request Forgery (SSRF), Remote Code Execution (RCE), or Denial of Service (DoS) attacks.
 
-The XML documents may contain a definition for XML entities, often known as Document Type Definition (DTD). Depending upon their use in the application, the DTDs could be either internal or external. 
+XML documents may contain a definition for XML entities, often known as Document Type Definition (DTD). Depending on their use in the application, DTDs can be either internal or external.
 
-In an XXE attack scenario, an attacker attempts to submit an XML file that calls an external entity, for example, with a `file://` URI. This `file://` URI could be used by an attacker to make vulnerable application process the external DTD and read the contents of the internal system file. For example, a URI such as `file:///c:/winnt/win.ini` will allow an attacker to read the file `C:\Winnt\win.ini` content, whereas the URI `file:///etc/passwd` will allow an attacker to read the contents of `/etc/passwd` file. 
+In an XXE attack scenario, a threat actor attempts to submit an XML file that calls an external entity, for example, with a `file://` URI. An attacker may use this URI to make the application process an external DTD and read the contents of an internal system file. Here are some examples:
 
-Similarly, an attacker may use other URI schemes such as `HTTP://`, `HTTPS://`, `FTP://`, and `GOPHER://`, to mention a few, to exploit the vulnerable application using XXE attack. 
+- `file:///c:/winnt/win.ini` may read the contents of `C:\Winnt\win.ini`.
+- `file:///etc/passwd` may access the contents of `/etc/passwd`.
 
+Similarly, an attacker can use other URI schemes such as `HTTP://`, `HTTPS://`, `FTP://`, or `GOPHER://` to exploit a vulnerable application using an XXE attack.
 
-XXE has a wide range of impacts. For example, it may allow a threat actor to load external entities and attempt to perform remote code execution or extract sensitive information such as local files. 
+XXE has a wide range of impacts. For example, it may allow a threat actor to load external entities and attempt to perform remote code execution or extract sensitive information such as local files.
 
 A malicious actor may achieve the following through a successful XXE exploitation:
 
-- Read Internal Local Files 
-- Sensitive Data Exposure 
-- Server-Side Request Forgery 
-- Denial of Service 
-- Remote Code Execution 
-
+- Read internal local files
+- Get access to sensitive data
+- Perform attacks:
+  - Server-Side Request Forgery (SSRF)
+  - Denial of Service (DoS)
+  - Remote Code Execution (RCE)
 
 ## Attack Scenarios
 
