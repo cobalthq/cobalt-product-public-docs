@@ -180,9 +180,9 @@ public class ReadXmlSaxParserXXE {
 
 }
 
-An attacker can craft a payload like the one below to execute XXE in the above vulnerable code, which will return the contents of the `/etc/passwd` file. 
+An attacker can craft the following payload to execute XXE in the vulnerable code shown above. This allows getting the contents of the `/etc/passwd` file.
 
-```
+```xml
  <?xml version="1.0" encoding="UTF-8"?>
   <!DOCTYPE foo [ <!ENTITY xxe SYSTEM "file:///etc/passwd"> ]>
   <company>
