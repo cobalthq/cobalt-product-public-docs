@@ -260,27 +260,19 @@ To understand more scenarios on XXE, you may refer to the following [OWASP XXE C
 
 ## Best Practices
 
-- Disable External Entity Referencing
-    - Restrict the DTD and External Entity parsing from the XML parser.
-
-- Use Less Complex Data Formats
-    - Use data formats such as JavaScript Object Notation (JSON) to prevent serialization process that could prevent XXE attack.
- 
-- Use of Secure Libraries
-    - Implement the latest patches to the XML libraries and always use secure alternatives. Make sure to update SOAP to SOAP 1.2 or higher. 
-
-- Implement Whitelisting 
-    - Make sure to sanitize and filter sensitive data within the XML body to ensure a maliciously crafted payload is not accepted.
-
-- Use XSD Validator
-    - To validate XML and XSL file upload functionality, use the XSD validator. 
-
-- Disallow unnecessary protocols
-    - Restrict the use of unnecessary protocols such as file://, gopher://, or schema://. An attacker may use them to bypass the restrictions you’ve set.
-
-- As an additional preventional method, you may also implement SAST tools to scan the source code for XXE vulnerability patterns and harden the code.
-
-
+- Disable external entity referencing.
+  - Restrict DTD and external entity parsing from the XML parser.
+- Use less complex data formats.
+  - Use data formats such as JavaScript Object Notation (JSON) to prevent the serialization process that could prevent XXE attacks.
+- Use secure libraries.
+  - Implement the latest patches in your XML libraries, and always use secure alternatives. Make sure to update the Simple Object Access Protocol (SOAP) to version 1.2 or later.
+- Implement whitelisting.
+  - Sanitize and filter sensitive data within XML bodies to ensure that your application doesn't accept malicious payloads.
+- Use an XML Schema Definition (XSD) validator.
+  - To validate the upload of XML and XSL files, use an XSD validator.
+- Disallow unnecessary protocols.
+  - Restrict the use of unnecessary protocols such as `file://`, `gopher://`, or `schema://`. An attacker may use them to bypass the restrictions you've set.
+- As an additional preventative measure, implement [Source Code Analysis Tools (SAST)](https://owasp.org/www-community/Source_Code_Analysis_Tools) to scan the source code for XXE vulnerability patterns and harden the code.
 
 ## References
 
