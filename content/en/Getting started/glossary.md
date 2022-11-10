@@ -78,11 +78,15 @@ an individual, a group, or even a nation-state. Specified as "attacker" in Cobal
 
 ## Attestation Letter
 
-{{% attestation-letter %}}
+{{% attestation-letter %}} You cannot customize an Attestation Letter. {{% learn-more-reports %}}
+
+## Attestation Report
+
+{{% attestation-report %}} {{% learn-more-reports %}}
 
 ## Automated Report
 
-An Automated Report is a system-generated report for an [Agile Pentest](#agile-pentest) intended for internal use. You cannot customize an Automated Report. Learn more about [pentest reports](/platform-deep-dive/pentests/reports/).
+{{% automated-report %}} You cannot customize an Automated Report. {{% learn-more-reports %}}
 
 ## Black Box Testing
 
@@ -220,6 +224,10 @@ You may want a Comprehensive Pentest for:
 - M&amp;A due diligence, to identify and eliminate possible risks for all parties involved
 - A specific customer of third-party attestation request
 
+## Customer Letter
+
+{{% customer-letter %}} {{% learn-more-reports %}}
+
 ## Dynamic Web Page
 
 Many applications have web pages with dynamic content, which can be built on the server or the client. Contrast with [Static Web Pages](#static-web-page).
@@ -239,6 +247,14 @@ When you select [Full Report + Finding Details](/platform-deep-dive/pentests/rep
 we add a detailed list of findings to your report, which includes:
 
 {{% finding-details %}}
+
+## Full Report
+
+{{% full-report %}} {{% learn-more-reports %}}
+
+## Full Report + Finding Details
+
+{{% full-report-findings %}} {{% learn-more-reports %}}
 
 ## GraphQL API
 

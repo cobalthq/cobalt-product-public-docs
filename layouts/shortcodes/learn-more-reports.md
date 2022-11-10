@@ -1,0 +1,1 @@
+Learn more about [pentest reports](/platform-deep-dive/pentests/reports/).

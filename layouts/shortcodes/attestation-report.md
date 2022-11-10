@@ -1,0 +1,1 @@
+A report similar to [Customer Letter](/getting-started/glossary/#customer-letter), with additional information about pentesters. May be used as a certificate of completion. Great for external stakeholders.

@@ -1,0 +1,1 @@
+A system-generated report for an [Agile Pentest](/getting-started/glossary/#agile-pentest) intended for internal use.
