@@ -107,7 +107,7 @@ If you'd like to upload files in a different format, you can try to:
 - Compress or archive the files into one of the noted formats.
   - For example, you can use a "Zip" tool built for your operating system to
     save your file with a **.zip** file extension.
-- {{% contact-csm-support %}} for guidance.
+- Contact {{% csm-support %}} for guidance.
 
 For complex assets, we encourage spreadsheets. The UI includes links to the following
 templates:
