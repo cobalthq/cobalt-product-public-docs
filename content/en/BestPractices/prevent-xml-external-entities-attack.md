@@ -74,14 +74,18 @@ A malicious actor can use the `expect://` function of PHP to perform a Remote Co
 </creds>
 ```
 
-The command `expect://id` will return the output of the `id` command of UNIX, which typically produces output such as `uid=0(root) gid=0(root) groups=0(root)`. To remediate such scenarios, you need to disable the unnecessary protocols and functions such as `expect://` in the above example and disable external DTD parsing.
+The command `expect://id` returns the output of the `id` command of UNIX, which typically produces an output such as `uid=0(root) gid=0(root) groups=0(root)`.
 
+To prevent such scenarios:
 
-### XXE in JavaScript 
+- Disable unnecessary protocols and functions such as `expect://` in the example.
+- Disable external DTD parsing.
 
-JavaScript framework such as `Node.Js` does not provide native XML parsing capabilities. To allow XML parsing, the `libxml` library can be used as shown in the code below: 
+### JavaScript
 
-```
+JavaScript frameworks such as [Node.js](https://nodejs.org/en/) don't provide native XML parsing capabilities. To allow XML parsing, you can use the `libxml` library, as shown in the following code example:
+
+```js
 const app = require("express")(),
 const libxml = require("libxmljs");
 app.post("/profile/add", (req, res) => {
