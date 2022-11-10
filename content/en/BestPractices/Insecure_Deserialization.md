@@ -33,7 +33,7 @@ Output:
 b'\x80\x04\x950\x00\x00\x00\x00\x00\x00\x00}\x94(\x8c\x04Name\x94\x8c\x08John Doe\x94\x8c\x03Age\x94K\x19\x8c\x05Score\x94G@T\x1333333u.'
 ```
 
-### What is Deserialization?
+## What is Deserialization?
 
 Deserialization is the opposite of Serialization. It is the process of converting a byte stream into a program object. One common example is the `pickle.loads() function in Python3.
 
@@ -51,10 +51,7 @@ Output:
 {'Name': 'John Doe', 'Age': 25, 'Score': 80.3}
 ```
 
-  
-  
 ![Deserialization diagram from portswigger.net](https://portswigger.net/web-security/images/deserialization-diagram.jpg)
-
 
 ## How can Deserialization be Insecure?
 
@@ -91,22 +88,18 @@ You should not deserialize user-controlled data because it can lead to the vulne
 You may see deserialization in Machine Learning. Review the following examples of related vulnerabilities:
 
 - [Arbitrary code execution via Insecure YAML deserialization in Nvidia runx](https://huntr.dev/bounties/1-pypi-runx/)
-
 - [Remote Code Execution via Insecure Deserialization in Telerik UI (CVE-2019-18935)](https://hackerone.com/reports/1174185)
 
 We share other vulnerabilities for web applications:
 
 - [Bitbucket Data Center - Java Deserialization Vulnerability In Hazelcast - CVE-2022-26133](https://jira.atlassian.com/browse/BSERV-13173)
-
 - [Confluence Data Center - Java Deserialization Vulnerability In Hazelcast - CVE-2016-10750](https://jira.atlassian.com/browse/BSERV-13173)
 
 We present more scenarios related to insecure deserialization in web applications:
 
-- Direct deserialization of user-controlled data. Example: CVE-2019-10068
-
-- Native vulnerabilities in libraries. Example: CVE-2020-1747
-
-- Improper deserialization of language agnostic methods like XML and JSON data. Example: CVE-2017-9805
+- Direct deserialization of user-controlled data. Example: [CVE-2019-10068](https://nvd.nist.gov/vuln/detail/cve-2019-10068)
+- Native vulnerabilities in libraries. Example: [CVE-2020-1747](https://nvd.nist.gov/vuln/detail/cve-2020-1747)
+- Improper deserialization of language agnostic methods like XML and JSON data. Example: [CVE-2017-9805](https://nvd.nist.gov/vuln/detail/cve-2017-9805)
 
 In some cases, you can serialize data ito implement authorization and authentication. Consider the following code snippet from [MITRE](https://cwe.mitre.org/data/definitions/502.html):
 
