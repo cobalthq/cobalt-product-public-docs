@@ -212,16 +212,15 @@ To prevent this, use `setFeature` to disable the DOCTYPE declaration, as shown i
   }
 ```
 
-You may refer to different Sonar Source Rules to understand the XXE remediation for famous XML parsers using rules such as https://rules.sonarsource.com/java/RSPEC-2755.
+To learn more about remediating XXE attacks for popular XML parsers, refer to resources such as [Sonar Source Rules](https://rules.sonarsource.com/java/RSPEC-2755).
 
+### Denial of Service: XML Billion Laughs Attack
 
-#### Denial of Service - XML Billion Laugh Attack 
+XML parsers are prone to Denial of Service attacks when a malicious XML document containing a large entity is repeated, causing an infinite processing loop. If there are no restrictions such as a limited number of entities, an XML processor can consume a large amount of memory and time during parsing. This may result in a DoS attack.
 
-XML parsers are prone to denial of service attacks when a malicious XML document containing the same large entity is repeated repeatedly, causing an infinite processing loop. In addition, due to the lack of restrictions in place, such as a limit on the number of entity expansions, the XML processor can consume a heavy amount of memory and time during the parsing resulting in a Denial of Service attack. 
+In the following example, when the `XMLConstants.FEATURE_SECURE_PROCESSING` feature is set to `false`, an attacker may perform an XML [billion laughs attack](https://en.wikipedia.org/wiki/Billion_laughs_attack):
 
-For example, in the below code example, when the `XMLConstants.FEATURE_SECURE_PROCESSING` feature is set to `false`, it could allow an attacker to perform an XML Billion Laugh Attack: 
-
-```
+```xml
 SAXReader xmlReader = new SAXReader();
 xmlReader.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, false);
 ```
