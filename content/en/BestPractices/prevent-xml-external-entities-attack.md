@@ -224,9 +224,10 @@ In the following example, when the `XMLConstants.FEATURE_SECURE_PROCESSING` feat
 SAXReader xmlReader = new SAXReader();
 xmlReader.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, false);
 ```
-An attacker can craft a billion laugh attack payload like the following to cause a denial of service in the application system: 
 
-```
+An attacker can craft a billion laughs attack payload like the following to cause a denial of service in the application system:
+
+```xml
 <?xml version=”1.0" encoding=”UTF-8"?>
     
     <!DOCTYPE example [
