@@ -259,9 +259,9 @@ An attacker can craft a billion laugh attack payload like the following to cause
     <example>&lol9;</example>
 ```
 
-However, to remediate this situation, further validation can be added via setting `XMLConstants.FEATURE_SECURE_PROCESSING` as `true` like in the code below:
+To prevent this situation, add further validation by setting `XMLConstants.FEATURE_SECURE_PROCESSING` to `true`, as shown in the following example:
 
-```
+```xml
 SAXReader xmlReader = new SAXReader();
 xmlReader.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
 ```
