@@ -38,14 +38,13 @@ A malicious actor may achieve the following through a successful XXE exploitatio
 
 ## Attack Scenarios
 
-Let’s see some vulnerable code examples to understand the XXE attacks further.
+Let's see some vulnerable code examples to understand how XXE attacks work.
 
+### PHP Framework
 
-### XXE in PHP Framework
+The following code example uses a PHP endpoint to parse the XML input and the `php-xml` module to perform XML parsing. However, due to the support of external DTD parsing, an attacker can launch an XXE attack.
 
-The below code example uses a PHP endpoint to parse the XML input and utilizes the `php-xml` module to perform the XML parsing. However, due to the support of external DTD parsing, an attacker could launch an XXE attack.
-
-```
+```php
 <?php
 
 require_once('../_helpers/strip.php');
