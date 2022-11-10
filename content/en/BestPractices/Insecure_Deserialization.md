@@ -1,15 +1,10 @@
 ---
 
 Title: "Insecure Deserialization"
-
 linkTitle: "Insecure Deserialization"
-
 weight: 660
-
 description: >
-
-Insecure Deserialization is one of the OWASP Top 10 web vulnerabilities for 2017. OWASP has included this issue in the [OWASP Top 10:2021](https://owasp.org/Top10/) vulnerabilities as [Software and Data Integrity Failures](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/).
-
+  Insecure Deserialization is one of the OWASP Top 10 web vulnerabilities for 2017. OWASP has included this issue in the [OWASP Top 10:2021](https://owasp.org/Top10/) vulnerabilities as [Software and Data Integrity Failures](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/).
 ---
 
 {{% pageinfo %}}
