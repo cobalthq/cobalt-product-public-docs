@@ -91,11 +91,11 @@ app.post("/profile/add", (req, res) => {
 });
 ```
 
-In the above code, the `noent` property is set as `true`, allowing for external entity parsing leading to an XXE attack. An attacker may craft a malicious payload to make the server parse the external DTD and launch a successful XXE attack. 
+In this code example, the `noent` property is set to `true`. This enables parsing external entities and may lead to an XXE attack. A threat actor may craft a malicious payload to make the server parse an external DTD, which may result in a successful XXE attack.
 
-From the developer's perspective, avoid setting the `noent` property to `true`, which is disabled by default in the `libxmljs`. For example, the below code is an example of a secure code that does not allow external DTD parsing. 
+As a developer, avoid setting the `noent` property to `true`, which is by default disabled in `libxmljs`. This example code is a secure alternative that does not allow external DTD parsing:
 
-```
+```js
 const app = require("express")(),
 const libxml = require("libxmljs");
 app.post("/profile/add", (req, res) => {
