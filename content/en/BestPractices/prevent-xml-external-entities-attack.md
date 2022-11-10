@@ -128,10 +128,9 @@ This code example is based on the Zend Framework vulnerability [CVE-2015-5161](h
 ?>
 ```
 
-To exploit XXE, an attacker can forge a payload like the following, which will result in an error due to the heuristicScan ENTITY detection and allow an attacker to read the content of the `/etc/passwd` file.
+To exploit XXE, an attacker can forge a payload like the following. This results in an error due to the `ENTITY` detection, allowing an attacker to read the contents of the `/etc/passwd` file.
 
-
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE methodCall [
   <!ENTITY pocdata SYSTEM "file:///etc/passwd">
