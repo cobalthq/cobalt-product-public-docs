@@ -180,8 +180,6 @@ public class ReadXmlSaxParserXXE {
 
 }
 
-```
-
 An attacker can craft a payload like the one below to execute XXE in the above vulnerable code, which will return the contents of the `/etc/passwd` file. 
 
 ```
