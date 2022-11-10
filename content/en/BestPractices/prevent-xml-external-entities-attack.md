@@ -266,7 +266,7 @@ SAXReader xmlReader = new SAXReader();
 xmlReader.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
 ```
 
-To understand more scenarios on XXE, you may refer to the following [OWASP XXE Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html).
+To explore more XXE attack scenarios, refer to the OWASP [XML External Entity Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.html).
 
 ## Best Practices
 
