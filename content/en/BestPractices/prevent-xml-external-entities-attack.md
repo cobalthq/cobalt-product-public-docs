@@ -190,9 +190,9 @@ An attacker can craft a payload like the one below to execute XXE in the above v
   </company>
 ```
 
-However, this could be prevented by using `setFeature` to disable the DOCTYPE declaration and remediate the XXE attack, as shown in the below code example: 
+To prevent this, use `setFeature` to disable the DOCTYPE declaration, as shown in the following example:
 
-```
+```java
   SAXParserFactory factory = SAXParserFactory.newInstance();
 
   try {
