@@ -62,9 +62,9 @@ echo $parsedDocument->content;
 
 ```
 
-An attacker can use the `expect://` function of the PHP to perform a remote code execution using XXE, and the payload will look like this: 
+A malicious actor can use the `expect://` function of PHP to perform a Remote Code Execution attack using XXE. Here is an example payload:
 
-```
+```xml
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <!DOCTYPE foo [ <!ELEMENT foo ANY >
 <!ENTITY xxe SYSTEM "expect://id" >]>
