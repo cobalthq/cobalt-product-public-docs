@@ -140,13 +140,11 @@ To exploit XXE, an attacker can forge a payload like the following. This results
 </methodCall>
 ```
 
+### Java Framework
 
-### XXE in Java Framework:
+Java supports different XML parsers such as DOM Parser, SAX Parser, StAX Parser, JAXB, and more. When the application uses a SAX Parser for XML parsing, an XXE attack may occur—if `disallow-doctype-decl` is not set to `true`. See the following code example:
 
-Java Supports different XML parsers such as DOM Parser, SAX Parser, StAX Parser and JAXB, to name a few. When the application is using SAX Parser for XML parsing, it could lead to an XXE attack if `disallow-doctype-decl` is not set to `true` as shown in the code example below:
-
-```
-
+```java
 package com.mkyong.xml.sax;
 
 import com.mkyong.xml.sax.handler.PrintAllHandlerSax;
