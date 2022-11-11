@@ -204,16 +204,10 @@ curl -X PUT 'https://api.cobalt.io/assets/{{% asset-id %}}' \
   --data '{
             "title": "Updated title",
             "description": "Updated description",
-            "asset_type": "web",
-            "size": "m",
-            "coverage": "standard"
+            "asset_type": "web"
           }' \
   -v
 ```
-<!-- Remove asset size and coverage when Comprehensive Pentests are launched (Sept 7). -->
-
-You can find optional values for `size` and `coverage` in our API reference on
-how to [Update an Asset](https://docs.cobalt.io/v2/#update-an-asset).
 
 When you review the output of the REST call with the `-v`, look for the line
 with `HTTP/2`. If the command is successful, you'll see:
@@ -248,5 +242,3 @@ curl -X POST 'https://api.cobalt.io/assets/{{% asset-id %}}/attachments' \
 
 As with [Add or Modify Asset Details](#add-or-modify-asset-details), you'll see
 no output when you run a properly formatted version of this command. -->
-
-
