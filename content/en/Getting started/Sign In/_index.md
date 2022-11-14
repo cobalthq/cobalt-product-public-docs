@@ -42,7 +42,7 @@ Now you can:
    - From the {{% sign-in %}} page, with:
       - A username and password. Your username is your email address.
       - A Google account that you used to sign in to Cobalt
-      ![Cobalt Sign In page](/gsg/SignIn.png "Cobalt Sign In page")
+      ![Cobalt Sign In page](/gsg/SignInPage.png "Cobalt Sign In page")
    - Through [SAML SSO](#saml-sso), if configured
 
 ## SAML SSO
