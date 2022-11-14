@@ -44,7 +44,8 @@ Follow these steps:
 1. Sign in to Cobalt from the {{% sign-in %}} page in one of the following ways:
    - With your username and password
    - By selecting **Sign in with Google**
-1. On the page prompting you to enter a one-time code, select **Start account recovery process**.
+1. On the page prompting you to enter a one-time code, select **Start account recovery process**.<br>
+    ![Two-Factor Authentication page](/deepdive/2FARecovery.png "Select 'Start account recovery process' to recover your account")
 1. Once you get an email with a one-time identity verification code, enter the code, and select **Verify**.
 1. Your _Organization Owner_ gets notified and turns off 2FA for your account.
    - If you are the only _Organization Owner_, we'll turn off 2FA for you.
@@ -61,7 +62,8 @@ As an [_Organization Owner_](/getting-started/glossary/#organization-owner), you
 1. Once you get an email notification requesting you to turn off 2FA, select **Recover Account** in the email.
 1. On the **People** page of your dashboard, locate the user who submitted the request.
 1. Select the three-dot icon on the right, and then select **Turn Off 2FA**.
-   - We verified the user's identity with a one-time verification code. However, we recommend that you verify their identity again before turning off 2FA.
+   - We verified the user's identity with a one-time verification code. However, we recommend that you verify their identity again before turning off 2FA.<br>
+       ![Turn off 2FA for a user](/deepdive/TurnOff2FA.png "Turn off 2FA for a user")
 1. Select **Confirm** in the overlay that appears.
 
 ### One-Time Codes Don't Work
