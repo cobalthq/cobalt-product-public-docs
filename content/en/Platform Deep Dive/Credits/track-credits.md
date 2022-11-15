@@ -1,21 +1,25 @@
 ---
 title: "Track Your Credits"
 linkTitle: "Track Your Credits"
-weight: 380
+weight: 10
+aliases: /getting-started/track-credits/
 description: >
   View and track your credits in the dashboard.
 ---
 
 {{% pageinfo %}}
-Navigate to the **Credits** page to analyze how your organization uses Cobalt [credits](https://www.cobalt.io/pentest-pricing#cobaltcredits).
+Navigate to the **Credits** page to analyze how your organization uses Cobalt [credits](/platform-deep-dive/credits/).
 {{% /pageinfo %}}
 
 Here, [Organization Owners](/getting-started/glossary/#organization-owner) and [Members](/getting-started/glossary/#organization-member) can see the following:
 
-- Current credit balance
-- Contract end date showing when your credits expire
-- History of pending and completed credit transactions
-  - You may also see your {{% ptaas-tier %}} shown as "Subscription Plan."
+- Current credit balance.
+  - Credits apply to your current contract and all relevant contracts moving forward.
+- Contract end date showing when your credits expire.
+- History of pending and completed credit transactions.
+  - You may also see your {{% ptaas-tier %}} shown as **Subscription Plan**.
+
+![View credits for your organization](/deepdive/CreditsPage.png "View credits for your organization")
 
 Whenever the credit balance changes, the transaction history updates with the following details:
 
