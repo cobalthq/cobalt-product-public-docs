@@ -47,7 +47,7 @@ When you set up a webhook, you subscribe to the following events related to your
 
 | Pentest | Finding |
 |---|---|
-| <li>Pentest created</li><li>[Pentest state](/penteststates/) changed</li> | <li>Finding created</li><li>Finding state changed</li>
+| <li>Pentest created</li><li>[Pentest state](/penteststates/) changed</li> | <li>Finding created</li><li>Finding deleted</li><li>Finding state changed</li><li>Finding updated</li>
 
 For security reasons, we only post essential details about webhook events, such as their ID and type. To retrieve more information about the event, use the [Cobalt API](https://docs.cobalt.io/v2/).
 
@@ -70,7 +70,7 @@ To create a webhook:
 1. We send a test event to the specified URL to validate your webhook. The webhook becomes active once the validation is complete.
    - If the validation fails, we’ll deactivate your webhook within 24 hours. See [Troubleshoot Webhooks](#troubleshoot-webhooks) for more information.
 
-![Create a webhook in the Cobalt UI](/integrations/CreateWebhook.png "Create a webhook in the Cobalt UI")
+![Create a webhook in the Cobalt UI](/integrations/CreateWebhook1.png "Create a webhook in the Cobalt UI")
 
 ### Manage Webhooks
 
@@ -92,6 +92,6 @@ Find solutions for common troubleshooting problems in the table below:
 
 | Problem | Solution |
 |---|---|
-| You can’t create a webhook because the name or URL already exists | Enter a unique name and URL for your webhook |
-| <li>You can’t create a webhook because the validation fails</li><li>You don’t get webhook notifications to your URL</li><li>You can't activate a webhook that we or you deactivated earlier</li> | We failed to validate your webhook. Check the following:<li>The URL is valid and can accept requests.</li><li>If you're using a webhook secret to validate API requests from Cobalt, make sure that it's valid. Refresh the secret or generate a new one if needed.</li>|
-| You can't delete a webhook | <li>Try again</li><li>{{% contact-csm-support %}} for assistance</li> |
+| You can’t create a webhook because the name or URL already exists. | Enter a unique name and URL for your webhook. |
+| <li>You can’t create a webhook because the validation fails.</li><li>You don’t get webhook notifications to your URL.</li><li>You can't activate a webhook that we or you deactivated earlier.</li> | We failed to validate your webhook. Check the following:<li>The URL is valid and can accept requests.</li><li>If you're using a webhook secret to validate API requests from Cobalt, make sure that it's valid. Refresh the secret or generate a new one if needed.</li>|
+| You can't delete a webhook. | <li>Try again.</li><li>Contact {{% csm-support %}} for assistance.</li> |

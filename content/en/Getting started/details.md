@@ -83,7 +83,7 @@ see our page on [Cloud Methodologies](../pentest-objectives/methodologies/cloud)
 ### Additional Guidelines
 
 You may have already addressed these questions when setting up 
-[Special Instructions](../pentest-objectives/special-instructions) when defining pentest requirements.
+[Special Instructions](/getting-started/pentest-objectives/special-instructions/) when defining pentest requirements.
 
 You're welcome to add more information here.
 
@@ -101,7 +101,7 @@ Our pentesters take extra care to protect that information.
 
 Some apps support the use of credit cards for purchases. If you provide
 test credit card numbers, you can share that information in the 
-[instructions](../pentest-objectives/special-instructions) or in the "Kickoff call."
+[instructions](/getting-started/pentest-objectives/special-instructions/) or in the "Kickoff call."
 
 {{% alert title="Note" color="note" %}}
 All Cobalt pentesters have signed a Non-Disclosure Agreement (NDA).

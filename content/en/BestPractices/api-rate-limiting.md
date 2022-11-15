@@ -3,16 +3,20 @@ Title: "Protect Your APIs With Rate Limiting"
 linkTitle: "API Rate Limiting"
 weight: 640
 description: >
-  Protect your APIs. Use rate limits. According to the [OWASP API Top 10](https://owasp.org/www-project-api-security/), "Lack of Resources and Rate Limiting" is number 4 in the API Security Top 10 for 2019. Attackers are always on the lookout for vulnerable APIs. The impact goes beyond DoS (Denial of Service). For instance, the attacker can misuse a lack of rate limits to make phone calls to [premium phone numbers](https://en.wikipedia.org/wiki/Premium-rate_telephone_number). While doing so, they can easily cause a lot of financial losses to the business.
+  Protect your APIs. Use rate limits.
 ---
 
 {{% pageinfo %}}
   To protect your APIs against abuse, you should implement rate limiting. In this article, we explore why you should prioritize it today rather than in the future.
 {{% /pageinfo %}}
 
+According to the [OWASP API Top 10](https://owasp.org/www-project-api-security/), "Lack of Resources and Rate Limiting" is number 4 in the API Security Top 10 for 2019.
+
 ## Description
+
+Attackers are always on the lookout for vulnerable APIs. The impact goes beyond DoS (Denial of Service). For instance, the attacker can misuse a lack of rate limits to make phone calls to [premium phone numbers](https://en.wikipedia.org/wiki/Premium-rate_telephone_number). While doing so, they can easily cause a lot of financial losses to the business.
   
-Let’s dig deeper into some abuse scenarios to understand this:
+Let’s dig deeper into some abuse scenarios to understand this.
 
 ## Case Study: Abuse Of Phone Calling API For Toll Fraud
   
@@ -113,7 +117,7 @@ Use API rate limiting to protect against these kinds of attacks.
  
 ## Considerations
   
-Before you implement rate limiting for your APIs, consider these factors:
+Before you implement rate limiting for your APIs, consider these factors.
   
 ### Will It Impact User Experience?
   
@@ -132,5 +136,6 @@ In response, you could review threat intelligence feeds to block bad reputation 
 Furthermore, depending on your use case you might need more advanced anti-fraud measures and geo-restrictions.
   
 ### References
+
 - [OWASP API Top 10.](https://owasp.org/www-project-api-security/)
 - [Twilio has written a very comprehensive blog post on toll fraud.](https://www.twilio.com/learn/voice-and-video/toll-fraud)

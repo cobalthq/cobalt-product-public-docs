@@ -42,18 +42,18 @@ Now you can:
    - From the {{% sign-in %}} page, with:
       - A username and password. Your username is your email address.
       - A Google account that you used to sign in to Cobalt
-      ![Cobalt Sign In page](/gsg/SignIn.png "Cobalt Sign In page")
+      ![Cobalt Sign In page](/gsg/SignInPage.png "Cobalt Sign In page")
    - Through [SAML SSO](#saml-sso), if configured
 
 ## SAML SSO
 
-We support single sign-on (SSO) based on [Security Assertion Markup Language](../glossary/#security-assertion-markup-language) 2.0 (SAML 2.0). Once enabled, you can sign in to the Cobalt app through a third-party identity provider selected by your company.
+We support single sign-on (SSO) based on [Security Assertion Markup Language](/getting-started/glossary/#security-assertion-markup-language) 2.0 (SAML 2.0). Once enabled, you can sign in to the Cobalt app through a third-party identity provider selected by your company.
 
 {{% alert title="Note" color="note" %}}
 SAML-based single sign-on (SSO) is available to all <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tiers</a>.
 {{% /alert %}}
 
-Once your [_Organization Owner_](../glossary/#organization-owner) has configured SAML SSO, you need to sign in to the Cobalt app through the identity provider instead of the Cobalt {{% sign-in %}} page. Procedures differ for each identity provider.
+Once your [_Organization Owner_](/getting-started/glossary/#organization-owner) has configured SAML SSO, you need to sign in to the Cobalt app through the identity provider instead of the Cobalt {{% sign-in %}} page. Procedures differ for each identity provider.
 
 Learn more about [configuring SAML SSO](https://cobaltio.zendesk.com/hc/en-us/sections/360012774052--SAML-SSO-).
 

@@ -49,9 +49,9 @@ Our journey takes you through the steps required to create a pentest:
 1. Set [requirements](./pentest-objectives) for your pentest.
    - By default, our pentesters use standards defined by the
      [Open Web Application Security
-     Project (OWASP)](./glossary#open-web-application-security-project-owasp) and in
+     Project (OWASP)](/getting-started/glossary/#open-web-application-security-project-owasp) and in
      the [Open Source Security Testing Methodology
-     Manual](./glossary/#open-source-security-testing-methodology-manual-osstmm).
+     Manual](/getting-started/glossary/#open-source-security-testing-methodology-manual-osstmm).
    - Add and modify the objectives of your choice.
    - To help our penetration testers, include more information about your asset,
      such as architecture and coding language. You'll see more details about
