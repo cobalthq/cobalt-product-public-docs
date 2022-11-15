@@ -13,7 +13,7 @@ Make sure our pentesters have the information they need.
 In previous sections, you've saved what you've entered for the pentest.
 Now you can review your work. Before selecting **Submit For Review**, follow this checklist for Objectives and Details.
 
-![Review your pentest](/gsg/ReviewPentest.png "Review pentest details")
+![Review your pentest](/gsg/SubmitPentestForReview.png "Review pentest details")
 
 For both tabs, you can select **Edit** to make changes.
 
