@@ -244,7 +244,7 @@ if __name__ == '__main__':
 The output, when sent in the POST, executes the noted command on the system.
 
 ```bash
-$ curl -X POST http://127.0.0.1:5000/ -d "{'payload': 'gASVKQAAAAAAAACMBXBvc2l4lIwGc3lzdGVtlJOUjA50b3VjaCAvdG1wL1BvQ5SFlFKULg=='}"
+$ curl -X POST http://127.0.0.1:5000/ -d "{'payload': '<PAYLOAD>'}"
 ```
 
 ## Solution
@@ -282,3 +282,9 @@ private final void readObject(ObjectInputStream in) throws java.io.IOException {
 }
 ```
 - If you're using PHP, you may need to pass serialized data to the user. In that case, don't use the `unserialize()` function. Use a safe standard data interchange format such as `JSON` (via `json_decode()` and `json_encode()`).
+
+## References
+- [Insecure Deserialization by Port Swigger](https://portswigger.net/web-security/deserialization)
+- [OWASP Top Ten A8:2017-Insecure Deserialization](https://owasp.org/www-project-top-ten/2017/A8_2017-Insecure_Deserialization)
+- [Improper handling of serialized data containing user input](https://learn.snyk.io/lessons/insecure-deserialization/java/)
+- [Insecure Deserialization in Java](https://payatu.com/blog/pranay.b/insecure-deserialization-in-java)
