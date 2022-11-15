@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Navigate to the **Credits** tab to analyze how your company uses Cobalt [credits](https://www.cobalt.io/pentest-pricing#cobaltcredits).
+Navigate to the **Credits** page to analyze how your company uses Cobalt [credits](https://www.cobalt.io/pentest-pricing#cobaltcredits).
 {{% /pageinfo %}}
 
 Here, you can see the following:
