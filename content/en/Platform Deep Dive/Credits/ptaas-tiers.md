@@ -3,11 +3,11 @@ title: "Cobalt PtaaS Tiers"
 linkTitle: "PtaaS Tiers"
 weight: 20
 description: >
-  Learn more about our pricing packages, also known as _PtaaS tiers_. See our [offerings](#offering-details).
+  Learn more about our pricing packages, also known as _PtaaS tiers_.
 ---
 
 {{% pageinfo %}}
-We offer three [PtaaS tiers](https://www.cobalt.io/pentest-pricing) to best suit your budget and testing goals.
+We offer three [PtaaS tiers](https://www.cobalt.io/pentest-pricing) to best suit your budget and testing goals. See our [offerings](#offering-details).
 {{% /pageinfo %}}
 
 To get started, check our [pricing model](https://www.cobalt.io/pentest-pricing), and select a plan that matches your testing expectations and business needs.
@@ -15,17 +15,6 @@ To get started, check our [pricing model](https://www.cobalt.io/pentest-pricing)
 | Standard | Premium | Enterprise |
 |---|---|---|
 | For teams in need of a speedy, annual pentest to meet a compliance need or client request | For teams looking to build a structured pentest program to meet compliance needs and improve overall security | For teams looking to scale their pentest programs to meet compliance needs, increase testing frequency, and improve overall security |
-
-## View Your Organization's Tier
-
-As an [Organization Owner](/getting-started/glossary/#organization-owner) or [Member](/getting-started/glossary/#organization-member), you can view your organization's tier on the [**Credits** page](/platform-deep-dive/credits/track-credits/). In the UI, it appears as **Subscription Plan**.
-- For some organizations, we don't show their subscription plan on the **Credits** page.
-
-![View your organization's tier on the Credits page](/deepdive/SubscriptionPlanCreditsPage.png "View your organization's tier on the Credits page")
-
-## Upgrade Your Plan
-
-To upgrade your PtaaS tier, contact your Customer Success Manager or support@cobalt.io.
 
 ## Offering Details
 
@@ -53,3 +42,14 @@ The availability of some features in the Cobalt platform depends on the {{% ptaa
 {{% alert title="Note" color="note" %}}
 Cobalt offers **security services beyond pentesting**. Our goal is to be an ongoing resource for our customers and a true extension of their security team by helping them protect their broader IT ecosystems. For this reason, we offer a variety of <a href="https://demo.cobalt.io/hubfs/Cobalt_Professional%20Services_Brochure.pdf" target="_blank">professional services</a> designed to boost the maturity of your current security program and improve your overall security posture.
 {{% /alert %}}
+
+## View Your Organization's Tier
+
+As an [Organization Owner](/getting-started/glossary/#organization-owner) or [Member](/getting-started/glossary/#organization-member), you can view your organization's tier on the [**Credits** page](/platform-deep-dive/credits/track-credits/). In the UI, it appears as **Subscription Plan**.
+- For some organizations, we don't show their subscription plan on the **Credits** page.
+
+![View your organization's tier on the Credits page](/deepdive/SubscriptionPlanCreditsPage.png "View your organization's tier on the Credits page")
+
+## Upgrade Your Plan
+
+To upgrade your PtaaS tier, contact your Customer Success Manager or support@cobalt.io.
