@@ -3,7 +3,7 @@ title: "Cobalt PtaaS Tiers"
 linkTitle: "PtaaS Tiers"
 weight: 20
 description: >
-  Learn more about our pricing packages, also known as _PtaaS tiers_.
+  Learn more about our pricing packages, also known as _PtaaS tiers_. See our [offerings](#offering-details).
 ---
 
 {{% pageinfo %}}
