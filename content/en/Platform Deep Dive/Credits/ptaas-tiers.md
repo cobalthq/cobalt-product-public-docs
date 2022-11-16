@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-We offer three [PtaaS tiers](https://www.cobalt.io/pentest-pricing) to best suit your budget and testing goals. See our [offerings](#offering-details).
+We offer three [PtaaS tiers](https://www.cobalt.io/pentest-pricing) to best suit your budget and testing goals.
 {{% /pageinfo %}}
 
 To get started, check our [pricing model](https://www.cobalt.io/pentest-pricing), and select a plan that matches your testing expectations and business needs.
