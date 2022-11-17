@@ -39,7 +39,7 @@ The availability of some features in the Cobalt platform depends on the {{% ptaa
 | Dedicated pentester region or time zone | Enterprise | We work with you to understand the region and time zone you need for your pentesters and identify pentesters from our community in those regions or time zones. Dedicated pentester regions or time zones may have an impact on the time it takes to start a pentest. This does not mean that we support data localization, as required by some countries.  |
 | Credit rollover | Enterprise | At the end of your calendar year of purchase, we'll rollover up to 10% of your remaining credits to the next calendar year. Contact your CSM for more details. |
 
-{{% alert title="Note" color="note" %}}
+{{% alert title="Note" color="primary" %}}
 Cobalt offers **security services beyond pentesting**. Our goal is to be an ongoing resource for our customers and a true extension of their security team by helping them protect their broader IT ecosystems. For this reason, we offer a variety of <a href="https://demo.cobalt.io/hubfs/Cobalt_Professional%20Services_Brochure.pdf" target="_blank">professional services</a> designed to boost the maturity of your current security program and improve your overall security posture.
 {{% /alert %}}
 
