@@ -78,15 +78,21 @@ an individual, a group, or even a nation-state. Specified as "attacker" in Cobal
 
 ## Attestation Letter
 
-{{% attestation-letter %}} You cannot customize an Attestation Letter. {{% learn-more-reports %}}
+{{% attestation-letter %}}
+
+You cannot customize an Attestation Letter. {{% learn-more-reports %}}
 
 ## Attestation Report
 
-{{% attestation-report %}} {{% learn-more-reports %}}
+{{% attestation-report %}}
+
+{{% learn-more-reports %}}
 
 ## Automated Report
 
-{{% automated-report %}} You cannot customize an Automated Report. {{% learn-more-reports %}}
+{{% automated-report %}}
+
+You cannot customize an Automated Report. {{% learn-more-reports %}}
 
 ## Black Box Testing
 
@@ -226,7 +232,9 @@ You may want a Comprehensive Pentest for:
 
 ## Customer Letter
 
-{{% customer-letter %}} {{% learn-more-reports %}}
+{{% customer-letter %}}
+
+{{% learn-more-reports %}}
 
 ## Dynamic Web Page
 
@@ -250,7 +258,9 @@ we add a detailed list of findings to your report, which includes:
 
 ## Full Report
 
-{{% full-report %}} {{% learn-more-reports %}}
+{{% full-report %}}
+
+{{% learn-more-reports %}}
 
 ## Full Report + Finding Details
 
