@@ -1,1 +1,1 @@
-A one-page report that you can share with external stakeholders such as prospects or customers. We base the letter on our [Executive Summary](/platform-deep-dive/pentests/reports/report-contents/#executive-summary).
+A one-page report based on our [Executive Summary](/platform-deep-dive/pentests/reports/report-contents/#executive-summary). Suitable for external stakeholders.
