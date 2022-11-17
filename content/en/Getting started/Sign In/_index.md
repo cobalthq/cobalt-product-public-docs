@@ -46,7 +46,7 @@ Now you can:
    - Through [SAML SSO](#saml-sso), if configured
 
 {{% alert title="Note" color="note" %}}
-If you have problems signing in, see [Account Recovery](/platform-deep-dive/cobalt-account/account-recovery/).
+If you have problems signing in, see <a href="/platform-deep-dive/cobalt-account/account-recovery/">Account Recovery</a>.
 {{% /alert %}}
 
 ## SAML SSO
