@@ -103,7 +103,7 @@ Some apps support the use of credit cards for purchases. If you provide
 test credit card numbers, you can share that information in the 
 [instructions](/getting-started/pentest-objectives/special-instructions/) or in the "Kickoff call."
 
-{{% alert title="Note" color="note" %}}
+{{% alert title="Note" color="primary" %}}
 All Cobalt pentesters have signed a Non-Disclosure Agreement (NDA).
 {{% /alert %}}
 
