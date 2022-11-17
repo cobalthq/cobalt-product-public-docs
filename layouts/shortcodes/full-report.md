@@ -1,1 +1,1 @@
-A comprehensive report suitable for internal or external stakeholders.
+A report that contains comprehensive information about the pentest.
