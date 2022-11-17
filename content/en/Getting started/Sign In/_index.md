@@ -45,6 +45,10 @@ Now you can:
       ![Cobalt Sign In page](/gsg/SignInPage.png "Cobalt Sign In page")
    - Through [SAML SSO](#saml-sso), if configured
 
+{{% alert title="Note" color="note" %}}
+If you have problems signing in, see [Account Recovery](/platform-deep-dive/cobalt-account/account-recovery/).
+{{% /alert %}}
+
 ## SAML SSO
 
 We support single sign-on (SSO) based on [Security Assertion Markup Language](/getting-started/glossary/#security-assertion-markup-language) 2.0 (SAML 2.0). SAML-based single sign-on (SSO) is available to all <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tiers</a>.
