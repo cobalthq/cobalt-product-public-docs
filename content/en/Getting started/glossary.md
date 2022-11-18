@@ -80,7 +80,7 @@ an individual, a group, or even a nation-state. Specified as "attacker" in Cobal
 
 {{% attestation-letter %}}
 
-You cannot customize an Attestation Letter. {{% learn-more-reports %}}
+You can't customize an Attestation Letter. {{% learn-more-reports %}}
 
 ## Attestation Report
 
@@ -92,7 +92,7 @@ You cannot customize an Attestation Letter. {{% learn-more-reports %}}
 
 {{% automated-report %}}
 
-You cannot customize an Automated Report. {{% learn-more-reports %}}
+You can't customize an Automated Report. {{% learn-more-reports %}}
 
 ## Black Box Testing
 
