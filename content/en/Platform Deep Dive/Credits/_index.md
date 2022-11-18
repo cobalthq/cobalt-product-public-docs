@@ -3,7 +3,7 @@ title: "Cobalt Credits"
 linkTitle: "Credits"
 weight: 40
 description: >
-  We offer a flexible pricing model.
+  We offer a flexible consumption model.
 ---
 
 {{% pageinfo %}}

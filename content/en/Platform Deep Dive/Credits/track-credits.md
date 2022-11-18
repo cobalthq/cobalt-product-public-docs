@@ -14,7 +14,6 @@ Navigate to the **Credits** page to analyze how your organization uses Cobalt [c
 Here, [Organization Owners](/getting-started/glossary/#organization-owner) and [Members](/getting-started/glossary/#organization-member) can see the following:
 
 - Current credit balance.
-  - Credits apply to your current contract and all relevant contracts moving forward.
 - Contract end date showing when your credits expire.
 - History of pending and completed credit transactions.
   - You may also see your {{% ptaas-tier %}} shown as **Subscription Plan**.

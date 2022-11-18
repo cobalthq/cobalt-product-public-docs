@@ -68,5 +68,5 @@ results. Here's what you can expect:
 
    <!-- Timing confirmed with Grahame -->
 
-Our [Pentest States](/penteststates/) page includes more information about each pentest
+Our [Pentest States](/platform-deep-dive/pentests/pentest-process/pentest-states/) page includes more information about each pentest
 state, including Draft, In Review, Planned, Remediation, and Closed.

@@ -41,27 +41,31 @@ Now you can:
 1. Next time you can sign in to Cobalt in the following ways:
    - From the {{% sign-in %}} page, with:
       - A username and password. Your username is your email address.
-      - A Google account that you used to sign in to Cobalt
+      - A Google account that you used to sign in to Cobalt<br>
       ![Cobalt Sign In page](/gsg/SignInPage.png "Cobalt Sign In page")
    - Through [SAML SSO](#saml-sso), if configured
 
-## SAML SSO
-
-We support single sign-on (SSO) based on [Security Assertion Markup Language](/getting-started/glossary/#security-assertion-markup-language) 2.0 (SAML 2.0). Once enabled, you can sign in to the Cobalt app through a third-party identity provider selected by your company.
-
 {{% alert title="Note" color="note" %}}
-SAML-based single sign-on (SSO) is available to all <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tiers</a>.
+If you have problems signing in, see <a href="/platform-deep-dive/cobalt-account/account-recovery/">Account Recovery</a>.
 {{% /alert %}}
 
-Once your [_Organization Owner_](/getting-started/glossary/#organization-owner) has configured SAML SSO, you need to sign in to the Cobalt app through the identity provider instead of the Cobalt {{% sign-in %}} page. Procedures differ for each identity provider.
+## SAML SSO
 
-Learn more about [configuring SAML SSO](https://cobaltio.zendesk.com/hc/en-us/sections/360012774052--SAML-SSO-).
+We support single sign-on (SSO) based on [Security Assertion Markup Language](/getting-started/glossary/#security-assertion-markup-language) 2.0 (SAML 2.0). SAML-based single sign-on (SSO) is available to all <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tiers</a>.
+
+Once your [Organization Owner](/getting-started/glossary/#organization-owner) has configured SAML SSO, you need to sign in to Cobalt through the identity provider (IdP) instead of the Cobalt {{% sign-in %}} page. Procedures differ for each provider. Usually, you need to select the Cobalt app within the IdP system.
+
+If you can't sign in through SAML SSO, see our [troubleshooting tips](/platform-deep-dive/cobalt-account/account-recovery/#cant-sign-in-using-saml-sso).
+
+Learn how Organization Owners can [configure SAML SSO](https://cobaltio.zendesk.com/hc/en-us/sections/360012774052--SAML-SSO-).
 
 ## Two-Factor Authentication
 
 We support two-factor authentication (2FA). After you sign in, select the profile icon in the upper-right corner, and then select **Security Settings**.
 
 If you’re using [SAML SSO](#saml-sso) to sign in, you don’t need to turn on 2FA.
+
+If you have problems signing in with 2FA, see our [troubleshooting tips](/platform-deep-dive/cobalt-account/account-recovery/#problems-with-two-factor-authentication).
 
 ## Next Step
 

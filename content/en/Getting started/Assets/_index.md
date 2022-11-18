@@ -1,6 +1,6 @@
 ---
 title: "Define Your Assets"
-linkTitle: "Define Your Assets"
+linkTitle: "Stage 1: Define Your Assets"
 weight: 10
 description: >
   Security professionals perform pentests on your assets. Collect the info they need.
@@ -25,7 +25,7 @@ Select how you want to proceed with your asset:
   - On the **Asset** page, specify the [asset details](#asset-details). Once you select **Create Asset**, you land on the **Assets** page.
   - To set up a pentest for this asset, select the three-dot icon under **Action**, and then select **Create a Pentest**.
 - **Use an existing asset**:
-  - Select an asset from the list. Once you select **Continue**, you can see asset details on the **Review Asset** screen. To update asset information, select **Edit Asset**.
+  - Select an asset from the list. Once you select **Continue**, you can see asset details on the **Review Asset** screen. To update asset information, select **Edit Asset**.<br>
   ![Review your asset in the pentest wizard](/gsg/ReviewAsset.png "Review your asset in the pentest wizard")
 
 ## Asset Details

@@ -1,0 +1,1 @@
+A report that contains comprehensive information about the pentest. Includes the following sections:<ul><li>Pentester user information</li><li>Executive Summary, with an overall list of findings</li><li>Scope of Work</li><li>Methodology</li><li>Summary of Findings</li><li>Recommendations</li><li>Post-Test Remediation</li></ul>

@@ -1,0 +1,1 @@
+A report similar to [Customer Letter](/getting-started/glossary/#customer-letter), with additional details:<ul><li>Pentester user information</li><li>An overall list of findings</li></ul>

@@ -97,8 +97,10 @@ To reset your password:
 
 If your organization has enabled [SAML SSO](/getting-started/sign-in/#saml-sso), sign in from the identity provider (IdP) system, such as Okta or OneLogin. You can't sign in from the Cobalt {{% sign-in %}} page.
 
+- If you don't know what identity provider your organization uses, contact your Organization Owner.
 - If you don't see the Cobalt app within your identity provider, contact your IdP admin. They'll add Cobalt to your IdP account. 
 - Ensure that you're a provisioned user both in the identity provider system and Cobalt. Complete the account setup process for Cobalt, which includes confirming your email address and password. The email address for your IdP and Cobalt must match.
+- As an Organization Owner, ensure that your SAML SSO configuration is correct.
 
 ## Locked Out of Your Account
 

@@ -1,6 +1,6 @@
 ---
 title: "Specify Pentest Details"
-linkTitle: "Specify Pentest Details"
+linkTitle: "Stage 3: Specify Pentest Details"
 weight: 200
 description: >
   Describe key details of your pentest.
