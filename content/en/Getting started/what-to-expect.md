@@ -33,7 +33,7 @@ results. Here's what you can expect:
 
    ![Pentest Sample Discussion](/gsg/SampleSlackFinding.png "Sample communication from pentester")
 
-   {{% alert title="Note" color="note" %}}
+   {{% alert title="Note" color="primary" %}}
    As our pentesters share the vulnerabilities they find in "real-time," you can
    start remediating your code before you see a pentest report.
    {{% /alert %}}

@@ -10,7 +10,7 @@ description: >
 Streamline your pentesting and development workflows with Cobalt integrations.
 {{% /pageinfo %}}
 
-{{% alert title="Note" color="note" %}}
+{{% alert title="Note" color="primary" %}}
 The availability of this feature is based on your <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tier</a>.
 {{% /alert %}}
  

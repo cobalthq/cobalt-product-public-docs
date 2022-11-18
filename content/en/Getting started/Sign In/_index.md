@@ -45,7 +45,7 @@ Now you can:
       ![Cobalt Sign In page](/gsg/SignInPage.png "Cobalt Sign In page")
    - Through [SAML SSO](#saml-sso), if configured
 
-{{% alert title="Note" color="note" %}}
+{{% alert title="Note" color="primary" %}}
 If you have problems signing in, see <a href="/platform-deep-dive/cobalt-account/account-recovery/">Account Recovery</a>.
 {{% /alert %}}
 
@@ -55,7 +55,9 @@ We support single sign-on (SSO) based on [Security Assertion Markup Language](/g
 
 Once your [Organization Owner](/getting-started/glossary/#organization-owner) has configured SAML SSO, you need to sign in to Cobalt through the identity provider (IdP) instead of the Cobalt {{% sign-in %}} page. Procedures differ for each provider. Usually, you need to select the Cobalt app within the IdP system.
 
-If you can't sign in through SAML SSO, see our [troubleshooting tips](/platform-deep-dive/cobalt-account/account-recovery/#cant-sign-in-using-saml-sso).
+{{% alert title="Note" color="primary" %}}
+If you can't sign in through SAML SSO, see our <a href="/platform-deep-dive/cobalt-account/account-recovery/#cant-sign-in-using-saml-sso">troubleshooting tips</a>.
+{{% /alert %}}
 
 Learn how Organization Owners can [configure SAML SSO](https://cobaltio.zendesk.com/hc/en-us/sections/360012774052--SAML-SSO-).
 

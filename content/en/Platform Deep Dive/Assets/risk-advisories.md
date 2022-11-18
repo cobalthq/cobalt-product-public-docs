@@ -41,6 +41,6 @@ Select a vulnerability to view detailed information on the [National Vulnerabili
 
 ![Preview CVE-based risk advisories for your asset](/deepdive/PreviewRiskAdvisories.png "Preview CVE-based risk advisories for your asset")
 
-{{% alert title="Note" color="note" %}}
+{{% alert title="Note" color="primary" %}}
 Potential vulnerabilities on the **Risk Advisory** tab don’t belong to your pentests. These are potential risks based on the <a href="https://www.cve.org/" target="_blank">Common Vulnerabilities and Exposures (CVE)</a> standard that we show for your reference.
 {{% /alert %}}
