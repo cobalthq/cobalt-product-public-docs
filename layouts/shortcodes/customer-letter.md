@@ -1,1 +1,1 @@
-An executive summary of the pentest. May be used as a certificate of completion. Great for external stakeholders. Includes:<br><br>- Executive Summary<br>- Methodology
+An executive summary of the pentest. May be used as a certificate of completion. Great for external stakeholders. Includes:<ul><li>Executive Summary</li><li>Methodology</li></ul>
