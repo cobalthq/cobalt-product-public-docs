@@ -73,4 +73,4 @@ If you have problems signing in with 2FA, see our <a href="/platform-deep-dive/c
 
 ## Next Step
 
-You can now start setting up a Pentest. Select **Create a Pentest**, and proceed to the next step to [define your assets](../assets).
+You can now start setting up a pentest. Select **Create a Pentest**, and proceed to the next step to [define your assets](../assets).
