@@ -1,1 +1,1 @@
-A one-page report suitable for external stakeholders. Includes the following:<ul><li>Executive Summary</li><li>An overall list of findings</li></ul>
+A one-page report suitable for external stakeholders. Includes the following:<ul><li>Executive Summary</li><li>An overall findings summary table</li></ul>
