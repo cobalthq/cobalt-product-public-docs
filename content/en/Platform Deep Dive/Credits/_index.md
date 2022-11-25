@@ -31,7 +31,7 @@ As an [Organization Owner](/getting-started/glossary/#organization-owner) or [Me
 To buy more credits for your organization, do one of the following:
 
 - Contact your Customer Success Manager (CSM) or support@cobalt.io.
-- In the Cobalt app, select **Add Credits**, and confirm your action in the overlay. You can also make a request from the **Credits** page.<br>
+- In the Cobalt app, select **Add Credits**, and confirm your action in the overlay. You can also make a request from the **Credits** page.<br><br>
    ![Buy more credits for your organization](/deepdive/AddCredits.png "Buy more credits for your organization")
 
 Once you've purchased credits, they appear on the **Credits** page on the start date of your subscription. Credits are not available prior to that date. If you need them earlier, contact your CSM.
