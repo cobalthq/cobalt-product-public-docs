@@ -41,7 +41,7 @@ If an email address is invalid or a user has already joined, you see an error me
 
 To change a user’s role from [_Owner_](/getting-started/glossary/#organization-owner) to [_Member_](/getting-started/glossary/#organization-member) or conversely, on the **People** page, use the list under **Role**.
 
-![Change a user's role](/deepdive/ChangeUserRole.png "Role list on the People page")
+![Change a user's role](/deepdive/ChangeUsersRole.png "Role list on the People page")
 
 ### Remove Users
 
