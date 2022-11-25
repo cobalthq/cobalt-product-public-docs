@@ -4,13 +4,13 @@
 
 | Page | Deploy Preview | Comment |
 | ----- | ----- | ----- |
-| [Name] | [Link] | [Comment] |
+| Name | Link | Comment |
 
 ### Updated
 
 | Page | Deploy Preview | Comment |
 | ----- | ----- | ----- |
-| [Name] | [Link] | [Comment] |
+| Name | Link | Comment |
 
 ## Preview This Change
 
