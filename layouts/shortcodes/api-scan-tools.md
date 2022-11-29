@@ -4,4 +4,3 @@ Our pentesters may use scanning tools, including:
 - testssl.sh
 - [Dirble](https://github.com/nccgroup/dirble)
 - OWASP Zed Attack Proxy (ZAP)
-
