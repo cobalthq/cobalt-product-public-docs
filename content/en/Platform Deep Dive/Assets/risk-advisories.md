@@ -23,9 +23,47 @@ When you [create](/platform-deep-dive/assets/#create-an-asset) or update an asse
 
 1. Once you’ve specified the [asset type](/platform-deep-dive/assets/#asset-types), select **Add Technology**, and start typing the technology name. We’ll show you a list of technologies that match your input.
 1. Select a technology with the exact version number.
+1. If your technology version is missing from the list, you can request to add it. Start typing the technology name, and then select **Add new version**. In the overlay that appears, submit a technology and its version, and we'll validate it for you.
+   {{%expand "Examples of ✅ valid technologies:" %}}
+   - For a Web asset:
+     - Facebook React 17.0.1
+     - Angular Angular 15.0.1 for Node.js
+     - Nuxtjs Nuxt.js 2.15.8 for Node.js
+     - Vercel Next.js 13.0.5 for Node.js
+   - For a Mobile asset:
+     - React Native 0.64.2
+     - Apple Swift for Ubuntu 5.1
+     - Google Android API 19
+     - Ionic Framework Ionic Web View 4.1.2 for Cordova
+   - For an API asset:
+     - Node.js 16.16
+     - Python 3.9.0
+     - Django Project Django 4.1.1
+     - Microsoft ASP.NET Core 7.0.0
+     - Oracle OpenJDK 18
+     - PHP 8.1.12
+     - Redis 7.0.5
+   - Databases:
+     - MongoDB 5.0.6
+     - Oracle MySQL 8.0.31
+     - PostgreSQL 15.1
+     - Microsoft SQL Server 2019
+   {{% /expand%}}
+
+   {{%expand "Examples of ❌ invalid technologies to avoid:" %}}
+   - JavaScript
+   - TypeScript
+   - C#
+   - Bash
+   - C
+   - Web
+   - Swift
+   - HTML
+   - CSS
+   {{% /expand%}}
 1. Add more technologies to the stack.
 
-![Add a technology stack for your asset](/deepdive/AddTechnology.png "Add a technology stack for your asset")
+![Add a technology stack for your asset](/deepdive/AddTechnologyForAsset.png "Add a technology stack for your asset")
 
 When you create a pentest for this asset, the technologies that you added populate in the [Technology Stack](/getting-started/pentest-objectives/stack/) field on the **Set Requirements** page.
 
