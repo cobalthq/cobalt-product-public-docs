@@ -14,9 +14,6 @@ cascade:
 - type: "docs"
   _target:
     path: "/**"
-menu:
-  main:
-    weight: 20
 ---
 
 This page includes links to other Cobalt literature, including our

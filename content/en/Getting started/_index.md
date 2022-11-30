@@ -4,9 +4,6 @@ linkTitle: "Getting Started"
 weight: 2
 description: >
   How to get started with Cobalt software.
-menu:
-  main:
-    weight: 2
 ---
 
 {{% pageinfo %}}
