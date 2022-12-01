@@ -29,8 +29,8 @@ date of release.
 
 | Article | Release Date | Author |
 | ----- | ----- | ----- |
-|[Insecure Deserialization](./insecure-deserialization)                | 2022-12-01   | {{% farid %}} |
 |[Protect Against XXE Attacks](./protect-against-xxe)                | 2022-12-01   | {{% harsh-bothra %}} |
+|[Insecure Deserialization](./insecure-deserialization)                | 2022-12-01   | {{% farid %}} |
 
 ### October 21, 2022
 
