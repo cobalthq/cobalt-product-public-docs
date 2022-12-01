@@ -25,6 +25,13 @@ until we have enough articles to actually organize. -->
 Once we've merged content into this guide, we'll list them in the following table with the
 date of release.
 
+### December 1, 2022
+
+| Article                                                               | Release Date | Author                |
+|-----------------------------------------------------------------------|--------------|-----------------------|
+| [Insecure Deserialization](./insecure-deserialization)                | 2022-12-01   | {{% farid %}}         |
+| [Protect Against XXE Attacks](./protect-against-xxe)                  | 2022-12-01   | {{% harsh-bothra %}}  |
+
 ### October 21, 2022
 
 | Article                                                               | Release Date | Author                |
