@@ -1,5 +1,4 @@
 ---
-
 Title: "Insecure Deserialization"
 linkTitle: "Insecure Deserialization"
 weight: 660
