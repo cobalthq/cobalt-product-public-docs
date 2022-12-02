@@ -79,4 +79,4 @@ If you need help, contact us in one of the following ways:
 - Send an email to support@cobalt.io.
 - [Submit a ticket](https://cobaltio.zendesk.com/hc/en-us/requests/new) on the support portal.
 
-If you found a security issue on the Cobalt platform, please report it to security@cobalt.io. Learn more about our [security practices](https://cobalt.io/security/practices).
+If you find a security issue on the Cobalt platform, please report it to security@cobalt.io. Learn more about our [security practices](https://cobalt.io/security/practices).
