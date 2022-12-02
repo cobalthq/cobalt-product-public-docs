@@ -70,3 +70,13 @@ you can [expect](./what-to-expect).
 
 Assuming you've received an email invitation, take the next step.
 [Sign in to Cobalt](./sign-in).
+
+## Get in Touch
+
+If you need help, contact us in one of the following ways:
+
+- If you have a named Customer Success Manager, get in touch with them.
+- Send an email to support@cobalt.io.
+- [Submit a ticket](https://cobaltio.zendesk.com/hc/en-us/requests/new) on the support portal.
+
+If you find a security issue on the Cobalt platform, please report it to security@cobalt.io. Learn more about our [security practices](https://cobalt.io/security/practices).
