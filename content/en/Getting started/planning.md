@@ -20,7 +20,7 @@ we can help you schedule pentests with a start date from at least one to three b
 
 The standard testing period is 14 days. It may vary depending on the pentest scope and other factors.
 
-![Planning and scoping a pentest](/gsg/PlanScopePentest.png "Schedule and scope your pentest")
+![Planning and scoping a pentest](/gsg/ScheduleScopePentest.png "Schedule and scope your pentest")
 
 If you have any special requirements, such as qualifications for pentester certifications,
 we reserve the right to start the pentest later than the flow time specified in your
