@@ -25,25 +25,13 @@ until we have enough articles to actually organize. -->
 Once we've merged content into this guide, we'll list them in the following table with the
 date of release.
 
-### December 1, 2022
-
 | Article | Release Date | Author |
 | ----- | ----- | ----- |
-|[Protect Against XXE Attacks](./protect-against-xxe)                | 2022-12-01   | {{% harsh-bothra %}} |
-|[Insecure Deserialization](./insecure-deserialization)                | 2022-12-01   | {{% farid %}} |
-
-### October 21, 2022
-
-| Article                                                               | Release Date | Author                |
-|-----------------------------------------------------------------------|--------------|-----------------------|
+|[Protect Against XXE Attacks](./protect-against-xxe)                | 2022-12-02   | {{% harsh-bothra %}} |
+|[Insecure Deserialization](./insecure-deserialization)                | 2022-12-02   | {{% farid %}} |
 | [Prevent Insecure Design in SQL](./secure-design)                     | 2022-10-21   | {{% shashank %}}      |
 | [Protect Your APIs With Rate Limiting](./api-rate-limiting)           | 2022-10-21   | {{% payloadartist %}} |
 | [Prevent Server-Side Template Injections](./prevent-ssti)             | 2022-10-21   | {{% unstabl3 %}}      |
-
-### August 19, 2022
-
-| Article                                                               | Release Date | Author                |
-|-----------------------------------------------------------------------|--------------|-----------------------|
 | [Validate User Input](./input-validation)                             | 2022-08-19   | {{% payloadartist %}} |
 | [Prevent Security Misconfiguration](./prevent-security-misconfig)     | 2022-08-19   | {{% shashank %}}      |
 | [Protect Against Server-Side Request Forgery](./protect-against-ssrf) | 2022-08-19   | {{% harsh-bothra %}}  |
