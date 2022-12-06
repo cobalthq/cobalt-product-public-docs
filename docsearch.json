@@ -1,0 +1,28 @@
+{
+  "index_name": "docsearch",
+  "scrape_start_urls": false,
+  "start_urls": [
+    {
+      "url": "https://developer.cobalt.io",
+      "page_rank": 1
+    }
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": ".content-page h1",
+      "lvl1": ".content h2",
+      "lvl2": ".content h3",
+      "lvl3": ".content h4",
+      "lvl4": ".content h5",
+      "text": ".content p"
+    },
+    "tags": {
+      "lvl0": { "selector": "h1", "default_value": "Tags" },
+      "lvl1": ".tag-title h2"
+    },
+    "series": {
+      "lvl0": { "selector": "h1", "default_value": "Series" },
+      "lvl1": ".series-title h2"
+    }
+  }
+}
