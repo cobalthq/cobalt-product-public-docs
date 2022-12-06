@@ -35,7 +35,7 @@ b'\x80\x04\x950\x00\x00\x00\x00\x00\x00\x00}\x94(\x8c\x04Name\x94\x8c\x08John Do
 
 ## What is Deserialization?
 
-Deserialization is the opposite of Serialization. It is the process of converting a byte stream into a program object. One common example is the `pickle.loads() function in Python3.
+Deserialization is the opposite of Serialization. It is the process of converting a byte stream into a program object. One common example is the `pickle.loads()` function in Python3.
 
 Sample code: 
 
