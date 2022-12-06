@@ -123,10 +123,10 @@ roles:
   - Lead
   - Pentester
 
-  Some Cobalt pentesters may be a _Lead_ in one test, a _Pentester_ in a second test, and
+  Some Cobalt pentesters may be a Lead in one test, a Pentester in a second test, and
   possibly no role and no involvement in your other pentests.
 
-Select Cobalt employees may be assigned as administrators, as _Cobalt Staff_.
+Select Cobalt employees may be assigned as administrators, as Cobalt Staff.
 
 You can review a list of permissions associated with each organization role in the following
 article: [What do the user roles mean?](https://cobaltio.zendesk.com/hc/en-us/articles/360057093472-What-do-the-user-roles-mean-).
@@ -136,33 +136,33 @@ spreadsheet, but need to find pull code in Hugo -->
 
 ### Organization Owner
 
-In the Cobalt UI, you'll see this user role as "Owner". Users in that role can:
+In the Cobalt UI, you'll see this user role as "Owner." Users in that role can:
 
-- Manage users and settings 
+- Manage users and settings
 - Create and edit assets and pentests
 
 {{%expand "Learn more." %}}
 
-An _Organization Owner_ is the administrator for a customer organization within the Cobalt app. As such, they can:
+An Organization Owner is the administrator for a customer organization within the Cobalt app. As such, they can:
 
 - Manage users on the **Organization** tab of the **People** page:
-  - Add/remove the users of their choice, by their email addresses, as an [_Organization Member_](#organization-member) or _Organization Owner_.
+  - Add/remove the users of their choice, by their email addresses, as an [Organization Member](#organization-member) or Organization Owner.
   - View the email addresses of users.
-  - Change user roles, from an _Organization Owner_ to _Organization Member_ and conversely.
+  - Change user roles, from an Organization Owner to Organization Member and conversely.
 
 - View collaborators, the members of their pentest team. That team includes:
-  - _Pentest Team Member_, typically an organization employee.
-  - _Pentest Lead_, the Cobalt pentester responsible for the pentest.
-  - _Pentester_, one or more additional Cobalt pentesters who are helping with the pentest.
-  Smaller pentests may only have a _Pentest Lead_.
+  - Pentest Team Member, typically an organization employee.
+  - Pentest Lead, the Cobalt pentester responsible for the pentest.
+  - Pentester, one or more additional Cobalt pentesters who are helping with the pentest.
+  Smaller pentests may only have a Pentest Lead.
 
-- An _Organization Owner_ may also be a [_Pentest Team Member_](#pentest-team-member).
+- An Organization Owner may also be a [Pentest Team Member](#pentest-team-member).
 
 - Manage [multi-factor authentication (MFA)](#multi-factor-authentication) as well as [SAML](#security-assertion-markup-language) settings for the users in their organization. We support two-factor authentication with a mobile authenticator app.
 
-- If an _Organization Owner_ represents a partner company that manages pentests for third parties, they can enable [co-branded pentest reports](../checklist/#co-branded-reports).
+- If an Organization Owner represents a partner company that manages pentests for third parties, they can enable [co-branded pentest reports](../checklist/#co-branded-reports).
 
-An _Organization Owner_ also has top-level (sudo) administrative privileges for their
+An Organization Owner also has top-level (sudo) administrative privileges for their
 organizations in the Cobalt app.
 
 {{% /expand%}}
@@ -177,35 +177,35 @@ In the Cobalt UI, you'll see this user role as "Member." Users in that role can:
 {{%expand "Learn more." %}}
 <!-- This is only a test commit -->
 
-An _Organization Member_ is a user of the Cobalt app who can create an [asset](#asset) as well
+An Organization Member is a user of the Cobalt app who can create an [asset](#asset) as well
 as a [pentest](#pentest). That user can also see the pentesters who are working on their asset.
 If allowed by their {{% ptaas-tier %}}, they can also manage integration with Jira and GitHub (Cloud only).
 
-- An _Organization Member_ may also be a [_Pentest Team Member_](#pentest-team-member).
+- An Organization Member may also be a [Pentest Team Member](#pentest-team-member).
 
 {{% /expand%}}
 
 ### Pentest Team Member
 
-A _Pentest Team Member_ is a customer (organization) representative during a specific pentest.
-That user can review and respond to each [finding](#finding) identified by a Cobalt _Pentester_ or _Pentest Lead_.
+A Pentest Team Member is a customer (organization) representative during a specific pentest.
+That user can review and respond to each [finding](#finding) identified by a Cobalt Pentester or Pentest Lead.
 
-That _Pentest Team Member_ can also add one or more users as a _Pentest Team Member_. 
+That Pentest Team Member can also add one or more users as a Pentest Team Member. 
 
-A _Pentest Team Member_ does not have to be an _Organization Owner_ or an _Organization Member_.
+A Pentest Team Member does not have to be an Organization Owner or an Organization Member.
 
 ### Pentest Lead
 
-A _Pentest Lead_ is a Cobalt pentester who leads other Cobalt pentesters in their efforts to test
+A Pentest Lead is a Cobalt pentester who leads other Cobalt pentesters in their efforts to test
 an asset. When applicable, the Pentest Lead also drafts the [pentest report](#pentest-report) (for [Comprehensive Pentests](#comprehensive-pentest)).
 
 ### Pentester
 
-A _Pentester_ is a Cobalt pentester who works with a _Pentest Lead_ to test a specific asset.
+A Pentester is a Cobalt pentester who works with a Pentest Lead to test a specific asset.
 
 ### Cobalt Staff
 
-_Cobalt Staff_ members may help you manage the users in your organization. They may also help
+Cobalt Staff members may help you manage the users in your organization. They may also help
 manage work on your pentests.
 
 ## Compliance Audit
