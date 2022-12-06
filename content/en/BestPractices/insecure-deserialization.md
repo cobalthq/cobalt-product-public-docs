@@ -19,6 +19,7 @@ Before we can describe security issues in this article, we should define seriali
 In serialization, we convert an object to a byte stream. We can then send that data over a network or save it on a disk. Serialization is common with Machine Learning data. We can send pre-trained models to other systems. One common example is the pickle.dumps() function in Python3.
 
 Sample code:
+
 ```python
 import pickle
 my_dict = {"Name": "John Doe", "Age": 25, "Score": 80.3}
