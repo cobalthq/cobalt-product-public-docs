@@ -12,7 +12,7 @@ Depending on your role, you can manage users for your [organization](#manage-use
 
 ## Manage Users for Your Organization
 
-As an [_Organization Owner_](/getting-started/glossary/#organization-owner), you can manage users for your organization on the **People** page > **Organization**:
+As an [Organization Owner](/getting-started/glossary/#organization-owner), you can manage users for your organization on the **People** page > **Organization**:
 
 - [Invite](#invite-users) and [remove](#remove-users) users
 - [Change their roles](#change-a-users-role)
@@ -27,11 +27,11 @@ To invite users to your organization:
 1. Navigate to the **People** page, and select **Invite People**.
 1. In the overlay that appears, enter the email addresses of users that you want to invite.
    - Use commas to separate multiple email addresses.
-1. For each user, select a role: _Member_ or _Owner_.
-    - Both _Members_ and _Owners_ have access to all [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/) of an organization.
+1. For each user, select a role: Member or Owner.
+    - Both Members and Owners have access to all [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/) of an organization.
 1. Select **Invite** to confirm.
 
-Users receive an email invitation to join your organization. They also become collaborators on all pentests of the organization as [_Pentest Team Members_](/getting-started/glossary/#pentest-team-member).
+Users receive an email invitation to join your organization. They also become collaborators on all pentests of the organization as [Pentest Team Members](/getting-started/glossary/#pentest-team-member).
 
 If an email address is invalid or a user has already joined, you see an error message.
 
@@ -39,7 +39,7 @@ If an email address is invalid or a user has already joined, you see an error me
 
 ### Change a User’s Role
 
-To change a user’s role from [_Owner_](/getting-started/glossary/#organization-owner) to [_Member_](/getting-started/glossary/#organization-member) or conversely, on the **People** page, use the list under **Role**.
+To change a user’s role from [Owner](/getting-started/glossary/#organization-owner) to [Member](/getting-started/glossary/#organization-member) or conversely, on the **People** page, use the list under **Role**.
 
 ![Change a user's role](/deepdive/ChangeUserRole.png "Role list on the People page")
 
