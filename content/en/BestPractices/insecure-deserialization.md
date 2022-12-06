@@ -48,6 +48,7 @@ print(my_dict)
 ```
 
 Output:
+
 ```
 {'Name': 'John Doe', 'Age': 25, 'Score': 80.3}
 ```
