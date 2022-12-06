@@ -32,7 +32,7 @@ Configuration procedures differ for each identity provider. Here’s the general
     - Navigate to the **Settings** page, and then select **Identity & Access**.
     - Under **SAML 2.0**, select **Enable**.
     - Enter parameter values that you obtained from the identity provider, and select **Save**.
-    - Save the **IdP RelayState** value that appears in red.<br>
+    - Save the **IdP RelayState** value that appears in red.<br><br>
     ![Configure SAML SSO in the Cobalt app](/deepdive/ConfigureSAML.png "Configure SAML SSO in the Cobalt app")
 1. Complete the integration in the identity provider system, and test the connection.
     - Test your SAML configuration in an incognito window before signing out of Cobalt. This will prevent any account lockout.
