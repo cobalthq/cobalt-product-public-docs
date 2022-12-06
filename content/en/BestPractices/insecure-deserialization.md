@@ -3,12 +3,13 @@ Title: "Insecure Deserialization"
 linkTitle: "Insecure Deserialization"
 weight: 660
 description: >
-  Insecure Deserialization is one of the OWASP Top 10 web vulnerabilities for 2017. OWASP has included this issue in the [OWASP Top 10:2021](https://owasp.org/Top10/) vulnerabilities as [Software and Data Integrity Failures](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/).
+  Insecure Deserialization is one of the OWASP Top 10 web vulnerabilities from 2017. 
 ---
 
 {{% pageinfo %}}
 
-Deserialization is one of several [Software and Data Integrity Failures](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/). It can potentially expose your data into "a structure that an attacker can see and modify."
+Deserialization is one of several [Software and Data Integrity Failures](https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/) listed in the OWASP 2021 Top 10.
+It can potentially expose your data into "a structure that an attacker can see and modify."
 
 {{% /pageinfo %}}
 
@@ -53,7 +54,7 @@ Output:
 {'Name': 'John Doe', 'Age': 25, 'Score': 80.3}
 ```
 
-![Deserialization diagram from portswigger.net](https://portswigger.net/web-security/images/deserialization-diagram.jpg)
+![Deserialization diagram from portswigger.net](/bestprac/deserialization-diagram.jpg)
 
 ## How can Deserialization be Insecure?
 
