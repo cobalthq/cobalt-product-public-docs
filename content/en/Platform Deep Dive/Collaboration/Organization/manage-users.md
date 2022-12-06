@@ -50,20 +50,20 @@ To remove a user from your organization:
 1. On the **People** page, locate the user you want to remove.
 1. Select the three-dot icon on the right, and select **Remove User**.
 1. In the overlay that appears, select whether you want to remove a user:
-    - Only from the organization. The user can still collaborate on pentests as a [_Pentest Team Member_](/getting-started/glossary/#pentest-team-member).
+    - Only from the organization. The user can still collaborate on pentests as a [Pentest Team Member](/getting-started/glossary/#pentest-team-member).
     - From the organization and all pentests.
 
 ## Add and Remove Pentest Team Members
 
 To [add](#add-a-pentest-team-member) or [remove users](#remove-a-pentest-team-member) from a specific pentest, you should have one of the following [roles](/platform-deep-dive/collaboration/organization/user-roles/):
 
-- [_Organization Owner_](/getting-started/glossary/#organization-owner)
-- [_Organization Member_](/getting-started/glossary/#organization-member)
-- [_Pentest Team Member_](/getting-started/glossary/#pentest-team-member)
+- [Organization Owner](/getting-started/glossary/#organization-owner)
+- [Organization Member](/getting-started/glossary/#organization-member)
+- [Pentest Team Member](/getting-started/glossary/#pentest-team-member)
 
 ### Add a Pentest Team Member
 
-To add a _Pentest Team Member_ to a specific pentest:
+To add a Pentest Team Member to a specific pentest:
 
 1. In the Cobalt app, select **Pentests**, and locate the desired pentest.
 1. On the pentest page, select **Settings** > **Collaborators**.
@@ -75,7 +75,7 @@ The user gets an invitation to collaborate on the pentest.
 
 ### Remove a Pentest Team Member
 
-To remove a _Pentest Team Member_ from a pentest:
+To remove a Pentest Team Member from a pentest:
 
 1. Navigate to the desired pentest in one of the following ways:
    - Select **Pentests**, and locate the pentest.
@@ -85,12 +85,12 @@ To remove a _Pentest Team Member_ from a pentest:
 
 ### Remove a User from All Pentests
 
-As an _Organization Owner_, you can remove a _Pentest Team Member_—who doesn't belong to the organization—from all pentests they collaborate on.
+As an Organization Owner, you can remove a Pentest Team Member—who doesn't belong to the organization—from all pentests they collaborate on.
 
 1. In the Cobalt app, select your organization in the upper-left corner of the screen.
 1. Navigate to the **People** page > **Pentest Collaborators**.
-1. For the _Team Member_ you want to remove, select the three-dot icon > **Remove User**, and select **Yes** in the overlay to confirm.
+1. For the Team Member you want to remove, select the three-dot icon > **Remove User**, and select **Yes** in the overlay to confirm.
 
 ![Remove a Pentest Team Member from all pentests](/deepdive/RemoveCollaboratorFromAllPentests.png "Add a Pentest Team Member from all pentests")
 
-To view the pentests a _Pentest Team Member_ collaborates on, select the link under **Pentests**. From here, you can navigate to the pentest page.
+To view the pentests a Pentest Team Member collaborates on, select the link under **Pentests**. From here, you can navigate to the pentest page.
