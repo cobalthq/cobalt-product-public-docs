@@ -350,7 +350,7 @@ you can draft a pentest. Once you submit it for review, Cobalt reviews your pent
 a [Pentest Lead](#pentest-lead) and frequently one or more [Pentesters](#pentester) who then
 test the [asset](#asset) specified in your pentest.
 
-## Pentest as a Service (PtaaS)
+## {{% ptaas %}} (PtaaS)
 
 Combines manual and human testing with a modern delivery platform to deploy
 penetration testing programs. 
