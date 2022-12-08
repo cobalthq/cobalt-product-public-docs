@@ -42,7 +42,7 @@ cascade:
           <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
           <p><a href="/apiusecases/">View details »</a></p>
         </div>
-      </div>
+      </div><br>
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
