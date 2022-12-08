@@ -12,7 +12,7 @@ Depending on their role, a user can collaborate at the pentest or organization l
 
 | Pentest Level | Organization Level |
 |---|---|
-| A [_Pentest Team Member_](/getting-started/glossary/#pentest-team-member):<ul><li>Can collaborate on a specific pentest</li><li>Has no access to users or settings of an organization</li></ul> | An [_Organization Owner_](/getting-started/glossary/#organization-owner) has the highest level of access and can:{{% org-owner-permissions %}}An [_Organization Member_](/getting-started/glossary/#organization-member) can:{{% org-member-permissions %}} |
+| A [Pentest Team Member](/getting-started/glossary/#pentest-team-member):<ul><li>Can collaborate on a specific pentest</li><li>Has no access to users or settings of an organization</li></ul> | An [Organization Owner](/getting-started/glossary/#organization-owner) has the highest level of access and can:{{% org-owner-permissions %}}An [Organization Member](/getting-started/glossary/#organization-member) can:{{% org-member-permissions %}} |
 
 Refer to the table below for a detailed list of permissions and privileges for each role. Some permissions depend on the {{% ptaas-tier %}} of your organization.
 
