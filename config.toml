@@ -86,9 +86,9 @@ enableGitInfo = true
   url = 'https://cobaltio.zendesk.com/hc/en-us/requests/new'
   weight = 30
 [[menu.main]]
-  name = 'Product Updates'
+  name = 'Explore Cobalt'
   pre = "<i class='pl-1 fa fa-rocket'></i>"
-  url = '/product-updates/'
+  url = 'https://www.cobalt.io/get-started'
   weight = 40
 
 # Everything below this are Site Params
