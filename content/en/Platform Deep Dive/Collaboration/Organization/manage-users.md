@@ -21,18 +21,21 @@ As an [Organization Owner](/getting-started/glossary/#organization-owner), you c
 
 ### Invite Users
 
-To invite a user to your organization:
+To invite users to your organization:
 
 1. In the Cobalt app, select your organization.
-1. Navigate to the **People** page.
-1. In the input field, enter the email address of the user that you want to invite.
-1. Select the user role from the list: Member or Owner. Select **Add Member/Owner**.
+1. Navigate to the **People** page, and select **Invite People**.
+1. In the overlay that appears, enter the email addresses of users that you want to invite.
+   - Use commas to separate multiple email addresses.
+1. For each user, select a role: Member or Owner.
     - Both Members and Owners have access to all [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/) of an organization.
-1. In the overlay that appears, select whether you want to invite the user to:
-    - The organization and all pentests
-    - Only to the organization
+1. Select **Invite** to confirm.
 
-The user receives an email invitation to join your organization.
+Users receive an email invitation to join your organization. They also become collaborators on all pentests of the organization as [Pentest Team Members](/getting-started/glossary/#pentest-team-member).
+
+If an email address is invalid or a user has already joined, you see an error message.
+
+![Invite multiple users to your organization](/deepdive/InviteUsers.png "Overlay for inviting multiple users")
 
 ### Change a User’s Role
 
