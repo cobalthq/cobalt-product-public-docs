@@ -33,11 +33,11 @@ Follow these instructions if you can't sign in to Cobalt because:
 
 ### Lost Access to Your Authenticator
 
-Users in the following roles can ask an [_Organization Owner_](/getting-started/glossary/#organization-owner) to turn off [two-factor authentication](/getting-started/sign-in/#two-factor-authentication) (2FA) for their account:
+Users in the following roles can ask an [Organization Owner](/getting-started/glossary/#organization-owner) to turn off [two-factor authentication](/getting-started/sign-in/#two-factor-authentication) (2FA) for their account:
 
-- [_Organization Owner_](/getting-started/glossary/#organization-owner)
-- [_Organization Member_](/getting-started/glossary/#organization-member)
-- [_Pentest Team Member_](/getting-started/glossary/#pentest-team-member)
+- [Organization Owner](/getting-started/glossary/#organization-owner)
+- [Organization Member](/getting-started/glossary/#organization-member)
+- [Pentest Team Member](/getting-started/glossary/#pentest-team-member)
 
 Follow these steps:
 
@@ -47,8 +47,8 @@ Follow these steps:
 1. On the page prompting you to enter a one-time code, select **Start account recovery process**.<br>
     ![Two-Factor Authentication page](/deepdive/2FARecovery.png "Select 'Start account recovery process' to recover your account")
 1. Once you get an email with a one-time identity verification code, enter the code, and select **Verify**.
-1. Your _Organization Owner_ gets notified and turns off 2FA for your account.
-   - If you are the only _Organization Owner_, we'll turn off 2FA for you.
+1. Your Organization Owner gets notified and turns off 2FA for your account.
+   - If you are the only Organization Owner, we'll turn off 2FA for you.
 1. You get an email notification confirming that your 2FA settings were updated.
 1. You can now sign in without a second authentication factor.
    - If your organization enforces 2FA, enable it upon signing in.
@@ -57,7 +57,7 @@ Once you've set up a new authenticator, you can turn on 2FA again.<!--Add link t
 
 #### Turn Off 2FA for a User
 
-As an [_Organization Owner_](/getting-started/glossary/#organization-owner), you can turn off two-factor authentication for a user following their request.
+As an [Organization Owner](/getting-started/glossary/#organization-owner), you can turn off two-factor authentication for a user following their request.
 
 1. Once you get an email notification requesting you to turn off 2FA, select **Recover Account** in the email.
 1. On the **People** page of your dashboard, locate the user who submitted the request.

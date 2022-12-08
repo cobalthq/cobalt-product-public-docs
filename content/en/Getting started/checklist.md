@@ -61,7 +61,7 @@ You can download a pentest [report](/platform-deep-dive/pentests/reports/) to vi
 
 If your organization manages pentests for third parties, you can add your company logo to all reports. In co-branded reports, your company logo appears next to the Cobalt logo.
 
-An [_Organization Owner_](/getting-started/glossary/#organization-owner) of a partner company can enable co-branded reports.
+An [Organization Owner](/getting-started/glossary/#organization-owner) of a partner company can enable co-branded reports.
 
 {{%expand "Learn more." %}}
 
@@ -72,7 +72,7 @@ An [_Organization Owner_](/getting-started/glossary/#organization-owner) of a pa
 <li>List of client organizations you manage</li>
 <li>Reason: Enable partner co-branding functionality</li></ul></li>
 
-<li>Once we've processed your request, you get access to specific functionality as a <i>Cobalt Partner</i>, which you can verify on the <b>People</b> tab next to your name.</li>
+<li>Once we've processed your request, you get access to specific functionality as a Cobalt Partner, which you can verify on the <b>People</b> tab next to your name.</li>
 
 <li>To enable co-branded reports for an organization you manage:
 <ul><li>Select the organization in the upper-left corner.</li>
@@ -84,7 +84,7 @@ An [_Organization Owner_](/getting-started/glossary/#organization-owner) of a pa
 <li>On the <b>Report</b> tab, download a report, and verify that it has your company logo.</li></ul></li>
 </ol>
 
-As a _Cobalt Partner_, you can edit your company logo or turn off co-branded reports for a client organization on the **Settings** tab under **Report Branding**.
+As a Cobalt Partner, you can edit your company logo or turn off co-branded reports for a client organization on the **Settings** tab under **Report Branding**.
 {{% /expand%}}
 
 ## When You're Ready
