@@ -2,6 +2,7 @@
 ---
 linkTitle: "Home"
 type: "docs"
+no_list: true
 weight: 20
 
 cascade:
