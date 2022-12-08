@@ -73,21 +73,21 @@ enableGitInfo = true
 [[menu.main]]
   name = 'API Docs'
   url = 'https://docs.cobalt.io/'
-  post = "<i class='pl-1 fa fa-code'></i>"
+  pre = "<i class='pl-1 fa fa-code'></i>"
   weight = 10
 [[menu.main]]
   name = 'Blog'
-  post = "<i class='pl-1 fa fa-pen-nib'></i>"
+  pre = "<i class='pl-1 fa fa-pen-nib'></i>"
   url = 'https://www.cobalt.io/blog'
   weight = 20
 [[menu.main]]
   name = 'Support'
-  post = "<i class='pl-1 fa fa-envelope'></i>"
+  pre = "<i class='pl-1 fa fa-envelope'></i>"
   url = 'https://cobaltio.zendesk.com/hc/en-us/requests/new'
   weight = 30
 [[menu.main]]
   name = 'Product Updates'
-  post = "<i class='pl-1 fa fa-rocket'></i>"
+  pre = "<i class='pl-1 fa fa-rocket'></i>"
   url = '/product-updates/'
   weight = 40
 
