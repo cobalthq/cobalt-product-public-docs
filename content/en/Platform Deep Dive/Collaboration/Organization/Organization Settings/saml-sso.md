@@ -46,7 +46,7 @@ If you have problems setting up SAML SSO, see our troubleshooting tips below.
 
 ## Troubleshoot Your SAML SSO Configuration
 
-To get more help, contact your Customer Success Manager (CSM) or support@cobalt.io for assistance. We’ll turn off SAML SSO for your organization. Then you can configure it again.
+To get help, contact your Customer Success Manager (CSM) or support@cobalt.io. We’ll turn off SAML SSO for your organization. Then you can configure it again.
 
 | Troubleshooting Tip | Details |
 |---|---|
