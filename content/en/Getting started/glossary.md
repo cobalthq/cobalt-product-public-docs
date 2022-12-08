@@ -73,7 +73,7 @@ relates to pentests of web application technical security controls.
 
 ## Attacker
 
-Sometimes also known as a Threat Actor, Malicious Hacker, "Black-hat Hacker," or "Cracker." May be 
+Sometimes also known as a threat actor, malicious hacker, "black hat hacker," or "cracker." May be 
 an individual, a group, or even a nation-state. Specified as "attacker" in Cobalt pentest reports.
 
 ## Attestation Letter
@@ -138,8 +138,7 @@ spreadsheet, but need to find pull code in Hugo -->
 
 In the Cobalt UI, you'll see this user role as "Owner". Users in that role can:
 
-- Manage users and settings 
-- Create and edit assets and pentests
+{{% org-owner-permissions %}}
 
 {{%expand "Learn more." %}}
 
@@ -169,10 +168,9 @@ organizations in the Cobalt app.
 
 ### Organization Member
 
-In the Cobalt UI, you'll see this user role as "Member". Users in that role can:
+In the Cobalt UI, you'll see this user role as "Member." Users in that role can:
 
-- View users and settings 
-- Create and edit assets and pentests
+{{% org-member-permissions %}}
 
 {{%expand "Learn more." %}}
 <!-- This is only a test commit -->
