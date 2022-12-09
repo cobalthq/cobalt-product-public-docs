@@ -197,6 +197,8 @@ A Pentest Team Member does not have to be an Organization Owner or an Organizati
 A Pentest Lead is a Cobalt pentester who leads other Cobalt pentesters in their efforts to test
 an asset. When applicable, the Pentest Lead also drafts the [pentest report](#pentest-report) (for [Comprehensive Pentests](#comprehensive-pentest)).
 
+We don’t assign a Pentest Lead to [Agile Pentests](#agile-pentest).
+
 ### Pentester
 
 A Pentester is a Cobalt pentester who works with a Pentest Lead to test a specific asset.
@@ -246,7 +248,7 @@ In the context of a Cobalt pentest, you can specify one of three options for an 
 
 ## Finding
 
-A potential security flaw in an app or physical hardware. We include findings in vulnerability
+{{% finding-definition %}} We include findings in vulnerability
 reports, as something that a threat actor can exploit.
 
 When you select [Full Report + Finding Details](/platform-deep-dive/pentests/reports/report-contents/#appendix-a---finding-details),
