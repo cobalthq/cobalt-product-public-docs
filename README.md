@@ -8,7 +8,7 @@ You can find the source files for published Cobalt Product Documentation in this
 
 ## Build Prerequisites
 
-When editing documentation, you should learn how to [build the docs "locally"](#build-the-docs-locally) on your system. To set up that build, you need to install:
+When editing documentation, you should learn how to [build the docs "locally"](#build-the-docs-locally) on your system. To set up that build, you need to install: 
 
 - The package manager for your operating system
 - Hugo
