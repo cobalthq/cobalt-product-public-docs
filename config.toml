@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = ""
 title = "Cobalt Labs Product Documentation"
 
 enableRobotsTXT = true
@@ -95,6 +95,7 @@ github_branch = "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 #gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+gcs_engine_id = "f2d0c21d46c3a48ca"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
@@ -111,7 +112,7 @@ sidebar_menu_foldable = true
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 #  Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
-sidebar_search_disable = true
+sidebar_search_disable = false
 #  Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top nav bar
 navbar_logo = true
 # Set to true to disable the About link in the site footer
