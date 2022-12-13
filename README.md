@@ -1,4 +1,4 @@
-# Cobalt Public Product Documentation
+# Cobalt Public Product Documentation 
 
 You can find the source files for published Cobalt Product Documentation in this repository. It's:
 
