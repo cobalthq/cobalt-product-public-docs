@@ -1,0 +1,1 @@
+A finding is a potential security flaw in an app or physical hardware.
