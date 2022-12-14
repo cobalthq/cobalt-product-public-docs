@@ -359,18 +359,15 @@ penetration testing programs.
 
 A summary of all vulnerability reports, including observations on positive security measures. Target audiences: executives, security engineers, and developers. Includes:
 
-- Executive Summary
-  - Describes tests performed with criteria
+- Executive Summary 
+  - Describes the tests performed with criteria.
 - Executive Analysis
-  - High-level summary of vulnerabilities
+  - Includes a high-level summary of vulnerabilities.
+
 - Scope of Work
-  - Target description
-  - Environment
-  - In-scope Testing Methodologies
-  - Assumptions and Constraints
-  - Test Methodologies
-  - Web app-specific issues (endpoints, fuzzing)
-  - Secure test cases
+
+  {{% scope-of-work %}}
+
 - Summary of Findings
   - Trends and critical issues
   - Auto-generated graphs
@@ -429,6 +426,10 @@ As [defined](https://csrc.nist.gov/glossary/term/security_audit) by NIST, an ind
 
 Original sponsor of a set of standards for testing networks. SANS stands for SysAdmin, Audit,
 Network, and Security. The SANS Top 20 has been migrated to CIS Controls Version 8.
+
+## Scope of Work
+
+Cobalt may refer to this as the "scope" of your pentest. {{% scope-of-work %}}
 
 ## Single-Page Application
 
