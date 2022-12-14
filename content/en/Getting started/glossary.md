@@ -80,7 +80,7 @@ an individual, a group, or even a nation-state. Specified as "attacker" in Cobal
 
 {{% attestation-letter %}}
 
-You can't customize an Attestation Letter. {{% learn-more-reports %}}
+{{% learn-more-reports %}}
 
 ## Attestation Report
 
