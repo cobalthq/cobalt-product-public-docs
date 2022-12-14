@@ -12,7 +12,7 @@ We offer three [PtaaS tiers](https://www.cobalt.io/pentest-pricing) to best suit
 
 To get started, check our [pricing model](https://www.cobalt.io/pentest-pricing), and select a plan that matches your testing expectations and business needs.
 
-| Standard | Premium | Enterprise |
+| {{< standard-tier-label >}} | {{< premium-tier-label >}} | {{< enterprise-tier-label >}} |
 |---|---|---|
 | For teams in need of a speedy, annual pentest to meet a compliance need or client request | For teams looking to build a structured pentest program to meet compliance needs and improve overall security | For teams looking to scale their pentest programs to meet compliance needs, increase testing frequency, and improve overall security |
 
