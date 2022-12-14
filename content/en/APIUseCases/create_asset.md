@@ -96,7 +96,7 @@ Now that you have the following information:
 - `{{% api-token %}}`
 - `{{% org-token %}}` 
 
-You can create an [asset](../../getting-started/glossary/#asset) with the following REST call:
+You can create an [asset](/getting-started/glossary/#asset) with the following REST call:
 
 ```bash
 curl -X POST "https://api.cobalt.io/assets" \
