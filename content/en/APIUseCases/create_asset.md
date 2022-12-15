@@ -155,7 +155,7 @@ You can also limit the number of assets in the output with the `limit`
 parameter. For more information about each asset response field, see our API
 reference to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets).
 
-{{% alert title="Tip" color="tip" %}}
+{{% alert title="Tip" color="primary" %}}
 You can use `jq` to filter assets by their `title` and `id`. To do so, end the
 REST call with `| jq -r ".data[] | .resource | .title, .id"`.
 {{% /alert %}}
