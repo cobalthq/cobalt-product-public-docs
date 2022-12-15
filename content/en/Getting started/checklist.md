@@ -11,24 +11,24 @@ Make sure our pentesters have the information they need.
 {{% /pageinfo %}}
 
 In previous sections, you've saved what you've entered for the pentest.
-Now you can review your work. Before selecting **Submit For Review**, follow this checklist for Objectives and Details.
+Now you can review your work. Before selecting **Submit For Review**, follow this checklist for [Requirements](#requirements) and [Details](#details).
 
-![Review your pentest](/gsg/SubmitPentestForReview.png "Review pentest details")
+![Review your pentest](/gsg/EditPentestSubmitForReview.png "Review pentest details")
 
 For both tabs, you can select **Edit** to make changes.
 
-## Objectives
+## Requirements
 
-Under the **Objectives** tab, you can review:
+Under the **Requirements** tab, you can review:
 
-- [Targets in scope](../pentest-objectives/pentest-target)
+- [Pentest type](/platform-deep-dive/pentests/pentest-types/)
+- [Targets](../pentest-objectives/pentest-target)
+- [Pentest methodology](/platform-deep-dive/pentests/pentest-process/methodologies/), for [combined assets](/platform-deep-dive/assets/#asset-types)
 - [Objectives](../pentest-objectives/methodologies/), which define methodologies that our pentesters use as a checklist
 - [Test credentials](../pentest-objectives/test-credentials)
-- [Asset](/getting-started/assets/) for which you're setting up the pentest
+- [Instructions](/getting-started/pentest-objectives/special-instructions/) for pentesters
 - [Technology stack](/getting-started/pentest-objectives/stack/) behind your asset
 - [Test period](/getting-started/planning/#schedule-the-pentest), [scoping parameters](/getting-started/planning/#scope-the-pentest), and required [credits](/getting-started/planning/#view-required-credits)
-
-To view more pentest details, navigate to the **Settings** tab > **Objectives**.
 
 ### Additional Requests
 
@@ -36,8 +36,7 @@ You can specify special requirements for pentesters. For example, if
 industry, company, or national regulations require that you limit pentesters
 to residents of one or more countries, you can request this.
 
-1. On the pentest page, navigate to **Settings**, and scroll down to the bottom of the page.
-1. Select **Show advanced options**, and add your notes under **Additional requests**.
+Scroll down to the bottom of the **Requirements** tab, select **Show advanced options**, and add your notes under **Additional requests**.
 
 ![Pentester limits](/gsg/AdditionalRequests.png "Specify legal or regulatory limitations on pentesters.")
 
