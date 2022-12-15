@@ -11,7 +11,7 @@ description: >
 If you have problems signing in, refer to the instructions on this page. To get more help, reach out to {{% csm-support %}}.
 {{% /pageinfo %}}
 
-{{< alert title="Note" color="primary" >}}
+{{< alert title="Tip" color="primary" >}}
 Before proceeding, ask your Organization Owner if SAML-based single sign-on (SSO) is enabled for your organization. If yes, sign in from the identity provider system, not the Cobalt {{% sign-in %}} page. For more troubleshooting tips, see [Can’t Sign In Using SAML SSO](#cant-sign-in-using-saml-sso), below.
 {{< /alert >}}
 
