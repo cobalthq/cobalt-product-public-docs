@@ -11,6 +11,10 @@ description: >
 If you have problems signing in, refer to the instructions on this page. To get more help, reach out to {{% csm-support %}}.
 {{% /pageinfo %}}
 
+{{< alert title="Tip" color="primary" >}}
+Before proceeding, ask your Organization Owner if SAML-based single sign-on (SSO) is enabled for your organization. If yes, sign in from the identity provider (IdP) system, not the Cobalt {{% sign-in %}} page. For more troubleshooting tips, see [Can’t Sign In Using SAML SSO](#cant-sign-in-using-saml-sso), below.
+{{< /alert >}}
+
 Follow these instructions if you can't sign in to Cobalt because:
 
 - You have [problems with two-factor authentication (2FA)](#problems-with-two-factor-authentication):
@@ -95,7 +99,7 @@ To reset your password:
 
 ## Can't Sign In Using SAML SSO
 
-If your organization has enabled [SAML SSO](/getting-started/sign-in/#saml-sso), sign in from the identity provider (IdP) system, such as Okta or OneLogin. You can't sign in from the Cobalt {{% sign-in %}} page.
+If your organization has enabled [SAML SSO](/getting-started/sign-in/#saml-sso), sign in from the identity provider system, such as Okta or OneLogin. You can't sign in from the Cobalt {{% sign-in %}} page.
 
 - If you don't know what identity provider your organization uses, contact your Organization Owner.
 - If you don't see the Cobalt app within your identity provider, contact your IdP admin. They'll add Cobalt to your IdP account. 
