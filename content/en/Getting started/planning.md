@@ -1,22 +1,19 @@
 ---
 title: "Plan and Scope the Pentest"
-linkTitle: "Stage 4: Plan and Scope the Pentest"
+linkTitle: "Stage 6: Plan and Scope the Pentest"
 weight: 210
 description: >
   Set up a schedule. Scope the pentest.
 ---
 
 {{% pageinfo %}}
-Now you can set a date and scope for the pentest.
+In the fourth stage of the pentest wizard, you can set a date and scope for the pentest.
 {{% /pageinfo %}}
 
 ## Schedule the Pentest
 
 Depending on your {{% ptaas-tier %}},
 we can help you schedule pentests with a start date from at least one to three business days after you select **Submit for Review**.
-
-<!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
-{{% big-pic-UI-steps %}}
 
 The standard testing period is 14 days. It may vary depending on the pentest scope and other factors.
 

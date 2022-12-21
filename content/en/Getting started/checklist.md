@@ -1,6 +1,6 @@
 ---
 title: "Your Pentest Checklist"
-linkTitle: "Pentest Checklist"
+linkTitle: "Stage 7: Pentest Checklist"
 weight: 250
 description: >
   Review your pentest request.

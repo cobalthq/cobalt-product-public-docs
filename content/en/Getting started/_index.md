@@ -43,9 +43,10 @@ we send you an email invitation, which you can use to [Sign in to Cobalt](./sign
 
 Our journey takes you through the steps required to create a pentest:
 
-1. Select the [pentest type](/platform-deep-dive/pentests/pentest-types/). We offer [Agile](/getting-started/glossary/#agile-pentest) and [Comprehensive Pentests](/getting-started/glossary/#comprehensive-pentest).
 1. Define your [assets](/getting-started/assets/). Our pentesters analyze all kinds of
    assets, from web apps to internal networks.
+1. Select the [pentest type](/getting-started/select-pentest-type/). We offer [Agile](/getting-started/glossary/#agile-pentest) and [Comprehensive Pentests](/getting-started/glossary/#comprehensive-pentest).
+1. [Review your asset](/getting-started/review-asset/).
 1. Set [requirements](./pentest-objectives) for your pentest.
    - By default, our pentesters use standards defined by the
      [Open Web Application Security
