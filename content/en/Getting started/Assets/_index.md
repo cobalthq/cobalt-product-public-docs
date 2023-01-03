@@ -10,6 +10,9 @@ description: >
 You can launch multiple pentests for an [asset](/getting-started/glossary/#asset). Once you've set up an asset, you can reuse it in your next pentests.
 {{% /pageinfo %}}
 
+![Workflow for creating a pentest](/gsg/CreatePentestFlowStep1.png "Workflow for creating a pentest")
+<br>
+
 Once you've signed in, you land on the **Assets** page.
 
 - To add a single asset, select **New Asset**. Specify [asset details](#asset-details).

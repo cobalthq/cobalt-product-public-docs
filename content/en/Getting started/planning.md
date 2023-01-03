@@ -7,8 +7,11 @@ description: >
 ---
 
 {{% pageinfo %}}
-In the fourth stage of the pentest wizard, you can set a date and scope for the pentest.
+Set the start date for your pentest and define its scope.
 {{% /pageinfo %}}
+
+![Workflow for creating a pentest](/gsg/CreatePentestFlowStep6.png "Workflow for creating a pentest")
+<br>
 
 ## Schedule the Pentest
 
@@ -131,4 +134,4 @@ Once you’ve identified the [pentest scope](#scope-the-pentest), you can see th
 
 If you're ready with your pentest, select **Save & Exit**.
 
-In the next screen, you can review your work, as a [checklist](../checklist).
+In the next screen, you can [review your work](/getting-started/review-pentest/) before submitting the pentest.
