@@ -71,7 +71,7 @@ To add a Pentest Team Member to a specific pentest:
 
 The user gets an invitation to collaborate on the pentest.
 
-![Add a Pentest Team Member to a pentest](/deepdive/AddTeamMember.png "Add a Pentest Team Member to a pentest")
+![Add a Pentest Team Member to a pentest](/deepdive/AddPentestTeamMember.png "Add a Pentest Team Member to a pentest")
 
 ### Remove a Pentest Team Member
 
