@@ -24,7 +24,7 @@ As an [Organization Owner](/getting-started/glossary/#organization-owner), you c
 To invite users to your organization:
 
 1. In the Cobalt app, select your organization.
-1. Navigate to the **People** page, and select **Invite People**.
+1. Navigate to the **People** page, and select **Invite Users**.
 1. In the overlay that appears, specify the email addresses of users that you want to invite. Enter the emails, and press Enter to confirm.
    - Use commas to separate multiple email addresses.
 1. For each user, select a [role](/platform-deep-dive/collaboration/organization/user-roles/): Member or Owner.
