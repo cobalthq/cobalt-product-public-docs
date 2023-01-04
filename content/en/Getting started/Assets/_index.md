@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Help our pentesters test your [assets](/getting-started/glossary/#asset) faster.
+Help our pentesters test your [assets](/platform-deep-dive/glossary/#asset) faster.
 {{% /pageinfo %}}
 
 Once you select **Create a Pentest**, you land on the **Let's Get Started** screen.

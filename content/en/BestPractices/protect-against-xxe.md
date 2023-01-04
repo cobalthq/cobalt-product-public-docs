@@ -10,7 +10,7 @@ description: >
 Learn how to protect your application from malicious Extensible Markup Language (XML) inputs.
 {{% /pageinfo %}}
 
-[OWASP](/getting-started/glossary/#open-web-application-security-project-owasp) ranked XML External Entities (XXE) vulnerability fourth in the [OWASP Top 10 Application Security Risks 2017](https://owasp.org/www-project-top-ten/2017/Top_10) based on its impact and likelihood. Later, they merged this category with Security Misconfiguration ranked fifth in the [OWASP Top 10 2021](https://owasp.org/www-project-top-ten/).
+[OWASP](/platform-deep-dive/glossary/#open-web-application-security-project-owasp) ranked XML External Entities (XXE) vulnerability fourth in the [OWASP Top 10 Application Security Risks 2017](https://owasp.org/www-project-top-ten/2017/Top_10) based on its impact and likelihood. Later, they merged this category with Security Misconfiguration ranked fifth in the [OWASP Top 10 2021](https://owasp.org/www-project-top-ten/).
 
 ## Description
 

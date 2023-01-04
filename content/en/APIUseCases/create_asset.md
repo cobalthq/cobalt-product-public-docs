@@ -18,7 +18,7 @@ member](https://cobaltio.zendesk.com/hc/en-us/articles/360058712491-How-do-I-add
 Your organization owner is typically the user who interacts with the Cobalt
 Customer Success Manager (CSM).
 
-You can create an [asset](/getting-started/glossary/#asset) in the UI.
+You can create an [asset](/platform-deep-dive/glossary/#asset) in the UI.
 If you prefer to automate the process and/or work from the command line, you can also use
 our API.
 
@@ -96,7 +96,7 @@ Now that you have the following information:
 - `{{% api-token %}}`
 - `{{% org-token %}}` 
 
-You can create an [asset](/getting-started/glossary/#asset) with the following REST call:
+You can create an [asset](/platform-deep-dive/glossary/#asset) with the following REST call:
 
 ```bash
 curl -X POST "https://api.cobalt.io/assets" \

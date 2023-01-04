@@ -1,7 +1,8 @@
 ---
 title: "Glossary"
 linkTitle: "Glossary"
-weight: 400
+weight: 60
+aliases: /platform-deep-dive/glossary/
 description: >
  Learn more about the language of software security.
 ---
