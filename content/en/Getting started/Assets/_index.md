@@ -13,7 +13,7 @@ You can launch multiple pentests for an [asset](/getting-started/glossary/#asset
 ![Workflow for creating a pentest](/gsg/CreatePentestFlowStage1.png "Workflow for creating a pentest")
 <br>
 
-Once you've signed in, you land on the **Assets** page.
+Once you've [signed in](/getting-started/sign-in/), you land on the **Assets** page.
 
 - To add a single asset, select **New Asset**. Specify [asset details](#asset-details).
 - To upload assets in bulk in CSV or XLSX format, select **Bulk Assets**. Once uploaded, you can select an asset to add an image, [technology stack](/platform-deep-dive/assets/risk-advisories/#add-a-technology-stack-for-your-asset), and [attachments](/getting-started/assets/asset-description/#attachments).

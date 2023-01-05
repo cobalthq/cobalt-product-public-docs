@@ -22,7 +22,7 @@ The standard testing period is 14 days. It may vary depending on the pentest sco
 
 ![Planning and scoping a pentest](/gsg/ScheduleScopePentest.png "Schedule and scope your pentest")
 
-If you have any special requirements, such as qualifications for pentester certifications,
+If you have any [special requirements](/getting-started/review-pentest/#additional-requests), such as qualifications for pentester certifications,
 we reserve the right to start the pentest later than the flow time specified in your
 {{% ptaas-tier %}}.
 
