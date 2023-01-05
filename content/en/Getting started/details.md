@@ -10,7 +10,7 @@ description: >
 Some detail requirements vary by the type of asset.
 {{% /pageinfo %}}
 
-![Workflow for creating a pentest](/gsg/CreatePentestFlowStep5.png "Workflow for creating a pentest")
+![Workflow for creating a pentest](/gsg/CreatePentestFlowStage5.png "Workflow for creating a pentest")
 <br>
 
 In the third stage of the pentest wizard, you can specify pentest details. Our pentests have common requirements

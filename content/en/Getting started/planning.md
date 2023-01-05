@@ -10,7 +10,7 @@ description: >
 Set the start date for your pentest and define its scope.
 {{% /pageinfo %}}
 
-![Workflow for creating a pentest](/gsg/CreatePentestFlowStep6.png "Workflow for creating a pentest")
+![Workflow for creating a pentest](/gsg/CreatePentestFlowStage6.png "Workflow for creating a pentest")
 <br>
 
 ## Schedule the Pentest

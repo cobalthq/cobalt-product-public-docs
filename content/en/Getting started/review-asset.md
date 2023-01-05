@@ -10,7 +10,7 @@ description: >
 In the first stage of the pentest wizard, you can double-check the details of the [asset](/getting-started/assets/) that you've set up earlier.
 {{% /pageinfo %}}
 
-![Workflow for creating a pentest](/gsg/CreatePentestFlowStep3.png "Workflow for creating a pentest")
+![Workflow for creating a pentest](/gsg/CreatePentestFlowStage3.png "Workflow for creating a pentest")
 <br>
 
 To update the asset details, select **Edit Asset**.
