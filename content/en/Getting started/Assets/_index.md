@@ -1,6 +1,6 @@
 ---
 title: "Define Your Assets"
-linkTitle: "Stage 1: Define Your Assets"
+linkTitle: "Define Your Assets"
 weight: 10
 description: >
   Security professionals perform pentests on your assets. Collect the info they need.

@@ -1,6 +1,6 @@
 ---
 title: "Plan and Scope the Pentest"
-linkTitle: "Stage 6: Plan and Scope the Pentest"
+linkTitle: "Plan and Scope the Pentest"
 weight: 210
 description: >
   Set up a schedule. Scope the pentest.

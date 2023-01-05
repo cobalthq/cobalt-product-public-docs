@@ -1,6 +1,6 @@
 ---
 title: "Review Your Asset"
-linkTitle: "Stage 3: Review Your Asset"
+linkTitle: "Review Your Asset"
 weight: 12
 description: >
   Verify asset details.
