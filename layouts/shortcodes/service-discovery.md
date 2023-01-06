@@ -1,10 +1,9 @@
-After gathering all available information, our pentesters probe the resources associated
-with your asset. These tests involve several stages:
+After gathering all available information, our pentesters probe your asset in several stages:
 
 ### Port Scans
 
-Our pentesters start with complete port scans on the IP address ranges for your asset. From
-this information, our pentesters can identify networked systems and resources, along with
+Our pentesters start with complete port scans on the IP address ranges for your asset. These
+scans reveal networked systems and resources, along with
 their functionality. For example, the following services require access to the outside world:
 
 - Firewalls
@@ -41,16 +40,16 @@ In some cases, exposed hosts may have unused open services that our pentesters m
 
 ### Payment Card Industry (PCI) Digital Security Standard (DSS)
 
-If needed, our pentesters check the network segmentation required to comply with
+Our pentesters review your network for the segmentation required to comply with
 Payment Card Industry (PCI) Digital Security Standard (DSS) standards. This includes:
 
-- Checking whether out-of-scope systems are blocked from systems in the Cardholder Data Environment (CDE)
+- Reviewing out-of-scope systems. See if they are blocked from systems in the Cardholder Data Environment (CDE).
 - Any potential impact to the security of the CDE.
 
 ### Our Pentesters Use Caution
 
-As certain vulnerabilities and exploits could paralyze, damage, or alter the content of the
-network, our pentesters do not perform these attacks. They do make note of the possible risks.
+Our pentesters do not use exploits or vulnerabilities that could paralyze, damage, or alter the content of the
+network. They do make note of the possible risks.
 
 For example, our pentesters won't run exploits that:
 

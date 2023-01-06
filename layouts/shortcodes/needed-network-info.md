@@ -1,5 +1,5 @@
-The Cobalt team of pentesters can proceed with a minimum of information, such as the IP addresses
-in question. However, you can include the following details in the scope of your desired pentest:
+The Cobalt team of pentesters can proceed with a minimum of information, such as a list of IP addresses.
+However, you can include the following details in the scope of your desired pentest:
 
 - Network diagrams
 - Infrastructure diagrams

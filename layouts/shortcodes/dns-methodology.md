@@ -6,5 +6,5 @@ If an attacker gets access to your DNS server, they could find out how:
 - The domain sends and receives email
 - Servers that support your website
 
-One serious DNS configuration error would allow unknown internet users to perform a DNS zone transfer, which could allow attackers to access
-more valuable information about your network.
+One serious DNS configuration error allows unknown internet users run a DNS zone transfer. With that information, attackers can find
+more valuable information about your network

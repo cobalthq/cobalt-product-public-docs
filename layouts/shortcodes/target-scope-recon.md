@@ -4,8 +4,7 @@ connect to the internet, you typically have shared some information. For example
 - To receive email, you need to post a mail server address
 - To set up a web server, you need to post its URL and more
 
-Our pentesters know that attackers can work through multiple avenues to gain access to
-internal resources, including:
+Our pentesters know how attackers can gain access to internal resources. These methods include:
 
 - Brute-forcing credentials using discovered company email formats
 - Building password dictionaries which contain public business information from the corporate website. 
