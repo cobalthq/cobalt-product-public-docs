@@ -59,15 +59,3 @@ For example, our pentesters won't run exploits that:
 - May affect customers (such as with a Denial of Service (DoS) attack)
 
 Our pentesters do not disable the ability of your organization to function.
-
-### Tools
-
-Our pentesters may use the following service discovery tools (and more):
-
-- Nmap
-- Nikto
-- Aquatone
-- Metasploit
-- Eyewitness
-- Nessus
-- testssl.sh
