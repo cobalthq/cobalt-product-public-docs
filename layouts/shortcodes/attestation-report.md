@@ -1,1 +1,1 @@
-A report similar to [Customer Letter](/platform-deep-dive/glossary/#customer-letter), with additional details:<ul><li>Pentester user information</li><li>An overall list of findings</li></ul>
+A report similar to [Customer Letter](/glossary/#customer-letter), with additional details:<ul><li>Pentester user information</li><li>An overall list of findings</li></ul>

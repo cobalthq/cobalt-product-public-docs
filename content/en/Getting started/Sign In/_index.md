@@ -51,9 +51,9 @@ If you have problems signing in, see <a href="/platform-deep-dive/cobalt-account
 
 ## SAML SSO
 
-We support single sign-on (SSO) based on [Security Assertion Markup Language](/platform-deep-dive/glossary/#security-assertion-markup-language) 2.0 (SAML 2.0). SAML-based single sign-on (SSO) is available to all <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tiers</a>.
+We support single sign-on (SSO) based on [Security Assertion Markup Language](/glossary/#security-assertion-markup-language) 2.0 (SAML 2.0). SAML-based single sign-on (SSO) is available to all <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tiers</a>.
 
-Once your [Organization Owner](/platform-deep-dive/glossary/#organization-owner) has configured SAML SSO, you need to sign in to Cobalt through the identity provider (IdP) instead of the Cobalt {{% sign-in %}} page. Procedures differ for each provider. Usually, you need to select the Cobalt app within the IdP system.
+Once your [Organization Owner](/glossary/#organization-owner) has configured SAML SSO, you need to sign in to Cobalt through the identity provider (IdP) instead of the Cobalt {{% sign-in %}} page. Procedures differ for each provider. Usually, you need to select the Cobalt app within the IdP system.
 
 {{% alert title="Note" color="primary" %}}
 If you can't sign in through SAML SSO, see our <a href="/platform-deep-dive/cobalt-account/account-recovery/#cant-sign-in-using-saml-sso">troubleshooting tips</a>.

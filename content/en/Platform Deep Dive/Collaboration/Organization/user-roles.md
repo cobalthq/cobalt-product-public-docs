@@ -12,11 +12,11 @@ Depending on their role, a user can collaborate at the pentest or organization l
 
 | Pentest Level | Organization Level |
 |---|---|
-| A [Pentest Team Member](/platform-deep-dive/glossary/#pentest-team-member):<ul><li>Can collaborate on a specific pentest</li><li>Has no access to users or settings of an organization</li></ul> | An [Organization Owner](/platform-deep-dive/glossary/#organization-owner) has the highest level of access and can:{{% org-owner-permissions %}}An [Organization Member](/platform-deep-dive/glossary/#organization-member) can:{{% org-member-permissions %}} |
+| A [Pentest Team Member](/glossary/#pentest-team-member):<ul><li>Can collaborate on a specific pentest</li><li>Has no access to users or settings of an organization</li></ul> | An [Organization Owner](/glossary/#organization-owner) has the highest level of access and can:{{% org-owner-permissions %}}An [Organization Member](/glossary/#organization-member) can:{{% org-member-permissions %}} |
 
 Refer to the table below for a detailed list of permissions and privileges for each role. Some permissions depend on the {{% ptaas-tier %}} of your organization.
 
-| Permission | [Pentest Team Member](/platform-deep-dive/glossary/#pentest-team-member) | [Organization Member](/platform-deep-dive/glossary/#organization-member) | [Organization Owner](/platform-deep-dive/glossary/#organization-owner) |
+| Permission | [Pentest Team Member](/glossary/#pentest-team-member) | [Organization Member](/glossary/#organization-member) | [Organization Owner](/glossary/#organization-owner) |
 |---|:---:|:---:|:---:|
 | View and edit pentest details | ✔️ | ✔️ | ✔️ |
 | View pentest activity updates and pentester updates| ✔️ | ✔️ | ✔️ |

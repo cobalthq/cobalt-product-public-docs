@@ -25,7 +25,7 @@ The availability of some features in the Cobalt platform depends on the {{% ptaa
 | Self-service platform with Google OAuth 2.0 and two-factor authentication | All | Users can [sign in](/getting-started/sign-in/) with a username and password or through Google authentication. An Organization Owner can enforce [two-factor authentication](/getting-started/sign-in/#two-factor-authentication) for their organization to add an extra layer of security to user accounts. |
 | SAML-based SSO | All | An Organization Owner can configure [SAML-based SSO](/getting-started/sign-in/#saml-sso) for their organization to enhance the security of the sign-in process. |
 | Best practice methodology and coverage checklist | All | Our pentesters use [pentest methodologies](/platform-deep-dive/pentests/pentest-process/methodologies/) that are recognized as best practices in the security industry. They follow a coverage checklist based on [OWASP](https://owasp.org/) standards to test your assets. |
-| Detailed findings with recommended fixes | All | When our pentesters find a [vulnerability](/platform-deep-dive/glossary/#vulnerability) in your [asset](/platform-deep-dive/glossary/#asset) during a pentest, they submit [findings](/platform-deep-dive/glossary/#finding) and provide recommendations on how to fix them. |
+| Detailed findings with recommended fixes | All | When our pentesters find a [vulnerability](/glossary/#vulnerability) in your [asset](/glossary/#asset) during a pentest, they submit [findings](/glossary/#finding) and provide recommendations on how to fix them. |
 | Real-time collaboration via Slack and the platform | All | You get real-time updates from pentesters as they're testing your asset—in a dedicated Slack channel and in the Cobalt platform. You can promptly follow up on the issues they reported. |
 | Cobalt API | All | Use the [Cobalt RESTful API](https://docs.cobalt.io/v2/) to integrate pentest data into your development and application security tools. Build your own integrations to streamline your workflows. |
 | Start pentest within | Depends on the tier | The pentest start time is based on your PtaaS tier and depends on when you've submitted all the required information for your pentest. We move the pentest to [Planned](/penteststates/), allocate pentesters—and they start testing your asset within the following timeframes:<ul><li>Standard tier: 3 business days</li><li>Premium tier: 2 business days</li><li>Enterprise tier: 1 business day</li></ul> |
@@ -45,7 +45,7 @@ Cobalt offers **security services beyond pentesting**. Our goal is to be an ongo
 
 ## View Your Organization's Tier
 
-As an [Organization Owner](/platform-deep-dive/glossary/#organization-owner) or [Member](/platform-deep-dive/glossary/#organization-member), you can view your organization's tier on the [**Credits** page](/platform-deep-dive/credits/track-credits/). In the UI, it appears as **Subscription Plan**.
+As an [Organization Owner](/glossary/#organization-owner) or [Member](/glossary/#organization-member), you can view your organization's tier on the [**Credits** page](/platform-deep-dive/credits/track-credits/). In the UI, it appears as **Subscription Plan**.
 - For some organizations, we don't show their subscription plan on the **Credits** page.
 
 ![View your organization's tier on the Credits page](/deepdive/SubscriptionPlanCreditsPage.png "View your organization's tier on the Credits page")

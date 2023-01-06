@@ -34,7 +34,7 @@ follow.
   - Encrypt the system with a ECDSA key.
 
 - Exception: it is OK to use passive voice for definitions. Example:
-  - A [Pentest Team Member](https://developer.cobalt.io/platform-deep-dive/glossary/#pentest-team-member) is a customer (organization) representative during a specific pentest.
+  - A [Pentest Team Member](https://developer.cobalt.io/glossary/#pentest-team-member) is a customer (organization) representative during a specific pentest.
 
 - In lists, use the serial comma (also known as the Oxford comma)
 

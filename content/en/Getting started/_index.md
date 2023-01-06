@@ -43,15 +43,15 @@ we send you an email invitation, which you can use to [Sign in to Cobalt](./sign
 
 Our journey takes you through the steps required to create a pentest:
 
-1. Select the [pentest type](/platform-deep-dive/pentests/pentest-types/). We offer [Agile](/platform-deep-dive/glossary/#agile-pentest) and [Comprehensive Pentests](/platform-deep-dive/glossary/#comprehensive-pentest).
+1. Select the [pentest type](/platform-deep-dive/pentests/pentest-types/). We offer [Agile](/glossary/#agile-pentest) and [Comprehensive Pentests](/glossary/#comprehensive-pentest).
 1. Define your [assets](/getting-started/assets/). Our pentesters analyze all kinds of
    assets, from web apps to internal networks.
 1. Set [requirements](./pentest-objectives) for your pentest.
    - By default, our pentesters use standards defined by the
      [Open Web Application Security
-     Project (OWASP)](/platform-deep-dive/glossary/#open-web-application-security-project-owasp) and in
+     Project (OWASP)](/glossary/#open-web-application-security-project-owasp) and in
      the [Open Source Security Testing Methodology
-     Manual](/platform-deep-dive/glossary/#open-source-security-testing-methodology-manual-osstmm).
+     Manual](/glossary/#open-source-security-testing-methodology-manual-osstmm).
    - Add and modify the objectives of your choice.
    - To help our penetration testers, include more information about your asset,
      such as architecture and coding language. You'll see more details about

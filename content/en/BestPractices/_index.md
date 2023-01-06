@@ -11,10 +11,10 @@ This document collects content from [our pentesters](https://cobalt.io/our-pente
 help you secure your systems.
 {{% /pageinfo %}}
 
-You want to start an [application security](/platform-deep-dive/glossary/#application-security-appsec)
+You want to start an [application security](/glossary/#application-security-appsec)
 program. You've read through the 2021 version of the [OWASP Top 10](https://owasp.org/Top10/).
 We'll provide practical examples that you can use as patterns to secure your
-[assets](/platform-deep-dive/glossary/#asset).
+[assets](/glossary/#asset).
 
 <!-- Plan: set up subdirectories based on each OWASP Top 10 entry. Add an `_index.md` file, with a brief description from https://owasp.org/Top10/ and add each article in that subdirectory -->
 <!-- Keep the first articles in the "top-level" BestPractices subdirectory,

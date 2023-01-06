@@ -1,8 +1,8 @@
 ---
 title: "Glossary"
 linkTitle: "Glossary"
-weight: 60
-aliases: /platform-deep-dive/glossary/
+weight: 700
+aliases: /getting-started/glossary/
 description: >
  Learn more about the language of software security.
 ---
@@ -129,8 +129,7 @@ roles:
 
 Select Cobalt employees may be assigned as administrators, as Cobalt Staff.
 
-You can review a list of permissions associated with each organization role in the following
-article: [What do the user roles mean?](https://cobaltio.zendesk.com/hc/en-us/articles/360057093472-What-do-the-user-roles-mean-).
+See [User Roles and Permissions](/platform-deep-dive/collaboration/organization/user-roles/) to review a list of permissions associated with each organization role.
 
 <!-- Per https://zombie.atlassian.net/browse/DOCS-5 I should add info from an internal
 spreadsheet, but need to find pull code in Hugo -->
