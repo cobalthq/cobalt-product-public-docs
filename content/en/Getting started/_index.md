@@ -41,7 +41,9 @@ we send you an email invitation, which you can use to [Sign in to Cobalt](./sign
 
 ## Overview
 
-Our journey takes you through the steps required to create a pentest:
+Our journey takes you through the steps required to create a pentest.
+
+![Workflow for creating a pentest](/gsg/CreatePentestFlowFull.png "Workflow for creating a pentest")
 
 1. Define your [assets](/getting-started/assets/). Our pentesters analyze all kinds of
    assets, from web apps to internal networks.
