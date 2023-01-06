@@ -65,7 +65,7 @@ As an [Organization Owner](/getting-started/glossary/#organization-owner), you c
 
 1. Once you get an email notification requesting you to turn off 2FA, select **Recover Account** in the email.
 1. On the **People** page of your dashboard, locate the user who submitted the request.
-1. Select the three-dot icon on the right, and then select **Turn Off 2FA**.
+1. Select the three-dot icon ![Three-dot icon](/icons/Ellipsis.png "Three-dot icon") on the right, and then select **Turn Off 2FA**.
    - We verified the user's identity with a one-time verification code. However, we recommend that you verify their identity again before turning off 2FA.<br>
        ![Turn off 2FA for a user](/deepdive/TurnOff2FA.png "Turn off 2FA for a user")
 1. Select **Confirm** in the overlay that appears.
@@ -118,5 +118,5 @@ If you believe your account was compromised, reach out to {{% csm-support %}}. W
 
 If you have access to your Cobalt account, do the following:
 
-1. Reset your password.<!--Add link to instruction-->
-1. Reset two-factor authentication.<!--Add link to instruction-->
+1. [Change your password](/platform-deep-dive/cobalt-account/account-settings/#change-your-password).
+1. [Reset two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#reset-two-factor-authentication).
