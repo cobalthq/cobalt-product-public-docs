@@ -65,7 +65,7 @@ Learn how Organization Owners can [configure SAML SSO](https://cobaltio.zendesk.
 
 We support two-factor authentication (2FA). If you're using [SAML SSO](#saml-sso) to sign in, you don't need to turn on 2FA.
 
-- If your organization enforces all users to enable 2FA, configure it upon signing in.
+- If your organization enforces all users to enable 2FA, configure it upon signing in. Follow steps 3–5 from the instruction in [Enable Two-Factor Authentication](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication).
 - We recommend that you [enable 2FA](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication) even if your organization doesn't enforce it.
 
 {{< alert title="Tip" color="primary" >}}
