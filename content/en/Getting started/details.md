@@ -1,6 +1,6 @@
 ---
 title: "Specify Pentest Details"
-linkTitle: "Stage 3: Specify Pentest Details"
+linkTitle: "Specify Pentest Details"
 weight: 200
 description: >
   Describe key details of your pentest.
@@ -10,10 +10,10 @@ description: >
 Some detail requirements vary by the type of asset.
 {{% /pageinfo %}}
 
-<!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
-{{% big-pic-UI-steps %}}
+![Workflow for creating a pentest](/gsg/CreatePentestFlowStage5.png "Workflow for creating a pentest")
+<br>
 
-In this section, you can specify pentest details. Our pentests have common requirements
+Now that you've defined the key [requirements](/getting-started/pentest-objectives/) for your pentest, add more details. Our pentests have common requirements
 for all assets, as well as requirements for specific assets.
 
 Pentest requirements for Web and API assets are identical. However,

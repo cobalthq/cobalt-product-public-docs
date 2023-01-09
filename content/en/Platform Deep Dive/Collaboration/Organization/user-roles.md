@@ -32,4 +32,4 @@ Refer to the table below for a detailed list of permissions and privileges for e
 | [Manage users](/platform-deep-dive/collaboration/organization/manage-users/#manage-users-for-your-organization) for an organization | ➖ | ➖ | ✔️ |
 | View the email addresses of users on the **People** page | ➖ | ➖ | ✔️ |
 | Manage identity and access settings for an organization: [two-factor authentication](/getting-started/sign-in/#two-factor-authentication) and [SAML SSO](/getting-started/sign-in/#saml-sso) | ➖ | ➖ | ✔️ |
-| Enable [co-branded reports](/getting-started/checklist/#co-branded-reports) (for partners) | ➖ | ➖ | ✔️ |
+| Enable [co-branded reports](/getting-started/review-pentest/#co-branded-reports) (for partners) | ➖ | ➖ | ✔️ |
