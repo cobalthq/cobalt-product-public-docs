@@ -67,9 +67,9 @@ We support two-factor authentication (2FA). After you sign in, select the profil
 
 If you’re using [SAML SSO](#saml-sso) to sign in, you don’t need to turn on 2FA.
 
-{{% alert title="Note" color="primary" %}}
-If you have problems signing in with 2FA, see our <a href="/platform-deep-dive/cobalt-account/account-recovery/#problems-with-two-factor-authentication">troubleshooting tips</a>.
-{{% /alert %}}
+{{< alert title="Tip" color="primary" >}}
+{{% 2fa-see-troubleshooting %}}
+{{< /alert >}}
 
 ## Next Step
 

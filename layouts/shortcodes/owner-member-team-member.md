@@ -1,0 +1,3 @@
+- [Organization Owner](/getting-started/glossary/#organization-owner)
+- [Organization Member](/getting-started/glossary/#organization-member)
+- [Pentest Team Member](/getting-started/glossary/#pentest-team-member)
