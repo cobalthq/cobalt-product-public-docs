@@ -74,4 +74,4 @@ If you have problems signing in with 2FA, see our [troubleshooting tips](/platfo
 
 ## Next Step
 
-You can now start setting up a pentest. Select **Create a Pentest**, and proceed to the next step to [define your assets](../assets).
+You can start [defining your assets](/getting-started/assets/). Select **New Asset** to proceed.

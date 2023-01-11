@@ -1,32 +1,24 @@
 ---
 title: "Define Your Assets"
-linkTitle: "Stage 1: Define Your Assets"
+linkTitle: "Define Your Assets"
 weight: 10
 description: >
   Security professionals perform pentests on your assets. Collect the info they need.
 ---
 
 {{% pageinfo %}}
-Help our pentesters test your [assets](/getting-started/glossary/#asset) faster.
+You can launch multiple pentests for an [asset](/getting-started/glossary/#asset). Once you've set up an asset, you can reuse it in your next pentests.
 {{% /pageinfo %}}
 
-Once you select **Create a Pentest**, you land on the **Let's Get Started** screen.
+![Workflow for creating a pentest](/gsg/CreatePentestFlowStage1.png "Workflow for creating a pentest")
+<br>
 
-![Let's Get Started screen prompting you to select the pentest type](/gsg/LetsGetStarted.png "Let's Get Started screen prompting you to select the pentest type")
+Once you've [signed in](/getting-started/sign-in/), you land on the **Assets** page.
 
-Before you start defining your assets, select the [pentest type](/platform-deep-dive/pentests/pentest-types/) that you want to launch.
-
-- {{% agile-pentest %}}
-- {{% comprehensive-pentest %}}
-
-Select how you want to proceed with your asset:
-
-- **Create a new asset**:
-  - On the **Asset** page, specify the [asset details](#asset-details). Once you select **Create Asset**, you land on the **Assets** page.
-  - To set up a pentest for this asset, select **Create Pentest** on the asset row.
-- **Use an existing asset**:
-  - Select an asset from the list. Once you select **Continue**, you can see asset details on the **Review Asset** screen. To update asset information, select **Edit Asset**.<br>
-  ![Review your asset in the pentest wizard](/gsg/ReviewAsset.png "Review your asset in the pentest wizard")
+- To add a single asset, select **New Asset**. Specify [asset details](#asset-details).
+- To upload assets in bulk in CSV or XLSX format, select **Bulk Assets**. Once uploaded, you can select an asset to add an image, [technology stack](/platform-deep-dive/assets/risk-advisories/#add-a-technology-stack-for-your-asset), and [attachments](/getting-started/assets/asset-description/#attachments).
+  - If the upload is successful, all your assets from the file are added. Otherwise, no assets are created. Our algorithm doesn't process the request partially.
+  - We don't prevent you from creating duplicate assets.
 
 ## Asset Details
 
