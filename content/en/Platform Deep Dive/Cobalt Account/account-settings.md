@@ -32,7 +32,8 @@ To edit general account settings, select **Account Settings** on the user menu.
 ### Change Your Email Address
 
 1. Navigate to https://app.cobalt.io/settings/account.
-1. In the Your email field, enter a new email address that you want to link to your Cobalt account.
+1. In the **Your email** field, enter a new email address that you want to link to your Cobalt account.
+    - Make sure this email address is valid.
 1. Enter your current password to confirm the changes, and select **Update Account**.
     - {{% forgot-password-reset %}}
 1. Follow the instructions in the email you receive.
