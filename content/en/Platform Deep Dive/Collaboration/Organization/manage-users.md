@@ -57,9 +57,7 @@ To remove a user from your organization:
 
 To [add](#add-a-pentest-team-member) or [remove users](#remove-a-pentest-team-member) from a specific pentest, you should have one of the following [roles](/platform-deep-dive/collaboration/organization/user-roles/):
 
-- [Organization Owner](/getting-started/glossary/#organization-owner)
-- [Organization Member](/getting-started/glossary/#organization-member)
-- [Pentest Team Member](/getting-started/glossary/#pentest-team-member)
+{{% owner-member-team-member %}}
 
 ### Add a Pentest Team Member
 

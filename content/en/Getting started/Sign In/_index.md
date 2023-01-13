@@ -69,7 +69,7 @@ We support two-factor authentication (2FA). If you're using [SAML SSO](#saml-sso
 - We recommend that you [enable 2FA](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication) even if your organization doesn't enforce it.
 
 {{< alert title="Tip" color="primary" >}}
-If you have problems signing in with 2FA, see our [troubleshooting tips](/platform-deep-dive/cobalt-account/account-recovery/#problems-with-two-factor-authentication).
+{{% 2fa-see-troubleshooting %}}
 {{< /alert >}}
 
 ## Next Step
