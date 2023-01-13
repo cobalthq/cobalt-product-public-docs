@@ -37,27 +37,29 @@ Follow these instructions if you can't sign in to Cobalt because:
 
 ### Lost Access to Your Authenticator
 
-Users in the following roles can ask an [Organization Owner](/getting-started/glossary/#organization-owner) to turn off [two-factor authentication](/getting-started/sign-in/#two-factor-authentication) (2FA) for their account:
+Users in the following roles can ask an [Organization Owner](/getting-started/glossary/#organization-owner) to turn off [two-factor authentication (2FA)](/getting-started/sign-in/#two-factor-authentication) for their account:
 
 - [Organization Owner](/getting-started/glossary/#organization-owner)
 - [Organization Member](/getting-started/glossary/#organization-member)
 - [Pentest Team Member](/getting-started/glossary/#pentest-team-member)
 
-Follow these steps:
+{{% org-owner-2fa %}} upon your request. Follow the steps below.
+
+To request to turn off 2FA:
 
 1. Sign in to Cobalt from the {{% sign-in %}} page in one of the following ways:
    - With your username and password
    - By selecting **Sign in with Google**
-1. On the page prompting you to enter a one-time code, select **Start account recovery process**.<br>
-    ![Two-Factor Authentication page](/deepdive/2FARecovery.png "Select 'Start account recovery process' to recover your account")
+1. On the page prompting you to enter a one-time code, select **Start account recovery process**.<br><br>
+    ![Two-Factor Authentication page](/deepdive/SignIn2FARecovery.png "Select 'Start account recovery process' to recover your account")
 1. Once you get an email with a one-time identity verification code, enter the code, and select **Verify**.
-1. Your Organization Owner gets notified and turns off 2FA for your account.
-   - If you are the only Organization Owner, we'll turn off 2FA for you.
+1. Your Organization Owner gets notified and [turns off 2FA](#turn-off-2fa-for-a-user) for your account.
+   - {{% org-owner-2fa %}}.
 1. You get an email notification confirming that your 2FA settings were updated.
 1. You can now sign in without a second authentication factor.
    - If your organization enforces 2FA, enable it upon signing in.
 
-Once you've set up a new authenticator, you can turn on 2FA again.<!--Add link to instruction-->
+Once you've set up a new authenticator, you can [turn on 2FA](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication) again.
 
 #### Turn Off 2FA for a User
 
@@ -102,8 +104,8 @@ To reset your password:
 If your organization has enabled [SAML SSO](/getting-started/sign-in/#saml-sso), sign in from the identity provider system, such as Okta or OneLogin. You can't sign in from the Cobalt {{% sign-in %}} page.
 
 - If you don't know what identity provider your organization uses, contact your Organization Owner.
-- If you don't see the Cobalt app within your identity provider, contact your IdP admin. They'll add Cobalt to your IdP account. 
-- Ensure that you're a provisioned user both in the identity provider system and Cobalt. Complete the account setup process for Cobalt, which includes confirming your email address and password. The email address for your IdP and Cobalt must match.
+- If you don't see the Cobalt app within your identity provider, contact your IdP admin. They'll add Cobalt to your IdP account.
+- Ensure that you're a provisioned user both in the IdP system and Cobalt. Complete the account setup process for Cobalt, which includes confirming your email address and creating a password. The email address for your IdP and Cobalt must match.
 - As an Organization Owner, ensure that your SAML SSO configuration is correct.
 
 ## Locked Out of Your Account
