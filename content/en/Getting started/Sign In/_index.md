@@ -45,31 +45,32 @@ Now you can:
       ![Cobalt Sign In page](/gsg/SignInPage.png "Cobalt Sign In page")
    - Through [SAML SSO](#saml-sso), if configured
 
-{{% alert title="Note" color="primary" %}}
-If you have problems signing in, see <a href="/platform-deep-dive/cobalt-account/account-recovery/">Account Recovery</a>.
-{{% /alert %}}
+{{< alert title="Tip" color="primary" >}}
+If you have problems signing in, see [Account Recovery](/platform-deep-dive/cobalt-account/account-recovery/).
+{{< /alert >}}
 
 ## SAML SSO
 
-We support single sign-on (SSO) based on [Security Assertion Markup Language](/getting-started/glossary/#security-assertion-markup-language) 2.0 (SAML 2.0). SAML-based single sign-on (SSO) is available to all <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tiers</a>.
+We support single sign-on (SSO) based on [Security Assertion Markup Language](/getting-started/glossary/#security-assertion-markup-language) 2.0 (SAML 2.0). SAML-based single sign-on (SSO) is available to all [PtaaS tiers](https://www.cobalt.io/pentest-pricing).
 
 Once your [Organization Owner](/getting-started/glossary/#organization-owner) has configured SAML SSO, you need to sign in to Cobalt through the identity provider (IdP) instead of the Cobalt {{% sign-in %}} page. Procedures differ for each provider. Usually, you need to select the Cobalt app within the IdP system.
 
-{{% alert title="Note" color="primary" %}}
-If you can't sign in through SAML SSO, see our <a href="/platform-deep-dive/cobalt-account/account-recovery/#cant-sign-in-using-saml-sso">troubleshooting tips</a>.
-{{% /alert %}}
+{{< alert title="Tip" color="primary" >}}
+If you can't sign in through SAML SSO, see our [troubleshooting tips](/platform-deep-dive/cobalt-account/account-recovery/#cant-sign-in-using-saml-sso).
+{{< /alert >}}
 
 Learn how Organization Owners can [configure SAML SSO](https://cobaltio.zendesk.com/hc/en-us/sections/360012774052--SAML-SSO-).
 
 ## Two-Factor Authentication
 
-We support two-factor authentication (2FA). After you sign in, select the profile icon in the upper-right corner, and then select **Security Settings**.
+We support two-factor authentication (2FA). If you're using [SAML SSO](#saml-sso) to sign in, you don't need to turn on 2FA.
 
-If you’re using [SAML SSO](#saml-sso) to sign in, you don’t need to turn on 2FA.
+- If your organization enforces all users to enable 2FA, configure it upon signing in. Follow steps 3–5 from the instruction in [Enable Two-Factor Authentication](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication).
+- We recommend that you [enable 2FA](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication) even if your organization doesn't enforce it.
 
-{{% alert title="Note" color="primary" %}}
-If you have problems signing in with 2FA, see our <a href="/platform-deep-dive/cobalt-account/account-recovery/#problems-with-two-factor-authentication">troubleshooting tips</a>.
-{{% /alert %}}
+{{< alert title="Tip" color="primary" >}}
+If you have problems signing in with 2FA, see our [troubleshooting tips](/platform-deep-dive/cobalt-account/account-recovery/#problems-with-two-factor-authentication).
+{{< /alert >}}
 
 ## Next Step
 
