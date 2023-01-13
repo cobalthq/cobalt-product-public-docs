@@ -37,29 +37,29 @@ Follow these instructions if you can't sign in to Cobalt because:
 
 ### Lost Access to Your Authenticator
 
-Users in the following roles can ask an [Organization Owner](/getting-started/glossary/#organization-owner) to turn off [two-factor authentication](/getting-started/sign-in/#two-factor-authentication) (2FA) for their account:
+Users in the following roles can ask an [Organization Owner](/getting-started/glossary/#organization-owner) to turn off [two-factor authentication (2FA)](/getting-started/sign-in/#two-factor-authentication) for their account:
 
 - [Organization Owner](/getting-started/glossary/#organization-owner)
 - [Organization Member](/getting-started/glossary/#organization-member)
 - [Pentest Team Member](/getting-started/glossary/#pentest-team-member)
 
-{{% org-owner-2fa %}}
+{{% org-owner-2fa %}} upon your request. Follow the steps below.
 
-Follow these steps:
+To request to turn off 2FA:
 
 1. Sign in to Cobalt from the {{% sign-in %}} page in one of the following ways:
    - With your username and password
    - By selecting **Sign in with Google**
-1. On the page prompting you to enter a one-time code, select **Start account recovery process**.<br>
-    ![Two-Factor Authentication page](/deepdive/2FARecovery.png "Select 'Start account recovery process' to recover your account")
+1. On the page prompting you to enter a one-time code, select **Start account recovery process**.<br><br>
+    ![Two-Factor Authentication page](/deepdive/SignIn2FARecovery.png "Select 'Start account recovery process' to recover your account")
 1. Once you get an email with a one-time identity verification code, enter the code, and select **Verify**.
-1. Your Organization Owner gets notified and turns off 2FA for your account.
-   - {{% org-owner-2fa %}}
+1. Your Organization Owner gets notified and [turns off 2FA](#turn-off-2fa-for-a-user) for your account.
+   - {{% org-owner-2fa %}}.
 1. You get an email notification confirming that your 2FA settings were updated.
 1. You can now sign in without a second authentication factor.
    - If your organization enforces 2FA, enable it upon signing in.
 
-Once you've set up a new authenticator, you can turn on 2FA again.<!--Add link to instruction-->
+Once you've set up a new authenticator, you can [turn on 2FA](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication) again.
 
 #### Turn Off 2FA for a User
 
