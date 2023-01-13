@@ -77,8 +77,8 @@ To create a webhook:
 Now you can manage the webhooks that you [created](#create-a-webhook).
 
 - To make a webhook **inactive**, use the toggle under **Active**.
-- To **edit** a webhook, select the three-dot icon under **Actions**, and then select **Edit Webhook**. Update webhook parameters in the overlay that appears.
-- To **delete** a webhook, select the three-dot icon under **Actions**, and then select **Delete Webhook**.
+- To **edit** a webhook, select the three-dot icon {{% three-dots %}} under **Actions**, and then select **Edit Webhook**. Update webhook parameters in the overlay that appears.
+- To **delete** a webhook, select the three-dot icon {{% three-dots %}} under **Actions**, and then select **Delete Webhook**.
   - You can make a webhook inactive without deleting it.
 
 ## Troubleshoot Webhooks
