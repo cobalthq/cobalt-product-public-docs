@@ -111,8 +111,8 @@ To manage your API tokens, navigate to https://app.cobalt.io/settings/api-tokens
 
 - To revoke all tokens, select **Revoke All Tokens**.
   - Any applications or scripts using these tokens will no longer be able to access the Cobalt API.
-- To revoke a single token, select the three-dot icon ![Three-dot icon](/icons/Ellipsis.png "Three-dot icon") under **Actions**, and then select **Revoke Token**.
-- To edit the token name, select the three-dot icon ![Three-dot icon](/icons/Ellipsis.png "Three-dot icon") under **Actions**, and then select **Edit Name**. Enter a new name in the overlay that appears.
+- To revoke a single token, select the three-dot icon {{% three-dots %}} under **Actions**, and then select **Revoke Token**.
+- To edit the token name, select the three-dot icon {{% three-dots %}} under **Actions**, and then select **Edit Name**. Enter a new name in the overlay that appears.
 
 {{< alert title="Tip" color="primary" >}}
 Visit our [API documentation](https://docs.cobalt.io/v2/) to learn more about the Cobalt API.
