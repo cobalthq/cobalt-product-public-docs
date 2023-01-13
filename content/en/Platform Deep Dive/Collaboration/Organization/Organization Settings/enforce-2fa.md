@@ -49,4 +49,4 @@ We don't enforce 2FA for [Pentesters](/getting-started/glossary/#pentester) and 
 1. Navigate to **Settings** > **Identity & Access**.
 1. Under **Two-Factor Authentication**, select **Disable 2FA Enforcement**.
 
-Users within your organization are no longer required to enable 2FA. This does not automatically disable 2FA on their accounts. We recommend that they keep using 2FA to enhance their account security.
+Users within your organization are no longer required to enable 2FA. This does not disable 2FA on their accounts. We recommend that they keep using 2FA to enhance their account security.
