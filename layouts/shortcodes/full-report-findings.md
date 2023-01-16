@@ -1,1 +1,1 @@
-A report that adds details of _every_ test finding to the [Full Report](/glossary/#full-report).
+A report that adds details of _every_ test finding to the [Full Report](/getting-started/glossary/#full-report).

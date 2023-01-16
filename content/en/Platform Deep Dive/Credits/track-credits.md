@@ -11,7 +11,7 @@ description: >
 Navigate to the **Credits** page to analyze how your organization uses Cobalt [credits](/platform-deep-dive/credits/).
 {{% /pageinfo %}}
 
-Here, [Organization Owners](/glossary/#organization-owner) and [Members](/glossary/#organization-member) can see the following:
+Here, [Organization Owners](/getting-started/glossary/#organization-owner) and [Members](/getting-started/glossary/#organization-member) can see the following:
 
 - Current credit balance.
 - Contract end date showing when your credits expire.

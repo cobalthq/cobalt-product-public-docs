@@ -1,8 +1,7 @@
 ---
 title: "Glossary"
 linkTitle: "Glossary"
-weight: 700
-aliases: /getting-started/glossary/
+weight: 400
 description: >
  Learn more about the language of software security.
 ---

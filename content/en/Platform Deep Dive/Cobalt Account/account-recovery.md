@@ -37,9 +37,11 @@ Follow these instructions if you can't sign in to Cobalt because:
 
 ### Lost Access to Your Authenticator
 
-Users in the following roles can ask an [Organization Owner](/glossary/#organization-owner) to turn off [two-factor authentication (2FA)](/getting-started/sign-in/#two-factor-authentication) for their account:
+Users in the following roles can ask an [Organization Owner](/getting-started/glossary/#organization-owner) to turn off [two-factor authentication (2FA)](/getting-started/sign-in/#two-factor-authentication) for their account:
 
-{{% owner-member-team-member %}}
+- [Organization Owner](/getting-started/glossary/#organization-owner)
+- [Organization Member](/getting-started/glossary/#organization-member)
+- [Pentest Team Member](/getting-started/glossary/#pentest-team-member)
 
 {{% org-owner-2fa %}} upon your request. Follow the steps below.
 
@@ -61,7 +63,7 @@ Once you've set up a new authenticator, you can [turn on 2FA](/platform-deep-div
 
 #### Turn Off 2FA for a User
 
-As an [Organization Owner](/glossary/#organization-owner), you can turn off two-factor authentication for a user following their request.
+As an [Organization Owner](/getting-started/glossary/#organization-owner), you can turn off two-factor authentication for a user following their request.
 
 1. Once you get an email notification requesting you to turn off 2FA, select **Recover Account** in the email.
 1. On the **People** page of your dashboard, locate the user who submitted the request.

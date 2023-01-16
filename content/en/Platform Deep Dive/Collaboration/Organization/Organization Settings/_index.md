@@ -17,7 +17,7 @@ If your user role allows, you can:
 
 ## Edit the Organization Profile
 
-Both [Organization Owners](/glossary/#organization-owner) and [Members](/glossary/#organization-member) can do the following on the **General** tab:
+Both [Organization Owners](/getting-started/glossary/#organization-owner) and [Members](/getting-started/glossary/#organization-member) can do the following on the **General** tab:
 
 - Upload an image for their organization.
 - Edit the name and slug.
@@ -27,7 +27,7 @@ Both [Organization Owners](/glossary/#organization-owner) and [Members](/glossar
 
 ## Manage Identity and Access Settings
 
-Only [Organization Owners](/glossary/#organization-owner) can manage advanced settings:
+Only [Organization Owners](/getting-started/glossary/#organization-owner) can manage advanced settings:
 
 - [Enforce two-factor authentication](/platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/) for all users within the organization
 - Configure SAML-based single sign-on (SSO)<!--(/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/)-->

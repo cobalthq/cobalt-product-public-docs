@@ -1,1 +1,1 @@
-A system-generated report for an [Agile Pentest](/glossary/#agile-pentest) intended for internal use. Includes the following sections:<ul><li>Pentester user information</li><li>Executive Summary</li><li>Methodology</li><li>Post-Test Remediation</li><li>Finding Details</li></ul>
+A system-generated report for an [Agile Pentest](/getting-started/glossary/#agile-pentest) intended for internal use. Includes the following sections:<ul><li>Pentester user information</li><li>Executive Summary</li><li>Methodology</li><li>Post-Test Remediation</li><li>Finding Details</li></ul>
