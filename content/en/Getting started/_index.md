@@ -47,14 +47,14 @@ Our journey takes you through the steps required to create a pentest.
 
 1. Define your [assets](/getting-started/assets/). Our pentesters analyze all kinds of
    assets, from web apps to internal networks.
-1. Select the [pentest type](/getting-started/select-pentest-type/). We offer [Agile](/glossary/#agile-pentest) and [Comprehensive Pentests](/glossary/#comprehensive-pentest).
+1. Select the [pentest type](/getting-started/select-pentest-type/). We offer [Agile](/getting-started/glossary/#agile-pentest) and [Comprehensive Pentests](/getting-started/glossary/#comprehensive-pentest).
 1. [Review your asset](/getting-started/review-asset/).
 1. Set [requirements](./pentest-objectives) for your pentest.
    - By default, our pentesters use standards defined by the
      [Open Web Application Security
-     Project (OWASP)](/glossary/#open-web-application-security-project-owasp) and in
+     Project (OWASP)](/getting-started/glossary/#open-web-application-security-project-owasp) and in
      the [Open Source Security Testing Methodology
-     Manual](/glossary/#open-source-security-testing-methodology-manual-osstmm).
+     Manual](/getting-started/glossary/#open-source-security-testing-methodology-manual-osstmm).
    - Add and modify the objectives of your choice.
    - To help our penetration testers, include more information about your asset,
      such as architecture and coding language. You'll see more details about

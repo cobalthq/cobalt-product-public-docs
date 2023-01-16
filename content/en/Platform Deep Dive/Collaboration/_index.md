@@ -12,4 +12,4 @@ When the pentest is in progress, you get updates from our pentesters. To follow 
 
 Make sure you add the right people from your organization to a pentest. You can discuss pentest details and follow up on findings together.
 
-As an [Organization Owner](/glossary/#organization-owner), you can manage users and adjust settings for your organization.
+As an [Organization Owner](/getting-started/glossary/#organization-owner), you can manage users and adjust settings for your organization.
