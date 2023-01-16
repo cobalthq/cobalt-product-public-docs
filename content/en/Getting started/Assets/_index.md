@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-You can launch multiple pentests for an [asset](/getting-started/glossary/#asset). Once you've set up an asset, you can reuse it in your next pentests.
+You can launch multiple pentests for an [asset](/glossary/#asset). Once you've set up an asset, you can reuse it in your next pentests.
 {{% /pageinfo %}}
 
 ![Workflow for creating a pentest](/gsg/CreatePentestFlowStage1.png "Workflow for creating a pentest")

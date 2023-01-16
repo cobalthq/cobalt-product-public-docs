@@ -65,7 +65,7 @@ of the application. Add details such as:
 ### Network Assets (External and Internal)
 
 Our pentesters need network diagrams to know what to test on a network.
-If you've set up a [jump box](../../glossary#jump-box) for our pentesters on your
+If you've set up a [jump box](/glossary#jump-box) for our pentesters on your
 network, include the location in the diagram.
 
 Add network information, including the IP address / hostname of the
