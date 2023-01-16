@@ -14,7 +14,7 @@ With our API-based webhooks, you can set up an integration between your app and 
 
 When you work with an API, you can become aware of new data in the following ways:
 
-- Repeatedly send requests to the same [API endpoint](/getting-started/glossary/#api-endpoint) to retrieve new information, which is known as polling.
+- Repeatedly send requests to the same [API endpoint](/glossary/#api-endpoint) to retrieve new information, which is known as polling.
 - Configure a webhook that automatically sends new data to the specified URL.
 
 <!--Update the diagram once new webhook events are released.-->
