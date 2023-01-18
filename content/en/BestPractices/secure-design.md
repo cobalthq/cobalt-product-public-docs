@@ -11,7 +11,7 @@ Review some of the risks associated with [Insecure Design](https://owasp.org/Top
 as it relates to SQL Learn how secure design can help minimize your risks.
 {{% /pageinfo %}}
 
-As noted by [OWASP](/getting-started/glossary/#open-web-application-security-project-owasp),
+As noted by [OWASP](/glossary/#open-web-application-security-project-owasp),
 Insecure Design is "new category for 2021 focuses on risks related to design and architectural flaws".
 
 # Prevent Insecure Design # 

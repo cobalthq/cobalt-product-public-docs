@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-As an [Organization Owner](/getting-started/glossary/#organization-owner), you can enforce two-factor-authentication (2FA) for all users within your organization.
+As an [Organization Owner](/glossary/#organization-owner), you can enforce two-factor-authentication (2FA) for all users within your organization.
 {{% /pageinfo %}}
 
 2FA enforcement affects users belonging to your organization, including the following roles:
@@ -40,7 +40,7 @@ To view the 2FA status on the user accounts within your organization, navigate t
 - The user hasn't enabled 2FA—regardless of the 2FA enforcement; and
 - Your organization doesn't have SAML SSO configured.
 
-We don't enforce 2FA for [Pentesters](/getting-started/glossary/#pentester) and [Pentest Leads](/getting-started/glossary/#pentest-lead), but we display a warning icon ![Warning icon](/icons/Warning.png "Warning icon") on the **Pentest Collaborators** tab if they haven't enabled 2FA.
+We don't enforce 2FA for [Pentesters](/glossary/#pentester) and [Pentest Leads](/glossary/#pentest-lead), but we display a warning icon ![Warning icon](/icons/Warning.png "Warning icon") on the **Pentest Collaborators** tab if they haven't enabled 2FA.
 
 ![Check the 2FA status of users on the People page](/deepdive/Check2FAStatus.png "Check the 2FA status of users on the People page")
 
