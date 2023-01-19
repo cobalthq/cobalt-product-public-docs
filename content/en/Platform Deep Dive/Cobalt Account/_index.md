@@ -14,7 +14,7 @@ Tune your [account settings](/platform-deep-dive/cobalt-account/account-settings
 
 ## Protect Your Personal Data
 
-You may want to **anonymize or delete your account data** in compliance with [General Data Protection Regulation (GDPR)](https://gdpr.eu/).
+You may want to **anonymize or delete your account data** in compliance with [General Data Protection Regulation (GDPR)](https://gdpr.eu/). For more information, read our [Privacy Policy](https://www.cobalt.io/terms#privacy).
 
 {{%expand "Learn more about GDPR policies." %}}
 
