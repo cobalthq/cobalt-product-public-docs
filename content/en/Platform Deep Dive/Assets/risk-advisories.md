@@ -83,3 +83,14 @@ Select a vulnerability to view detailed information on the [National Vulnerabili
 {{% alert title="Note" color="primary" %}}
 Potential vulnerabilities on the **Risk Advisory** tab don’t belong to your pentests. These are potential risks based on the <a href="https://www.cve.org/" target="_blank">Common Vulnerabilities and Exposures (CVE)</a> standard that we show for your reference.
 {{% /alert %}}
+
+## Subscribe to Email Alerts
+
+You can subscribe to email alerts for **potential critical vulnerabilities** discovered in your assets. We only send alerts for Critical vulnerabilities, based on the CVSS severity levels.
+
+With real-time notifications, you can start remediating the risk faster, without having to constantly check for updates in the Cobalt app.
+
+- To subscribe to notifications for an asset, on the asset page, select the bell icon<!--![Bell icon](/icons/Bell.png "Bell icon")-->.
+- To unsubscribe from notifications, select the bell icon once again.
+
+<!--![Subscribe to email alerts for potential critical vulnerabilities](/deepdive/SubscribeToAlertsForVulnerabilities.png "Subscribe to email alerts for potential critical vulnerabilities")-->
