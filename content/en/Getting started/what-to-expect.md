@@ -15,10 +15,10 @@ results. Here's what you can expect:
 
 1. Once you've finished setting up a pentest, select **Pentests** in the left-hand
    pane. You should see your pentest listed, with an [In Review](/platform-deep-dive/pentests/pentest-process/pentest-states/) label.
-1. We'll select the best available testers before the start of the pentest. The time we need
+1. We'll select the best available pentesters before the start of the pentest. The time we need
    depends on your {{% ptaas-tier %}} and any [additional requests](/getting-started/review-pentest/#additional-requests) you have.
-1. Once our pentesters start the pentest, they'll update you on their progress. You can [collaborate on the pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/) and your teammates using the following communication channels:
-   - [Messaging](/platform-deep-dive/collaboration/collaborate-on-pentests/#collaborate-in-the-cobalt-app) in the Cobalt app. Select **Messages** on the pentest page. In the sidebar that opens, you can read updates from pentesters and communicate in the chat.<br><br>
+1. Once our pentesters start the pentest, they'll update you on their progress. You can [collaborate on the pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/) using the following communication channels:
+   - [Messaging in the Cobalt app](/platform-deep-dive/collaboration/collaborate-on-pentests/#collaborate-in-the-cobalt-app). Select **Messages** on the pentest page. In the sidebar that opens, you can read updates from pentesters and communicate in the chat.<br><br>
    ![Collaborate on a pentest in the Messages sidebar](/deepdive/MessagesSidebar.png "Collaborate on a pentest in the Messages sidebar")
    - A [Slack channel](/platform-deep-dive/collaboration/collaborate-on-pentests/#use-slack-for-communication) dedicated for your pentest.
 1. You may get questions from your pentesters. You can also elaborate
@@ -34,6 +34,6 @@ results. Here's what you can expect:
    [sample test report (PDF)](/gsg/GettingStarted_Sample_WebApp_Report.pdf) for a web app.
 1. We move your pentest to Closed once you've resolved all findings, which includes {{% resolved-finding-states %}}
 
-{{< alert title="Note" color="primary" >}}
+{{< alert title="Tip" color="primary" >}}
 To learn more about each pentest state, visit [Pentest States](/platform-deep-dive/pentests/pentest-process/pentest-states/).
 {{< /alert >}}
