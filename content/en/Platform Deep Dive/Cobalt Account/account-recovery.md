@@ -102,9 +102,7 @@ To reset your password:
 
 ## We Can't Recognize Your Device
 
-When you sign in to Cobalt, we record information about your device.
-
-If you sign in from a device that we can't recognize, we take additional steps to verify your identity. This may happen when you:
+{{% device-verification-intro %}} This may happen when you:
 
 - Sign in from a new browser
 - Use your browser's private (incognito) mode
@@ -119,6 +117,8 @@ When you see the **Verify It's You** message upon signing in, do the following:
 1. We save the device information and sign you in to the Cobalt app.
     - You get an email confirming that we verified your new device.
     - Next time you sign in from this device, you don't need to verify it again.
+
+To enhance your account security, we recommend that you [enable two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication).
 
 ## Can't Sign In Using SAML SSO
 
