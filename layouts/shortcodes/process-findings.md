@@ -1,0 +1,2 @@
+- Fix the finding and [submit it for retest](/platform-deep-dive/pentests/findings/remediate-findings/#submit-a-finding-for-retest)
+- [Mark the finding as Accepted Risk](/platform-deep-dive/pentests/findings/remediate-findings/#mark-a-finding-as-accepted-risk)
