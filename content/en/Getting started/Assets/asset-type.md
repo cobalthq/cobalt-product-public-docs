@@ -18,4 +18,4 @@ Once you've classified your asset, select an Asset Type:
 
 ![Select an Asset Type](/gsg/AssetType.png "Select an asset type")
 
-The next step is to [Describe Your Assets](../asset-description).
+The next step is to [Describe Your Assets](/getting-started/assets/asset-description/).

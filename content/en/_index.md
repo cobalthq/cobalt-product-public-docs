@@ -20,7 +20,7 @@ menu:
 ---
 
 This page includes links to other Cobalt literature, including our
-[Getting Started](./getting-started) guide.
+[Getting Started](/getting-started/) guide.
 
 <br>
 <div class="mx-auto">
