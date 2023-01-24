@@ -78,7 +78,7 @@ a cloud, you can include the platform and system name in the text box.
 ![Cloud Platform Details](/gsg/CloudPlatformDetails.png "Does your asset include cloud components?")
 
 In some cases, you may need to inform your Cloud provider about tests. For guidance,
-see our page on [Cloud Methodologies](../pentest-objectives/methodologies/cloud).
+see our page on [Cloud Methodologies](/platform-deep-dive/pentests/pentest-process/methodologies/cloud/).
 
 ### Additional Guidelines
 
@@ -107,4 +107,4 @@ test credit card numbers, you can share that information in the
 All Cobalt pentesters have signed a Non-Disclosure Agreement (NDA).
 {{% /alert %}}
 
-Now that you've filled in the details, you can start [planning and scoping](../planning) the actual pentest.
+Now that you've filled in the details, you can start [planning and scoping](/getting-started/planning/) the actual pentest.
