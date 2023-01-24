@@ -47,7 +47,7 @@ When you set up a webhook, you subscribe to the following events related to your
 
 | Pentest | Finding |
 |---|---|
-| <li>Pentest created</li><li>[Pentest state](/platform-deep-dive/pentests/pentest-process/pentest-states/) changed</li> | <li>Finding created</li><li>Finding deleted</li><li>Finding state changed</li><li>Finding updated</li>
+| <li>Pentest created</li><li>[Pentest state](/platform-deep-dive/pentests/pentest-process/pentest-states/) changed</li> | <li>Finding created</li><li>Finding deleted</li><li>[Finding state](/platform-deep-dive/pentests/findings/finding-states/) changed</li><li>Finding updated</li>
 
 For security reasons, we only post essential details about webhook events, such as their ID and type. To retrieve more information about the event, use the [Cobalt API](https://docs.cobalt.io/v2/).
 
