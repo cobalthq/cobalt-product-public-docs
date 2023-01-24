@@ -1,1 +1,1 @@
-A one-page report based on our [Executive Summary](/platform-deep-dive/pentests/reports/report-contents/#executive-summary). Suitable for external stakeholders.
+A one-page report suitable for external stakeholders. Includes the following:<ul><li>Executive Summary</li><li>An overall findings summary table</li></ul>

@@ -10,11 +10,11 @@ description: >
 Once you've confirmed your email address and created a password, your Cobalt account is fully set up.
 {{% /pageinfo %}}
 
-Tune your account settings, and learn how to [recover your account](/platform-deep-dive/cobalt-account/account-recovery/) if you can't sign in.
+Tune your [account settings](/platform-deep-dive/cobalt-account/account-settings/), and learn how to [recover your account](/platform-deep-dive/cobalt-account/account-recovery/) if you can't sign in.
 
 ## Protect Your Personal Data
 
-You may want to **anonymize or delete your account data** in compliance with [General Data Protection Regulation (GDPR)](https://gdpr.eu/).
+You may want to **anonymize or delete your account data** in compliance with [General Data Protection Regulation (GDPR)](https://gdpr.eu/). For more information, read our [Privacy Policy](https://www.cobalt.io/terms#privacy).
 
 {{%expand "Learn more about GDPR policies." %}}
 
@@ -29,4 +29,4 @@ You may want to **anonymize or delete your account data** in compliance with [Ge
 
 To anonymize or delete your Cobalt account, send a request to privacy@cobalt.io from the email address that you used to set up your account. Include your account details in the email. We'll process your request within 30 days.
 
-Anonymizing or deleting your account is **irreversible**. If you no longer want to belong to your organization or collaborate on pentests, ask your [Organization Owner](/getting-started/glossary/#organization-owner) to remove you from the organization or specific pentest. In this case, you don't need to delete your account.
+Anonymizing or deleting your account is **irreversible**. If you no longer want to belong to your organization or collaborate on pentests, ask your [Organization Owner](/getting-started/glossary/#organization-owner) to [remove you from the organization](/platform-deep-dive/collaboration/organization/manage-users/#remove-users) or specific [pentest](/platform-deep-dive/collaboration/organization/manage-users/#remove-a-pentest-team-member). In this case, you don't need to delete your account.

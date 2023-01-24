@@ -47,7 +47,7 @@ When you set up a webhook, you subscribe to the following events related to your
 
 | Pentest | Finding |
 |---|---|
-| <li>Pentest created</li><li>[Pentest state](/platform-deep-dive/pentests/pentest-process/pentest-states/) changed</li> | <li>Finding created</li><li>Finding deleted</li><li>Finding state changed</li><li>Finding updated</li>
+| <li>Pentest created</li><li>[Pentest state](/platform-deep-dive/pentests/pentest-process/pentest-states/) changed</li> | <li>Finding created</li><li>Finding deleted</li><li>[Finding state](/platform-deep-dive/pentests/findings/finding-states/) changed</li><li>Finding updated</li>
 
 For security reasons, we only post essential details about webhook events, such as their ID and type. To retrieve more information about the event, use the [Cobalt API](https://docs.cobalt.io/v2/).
 
@@ -77,8 +77,8 @@ To create a webhook:
 Now you can manage the webhooks that you [created](#create-a-webhook).
 
 - To make a webhook **inactive**, use the toggle under **Active**.
-- To **edit** a webhook, select the three-dot icon under **Actions**, and then select **Edit Webhook**. Update webhook parameters in the overlay that appears.
-- To **delete** a webhook, select the three-dot icon under **Actions**, and then select **Delete Webhook**.
+- To **edit** a webhook, select the three-dot icon {{% three-dots %}} under **Actions**, and then select **Edit Webhook**. Update webhook parameters in the overlay that appears.
+- To **delete** a webhook, select the three-dot icon {{% three-dots %}} under **Actions**, and then select **Delete Webhook**.
   - You can make a webhook inactive without deleting it.
 
 ## Troubleshoot Webhooks

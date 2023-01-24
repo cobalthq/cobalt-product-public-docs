@@ -14,7 +14,7 @@ define your assets on the Cobalt platform.
 To use our API, you need a Cobalt account with membership in your organization.
 Your organization owner can create an account and
 [assign you as a
-member](https://cobaltio.zendesk.com/hc/en-us/articles/360058712491-How-do-I-add-new-users-).
+member](/platform-deep-dive/collaboration/organization/manage-users/#invite-users).
 Your organization owner is typically the user who interacts with the Cobalt
 Customer Success Manager (CSM).
 
@@ -96,7 +96,7 @@ Now that you have the following information:
 - `{{% api-token %}}`
 - `{{% org-token %}}` 
 
-You can create an [asset](../../getting-started/glossary/#asset) with the following REST call:
+You can create an [asset](/getting-started/glossary/#asset) with the following REST call:
 
 ```bash
 curl -X POST "https://api.cobalt.io/assets" \
@@ -155,7 +155,7 @@ You can also limit the number of assets in the output with the `limit`
 parameter. For more information about each asset response field, see our API
 reference to [Get All Assets](https://docs.cobalt.io/v2/#get-all-assets).
 
-{{% alert title="Tip" color="tip" %}}
+{{% alert title="Tip" color="primary" %}}
 You can use `jq` to filter assets by their `title` and `id`. To do so, end the
 REST call with `| jq -r ".data[] | .resource | .title, .id"`.
 {{% /alert %}}

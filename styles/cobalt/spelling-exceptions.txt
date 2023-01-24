@@ -305,6 +305,8 @@ ipa
 irker
 issuables
 Istio
+ISP
+ISPs
 Jaeger
 jasmine-jquery
 Javafuzz
@@ -380,6 +382,7 @@ memoizing
 Memorystore
 mergeability
 mergeable
+Metasploit
 Microsoft
 middleware
 middlewares
@@ -444,6 +447,7 @@ pageinfo
 parallelization
 parallelizations
 passwordless
+pastebins
 Patroni
 pdf
 pentest
@@ -609,6 +613,7 @@ sharded
 sharding
 shfmt
 Shibboleth
+Shodan
 Shopify
 Sidekiq
 Silverlight
@@ -841,6 +846,8 @@ vim
 vimrc
 virtualized
 virtualizing
+VPN
+VPNs
 Vue
 Vuex
 Vulnerability
@@ -857,6 +864,7 @@ websocket
 websockets
 whitepaper
 whitepapers
+whois
 wireframe
 wireframed
 wireframes

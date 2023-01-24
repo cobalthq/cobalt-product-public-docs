@@ -29,7 +29,8 @@ pygmentsStyle = "tango"
 
 # Configure how URLs look like per section.
 [permalinks]
-blog = "/:section/:year/:month/:day/:slug/"
+# blog = "/:section/:year/:month/:day/:slug/"
+uglyURLs = true
 
 ## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
 [blackfriday]
@@ -118,6 +119,7 @@ github_branch = "main"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 #gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+gcs_engine_id = "f2d0c21d46c3a48ca"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
