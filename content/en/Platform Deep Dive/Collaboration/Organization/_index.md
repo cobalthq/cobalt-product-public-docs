@@ -37,7 +37,6 @@ To export pentest data for your organization, you can:
    {{% /expand%}}
 
    {{%expand "To download a report as a PDF file:" %}}
-   {{% download-report-steps %}}<br>
-   For [Comprehensive Pentests](/getting-started/glossary/#comprehensive-pentest), make sure to download each [report type](/platform-deep-dive/pentests/reports/#pentest-report-types).<br><br>
+   {{% download-report-steps %}}<br><br>
    ![Download reports for a Comprehensive Pentest](/deepdive/DownloadReport.png "Download reports for a Comprehensive Pentest")
    {{% /expand%}}
