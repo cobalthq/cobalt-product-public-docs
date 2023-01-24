@@ -26,18 +26,8 @@ Open the email. It should include a link to Get Started:
 Now you can:
 
 1. Select the link in your email.
-
-1. From the webpage that appears, create a password. Follow the complexity
-   requirements on the screen. We require passwords with at least:
-   - Eight (8) characters
-   - One (1) uppercase letter
-   - One (1) lowercase letter
-   - One (1) digit
-
-   We also include a link to our [Terms and Conditions](https://cobalt.io/terms/general).
-
+1. From the page that appears, create a password. Follow the password complexity requirements on the screen. We also include a link to our [Terms and Conditions](https://cobalt.io/terms/general).
 1. Once you've set a password, you should see the Cobalt app.
-
 1. Next time you can sign in to Cobalt in the following ways:
    - From the {{% sign-in %}} page, with:
       - A username and password. Your username is your email address.
