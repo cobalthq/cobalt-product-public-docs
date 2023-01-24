@@ -12,7 +12,7 @@ If you have problems signing in, refer to the instructions on this page. To get 
 {{% /pageinfo %}}
 
 {{< alert title="Tip" color="primary" >}}
-Before proceeding, ask your Organization Owner if SAML-based single sign-on (SSO) is enabled for your organization. If yes, sign in from the identity provider (IdP) system, not the Cobalt {{% sign-in %}} page. For more troubleshooting tips, see [Can’t Sign In Using SAML SSO](#cant-sign-in-using-saml-sso), below.
+Before proceeding, ask your Organization Owner if SAML-based single sign-on (SSO) is enabled for your organization. If yes, sign in from the identity provider (IdP) system, not the Cobalt {{% sign-in %}} page. For more troubleshooting tips, see [Can't Sign In Using SAML SSO](#cant-sign-in-using-saml-sso), below.
 {{< /alert >}}
 
 Follow these instructions if you can't sign in to Cobalt because:
@@ -114,7 +114,7 @@ When you see the **Verify It's You** message upon signing in, do the following:
 1. Check your email that you used to sign in to Cobalt.
 1. In the email prompting you to verify your device, double-check the details of your last sign-in attempt, and select **Verify Device**.
     - If you don't recognize this sign-in attempt, do the following:
-       - Contact {{% csm-support %}}. We'll temporarily lock your account and open an investigation.
+       - Contact {{% csm-support %}}. {{% compromised-account-action %}}
        - [Change your password](/platform-deep-dive/cobalt-account/account-settings/#change-your-password), and [reset two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#reset-two-factor-authentication).
 1. We save the device information and sign you in to the Cobalt app.
     - You get an email confirming that we verified your new device.
@@ -133,13 +133,13 @@ If your organization has enabled [SAML SSO](/getting-started/sign-in/#saml-sso),
 
 ## Locked Out of Your Account
 
-If you make several unsuccessful attempts to sign in, we’ll temporarily lock your account.
+If you make several unsuccessful attempts to sign in, we'll temporarily lock your account.
 
-To unlock your account, follow the instructions in the email that you receive. If you still can’t sign in, contact us at support@cobalt.io.
+To unlock your account, follow the instructions in the email that you receive. If you still can't sign in, contact us at support@cobalt.io.
 
 ## Account Was Compromised
 
-If you believe your account was compromised, reach out to {{% csm-support %}}. We'll open an investigation.
+If you believe your account was compromised, reach out to {{% csm-support %}}. {{% compromised-account-action %}}
 
 If you have access to your Cobalt account, do the following:
 
