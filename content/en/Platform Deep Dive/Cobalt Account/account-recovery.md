@@ -116,6 +116,7 @@ When you see the **Verify It's You** message upon signing in, do the following:
     - If you don't recognize this sign-in attempt, do the following:
        - Contact {{% csm-support %}}. {{% compromised-account-action %}}
        - [Change your password](/platform-deep-dive/cobalt-account/account-settings/#change-your-password), and [reset two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#reset-two-factor-authentication).
+    - Make sure to verify your device before the link in the email expires.
 1. We save the device information and sign you in to the Cobalt app.
     - You get an email confirming that we verified your new device.
     - Next time you sign in from this device, you don't need to verify it again.
