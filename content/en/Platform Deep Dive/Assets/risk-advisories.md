@@ -90,7 +90,7 @@ You can subscribe to email alerts for **potential critical vulnerabilities** dis
 
 With real-time notifications, you can start remediating the risk faster, without having to constantly check for updates in the Cobalt app.
 
-- To subscribe to notifications for an asset, on the asset page, select the bell icon<!--![Bell icon](/icons/Bell.png "Bell icon")-->.
-- To unsubscribe from notifications, select the bell icon once again.
+- To subscribe to notifications for an asset, on the asset page, select the bell icon ![Bell icon](/icons/Bell.png "Bell icon").
+- To unsubscribe from notifications, select the bell icon ![Bell icon](/icons/Bell.png "Bell icon") once again.
 
-<!--![Subscribe to email alerts for potential critical vulnerabilities](/deepdive/SubscribeToAlertsForVulnerabilities.png "Subscribe to email alerts for potential critical vulnerabilities")-->
+![Subscribe to email alerts for potential critical vulnerabilities](/deepdive/SubscribeToAlertsForVulnerabilities.png "Subscribe to email alerts for potential critical vulnerabilities")
