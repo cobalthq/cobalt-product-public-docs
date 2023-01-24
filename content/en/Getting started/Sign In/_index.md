@@ -77,7 +77,7 @@ We support two-factor authentication (2FA). If you're using [SAML SSO](#saml-sso
 {{% device-verification-intro %}}
 
 {{< alert title="Tip" color="primary" >}}
-If you see the **Verify It’s You** message upon signing in, follow the steps described in [We Can’t Recognize Your Device](/platform-deep-dive/cobalt-account/account-recovery/#we-cant-recognize-your-device).
+If you see the **Verify It's You** message upon signing in, follow the steps described in [We Don't Recognize Your Device](/platform-deep-dive/cobalt-account/account-recovery/#we-dont-recognize-your-device).
 {{< /alert >}}
 
 ## Next Step

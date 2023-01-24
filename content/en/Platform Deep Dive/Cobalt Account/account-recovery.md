@@ -22,7 +22,7 @@ Follow these instructions if you can't sign in to Cobalt because:
   - [One-time codes](#one-time-codes-dont-work) don't work.
   - ["Remember this device" option](#remember-this-device-doesnt-work)  doesn't work.
 - You [forgot your password](#forgot-your-password).
-- [We can't recognize your device](#we-cant-recognize-your-device).
+- [We don't recognize your device](#we-dont-recognize-your-device).
 - You have [problems with SAML SSO](#cant-sign-in-using-saml-sso).
 - You are [locked out of your account](#locked-out-of-your-account).
 - You believe [your account was compromised](#account-was-compromised).
@@ -100,7 +100,7 @@ To reset your password:
 1. Enter your email address that you used to [sign in to Cobalt](/getting-started/sign-in/), and select **Reset Password**.
 1. Follow the instructions in the email you receive.
 
-## We Can't Recognize Your Device
+## We Don't Recognize Your Device
 
 {{% device-verification-intro %}} This may happen when you:
 
