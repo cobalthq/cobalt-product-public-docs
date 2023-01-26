@@ -112,7 +112,7 @@ If your organization has enabled [SAML SSO](/getting-started/sign-in/#saml-sso),
 
 If you make several unsuccessful attempts to sign in, we’ll temporarily lock your account.
 
-To unlock your account, follow the instructions in the email that you receive. If you still can’t sign in, contact us at support@cobalt.io.
+To unlock your account, follow the instructions in the email that you receive. If you still can't sign in, contact us at support@cobalt.io.
 
 ## Account Was Compromised
 
