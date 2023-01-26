@@ -18,7 +18,7 @@ cascade:
 <div class="jumbotron">
         <h1>Cobalt Documentation</h1>
         <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <a class="btn btn-outline-primary" href="https://www.cobalt.io/get-started">Explore Cobalt »</a>
+        <a class="btn btn-outline-primary" href="https://www.cobalt.io/get-started" target="_blank">Explore Cobalt »</a>
 </div>
 
 
