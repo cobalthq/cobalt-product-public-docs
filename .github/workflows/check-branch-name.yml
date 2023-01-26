@@ -4,7 +4,7 @@ on:
     branches:
       # All branches.
       - '**'        # Matches all branches.
-      - '!master'   # Excludes master.
+      - '!main'   # Excludes main.
 jobs:
   build:
     runs-on: ubuntu-latest
