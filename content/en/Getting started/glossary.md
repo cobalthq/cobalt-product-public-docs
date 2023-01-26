@@ -172,7 +172,6 @@ In the Cobalt UI, you'll see this user role as "Member." Users in that role can:
 {{% org-member-permissions %}}
 
 {{%expand "Learn more." %}}
-<!-- This is only a test commit -->
 
 An Organization Member is a user of the Cobalt app who can create an [asset](#asset) as well
 as a [pentest](#pentest). That user can also see the pentesters who are working on their asset.
