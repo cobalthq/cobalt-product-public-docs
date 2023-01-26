@@ -98,7 +98,7 @@ To reset 2FA on your account:
 
 1. Navigate to https://app.cobalt.io/settings/security/2fa.
 1. Enter your current password, and select **Disable two-factor authentication**.
-    - If you forgot your password, reset it.
+    - {{% forgot-password-reset %}}
 1. To reactivate 2FA, follow the procedure described in [Enable Two-Factor Authentication](#enable-two-factor-authentication).
 
 ## Create and Manage API Tokens
