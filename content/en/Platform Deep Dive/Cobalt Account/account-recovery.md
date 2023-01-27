@@ -22,9 +22,10 @@ Follow these instructions if you can't sign in to Cobalt because:
   - [One-time codes](#one-time-codes-dont-work) don't work.
   - ["Remember this device" option](#remember-this-device-doesnt-work)  doesn't work.
 - You [forgot your password](#forgot-your-password).
-- You [can’t sign in using SAML SSO](#cant-sign-in-using-saml-sso).
+- You [can't sign in using SAML SSO](#cant-sign-in-using-saml-sso).
 - You are [locked out of your account](#locked-out-of-your-account).
 - You believe [your account was compromised](#account-was-compromised).
+- You get [error messages](#error-messages-upon-signing-in).
 
 {{%expand "Here are some general tips that may help." %}}
 
@@ -122,3 +123,11 @@ If you have access to your Cobalt account, do the following:
 
 1. [Change your password](/platform-deep-dive/cobalt-account/account-settings/#change-your-password).
 1. [Reset two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#reset-two-factor-authentication).
+
+## Error Messages upon Signing In
+
+Here are the most common error messages you may see upon signing in to Cobalt.
+
+| Error | Description | Troubleshooting Steps |
+|---|---|---|
+| `You have to confirm your email address before continuing` | You haven't set up your account on the Cobalt platform. To fully set up your account:<ol><li>Confirm your email address by selecting the link in the email invitation.</li><li>Create a password.</li></ol> | <p>Check your spam folder and filters for a welcome email from Cobalt.</p><p>If the invitation link in the email has expired, ask your [Organization Owner](/getting-started/glossary/#organization-owner) to invite you to the organization once again. Once you've got an email invitation, confirm your email address by following the link in the email, and then create a password.</p><ul><li>**If you're an Organization Owner**: To resend an invitation to a user, [remove them from your organization](/platform-deep-dive/collaboration/organization/manage-users/#remove-users), and then [invite](/platform-deep-dive/collaboration/organization/manage-users/#invite-users) them again.</li><li>**If you're the only Organization Owner in your organization**: To get help, contact {{< csm-support >}}.</li></ul> |
