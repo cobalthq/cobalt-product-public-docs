@@ -28,7 +28,7 @@ To export pentest data for your organization, you can:
   - [All pentests](https://docs.cobalt.io/v2/#get-all-pentests)
   - [All findings](https://docs.cobalt.io/v2/#get-all-findings)
   - [A pentest report](https://docs.cobalt.io/v2/#get-a-pentest-report)
-- Manually download [findings](/platform-deep-dive/pentests/findings/) and [reports](/platform-deep-dive/pentests/reports/) for each pentest in the Cobalt app. Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key for inctructions.
+- Manually download [findings](/platform-deep-dive/pentests/findings/) and [reports](/platform-deep-dive/pentests/reports/) for each pentest in the Cobalt app. Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key for instructions.
    {{%expand "To download all findings for a pentest:" %}}
    1. On the pentest page, navigate to the **Findings** tab.
    1. To clear all filters, select **Clear all**.
