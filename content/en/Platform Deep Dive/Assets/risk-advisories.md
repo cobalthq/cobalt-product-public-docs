@@ -86,7 +86,7 @@ Potential vulnerabilities on the **Risk Advisory** tab don’t belong to your pe
 
 ## Subscribe to Email Alerts
 
-You can subscribe to email alerts for **potential critical vulnerabilities** discovered in your assets. We only send alerts for Critical vulnerabilities, based on the CVSS severity levels.
+You can subscribe to email alerts for **potential critical vulnerabilities** discovered in your assets. We only send alerts for Critical vulnerabilities with a score of 9 or higher, according to the [NVD CVSS v3.0 ratings](https://nvd.nist.gov/vuln-metrics/cvss).
 
 With real-time notifications, you can start remediating the risk faster, without having to constantly check for updates in the Cobalt app.
 
