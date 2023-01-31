@@ -74,18 +74,19 @@ enableGitInfo = true
 [[menu.main]]
   name = 'API Docs'
   url = 'https://docs.cobalt.io/'
-  pre = "<i class='pl-1 fa fa-code'></i>"
-  weight = 10
+  weight = 40
 [[menu.main]]
   name = 'Blog'
-  pre = "<i class='pl-1 fa fa-pen-nib'></i>"
   url = 'https://www.cobalt.io/blog'
   weight = 20
 [[menu.main]]
   name = 'Support'
-  pre = "<i class='pl-1 fa fa-envelope'></i>"
   url = 'https://cobaltio.zendesk.com/hc/en-us/requests/new'
   weight = 30
+[[menu.main]]
+  name = 'Cobalt.io'
+  url = 'https://www.cobalt.io/'
+  weight = 10
 
 # Everything below this are Site Params
 
