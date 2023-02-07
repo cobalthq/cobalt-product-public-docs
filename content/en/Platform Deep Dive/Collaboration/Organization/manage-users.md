@@ -35,7 +35,7 @@ Users receive an email invitation to join your organization. They also become co
 
 <!--If an email address is invalid or a user has already joined, you see an error message.-->
 
-![Invite multiple users to your organization](/deepdive/InviteUsers.png "Overlay for inviting multiple users")
+![Invite multiple users to your organization](/deepdive/InviteUsersOverlay.png "Overlay for inviting multiple users")
 
 ### Change a User’s Role
 
