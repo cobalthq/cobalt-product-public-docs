@@ -10,15 +10,11 @@ description: >
 We cover updates to the Cobalt platform in our release blog.
 {{% /pageinfo %}}
 
-## 2022
+## 2023
 
-### December
+### January
 
-- [Cobalt Release Blog: December](link)
-
-### October
-
-- [Cobalt Release Blog: October](https://www.cobalt.io/blog/cobalt-release-blog-october)
+- [Cobalt Release Blog: January](https://www.cobalt.io/blog/cobalt-release-blog-january-2023)
 
 <!--
 | Month | Link to Release Blog |
