@@ -1,6 +1,6 @@
 ---
 title: "Product Updates"
-linkTitle: "Product Updates"
+linkTitle: "What's New"
 weight: 700
 description: >
   Explore what's new with Cobalt.
