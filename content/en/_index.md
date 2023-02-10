@@ -6,11 +6,12 @@ no_list: true
 weight: 20
 
 cascade:
-- type: "docs"
+- type: "blog"
   # set to false to include a blog section in the section nav along with docs
   toc_root: false
   _target:
     path: "/blog/**"
+- type: "docs"
   _target:
     path: "/**"
 menu:
