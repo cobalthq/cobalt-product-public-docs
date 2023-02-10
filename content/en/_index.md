@@ -18,6 +18,7 @@ menu:
   main:
     weight: 20
 ---
+
 This page includes links to other Cobalt literature, including our
 [Getting Started](/getting-started/) guide.
 
