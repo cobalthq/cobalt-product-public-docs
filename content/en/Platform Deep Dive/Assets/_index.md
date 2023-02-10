@@ -51,7 +51,7 @@ You can also use the [Cobalt API](/apiusecases/create_asset/#create-an-asset) to
 
 Once you've [created](#create-an-asset) assets, you can view and manage them on the **Assets** page.
 
-Select the three-dot icon under **Action**, and then select the desired option:
+Select the three-dot icon {{% three-dots %}} under **Action**, and then select the desired option:
 
 - **Create a Pentest** for this asset
 - **Edit Asset** to modify [asset details](#asset-details)

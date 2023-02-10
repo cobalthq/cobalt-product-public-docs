@@ -21,18 +21,21 @@ As an [Organization Owner](/getting-started/glossary/#organization-owner), you c
 
 ### Invite Users
 
-To invite a user to your organization:
+To invite users to your organization:
 
 1. In the Cobalt app, select your organization.
-1. Navigate to the **People** page.
-1. In the input field, enter the email address of the user that you want to invite.
-1. Select the user role from the list: Member or Owner. Select **Add Member/Owner**.
+1. Navigate to the **People** page, and select **Invite Users**.
+1. In the overlay that appears, specify the email addresses of users that you want to invite. Enter the emails, and then select **Add** or press **Enter**.
+   - Use commas to separate multiple email addresses.
+1. For each user, select a [role](/platform-deep-dive/collaboration/organization/user-roles/): Member or Owner.
     - Both Members and Owners have access to all [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/) of an organization.
-1. In the overlay that appears, select whether you want to invite the user to:
-    - The organization and all pentests
-    - Only to the organization
+1. Select **Invite** to confirm.
 
-The user receives an email invitation to join your organization.
+Users receive an email invitation to join your organization. They also become collaborators on all pentests of the organization as [Pentest Team Members](/getting-started/glossary/#pentest-team-member).
+
+<!--If an email address is invalid or a user has already joined, you see an error message.-->
+
+![Invite multiple users to your organization](/deepdive/InviteUsersOverlay.png "Overlay for inviting multiple users")
 
 ### Change a User’s Role
 
@@ -45,7 +48,7 @@ To change a user’s role from [Owner](/getting-started/glossary/#organization-o
 To remove a user from your organization:
 
 1. On the **People** page, locate the user you want to remove.
-1. Select the three-dot icon on the right, and select **Remove User**.
+1. Select the three-dot icon {{% three-dots %}} on the right, and select **Remove User**.
 1. In the overlay that appears, select whether you want to remove a user:
     - Only from the organization. The user can still collaborate on pentests as a [Pentest Team Member](/getting-started/glossary/#pentest-team-member).
     - From the organization and all pentests.
@@ -54,9 +57,7 @@ To remove a user from your organization:
 
 To [add](#add-a-pentest-team-member) or [remove users](#remove-a-pentest-team-member) from a specific pentest, you should have one of the following [roles](/platform-deep-dive/collaboration/organization/user-roles/):
 
-- [Organization Owner](/getting-started/glossary/#organization-owner)
-- [Organization Member](/getting-started/glossary/#organization-member)
-- [Pentest Team Member](/getting-started/glossary/#pentest-team-member)
+{{% owner-member-team-member %}}
 
 ### Add a Pentest Team Member
 
@@ -68,7 +69,7 @@ To add a Pentest Team Member to a specific pentest:
 
 The user gets an invitation to collaborate on the pentest.
 
-![Add a Pentest Team Member to a pentest](/deepdive/AddTeamMember.png "Add a Pentest Team Member to a pentest")
+![Add a Pentest Team Member to a pentest](/deepdive/AddPentestTeamMember.png "Add a Pentest Team Member to a pentest")
 
 ### Remove a Pentest Team Member
 
@@ -86,7 +87,7 @@ As an Organization Owner, you can remove a Pentest Team Member—who doesn't bel
 
 1. In the Cobalt app, select your organization in the upper-left corner of the screen.
 1. Navigate to the **People** page > **Pentest Collaborators**.
-1. For the Team Member you want to remove, select the three-dot icon > **Remove User**, and select **Yes** in the overlay to confirm.
+1. For the Team Member you want to remove, select the three-dot icon {{% three-dots %}} > **Remove User**, and select **Yes** in the overlay to confirm.
 
 ![Remove a Pentest Team Member from all pentests](/deepdive/RemoveCollaboratorFromAllPentests.png "Add a Pentest Team Member from all pentests")
 

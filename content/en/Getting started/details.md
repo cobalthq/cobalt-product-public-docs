@@ -1,6 +1,6 @@
 ---
 title: "Specify Pentest Details"
-linkTitle: "Stage 3: Specify Pentest Details"
+linkTitle: "Specify Pentest Details"
 weight: 200
 description: >
   Describe key details of your pentest.
@@ -10,10 +10,10 @@ description: >
 Some detail requirements vary by the type of asset.
 {{% /pageinfo %}}
 
-<!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
-{{% big-pic-UI-steps %}}
+![Workflow for creating a pentest](/gsg/CreatePentestFlowStage5.png "Workflow for creating a pentest")
+<br>
 
-In this section, you can specify pentest details. Our pentests have common requirements
+Now that you've defined the key [requirements](/getting-started/pentest-objectives/) for your pentest, add more details. Our pentests have common requirements
 for all assets, as well as requirements for specific assets.
 
 Pentest requirements for Web and API assets are identical. However,
@@ -78,7 +78,7 @@ a cloud, you can include the platform and system name in the text box.
 ![Cloud Platform Details](/gsg/CloudPlatformDetails.png "Does your asset include cloud components?")
 
 In some cases, you may need to inform your Cloud provider about tests. For guidance,
-see our page on [Cloud Methodologies](../pentest-objectives/methodologies/cloud).
+see our page on [Cloud Methodologies](/platform-deep-dive/pentests/pentest-process/methodologies/cloud/).
 
 ### Additional Guidelines
 
@@ -107,4 +107,4 @@ test credit card numbers, you can share that information in the
 All Cobalt pentesters have signed a Non-Disclosure Agreement (NDA).
 {{% /alert %}}
 
-Now that you've filled in the details, you can start [planning and scoping](../planning) the actual pentest.
+Now that you've filled in the details, you can start [planning and scoping](/getting-started/planning/) the actual pentest.

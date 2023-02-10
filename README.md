@@ -207,7 +207,7 @@ set nofixendofline
 
 ### Who to Ask for Help
 
-mjang-cobalt, @mikejang on Slack, internal Cobalt #docs channel
+Internal Cobalt #docs channel or ana-dashuk-cobalt.
 
 ## SOC2 Compliance
 

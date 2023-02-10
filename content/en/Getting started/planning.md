@@ -1,28 +1,28 @@
 ---
 title: "Plan and Scope the Pentest"
-linkTitle: "Stage 4: Plan and Scope the Pentest"
+linkTitle: "Plan and Scope the Pentest"
 weight: 210
 description: >
   Set up a schedule. Scope the pentest.
 ---
 
 {{% pageinfo %}}
-Now you can set a date and scope for the pentest.
+Set the start date for your pentest and define its scope.
 {{% /pageinfo %}}
+
+![Workflow for creating a pentest](/gsg/CreatePentestFlowStage6.png "Workflow for creating a pentest")
+<br>
 
 ## Schedule the Pentest
 
 Depending on your {{% ptaas-tier %}},
 we can help you schedule pentests with a start date from at least one to three business days after you select **Submit for Review**.
 
-<!-- For content, see https://github.com/cobalthq/cobalt-product-public-docs/blob/main/layouts/shortcodes/big-pic-UI-steps.md -->
-{{% big-pic-UI-steps %}}
-
 The standard testing period is 14 days. It may vary depending on the pentest scope and other factors.
 
 ![Planning and scoping a pentest](/gsg/ScheduleScopePentest.png "Schedule and scope your pentest")
 
-If you have any special requirements, such as qualifications for pentester certifications,
+If you have any [special requirements](/getting-started/review-pentest/#additional-requests), such as qualifications for pentester certifications,
 we reserve the right to start the pentest later than the flow time specified in your
 {{% ptaas-tier %}}.
 
@@ -134,4 +134,4 @@ Once you’ve identified the [pentest scope](#scope-the-pentest), you can see th
 
 If you're ready with your pentest, select **Save & Exit**.
 
-In the next screen, you can review your work, as a [checklist](../checklist).
+In the next screen, you can [review your work](/getting-started/review-pentest/) before submitting the pentest.

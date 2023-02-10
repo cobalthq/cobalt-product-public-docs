@@ -11,10 +11,10 @@ This document collects content from [our pentesters](https://cobalt.io/our-pente
 help you secure your systems.
 {{% /pageinfo %}}
 
-You want to start an [application security](../getting-started/glossary/#application-security-appsec)
+You want to start an [application security](/getting-started/glossary/#application-security-appsec)
 program. You've read through the 2021 version of the [OWASP Top 10](https://owasp.org/Top10/).
 We'll provide practical examples that you can use as patterns to secure your
-[assets](../getting-started/glossary/#asset).
+[assets](/getting-started/glossary/#asset).
 
 <!-- Plan: set up subdirectories based on each OWASP Top 10 entry. Add an `_index.md` file, with a brief description from https://owasp.org/Top10/ and add each article in that subdirectory -->
 <!-- Keep the first articles in the "top-level" BestPractices subdirectory,
@@ -27,11 +27,11 @@ date of release.
 
 | Article | Release Date | Author |
 | ----- | ----- | ----- |
-|[Protect Against XXE Attacks](./protect-against-xxe)                | 2022-12-02   | {{% harsh-bothra %}} |
-|[Insecure Deserialization](./insecure-deserialization)                | 2022-12-02   | {{% farid %}} |
-| [Prevent Insecure Design in SQL](./secure-design)                     | 2022-10-21   | {{% shashank %}}      |
-| [Protect Your APIs With Rate Limiting](./api-rate-limiting)           | 2022-10-21   | {{% payloadartist %}} |
-| [Prevent Server-Side Template Injections](./prevent-ssti)             | 2022-10-21   | {{% unstabl3 %}}      |
-| [Validate User Input](./input-validation)                             | 2022-08-19   | {{% payloadartist %}} |
-| [Prevent Security Misconfiguration](./prevent-security-misconfig)     | 2022-08-19   | {{% shashank %}}      |
-| [Protect Against Server-Side Request Forgery](./protect-against-ssrf) | 2022-08-19   | {{% harsh-bothra %}}  |
+|[Protect Against XXE Attacks](/bestpractices/protect-against-xxe/)                | 2022-12-02   | {{% harsh-bothra %}} |
+|[Insecure Deserialization](/bestpractices/insecure-deserialization/)                | 2022-12-02   | {{% farid %}} |
+| [Prevent Insecure Design in SQL](/bestpractices/secure-design/)                     | 2022-10-21   | {{% shashank %}}      |
+| [Protect Your APIs With Rate Limiting](/bestpractices/api-rate-limiting/)           | 2022-10-21   | {{% payloadartist %}} |
+| [Prevent Server-Side Template Injections](/bestpractices/prevent-ssti/)             | 2022-10-21   | {{% unstabl3 %}}      |
+| [Validate User Input](/bestpractices/input-validation)                             | 2022-08-19   | {{% payloadartist %}} |
+| [Prevent Security Misconfiguration](/bestpractices/prevent-security-misconfig/)     | 2022-08-19   | {{% shashank %}}      |
+| [Protect Against Server-Side Request Forgery](/bestpractices/protect-against-ssrf/) | 2022-08-19   | {{% harsh-bothra %}}  |

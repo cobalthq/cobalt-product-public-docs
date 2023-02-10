@@ -4,9 +4,6 @@ linkTitle: "Getting Started"
 weight: 2
 description: >
   How to get started with Cobalt software.
-menu:
-  main:
-    weight: 2
 ---
 
 {{% pageinfo %}}
@@ -27,26 +24,29 @@ If you've already purchased Cobalt credits, use this document to start your jour
 
 While it's helpful if you have a background in security, it's not required
 to understand the pentest process. If the language of software security confuses
-you, refer to our [Glossary](./glossary).
+you, refer to our [Glossary](/getting-started/glossary/).
 
 In this Getting Started Guide, we take you through the process to create a pentest,
-step by step, and set [expectations](./what-to-expect).
+step by step, and set [expectations](/getting-started/what-to-expect/).
 
 ![UI Flow for Pentests](/gsg/PentestFlowOverview.png "UI Flow for Pentests")
 
 When you've finished this Getting Started Guide, you'll have a plan and scope that
 our pentesters can use to test your assets. When you purchase credits from Cobalt,
-we send you an email invitation, which you can use to [Sign in to Cobalt](./sign-in).
+we send you an email invitation, which you can use to [Sign in to Cobalt](/getting-started/sign-in/).
 {{% /expand%}}
 
 ## Overview
 
-Our journey takes you through the steps required to create a pentest:
+Our journey takes you through the steps required to create a pentest.
 
-1. Select the [pentest type](/platform-deep-dive/pentests/pentest-types/). We offer [Agile](/getting-started/glossary/#agile-pentest) and [Comprehensive Pentests](/getting-started/glossary/#comprehensive-pentest).
+![Workflow for creating a pentest](/gsg/CreatePentestFlowFull.png "Workflow for creating a pentest")
+
 1. Define your [assets](/getting-started/assets/). Our pentesters analyze all kinds of
    assets, from web apps to internal networks.
-1. Set [requirements](./pentest-objectives) for your pentest.
+1. Select the [pentest type](/getting-started/select-pentest-type/). We offer [Agile](/getting-started/glossary/#agile-pentest) and [Comprehensive Pentests](/getting-started/glossary/#comprehensive-pentest).
+1. [Review your asset](/getting-started/review-asset/).
+1. Set [requirements](/getting-started/pentest-objectives/) for your pentest.
    - By default, our pentesters use standards defined by the
      [Open Web Application Security
      Project (OWASP)](/getting-started/glossary/#open-web-application-security-project-owasp) and in
@@ -61,15 +61,15 @@ Our journey takes you through the steps required to create a pentest:
    on a Cloud platform?
 1. [Plan and scope](/getting-started/planning/) the test. Define your desired pentest start
    date, and specify the pentest scope. We need time to find the best available pentesters for your assets.
-1. Review your pentest request. Use our [Pentest Checklist](/getting-started/checklist/) to make
+1. [Review your pentest request](/getting-started/review-pentest/) to make
    sure you've included _all_ information that our pentesters need.
 
 Once you've set up a pentest, we start analyzing your asset. When
 possible, we share results even before we create your report. Here's what
-you can [expect](./what-to-expect).
+you can [expect](/getting-started/what-to-expect/).
 
 Assuming you've received an email invitation, take the next step.
-[Sign in to Cobalt](./sign-in).
+[Sign in to Cobalt](/getting-started/sign-in/).
 
 ## Get in Touch
 
