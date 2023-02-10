@@ -69,6 +69,25 @@ enableGitInfo = true
     [markup.goldmark.renderer]
       unsafe = true
 
+
+[menu]
+[[menu.main]]
+  name = 'API Docs'
+  url = 'https://docs.cobalt.io/'
+  weight = 40
+[[menu.main]]
+  name = 'Blog'
+  url = 'https://www.cobalt.io/blog'
+  weight = 20
+[[menu.main]]
+  name = 'Support'
+  url = 'https://cobaltio.zendesk.com/hc/en-us/requests/new'
+  weight = 30
+[[menu.main]]
+  name = 'Cobalt.io'
+  url = 'https://www.cobalt.io/'
+  weight = 10
+
 # Everything below this are Site Params
 
 [outputs]
