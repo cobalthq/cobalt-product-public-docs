@@ -53,7 +53,7 @@ cascade:
          <img src="gsg/process.png" width="15%">
        </div>
        <h3 class="fs-2"><a href="">Coverage Checklist</a></h3>
-       <p>When pentesters test your asset, they track their progress using a checklist. Explore what’s included in the pentest coverage checklist.</p>
+       <p>When pentesters test your asset, they track their progress using a coverage checklist. Explore what’s included in it.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
