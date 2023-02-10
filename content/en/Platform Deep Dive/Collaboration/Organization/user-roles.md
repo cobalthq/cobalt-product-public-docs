@@ -18,7 +18,7 @@ Refer to the table below for a detailed list of permissions and privileges for e
 
 | Permission | [Pentest Team Member](/getting-started/glossary/#pentest-team-member) | [Organization Member](/getting-started/glossary/#organization-member) | [Organization Owner](/getting-started/glossary/#organization-owner) |
 |---|:---:|:---:|:---:|
-| View and edit pentest details | ✔️ | ✔️ | ✔️ |
+| View and edit pentest details, including [scoping parameters](/getting-started/planning/#scope-the-pentest) | ✔️ | ✔️ | ✔️ |
 | View pentest activity updates and pentester updates| ✔️ | ✔️ | ✔️ |
 | View and manage pentest findings | ✔️ | ✔️ | ✔️ |
 | [Invite](/platform-deep-dive/collaboration/organization/manage-users/#add-a-pentest-team-member) Pentest Team Members to a specific pentest and [remove](/platform-deep-dive/collaboration/organization/manage-users/#remove-a-pentest-team-member) them | ✔️ | ✔️ | ✔️ |
