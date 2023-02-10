@@ -1,111 +1,85 @@
 ---
-linkTitle: "Home"
+title: "Overview of Cobalt Documentation"
+linkTitle: "Overview"
 type: "docs"
 no_list: true
 weight: 20
 
 cascade:
 - type: "blog"
- toc_root: false
- _target:
-   path: "/blog/**"
-- type: "docs"
- _target:
-   path: "/**"
+  # set to false to include a blog section in the section nav along with docs
+  toc_root: false
+  _target:
+    path: "/blog/**"
+  _target:
+    path: "/**"
+menu:
+  main:
+    weight: 20
 ---
+This page includes links to other Cobalt literature, including our
+[Getting Started](/getting-started/) guide.
 
-
-<div class="jumbotron">
-       <h1>Welcome to Cobalt Documentation</h1>
-       <p>Deed dive into our documentation to explore Cobalt—your all-in-one place for conducting and managing your pentests.</p>
-       <a class="btn btn-outline-primary" href="https://www.cobalt.io/get-started" target="_blank">Explore Cobalt »</a>
+<br>
+<div class="mx-auto">
+        <a class="btn btn-lg btn-primary mr-3 mb-4" href="https://cobaltio.zendesk.com/hc/en-us/categories/360005476672-Cobalt-Platform">
+                Support Articles <i class="fas"></i>
+        </a>
+        <a class="btn btn-lg btn-outline-primary mr-3 mb-4" href="https://docs.cobalt.io">
+                API Docs <i class="fab"></i>
+        </a>
+        <a class="btn btn-lg btn-info mr-3 mb-4" href="https://cobalt.io/blog">
+                Blog Posts <i class="fab"></i>
+        </a>
 </div>
 
+## Support Articles
 
-<div class="row g-4 py-1 row-cols-1 row-cols-lg-3">
-     <div class="feature col">
-       <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
-       </div>
-       <h3 class="fs-2">Getting Started</h3>
-       <p>Use our step-by-step guide to launch your first pentest. Set up an asset, specify pentest details—and get the ball rolling.</p>
-       <a href="#" class="icon-link d-inline-flex align-items-center">
-         Call to action »
-         <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-       </a>
-     </div>
-     <div class="feature col">
-       <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
-       </div>
-       <h3 class="fs-2">Pentest Methodologies</h3>
-       <p>Read about the methodologies that our pentesters use to test different types of assets: Web, API, Mobile, and more.</p>
-       <a href="#" class="icon-link d-inline-flex align-items-center">
-         Call to action »
-         <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-       </a>
-     </div>
-     <div class="feature col">
-       <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
-       </div>
-       <h3 class="fs-2">Pentest Process</h3>
-       <p>Learn what to expect during your pentest. We’ve highlighted the main stages to guide you through the pentest process.</p>
-       <a href="#" class="icon-link d-inline-flex align-items-center">
-         Call to action »
-         <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-       </a>
-     </div>
-   </div>
+When customers need help with the Cobalt app, they frequently rely on support articles, available through the [Cobalt Zendesk](https://cobaltio.zendesk.com/hc/en-us/categories/360005476672-Cobalt-Platform) interface.
+
+If you're a Cobalt customer, connect to Zendesk and select the **Sign in** link.
+Once connected, you'll have access to more support articles.
+
+## API Documentation
+
+Cobalt has a [RESTful API](https://docs.cobalt.io)
+that allows you to call the following data related to your pentests:
+
+- Organizations
+- Assets
+- Pentests
+- Findings
+- Events
+- Tokens
+
+To use our REST calls, you'll need an API Token from your
+[Cobalt profile](https://app.cobalt.io/settings/api-token).
 
 
-<div class="row g-4 py-4 row-cols-1 row-cols-lg-3">
-     <div class="feature col">
-       <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
-       </div>
-       <h3 class="fs-2">Coverage Checklist</h3>
-       <p>When pentesters test your asset, they track their progress using a checklist. Explore what’s included in the pentest coverage checklist.</p>
-       <a href="#" class="icon-link d-inline-flex align-items-center">
-         Call to action »
-         <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-       </a>
-     </div>
-     <div class="feature col">
-       <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
-       </div>
-       <h3 class="fs-2">Integrations</h3>
-       <p>Learn how to use the Cobalt API, get pentest updates with webhooks, and configure integrations with third-party apps.</p>
-       <a href="#" class="icon-link d-inline-flex align-items-center">
-         Call to action »
-         <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-       </a>
-     </div>
-     <div class="feature col">
-       <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
-       </div>
-       <h3 class="fs-2">What’s New</h3>
-       <p>We regularly ship updates to the Cobalt platform. Read our monthly release blog to stay on top of the latest news.</p>
-       <a href="#" class="icon-link d-inline-flex align-items-center">
-         Call to action »
-         <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-       </a>
-     </div>
-   </div>
+## Blog Posts
 
+Cobalt has an extensive library of [blog posts](https://cobalt.io/blog),
+designed to help and inform you about:
 
-<!--<div class="p-5 rounded mt-3" style="background:none; border-style:solid; border-color:#eee; border-width:2px;">
-<div class="row">
-<div class="col-md-6">
-<p><span style="color:#8C66E3;font-weight:bold;">NEW</span></p>
-<h4>Subscribe to Email Alerts for Potential Critical Vulnerabilities</h4>
-<p>You can subscribe to email alerts for potential critical vulnerabilities discovered in your assets. We only send alerts for Critical vulnerabilities with a score of 9 or higher, according to the NVD CVSS v3.0 ratings.</p>
-<p><a href="/platform-deep-dive/assets/risk-advisories/#subscribe-to-email-alerts">Learn more about email notifications »</a></p>
-</div>
-<div class="col-md-6">
-<img src="/deepdive/PreviewRiskAdvisories.png"">
-</div>
-</div>
-</div>-->
+- Cobalt and our product
+- Profiles for our pentesters
+- Advice for our customers
+- Standards and how you can meet them
+- Life at Cobalt
+
+<!--
+Suggestion from Grahame: I know it's early days, but could be cool to link to a few of these articles. 
+Especially any that are specifically relevant to the API. 
+(Customer testimonials could also be good, in case anyone's coming to the API first.)
+-->
+
+{{% pageinfo %}}
+Cobalt is creating product documentation. As we build it, we hope to help you
+visualize how our product can help you simplify the pentest process.
+
+We hope that future docs can help you make best use of Cobalt software.
+{{% /pageinfo %}}
+
+This documentation is a product of Cobalt Labs, Inc. As noted in our
+[Terms of use](https://cobalt.io/terms/general), when we use "Us", "We", "Our", "Cobalt.io",
+or "Cobalt, we're referring to Cobalt Labs, Inc., a Delaware Corporation.
