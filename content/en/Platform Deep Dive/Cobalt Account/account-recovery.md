@@ -107,7 +107,7 @@ If your organization has enabled [SAML SSO](/getting-started/sign-in/#saml-sso),
 - If you don't know what identity provider your organization uses, contact your Organization Owner.
 - If you don't see the Cobalt app within your identity provider, contact your IdP admin. They'll add Cobalt to your IdP account.
 - Ensure that you're a provisioned user both in the IdP system and Cobalt. Complete the account setup process for Cobalt, which includes confirming your email address and creating a password. The email address for your IdP and Cobalt must match.
-- As an Organization Owner, ensure that your SAML SSO configuration is correct.
+- As an Organization Owner, ensure that your [SAML SSO configuration](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#troubleshoot-your-saml-sso-configuration) is correct.
 
 ## Locked Out of Your Account
 
