@@ -18,7 +18,7 @@ cascade:
 
 <div class="jumbotron">
        <h1>Welcome to Cobalt Documentation</h1>
-       <p class="my-3">Deed dive into our documentation to explore Cobalt—your all-in-one place for conducting and managing your pentests.</p>
+       <p class="my-3">Deep dive into our documentation to explore Cobalt—your all-in-one place for conducting and managing your pentests.</p>
        <a class="btn btn-outline-primary" href="https://www.cobalt.io/get-started" target="_blank">Explore Cobalt »</a>
 </div>
 
@@ -47,7 +47,7 @@ cascade:
      </div>
    </div>
 
-<div class="row g-4 py-4 row-cols-1 row-cols-lg-3">
+<div class="row g-4 py-2 row-cols-1 row-cols-lg-3">
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary fs-2 mb-3">
          <img src="gsg/process.png" width="15%">
