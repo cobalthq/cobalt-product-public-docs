@@ -11,14 +11,37 @@ The pages in this book describe how you can work with the Cobalt platform using
 our API.
 {{% /pageinfo %}}
 
+## Introducing the Cobalt API
+
+The Cobalt [RESTful API](/getting-started/glossary/#restful-api) gives you access to your assets, pentests, findings, and more. With our API, you can integrate Cobalt into your development and application security workflows—and automate your pentest processes.
+
+Here are some examples of how you can scale your workflows:
+
+- Retrieve [findings](https://docs.cobalt.io/v2/#findings) that our pentesters discovered during a pentest.
+- Pull findings into your security dashboard to perform a holistic internal analysis.
+- Integrate findings into your data visualization tool for a comprehensive view of your vulnerability and application landscape.
+
+<div class="card">
+  <div class="card-header">
+    <b>API Documentation</b>
+  </div>
+  <div class="card-body">
+    <p class="card-text">Read our comprehensive API documentation to learn how to send specific API requests and view examples.</p>
+    <a href="https://docs.cobalt.io/v2/" target="_blank" class="btn btn-primary">Go to API Docs</a>
+  </div>
+</div>
+<br>
+
+{{% api-token-intro %}}
+
+- Learn [how to create an API token in the Cobalt UI](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui).
+- To manage your API tokens, navigate to https://app.cobalt.io/settings/api-tokens. Learn more about [managing tokens](/platform-deep-dive/cobalt-account/account-settings/#create-and-manage-api-tokens).
+
+{{< alert title="Note" color="primary" >}}
 This document assumes that you can run `curl` in a command line on your system.
-You can also set up the REST calls in this book in other API clients such as:
-
-- [Postman](https://learning.postman.com/docs/getting-started/introduction/)
-- [Insomnia](https://docs.insomnia.rest/)
-
-If you run `curl` from the command line, we recommend that you use the
+You can also set up the REST calls in this book in other API clients such as [Postman](https://learning.postman.com/docs/getting-started/introduction/) or [Insomnia](https://docs.insomnia.rest/).<br><br>If you run `curl` from the command line, we recommend that you use the
 [`jq`](https://stedolan.github.io/jq/) command line JSON processor to format output. 
+{{< /alert >}}
 
 ## Format JSON Responses
 
