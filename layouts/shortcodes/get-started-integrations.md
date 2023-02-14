@@ -1,0 +1,1 @@
+To get started, navigate to the **Integrations** page in the Cobalt app.

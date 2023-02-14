@@ -10,11 +10,11 @@ description: >
 Streamline your pentesting and development workflows with Cobalt integrations.
 {{% /pageinfo %}}
 
-{{% alert title="Note" color="primary" %}}
-The availability of this feature is based on your <a href="https://www.cobalt.io/pentest-pricing" target="_blank">PtaaS tier</a>.
-{{% /alert %}}
- 
-To get started, navigate to the **Integrations** page in the Cobalt app.
+{{< alert title="Note" color="primary" >}}
+{{< tier-feature >}}
+{{< /alert >}}
+
+{{% get-started-integrations %}}
 
 - Set up **Native** integrations in the Cobalt app to push Cobalt data to external apps. Here, you can also create [webhooks](/integrations/webhooks/) to get real-time pentest updates.
 - Enable **Partner** integrations in third-party apps. You need an [API token](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui) to pull Cobalt data to external apps.
@@ -43,7 +43,7 @@ Request to enable a beta integration for your next pentest to streamline your re
 - ServiceNow
 - Bitbucket
 
-Beta integrations are fully functional connectors that we’ve developed using [Workato](https://www.workato.com/)—a workflow automation platform that enables greater flexibility to tailor our integrations to customers’ unique workflows.
+Beta integrations are fully functional connectors that we’ve developed using [Workato](https://www.workato.com/)—a workflow automation platform that enables greater flexibility to tailor our integrations to customers' unique workflows.
 
 {{% alert title="Note" color="primary" %}}
 <p>You can request to enable a beta integration for a <b>single pentest</b>. Submit your request <b>at least 10 business days prior to the start date of your pentest</b> to allow time for configuration and testing.</p><p>We'll make every effort to accommodate all requests, but we can't guarantee that we'll fulfill all requests. We'll prioritize requests based on the pentest schedule.</p>
@@ -58,7 +58,7 @@ By submitting a request, you're joining a waiting list to have the integration e
 
 The beta program consists of the following stages:
 
-1. **Discovery**: We'll contact you to gather additional details and requirements We’ll also provide a timeline for the activation.
+1. **Discovery**: We'll contact you to gather additional details and requirements We'll also provide a timeline for the activation.
 1. **Configuration**: Our team will configure the integration to your specifications.
 1. **Onboarding**: We'll schedule a call with you to demo the integration, address any questions, and guide you through the authentication and activation.
 1. **Support**: Throughout your pentest, our Integrations team will be available to support you via email, Slack, or meetings as needed.
@@ -72,6 +72,9 @@ The beta program consists of the following stages:
 - We can't guarantee access to beta integrations as part of the Premium or Enterprise [tier](https://www.cobalt.io/pentest-pricing) customer agreements. Cobalt reserves the right to remove beta integration offerings from the Integrations Hub at any time, without notice.
 - Customers who joined the beta program can opt out at any time and for any reason. To deactivate your beta integration, contact your Customer Success Manager or the Cobalt Integrations team (integrations@cobalt.io).
 {{% /expand %}}
+<br>
+
+Learn [how to configure beta integrations](/integrations/native-integrations/beta-integrations/).
 
 ## Build Your Own Integration
 
