@@ -30,18 +30,18 @@ Here are some examples of how you can scale your workflows:
     <a href="https://docs.cobalt.io/v2/" target="_blank" class="btn btn-primary">Go to API Docs</a>
   </div>
 </div>
-<br>
-
-{{% api-token-intro %}}
-
-- Learn [how to create an API token in the Cobalt UI](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui).
-- To manage your API tokens, navigate to https://app.cobalt.io/settings/api-tokens. Learn more about [managing tokens](/platform-deep-dive/cobalt-account/account-settings/#create-and-manage-api-tokens).
 
 {{< alert title="Note" color="primary" >}}
-This document assumes that you can run `curl` in a command line on your system.
-You can also set up the REST calls in this book in other API clients such as [Postman](https://learning.postman.com/docs/getting-started/introduction/) or [Insomnia](https://docs.insomnia.rest/).<br><br>If you run `curl` from the command line, we recommend that you use the
-[`jq`](https://stedolan.github.io/jq/) command line JSON processor to format output. 
+{{% api-token-intro %}}
+- Learn [how to create an API token in the Cobalt UI](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui).
+- To manage your API tokens, navigate to https://app.cobalt.io/settings/api-tokens. Learn more about [managing API tokens](/platform-deep-dive/cobalt-account/account-settings/#create-and-manage-api-tokens).
 {{< /alert >}}
+
+This document assumes that you can run `curl` in a command line on your system.
+You can also set up the REST calls in this book in other API clients such as [Postman](https://learning.postman.com/docs/getting-started/introduction/) or [Insomnia](https://docs.insomnia.rest/).
+
+If you run `curl` from the command line, we recommend that you use the
+[`jq`](https://stedolan.github.io/jq/) command line JSON processor to format output. 
 
 ## Format JSON Responses
 

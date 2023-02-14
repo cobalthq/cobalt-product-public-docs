@@ -1,1 +1,1 @@
-To work with the Cobalt API, you need an API token.
+To work with the Cobalt API, you need an **API token**.
