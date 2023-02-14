@@ -23,8 +23,8 @@ To configure the integration, complete the following steps:
 
 To complete the configuration, you need the following:
 
-- **Webhook URL**: URL to which Cobalt sends HTTP POST requests for integration events. We'll send you an email with your webhook URL.
-- **Organization Token**: Unique organization token used in API calls. Learn more about [getting your organization token](https://docs.cobalt.io/v2/#authentication) using the Cobalt API.
+- **Webhook URL**: URL that is used in the configuration to send integration events. We'll send you your webhook URL in the onboarding email.
+- **Organization Token**: Unique organization token used in API calls. We'll send you your organization token in the onboarding email.
 - **API Token**: Your personal API token required to authorize access to the Cobalt API. Learn [how to create an API token](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui).
 - **Integration Credentials**: Credentials for the connected platform.
 
