@@ -32,9 +32,8 @@ Here are some examples of how you can scale your workflows:
 </div>
 
 {{< alert title="Note" color="primary" >}}
-{{% api-token-intro %}}
-- Learn [how to create an API token in the Cobalt UI](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui).
-- To manage your API tokens, navigate to https://app.cobalt.io/settings/api-tokens. Learn more about [managing API tokens](/platform-deep-dive/cobalt-account/account-settings/#create-and-manage-api-tokens).
+{{% api-token-intro %}} For insctructions, see [Create an API Token in the Cobalt UI](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui).<br><br>
+To manage your API tokens, navigate to https://app.cobalt.io/settings/api-tokens. Learn more about [managing API tokens](/platform-deep-dive/cobalt-account/account-settings/#create-and-manage-api-tokens).
 {{< /alert >}}
 
 This document assumes that you can run `curl` in a command line on your system.
