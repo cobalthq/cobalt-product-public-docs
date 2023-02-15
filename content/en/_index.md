@@ -26,21 +26,21 @@ cascade:
 <div class="row g-4 py-1 row-cols-1 row-cols-lg-3">
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
+         <img src="gsg/test.png" width="15%">
        </div>
        <h3 class="fs-2"><a href="/getting-started/">Getting Started</a></h3>
        <p>Use our step-by-step guide to launch your first pentest. Set up an asset, specify pentest details—and get the ball rolling.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
+         <img src="gsg/test.png" width="15%">
        </div>
        <h3 class="fs-2"><a href="/platform-deep-dive/pentests/pentest-process/methodologies/">Pentest Methodologies</a></h3>
        <p>Read about the methodologies that our pentesters use to test different types of assets: Web, API, Mobile, and more.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
+         <img src="gsg/test.png" width="15%">
        </div>
        <h3 class="fs-2"><a href="/platform-deep-dive/pentests/">Pentest Process</a></h3>
        <p>Learn what to expect during your pentest. We’ve highlighted the main stages to guide you through the pentest process.</p>
@@ -50,21 +50,21 @@ cascade:
 <div class="row g-4 py-2 row-cols-1 row-cols-lg-3">
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
+         <img src="gsg/test.png" width="15%">
        </div>
        <h3 class="fs-2"><a href="">Coverage Checklist</a></h3>
        <p>When pentesters test your asset, they track their progress using a coverage checklist. Explore what’s included in it.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
+         <img src="gsg/test.png" width="15%">
        </div>
        <h3 class="fs-2"><a href="/integrations/">Integrations</a></h3>
        <p>Learn how to use the Cobalt API, get pentest updates with webhooks, and configure integrations with third-party apps.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
+         <img src="gsg/test.png" width="15%">
        </div>
        <h3 class="fs-2"><a href="/product-updates/">What’s New</a></h3>
        <p>We regularly ship updates to the Cobalt platform. Read our monthly release blog to stay on top of the latest news.</p>
@@ -75,7 +75,7 @@ cascade:
 <div class="row g-4 py-1 row-cols-1 row-cols-lg-3">
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
+         <img src="gsg/test.png" width="15%">
        </div>
        <h3 class="fs-2">Getting Started</h3>
        <p>Use our step-by-step guide to launch your first pentest. Set up an asset, specify pentest details—and get the ball rolling.</p>
@@ -86,7 +86,7 @@ cascade:
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
+         <img src="gsg/test.png" width="15%">
        </div>
        <h3 class="fs-2">Pentest Methodologies</h3>
        <p>Read about the methodologies that our pentesters use to test different types of assets: Web, API, Mobile, and more.</p>
@@ -97,7 +97,7 @@ cascade:
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
+         <img src="gsg/test.png" width="15%">
        </div>
        <h3 class="fs-2">Pentest Process</h3>
        <p>Learn what to expect during your pentest. We’ve highlighted the main stages to guide you through the pentest process.</p>
@@ -112,7 +112,7 @@ cascade:
 <div class="row g-4 py-4 row-cols-1 row-cols-lg-3">
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
+         <img src="gsg/test.png" width="15%">
        </div>
        <h3 class="fs-2">Coverage Checklist</h3>
        <p>When pentesters test your asset, they track their progress using a checklist. Explore what’s included in the pentest coverage checklist.</p>
@@ -123,7 +123,7 @@ cascade:
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
+         <img src="gsg/test.png" width="15%">
        </div>
        <h3 class="fs-2">Integrations</h3>
        <p>Learn how to use the Cobalt API, get pentest updates with webhooks, and configure integrations with third-party apps.</p>
@@ -134,7 +134,7 @@ cascade:
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <img src="gsg/process.png" width="15%">
+         <img src="gsg/test.png" width="15%">
        </div>
        <h3 class="fs-2">What’s New</h3>
        <p>We regularly ship updates to the Cobalt platform. Read our monthly release blog to stay on top of the latest news.</p>
