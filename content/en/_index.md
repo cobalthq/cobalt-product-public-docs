@@ -18,7 +18,7 @@ cascade:
 
 <div class="jumbotron">
        <h1>Welcome to Cobalt Documentation</h1>
-       <p class="my-3">Deep dive into our documentation to explore Cobalt—your all-in-one place for conducting and managing your pentests.</p>
+       <p class="my-3">Deep dive into our documentation to explore Cobalt—your all-in-one platform for pentesting your software.</p>
        <a class="btn btn-outline-primary" href="https://www.cobalt.io/get-started" target="_blank">Explore Cobalt »</a>
 </div>
 
