@@ -52,8 +52,8 @@ cascade:
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary fs-2 mb-3">
          <img src="gsg/test.png" width="15%">
        </div>
-       <h3 class="fs-2"><a href="">Coverage Checklist</a></h3>
-       <p>When pentesters test your asset, they track their progress using a coverage checklist. Explore what’s included in it.</p>
+       <h3 class="fs-2"><a href="/platform-deep-dive/assets/">Asset Types</a></h3>
+       <p>An asset is a software component of value to be tested, such as a web application or API. Learn more about the asset types we support.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
