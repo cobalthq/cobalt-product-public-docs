@@ -2,6 +2,7 @@
 title: "Cobalt Integrations"
 linkTitle: "Integrations"
 weight: 110
+no_list: true
 description: >
   Integrate third-party apps and configure webhooks.
 ---
@@ -74,7 +75,7 @@ The beta program consists of the following stages:
 {{% /expand %}}
 <br>
 
-Learn [how to configure beta integrations](/integrations/native-integrations/beta-integrations/).
+Learn [how to configure beta integrations](/integrations/beta-integrations/).
 
 ## Build Your Own Integration
 

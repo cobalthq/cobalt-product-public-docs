@@ -2,6 +2,8 @@
 title: "Configure Beta Integrations"
 linkTitle: "Beta Integrations"
 weight: 30
+toc_hide: true
+hide_summary: true
 description: >
   Learn how to configure beta intgerations.
 ---
@@ -41,7 +43,7 @@ To enable a beta integration, sign in to your Cobalt Customer Workspace in Worka
 1. In the email invitation that you receive, select **View Invitation**.
 1. To set up your account, enter your name and email address, and create a password. Select **Create your account** to confirm.
 1. Once signed in, select your name in the upper-left corner, and then select the workspace with your company name.
-1. On the welcome page of the integration center, select **Get started!**.
+1. On the welcome page of the integration center, select **Get started**.
 
 ## Step 3: Connect to Your Cobalt Account
 
@@ -60,19 +62,9 @@ To complete the integration, connect to the third-party app.
 
 1. In the Workato workspace, under **Projects**, select the connection for the desired third-party platform, for example, **Asana Connection**.
 1. Follow the instructions for specific apps:
-    - [Asana](#asana)
     - [Azure DevOps (Boards)](#azure-devops-boards)
     - [Bitbucket Issues](#bitbucket-issues)
     - [ServiceNow](#servicenow)
-
-### Asana
-
-The Asana connector uses OAuth for authentication. To set up your Asana integration:
-
-1. In the Workato workspace, under **Projects**, select **Asana Connection**.
-1. Enter your Asana sign-in credentials, and select **Connect**.
-
-You should see a page confirming a successful connection.
 
 ### Azure DevOps (Boards)
 
