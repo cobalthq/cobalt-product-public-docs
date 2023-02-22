@@ -60,7 +60,7 @@ Once you've signed in to your Workato workspace, you need to authenticate to you
 
 To complete the integration, connect to the third-party app.
 
-1. In the Workato workspace, under **Projects**, select the connection for the desired third-party platform, for example, **Asana Connection**.
+1. In the Workato workspace, under **Projects**, select the connection for the desired third-party platform, for example, **Cobalt Bitbucket Integration**.
 1. Follow the instructions for specific apps:
     - [Azure DevOps (Boards)](#azure-devops-boards)
     - [Bitbucket Issues](#bitbucket-issues)
@@ -82,4 +82,3 @@ The Bitbucket connector uses OAuth for authentication. To set up your Bitbucket 
 You should see a page confirming a successful connection.
 
 <!--### ServiceNow-->
-
