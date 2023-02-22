@@ -75,8 +75,6 @@ The beta program consists of the following stages:
 {{% /expand %}}
 <br>
 
-Learn [how to configure beta integrations](/integrations/beta-integrations/).
-
 ## Build Your Own Integration
 
 Use our API to build your own integrations. You need a Cobalt [API token](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui) to make REST calls.
