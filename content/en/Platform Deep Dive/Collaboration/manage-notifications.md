@@ -29,7 +29,7 @@ Your [user role](/platform-deep-dive/collaboration/organization/user-roles/) det
 
 ## Manage Pentest Notifications
 
-When you collaborate on a pentest, you get notifications for all associated events.
+When you collaborate on a pentest, you get notifications depending on your notification preferences.
 
 To manage your notification preferences for a pentest:
 
