@@ -1,10 +1,10 @@
 ---
-title: "Troubleshoot Issues with Signing In"
-linkTitle: "Troubleshoot Sign-In Issues"
+title: "Troubleshoot Sign-in Issues"
+linkTitle: "Troubleshoot Sign-in Issues"
 weight: 20
 aliases: /getting-started/sign-in/account-recovery/
 description: >
-  Troubleshoot common issues with signing in.
+  Troubleshoot common sign-in issues.
 ---
 
 {{% pageinfo %}}
@@ -102,12 +102,7 @@ To reset your password:
 
 ## We Don't Recognize Your Device
 
-{{% device-verification-intro %}} This may happen when you:
-
-- Sign in from a new browser
-- Use your browser's private (incognito) mode
-- Clear your site data
-- Sign in from a different system
+{{% device-verification-intro %}}
 
 When you see the **Verify It's You** message upon signing in, do the following:
 
