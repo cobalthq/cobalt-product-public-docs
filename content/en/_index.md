@@ -42,8 +42,8 @@ cascade:
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
          <img src="gsg/test.png" width="12%">
        </div>
-       <h3 class="fs-2"><a href="/platform-deep-dive/pentests/">Pentest Process</a></h3>
-       <p>Learn what to expect during your pentest. We’ve highlighted the main stages to guide you through the pentest process.</p>
+       <h3 class="fs-2"><a href="/platform-deep-dive/pentests/pentest-types/">Pentest Types</a></h3>
+       <p>Learn about the pentest types that we offer. Explore the benefits of Agile and Comprehensive Pentests.</p>
      </div>
    </div>
 
@@ -76,7 +76,7 @@ cascade:
       <div class="col-md-6">
         <div class="h-100 p-5 border border-primary rounded-3">
           <h3>Try Beta Integrations</h3>
-          <p>{{% beta-label %}}</p>
+          <p class="my-2">{{% beta-label %}}</p>
           <p>Request to <a href="/integrations/#request-a-beta-integration">enable a beta integration for your next pentest</a> to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software: Azure DevOps, ServiceNow, or BitBucket.</p>
        <a href="https://docs.google.com/forms/d/e/1FAIpQLScMNMnpIvJRNxEziIBCu246g_YqMuGU052XE-Q-gVh3mjy9XQ/viewform" target="_blank">Request an integration »</a><br>
         </div>
@@ -84,7 +84,7 @@ cascade:
       <div class="col-md-6">
         <div class="h-100 p-5 text-bg-dark border border-primary rounded-3">
           <h3>Preview Risk Advisories</h3>
-          <p><span style="color:#59AD04; font-weight:500; background-color: #F2FAEB; padding: 2px 4px; border-radius: 2px;">New</span></p>
+          <p class="my-2">{{% new-label %}}</p>
           <p>Add a technology stack for your software asset, and we'll show you a preview of risk advisories based on the Common Vulnerabilities and Exposures (CVE) standard for that stack. Subscribe to email alerts <img title="Bell icon" alt="Bell icon" src="/icons/Bell.png"> for potential critical vulnerabilities discovered in your assets.</p>
           <a href="/platform-deep-dive/assets/risk-advisories/">Read the guide »</a>
         </div>
