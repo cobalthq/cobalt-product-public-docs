@@ -12,7 +12,11 @@ description: >
 <p>{{< beta-label >}}</p><p>Integrate third-party apps to streamline your remediation workflows.</p><p>If you have questions or need help, please contact <a href="mailto:integrations@cobalt.io">integrations@cobalt.io</a> or your Customer Success Manager.</p>
 {{< /pageinfo >}}
 
-With our [beta integrations](/integrations/#request-a-beta-integration), you can push Cobalt [findings](/platform-deep-dive/pentests/findings/) to your preferred task management software.
+With our [beta integrations](/integrations/#request-a-beta-integration), you can push Cobalt [findings](/platform-deep-dive/pentests/findings/) to your preferred task management software:
+
+- Azure DevOps
+- Bitbucket
+- ServiceNow
 
 To configure the integration, complete the following steps:
 
@@ -58,13 +62,11 @@ Once you've signed in to your Workato workspace, you need to authenticate to you
 
 ## Step 4: Authenticate to the Connected App
 
-To complete the integration, connect to the third-party app.
+To complete the integration, connect to the third-party app:
 
-1. In the Workato workspace, under **Projects**, select the connection for the desired third-party platform, for example, **Cobalt Bitbucket Integration**.
-1. Follow the instructions for specific apps:
-    - [Azure DevOps (Boards)](#azure-devops-boards)
-    - [Bitbucket Issues](#bitbucket-issues)
-    - [ServiceNow](#servicenow)
+- [Azure DevOps (Boards)](#azure-devops-boards)
+- [Bitbucket Issues](#bitbucket-issues)
+- [ServiceNow](#servicenow)
 
 ### Azure DevOps (Boards)
 

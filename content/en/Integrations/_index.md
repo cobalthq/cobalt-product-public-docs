@@ -27,8 +27,8 @@ Streamline your pentesting and development workflows with Cobalt integrations.
 | <img src="/integrations/Github.png" alt="GitHub icon" title="GitHub icon" width="35" style="padding-right: 5px"> [GitHub](https://cobaltio.zendesk.com/hc/en-us/articles/360058712591-How-do-I-set-up-GitHub-Integration-) | Native | Push Cobalt findings as issues to GitHub (Cloud only)
 | <img src="/integrations/Webhooks.png" alt="Webhooks icon" title="Webhooks icon" width="35" style="padding-right: 5px"> [Webhooks](/integrations/webhooks/) | Native | Subscribe to real-time notifications for pentest events using API-based webhooks
 | <img src="/integrations/AzureDevOps.png" alt="Azure DevOps icon" title="Azure DevOps icon" width="35" style="padding-right: 5px"> [Azure DevOps](https://docs.google.com/forms/d/e/1FAIpQLScMNMnpIvJRNxEziIBCu246g_YqMuGU052XE-Q-gVh3mjy9XQ/viewform) | Native | {{< beta-label >}} Push findings as work items to Azure DevOps
-| <img src="/integrations/ServiceNow.png" alt="ServiceNow icon" title="ServiceNow icon" width="35" style="padding-right: 5px"> [ServiceNow](https://docs.google.com/forms/d/e/1FAIpQLScMNMnpIvJRNxEziIBCu246g_YqMuGU052XE-Q-gVh3mjy9XQ/viewform) | Native | {{< beta-label >}} Push findings as incidents to ServiceNow
 | <img src="/integrations/Bitbucket.png" alt="Bitbucket icon" title="Bitbucket icon" width="35" style="padding-right: 5px"> [Bitbucket](https://docs.google.com/forms/d/e/1FAIpQLScMNMnpIvJRNxEziIBCu246g_YqMuGU052XE-Q-gVh3mjy9XQ/viewform) | Native | {{< beta-label >}} Push findings as issues to Bitbucket
+| <img src="/integrations/ServiceNow.png" alt="ServiceNow icon" title="ServiceNow icon" width="35" style="padding-right: 5px"> [ServiceNow](https://docs.google.com/forms/d/e/1FAIpQLScMNMnpIvJRNxEziIBCu246g_YqMuGU052XE-Q-gVh3mjy9XQ/viewform) | Native | {{< beta-label >}} Push findings as incidents to ServiceNow
 | <img src="/integrations/Jupiterone.png" alt="JupiterOne icon" title="JupiterOne icon" width="35" style="padding-right: 5px"> [JupiterOne](https://community.askj1.com/kb/articles/994-cobalt-integration-with-jupiterone) | Partner | Analyze pentest data with JupiterOne tools
 | <img src="/integrations/OneTrust.png" alt="OneTrust icon" title="OneTrust icon" width="35" style="padding-right: 5px"> [OneTrust](https://www.onetrust.com/products/certification-automation/) | Partner | Pull Cobalt pentest information into the OneTrust GRC & Security Assurance Cloud platform (previously Tugboat Logic)
 | <img src="/integrations/Defectdojo.png" alt="DefectDojo icon" title="DefectDojo icon" width="35" style="padding-right: 5px"> [DefectDojo](https://defectdojo.github.io/django-DefectDojo/integrations/parsers/#cobaltio-api-import) | Partner | Import your Cobalt pentest findings into DefectoDojo with Cobalt API
@@ -41,8 +41,8 @@ Streamline your pentesting and development workflows with Cobalt integrations.
 Request to enable a beta integration for your next pentest to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software:
 
 - Azure DevOps
-- ServiceNow
 - Bitbucket
+- ServiceNow
 
 Beta integrations are fully functional connectors that we’ve developed using [Workato](https://www.workato.com/)—a workflow automation platform that enables greater flexibility to tailor our integrations to customers' unique workflows.
 
