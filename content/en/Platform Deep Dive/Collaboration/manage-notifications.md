@@ -45,12 +45,11 @@ To manage your notification preferences for a pentest:
 
 ## Manage Finding Notifications
 
-You start getting notifications for a finding when:
+You get notifications for a finding when someone:
 
-- You submitted the finding.
-- Someone assigned you to the finding.
-- You left a comment on the finding.
-- Someone mentioned you in a comment.
+- Assigned you to the finding.
+- Left a comment on the finding—if you're "Watching" the pentest.
+- Mentioned you in a comment.
 
 If you're not participating, you can subscribe to the notification thread.
 
