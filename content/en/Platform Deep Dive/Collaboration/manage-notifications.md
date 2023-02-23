@@ -57,8 +57,7 @@ If you're not participating, you can subscribe to the notification thread.
 To subscribe to notifications for a finding:
 
 1. On the pentest page, go to **Findings**, and select a finding.
-1. Under **Notifications**, select **Subscribe**.<br><br>
-![Subscribe to notifications for a finding](/deepdive/SubscribeToFindingNotifications.png "Subscribe to notifications for a finding")
+1. Under **Notifications**, select **Subscribe**.
 
 To unsubscribe from a thread, select **Unsubscribe**.
 
