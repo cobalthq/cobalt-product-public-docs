@@ -38,18 +38,17 @@ To manage your notification preferences for a pentest:
     - **Watching**: Receive notifications for all events, unless you've explicitly unsubscribed from a [finding thread](#manage-finding-notifications). This is the default option.
     - **Participating**: Receive notifications when you're participating in a pentest, which includes:
         - Someone mentioned you.
-        - You're an assignee on a finding.
-        - You're a commenter.
+        - Someone assigned you to a finding.
     - **Ignoring**: Ignore all events, unless you've explicitly subscribed to a [finding thread](#manage-finding-notifications).<br><br>
     ![Manage notification preferences for a pentest](/deepdive/ManagePentestNotifications.png "Manage notification preferences for a pentest")
 
 ## Manage Finding Notifications
 
-You get notifications for a finding when someone:
+You get a notification for a finding when someone:
 
 - Assigned you to the finding.
-- Left a comment on the finding—if you're "Watching" the pentest.
 - Mentioned you in a comment.
+- Left a comment on the finding—if you're "Watching" the pentest.
 
 If you're not participating, you can subscribe to the notification thread.
 
