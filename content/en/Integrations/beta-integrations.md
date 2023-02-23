@@ -53,7 +53,7 @@ To enable a beta integration, sign in to your Cobalt Customer Workspace in Worka
 
 Once you've signed in to your Workato workspace, you need to authenticate to your Cobalt account.
 
-1. In the Workato workspace, under **Projects**, select **Connections**.
+1. In your Workato workspace, under **Projects**, select **Connections**.
 1. Select **Cobalt Connection**.
 1. Enter the following:
     - **Bearer token**: Paste the **API Token** that you created. Learn [how to create an API token](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui).
@@ -70,17 +70,40 @@ To complete the integration, connect to the third-party app:
 
 ### Azure DevOps (Boards)
 
-To set up a connection with Azure DevOps, you need a **Personal access token**. For details, read the [Azure DevOps documentation](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows#create-a-pat).
+To set up a connection with Azure DevOps, you need a **Personal access token**. For instructions, read the [Azure DevOps documentation](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows#create-a-pat).
+
+To set up your Azure DevOps integration:
+
+1. In your Workato workspace, select **Projects**.
+1. In the **Azure DevOps Beta Integration** project, select **Connections**.
+1. Select **Azure DevOps Beta - AzureDevOps Connection**.
+1. On the connection screen, enter the following:
+    - Your Azure DevOps username
+    - Personal access token
+    - Organization name
+    - API version: `7.0`
+1. Select **Connect**.
 
 ### Bitbucket Issues
 
 The Bitbucket connector uses OAuth for authentication. To set up your Bitbucket integration:
 
-1. In the Workato workspace, under **Projects**, select **Connections** in the **Cobalt Bitbucket Integration** project.
-1. Select **Bitbucket Beta Connection** in the list.
-1. On the connection screen, select **Connect**, and enter your Bitbucker sign-in credentials.
+1. In your Workato workspace, select **Projects**.
+1. In the **Cobalt Bitbucket Integration** project, select **Connections**.
+1. Select **Bitbucket Beta - Bitbucket Connection**.
+1. Select **Connect**, and sign in to your Bitbucket account.
 1. Select **Grant access**.
 
-You should see a page confirming a successful connection.
+### ServiceNow
 
-<!--### ServiceNow-->
+The ServiceNow connector supports the following types of authentication:
+
+- Basic authentication with a username and password
+- OAuth 2.0 authentication
+
+To set up your ServiceNow integration:
+
+1. In your Workato workspace, select **Projects**.
+1. In the **ServiceNow Beta Integration** project, select **Connections**.
+1. Select **ServiceNow Beta - ServiceNow Connection**.
+1. Sign in to your ServiceNow account. To learn more, see [How to connect to ServiceNow on Workato](https://docs.workato.com/connectors/servicenow.html#how-to-connect-to-servicenow-on-workato).
