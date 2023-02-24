@@ -21,7 +21,7 @@ cascade:
        <a class="btn btn-outline-primary rounded" href="https://www.cobalt.io/" target="_blank">Explore Cobalt »</a>
 </div>
 
-<div class="row g-4 py-2 px-5 row-cols-1 row-cols-lg-3">
+<div class="row g-4 my-5 px-5 row-cols-1 row-cols-lg-3">
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary fs-2 mb-3">
          <a href="/getting-started/" tabindex="-1"><img src="homepage/getting-started.svg"></a>
@@ -45,7 +45,7 @@ cascade:
      </div>
    </div>
 
-<div class="row g-4 py-2 px-5 row-cols-1 row-cols-lg-3">
+<div class="row g-4 my-5 px-5 row-cols-1 row-cols-lg-3">
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary fs-2 mb-3">
          <a href="/platform-deep-dive/assets/" tabindex="-1"><img src="homepage/asset-types.svg"></a>
