@@ -15,7 +15,7 @@ cascade:
     path: "/**"
 ---
 
-<div class="jumbotron px-5">
+<div class="jumbotron px-5" style="background-color: #F8F9FB">
        <h1>Welcome to Cobalt Documentation</h1>
        <p class="my-3">Deep dive into our documentation to explore Cobalt—your all-in-one platform for pentesting your software.</p>
        <a class="btn btn-outline-primary rounded" href="https://www.cobalt.io/" target="_blank">Explore Cobalt »</a>
