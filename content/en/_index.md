@@ -74,7 +74,7 @@ cascade:
 
 <div class="row align-items-md-stretch my-5">
       <div class="col-md-6">
-        <div class="h-100 p-5 border border-primary rounded-3">
+        <div class="h-100 p-5 border border-primary rounded-lg">
           <h3>Try Beta Integrations</h3>
           <p class="my-2">{{% beta-label %}}</p>
           <p>Request to <a href="/integrations/#request-a-beta-integration">enable a beta integration for your next pentest</a> to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software: Azure DevOps, BitBucket, or ServiceNow.</p>
@@ -82,7 +82,7 @@ cascade:
         </div>
       </div>
       <div class="col-md-6">
-        <div class="h-100 p-5 text-bg-dark border border-primary rounded-3">
+        <div class="h-100 p-5 text-bg-dark border border-primary rounded-lg">
           <h3>Preview Risk Advisories</h3>
           <p class="my-2">{{% new-label %}}</p>
           <p>Add a technology stack for your software asset, and we'll show you a preview of risk advisories based on the Common Vulnerabilities and Exposures (CVE) standard for that stack. Subscribe to email alerts <img title="Bell icon" alt="Bell icon" src="/icons/Bell.png"> for potential critical vulnerabilities discovered in your assets.</p>
