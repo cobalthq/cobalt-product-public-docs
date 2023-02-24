@@ -18,7 +18,7 @@ cascade:
 <div class="jumbotron px-5">
        <h1>Welcome to Cobalt Documentation</h1>
        <p class="my-3">Deep dive into our documentation to explore Cobalt—your all-in-one platform for pentesting your software.</p>
-       <a class="btn btn-outline-primary" href="https://www.cobalt.io/get-started" target="_blank">Explore Cobalt »</a>
+       <a class="btn btn-outline-primary rounded" href="https://www.cobalt.io/" target="_blank">Explore Cobalt »</a>
 </div>
 
 <div class="row g-4 py-2 px-5 row-cols-1 row-cols-lg-3">
@@ -72,19 +72,19 @@ cascade:
 
 <div class="row align-items-md-stretch my-5">
       <div class="col-md-6">
-        <div class="h-100 p-5 border border-primary rounded-lg">
-          <h3>Try Beta Integrations</h3>
-          <p class="my-2">{{% beta-label %}}</p>
-          <p>Request to <a href="/integrations/#request-a-beta-integration">enable a beta integration for your next pentest</a> to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software: Azure DevOps, BitBucket, or ServiceNow.</p>
-       <a href="https://docs.google.com/forms/d/e/1FAIpQLScMNMnpIvJRNxEziIBCu246g_YqMuGU052XE-Q-gVh3mjy9XQ/viewform" target="_blank">Request an integration »</a><br>
-        </div>
-      </div>
-      <div class="col-md-6">
         <div class="h-100 p-5 text-bg-dark border border-primary rounded-lg">
           <h3>Preview Risk Advisories</h3>
           <p class="my-2">{{% new-label %}}</p>
           <p>Add a technology stack for your software asset, and we'll show you a preview of risk advisories based on the Common Vulnerabilities and Exposures (CVE) standard for that stack. Subscribe to email alerts <img title="Bell icon" alt="Bell icon" src="/icons/Bell.png"> for potential critical vulnerabilities discovered in your assets.</p>
           <a href="/platform-deep-dive/assets/risk-advisories/">Read the guide »</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 border border-primary rounded-lg">
+          <h3>Try Beta Integrations</h3>
+          <p class="my-2">{{% beta-label %}}</p>
+          <p>Request to <a href="/integrations/#request-a-beta-integration">enable a beta integration for your next pentest</a> to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software: Azure DevOps, BitBucket, or ServiceNow.</p>
+       <a href="https://docs.google.com/forms/d/e/1FAIpQLScMNMnpIvJRNxEziIBCu246g_YqMuGU052XE-Q-gVh3mjy9XQ/viewform" target="_blank">Request an integration »</a><br>
         </div>
       </div>
     </div>
