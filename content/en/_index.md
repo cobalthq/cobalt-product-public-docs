@@ -24,21 +24,21 @@ cascade:
 <div class="row g-4 py-2 px-5 row-cols-1 row-cols-lg-3">
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary fs-2 mb-3">
-         <a href="/getting-started/" tabindex="-1"><img src="homepage/getting-started.png"></a>
+         <a href="/getting-started/" tabindex="-1"><img src="homepage/getting-started.svg"></a>
        </div>
        <h3 class="fs-2"><a href="/getting-started/">Getting Started</a></h3>
        <p>Use our step-by-step guide to launch your first pentest. Set up an asset, specify pentest details—and get the ball rolling.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <a href="/platform-deep-dive/pentests/pentest-process/methodologies/" tabindex="-1"><img src="homepage/methodologies.png"></a>
+         <a href="/platform-deep-dive/pentests/pentest-process/methodologies/" tabindex="-1"><img src="homepage/methodologies.svg"></a>
        </div>
        <h3 class="fs-2"><a href="/platform-deep-dive/pentests/pentest-process/methodologies/">Pentest Methodologies</a></h3>
        <p>Read about the methodologies that our pentesters use to test different types of assets: Web, API, Mobile, and more.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <a href="/platform-deep-dive/pentests/pentest-types/" tabindex="-1"><img src="homepage/pentest-types.png"></a>
+         <a href="/platform-deep-dive/pentests/pentest-types/" tabindex="-1"><img src="homepage/pentest-types.svg"></a>
        </div>
        <h3 class="fs-2"><a href="/platform-deep-dive/pentests/pentest-types/">Pentest Types</a></h3>
        <p>Learn about the pentest types that we offer. Make your security stronger with Agile and Comprehensive Pentests.</p>
@@ -48,21 +48,21 @@ cascade:
 <div class="row g-4 py-2 px-5 row-cols-1 row-cols-lg-3">
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary fs-2 mb-3">
-         <a href="/platform-deep-dive/assets/" tabindex="-1"><img src="homepage/asset-types.png"></a>
+         <a href="/platform-deep-dive/assets/" tabindex="-1"><img src="homepage/asset-types.svg"></a>
        </div>
        <h3 class="fs-2"><a href="/platform-deep-dive/assets/">Asset Types</a></h3>
        <p>An asset is a software component of value to be tested, such as a web application or API. Explore the asset types we support.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <a href="/integrations/" tabindex="-1"><img src="homepage/integrations.png"></a>
+         <a href="/integrations/" tabindex="-1"><img src="homepage/integrations.svg"></a>
        </div>
        <h3 class="fs-2"><a href="/integrations/">Integrations</a></h3>
        <p>Integrate third-party apps to streamline your workflows, and configure webhooks to get real-time pentest updates.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
-         <a href="/product-updates/" tabindex="-1"><img src="homepage/whats-new.png"></a>
+         <a href="/product-updates/" tabindex="-1"><img src="homepage/whats-new.svg"></a>
        </div>
        <h3 class="fs-2"><a href="/product-updates/">What’s New</a></h3>
        <p>We regularly ship updates to the Cobalt platform. Read our monthly release blog to stay on top of the latest news.</p>
