@@ -43,7 +43,7 @@ cascade:
          <a href="/platform-deep-dive/pentests/pentest-types/" tabindex="-1"><img src="gsg/test.png" width="12%"></a>
        </div>
        <h3 class="fs-2"><a href="/platform-deep-dive/pentests/pentest-types/">Pentest Types</a></h3>
-       <p>Learn about the pentest types that we offer. Explore the benefits of Agile and Comprehensive Pentests.</p>
+       <p>Learn about the pentest types that we offer. Make your security stronger with Agile and Comprehensive Pentests.</p>
      </div>
    </div>
 
@@ -53,7 +53,7 @@ cascade:
          <a href="/platform-deep-dive/assets/" tabindex="-1"><img src="gsg/test.png" width="12%"></a>
        </div>
        <h3 class="fs-2"><a href="/platform-deep-dive/assets/">Asset Types</a></h3>
-       <p>An asset is a software component of value to be tested, such as a web application or API. Learn more about the asset types we support.</p>
+       <p>An asset is a software component of value to be tested, such as a web application or API. Explore the asset types we support.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary bg-gradient fs-2 mb-3">
