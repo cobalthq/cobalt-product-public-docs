@@ -9,7 +9,7 @@ description: >
 ---
 
 {{< pageinfo >}}
-<p>{{< beta-label >}}</p><p>Integrate third-party apps to streamline your remediation workflows.</p><p>If you have questions or need help, please contact <a href="mailto:integrations@cobalt.io">integrations@cobalt.io</a> or your Customer Success Manager.</p>
+<p>{{< beta-label >}}</p><p>Integrate third-party apps to streamline your remediation workflows.</p><p>{{< tier-feature-html>}} If you have questions or need help, please contact <a href="mailto:integrations@cobalt.io">integrations@cobalt.io</a> or your Customer Success Manager.</p>
 {{< /pageinfo >}}
 
 With our [beta integrations](/integrations/#request-a-beta-integration), you can push Cobalt [findings](/platform-deep-dive/pentests/findings/) to your preferred task management software:
