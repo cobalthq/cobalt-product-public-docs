@@ -1,6 +1,6 @@
 ---
 title: "Overview of Cobalt Documentation"
-linkTitle: "Overview"
+linkTitle: "Home"
 type: "docs"
 no_list: true
 weight: 20
@@ -14,9 +14,6 @@ cascade:
 - type: "docs"
   _target:
     path: "/**"
-menu:
-  main:
-    weight: 20
 ---
 
 This page includes links to other Cobalt literature, including our
