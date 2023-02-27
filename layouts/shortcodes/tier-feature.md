@@ -1,0 +1,1 @@
+The availability of this feature depends on your [PtaaS tier](https://www.cobalt.io/pentest-pricing).
