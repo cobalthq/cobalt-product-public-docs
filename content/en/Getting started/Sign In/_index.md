@@ -30,7 +30,7 @@ Now you can:
 1. Once you've set a password, you should see the Cobalt app.
 1. Next time you can sign in to Cobalt in the following ways:
    - From the {{% sign-in %}} page, with:
-      - A username and password. Your username is your email address.
+      - An email address and password
       - A Google account that you used to sign in to Cobalt<br>
       ![Cobalt Sign In page](/gsg/SignInPage.png "Cobalt Sign In page")
    - Through [SAML SSO](#saml-sso), if configured
