@@ -15,6 +15,8 @@ cascade:
     path: "/**"
 ---
 
+<div style="padding-right: 2.0625rem;">
+
 <div class="jumbotron px-5" style="background-color: #F8F9FB; margin-bottom: 4rem;">
        <h1>Welcome to Cobalt Documentation</h1>
        <p class="my-3">Deep dive into our documentation to explore Cobalt—your all-in-one platform for pentesting your software.</p>
@@ -92,4 +94,6 @@ cascade:
 <div class="text mx-5">
   <h3>Need More Help? Get in Touch!</h3>
   <p>If you need help, don't hesitate to contact us.</p><ul><li>If you have a named Customer Success Manager, get in touch with them.</li><li>Otherwise, <a href="https://cobaltio.zendesk.com/hc/en-us/requests/new" target="_blank">submit a ticket</a> or send an email to <a href="mailto:support@cobalt.io" target="_blank">support@cobalt.io</a>.</ul>
+</div>
+
 </div>
