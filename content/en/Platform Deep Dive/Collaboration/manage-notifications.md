@@ -50,14 +50,13 @@ You get a notification for a finding when someone:
 - Mentioned you in a comment.
 - Left a comment on the finding—if you're "Watching" the pentest.
 
-If you're not participating, you can subscribe to the notification thread.
-
-To subscribe to notifications for a finding:
+If you're not participating, you can subscribe to notifications for a finding.
 
 1. On the pentest page, go to **Findings**, and select a finding.
-1. Under **Notifications**, select **Subscribe**.
+1. Under **Notifications**, select **Follow**.<br><br>
+   ![Follow a finding](/deepdive/FollowFinding.png "Follow a finding")
 
-To unsubscribe from a thread, select **Unsubscribe**.
+To unsubscribe from a thread, select **Unfollow**.
 
 ## View All Notifications
 
