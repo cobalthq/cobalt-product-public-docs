@@ -26,27 +26,17 @@ Open the email. It should include a link to Get Started:
 Now you can:
 
 1. Select the link in your email.
-
-1. From the webpage that appears, create a password. Follow the complexity
-   requirements on the screen. We require passwords with at least:
-   - Eight (8) characters
-   - One (1) uppercase letter
-   - One (1) lowercase letter
-   - One (1) digit
-
-   We also include a link to our [Terms and Conditions](https://cobalt.io/terms/general).
-
+1. From the webpage that appears, create a password. Follow the password complexity requirements on the screen. We also include a link to our [Terms and Conditions](https://cobalt.io/terms/general).
 1. Once you've set a password, you should see the Cobalt app.
-
 1. Next time you can sign in to Cobalt in the following ways:
    - From the {{% sign-in %}} page, with:
-      - A username and password. Your username is your email address.
+      - An email address and password
       - A Google account that you used to sign in to Cobalt<br>
       ![Cobalt Sign In page](/gsg/SignInPage.png "Cobalt Sign In page")
    - Through [SAML SSO](#saml-sso), if configured
 
 {{< alert title="Tip" color="primary" >}}
-If you have problems signing in, see [Account Recovery](/platform-deep-dive/cobalt-account/account-recovery/).
+If you have problems signing in, see [Troubleshoot Sign-in Issues](/platform-deep-dive/cobalt-account/account-recovery/).
 {{< /alert >}}
 
 ## SAML SSO
@@ -72,6 +62,14 @@ We support two-factor authentication (2FA). If you're using [SAML SSO](#saml-sso
 
 {{< alert title="Tip" color="primary" >}}
 {{% 2fa-see-troubleshooting %}}
+{{< /alert >}}
+
+## Device Verification
+
+{{% device-verification-intro %}}
+
+{{< alert title="Tip" color="primary" >}}
+If you see the **Verify It's You** message upon signing in, follow the steps described in [We Don't Recognize Your Device](/platform-deep-dive/cobalt-account/account-recovery/#we-dont-recognize-your-device).
 {{< /alert >}}
 
 ## Next Step
