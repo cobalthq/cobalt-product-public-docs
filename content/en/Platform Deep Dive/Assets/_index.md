@@ -49,26 +49,27 @@ You can also use the [Cobalt API](/apiusecases/create_asset/#create-an-asset) to
 
 ## View and Modify Assets
 
-Once you've [created](#create-an-asset) assets, you can view and manage them on the **Assets** page.
-
-Select the three-dot icon {{% three-dots %}} under **Action**, and then select the desired option:
-
-- **Create a Pentest** for this asset
-- **Edit Asset** to modify [asset details](#asset-details)
-- **Delete Asset**, if it doesn't have associated pentests
-
-To preview a summary of [potential vulnerabilities](/platform-deep-dive/assets/risk-advisories/) based on the [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) standard, hold the pointer over the number under **Risk Advisory**. To navigate to the detailed list, select the number.
-
-You can sort assets in ascending or descending order.
-
 ![Page listing your assets](/deepdive/AssetsPage.png "Page listing your assets")
 
-To view asset details, select an asset. From here, you can:
+Once you've [created](#create-an-asset) assets, you can view them on the **Assets** page. Here, you can:
+
+- **Sort assets** in ascending or descending order.
+- **Preview risk advisories**. To preview a summary of [potential vulnerabilities](/platform-deep-dive/assets/risk-advisories/) based on the [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) standard, point to the number under **Risk Advisory**. To navigate to the detailed list, select the number.
+- **View Aggregated Risk**. View the [Aggregated Risk](/getting-started/glossary/#aggregated-risk) for the last pentest. To navigate to the **Insights** page, select the number.
+- **Manage assets**. Select the three-dot icon {{% three-dots %}} under **Action**, and then select the desired option:
+  - **Create a Pentest** for this asset
+  - **Edit Asset** to modify [asset details](#asset-details)
+  - **Delete Asset**, if it doesn't have associated pentests
+
+To view asset details, select an asset.
+
+<img src="/deepdive/AssetDetailsPageAdvisory.png" alt="Asset details page" title="Asset details page" width="800">
+<br><br>
+
+On the asset details page, you can:
 
 - Create a pentest for this asset
 - Edit asset details
 - Delete the asset, if it doesn't have associated pentests
 - View associated pentests
 - Preview [risk advisories](/platform-deep-dive/assets/risk-advisories/) for this asset
-
-<img src="/deepdive/AssetDetailsPageAdvisory.png" alt="Asset details page" title="Asset details page" width="800">
