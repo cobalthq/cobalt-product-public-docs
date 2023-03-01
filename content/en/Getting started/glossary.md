@@ -94,12 +94,12 @@ an individual, a group, or even a nation-state. Specified as "attacker" in Cobal
 
 You can't customize an Automated Report. {{% learn-more-reports %}}
 
-## Black Box Testing
+## Black-Box Testing
 
 Where the pentester has no knowledge of the internal details of the asset. Contrast
-with gray box and white box testing.
+with [gray-box](#gray-box-testing) and [white-box testing](#white-box-testing).
 
-Also known as "opaque box testing."
+Also known as "opaque-box testing."
 
 ## Center for Internet Security (CIS)
 
@@ -274,12 +274,12 @@ For pentests of a GraphQL API, Cobalt needs the number of [queries and mutations
 
 For more information, see https://graphql.org/learn/queries/
 
-## Gray Box Testing
+## Gray-Box Testing
 
 Where the pentester has limited knowledge of the internal details of the asset. Contrast
-with white box and black box testing.
+with [white-box](#white-box-testing) and [black-box testing](#black-box-testing).
 
-Also known as "translucent box testing."
+Also known as "translucent-box testing."
 
 ## Jump Box
 
@@ -287,7 +287,7 @@ Also known as a jump host or a jump server, a jump box is a system (typically) o
 network or a DMZ. Jump boxes are used to access and manage devices in a separate security zone.
 
 Where the pentester has limited knowledge of the internal details of the asset. Contrast
-with white box and black box testing.
+with [white-box](#white-box-testing) and [black-box testing](#black-box-testing).
 
 ## Known Vulnerability
 
@@ -487,12 +487,12 @@ A hypertext document on the web. Web applications typically include static and d
 - A [Static Web Page](#static-web-page) contains stable content that appears the same for every user who opens the page.
 - A [Dynamic Web Page](#dynamic-web-page) includes content that can be customized, either through an application server (server-side) or through code such as JavaScript running in the browser (client-side).
 
-## White Box Testing
+## White-Box Testing
 
 Where the pentester has full knowledge of the internal details of the asset. Contrast
-with black box and gray box testing.
+with [black-box](#black-box-testing) and [gray-box testing](#gray-box-testing).
 
-Also known as "clear box testing."
+Also known as "clear-box testing."
 
 ## References
 
