@@ -22,12 +22,12 @@ Here are some examples of how you can scale your workflows:
 - Integrate findings into your data visualization tool for a comprehensive view of your vulnerability and application landscape.
 
 <div class="card">
-  <div class="card-header">
+  <div class="card-header" style="background-color: #F9FAFB;">
     <b>API Documentation</b>
   </div>
   <div class="card-body">
     <p class="card-text">Read our comprehensive API documentation to learn how to send specific API requests and view examples.</p>
-    <a href="https://docs.cobalt.io/v2/" target="_blank" class="btn btn-primary">Go to API Docs</a>
+    <a href="https://docs.cobalt.io/v2/" target="_blank" class="btn btn-primary rounded">Go to API Docs</a>
   </div>
 </div>
 
