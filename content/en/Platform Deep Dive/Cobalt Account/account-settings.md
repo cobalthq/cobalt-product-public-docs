@@ -62,7 +62,9 @@ Follow this instruction if you remember your password and want to change it. {{%
 
 To manage two-factor authentication (2FA) settings for your account, select **Security Settings** on the user menu.
 
-### Enable Two-Factor Authentication
+### Two-Factor Authentication
+
+#### Enable Two-Factor Authentication
 
 Even if your organization hasn't enforced 2FA for all users, we recommend that you enable it to enhance your account security. If you're using [SAML SSO](/getting-started/sign-in/#saml-sso) to sign in, you don't need to turn on 2FA.
 
@@ -82,7 +84,7 @@ Now, each time you sign in to Cobalt, you need to enter a one-time code from you
 
 For troubleshooting tips, see [Problems with Two-Factor Authentication](/platform-deep-dive/cobalt-account/account-recovery/#problems-with-two-factor-authentication).
 
-### Reset Two-Factor Authentication
+#### Reset Two-Factor Authentication
 
 We don't recommend turning off 2FA on your account. However, you may need to reset 2FA when:
 

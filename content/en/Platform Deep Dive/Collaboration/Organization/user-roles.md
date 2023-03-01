@@ -21,6 +21,7 @@ Refer to the table below for a detailed list of permissions and privileges for e
 | View and edit pentest details, including [scoping parameters](/getting-started/planning/#scope-the-pentest) | ✔️ | ✔️ | ✔️ |
 | View pentest activity updates and pentester updates| ✔️ | ✔️ | ✔️ |
 | View and manage pentest findings | ✔️ | ✔️ | ✔️ |
+| [Collaborate on pentests](/platform-deep-dive/collaboration/collaborate-on-pentests/) in the Cobalt app and in Slack | ✔️ | ✔️ | ✔️ |
 | [Invite](/platform-deep-dive/collaboration/organization/manage-users/#add-a-pentest-team-member) Pentest Team Members to a specific pentest and [remove](/platform-deep-dive/collaboration/organization/manage-users/#remove-a-pentest-team-member) them | ✔️ | ✔️ | ✔️ |
 | Create and manage [Cobalt API tokens](/platform-deep-dive/cobalt-account/account-settings/#create-and-manage-api-tokens) | ✔️ | ✔️ | ✔️ |
 | Manage integrations for a specific pentest: Jira one-way and GitHub | ✔️ | ✔️ | ✔️ |
@@ -32,4 +33,4 @@ Refer to the table below for a detailed list of permissions and privileges for e
 | [Manage users](/platform-deep-dive/collaboration/organization/manage-users/#manage-users-for-your-organization) for an organization | ➖ | ➖ | ✔️ |
 | View the email addresses of users on the **People** page | ➖ | ➖ | ✔️ |
 | Manage identity and access settings for an organization: [two-factor authentication](/getting-started/sign-in/#two-factor-authentication) and [SAML SSO](/getting-started/sign-in/#saml-sso) | ➖ | ➖ | ✔️ |
-| Enable [co-branded reports](/getting-started/review-pentest/#co-branded-reports) (for partners) | ➖ | ➖ | ✔️ |
+| Enable [co-branded reports](/platform-deep-dive/pentests/reports/cobranded-reports/) (for partners) | ➖ | ➖ | ✔️ |
