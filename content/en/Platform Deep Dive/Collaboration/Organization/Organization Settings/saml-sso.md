@@ -32,6 +32,7 @@ Configuration procedures differ for each identity provider. Here’s the general
     - Navigate to the **Settings** page, and then select **Identity & Access**.
     - Under **SAML 2.0**, select **Enable**.
     - Enter parameter values that you obtained from the identity provider, and select **Save**.
+        - For the **IdP Certificate**, make sure to include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.
     - Save the **IdP RelayState** value that appears in red.<br><br>
     ![Configure SAML SSO in the Cobalt app](/deepdive/ConfigureSAML.png "Configure SAML SSO in the Cobalt app")
 1. Complete the integration in the identity provider system, and test the connection.
@@ -50,7 +51,7 @@ To get help, contact your Customer Success Manager (CSM) or support@cobalt.io. W
 
 | Troubleshooting Tip | Details |
 |---|---|
-| Ensure that the IdP certificate is accurate. | Copy the IdP certificate once again. Make sure there are no extra whitespaces. |
+| Ensure that the IdP certificate is accurate. | Copy the IdP certificate once again.<br>• Include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.<br>• Make sure there are no extra whitespaces. |
 | Check that the organization tokens (**IdP Relay State** in Cobalt) match in the IdP system and Cobalt. Pay attention to quotation marks. | Check that all quotation marks in the organization tokens are straight quotes `" "` and not curly quotes `“ ”`. |
 | Ensure that you added users to the Cobalt platform. | We don’t support user provisioning through an IdP. When leveraging an IdP, make sure that there is an established identity for a user in Cobalt.<br>To establish an identity in Cobalt, a user needs to create a password and sign in to Cobalt. All subsequent sign-ins (after the user identity is established in Cobalt) are initiated through the organization’s IdP. |
 | Ensure that the IdP issuer URL value matches between your identity provider and Cobalt. | The Issuer/Identifier ID in a SAML assertion doesn’t have to be a valid URL path. For [Okta](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Cobalt.html), the IdP issuer URL must start with `http` not `https`.  |
