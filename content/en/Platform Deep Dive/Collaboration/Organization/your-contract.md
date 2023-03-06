@@ -35,11 +35,11 @@ When your organization's contract is about to expire, we notify you in advance. 
 - Be sure to start your pentests at least 30 days before your contract expires, if you have credits remaining.
   - The standard testing period is 14 days. It may vary depending on the pentest scope and other factors.
 - [Submit your findings for retest](/platform-deep-dive/pentests/findings/remediate-findings/#submit-a-finding-for-retest) at least 10 days before your contract expires. Learn more about the [free retesting duration](/platform-deep-dive/pentests/findings/remediate-findings/#free-retesting-duration).
-- [Download the data](#download-your-organizations-pentest-data) you need before we revoke your access to the platform.
+- [Download the data you need](#download-your-organizations-pentest-data) before we revoke your access to the platform.
 
 After the contract expiration date, a **15-day grace period** starts.
 
-- Within the grace period, you still have access to the platform. Be sure to [download the data](#download-your-organizations-pentest-data) you need within this time frame.
+- Within the grace period, you still have access to the platform. Be sure to [download the data you need](#download-your-organizations-pentest-data) within this time frame.
 - Your remaining [credits](/platform-deep-dive/credits/) expire.
 - You can no longer submit pentests or retests for review.
 
