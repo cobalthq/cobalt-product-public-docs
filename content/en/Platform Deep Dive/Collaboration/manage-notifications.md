@@ -31,24 +31,21 @@ Your [user role](/platform-deep-dive/collaboration/organization/user-roles/) det
 
 When you collaborate on a pentest, you get notifications depending on your notification preferences.
 
-To manage your notification preferences for a pentest:
+On the pentest page, select the bell icon ![Bell icon](/icons/Bell.png "Bell icon"), and set your preference:
 
-1. On the pentest page, select **Settings** > **Notifications**.
-1. Select your preference:
-    - **Watching**: Receive notifications for all events, unless you've explicitly unsubscribed from a [finding thread](#manage-finding-notifications). This is the default option.
-    - **Participating**: Receive notifications when you're participating in a pentest, which includes:
-        - Someone mentioned you.
-        - Someone assigned you to a finding.
-    - **Ignoring**: Ignore all events, unless you've explicitly subscribed to a [finding thread](#manage-finding-notifications).<br><br>
-    ![Manage notification preferences for a pentest](/deepdive/ManagePentestNotifications.png "Manage notification preferences for a pentest")
+- **Notifications on all activity**, unless you've explicitly unfollowed a [finding](#manage-finding-notifications). This is the default option.
+- **Notifications on @ mentions and findings you participate in**.
+- **Mute notifications, except on findings you [follow](#manage-finding-notifications)**.
+
+<!--![Manage notification preferences for a pentest](/deepdive/ManagePentestNotifications.png "Manage notification preferences for a pentest")-->
 
 ## Manage Finding Notifications
 
-You get a notification for a finding when someone:
+You get notifications for a finding when someone:
 
 - Assigned you to the finding.
 - Mentioned you in a comment.
-- Left a comment on the finding—if you're "Watching" the pentest.
+- Left a comment on the finding—if you subscribed to [pentest notifications](#manage-pentest-notifications).
 
 If you're not participating, you can subscribe to notifications for a finding.
 
@@ -76,3 +73,10 @@ On the **Notifications** page, you can select to view unread or all notification
 To view the latest activity of your team members and pentesters, navigate to the **Activity** page. Both organization users and [Pentest Team Members](/getting-started/glossary/#pentest-team-member) can view this page.
 
 ![View team activity](/deepdive/ViewActivity.png "View team activity")
+
+## Troubleshoot Email Notifications
+
+If you're not receiving emails from Cobalt, do the following:
+
+- Check the filters of your mailbox. Make sure that the rules you've set up don't affect emails from `no-reply@cobalt.io`.
+- Check that emails from Cobalt aren't being marked as spam or junk.
