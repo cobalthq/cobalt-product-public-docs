@@ -78,5 +78,5 @@ To view the latest activity of your team members and pentesters, navigate to the
 
 If you're not receiving emails from Cobalt, do the following:
 
-- Check the filters of your mailbox. Make sure that the rules you've set up don't affect emails from `no-reply@cobalt.io`.
+- Check the filters of your mailbox. Make sure that the rules you've enabled don't affect emails from `no-reply@cobalt.io`.
 - Check that emails from Cobalt aren't being marked as spam or junk.
