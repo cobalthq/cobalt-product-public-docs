@@ -89,16 +89,19 @@ Make sure to include the:
 
 ## Attachments
 
-To share more about your assets, you can upload the documentation of your choice under **Attachment(s)**. Our app accepts files
-in the following categories and formats:
+To share more about your assets, you can upload the documentation of your choice under **Attachment(s)**. Our app limits uploads to 100 MB.
 
+{{%expand "Accepted file categories and formats:" %}}
 - Archives (.gz, .rar, .tar, .zip)
 - Documents (.doc, .docx, .pdf, .txt)
 - Images (.gif, .jpg, .jpeg, .png)
 - Spreadsheets (.csv, .xls, .xlsx)
-- Videos (.mov, .mp4) 
+- Videos (.mov, .mp4)
+{{% /expand%}}
 
-Our app limits uploads to 100 MB.
+{{< alert title="Tip" color="primary" >}}
+You can add a video walk-through of your asset as an attachment. This will give pentesters more context about the asset they need to test.<br>Screen recording instructions vary depending on your device and operating system. As an example, read [how to record the screen on your Mac](https://support.apple.com/en-gb/HT208721).
+{{< /alert >}}
 
 ![Asset Attachments Screen](/gsg/AssetAttachments.png "Uploads related to your asset")
 
