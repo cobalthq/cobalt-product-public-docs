@@ -1,7 +1,7 @@
 ---
 title: "Explore Risk Advisories"
 linkTitle: "Risk Advisories"
-weight: 20
+weight: 30
 description: >
   Preview potential vulnerabilities for your assets.
 ---
@@ -10,7 +10,7 @@ description: >
 Add a technology stack for your software asset, and we’ll show you a preview of risk advisories based on the [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) standard for that stack.
 {{% /pageinfo %}}
 
-This integration supports the following [asset types](/platform-deep-dive/assets/#asset-types):
+This integration supports the following [asset types](/platform-deep-dive/assets/asset-types/):
 
 - Web
 - Mobile
@@ -21,7 +21,7 @@ This integration supports the following [asset types](/platform-deep-dive/assets
 
 When you [create](/platform-deep-dive/assets/#create-an-asset) or update an asset in the Cobalt app, add a technology stack for it:
 
-1. Once you’ve specified the [asset type](/platform-deep-dive/assets/#asset-types), select **Add Technology**, and start typing the technology name. We’ll show you a list of technologies that match your input. The list contains only valid technologies.
+1. Once you’ve specified the [asset type](/platform-deep-dive/assets/asset-types/), select **Add Technology**, and start typing the technology name. We’ll show you a list of technologies that match your input. The list contains only valid technologies.
 1. Select a technology with the exact version number.
 1. If your technology version is missing from the list, you can request to add it. Start typing the technology name, and then select **Add new version**. In the overlay that appears, submit a technology and its version, and we'll validate it for you.<br>
   Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key for specific examples.

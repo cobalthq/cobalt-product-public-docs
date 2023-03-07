@@ -14,6 +14,12 @@ cited in the [References](#references).
 The definitions included in this page may vary from the cited standards, based on how
 we configure and use Cobalt software.
 
+## Aggregated Risk
+
+{{% aggregated-risk-definition %}}
+
+The [risk](/platform-deep-dive/pentests/findings/severity-levels/) of an individual finding is the likelihood multiplied by the impact (Risk = Likelihood * Impact).
+
 ## Agile Pentest
 
 {{% agile-pentest %}}. Learn more about the [pentest types](/platform-deep-dive/pentests/pentest-types/).
