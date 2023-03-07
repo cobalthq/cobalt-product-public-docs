@@ -105,7 +105,7 @@ To reset 2FA on your account:
 
 ## Create and Manage API Tokens
 
-To work with the Cobalt API, you need an API token. See [Create an API Token in the Cobalt UI](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui) for details.
+{{% api-token-intro %}} See [Create an API Token in the Cobalt UI](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui) for instructions.
 
 ![Create and manage API tokens to work with the Cobalt API](/deepdive/SettingsAPITokens.png "API Tokens page")
 
