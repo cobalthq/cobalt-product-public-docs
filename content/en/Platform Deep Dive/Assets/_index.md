@@ -16,10 +16,10 @@ description: >
 
 Once you've created assets, you can view them on the **Assets** page. Here, you can:
 
-- **Sort assets** in ascending or descending order.
-- **Preview risk advisories**. To preview a summary of [potential vulnerabilities](/platform-deep-dive/assets/risk-advisories/) based on the [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) standard, point to the number under **Risk Advisory**. To navigate to the detailed list, select the number.
-- **View Aggregated Risk**. View the [Aggregated Risk](/getting-started/glossary/#aggregated-risk) for the last pentest. To navigate to the **Insights** page, select the number.
-- **Manage assets**. Select the three-dot icon {{% three-dots %}} under **Action**, and then select the desired option:
+- Sort assets in ascending or descending order.
+- [Preview risk advisories](/platform-deep-dive/assets/risk-advisories/). To preview a summary of potential vulnerabilities based on the [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) standard, point to the number under **Risk Advisory**. To navigate to the detailed list, select the number.
+- View the [Aggregated Risk](/getting-started/glossary/#aggregated-risk) for the last pentest. To navigate to the **Insights** page, select the number.
+- Manage assets. Select the three-dot icon {{% three-dots %}} under **Action**, and then select the desired option:
   - **Create a Pentest** for this asset
   - **Edit Asset** to modify [asset details](/getting-started/assets/#asset-details)
   - **Delete Asset**, if it doesn't have associated pentests
