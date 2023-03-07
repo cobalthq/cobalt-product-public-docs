@@ -52,7 +52,7 @@ cascade:
        <div class="feature-icon d-inline-flex align-items-left justify-content-left text-bg-primary fs-2 mb-3">
          <a href="/platform-deep-dive/assets/" tabindex="-1" aria-hidden="true"><img src="homepage/asset-types.svg" alt="Asset Types" title="Asset Types"></a>
        </div>
-       <h3 class="fs-2"><a href="/platform-deep-dive/assets/">Asset Types</a></h3>
+       <h3 class="fs-2"><a href="/platform-deep-dive/assets/asset-types/">Asset Types</a></h3>
        <p>An asset is a software component of value to be tested, such as a web application or API. Explore the asset types we support.</p>
      </div>
      <div class="feature col">
