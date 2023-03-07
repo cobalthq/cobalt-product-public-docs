@@ -1,0 +1,1 @@
+Aggregated Risk is the sum of the risks of individual findings discovered in a pentest.
