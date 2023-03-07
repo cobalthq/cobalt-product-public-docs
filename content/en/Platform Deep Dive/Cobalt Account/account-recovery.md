@@ -135,7 +135,7 @@ To unlock your account, follow the instructions in the email that you receive. I
 
 ## Account Was Compromised
 
-If you believe your account was compromised, reach out to {{% csm-support %}}. We'll open an investigation. {{% compromised-account-action %}}
+If you believe your account was compromised, reach out to {{% csm-support %}}. {{% compromised-account-action %}}
 
 If you have access to your Cobalt account, do the following:
 
