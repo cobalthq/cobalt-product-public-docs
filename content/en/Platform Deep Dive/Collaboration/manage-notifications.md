@@ -10,7 +10,7 @@ description: >
 You can manage notifications for specific [pentests](#manage-pentest-notifications) and [findings](#manage-finding-notifications).
 {{% /pageinfo %}}
 
-By default, you get notifications for some activities related to your organization and pentests—both through email and in the Cobalt app. If you're not receiving notifications, make sure that you've confirmed your email address.
+By default, you get notifications for some activities related to your organization and pentests—both through email and in the Cobalt app. If you're not receiving email notifications, see our [troubleshooting tips](#troubleshoot-email-notifications).
 
 {{%expand "View examples of activities." %}}
 <br>
@@ -78,5 +78,6 @@ To view the latest activity of your team members and pentesters, navigate to the
 
 If you're not receiving emails from Cobalt, do the following:
 
-- Check the filters of your mailbox. Make sure that the rules you've enabled don't affect emails from `no-reply@cobalt.io`.
+- Make sure that you've confirmed your email address.
+- Check the filters of your mailbox. Verify that the rules you've enabled don't affect emails from `no-reply@cobalt.io`.
 - Check that emails from Cobalt aren't being marked as spam or junk.
