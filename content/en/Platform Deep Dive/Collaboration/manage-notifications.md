@@ -64,7 +64,7 @@ To view notifications for all organizations you belong to, select the bell icon 
 On the **Notifications** page, you can select to view unread or all notifications.
 
 - To mark all notifications as read, select **Mark all as read**.
-- To mark a single notification as read, select the checkmark icon ✔️.
+- To mark a single notification as read, select the dot icon •.
 
 ![View all notifications](/deepdive/NotificationsPage.png "View all notifications")
 
