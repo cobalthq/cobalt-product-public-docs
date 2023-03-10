@@ -439,6 +439,10 @@ Cobalt may refer to this as the "scope" of your pentest. {{% scope-of-work %}}
 
 For more information, see https://developer.mozilla.org/en-US/docs/Glossary/SPA
 
+## Specialized Pentest
+
+A Specialized Pentest is a pentest performed by the Cobalt [Professional Services](https://www.cobalt.io/faq/professional-services) team. This pentest is highly customizable and is tailored to your needs. Learn more about [Specialized Pentests](/platform-deep-dive/pentests/pentest-types/#specialized-pentest).
+
 ## Static Web Page
 
 Some applications are built solely on HTML, and do not change depending on the user or location. Contrast with [Dynamic Web Pages](#dynamic-web-page).

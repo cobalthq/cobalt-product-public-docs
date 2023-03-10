@@ -33,4 +33,10 @@ The **Asset** screen prompts you for the following information:
 
 ![Specify asset details](/gsg/AssetScreen.png "Specify asset details")
 
+{{< alert title="Specialized Pentests" color="primary" >}}
+We support additional [asset types](/platform-deep-dive/assets/asset-types/) for Specialized Pentests conducted by our Professional Services team, such as IOT, Thick Client, and more. You can't create a Specialized Pentest or set up a special asset in the UI—we'll do that for you. Once the Specialized Pentest is set up, you can:
+- Edit the asset details, including [description](/getting-started/assets/asset-description/)
+- Edit pentest parameters
+{{< /alert >}}
+
 The UI provides the information that you need to add an **Asset Title** and **Image**. Now take the next step and define your [Asset Type](/getting-started/assets/asset-type/).

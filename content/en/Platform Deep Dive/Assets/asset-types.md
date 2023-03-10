@@ -13,6 +13,10 @@ description: >
 We can perform pentests on assets in the following categories:
 
 {{% asset-types-table %}}
+| IoT | An IoT device. As [defined](https://csrc.nist.gov/glossary/term/iot_device) by NIST, an IoT device has at least one transducer (sensor or actuator) for interacting directly with the physical world and at least one network interface, such as Ethernet, Wi-Fi, or Bluetooth, for interfacing with the digital world.| Specialized |
+| Physical | <!--Add description--> | Specialized |
+| Thick Client App | An application installed locally on a user's desktop/laptop | Specialized |
+| Wireless Network | A network that allows devices to stay connected without using wires of any kind. | Specialized |
 
 For assets of multiple types, you may want to **set up one or more pentests**, depending on the characteristics of your software.
 
