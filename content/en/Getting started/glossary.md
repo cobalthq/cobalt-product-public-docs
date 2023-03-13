@@ -441,7 +441,7 @@ For more information, see https://developer.mozilla.org/en-US/docs/Glossary/SPA
 
 ## Specialized Pentest
 
-A Specialized Pentest is a pentest performed by the Cobalt [Professional Services](https://www.cobalt.io/faq/professional-services) team. This pentest is highly customizable and is tailored to your needs. Learn more about [Specialized Pentests](/platform-deep-dive/pentests/pentest-types/#specialized-pentest).
+A Specialized Pentest is a pentest performed by the Cobalt [Professional Services](https://www.cobalt.io/faq/professional-services) team. This pentest is highly customizable and is tailored to your needs. Learn more about [Specialized Pentests](/platform-deep-dive/pentests/pentest-types/#specialized-pentests).
 
 ## Static Web Page
 

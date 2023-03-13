@@ -18,10 +18,10 @@ Once you've classified your asset, select an Asset Type:
 
 ![Select an Asset Type](/gsg/AssetType.png "Select an asset type")
 
-{{< alert title="Specialized Pentests" color="primary" >}}
-We support additional [asset types](/platform-deep-dive/assets/asset-types/) for Specialized Pentests conducted by our Professional Services team, such as IOT, Thick Client, and more. You can't create a Specialized Pentest or set up a special asset in the UI—we'll do that for you. Once the Specialized Pentest is set up, you can:
-- Edit the asset details, including [description](/getting-started/assets/asset-description/)
-- Edit pentest parameters
-{{< /alert >}}
-
 The next step is to [Describe Your Assets](/getting-started/assets/asset-description/).
+
+{{< alert title="Specialized Pentests" color="primary" >}}
+We support additional [asset types](/platform-deep-dive/assets/asset-types/) for [Specialized Pentests](/platform-deep-dive/pentests/pentest-types/#specialized-pentests) conducted by our Professional Services team, such as IoT, Thick Client, and more. <span style="background-color:#FFF9E8;">You can't create a Specialized Pentest or set up a special asset in the UI—we'll do that for you.</span> Once the Specialized Pentest is set up, you can:
+- Edit the [asset details](/getting-started/assets/#asset-details), except for the asset type
+- Edit pentest details
+{{< /alert >}}

@@ -26,7 +26,9 @@ Include links to published documentation related to the
 asset. You can upload documentation, diagrams, and more in various
 file formats under [Attachment(s)](#attachments).
 
-The following sections detail additional needs for different kinds of assets:
+## Asset Description
+
+The following sections detail additional needs for different kinds of assets.
 
 ### Web, API, Mobile
 
@@ -123,3 +125,9 @@ We encourage you to replace this information with other data, and upload it
 with any other documentation for your asset.
 
 Now you can start [setting up a pentest](/getting-started/select-pentest-type/).
+
+{{< alert title="Specialized Pentests" color="primary" >}}
+We support additional [asset types](/platform-deep-dive/assets/asset-types/) for [Specialized Pentests](/platform-deep-dive/pentests/pentest-types/#specialized-pentests) conducted by our Professional Services team, such as IoT, Thick Client, and more. <span style="background-color:#FFF9E8;">You can't create a Specialized Pentest or set up a special asset in the UI—we'll do that for you.</span> Once the Specialized Pentest is set up, you can:
+- Edit the [asset details](/getting-started/assets/#asset-details), except for the asset type
+- Edit pentest details
+{{< /alert >}}
