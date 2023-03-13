@@ -2,6 +2,7 @@
 title: "Configure Beta Integrations"
 linkTitle: "Beta Integrations"
 weight: 30
+aliases: /integrations/beta-integrations/
 toc_hide: true
 hide_summary: true
 description: >
