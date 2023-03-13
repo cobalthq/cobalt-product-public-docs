@@ -53,7 +53,7 @@ For security reasons, we only post essential details about webhook events, such 
 
 ## Configure Webhooks in the UI
 
-Let’s configure webhooks in the Cobalt app.
+Let's configure webhooks in the Cobalt app.
 
 ### Create a Webhook
 
