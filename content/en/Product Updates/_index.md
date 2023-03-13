@@ -12,9 +12,8 @@ We cover updates to the Cobalt platform in our release blog.
 
 ## 2023
 
-### January
-
-- [Cobalt Release Blog: January](https://www.cobalt.io/blog/cobalt-release-blog-january-2023)
+- [Cobalt Release Blog: February 2023](https://www.cobalt.io/blog/cobalt-release-blog-february-2023)
+- [Cobalt Release Blog: January 2023](https://www.cobalt.io/blog/cobalt-release-blog-january-2023)
 
 <!--
 | Month | Link to Release Blog |
