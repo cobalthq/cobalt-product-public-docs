@@ -28,7 +28,7 @@ By submitting a request, you're joining a waiting list to have the integration e
 
 ## Beta Program Stages
 
-The beta program consists of the following stages:
+Once you've submitted a request, you go through the following stages of the beta program:
 
 1. **Discovery**: We'll contact you to gather additional details and requirements We'll also provide a timeline for the activation.
 1. **Configuration**: Our team will configure the integration to your specifications.
