@@ -17,6 +17,8 @@ Beta integrations are fully functional connectors that we’ve developed using [
 <p>You can request to enable a beta integration for a <b>single pentest</b>. Submit your request <b>at least 10 business days prior to the start date of your pentest</b> to allow time for configuration and testing.</p><p>We'll make every effort to accommodate all requests, but we can't guarantee that we'll fulfill all requests. We'll prioritize requests based on the pentest schedule.</p>
 {{% /alert %}}
 
+## Submit a Request
+
 To opt in to the beta program:
 
 1. Navigate to the **Integrations** page, and select the desired app with the {{< beta-label >}} label.
