@@ -143,7 +143,7 @@ with any other documentation for your asset.
 Now you can start [setting up a pentest](/getting-started/select-pentest-type/).
 
 {{< alert title="Specialized Pentests" color="primary" >}}
-We support additional [asset types](/platform-deep-dive/assets/asset-types/) for [Specialized Pentests](/platform-deep-dive/pentests/pentest-types/#specialized-pentests) conducted by our Professional Services team, such as IoT, Thick Client, and more. <span style="background-color:#FFF9E8;">You can't create a Specialized Pentest or set up a special asset in the UI—we'll do that for you.</span> Once the Specialized Pentest is set up, you can:
+We support additional [asset types](/platform-deep-dive/assets/asset-types/) for [Specialized Pentests](/platform-deep-dive/pentests/pentest-types/#specialized-pentests) conducted by our Professional Services team, such as IoT, Thick Client, and more. <span style="background-color: #ECE6FA; padding: 2px;">You can't create a Specialized Pentest or set up a special asset in the UI—we'll do that for you.</span> Once the Specialized Pentest is set up, you can:
 - Edit the [asset details](/getting-started/assets/#asset-details), except for the asset type
 - Edit pentest details
 {{< /alert >}}
