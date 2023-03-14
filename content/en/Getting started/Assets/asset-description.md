@@ -89,6 +89,22 @@ Make sure to include the:
 - Unique users / roles
 - Applicable network / architecture diagrams
 
+### IoT
+
+This asset type is only available for [Specialized Pentests](/platform-deep-dive/pentests/pentest-types/#specialized-pentests). Once we've created an asset and set up a pentest for you, you can edit the asset description.
+
+### Physical
+
+This asset type is only available for [Specialized Pentests](/platform-deep-dive/pentests/pentest-types/#specialized-pentests). Once we've created an asset and set up a pentest for you, you can edit the asset description.
+
+### Thick Client App
+
+This asset type is only available for [Specialized Pentests](/platform-deep-dive/pentests/pentest-types/#specialized-pentests). Once we've created an asset and set up a pentest for you, you can edit the asset description.
+
+### Wireless Network
+
+This asset type is only available for [Specialized Pentests](/platform-deep-dive/pentests/pentest-types/#specialized-pentests). Once we've created an asset and set up a pentest for you, you can edit the asset description.
+
 ## Attachments
 
 To share more about your assets, you can upload the documentation of your choice under **Attachment(s)**. Our app limits uploads to 100 MB.
