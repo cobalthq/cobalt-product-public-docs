@@ -8,10 +8,12 @@ description: >
 ---
 
 {{% pageinfo %}}
-<p>{{< beta-label >}}</p><p>Request to enable a beta integration for your next pentest to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to <b>Azure DevOps</b>, <b>Bitbucket</b>, or <b>ServiceNow</b>.</p><p>{{< tier-feature-html>}}</p>
+<p>{{< beta-label >}}</p><p><a href="#submit-a-request">Request to enable a beta integration</a> for your next pentest to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to <b>Azure DevOps</b>, <b>Bitbucket</b>, or <b>ServiceNow</b>.</p><p><span style="background-color: #ECE6FA; padding: 2px;">Navigate to the <b>Integrations</b> page in the Cobalt app to get started.</span> {{< tier-feature-html>}}</p>
 {{% /pageinfo %}}
 
 Beta integrations are fully functional connectors that we’ve developed using [Workato](https://www.workato.com/)—a workflow automation platform that enables greater flexibility to tailor our integrations to customers' unique workflows.
+
+<a class="btn btn-primary rounded" href="mailto:integrations@cobalt.io" target="_blank">Have Questions? Contact Us »</a>
 
 {{% alert title="Note" color="primary" %}}
 <p>You can request to enable a beta integration for a <b>single pentest</b>. Submit your request <b>at least 10 business days prior to the start date of your pentest</b> to allow time for configuration and testing.</p><p>We'll make every effort to accommodate all requests, but we can't guarantee that we'll fulfill all requests. We'll prioritize requests based on the pentest schedule.</p>
