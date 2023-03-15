@@ -77,7 +77,7 @@ cascade:
         <div class="h-100 p-5 border rounded-lg" style="border-color: #D6E3FD">
           <h3>Preview Risk Advisories</h3>
           <p class="my-2">{{% new-label %}}</p>
-          <p>Add a technology stack for your software asset, and we'll show you a preview of risk advisories based on the Common Vulnerabilities and Exposures (CVE) standard for that stack. Subscribe to email alerts <img title="Bell icon" alt="Bell icon" src="/icons/Bell.png"> for potential critical vulnerabilities discovered in your assets.</p>
+          <p>Add a technology stack for your software asset, and we'll show you a preview of risk advisories based on the Common Vulnerabilities and Exposures (CVE) standard for that stack. Remediate potential issues with your assets to keep your security strong.</p>
           <a href="/platform-deep-dive/assets/risk-advisories/">Read the guide »</a>
         </div>
       </div>
