@@ -34,9 +34,8 @@ On the asset details page, you can:
 - Delete the asset, if it doesn't have associated pentests
 - View associated pentests
 - Preview [risk advisories](/platform-deep-dive/assets/risk-advisories/) for this asset
-- [Subscribe to email alerts](/platform-deep-dive/assets/risk-advisories/#subscribe-to-email-alerts) for potential critical vulnerabilities discovered in the asset
 
-![Asset details page](/deepdive/AssetDetailsPage.png "Asset details page")
+![Asset details page](/deepdive/AssetDetails.png "Asset details page")
 
 ## Create an Asset
 
