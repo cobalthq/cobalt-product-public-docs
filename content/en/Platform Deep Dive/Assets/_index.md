@@ -35,7 +35,7 @@ On the asset details page, you can:
 - View associated pentests
 - Preview [risk advisories](/platform-deep-dive/assets/risk-advisories/) for this asset
 
-![Asset details page](/deepdive/AssetDetailsPage.png "Asset details page")
+![Asset details page](/deepdive/AssetDetails.png "Asset details page")
 
 ## Create an Asset
 
