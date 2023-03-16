@@ -1,0 +1,1 @@
+Cobalt Average for a given year is the average of the [Aggregated Risk](/getting-started/glossary/#aggregated-risk) of all pentests conducted across all customers in that year.
