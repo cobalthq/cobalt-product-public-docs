@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-{{% asset-definition %}} Once you've created an asset, you can launch pentests for it.
+<span style="background-color: #ECE6FA; padding: 2px;">{{% asset-definition %}}</span> Once you've created an asset, you can launch pentests for it.
 {{% /pageinfo %}}
 
 ## View and Manage Assets
@@ -25,6 +25,10 @@ Once you've created assets, you can view them on the **Assets** page. Here, you 
   - **Delete Asset**, if it doesn't have associated pentests
   - Navigate to the **Latest Pentest Report**
 
+{{< alert title="Note" color="primary" >}}
+To analyze the security posture of your assets over time and observe trends, navigate to <a href="/platform-deep-dive/assets/insights/">Cobalt Insights</a>.
+{{< /alert >}}
+
 ### Asset Details Page
 
 On the asset details page, you can:
@@ -35,18 +39,55 @@ On the asset details page, you can:
 - View associated pentests
 - Preview [risk advisories](/platform-deep-dive/assets/risk-advisories/) for this asset
 
+{{% alert title="Note" color="primary" %}}
+Once you've defined an asset, you can launch pentests for it. You don't need to create this asset again for each new pentest. When needed, update the asset description, and attach new documents.
+{{% /alert %}}
+
 ![Asset details page](/deepdive/AssetDetails.png "Asset details page")
 
 ## Create an Asset
 
-Refer to the [Getting Started guide](/getting-started/assets/) to define an asset.
+Refer to the [Getting Started guide](/getting-started/assets/) to define an asset. You can also use the [Cobalt API](/apiusecases/create_asset/#create-an-asset) to create assets.
 
-You can create assets in the following ways:
-- On the [**Assets** page](#view-and-manage-assets):
-  - To add a single asset, select **New Asset**.
-  - To upload assets in bulk in CSV or XLSX format, select **Bulk Assets**. Once uploaded, you can select an asset to add an image, [technology stack](/platform-deep-dive/assets/risk-advisories/#add-a-technology-stack-for-your-asset), and [attachments](/getting-started/assets/asset-description/#attachments).
-    - If the upload is successful, all your assets from the file are added. Otherwise, no assets are created. Our algorithm doesn't process the request partially. 
-    - We don't prevent you from creating duplicate assets.
-- When setting up a pentest, on the [Let's Get Started](/getting-started/assets/) screen, select **Create a new asset**.
+**Best practices for creating an asset**:
 
-You can also use the [Cobalt API](/apiusecases/create_asset/#create-an-asset) to create assets.
+- [Describe your asset](/getting-started/assets/asset-description/) as clearly as possible.
+- Add a product walk-through and asset documentation using the [provided templates](/getting-started/assets/asset-description/#attachments).
+- Keep your assets up to date.
+- Start creating or editing your asset before creating a pentest. You can reuse the asset for future pentests.
+
+## Access and Permissions
+
+Only Organization Owners and Members can create an asset.
+
+Pentest Team Members don't have access to the **Assets** page.
+
+- They can view and edit assets that are linked to pentests they collaborate on.
+- They may not be allowed to [add attachments](/getting-started/assets/asset-description/#attachments) to an asset. An Organization Owner or Member of their company or a Cobalt Customer Success Manager can assist in this case.
+
+For more information about user permissions, see [User Roles and Permissions](/platform-deep-dive/collaboration/organization/user-roles/).
+
+## Frequently Asked Questions
+
+#### Can I attach two or more assets to a pentest?
+
+No, you can only launch a pentest for a **single asset**.
+
+If your asset has multiple [methodologies](/platform-deep-dive/pentests/pentest-process/methodologies/), such as Web + API, you can choose a combined methodology. If the combination is not available, such as for Mobile + External Network, do the following:
+
+1. Select one of the available asset types.
+1. Let your CSM know so that we can select pentesters with the appropriate expertise.
+
+#### I want to test two scopes (Web and Mobile applications). How many assets should I set up?
+
+You can only launch a pentest for a **single asset**. Let's rephrase this question and see how many pentests you should launch.
+
+For assets of multiple types, you may want to **set up one or more pentests**, depending on the characteristics of your software.
+
+For example, if your asset combines a web and mobile application, you may want us to test them together, in one pentest, if:
+
+- The two applications share some of the same code and functionalities.
+- One pentest report is sufficient for your purposes.
+- One team is responsible for both applications.
+
+Otherwise, you may need to set up two pentests to get more granular results.
