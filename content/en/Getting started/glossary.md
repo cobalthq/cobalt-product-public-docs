@@ -119,7 +119,7 @@ released in 2021.
 
 {{% cobalt-average-definition %}}
 
-Learn more about the [Insights](/platform-deep-dive/assets/insights/) page and using this [metric](/platform-deep-dive/assets/insights/#metrics) to analyze your assets.
+Learn more about the [Insights](/platform-deep-dive/assets/insights/) page and using this [metric](/platform-deep-dive/assets/insights/#charts) to analyze your assets.
 
 ## Cobalt Users
 
