@@ -14,11 +14,11 @@ description: >
 
 ![Assets page overview](/deepdive/AssetsPageOverviewCallouts.png "Assets page overview")
 
-Once you've created assets, you can view them on the **Assets** page. Here, you can:
+On the **Assets** page, you can:
 
-- Sort assets in ascending or descending order.
 - [Preview risk advisories](/platform-deep-dive/assets/risk-advisories/). To preview a summary of potential vulnerabilities based on the [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) standard, point to the number under **Risk Advisory**. To navigate to the detailed list, select the number.
-- View the [Aggregated Risk](/getting-started/glossary/#aggregated-risk) for the last pentest. To navigate to the **Insights** page, select the number.
+- View the [Aggregated Risk](/getting-started/glossary/#aggregated-risk) for the last pentest. To navigate to the **[Insights](/platform-deep-dive/assets/insights/)** page, select the number.
+- Sort assets in ascending or descending order.
 - Manage assets. Select the three-dot icon {{% three-dots %}} under **Action**, and then select the desired option:
   - **Create a Pentest** for this asset
   - **Edit Asset** to modify [asset details](/getting-started/assets/#asset-details)
@@ -78,16 +78,16 @@ If your asset has multiple [methodologies](/platform-deep-dive/pentests/pentest-
 1. Select one of the available asset types.
 1. Let your CSM know so that we can select pentesters with the appropriate expertise.
 
-#### I want to test two scopes (Web and Mobile applications). How many assets should I set up?
+#### I want to test two scopes. How many assets should I set up?
 
-You can only launch a pentest for a **single asset**. Let's rephrase this question and see how many pentests you should launch.
+You can only launch a pentest for a **single asset**. Let's rephrase this question: how many pentests should you launch for two scopes?
 
-For assets of multiple types, you may want to **set up one or more pentests**, depending on the characteristics of your software.
+For assets of multiple types, you may want to **launch one or more pentests**, depending on the characteristics of your software.
 
-For example, if your asset combines a web and mobile application, you may want us to test them together, in one pentest, if:
+For example, if your asset combines a web and mobile application, you may want us to test them together, in **one pentest**, if:
 
 - The two applications share some of the same code and functionalities.
-- One pentest report is sufficient for your purposes.
+- One [pentest report](/platform-deep-dive/pentests/reports/) is sufficient for your purposes.
 - One team is responsible for both applications.
 
-Otherwise, you may need to set up two pentests to get more granular results.
+Otherwise, you may need to set up **two pentests** to get more granular results. You can run multiple pentests for the same asset.
