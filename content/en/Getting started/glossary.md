@@ -115,6 +115,12 @@ refines best practice security solutions.
 One of the test criteria used by our pentesters is [CIS Controls v8](https://www.cisecurity.org/controls/v8),
 released in 2021.
 
+## Cobalt Average
+
+{{% cobalt-average-definition %}}
+
+Learn more about the [Insights](/platform-deep-dive/assets/insights/) page and using this [metric](/platform-deep-dive/assets/insights/#charts) to analyze your assets.
+
 ## Cobalt Users
 
 When using the Cobalt UI, you may encounter a variety of different users, in the following
