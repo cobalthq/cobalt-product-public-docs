@@ -3,44 +3,41 @@ title: "Getting Started"
 linkTitle: "Getting Started"
 weight: 2
 description: >
-  How to get started with Cobalt software.
+  How to get started with Cobalt.
 ---
 
 {{% pageinfo %}}
-Use this document to visualize your journey through Cobalt to secure your systems.
+Visualize your journey with Cobalt, and launch your first pentest to make your security stronger.
 {{% /pageinfo %}}
 
-You want to enhance the security of your software. You're ready to set up
-penetration tests (pentests) to elevate your security posture. With
-pentest-driven solutions, you can comply with regulations and enhance
-the confidence of your customers. You want results as soon as possible.
+<span style="background-color: #ECE6FA; padding: 2px;">Take your first steps to get started:</span>
 
-You've come to the right place.
+- [Prepare for the pentest](#prepare-for-the-pentest)
+- [Launch a pentest](#launch-a-pentest)
+- Read answers to [frequently asked questions](#frequently-asked-questions)
+- Learn how to [get in touch with Cobalt](#get-in-touch)
 
-{{%expand "Learn more." %}}
+## Prepare for the Pentest
 
-If you're considering Cobalt, use this document to help you visualize the process.
-If you've already purchased Cobalt credits, use this document to start your journey.
+- **Make your teams aware of the upcoming pentest**.
+  - Notify everyone who should be aware of the pentest. Ensure that the pentest doesn’t disrupt anyone’s workflows.
+  - Prepare credentials and account details for pentesters.
+- **Be responsive to pentest results**.
+  - Pentesters will share vulnerabilities ([findings](/platform-deep-dive/pentests/findings/)) that they discover in real time. Start remediating them. [Collaborate on the pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/) and ask questions if you need help.
+- **Be available to help find solutions to problems**.
+  - Most of the time pentests are cautious and don’t perform any actions that have detrimental effects on your software. However, as a precautionary measure, you should prepare for the worst. Prepare a backup copy of your software (especially when testing a production environment), and have a team ready to respond to any unexpected events.
+  - Establish communication with pentesters in [Slack](/platform-deep-dive/collaboration/collaborate-on-pentests/#use-slack-for-communication), and let them know you are there—available and responsive.
+- **Don’t improve the state of your environment or assets just before the pentest or during the pentest**.
+  - Unless there is a critical issue that poses a significant risk to your organization, we recommend that you hold off on fixing issues until the pentest is complete.
+  - If you start fixing issues during the pentest, you risk removing data that pentesters may need to complete the test. This may affect the pentest scope that you’ve initially set.
 
-While it's helpful if you have a background in security, it's not required
-to understand the pentest process. If the language of software security confuses
-you, refer to our [Glossary](/getting-started/glossary/).
+## Launch a Pentest
 
-In this Getting Started Guide, we take you through the process to create a pentest,
-step by step, and set [expectations](/getting-started/what-to-expect/).
-
-![UI Flow for Pentests](/gsg/PentestFlowOverview.png "UI Flow for Pentests")
-
-When you've finished this Getting Started Guide, you'll have a plan and scope that
-our pentesters can use to test your assets. When you purchase credits from Cobalt,
-we send you an email invitation, which you can use to [Sign in to Cobalt](/getting-started/sign-in/).
-{{% /expand%}}
-
-## Overview
-
-Our journey takes you through the steps required to create a pentest.
+[Sign in to Cobalt](/getting-started/sign-in/), and start with [defining your assets](/getting-started/assets/). Here are the steps you need to take.
 
 ![Workflow for creating a pentest](/gsg/CreatePentestFlowFull.png "Workflow for creating a pentest")
+
+{{% expand "Click to learn more." %}}
 
 1. Define your [assets](/getting-started/assets/). Our pentesters analyze all kinds of
    assets, from web apps to internal networks.
@@ -68,15 +65,39 @@ Once you've set up a pentest, we start analyzing your asset. When
 possible, we share results even before we create your report. Here's what
 you can [expect](/getting-started/what-to-expect/).
 
-Assuming you've received an email invitation, take the next step.
-[Sign in to Cobalt](/getting-started/sign-in/).
+{{% /expand %}}
+
+## Frequently Asked Questions
+
+{{% expand "What is an organization?" %}}
+<br>
+When you receive an email invitation from Cobalt, you join a specific organization with a role assigned to you. Within an organization, you and your team get access to the Cobalt platform and the pentest experience. Learn more about <a href="/platform-deep-dive/collaboration/organization/">organizations</a>.
+<br><br>
+{{% /expand %}}
+
+{{% expand "How do I add people to my organization?" %}}
+<br>
+Organization Owners can manage users for their organization. For instructions, see <a href="/platform-deep-dive/collaboration/organization/manage-users/#invite-users">Invite Users</a>.
+<br><br>
+{{% /expand %}}
+
+{{% expand "What user roles are available?" %}}
+<br>
+To learn more, please see <a href="/platform-deep-dive/collaboration/organization/user-roles/">User Roles and Permissions</a>.
+<br><br>
+{{% /expand %}}
+
+{{% expand "What is an asset?" %}}
+<br>
+{{% asset-definition %}} Learn more about the <a href="/platform-deep-dive/assets/asset-types/">asset types</a> we support.
+<br><br>
+{{% /expand %}}
 
 ## Get in Touch
 
-If you need help, contact us in one of the following ways:
+If you need help, don't hesitate to contact us.
 
 - If you have a named Customer Success Manager, get in touch with them.
-- Send an email to support@cobalt.io.
-- [Submit a ticket](https://cobaltio.zendesk.com/hc/en-us/requests/new) on the support portal.
+- Otherwise, [submit a ticket](https://cobaltio.zendesk.com/hc/en-us/requests/new) or send an email to support@cobalt.io.
 
 If you find a security issue on the Cobalt platform, please report it to security@cobalt.io. Learn more about our [security practices](https://cobalt.io/security/practices).
