@@ -69,6 +69,8 @@ you can [expect](/getting-started/what-to-expect/).
 
 ## Frequently Asked Questions
 
+Click <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> to view answers.
+
 {{% expand "What is an organization?" %}}
 <br>
 When you receive an email invitation from Cobalt, you join a specific organization with a role assigned to you. Within an organization, you and your team get access to the Cobalt platform and the pentest experience. Learn more about <a href="/platform-deep-dive/collaboration/organization/">organizations</a>.
@@ -89,7 +91,7 @@ To learn more, please see <a href="/platform-deep-dive/collaboration/organizatio
 
 {{% expand "What is an asset?" %}}
 <br>
-{{% asset-definition %}} Learn more about the <a href="/platform-deep-dive/assets/asset-types/">asset types</a> we support.
+{{% asset-definition %}} Learn more about the <a href="/platform-deep-dive/assets/asset-types/">asset types</a> we support. Once you've created an asset, you can launch pentests for it.
 <br><br>
 {{% /expand %}}
 
