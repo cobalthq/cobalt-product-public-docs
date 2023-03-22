@@ -11,7 +11,8 @@ You can launch multiple pentests for an [asset](/getting-started/glossary/#asset
 {{% /pageinfo %}}
 
 ![Workflow for creating a pentest](/gsg/CreatePentestFlowStage1.png "Workflow for creating a pentest")
-<br>
+
+## Create an Asset
 
 Once you've [signed in](/getting-started/sign-in/), you land on the **Assets** page.
 
@@ -19,6 +20,8 @@ Once you've [signed in](/getting-started/sign-in/), you land on the **Assets** p
 - To upload assets in bulk in CSV or XLSX format, select **Bulk Assets**. Once uploaded, you can select an asset to add an image, [technology stack](/platform-deep-dive/assets/risk-advisories/#add-a-technology-stack-for-your-asset), and [attachments](/getting-started/assets/asset-description/#attachments).
   - If the upload is successful, all your assets from the file are added. Otherwise, no assets are created. Our algorithm doesn't process the request partially.
   - We don't prevent you from creating duplicate assets.
+
+{{% asset-best-practices %}}
 
 ## Asset Details
 
