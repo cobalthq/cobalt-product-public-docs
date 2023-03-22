@@ -12,12 +12,12 @@ Visualize your journey with Cobalt, and launch your first pentest to make your s
 
 <span style="background-color: #ECE6FA; padding: 2px;">Take your first steps to get started:</span>
 
-- [Prepare for the pentest](#prepare-for-the-pentest)
+- [Prepare for a pentest](#prepare-for-a-pentest)
 - [Launch a pentest](#launch-a-pentest)
 - Read answers to [frequently asked questions](#frequently-asked-questions)
 - Learn how to [get in touch with Cobalt](#get-in-touch)
 
-## Prepare for the Pentest
+## Prepare for a Pentest
 
 - **Make your teams aware of the upcoming pentest**.
   - Notify everyone who should be aware of the pentest. Ensure that the pentest doesn’t disrupt anyone’s workflows.
