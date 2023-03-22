@@ -12,9 +12,9 @@ description: >
 
 ## Create an Asset
 
-Refer to the [Getting Started guide](/getting-started/assets/) to define an asset. You can also use the [Cobalt API](/apiusecases/create_asset/#create-an-asset) to create assets.
-
 {{% asset-best-practices %}}
+
+<a class="btn btn-primary rounded" href="/getting-started/assets/">Read the Guide »</a>
 
 ## View and Manage Assets
 
