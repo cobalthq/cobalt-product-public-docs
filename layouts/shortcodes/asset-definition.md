@@ -1,1 +1,1 @@
-For pentests, an asset is a software component of value.
+For pentests, an asset is a software component of value, such as a web application or API.
