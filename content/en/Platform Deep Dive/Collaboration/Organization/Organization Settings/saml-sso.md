@@ -16,7 +16,9 @@ As an [Organization Owner](/getting-started/glossary/#organization-owner), you c
 
 ## General Configuration Workflow
 
-Configuration procedures differ for each identity provider. Here’s the general workflow:
+Configuration procedures differ for each identity provider. See [configuration instructions](#configuration-instructions-for-specific-identity-providers) for specific IdPs below.
+
+Here’s a general configuration workflow:
 
 1. Configure SAML SSO on the identity provider side.
     - For each provider, see how parameters map between their platform and Cobalt.
