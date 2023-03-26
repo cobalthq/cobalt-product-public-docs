@@ -13,9 +13,15 @@ description: >
 
 Beta integrations are fully functional connectors that we've developed using [Workato](https://www.workato.com/)—a workflow automation platform that enables greater flexibility to tailor our integrations to customers' unique workflows. We support integrations with:
 
-- Azure DevOps
-- Bitbucket
+- Asana
+- Azure DevOps (Boards)
+- Bitbucket Issues
+- Jira (Beta)
+- PagerDuty
+- PivotalTracker
 - ServiceNow
+- Trello
+- Zendesk
 
 <a class="btn btn-primary rounded" href="mailto:integrations@cobalt.io" target="_blank">Have Questions? Contact Us »</a>
 
@@ -31,8 +37,6 @@ To opt in to the beta program:
 1. Complete the sign-up form.
 
 By submitting a request, you're joining a waiting list to have the integration enabled for your next pentest with Cobalt.
-
-![Request a beta integrations from the Integrations page](/integrations/BetaIntegrationsUI.png "Request a beta integrations from the Integrations page")
 
 ## Beta Program Stages
 
