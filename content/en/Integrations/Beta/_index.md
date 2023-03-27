@@ -16,7 +16,6 @@ Beta integrations are fully functional connectors that we've developed using [Wo
 - Asana
 - Azure DevOps (Boards)
 - Bitbucket Issues
-- Jira (Beta)
 - PagerDuty
 - PivotalTracker
 - ServiceNow
