@@ -41,9 +41,7 @@ If you have problems setting up SAML SSO, see our troubleshooting tips below.
 
 ## Configuration Instructions for Specific Identity Providers
 
-You can configure SAML SSO with your preferred identity provider, beyond those listed in this section.
-
-Here are configuration instructions for some popular identity providers:
+You can configure SAML SSO with your preferred identity provider. Here are configuration instructions for some popular identity providers:
 
 - [Azure AD](#azure-ad)
 - [Duo](#duo)
@@ -181,4 +179,4 @@ To get help, contact your Customer Success Manager (CSM) or support@cobalt.io. W
 | Ensure that the IdP certificate is accurate. | Copy the IdP certificate once again.<br>• Include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.<br>• Make sure there are no extra whitespaces. |
 | Check that the organization tokens (**IdP Relay State** in Cobalt) match in the IdP system and Cobalt. Pay attention to quotation marks. | Check that all quotation marks in the organization tokens are straight quotes `" "` and not curly quotes `“ ”`. |
 | Ensure that you added users to the Cobalt platform. | We don’t support user provisioning through an IdP. When leveraging an IdP, make sure that there is an established identity for a user in Cobalt.<br>To establish an identity in Cobalt, a user needs to create a password and sign in to Cobalt. All subsequent sign-ins (after the user identity is established in Cobalt) are initiated through the organization’s IdP. |
-| Ensure that all values match between your identity provider and Cobalt. | Parameter values in both setups must be the same. The Issuer/Identifier ID in a SAML assertion doesn’t have to be a valid URL path.  |
+| Ensure that all values match between your identity provider and Cobalt. | Parameter values in both setups must be the same. |
