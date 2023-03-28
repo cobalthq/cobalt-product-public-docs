@@ -41,11 +41,9 @@ If you have problems setting up SAML SSO, see our troubleshooting tips below.
 
 ## Configuration Instructions for Specific Identity Providers
 
-<!--You can configure SAML SSO with your preferred identity provider, beyond those listed in this section.
+You can configure SAML SSO with your preferred identity provider, beyond those listed in this section.
 
-Here are configuration instructions for some popular identity providers:-->
-
-We support the following identity providers for SAML SSO:
+Here are configuration instructions for some popular identity providers:
 
 - [Azure AD](#azure-ad)
 - [Duo](#duo)
@@ -63,9 +61,9 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
     - Under **Basic SAML Configuration**, enter:
        - **Identifier** (Entity ID): `https://api.cobalt.io/users/saml/metadata`
        - **Reply URL** (Assertion Consumer Service URL): `https://api.cobalt.io/users/saml/auth`
-       - **Sign on URL**: Leave this field blank for IdP-initiated SAML.
-       - **Relay State**: Leave this field blank.
-       - **Logout URL**: leave this field blank.
+       - **Sign on URL**: Leave this field blank.
+       - **Relay State**: Leave this field blank now. You'll need it later.
+       - **Logout URL**: Leave this field blank.
     - Under **User Attributes & Claims**, add custom attribute mappings to your SAML token attributes configuration.
        - `givenname`: `user.givenname`
        - `surname`: `user.surname`
@@ -102,7 +100,7 @@ To set up SAML SSO with Duo, read their [documentation](https://duo.com/docs/sso
 |---|---|
 | Entity ID | `https://api.cobalt.io/users/saml/metadata` |
 | Assertion Consumer Service (ACS) URL | `https://api.cobalt.io/users/saml/auth` |
-| Default Relay State | Your `IdP Relay State` from the Cobalt app |
+| Default Relay State | IdP Relay State |
 
 In Duo, complete the **SAML Response** section with:
 
@@ -126,15 +124,15 @@ For instructions on how to enable SAML SSO with Google, read their [guide](https
 
 <br>
 
-| For This Parameter in Google | Enter this value from Cobalt |
+| For This Parameter in Google | Enter This Value from Cobalt |
 |---|---|
 | ACS URL | `https://api.cobalt.io/users/saml/auth` |
 | Entity ID | `https://api.cobalt.io/users/saml/metadata` |
-| Start URL | Your `IdP Relay State` from the Cobalt app |
+| Start URL | IdP Relay State |
 
 In the Google Admin console, configure the following:
 
-- On the **Service Provider Details** page, leave the **Signed Response** option unselected (default).
+<!--- On the **Service Provider Details** page, leave the **Signed Response** option unselected (default).-->
 - On the **Attribute Mapping** page, add an attribute `email`, and select **Basic Information** and **Primary Email**.
 
 Once you finish the configuration process, your application for Cobalt appears in the Google Workspace.
@@ -183,4 +181,4 @@ To get help, contact your Customer Success Manager (CSM) or support@cobalt.io. W
 | Ensure that the IdP certificate is accurate. | Copy the IdP certificate once again.<br>• Include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.<br>• Make sure there are no extra whitespaces. |
 | Check that the organization tokens (**IdP Relay State** in Cobalt) match in the IdP system and Cobalt. Pay attention to quotation marks. | Check that all quotation marks in the organization tokens are straight quotes `" "` and not curly quotes `“ ”`. |
 | Ensure that you added users to the Cobalt platform. | We don’t support user provisioning through an IdP. When leveraging an IdP, make sure that there is an established identity for a user in Cobalt.<br>To establish an identity in Cobalt, a user needs to create a password and sign in to Cobalt. All subsequent sign-ins (after the user identity is established in Cobalt) are initiated through the organization’s IdP. |
-| Ensure that the IdP issuer URL value matches between your identity provider and Cobalt. | The Issuer/Identifier ID in a SAML assertion doesn’t have to be a valid URL path. For [Okta](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Cobalt.html), the IdP issuer URL must start with `http` not `https`.  |
+| Ensure that all values match between your identity provider and Cobalt. | Parameter values in both setups must be the same. The Issuer/Identifier ID in a SAML assertion doesn’t have to be a valid URL path.  |
