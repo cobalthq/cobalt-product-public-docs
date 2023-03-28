@@ -63,7 +63,7 @@ On the **Pentest Collaborators** tab of the **People** page, you can see users w
 
 To view pentests on which the user collaborates, select the link under **Pentests**. From here, you can navigate to the pentest page.
 
-Pentest collaborators who don't belong to the organization can [manage pentest collaborators](/platform-deep-dive/collaboration/manage-collaborators/) for a specific pentest.
+Pentest Team Members who don't belong to the organization can [manage collaborators](/platform-deep-dive/collaboration/manage-collaborators/) for a specific pentest.
 
 ### Remove a User from All Pentests
 

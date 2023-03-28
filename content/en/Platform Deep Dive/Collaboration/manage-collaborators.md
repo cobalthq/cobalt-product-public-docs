@@ -10,7 +10,7 @@ description: >
 Navigate to **Settings** > **Collaborators** on the pentest page. Here, you can see users who have access to the pentest, including pentesters.
 {{% /pageinfo %}}
 
-As a Pentest Team Member, you can manage users for a pentest:
+As a Pentest Team Member, you can manage users for a specific pentest:
 
 - [Add Pentest Team Members](#add-a-pentest-team-member)
 - [Remove Pentest Team Members](#remove-a-pentest-team-member)
