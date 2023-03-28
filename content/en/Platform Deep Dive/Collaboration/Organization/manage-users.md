@@ -77,8 +77,8 @@ Pentest collaborators who don't belong to the organization can [manage pentest c
 
 ### Add a Pentest Team Member
 
-As a pentest collaborator, you can [add users to a specific pentest](/platform-deep-dive/collaboration/manage-collaborators/#add-a-pentest-team-member). This doesn't require the Organization Owner role.
+As a Pentest Team Member, you can [add users to a specific pentest](/platform-deep-dive/collaboration/manage-collaborators/#add-a-pentest-team-member). This doesn't require the Organization Owner role.
 
 ### Remove a Pentest Team Member
 
-As a pentest collaborator, you can [remove users from a specific pentest](/platform-deep-dive/collaboration/manage-collaborators/#remove-a-pentest-team-member). This doesn't require the Organization Owner role.
+As a Pentest Team Member, you can [remove users from a specific pentest](/platform-deep-dive/collaboration/manage-collaborators/#remove-a-pentest-team-member). This doesn't require the Organization Owner role.
