@@ -14,7 +14,7 @@ description: >
 
 {{% asset-best-practices %}}
 
-<a class="btn btn-primary rounded" href="/getting-started/assets/">Read the Guide »</a>
+<a class="btn btn-outline-primary rounded" href="/getting-started/assets/">Read the Guide »</a>
 
 ## View and Manage Assets
 
