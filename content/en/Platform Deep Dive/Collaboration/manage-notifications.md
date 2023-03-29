@@ -1,7 +1,7 @@
 ---
 title: "Manage Notifications"
 linkTitle: "Manage Notifications"
-weight: 30
+weight: 40
 description: >
   Explore Cobalt notifications.
 ---
