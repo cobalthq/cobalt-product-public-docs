@@ -18,7 +18,7 @@ results. Here's what you can expect:
 1. We'll select the best available pentesters before the start of the pentest. The time we need
    depends on your {{% ptaas-tier %}} and any [additional requests](/getting-started/review-pentest/#additional-requests) you have.
 1. Once our pentesters start the pentest, they'll update you on their progress. You can [collaborate on the pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/) using the following communication channels:
-   - <span style="color:#6633d9; font-weight:500; background-color: #ece6fa; padding: 2px 4px; border-radius: 2px;">Beta</span> [Messaging in the Cobalt app](/platform-deep-dive/collaboration/collaborate-on-pentests/#collaborate-in-the-cobalt-app). Select **Messages** on the pentest page. In the sidebar that opens, you can read updates from pentesters and communicate in the chat.
+   - {{% beta-label %}} [Messaging in the Cobalt app](/platform-deep-dive/collaboration/collaborate-on-pentests/#collaborate-in-the-cobalt-app). Select **Messages** on the pentest page. In the sidebar that opens, you can read updates from pentesters and communicate in the chat.
    <!--![Collaborate on a pentest in the Messages sidebar](/deepdive/MessagesSidebar.png "Collaborate on a pentest in the Messages sidebar")-->
    - A [Slack channel](/platform-deep-dive/collaboration/collaborate-on-pentests/#use-slack-for-communication) dedicated for your pentest.
    - [**Pentester Updates** sidebar](/platform-deep-dive/collaboration/collaborate-on-pentests/#read-updates-from-pentesters) in the Cobalt app.<br><br>

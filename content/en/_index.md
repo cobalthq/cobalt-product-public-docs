@@ -85,7 +85,7 @@ cascade:
         <div class="h-100 p-5 border rounded-lg" style="border-color: #D6E3FD">
           <h3>Try Beta Integrations</h3>
           <p class="my-2">{{% beta-label %}}</p>
-          <p>Request to enable a beta integration for your next pentest to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software: Azure DevOps, Bitbucket, or ServiceNow.</p>
+          <p>Request to enable a beta integration for your next pentest to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software.</p>
        <a href="/integrations/beta/">Request an integration »</a><br>
         </div>
       </div>
