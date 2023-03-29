@@ -81,3 +81,5 @@ If you're not receiving emails from Cobalt, do the following:
 - Make sure that you've confirmed your email address.
 - Check the filters of your mailbox. Verify that the rules you've enabled don't affect emails from `no-reply@cobalt.io`.
 - Check that emails from Cobalt aren't being marked as spam or junk.
+
+If you're **receiving emails with delay**, this may be because you've enabled greylisting for emails. To remedy this, add `@cobalt.io` to the allowlist.
