@@ -16,7 +16,7 @@ As an [Organization Owner](/getting-started/glossary/#organization-owner), you c
 
 ## General Configuration Workflow
 
-Configuration procedures differ for each identity provider. See [configuration instructions](#configuration-instructions-for-specific-identity-providers) for specific IdPs below.
+Configuration procedures differ for each identity provider. See [configuration instructions](#configuration-instructions-for-specific-identity-providers) for some popular IdPs below.
 
 Here’s a general configuration workflow:
 
@@ -41,7 +41,7 @@ If you have problems setting up SAML SSO, see our troubleshooting tips below.
 
 ## Configuration Instructions for Specific Identity Providers
 
-You can configure SAML SSO with your preferred identity provider. Here are configuration instructions for some popular identity providers:
+**You can configure SAML SSO with your preferred identity provider**. Here are instructions for some popular IdPs:
 
 - [Azure AD](#azure-ad)
 - [Duo](#duo)
@@ -137,7 +137,31 @@ Once you finish the configuration process, your application for Cobalt appears i
 
 ### Okta
 
-See [how to configure SAML SSO with Okta](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Cobalt.html).
+To learn how to configure Okta as IdP, read their [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml). We recommend that you create a SAML integration for Cobalt manually.
+
+You can also use the preset configuration. Okta has an [integration with Cobalt](https://www.okta.com/integrations/cobalt/) for SAML. To learn more, see [how to configure SAML SSO with Okta](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Cobalt.html).
+
+| For This Parameter in Cobalt | Enter This Value from Okta |
+|---|---|
+| IdP Issuer URL | Identity Provider Issuer|
+| IdP Target URL | Identity Provider Single Sign-On URL |
+| IdP Certificate | X.509 Certificate |
+
+<br>
+
+| For This Parameter in Okta | Enter This Value from Cobalt |
+|---|---|
+| Single Sign On URL | `https://api.cobalt.io/users/saml/auth` |
+| Audience URI (SP Entity ID) | `https://api.cobalt.io/users/saml/metadata` |
+| Default Relay State | IdP Relay State |
+
+<br>
+
+Okta supports the following mapping attributes:
+
+| Name | Value |
+|---|---|
+| `email` | `user.email` |
 
 ### OneLogin
 
