@@ -37,7 +37,7 @@ We don’t synchronize user datastores, so make sure that all users:
 - Joined your organization in Cobalt, confirmed their email address, and created a password.
 - Are provisioned within your identity provider with the same email address that they use in Cobalt.
 
-If you have problems setting up SAML SSO, see our troubleshooting tips below.
+If you have problems setting up SAML SSO, see our [troubleshooting tips](#troubleshoot-your-saml-sso-configuration).
 
 ## Configuration Instructions for Specific Identity Providers
 
@@ -63,11 +63,11 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
        - **Relay State**: Leave this field blank now. You'll need it later.
        - **Logout URL**: Leave this field blank.
     - Under **User Attributes & Claims**, add custom attribute mappings to your SAML token attributes configuration.
-       - `givenname`: `user.givenname`
-       - `surname`: `user.surname`
-       - `emailaddress`: `user.mail`
-       - `name`: `user.userprincipalname`
-       - `Unique User Identifier`: `user.userprincipalname`
+       - **givenname**: `user.givenname`
+       - **surname**: `user.surname`
+       - **emailaddress**: `user.mail`
+       - **name**: `user.userprincipalname`
+       - **Unique User Identifier**: `user.userprincipalname`
     - The Cobalt app expects the following attributes to be passed in the SAML response:
        <table style="border: 1px solid #E0E2E6; padding: 5px;"><thead><tr><th style="border: 1px solid #E0E2E6; padding: 5px;">Name</th><th style="border: 1px solid #E0E2E6; padding: 5px;">Source Attribute</th></tr></thead><tbody><tr><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>Mail</code></td><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>user.mail</code></td></tr><tr><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>Othermail</code></td><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>user.othermail</code></td></tr></tbody></table>
     - Under **SAML Signing Certificate**, download **Certificate (Base 64)**.
@@ -133,7 +133,7 @@ In the Google Admin console, configure the following:
 <!--- On the **Service Provider Details** page, leave the **Signed Response** option unselected (default).-->
 - On the **Attribute Mapping** page, add an attribute `email`, and select **Basic Information** and **Primary Email**.
 
-Once you finish the configuration process, your application for Cobalt appears in the Google Workspace.
+Once you've completed the setup, your application for Cobalt appears in the Google Workspace.
 
 ### Okta
 
@@ -203,4 +203,4 @@ To get help, contact your Customer Success Manager (CSM) or support@cobalt.io. W
 | Ensure that the IdP certificate is accurate. | Copy the IdP certificate once again.<br>• Include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.<br>• Make sure there are no extra whitespaces. |
 | Check that the organization tokens (**IdP Relay State** in Cobalt) match in the IdP system and Cobalt. Pay attention to quotation marks. | Check that all quotation marks in the organization tokens are straight quotes `" "` and not curly quotes `“ ”`. |
 | Ensure that you added users to the Cobalt platform. | We don’t support user provisioning through an IdP. When leveraging an IdP, make sure that there is an established identity for a user in Cobalt.<br>To establish an identity in Cobalt, a user needs to create a password and sign in to Cobalt. All subsequent sign-ins (after the user identity is established in Cobalt) are initiated through the organization’s IdP. |
-| Ensure that all values match between your identity provider and Cobalt. | Parameter values in both setups must be the same. |
+| Ensure that all values match between your identity provider and Cobalt. | Mapped parameters in both setups must match. |
