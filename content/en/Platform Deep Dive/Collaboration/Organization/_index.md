@@ -1,7 +1,7 @@
 ---
 title: "Organization"
 linkTitle: "Organization"
-weight: 30
+weight: 60
 description: >
   Collaborate on pentests with team members from your organization.
 ---
