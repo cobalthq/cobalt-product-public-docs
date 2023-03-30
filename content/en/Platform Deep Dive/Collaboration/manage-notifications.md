@@ -1,6 +1,6 @@
 ---
 title: "Manage Notifications"
-linkTitle: "Manage Notifications"
+linkTitle: "Notifications"
 weight: 30
 description: >
   Explore Cobalt notifications.
@@ -76,10 +76,7 @@ To view the latest activity of your team members and pentesters, navigate to the
 
 ## Troubleshoot Email Notifications
 
-If you're not receiving emails from Cobalt, do the following:
-
-- Make sure that you've confirmed your email address.
-- Check the filters of your mailbox. Verify that the rules you've enabled don't affect emails from `no-reply@cobalt.io`.
-- Check that emails from Cobalt aren't being marked as spam or junk.
-
-If you're **receiving emails with delay**, this may be because you've enabled greylisting for emails. To remedy this, add `@cobalt.io` to the allowlist.
+| Problem | Solution |
+|---|---|
+| You're not receiving emails from Cobalt. | <ul><li>Make sure that you've confirmed your email address.</li><li>Check the filters of your mailbox. Verify that the rules you've enabled don't affect emails from the `cobalt.io` email domain.</li><li>Verify that emails from Cobalt aren't being marked as spam or junk.</li></ul> |
+| You're receiving emails with delay. | <p>This may happen because you've enabled [greylisting](/getting-started/glossary/#greylisting) for emails. To remedy this, add the `cobalt.io` email domain to the allowlist.<p/><p>Refer to the documentation of your email management system for instructions. For example, read [how to configure permitted senders in Mimecast](https://community.mimecast.com/s/article/email-security-gateway-permitted-senders-policy-configuration?).</p> |

@@ -68,7 +68,7 @@ To create a webhook:
    - (Optional) **Secret**: Your [webhook secret](#before-you-start) that we use to authenticate a POST request to your URL.
 1. When ready, select **Save**.
 1. We send a test event to the specified URL to validate your webhook. The webhook becomes active once the validation is complete.
-   - If the validation fails, we’ll deactivate your webhook within 24 hours. See [Troubleshoot Webhooks](#troubleshoot-webhooks) for more information.
+   - If the validation fails, we'll deactivate your webhook within 24 hours. See [Troubleshoot Webhooks](#troubleshoot-webhooks) for more information.
 
 ![Create a webhook in the Cobalt UI](/integrations/CreateWebhook1.png "Create a webhook in the Cobalt UI")
 
@@ -92,6 +92,6 @@ Find solutions for common troubleshooting problems in the table below:
 
 | Problem | Solution |
 |---|---|
-| You can’t create a webhook because the name or URL already exists. | Enter a unique name and URL for your webhook. |
-| <li>You can’t create a webhook because the validation fails.</li><li>You don’t get webhook notifications to your URL.</li><li>You can't activate a webhook that we or you deactivated earlier.</li> | We failed to validate your webhook. Check the following:<li>The URL is valid and can accept requests.</li><li>If you're using a webhook secret to validate API requests from Cobalt, make sure that it's valid. Refresh the secret or generate a new one if needed.</li>|
+| You can't create a webhook because the name or URL already exists. | Enter a unique name and URL for your webhook. |
+| <li>You can't create a webhook because the validation fails.</li><li>You don't get webhook notifications to your URL.</li><li>You can't activate a webhook that we or you deactivated earlier.</li> | We failed to validate your webhook. Check the following:<li>The URL is valid and can accept requests.</li><li>If you're using a webhook secret to validate API requests from Cobalt, make sure that it's valid. Refresh the secret or generate a new one if needed.</li>|
 | You can't delete a webhook. | <li>Try again.</li><li>Contact {{% csm-support %}} for assistance.</li> |
