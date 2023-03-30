@@ -293,7 +293,7 @@ with [white-box](#white-box-testing) and [black-box testing](#black-box-testing)
 
 Also known as "translucent-box testing."
 
-## Greylisting
+## Graylisting
 
 Greylisting is a method of protecting email users from spam. A Mail Transfer Agent (MTA) using greylisting temporarily rejects emails from senders that they don't recognize. The originating server tries to resend the email after a delay. If the email is legitimate, the MTA accepts it.
 
