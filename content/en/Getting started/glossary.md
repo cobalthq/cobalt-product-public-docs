@@ -295,7 +295,7 @@ Also known as "translucent-box testing."
 
 ## Graylisting
 
-Greylisting is a method of protecting email users from spam. A Mail Transfer Agent (MTA) using greylisting temporarily rejects emails from senders that they don't recognize. The originating server tries to resend the email after a delay. If the email is legitimate, the MTA accepts it.
+Graylisting is a method of protecting email users from spam. A Mail Transfer Agent (MTA) using graylisting temporarily rejects emails from senders that they don't recognize. The originating server tries to resend the email after a delay. If the email is legitimate, the MTA accepts it.
 
 ## Jump Box
 
