@@ -137,9 +137,9 @@ Once you've completed the setup, your application for Cobalt appears in the Goog
 
 ### Okta
 
-To learn how to configure Okta as IdP, read their [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml). We recommend that you create a SAML integration for Cobalt manually.
+To learn how to configure Okta as IdP, read their [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
 
-You can also use the preset configuration. Okta has an [integration with Cobalt](https://www.okta.com/integrations/cobalt/) for SAML. To learn more, see [how to configure SAML SSO with Okta](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Cobalt.html).
+We recommend creating a SAML integration for Cobalt manually. You can also use the [Cobalt app](https://www.okta.com/integrations/cobalt/) on Okta. To learn more, see [how to configure SAML SSO with Okta](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Cobalt.html).
 
 | For This Parameter in Cobalt | Enter This Value from Okta |
 |---|---|
