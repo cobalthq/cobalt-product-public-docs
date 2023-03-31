@@ -18,19 +18,19 @@ Refer to the table below for a detailed list of permissions and privileges for e
 
 | Permission | [Pentest Team Member](/getting-started/glossary/#pentest-team-member) | [Organization Member](/getting-started/glossary/#organization-member) | [Organization Owner](/getting-started/glossary/#organization-owner) |
 |---|:---:|:---:|:---:|
-| View and edit pentest details, including [scoping parameters](/getting-started/planning/#scope-the-pentest) | ✔️ | ✔️ | ✔️ |
-| View pentest activity updates and pentester updates| ✔️ | ✔️ | ✔️ |
-| View and manage pentest [findings](/platform-deep-dive/pentests/findings/) | ✔️ | ✔️ | ✔️ |
-| [Collaborate on pentests](/platform-deep-dive/collaboration/collaborate-on-pentests/) in the Cobalt app and in Slack | ✔️ | ✔️ | ✔️ |
-| [Manage Pentest Team Members](/platform-deep-dive/collaboration/manage-collaborators/) for a specific pentest | ✔️ | ✔️ | ✔️ |
-| Create and manage [Cobalt API tokens](/platform-deep-dive/cobalt-account/account-settings/#create-and-manage-api-tokens) | ✔️ | ✔️ | ✔️ |
-| Manage integrations for a specific pentest: Jira one-way and GitHub | ✔️ | ✔️ | ✔️ |
-| Access the following pages in the Cobalt app: **Assets**, **Insights**, **People**, **Credits**, **Integrations**, and **Settings** | ➖ | ✔️ | ✔️ |
-| Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/) | ➖ | ✔️ | ✔️ |
-| View all users and pentest collaborators within an organization | ➖ | ✔️ | ✔️ |
-| Manage [integrations](/integrations/) for an organization, including [webhooks](/integrations/webhooks/) | ➖ | ✔️ | ✔️ |
-| View and edit the [organization profile](/platform-deep-dive/collaboration/organization/organization-settings/#edit-the-organization-profile) | ➖ | ✔️ | ✔️ |
-| [Manage users](/platform-deep-dive/collaboration/organization/manage-users/#manage-users-for-your-organization) for an organization | ➖ | ➖ | ✔️ |
-| View the email addresses of users on the **People** page | ➖ | ➖ | ✔️ |
-| Manage identity and access settings for an organization: [two-factor authentication](/platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/) and [SAML SSO](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/) | ➖ | ➖ | ✔️ |
-| Enable [co-branded reports](/platform-deep-dive/pentests/reports/cobranded-reports/) (for partners) | ➖ | ➖ | ✔️ |
+| View and edit pentest details, including [scoping parameters](/getting-started/planning/#scope-the-pentest) | ✓ | ✓ | ✓ |
+| View pentest activity updates and pentester updates| ✓ | ✓ | ✓ |
+| View and manage pentest [findings](/platform-deep-dive/pentests/findings/) | ✓ | ✓ | ✓ |
+| [Collaborate on pentests](/platform-deep-dive/collaboration/collaborate-on-pentests/) in the Cobalt app and in Slack | ✓ | ✓ | ✓ |
+| [Manage Pentest Team Members](/platform-deep-dive/collaboration/manage-collaborators/) for a specific pentest | ✓ | ✓ | ✓ |
+| Create and manage [Cobalt API tokens](/platform-deep-dive/cobalt-account/account-settings/#create-and-manage-api-tokens) | ✓ | ✓ | ✓ |
+| Manage integrations for a specific pentest: Jira one-way and GitHub | ✓ | ✓ | ✓ |
+| Access the following pages in the Cobalt app: **Assets**, **Insights**, **People**, **Credits**, **Integrations**, and **Settings** | — | ✓ | ✓ |
+| Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/) | — | ✓ | ✓ |
+| View all users and pentest collaborators within an organization | — | ✓ | ✓ |
+| Manage [integrations](/integrations/) for an organization, including [webhooks](/integrations/webhooks/) | — | ✓ | ✓ |
+| View and edit the [organization profile](/platform-deep-dive/collaboration/organization/organization-settings/#edit-the-organization-profile) | — | ✓ | ✓ |
+| [Manage users](/platform-deep-dive/collaboration/organization/manage-users/#manage-users-for-your-organization) for an organization | — | — | ✓ |
+| View the email addresses of users on the **People** page | — | — | ✓ |
+| Manage identity and access settings for an organization: [two-factor authentication](/platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/) and [SAML SSO](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/) | — | — | ✓ |
+| Enable [co-branded reports](/platform-deep-dive/pentests/reports/cobranded-reports/) (for partners) | — | — | ✓ |
