@@ -25,7 +25,7 @@ You get notified when someone has:
 {{% /expand %}}
 <br>
 
-Your [user role](/platform-deep-dive/collaboration/organization/user-roles/) determines which notifications you get.
+Your [user role](/platform-deep-dive/collaboration/user-roles/) determines which notifications you get.
 
 ## Manage Pentest Notifications
 

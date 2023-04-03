@@ -27,7 +27,7 @@ To invite users to your organization:
 1. Navigate to the **People** page, and select **Invite Users**.
 1. In the overlay that appears, specify the email addresses of users that you want to invite. Enter the emails, and then select **Add** or press **Enter**.
    - Use commas to separate multiple email addresses.
-1. For each user, select a [role](/platform-deep-dive/collaboration/organization/user-roles/): Member or Owner.
+1. For each user, select a [role](/platform-deep-dive/collaboration/user-roles/): Member or Owner.
     - Both Members and Owners have access to all [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/) of an organization.
 1. Select **Invite** to confirm.
 

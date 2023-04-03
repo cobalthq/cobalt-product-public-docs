@@ -85,7 +85,7 @@ Organization Owners can manage users for their organization. For instructions, s
 
 {{% expand "What user roles are available?" %}}
 <br>
-To learn more, please see <a href="/platform-deep-dive/collaboration/organization/user-roles/">User Roles and Permissions</a>.
+To learn more, please see <a href="/platform-deep-dive/collaboration/user-roles/">User Roles and Permissions</a>.
 <br><br>
 {{% /expand %}}
 
