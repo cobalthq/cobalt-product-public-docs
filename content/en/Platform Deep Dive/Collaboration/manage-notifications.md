@@ -37,7 +37,7 @@ On the pentest page, select the bell icon ![Bell icon](/icons/Bell.png "Bell ico
 - **Notifications on @ mentions and findings you participate in**
 - **Mute notifications, except on findings you [follow](#manage-finding-notifications)**
 
-![Manage notification preferences for a pentest](/deepdive/ManagePentestNotifications.png "Manage notification preferences for a pentest")
+![Manage notification preferences for a pentest](/deepdive/PentestNotifications.png "Manage notification preferences for a pentest")
 
 ## Manage Finding Notifications
 
