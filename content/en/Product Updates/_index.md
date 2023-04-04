@@ -15,9 +15,7 @@ We cover updates to the Cobalt platform in our release blog.
 - [Cobalt Release Blog: February 2023](https://www.cobalt.io/blog/cobalt-release-blog-february-2023)
 - [Cobalt Release Blog: January 2023](https://www.cobalt.io/blog/cobalt-release-blog-january-2023)
 
-<!--
-| Month | Link to Release Blog |
-| --- | --- |
-| December | [Cobalt Release Blog: December](link) |
-| October | [Cobalt Release Blog: October](https://www.cobalt.io/blog/cobalt-release-blog-october) |
--->
+## 2022
+
+- [Product Development Recap for 2022](https://www.cobalt.io/blog/product-development-recap-how-we-made-pentest-as-service-better-in-2022)
+- [Cobalt Release Blog: October](https://www.cobalt.io/blog/cobalt-release-blog-october)
