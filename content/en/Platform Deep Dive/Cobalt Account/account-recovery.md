@@ -25,6 +25,7 @@ Follow these instructions if you can't sign in to Cobalt because:
 - [We don't recognize your device](#we-dont-recognize-your-device).
 - You have [problems with SAML SSO](#cant-sign-in-using-saml-sso).
 - You are [locked out of your account](#locked-out-of-your-account).
+- [The sign-in page doesn't load](#the-sign-in-page-doesnt-load).
 - You believe [your account was compromised](#account-was-compromised).
 
 {{%expand "Here are some general tips that may help." %}}
@@ -132,6 +133,21 @@ If your organization has enabled [SAML SSO](/getting-started/sign-in/#saml-sso),
 If you make several unsuccessful attempts to sign in, we'll temporarily lock your account.
 
 To unlock your account, follow the instructions in the email that you receive. If you still can't sign in, contact us at support@cobalt.io.
+
+## The Sign-in Page Doesn't Load
+
+If the Cobalt {{% sign-in %}} page doesn't load, try to clear your browser's cache through a hard refresh. The most recent version of the sign-in page should load.
+
+Instructions vary depending on the browser and operating system you're using. There may be several ways to complete this action.
+
+- **Chrome**:
+  - **Windows**: Press Ctrl + F5.
+  - **Mac**: Press ⌘ Cmd + Shift + R.
+- **Firefox**:
+  - **Windows**: Press Ctrl + F5.
+  - **Mac**: Press ⌘ Cmd + Shift + R.
+- **Safari**: Press Option + ⌘ Cmd + E.
+- **Microsoft Edge**: Press Ctrl + F5.
 
 ## Account Was Compromised
 

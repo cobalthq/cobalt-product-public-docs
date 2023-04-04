@@ -130,7 +130,7 @@ For instructions on how to enable SAML SSO with Google, read their [guide](https
 
 In the Google Admin console, configure the following:
 
-<!--- On the **Service Provider Details** page, leave the **Signed Response** option unselected (default).-->
+- On the **Service Provider Details** page, leave the **Signed Response** option unselected (default).
 - On the **Attribute Mapping** page, add an attribute `email`, and select **Basic Information** and **Primary Email**.
 
 Once you've completed the setup, your application for Cobalt appears in the Google Workspace.
