@@ -66,8 +66,6 @@ On the **Notifications** page, you can select to view unread or all notification
 - To mark all notifications as read, select **Mark all as read**.
 - To mark a single notification as read, select the dot icon •.
 
-![View all notifications](/deepdive/NotificationsPage.png "View all notifications")
-
 ## View Team Activity
 
 To view the latest activity of your team members and pentesters, navigate to the **Activity** page. Both organization users and [Pentest Team Members](/getting-started/glossary/#pentest-team-member) can view this page.
