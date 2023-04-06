@@ -61,7 +61,7 @@ When a customer starts their journey with Cobalt, we add an Organization Owner w
 
 | Permission | [Organization Member](#organization-member) | [Organization Owner](#organization-owner) |
 |---|:---:|:---:|
-| Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/) | ✓ | ✓ |
+| Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/), edit assets | ✓ | ✓ |
 | View all organization users and pentest collaborators on the **People** page | ✓ | ✓ |
 | Manage [integrations](/integrations/) for an organization | ✓ | ✓ |
 | Edit the [organization profile](/platform-deep-dive/collaboration/organization/organization-settings/#edit-the-organization-profile) | ✓ | ✓ |
@@ -77,7 +77,7 @@ An Organization Owner is the administrator for a customer organization within th
 
 An Organization Owner has the following **permissions**:
 
-- Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/).
+- Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/), edit assets.
 - [Manage users for an organization](/platform-deep-dive/collaboration/organization/manage-users/) on the **People** page:
   - Invite and remove users.
   - Switch user roles.
@@ -98,7 +98,7 @@ An Organization Member is a customer representative who manages pentests and ass
 
 An Organization Member has the following **permissions**:
 
-- Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/).
+- Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/), edit assets.
 - View users and pentest collaborators on the **People** page.
 - Manage [integrations](/integrations/) for an organization.
 - Edit the [organization profile](/platform-deep-dive/collaboration/organization/organization-settings/#edit-the-organization-profile).
