@@ -123,29 +123,18 @@ Learn more about the [Insights](/platform-deep-dive/assets/insights/) page and u
 
 ## Cobalt Users
 
-When using the Cobalt platform, you may encounter a variety of different users, in the following
-roles.
-
-**Pentest roles (collaborators)**:
-
-- Pentest Team Member
-- Pentester and Pentest Lead (Cobalt roles within a pentest)
-
-**Organization roles**:
-
-- Organization Owner
-- Organization Member
-
-**Cobalt roles**:
-
-- Pentester
-- Pentest Lead
-- Cobalt Staff
-
-Review a list of permissions associated with each role in [User Roles and Permissions](/platform-deep-dive/collaboration/user-roles/).
+When using the Cobalt platform, you may encounter a variety of user roles. Review a list of permissions associated with each role in [User Roles and Permissions](/platform-deep-dive/collaboration/user-roles/).
 
 <!-- Per https://zombie.atlassian.net/browse/DOCS-5 I should add info from an internal
 spreadsheet, but need to find pull code in Hugo -->
+
+### Pentest Team Member
+
+{{% team-member-definition %}}
+
+Learn more about the [permissions](/platform-deep-dive/collaboration/user-roles/#pentest-team-member) associated with this role.
+
+A Pentest Team Member does not have to be an [Organization Owner](#organization-owner) or an [Organization Member](#organization-member).
 
 ### Organization Owner
 
@@ -163,21 +152,13 @@ Learn more about the [permissions](/platform-deep-dive/collaboration/user-roles/
 
 An Organization Member may also be a [Pentest Team Member](#pentest-team-member).
 
-### Pentest Team Member
+### Pentester
 
-{{% team-member-definition %}}
-
-Learn more about the [permissions](/platform-deep-dive/collaboration/user-roles/#pentest-team-member) associated with this role.
-
-A Pentest Team Member does not have to be an [Organization Owner](#organization-owner) or an [Organization Member](#organization-member).
+{{% pentester-definition %}} Learn more about the [Pentester role](/platform-deep-dive/collaboration/user-roles/#pentester).
 
 ### Pentest Lead
 
 {{% pentest-lead-permissions %}}
-
-### Pentester
-
-{{% pentester-definition %}} Learn more about the [Pentester role](/platform-deep-dive/collaboration/user-roles/#pentester).
 
 ### Cobalt Staff
 
