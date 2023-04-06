@@ -1,10 +1,10 @@
 ---
-title: "Pentest Management Platform (Beta)"
+title: "Pentest Management Platform"
 linkTitle: "Pentest Management Platform"
 weight: 4
 aliases: /platform-deep-dive/pentests/pmp/
 description: >
-  Manage your internal pentests on the Cobalt platform.
+  Manage your in-house pentests on the Cobalt platform.
 ---
 
 {{< pageinfo >}}
@@ -21,7 +21,7 @@ The Cobalt Pentest Management Platform is designed to increase the efficiency an
 - Streamline end-to-end processes
 - Standardize reporting for stakeholders
 
-<span style="background-color: #ECE6FA; padding: 2px;">An Internal Pentest is a pentest that your organization's team members complete for your organization on the Cobalt platform without involving Cobalt pentesters.</span>
+An Internal Pentest is a pentest that your organization's team members complete for your organization on the Cobalt platform without involving Cobalt pentesters.
 
 The workflow for Internal Pentests is similar to other pentests that you run on the Cobalt platform. Here's what you need to know:
 
@@ -47,7 +47,7 @@ The workflow for Internal Pentests is similar to other pentests that you run on 
         <div class="h-100 p-5 border rounded-lg" style="border-color: #D6E3FD">
           <h3>Internal Pentester</h3>
           <p>I perform pentests for my organization.</p>
-          <a class="btn btn-outline-primary rounded" href="/pmp/perform-pentest/">Read the Guide »</a>
+          <a class="btn btn-outline-primary rounded" href="/pmp/complete-pentest/">Read the Guide »</a>
         </div>
       </div>
 </div>
@@ -56,10 +56,10 @@ The workflow for Internal Pentests is similar to other pentests that you run on 
 ## Frequently Asked Questions
 
 - **How long will I have access to the PMP functionality?**
-    - The PMP Beta will run until May 31, 2023.
+  - The PMP Beta will run until May 31, 2023.
 - **What happens to this data at the end of the beta period?**
-    - For details, please visit our [Terms & Conditions](https://www.cobalt.io/terms#pentest-management-platform) for the PMP Beta.
+  - For details, please visit our [Terms & Conditions](https://www.cobalt.io/terms#pentest-management-platform) for the PMP Beta.
 - **How will Internal Pentests affect my credit balance?**
-    - Internal Pentests will not impact your credit balance. There is no charge for this functionality as part of the beta release.
+  - Internal Pentests will not impact your credit balance. There is no charge for this functionality as part of the beta release.
 - **What are the expectations for my team as participants of this beta?**
-    - We kindly ask that you join at least three 30-minute feedback sessions over the course of the beta, in addition to the kickoff call.
+  - We kindly ask that you join at least three 30-minute feedback sessions over the course of the beta, in addition to the kickoff call.
