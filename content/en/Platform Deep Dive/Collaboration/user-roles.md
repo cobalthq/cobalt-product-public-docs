@@ -8,24 +8,21 @@ description: >
 ---
 
 {{% pageinfo %}}
-Depending on your role, you can collaborate at the pentest or organization level.
+Depending on your role, you may have access to an organization, specific pentests, or both.
 {{% /pageinfo %}}
 
+<!--
 | [Pentest Roles](#pentest-roles) | [Organization Roles](#organization-roles) |
 |---|---|
-| [Pentest Team Member](#pentest-team-member):<ul><li>Collaborates on a specific pentest.</li><li>Has no access to organization users and settings,<br>unless the user is also an Organization Owner or Member.</li></ul>Cobalt [Pentester](#pentester) and [Pentest Lead](#pentest-lead):<ul><li>Work on pentests they're assigned to.</li></ul> | [Organization Owner](#organization-owner):<ul><li>Can create and edit assets and pentests.</li><li>Manages organization users and settings.</li></ul>[Organization Member](#organization-member):<ul><li>Can create and edit assets and pentests.</li><li>Can view organization users and settings.</li></ul> |
+| [Pentest Team Member](#pentest-team-member):<ul><li>Collaborates on a specific pentest.</li><li>Has no access to organization users and settings,<br>unless the user is also an Organization Owner or Member.</li></ul>Cobalt [Pentester](#pentester) and [Pentest Lead](#pentest-lead):<ul><li>Work on pentests they're assigned to.</li></ul> | [Organization Owner](#organization-owner):<ul><li>Can create and edit assets and pentests.</li><li>Manages organization users and settings.</li></ul>[Organization Member](#organization-member):<ul><li>Can create and edit assets and pentests.</li><li>Can view organization users and settings.</li></ul> |-->
 
-## Pentest Roles
+|  | Roles and Key Permissions |
+|---|---|
+| **User Roles** | **Pentest level:**<ul><li>[Pentest Team Member](#pentest-team-member):<ul><li>Collaborates on a specific pentest.</li><li>Has no access to organization users and settings, unless the user is also an Organization Owner or Member.</li></ul></li></ul><hr>**Organization level:**<ul><li>[Organization Owner](#organization-owner):<ul><li>Can create assets and pentests.</li><li>Manages organization users and settings.</li><li>Can't collaborate on specific pentests, unless the user is also a Pentest Team Member on these pentests.</li></ul><li>[Organization Member](#organization-member):<ul><li>Can create assets and pentests.</li><li>Can view organization users and settings.</li><li>Can't collaborate on specific pentests, unless the user is also a Pentest Team Member on these pentests.</li></ul></li></ul><hr>**Organization + pentest level:**<ul><li>[Organization Owner](#organization-owner) + [Pentest Team Member](#pentest-team-member) (on specific pentests)</li><li>[Organization Member](#organization-member) + [Pentest Team Member](#pentest-team-member) (on specific pentests)</li></ul> |
+| **Pentester Roles** | **Cobalt pentesters**:<ul><li>[Pentester](#pentester): Completes pentests for Cobalt customers.</li><li>[Pentest Lead](#pentest-lead): Leads a group of Cobalt Pentesters to complete a pentest.</li></ul>  |
+| **Administrative Role** | [Cobalt Staff](#cobalt-staff): Has administrative access to your pentests and organization. |
 
-Users with the following roles collaborate on a pentest:
-
-- On the customer side:
-  - [Pentest Team Member](#pentest-team-member)
-- On the Cobalt side (for PtaaS pentests):
-  - [Pentester](#pentester)
-  - [Pentest Lead](#pentest-lead)
-
-### Pentest Team Member
+## Pentest Team Member
 
 {{% team-member-definition %}}
 
@@ -42,11 +39,11 @@ A Pentest Team Member **has access to a specific pentest with the following perm
 - View pentest activity updates and pentester updates.
 - Manage integrations for a pentest: Jira and GitHub.
 
-A Pentest Team Member has no access to any information related to the organization.
+A Pentest Team Member has no access to any information related to the organization, unless they're also an Organization Owner or Member.
 
 {{%expand "Learn more." %}}
 
-Pentest Team Members have **no access** to the following pages:
+A Pentest Team Member has **no access** to the following pages, unless they're also an Organization Owner or Member:
 
 - **Assets**
 - **Pentests** (except for pentests they collaborate on)
@@ -76,7 +73,7 @@ When a customer starts their journey with Cobalt, we add an Organization Owner w
 
 ### Organization Owner
 
-An Organization Owner is the administrator for a customer organization within the Cobalt app. In the UI, you see this role as “Owner.” An Organization Owner may also be a [Pentest Team Member](#pentest-team-member).
+An Organization Owner is the administrator for a customer organization within the Cobalt app. In the UI, you see this role as “Owner.”
 
 An Organization Owner has the following **permissions**:
 
@@ -93,9 +90,11 @@ An Organization Owner has the following **permissions**:
 - View the [credits ledger](/platform-deep-dive/credits/track-credits/).
 - View the [Insights](/platform-deep-dive/assets/insights/) page.
 
+An Organization Owner may also be a [Pentest Team Member](#pentest-team-member).
+
 ### Organization Member
 
-An Organization Member is a customer representative who manages pentests and assets for their organization on the Cobalt platform but has less permissions compared to an Organization Owner. In the UI, you see this role as “Member.” An Organization Member may also be a [Pentest Team Member](#pentest-team-member).
+An Organization Member is a customer representative who manages pentests and assets for their organization on the Cobalt platform but has less permissions compared to an Organization Owner. In the UI, you see this role as “Member.”
 
 An Organization Member has the following **permissions**:
 
@@ -106,9 +105,11 @@ An Organization Member has the following **permissions**:
 - View the [credits ledger](/platform-deep-dive/credits/track-credits/).
 - View the [Insights](/platform-deep-dive/assets/insights/) page.
 
-## Cobalt Roles
+An Organization Member may also be a [Pentest Team Member](#pentest-team-member).
 
-When you run pentests using the Cobalt Pentest as a Service (PtaaS) platform, Cobalt users participate in the process.
+## Cobalt Pentesters
+
+When you run pentests using the Cobalt Pentest as a Service (PtaaS) platform, Cobalt pentesters participate in the process.
 
 ### Pentester
 
@@ -127,6 +128,6 @@ Some Cobalt pentesters may be a Lead in one test, a Pentester in a second test, 
 
 {{% pentest-lead-permissions %}}
 
-### Cobalt Staff
+## Cobalt Staff
 
 {{% cobalt-staff-permissions %}}
