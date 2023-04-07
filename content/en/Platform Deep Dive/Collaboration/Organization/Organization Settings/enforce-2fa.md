@@ -7,16 +7,18 @@ description: >
 ---
 
 {{% pageinfo %}}
-Enforce two-factor authentication (2FA) for all organization users when they **sign in with their email and password**. 2FA enforcement doesn't apply to single sign-on (SSO).
+As an [Organization Owner](/getting-started/glossary/#organization-owner), you can enforce two-factor authentication (2FA) for all organization users who authenticate with their email and password.
 {{% /pageinfo %}}
 
-As an [Organization Owner](/getting-started/glossary/#organization-owner), you can enforce two-factor-authentication (2FA) for your organization. 2FA enforcement affects the following roles:
+## Important to Know
 
-{{% owner-member-team-member %}}
+Note the following about 2FA enforcement:
 
-{{< alert title="Note" color="primary" >}}
-If your organization uses [SAML-based single sign-on (SSO)](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/), you can't enforce 2FA. Your SAML provider may already require 2FA.
-{{< /alert >}}
+- 2FA enforcement only applies to **users who authenticate with their email and password**.
+- 2FA enforcement doesn't apply to single sign-on (SSO). This includes [SAML single sign-on (SSO)](/getting-started/sign-in/#saml-sso) and Google authentication.
+- If your organization has SAML SSO enforced, you can't enforce 2FA. Your SAML provider may already require 2FA.
+- 2FA enforcement affects users with the following roles:
+    {{% owner-member-team-member %}}
 
 ## Enforce 2FA
 
@@ -24,9 +26,7 @@ If your organization uses [SAML-based single sign-on (SSO)](/platform-deep-dive/
 1. Under **Enforce Two-Factor Authentication (2FA)**, turn on the toggle.
 1. In the overlay that appears, confirm your action.
 
-<!--Update ![Enforce 2FA for your organization](/deepdive/Enforce2FA.png "Enforce 2FA for your organization")-->
-
-Users who haven't yet configured 2FA on their account get an email notification. They must enable 2FA before signing in.
+Users who haven't yet configured 2FA on their account get an email notification. They must enable 2FA upon their next sign-in.
 
 As an Organization Owner who enforces 2FA, you see an overlay prompting you to [enable 2FA](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication)—if you haven't already.
 

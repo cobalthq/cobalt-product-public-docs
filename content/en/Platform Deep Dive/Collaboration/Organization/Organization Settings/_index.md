@@ -25,11 +25,9 @@ Both [Organization Owners](/getting-started/glossary/#organization-owner) and [M
 
 ![Configure general organization settings](/deepdive/GeneralOrganizationSettings.png "Configure general organization settings")
 
-## Manage Identity and Access Settings
+## Manage Security Settings
 
 Only [Organization Owners](/getting-started/glossary/#organization-owner) can manage advanced settings:
 
 - [Enforce two-factor authentication](/platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/) for all users within the organization
 - Configure [SAML-based single sign-on (SSO)](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/)
-
-![Configure identity and access settings](/deepdive/IdentityAndManagementSettings.png "Configure identity and access settings")

@@ -32,5 +32,5 @@ Refer to the table below for a detailed list of permissions and privileges for e
 | View and edit the [organization profile](/platform-deep-dive/collaboration/organization/organization-settings/#edit-the-organization-profile) | — | ✓ | ✓ |
 | [Manage users](/platform-deep-dive/collaboration/organization/manage-users/#manage-users-for-your-organization) for an organization | — | — | ✓ |
 | View the email addresses of users on the **People** page | — | — | ✓ |
-| Manage identity and access settings for an organization: [two-factor authentication](/platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/) and [SAML SSO](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/) | — | — | ✓ |
+| Manage security settings for an organization: [two-factor authentication](/platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/) and [SAML SSO](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/) | — | — | ✓ |
 | Enable [co-branded reports](/platform-deep-dive/pentests/reports/cobranded-reports/) (for partners) | — | — | ✓ |

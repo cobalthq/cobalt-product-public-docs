@@ -27,10 +27,6 @@ When finished, select **Update Profile** to confirm.
 
 To edit general account settings, select **Account Settings** on the user menu.
 
-<!--Update
-![Adjust your account settings](/deepdive/AccountSettings.png "Account Settings page")
--->
-
 ### Change Your Username
 
 You can create a custom username for your account.
@@ -62,18 +58,14 @@ To manage two-factor authentication (2FA) settings for your account, select **Se
 If you're **signing in with your email and password**, you can enable two-factor authentication (2FA) to protect your account. 2FA adds another layer of security to your account by requiring more than just a password to sign in.
 
 - Even if your organization doesn't [enforce 2FA](/platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/) for all users, we recommend that you enable it to enhance your account security.
-- If you're signing in through single sign-on (including [SAML SSO](/getting-started/sign-in/#saml-sso)), 2FA doesn't apply.
-
-<!--Update
-![Configure 2FA for your account](/deepdive/SecuritySettings.png "Two-factor authentication page")
--->
+- If you're signing in through single sign-on, 2FA doesn't apply. This includes [SAML SSO](/getting-started/sign-in/#saml-sso) and Google authentication.
 
 To enable 2FA on your account:
 
 1. Navigate to https://app.cobalt.io/settings/security/2fa.
 1. Under **Two-Factor Authentication (2FA)**, select **Manage**.
 1. To add a new authenticator device, select **Add New OTP**.
-1. Follow the instructions on the screen to complete the process.
+1. Follow the instructions on the screen to complete the process. Use an authenticator of your choice, such as [Authy](https://authy.com/) or [Google Authenticator](https://support.google.com/accounts/answer/1066447).
 1. Add one or more backup devices to avoid being locked out of your account. Select **Add New OTP** to proceed.
 
 Now, each time you sign in to Cobalt, you must enter a one-time code from your authenticator app. If you have problems signing in with 2FA, see our [troubleshooting tips](/platform-deep-dive/cobalt-account/account-recovery/#problems-with-two-factor-authentication).
@@ -87,10 +79,12 @@ When you add a new 2FA device, it appears under **Current Devices**. Here, you c
 
 #### Reset Two-Factor Authentication
 
-We don't recommend turning off 2FA on your account by removing all 2FA devices. However, you may need to do it when:
+We don't recommend turning off 2FA on your account. However, you may need to reset your 2FA methods when:
 
-- You believe your [account was compromised](/platform-deep-dive/cobalt-account/account-recovery/#account-was-compromised)—and you still have access to your authenticator.
-- One of your authenticator devices was lost or stolen.
+- You believe your [account was compromised](/platform-deep-dive/cobalt-account/account-recovery/#account-was-compromised)—and you still have access to one of your authenticators.
+- Your authenticator device was lost or stolen.
+
+You can remove your current 2FA devices and add new ones for added security.
 
 To remove a 2FA device:
 
@@ -99,7 +93,7 @@ To remove a 2FA device:
 1. Under **Current Devices**, locate the desired device, and select **Remove**.
     - Remove other devices if needed.
 
-Now [enable 2FA](#enable-two-factor-authentication) to protect your account.
+Now you can add a new 2FA device to protect your account. Make sure you also add one or more backup devices.
 
 If you lose access to your authenticator and don't have a backup one, ask your Organization Owner to turn off 2FA. For details, see [Lost Access to Your Authenticator](/platform-deep-dive/cobalt-account/account-recovery/#lost-access-to-your-authenticator).
 
