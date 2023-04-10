@@ -17,7 +17,7 @@ Once you've received a welcome email from Cobalt, do the following:
 1. Select **Sign In** in the email.
 1. Create a password. Follow the password complexity requirements on the screen.
 
-Once you've confirmed your email and created a password, your Cobalt account is fully set up.
+Once you've confirmed your email address and created a password, your Cobalt account is fully set up.
 
 ## Sign-in Methods
 
@@ -35,13 +35,15 @@ If you have problems signing in, see [Troubleshoot Sign-in Issues](/platform-dee
 
 ## SAML SSO
 
-We support single sign-on (SSO) based on [Security Assertion Markup Language](/getting-started/glossary/#security-assertion-markup-language) 2.0 (SAML 2.0). SAML-based single sign-on (SSO) is available to all [PtaaS tiers](https://www.cobalt.io/pentest-pricing).
+We support [identity provider-initiated single sign-on (SSO)](/getting-started/glossary/#idp-initiated-sso) based on the [Security Assertion Markup Language](/getting-started/glossary/#security-assertion-markup-language) 2.0 (SAML 2.0) protocol. SAML-based SSO is available to all [PtaaS tiers](https://www.cobalt.io/pentest-pricing).
 
-Once your organization has [configured SAML SSO](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/), you must sign in to Cobalt through the identity provider (IdP) system. Authentication from the Cobalt {{% sign-in %}} page is not possible.
+Once your organization has enforced SAML SSO, **you must sign in to Cobalt through the identity provider system** (such as Okta, OneLogin, or Microsoft Azure AD). Authentication from the Cobalt {{% sign-in %}} page is not possible.
 
 This affects the following users:
 
 {{% owner-member-team-member %}}
+
+Learn more about [configuring SAML SSO](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/) (for Organization Owners).
 
 {{< alert title="Tip" color="primary" >}}
 If you can't sign in through SAML SSO, see our [troubleshooting tips](/platform-deep-dive/cobalt-account/account-recovery/#cant-sign-in-using-saml-sso).
@@ -51,7 +53,7 @@ If you can't sign in through SAML SSO, see our [troubleshooting tips](/platform-
 
 We support two-factor authentication (2FA). If you're using [SAML SSO](#saml-sso) to sign in, you don't need to turn on 2FA.
 
-- If your organization enforces all users to enable 2FA, configure it upon signing in.
+- If your organization [enforces 2FA](/platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/) for all users, configure it upon signing in.
 - We recommend that you [enable 2FA](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication) even if your organization doesn't enforce it.
 
 {{< alert title="Tip" color="primary" >}}

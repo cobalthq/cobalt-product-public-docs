@@ -93,12 +93,16 @@ To enhance your account security, we recommend that you [enable two-factor authe
 
 ## Can't Sign In Using SAML SSO
 
-If your organization has enabled [SAML SSO](/getting-started/sign-in/#saml-sso), sign in from the identity provider system, such as Okta or OneLogin. You can't sign in from the Cobalt {{% sign-in %}} page.
+If your organization has enabled [SAML SSO](/getting-started/sign-in/#saml-sso), sign in from the identity provider system, such as Okta or OneLogin. You can't authenticate from the Cobalt {{% sign-in %}} page.
 
 - If you don't know what identity provider your organization uses, contact your Organization Owner.
 - If you don't see the Cobalt app within your identity provider, contact your IdP admin. They'll add Cobalt to your IdP account.
 - Ensure that you're a provisioned user both in the IdP system and Cobalt. Complete the account setup process for Cobalt, which includes confirming your email address and creating a password. The email address for your IdP and Cobalt must match.
-- As an Organization Owner, ensure that your [SAML SSO configuration](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#troubleshoot-your-saml-sso-configuration) is correct.
+
+For [Organization Owners](/getting-started/glossary/#organization-owner):
+
+- Ensure that your [SAML SSO configuration](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#troubleshoot-your-saml-sso-configuration) is correct.
+- If you're using a legacy SAML configuration, [update it to the new setup](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/saml-migration/).
 
 ## Locked Out of Your Account
 

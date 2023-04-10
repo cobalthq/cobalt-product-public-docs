@@ -426,6 +426,35 @@ As defined by [Manning](https://freecontent.manning.com/routing-with-react-in-mo
 
 If you’re working on the server, matching incoming request paths to resources from a database.
 
+## SAML Single Sign-on (SSO)
+
+{{% sso-definition %}}
+
+SSO based on the [SAML](#security-assertion-markup-language) 2.0 protocol works by passing authentication data in the form of digitally signed XML files (assertions) between two systems: a service provider (SP) and an identity provider (IdP).
+
+- A **service provider** requests authentication assertions from the identity provider.
+- An **identity provider** sends authentication assertions to the service provider once the user's identity is confirmed.
+
+Depending on where the authentication workflow starts, SAML SSO can be of the following types:
+
+- [Service provider-initiated (SP-initiated) SSO](#sp-initiated-sso)
+- [Identity provider-initiated (IdP-initiated) SSO](#idp-initiated-sso)
+
+### SP-Initiated SSO
+
+In the service provider-initiated (SP-initiated) [SAML SSO](#saml-single-sign-on-sso), the authentication workflow starts on the service provider side.
+
+- When a user signs in to the service provider system, the service provider sends an authentication request to the identity provider.
+- Once the IdP has authenticated the user's identity, the user is signed in to the service provider system.
+
+### IdP-Initiated SSO
+
+In the identity provider-initiated (IdP-initiated) [SAML SSO](#saml-single-sign-on-sso), the authentication workflow starts on the identity provider side.
+
+- First, a user signs in to the identity provider system (such as Okta, OneLogin, or Microsoft Azure AD) and selects the app configured for their service provider.
+- The service provider requests the IdP to authenticate the user.
+- Once the user's identity is authenticated on the IdP side, the user is signed in to the service provider system.
+
 ## Security Assertion Markup Language
 
 As defined by the Organization for the Advancement of Structured Information Standards (OASIS),
