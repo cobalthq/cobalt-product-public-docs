@@ -39,7 +39,7 @@ Here’s a general configuration workflow for SAML SSO:
       - **IdP Certificate** (Make sure to include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.)
     - Select **Save Configuration**.
 1. Complete the configuration in the identity provider system. Enter the following values from Cobalt:
-    - **ACS URL** (unique for each organization)
+    - **ACS URL** (unique value for each organization)
     - **Entity ID**: `https://api.cobalt.io/users/saml/metadata`
 1. Test your SAML configuration in an incognito window before signing out of Cobalt. This will prevent any account lockout.
 
@@ -63,6 +63,7 @@ To enforce SAML SSO for your organization:
 1. Navigate to **Settings** > **Security**.
 1. Under **SAML Single Sign-on (SSO)**, turn on the **Enforce SAML** toggle.
 1. Test the connection.
+1. Notify users that now they need to sign in through the selected identity provider. We don't send any notifications, so make sure that SAML enforcement doesn't disrupt your workflows.
 
 ## Configuration Instructions for Specific Identity Providers
 
@@ -85,7 +86,7 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
     - Verify that the single sign-on method for your application is SAML.
     - Under **Basic SAML Configuration**, enter:
        - **Identifier (Entity ID)**: `https://api.cobalt.io/users/saml/metadata`
-       - **Reply URL** (Assertion Consumer Service URL): Enter a unique value from Cobalt.
+       - **Reply URL** (Assertion Consumer Service URL): ACS URL (unique value for each organization). Copy the value in the Cobalt app in **Settings** > **Security** > **Configure SAML**.
        - **Sign on URL**: Leave this field blank.
        - **Relay State**: Leave this field.
        - **Logout URL**: Leave this field blank.
@@ -119,7 +120,7 @@ To set up SAML SSO with Duo, read their [documentation](https://duo.com/docs/sso
 | For This Parameter in Duo | Enter This Value from Cobalt |
 |---|---|
 | Entity ID | `https://api.cobalt.io/users/saml/metadata` |
-| Assertion Consumer Service (ACS) URL | Unique value from Cobalt |
+| Assertion Consumer Service (ACS) URL | ACS URL (unique value for each organization) |
 
 In Duo, complete the **SAML Response** section with:
 
@@ -144,7 +145,7 @@ For instructions on how to enable SAML SSO with Google, read their [guide](https
 
 | For This Parameter in Google | Enter This Value from Cobalt |
 |---|---|
-| ACS URL | Unique value from Cobalt |
+| ACS URL | ACS URL (unique value for each organization) |
 | Entity ID | `https://api.cobalt.io/users/saml/metadata` |
 
 In the Google Admin console, configure the following:
@@ -156,18 +157,18 @@ Once you've completed the setup, your application for Cobalt appears in the Goog
 
 ### JumpCloud
 
-To learn how to configure JumpCloud as IdP, read their [documentation](https://support.jumpcloud.com/support/s/article/single-sign-on-sso-with-saml-20-connector1).
+To learn how to configure JumpCloud as IdP, read their [documentation](https://support.jumpcloud.com/support/s/article/connecting-applications-with-jumpcloud-using-pre-built-connectors-2019-08-21-10-36-47).
 
-| For This Parameter in Cobalt | Enter This Value from Okta |
+| For This Parameter in Cobalt | Enter This Value from JumpCloud |
 |---|---|
 | IdP SSO URL | IdP URL |
 | IdP Certificate | Public certificate |
 
 <br>
 
-| For This Parameter in Okta | Enter This Value from Cobalt |
+| For This Parameter in JumpCloud | Enter This Value from Cobalt |
 |---|---|
-| Single Sign On URL | Unique value from Cobalt |
+| ACS URL | ACS URL (unique value for each organization) |
 | SP Entity ID | `https://api.cobalt.io/users/saml/metadata` |
 
 ### Okta
@@ -185,7 +186,7 @@ We recommend creating a SAML integration for Cobalt manually. You can also use t
 
 | For This Parameter in Okta | Enter This Value from Cobalt |
 |---|---|
-| Single Sign On URL | Unique value from Cobalt |
+| Single Sign On URL | ACS URL (unique value for each organization) |
 | Audience URI (SP Entity ID) | `https://api.cobalt.io/users/saml/metadata` |
 
 <br>
@@ -204,7 +205,7 @@ To configure SAML SSO with OneLogin:
 
 1. Create a custom application connector for Cobalt. Follow OneLogin instructions to [build a SAML Custom Connector (Advanced)](https://onelogin.service-now.com/support?id=kb_article&sys_id=912bb23edbde7810fe39dde7489619de&kb_category=93e869b0db185340d5505eea4b961934). Enter the following values for configuration parameters in OneLogin:
     - **Audience (EntityID)**: `https://api.cobalt.io/users/saml/metadata`
-    - **Recipient**, **ACS (Consumer) URL Validator**, and **ACS (Consumer) URL**: Unique value from Cobalt
+    - **Recipient**, **ACS (Consumer) URL Validator**, and **ACS (Consumer) URL**: ACS URL (unique value for each organization). Copy the value in the Cobalt app in **Settings** > **Security** > **Configure SAML**.
     - **SAML initiator**: OneLogin
     - **SAML nameID format**: Email
     - **SAML issuer type**: Specific
