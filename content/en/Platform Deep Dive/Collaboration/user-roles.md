@@ -2,7 +2,7 @@
 title: "User Roles and Permissions"
 linkTitle: "User Roles"
 weight: 30
-aliases: /platform-deep-dive/collaboration/user-roles/
+aliases: /platform-deep-dive/collaboration/organization/user-roles/
 description: >
   Learn about the user roles and associated permissions.
 ---
