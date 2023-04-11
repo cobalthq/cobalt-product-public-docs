@@ -24,9 +24,15 @@ Cobalt supports [identity provider-initiated (IdP-initiated) SSO](/getting-start
 
 As an [Organization Owner](/getting-started/glossary/#organization-owner), you can configure SAML SSO for your organization with your preferred identity provider. Configuration procedures differ for each IdP. See [configuration instructions](#configuration-instructions-for-specific-identity-providers) for some popular IdPs below.
 
-Once you've enabled SSO, users must sign in to Cobalt through the configured IdP. Personal login credentials will no longer work. This affects the following users:
+Once you've enabled SSO, users can sign in to Cobalt through the configured IdP. This affects the following roles:
 
 {{% owner-member-team-member %}}
+
+If [SAML SSO enforcement](#enforce-saml-sso) is off, users can authenticate in the following ways:
+
+- Through SAML SSO
+- With their email and password
+- Using Google authentication (OAuth), if relevant
 
 Here’s a general configuration workflow for SAML SSO:
 
@@ -41,7 +47,8 @@ Here’s a general configuration workflow for SAML SSO:
 1. Complete the configuration in the identity provider system. Enter the following values from Cobalt:
     - **ACS URL** (unique value for each organization)
     - **Entity ID**: `https://api.cobalt.io/users/saml/metadata`
-1. Test your SAML configuration in an incognito window before signing out of Cobalt. This will prevent any account lockout.
+1. Test your SAML configuration.
+    - If you [enforced SAML](#enforce-saml-sso), test the connection in an incognito window before signing out of Cobalt. This will prevent any account lockout.
 
 We don’t synchronize user datastores, so make sure that all users:
 
@@ -52,17 +59,14 @@ If you have problems setting up SAML SSO, see our [troubleshooting tips](#troubl
 
 ## Enforce SAML SSO
 
-SAML SSO enforcement reqiures organization users to sign in to Cobalt only through SAML SSO. This affects the following users:
+SAML SSO enforcement reqiures organization users to sign in to Cobalt only through SAML SSO. Once the enforcement is on, personal login credentials no longer work. This affects the following roles:
 
 {{% owner-member-team-member %}}
-
-If SAML SSO enforcement is off, users can also sign in with their email and password—in addition to SAML SSO.
 
 To enforce SAML SSO for your organization:
 
 1. Navigate to **Settings** > **Security**.
 1. Under **SAML Single Sign-on (SSO)**, turn on the **Enforce SAML** toggle.
-1. Test the connection.
 1. Notify users that now they need to sign in through the selected identity provider. We don't send any notifications, so make sure that SAML enforcement doesn't disrupt your workflows.
 
 ## Configuration Instructions for Specific Identity Providers
