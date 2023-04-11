@@ -19,10 +19,12 @@ This page is for [Organization Owners](/getting-started/glossary/#organization-o
 Update your SAML SSO configuration between Cobalt and your identity provider (IdP). You need to copy parameters between two systems, so it's handy to have both applications open.
 
 1. In Cobalt:
-    - Navigate to **Settings** > **Security**. Under **Configure SAML**, select **Configure**.
-      - You can view your legacy configuration under **Legacy SAML Configuration**. It may not match your current setup in the IdP system.
+    - Navigate to **Settings** > **Security**.
+      - Make sure that the **Enforce SAML** toggle is turned off. You can [enforce SAML](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#enforce-saml-sso) after you complete the setup.
+      - You can view your legacy configuration under **Legacy SAML Configuration**. It may not match your current setup in the IdP.
+    - Under **Configure SAML**, select **Configure**.
     - Update the **IdP Certificate** with the current value from your identity provider, and select **Save Configuration** to confirm.
-1. In your identity provider:
+1. In your identity provider system:
     - Update the **ACS URL** with the current value from Cobalt. The ACS URL is unique for each organization.
     - The name of this parameter may differ for different IdPs.
-1. Test the configuration.
+1. Test the configuration. In the identity provider, select the Cobalt tile. You should be authenticated to Cobalt.

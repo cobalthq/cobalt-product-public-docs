@@ -40,6 +40,7 @@ Here’s a general configuration workflow for SAML SSO:
     - For each provider, see how configuration parameters map between their platform and Cobalt.
 1. Set up the integration in the Cobalt app.
     - Navigate to **Settings** > **Security**. Under **Configure SAML**, select **Configure**.
+    - Make sure that the **Enforce SAML** toggle is turned off. You can [enforce SAML](#enforce-saml-sso) after you complete the setup.
     - Enter the following values from your identity provider:
       - **IdP SSO URL**
       - **IdP Certificate** (Make sure to include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.)
@@ -48,7 +49,7 @@ Here’s a general configuration workflow for SAML SSO:
     - **ACS URL** (unique value for each organization)
     - **Entity ID**: `https://api.cobalt.io/users/saml/metadata`
 1. Test your SAML configuration.
-    - If you [enforced SAML](#enforce-saml-sso), test the connection in an incognito window before signing out of Cobalt. This will prevent any account lockout.
+1. Notify users that now they can sign in through the selected identity provider. We don't send any notifications to users.
 
 We don’t synchronize user datastores, so make sure that all users:
 
@@ -59,15 +60,15 @@ If you have problems setting up SAML SSO, see our [troubleshooting tips](#troubl
 
 ## Enforce SAML SSO
 
-SAML SSO enforcement reqiures organization users to sign in to Cobalt only through SAML SSO. Once the enforcement is on, personal login credentials no longer work. This affects the following roles:
+SAML SSO enforcement reqiures organization users to sign in to Cobalt only through SAML SSO. Once the enforcement is on, other authentication methods no longer work. This affects the following roles:
 
 {{% owner-member-team-member %}}
 
 To enforce SAML SSO for your organization:
 
 1. Navigate to **Settings** > **Security**.
-1. Under **SAML Single Sign-on (SSO)**, turn on the **Enforce SAML** toggle.
-1. Notify users that now they need to sign in through the selected identity provider. We don't send any notifications, so make sure that SAML enforcement doesn't disrupt your workflows.
+1. Under **SAML Single Sign-on (SSO)**, turn on the **Enforce SAML** toggle, and confirm your action.
+1. Notify users that now they must sign in through the selected identity provider. We don't send any notifications, so make sure that SAML enforcement doesn't disrupt your workflows.
 
 ## Configuration Instructions for Specific Identity Providers
 
@@ -174,6 +175,10 @@ To learn how to configure JumpCloud as IdP, read their [documentation](https://s
 |---|---|
 | ACS URL | ACS URL (unique value for each organization) |
 | SP Entity ID | `https://api.cobalt.io/users/saml/metadata` |
+
+Mapping attributes in JumpCloud:
+
+- **email**: `email`
 
 ### Okta
 
