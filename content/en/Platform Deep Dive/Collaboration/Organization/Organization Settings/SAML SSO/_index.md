@@ -134,8 +134,8 @@ In Duo, complete the **SAML Response** section with:
 - **Signature algorithm**: `SHA256`
 - **Signing options**: Select **Sign response** and **Sign assertion**.
 - **Map attributes**:
-  - **IdP Attribute**: enter `mail`.
-  - **SAML Response Attribute**: enter `email`.
+  - **IdP Attribute**: `mail`
+  - **SAML Response Attribute**: `email`
 
 ### Google
 
