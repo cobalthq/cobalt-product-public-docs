@@ -10,7 +10,10 @@ description: >
 <p>On April 26, 2023, we made some changes to our SAML implementation. To avoid any disruptions to authentication, update your SAML configuration.</p><p>We'll stop supporting our legacy SAML implementation at a later date.</p>
 {{< /pageinfo >}}
 
-This page is for [Organization Owners](/getting-started/glossary/#organization-owner) who have set up their SAML SSO configuration **before April 26, 2023**. If you don't have a legacy SAML setup, please visit [Configure SAML SSO](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/) for instructions.
+This page is for [Organization Owners](/getting-started/glossary/#organization-owner) who have set up their SAML SSO configuration **before April 26, 2023**.
+
+- If you don't have a legacy SAML setup, please visit [Configure SAML SSO](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/) for instructions.
+- If you're an Organization Owner for multiple organizations with SAML configured, make sure to update configurations for each organization.
 
 Update your SAML SSO configuration between Cobalt and your identity provider (IdP). You need to copy parameters between two systems, so it's handy to have both applications open.
 
