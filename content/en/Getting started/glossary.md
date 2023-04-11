@@ -440,6 +440,8 @@ Depending on where the authentication workflow starts, SAML SSO can be of the fo
 - [Service provider-initiated (SP-initiated) SSO](#sp-initiated-sso)
 - [Identity provider-initiated (IdP-initiated) SSO](#idp-initiated-sso)
 
+SAML SSO provides a secure experience because user credentials are never transmitted during authentication.
+
 ### SP-Initiated SSO
 
 In the service provider-initiated (SP-initiated) [SAML SSO](#saml-single-sign-on-sso), the authentication workflow starts on the service provider side.

@@ -215,7 +215,6 @@ To configure SAML SSO with OneLogin:
     - Insert the following values from OneLogin. You can find them on the **SSO** tab of your application connector.
        - **IdP SSO URL**: SAML 2.0 Endpoint (HTTP)
        - **IdP Certificate**: X.509 Certificate > View Details
-    - Copy the **IdP Relay State** value that appears.
 1. Navigate to your application connector in OneLogin.
 1. On the **Parameters** tab, select **Add Parameter**.
     - Under **Field name**, enter `email`, then select **Include in SAML assertion**, and select **Save**.
@@ -228,7 +227,19 @@ To configure SAML SSO with OneLogin:
 
 ### Ping
 
+For instructions on how to enable SAML SSO with Ping, read their [documentation](https://docs.pingidentity.com/r/en-us/solution-guides/htg_config_saml_app).
 
+| For This Parameter in Cobalt | Enter This Value from Ping |
+|---|---|
+| IdP SSO URL | Initiate Single Single Sign-On (SSO) URL |
+| IdP Certificate | Signing Certificate |
+
+<br>
+
+| For This Parameter in Ping | Enter This Value from Cobalt |
+|---|---|
+| ACS | ACS URL (unique value for each organization) |
+| Entity ID | `https://api.cobalt.io/users/saml/metadata` |
 
 ## Troubleshoot Your SAML SSO Configuration
 
