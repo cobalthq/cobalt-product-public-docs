@@ -1,0 +1,1 @@
+An Organization Member is a customer representative who manages pentests and assets for their organization on the Cobalt platform but has less permissions compared to an Organization Owner. In the Cobalt UI, you'll see this user role as "Member."

@@ -16,7 +16,7 @@ Learn what to expect when your organization's contract is [active](#when-your-co
 
 Once you've signed a contract with Cobalt and purchased [credits](/platform-deep-dive/credits/), you get access to our Pentest as a Service (PtaaS) platform. You can start using your credits from the start date of your contract. Credits are not available prior to that date.
 
-When your organization's contract is active, you have full access to the platform, as determined by your [user role](/platform-deep-dive/collaboration/organization/user-roles/). If your role allows, you can:
+When your organization's contract is active, you have full access to the platform, as determined by your [user role](/platform-deep-dive/collaboration/user-roles/). If your role allows, you can:
 
 - Launch [pentests](/platform-deep-dive/pentests/) to test your [assets](/platform-deep-dive/assets/).
 - Remediate [findings](/platform-deep-dive/pentests/findings/) and [submit them for retest](/platform-deep-dive/pentests/findings/remediate-findings/#submit-a-finding-for-retest).

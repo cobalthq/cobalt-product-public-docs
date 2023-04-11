@@ -17,5 +17,5 @@ You can view the organization you belong to in the Cobalt app. If you joined mul
 ![View your organizations in the Cobalt app](/deepdive/OrganizationsList.png "View your organizations in the Cobalt app")
 
 {{< alert title="Note" color="primary" >}}
-Your user role determines your set of privileges within an organization or [pentest](/platform-deep-dive/pentests/). Learn more about [user roles and permissions](/platform-deep-dive/collaboration/organization/user-roles/).
+Your user role determines your set of privileges within an organization or [pentest](/platform-deep-dive/pentests/). Learn more about [user roles and permissions](/platform-deep-dive/collaboration/user-roles/).
 {{< /alert >}}

@@ -10,7 +10,7 @@ description: >
 As an [Organization Owner](/getting-started/glossary/#organization-owner), you can enforce two-factor-authentication (2FA) for all users within your organization.
 {{% /pageinfo %}}
 
-2FA enforcement affects users belonging to your organization, including the following roles:
+2FA enforcement affects organization users and pentest collaborators, including the following roles:
 
 {{% owner-member-team-member %}}
 
