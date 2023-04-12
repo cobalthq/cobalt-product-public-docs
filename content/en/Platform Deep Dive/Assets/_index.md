@@ -60,7 +60,7 @@ Pentest Team Members don't have access to the **Assets** page.
 - They can view and edit assets that are linked to pentests they collaborate on.
 - They may not be allowed to [add attachments](/getting-started/assets/asset-description/#attachments) to an asset. An Organization Owner or Member of their company or a Cobalt Customer Success Manager can assist in this case.
 
-For more information about user permissions, see [User Roles and Permissions](/platform-deep-dive/collaboration/organization/user-roles/).
+For more information about user permissions, see [User Roles and Permissions](/platform-deep-dive/collaboration/user-roles/).
 
 ## Frequently Asked Questions
 

@@ -8,10 +8,19 @@ description: >
 ---
 
 {{% pageinfo %}}
-<p>{{< beta-label >}}</p><p><a href="#submit-a-request">Request to enable a beta integration</a> for your next pentest to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to <b>Azure DevOps</b>, <b>Bitbucket</b>, or <b>ServiceNow</b>.</p><p><span style="background-color: #ECE6FA; padding: 2px;">Navigate to the <b>Integrations</b> page in the Cobalt app to get started.</span> {{< tier-feature-html>}}</p>
+<p>{{< beta-label >}}</p><p><a href="#submit-a-request">Request to enable a beta integration</a> for your next pentest to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software.</p><p><span style="background-color: #ECE6FA; padding: 2px;">Navigate to the <b>Integrations</b> page in the Cobalt app to get started.</span> {{< tier-feature-html>}}</p>
 {{% /pageinfo %}}
 
-Beta integrations are fully functional connectors that we’ve developed using [Workato](https://www.workato.com/)—a workflow automation platform that enables greater flexibility to tailor our integrations to customers' unique workflows.
+Beta integrations are fully functional connectors that we've developed using [Workato](https://www.workato.com/)—a workflow automation platform that enables greater flexibility to tailor our integrations to customers' unique workflows. We support integrations with:
+
+- Asana
+- Azure DevOps (Boards)
+- Bitbucket Issues
+- PagerDuty
+- PivotalTracker
+- ServiceNow
+- Trello
+- Zendesk
 
 <a class="btn btn-primary rounded" href="mailto:integrations@cobalt.io" target="_blank">Have Questions? Contact Us »</a>
 
@@ -27,8 +36,6 @@ To opt in to the beta program:
 1. Complete the sign-up form.
 
 By submitting a request, you're joining a waiting list to have the integration enabled for your next pentest with Cobalt.
-
-![Request a beta integrations from the Integrations page](/integrations/BetaIntegrationsUI.png "Request a beta integrations from the Integrations page")
 
 ## Beta Program Stages
 

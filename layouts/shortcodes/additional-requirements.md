@@ -1,0 +1,3 @@
+You're welcome to define additional test objectives. If you follow best practices other than OWASP, ASVS, or OSSTMM, let us know. Include a link or other documentation. If it’s a “well-known” security practice, our pentesters probably already know them!
+
+If you have special instructions for a pentest, add them later, under [Special Instructions](/getting-started/pentest-objectives/special-instructions/).

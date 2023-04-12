@@ -1,7 +1,7 @@
 ---
 title: "Manage Notifications"
-linkTitle: "Manage Notifications"
-weight: 20
+linkTitle: "Notifications"
+weight: 40
 description: >
   Explore Cobalt notifications.
 ---
@@ -25,7 +25,7 @@ You get notified when someone has:
 {{% /expand %}}
 <br>
 
-Your [user role](/platform-deep-dive/collaboration/organization/user-roles/) determines which notifications you get.
+Your [user role](/platform-deep-dive/collaboration/user-roles/) determines which notifications you get.
 
 ## Manage Pentest Notifications
 
@@ -37,7 +37,7 @@ On the pentest page, select the bell icon ![Bell icon](/icons/Bell.png "Bell ico
 - **Notifications on @ mentions and findings you participate in**
 - **Mute notifications, except on findings you [follow](#manage-finding-notifications)**
 
-![Manage notification preferences for a pentest](/deepdive/ManagePentestNotifications.png "Manage notification preferences for a pentest")
+![Manage notification preferences for a pentest](/deepdive/PentestNotifications.png "Manage notification preferences for a pentest")
 
 ## Manage Finding Notifications
 
@@ -66,8 +66,6 @@ On the **Notifications** page, you can select to view unread or all notification
 - To mark all notifications as read, select **Mark all as read**.
 - To mark a single notification as read, select the dot icon •.
 
-![View all notifications](/deepdive/NotificationsPage.png "View all notifications")
-
 ## View Team Activity
 
 To view the latest activity of your team members and pentesters, navigate to the **Activity** page. Both organization users and [Pentest Team Members](/getting-started/glossary/#pentest-team-member) can view this page.
@@ -76,8 +74,7 @@ To view the latest activity of your team members and pentesters, navigate to the
 
 ## Troubleshoot Email Notifications
 
-If you're not receiving emails from Cobalt, do the following:
-
-- Make sure that you've confirmed your email address.
-- Check the filters of your mailbox. Verify that the rules you've enabled don't affect emails from `no-reply@cobalt.io`.
-- Check that emails from Cobalt aren't being marked as spam or junk.
+| Problem | Solution |
+|---|---|
+| You're not receiving emails from Cobalt. | Do the following:<ul><li>Make sure that you've confirmed your email address.</li><li>Check the filters of your mailbox. Verify that the rules you've enabled don't affect emails from the `cobalt.io` email domain.</li><li>Verify that emails from Cobalt aren't being marked as spam or junk.</li></ul> |
+| You're receiving emails with delay. | <p>This may happen because you've enabled [graylisting](/getting-started/glossary/#graylisting) for emails. To remedy this, add the `cobalt.io` email domain to the allowlist.<p/><p>Refer to the documentation of your email management system for instructions. For example, read [how to configure permitted senders in Mimecast](https://community.mimecast.com/s/article/email-security-gateway-permitted-senders-policy-configuration?).</p> |

@@ -1,1 +1,0 @@
-5 credits minimum, thereafter in increments of 1 credit

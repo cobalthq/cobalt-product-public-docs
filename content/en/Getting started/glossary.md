@@ -123,100 +123,46 @@ Learn more about the [Insights](/platform-deep-dive/assets/insights/) page and u
 
 ## Cobalt Users
 
-When using the Cobalt UI, you may encounter a variety of different users, in the following
-roles:
-
-- Organization Roles: If you're a Cobalt customer, your account may have one or more of the following roles:
-  - Organization Owner
-  - Organization Member
-  - Pentest Team Member
-
-- Pentester Roles: Cobalt pentesters who are assigned to your pentest have one of two roles:
-  - Lead
-  - Pentester
-
-  Some Cobalt pentesters may be a Lead in one test, a Pentester in a second test, and
-  possibly no role and no involvement in your other pentests.
-
-Select Cobalt employees may be assigned as administrators, as Cobalt Staff.
-
-You can review a list of permissions associated with each organization role in [User Roles and Permissions](/platform-deep-dive/collaboration/organization/user-roles/).
+When using the Cobalt platform, you may encounter a variety of user roles. Review a list of permissions associated with each role in [User Roles and Permissions](/platform-deep-dive/collaboration/user-roles/).
 
 <!-- Per https://zombie.atlassian.net/browse/DOCS-5 I should add info from an internal
 spreadsheet, but need to find pull code in Hugo -->
 
+### Pentest Team Member
+
+{{% team-member-definition %}}
+
+Learn more about the [permissions](/platform-deep-dive/collaboration/user-roles/#pentest-team-member) associated with this role.
+
+A Pentest Team Member does not have to be an [Organization Owner](#organization-owner) or an [Organization Member](#organization-member).
+
 ### Organization Owner
 
-In the Cobalt UI, you'll see this user role as "Owner." Users in that role can:
+{{% org-owner-definition %}}
 
-{{% org-owner-permissions %}}
+Learn more about the [permissions](/platform-deep-dive/collaboration/user-roles/#organization-owner) associated with this role.
 
-{{%expand "Learn more." %}}
-
-An Organization Owner is the administrator for a customer organization within the Cobalt app. As such, they can:
-
-- Manage users on the **Organization** tab of the **People** page:
-  - Add/remove the users of their choice, by their email addresses, as an [Organization Member](#organization-member) or Organization Owner.
-  - View the email addresses of users.
-  - Change user roles, from an Organization Owner to Organization Member and conversely.
-
-- View collaborators, the members of their pentest team. That team includes:
-  - Pentest Team Member, typically an organization employee.
-  - Pentest Lead, the Cobalt pentester responsible for the pentest.
-  - Pentester, one or more additional Cobalt pentesters who are helping with the pentest.
-  Smaller pentests may only have a Pentest Lead.
-
-- An Organization Owner may also be a [Pentest Team Member](#pentest-team-member).
-
-- Manage [multi-factor authentication (MFA)](#multi-factor-authentication) as well as [SAML](#security-assertion-markup-language) settings for the users in their organization. We support two-factor authentication with a mobile authenticator app.
-
-- If an Organization Owner represents a partner company that manages pentests for third parties, they can enable [co-branded pentest reports](/platform-deep-dive/pentests/reports/cobranded-reports/).
-
-An Organization Owner also has top-level (sudo) administrative privileges for their
-organizations in the Cobalt app.
-
-{{% /expand%}}
+An Organization Owner may also be a [Pentest Team Member](#pentest-team-member).
 
 ### Organization Member
 
-In the Cobalt UI, you'll see this user role as "Member." Users in that role can:
+{{% org-member-definition %}}
 
-{{% org-member-permissions %}}
+Learn more about the [permissions](/platform-deep-dive/collaboration/user-roles/#organization-member) associated with this role.
 
-{{%expand "Learn more." %}}
-
-An Organization Member is a user of the Cobalt app who can create an [asset](#asset) as well
-as a [pentest](#pentest). That user can also see the pentesters who are working on their asset.
-If allowed by their {{% ptaas-tier %}}, they can also manage integration with Jira and GitHub (Cloud only).
-
-- An Organization Member may also be a [Pentest Team Member](#pentest-team-member).
-
-{{% /expand%}}
-
-### Pentest Team Member
-
-A Pentest Team Member is a customer (organization) representative during a specific pentest.
-That user can review and respond to each [finding](#finding) identified by a Cobalt Pentester or Pentest Lead.
-
-That Pentest Team Member can also add one or more users as a Pentest Team Member. 
-
-A Pentest Team Member does not have to be an Organization Owner or an Organization Member.
-
-### Pentest Lead
-
-A Pentest Lead is a Cobalt pentester who leads other Cobalt pentesters in their efforts to test
-an asset. When applicable, the Pentest Lead also drafts the [pentest report](#pentest-report) (for [Comprehensive Pentests](#comprehensive-pentest)).
-
-We don’t assign a Pentest Lead to [Agile Pentests](#agile-pentest).
+An Organization Member may also be a [Pentest Team Member](#pentest-team-member).
 
 ### Pentester
 
-A Pentester is a Cobalt pentester who works with a Pentest Lead to test a specific asset.
+{{% pentester-definition %}} Learn more about the [Pentester role](/platform-deep-dive/collaboration/user-roles/#pentester).
+
+### Pentest Lead
+
+{{% pentest-lead-permissions %}}
 
 ### Cobalt Staff
 
-Cobalt Staff members may help you manage the users in your organization. They may also help
-manage work on your pentests.
+{{% cobalt-staff-permissions %}}
 
 ## Compliance Audit
 
@@ -292,6 +238,10 @@ Where the pentester has limited knowledge of the internal details of the asset. 
 with [white-box](#white-box-testing) and [black-box testing](#black-box-testing).
 
 Also known as "translucent-box testing."
+
+## Graylisting
+
+Graylisting is a method of protecting email users from spam. A Mail Transfer Agent (MTA) using graylisting temporarily rejects emails from senders that they don't recognize. The originating server tries to resend the email after a delay. If the email is legitimate, the MTA accepts it.
 
 ## Jump Box
 

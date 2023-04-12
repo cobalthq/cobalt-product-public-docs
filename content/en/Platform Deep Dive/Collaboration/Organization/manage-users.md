@@ -3,16 +3,16 @@ title: "Manage Users"
 linkTitle: "Manage Users"
 weight: 20
 description: >
-  Manage users within an organization or pentest.
+  Manage users for your organization.
 ---
 
 {{% pageinfo %}}
-Depending on your role, you can manage users for your [organization](#manage-users-for-your-organization) or specific [pentests](#add-and-remove-pentest-team-members). Learn more about [user roles and permissions](/platform-deep-dive/collaboration/organization/user-roles/).
+As an [Organization Owner](/getting-started/glossary/#organization-owner), you can [manage users for your organization](#manage-users-for-your-organization), in addition to managing [pentest collaborators](#manage-pentest-collaborators).
 {{% /pageinfo %}}
 
 ## Manage Users for Your Organization
 
-As an [Organization Owner](/getting-started/glossary/#organization-owner), you can manage users for your organization on the **People** page > **Organization**:
+Navigate to the **People** page > **Organization**. Here, you can:
 
 - [Invite](#invite-users) and [remove](#remove-users) users
 - [Change their roles](#change-a-users-role)
@@ -27,7 +27,7 @@ To invite users to your organization:
 1. Navigate to the **People** page, and select **Invite Users**.
 1. In the overlay that appears, specify the email addresses of users that you want to invite. Enter the emails, and then select **Add** or press **Enter**.
    - Use commas to separate multiple email addresses.
-1. For each user, select a [role](/platform-deep-dive/collaboration/organization/user-roles/): Member or Owner.
+1. For each user, select a [role](/platform-deep-dive/collaboration/user-roles/): Member or Owner.
     - Both Members and Owners have access to all [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/) of an organization.
 1. Select **Invite** to confirm.
 
@@ -53,37 +53,21 @@ To remove a user from your organization:
     - Only from the organization. The user can still collaborate on pentests as a [Pentest Team Member](/getting-started/glossary/#pentest-team-member).
     - From the organization and all pentests.
 
-## Add and Remove Pentest Team Members
+## Manage Pentest Collaborators
 
-To [add](#add-a-pentest-team-member) or [remove users](#remove-a-pentest-team-member) from a specific pentest, you should have one of the following [roles](/platform-deep-dive/collaboration/organization/user-roles/):
+On the **Pentest Collaborators** tab of the **People** page, you can see users who don't belong to your organization but can collaborate on specific pentests. This includes:
 
-{{% owner-member-team-member %}}
+- [Pentest Team Members](/getting-started/glossary/#pentest-team-member)
+- [Pentesters](/getting-started/glossary/#pentester)
+- [Pentest Leads](/getting-started/glossary/#pentest-lead)
 
-### Add a Pentest Team Member
+To view pentests on which the user collaborates, select the link under **Pentests**. From here, you can navigate to the pentest page.
 
-To add a Pentest Team Member to a specific pentest:
-
-1. In the Cobalt app, select **Pentests**, and locate the desired pentest.
-1. On the pentest page, select **Settings** > **Collaborators**.
-1. Enter the user's email address, and select **Add Team Member**.
-
-The user gets an invitation to collaborate on the pentest.
-
-![Add a Pentest Team Member to a pentest](/deepdive/AddPentestTeamMember.png "Add a Pentest Team Member to a pentest")
-
-### Remove a Pentest Team Member
-
-To remove a Pentest Team Member from a pentest:
-
-1. Navigate to the desired pentest in one of the following ways:
-   - Select **Pentests**, and locate the pentest.
-   - On the **People** page, locate the desired user, select **# Pentests**, and select the pentest from which you want to remove the user.
-1. On the pentest page, select **Settings** > **Collaborators**.
-1. Locate the user you want to remove, select **Remove User** ![Trash bin icon](/icons/Trash.png "Trash bin icon"), and select **Yes** in the overlay to confirm.
+Pentest Team Members who don't belong to the organization can [manage collaborators](/platform-deep-dive/collaboration/manage-collaborators/) for a specific pentest.
 
 ### Remove a User from All Pentests
 
-As an Organization Owner, you can remove a Pentest Team Member—who doesn't belong to the organization—from all pentests they collaborate on.
+{{% remove-from-all-pentests %}}
 
 1. In the Cobalt app, select your organization in the upper-left corner of the screen.
 1. Navigate to the **People** page > **Pentest Collaborators**.
@@ -91,4 +75,10 @@ As an Organization Owner, you can remove a Pentest Team Member—who doesn't bel
 
 ![Remove a Pentest Team Member from all pentests](/deepdive/RemoveCollaboratorFromAllPentests.png "Add a Pentest Team Member from all pentests")
 
-To view the pentests a Pentest Team Member collaborates on, select the link under **Pentests**. From here, you can navigate to the pentest page.
+### Add a Pentest Team Member
+
+As a Pentest Team Member, you can [add users to a specific pentest](/platform-deep-dive/collaboration/manage-collaborators/#add-a-pentest-team-member). This doesn't require the Organization Owner role.
+
+### Remove a Pentest Team Member
+
+As a Pentest Team Member, you can [remove users from a specific pentest](/platform-deep-dive/collaboration/manage-collaborators/#remove-a-pentest-team-member). This doesn't require the Organization Owner role.
