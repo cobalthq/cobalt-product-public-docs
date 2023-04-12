@@ -1,0 +1,1 @@
+The Cobalt coverage checklist is a list of checks that pentesters use throughout a pentest to ensure that a baseline of security controls are in place. The list is based on the industry best practices.
