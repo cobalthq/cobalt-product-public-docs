@@ -15,13 +15,23 @@ description: >
 
 ## Introducing the Pentest Management Platform
 
-The Cobalt Pentest Management Platform is designed to increase the efficiency and quality of your internal pentests. With this solution, security teams can:
+The Cobalt Pentest Management Platform is designed to increase the efficiency and quality of your in-house pentests. This solution enables security teams to:
 
-- **Manage internal pentests in one place**
-- **Streamline end-to-end processes**
-- **Standardize reporting for stakeholders**
+- Visualize your end-to-end pentest program in a single platform
+- Reduce administrative work for faster turnaround times and remediation efforts
+- Integrate findings into your SDLC via Jira and GitHub, or use the Cobalt API
+- Standardize reporting with customizable and automated templates
+- Track program improvements by leveraging ongoing test data and analytics
 
-An In-House Pentest is a pentest that an organization performs on the Cobalt platform without involving Cobalt pentesters. The workflow for In-House Pentests is the same as for other pentests that you run on the Cobalt platform.
+{{% in-house-pentest-definition %}} The workflow for In-House Pentests is similar to other pentests that you run on the Cobalt platform. Here are some key points about In-House Pentests:
+
+- **Pentesters**: Invite pentesters of your choice.
+- **Timelines**: Define the timeline for your pentest.
+- **Findings**: Remediate vulnerabilities (findings), and submit them for retest.
+- **Collaboration**: Communicate with pentesters and your teammates in the pentest chat, without using third-party tools.
+- **Integrations**: Streamline your workflows with Cobalt integrations.
+- **Reports**: Share your guidelines with pentesters to standardize reporting.
+- **Analytics**: Use Cobalt insights to analyze the security posture of your assets.
 
 <!--Here's what you need to know:
 - In-House Pentests will not impact your [credit balance](/platform-deep-dive/credits/track-credits/). You can launch as many In-House Pentests as you need.

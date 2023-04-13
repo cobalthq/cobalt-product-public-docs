@@ -1,1 +1,1 @@
-A finding is a potential security flaw in an app or physical hardware.
+A finding is a vulnerability that a pentester reports during a pentest.

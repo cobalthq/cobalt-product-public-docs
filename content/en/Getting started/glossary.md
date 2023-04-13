@@ -20,20 +20,6 @@ we configure and use Cobalt software.
 
 The [risk](/platform-deep-dive/pentests/findings/severity-levels/) of an individual finding is the likelihood multiplied by the impact (Risk = Likelihood * Impact).
 
-## Agile Pentest
-
-{{% agile-pentest %}}. Learn more about the [pentest types](/platform-deep-dive/pentests/pentest-types/).
-
-You may want an Agile Pentest for:
-
-- Recent code changes, such as after a sprint or before a release
-- Specific subsets of your asset, such as:
-  - A single feature such as a new RESTful [API endpoint](#api-endpoint)
-  - One microservice
-- You can also use an Agile Pentest to test:
-  - A single OWASP or OSSTMM category
-  - A specific issue, such as a [known vulnerability](#known-vulnerability)
-
 ## Allowlist
 
 An allowlist explicitly lets identified systems access. In networks, an allowlist can specify IP
@@ -160,6 +146,10 @@ An Organization Member may also be a [Pentest Team Member](#pentest-team-member)
 
 {{% pentest-lead-permissions %}}
 
+### In-House Pentester
+
+{{% in-house-pentester-definition %}} An In-House Pentester role has the same privileges as a [Pentest Team Member](#pentest-team-member), with additional access to pentester functionality.
+
 ### Cobalt Staff
 
 {{% cobalt-staff-permissions %}}
@@ -170,21 +160,6 @@ As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a co
 
 - A Certification Practice Statement satisfies the requirements of a Certificate Policy
 - An organization adheres to its Certification Practice Statement
-
-## Comprehensive Pentest
-
-{{% comprehensive-pentest %}}. Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/).
-
-You may want a Comprehensive Pentest for:
-
-- A comprehensive [security audit](#security-audit) of your software
-- Broad subsets of your asset, such as:
-  - API with all the [endpoints](#api-endpoint) that it includes
-  - All microservices
-- A [compliance audit](#compliance-audit) based on a specific framework, such as [SOC 2](https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
-- All categories from the [OWASP Top 10](https://owasp.org/www-project-top-ten/) list
-- M&amp;A due diligence, to identify and eliminate possible risks for all parties involved
-- A specific customer of third-party attestation request
 
 ## Customer Letter
 
@@ -242,6 +217,10 @@ Also known as "translucent-box testing."
 ## Graylisting
 
 Graylisting is a method of protecting email users from spam. A Mail Transfer Agent (MTA) using graylisting temporarily rejects emails from senders that they don't recognize. The originating server tries to resend the email after a delay. If the email is legitimate, the MTA accepts it.
+
+## In-House Pentest
+
+{{% in-house-pentest-definition %}} You can launch In-House Pentests using the [Pentest Management Platform (PMP)](/pmp/).
 
 ## Jump Box
 
@@ -313,7 +292,45 @@ test the [asset](#asset) specified in your pentest.
 ## Pentest as a Service (PtaaS)
 
 Combines manual and human testing with a modern delivery platform to deploy
-penetration testing programs. 
+penetration testing programs.
+
+## PtaaS Pentest
+
+A pentest that [Cobalt pentesters](#pentester) perform on the Cobalt [Pentest as a Service (PtaaS)](#pentest-as-a-service-ptaas) platform for a customer. This includes the following pentest types:
+
+- [Agile Pentest](#agile-pentest)
+- [Comprehensive Pentest](#comprehensive-pentest)
+
+Contrast with [In-House Pentest](#in-house-pentest) that a customer runs on the Cobalt [Pentest Management Platform (PMP)](/pmp/) with their [In-House Pentesters](#in-house-pentester).
+
+### Agile Pentest
+
+{{% agile-pentest %}}. Learn more about the [pentest types](/platform-deep-dive/pentests/pentest-types/).
+
+You may want an Agile Pentest for:
+
+- Recent code changes, such as after a sprint or before a release
+- Specific subsets of your asset, such as:
+  - A single feature such as a new RESTful [API endpoint](#api-endpoint)
+  - One microservice
+- You can also use an Agile Pentest to test:
+  - A single OWASP or OSSTMM category
+  - A specific issue, such as a [known vulnerability](#known-vulnerability)
+
+### Comprehensive Pentest
+
+{{% comprehensive-pentest %}}. Learn more about [Comprehensive Pentests](/platform-deep-dive/pentests/pentest-types/).
+
+You may want a Comprehensive Pentest for:
+
+- A comprehensive [security audit](#security-audit) of your software
+- Broad subsets of your asset, such as:
+  - API with all the [endpoints](#api-endpoint) that it includes
+  - All microservices
+- A [compliance audit](#compliance-audit) based on a specific framework, such as [SOC 2](https://us.aicpa.org/interestareas/frc/assuranceadvisoryservices/aicpasoc2report.html)
+- All categories from the [OWASP Top 10](https://owasp.org/www-project-top-ten/) list
+- M&amp;A due diligence, to identify and eliminate possible risks for all parties involved
+- A specific customer of third-party attestation request
 
 ## Pentest Report
 
