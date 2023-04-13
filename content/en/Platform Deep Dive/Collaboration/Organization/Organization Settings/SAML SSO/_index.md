@@ -204,7 +204,7 @@ Okta supports the following mapping attributes:
 
 | Name | Value |
 |---|---|
-| `email` | `user.email` |
+| `email` | `user.userName` |
 
 ### OneLogin
 
