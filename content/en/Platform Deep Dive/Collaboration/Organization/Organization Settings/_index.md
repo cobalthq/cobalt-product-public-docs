@@ -1,7 +1,7 @@
 ---
 title: "Configure Organization Settings"
 linkTitle: "Organization Settings"
-weight: 30
+weight: 40
 description: >
   Adjust settings for your organization.
 ---
