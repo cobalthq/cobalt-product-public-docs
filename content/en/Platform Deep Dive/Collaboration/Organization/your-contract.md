@@ -1,7 +1,7 @@
 ---
 title: "Your Cobalt Contract"
 linkTitle: "Your Contract"
-weight: 40
+weight: 30
 description: >
   Learn how your Cobalt contract works.
 ---
