@@ -15,31 +15,17 @@ description: >
 
 ## Introducing the Pentest Management Platform
 
+Penetration Testing is a critical component of an enterprise’s security program. Most often it’s accomplished through a combination of internal red team engagements and third-party testing. This joint approach forces security teams to juggle a myriad of data and tools, resulting in inconsistent processes and results. Before organizations look to scale their offensive security, they need to address these inefficiencies.
+
+Enter Cobalt. We built our award-winning platform for pentesters, covering the entire lifecycle of a pentest from planning, launching, and collaborating on tests to writing reports, tracking vulnerabilities, and remediation efforts. We are now opening up our pentest management technology used by over 400 pentesters worldwide to customers with in-house testing teams.
+
 The Cobalt Pentest Management Platform is designed to increase the efficiency and quality of your in-house pentests. This solution enables security teams to:
 
-- Visualize your end-to-end pentest program in a single platform
-- Reduce administrative work for faster turnaround times and remediation efforts
-- Integrate findings into your SDLC via Jira and GitHub, or use the Cobalt API
-- Standardize reporting with customizable and automated templates
-- Track program improvements by leveraging ongoing test data and analytics
-
-{{% in-house-pentest-definition %}} The workflow for In-House Pentests is similar to other pentests that you run on the Cobalt platform. Here are some key points about In-House Pentests:
-
-- **Pentesters**: Invite pentesters of your choice.
-- **Timelines**: Define the timeline for your pentest.
-- **Findings**: Remediate vulnerabilities (findings), and submit them for retest.
-- **Collaboration**: Communicate with pentesters and your teammates in the pentest chat, without using third-party tools.
-- **Integrations**: Streamline your workflows with Cobalt integrations.
-- **Reports**: Share your guidelines with pentesters to standardize reporting.
-- **Analytics**: Use Cobalt insights to analyze the security posture of your assets.
-
-<!--Here's what you need to know:
-- In-House Pentests will not impact your [credit balance](/platform-deep-dive/credits/track-credits/). You can launch as many In-House Pentests as you need.
-- Cobalt [pentesters](/getting-started/glossary/#pentester) are not involved in the testing process.
-- You define the testing period. We don't set limitations on the start date or testing duration.
-- As with other pentests, Cobalt Staff may have access to your pentests and findings.
-  - You can keep track of who has, and has previously had, access to your organization on the **People** page. To view who has or had access to specific pentests, navigate to the **Collaborators** tab.
-  - We do our best to keep your data safe. Learn more about our [security practices](https://www.cobalt.io/security/practices).-->
+- **Visualize your end-to-end pentest program** in a single platform
+- **Reduce administrative work** for faster turnaround times and remediation efforts
+- **Integrate findings** into your SDLC via Jira and GitHub, or use the Cobalt API
+- **Standardize reporting** with customizable and automated templates
+- **Track program improvements** by leveraging ongoing test data and analytics
 
 ## What's Your Role?
 
