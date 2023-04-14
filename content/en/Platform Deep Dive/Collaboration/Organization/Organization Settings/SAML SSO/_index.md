@@ -124,8 +124,8 @@ To set up SAML SSO with Duo, read their [documentation](https://duo.com/docs/sso
 
 | For This Parameter in Duo | Enter This Value from Cobalt |
 |---|---|
-| Entity ID | `https://api.cobalt.io/users/saml/metadata` |
 | Assertion Consumer Service (ACS) URL | ACS URL (unique value for each organization) |
+| Entity ID | `https://api.cobalt.io/users/saml/metadata` |
 
 In Duo, complete the **SAML Response** section with:
 
@@ -186,25 +186,27 @@ To learn how to configure Okta as IdP, read their [documentation](https://help.o
 
 We recommend creating a SAML integration for Cobalt manually. You can also use the [Cobalt app](https://www.okta.com/integrations/cobalt/) on Okta. To learn more, see [how to configure SAML SSO with Okta](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Cobalt.html).
 
+If you [create an application for Okta](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml) manually, use the following parameters.
+
 | For This Parameter in Cobalt | Enter This Value from Okta |
 |---|---|
-| IdP SSO URL | Identity Provider Single Sign-On URL |
-| IdP Certificate | X.509 Certificate |
+| IdP SSO URL | Sign on URL (Identity Provider Single Sign-On URL) |
+| IdP Certificate | Signing Certificate (X.509 Certificate) |
 
 <br>
 
 | For This Parameter in Okta | Enter This Value from Cobalt |
 |---|---|
-| Single Sign On URL | ACS URL (unique value for each organization) |
+| Single sign-on URL | ACS URL (unique value for each organization) |
 | Audience URI (SP Entity ID) | `https://api.cobalt.io/users/saml/metadata` |
 
 <br>
 
-Okta supports the following mapping attributes:
+In Okta:
 
-| Name | Value |
-|---|---|
-| `email` | `user.userName` |
+- Leave the **Default RelayState** field empty.
+- Add the following mapping attribute in **Attribute Statements**:
+    - **email**: `email`
 
 ### OneLogin
 
