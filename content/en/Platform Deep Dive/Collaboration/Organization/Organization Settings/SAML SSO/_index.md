@@ -206,7 +206,7 @@ In Okta:
 
 - Leave the **Default RelayState** field empty.
 - Add the following mapping attribute in **Attribute Statements**:
-    - **email**: `email`
+    - **email**: `user.userName`
 
 ### OneLogin
 
