@@ -15,7 +15,7 @@ description: >
 
 ## Introducing the Pentest Management Platform
 
-Penetration Testing is a critical component of an enterprise’s security program. Most often it’s accomplished through a combination of internal red team engagements and third-party testing. This joint approach forces security teams to juggle a myriad of data and tools, resulting in inconsistent processes and results. Before organizations look to scale their offensive security, they need to address these inefficiencies.
+Penetration testing is a critical component of an enterprise’s security program. Most often it’s accomplished through a combination of internal red team engagements and third-party testing. This joint approach forces security teams to juggle a myriad of data and tools, resulting in inconsistent processes and results. Before organizations look to scale their offensive security, they need to address these inefficiencies.
 
 Enter Cobalt. We built our award-winning platform for pentesters, covering the entire lifecycle of a pentest from planning, launching, and collaborating on tests to writing reports, tracking vulnerabilities, and remediation efforts. We are now opening up our pentest management technology used by over 400 pentesters worldwide to customers with in-house testing teams.
 
