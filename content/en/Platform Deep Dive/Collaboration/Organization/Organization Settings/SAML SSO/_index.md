@@ -40,7 +40,6 @@ Here’s a general configuration workflow for SAML SSO:
     - For each provider, see how configuration parameters map between their platform and Cobalt.
 1. Set up the integration in the Cobalt app.
     - Navigate to **Settings** > **Security**. Under **Configure SAML**, select **Configure**.
-    - Make sure that the **Enforce SAML** toggle is turned off. You can [enforce SAML](#enforce-saml-sso) after you complete the setup.
     - Enter the following values from your identity provider:
       - **IdP SSO URL**
       - **IdP Certificate** (Make sure to include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.)
@@ -60,7 +59,7 @@ If you have problems setting up SAML SSO, see our [troubleshooting tips](#troubl
 
 ## Enforce SAML SSO
 
-SAML SSO enforcement reqiures organization users to sign in to Cobalt only through SAML SSO. Once the enforcement is on, other authentication methods no longer work. This affects the following roles:
+SAML SSO enforcement reqiures organization users to sign in to Cobalt only through [SAML SSO](/getting-started/glossary/#saml-single-sign-on-sso). Once the enforcement is on, other authentication methods will no longer work. This affects the following roles:
 
 {{% owner-member-team-member %}}
 
@@ -182,11 +181,12 @@ Mapping attributes in JumpCloud:
 
 ### Okta
 
-To learn how to configure Okta as IdP, read their [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
+You can set up SAML SSO with Okta in two ways:
 
-We recommend creating a SAML integration for Cobalt manually. You can also use the [Cobalt app](https://www.okta.com/integrations/cobalt/) on Okta. To learn more, see [how to configure SAML SSO with Okta](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Cobalt.html).
+- Use the preconfigured [Cobalt app](https://www.okta.com/integrations/cobalt/) for Okta. Learn [how to configure SAML SSO using the Cobalt app](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Cobalt.html).
+- _(Recommended)_ Create a SAML app for Cobalt manually. To learn more, read Okta's [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
 
-If you [create an application for Okta](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml) manually, use the following parameters.
+If you create an application for Okta manually, use the following parameters.
 
 | For This Parameter in Cobalt | Enter This Value from Okta |
 |---|---|

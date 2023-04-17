@@ -26,5 +26,5 @@ Both [Organization Owners](/getting-started/glossary/#organization-owner) and [M
 
 Only [Organization Owners](/getting-started/glossary/#organization-owner) can manage security settings:
 
-- [Enforce two-factor authentication](/platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/) for all users within the organization
-- Configure [SAML-based single sign-on (SSO)](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/)
+- [Enforce two-factor authentication](/platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/) for all users within the organization.
+- Configure [SAML-based single sign-on (SSO)](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/).

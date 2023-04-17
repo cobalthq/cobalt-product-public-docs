@@ -38,7 +38,7 @@ If you have problems signing in, see [Troubleshoot Sign-in Issues](/platform-dee
 
 We support [identity provider-initiated single sign-on (SSO)](/getting-started/glossary/#idp-initiated-sso) based on the [Security Assertion Markup Language](/getting-started/glossary/#security-assertion-markup-language) 2.0 (SAML 2.0) protocol. SAML-based SSO is available to all [PtaaS tiers](https://www.cobalt.io/pentest-pricing).
 
-Navigate to your identity provider, and select the Cobalt app to authenticate. This affects the following roles:
+Navigate to your identity provider, and select the Cobalt app to authenticate. SAML SSO affects the following roles:
 
 {{% owner-member-team-member %}}
 
