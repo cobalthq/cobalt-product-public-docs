@@ -45,9 +45,7 @@ Streamline your pentesting and development workflows with Cobalt integrations.
 
 Request to enable a beta integration for your next pentest to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software:
 
-- Azure DevOps
-- Bitbucket
-- ServiceNow
+{{% beta-integrations-list %}}
 
 Learn more about [beta integrations](/integrations/beta/).
 
