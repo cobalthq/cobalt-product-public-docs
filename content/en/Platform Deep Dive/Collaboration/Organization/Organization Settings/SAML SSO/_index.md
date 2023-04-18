@@ -43,7 +43,8 @@ Here’s a general configuration workflow for SAML SSO:
     - Enter the following values from your identity provider:
       - **IdP SSO URL**
       - **IdP Certificate** (Make sure to include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.)
-    - Select **Save Configuration**.
+    - Select **Save Configuration**.<br>
+    ![Configure SAML SSO in the Cobalt app](/deepdive/configure-saml-sso-overlay.png "Configure SAML SSO in the Cobalt app")
 1. Complete the configuration in the identity provider system. Enter the following values from Cobalt:
     - **ACS URL** (unique value for each organization)
     - **Entity ID**: `https://api.cobalt.io/users/saml/metadata`
@@ -65,7 +66,7 @@ SAML SSO enforcement reqiures organization users to sign in to Cobalt only throu
 
 To enforce SAML SSO for your organization:
 
-1. Navigate to **Settings** > **Security**.
+1. Navigate to **Settings** > **Security**. You must have SAML SSO configured.
 1. Under **SAML Single Sign-on (SSO)**, turn on the **Enforce SAML** toggle, and confirm your action.
 1. Notify users that now they must sign in through the selected identity provider. We don't send any notifications, so make sure that SAML enforcement doesn't disrupt your workflows.
 
@@ -181,12 +182,14 @@ Mapping attributes in JumpCloud:
 
 ### Okta
 
-You can set up SAML SSO with Okta in two ways:
+<!--You can set up SAML SSO with Okta in two ways:
 
 - Use the preconfigured [Cobalt app](https://www.okta.com/integrations/cobalt/) for Okta. Learn [how to configure SAML SSO using the Cobalt app](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Cobalt.html).
 - _(Recommended)_ Create a SAML app for Cobalt manually. To learn more, read Okta's [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
 
-If you create an application for Okta manually, use the following parameters.
+If you create an application for Okta manually, use the following parameters.-->
+
+We recommend creating a SAML application for Okta manually. To learn more, read the Okta [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
 
 | For This Parameter in Cobalt | Enter This Value from Okta |
 |---|---|
@@ -205,8 +208,9 @@ If you create an application for Okta manually, use the following parameters.
 In Okta:
 
 - Leave the **Default RelayState** field empty.
+- Set the **Application username format** to **Email**.
 - Add the following mapping attribute in **Attribute Statements**:
-    - **email**: `user.userName`
+  - **email**: `user.userName`
 
 ### OneLogin
 
@@ -254,7 +258,9 @@ For instructions on how to enable SAML SSO with Ping, read their [documentation]
 
 ## Troubleshoot Your SAML SSO Configuration
 
-To get help, contact your Customer Success Manager (CSM) or support@cobalt.io. We’ll turn off SAML SSO for your organization. Then you can configure it again.
+If your SAML SSO configuration doesn't work, you can delete it by selecting **Delete Configuration**. Then you can configure SAML SSO once again.
+
+To get help, contact your Customer Success Manager (CSM) or support@cobalt.io.
 
 | Troubleshooting Tip | Details |
 |---|---|
