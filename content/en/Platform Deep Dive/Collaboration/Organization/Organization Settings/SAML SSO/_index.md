@@ -2,6 +2,7 @@
 title: "Configure SAML SSO"
 linkTitle: "SAML SSO"
 weight: 20
+no_list: true
 description: >
   Enable SAML SSO for your organization.
 ---
