@@ -1,0 +1,8 @@
+- Asana
+- Azure DevOps (Boards)
+- Bitbucket Issues
+- PagerDuty
+- PivotalTracker
+- ServiceNow
+- Trello
+- Zendesk
