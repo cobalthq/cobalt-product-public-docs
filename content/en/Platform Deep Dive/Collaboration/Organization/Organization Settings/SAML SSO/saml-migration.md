@@ -20,18 +20,29 @@ This page is for [Organization Owners](/getting-started/glossary/#organization-o
 
 Here is a summary of updates:
 
-- Our **Assertion Consumer Service (ACS) URL** is no longer `https://api.cobalt.io/users/saml/auth`, but is now unique per organization. To get your unique ACS URL, go to **Settings** > **Security** > **Configure SAML** in the Cobalt app.
+- Our **Assertion Consumer Service (ACS) URL** is no longer `https://api.cobalt.io/users/saml/auth`, but is now unique per organization. To get your unique ACS URL, go to **Settings** > **Identity & Access** > **Configure SAML** in the Cobalt app.
 - We no longer require a **RelayState** within the assertion.
 - Organization Owners can now enable or disable [SSO enforcement](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#enforce-saml-sso).
 
 ## How to Update Your SAML Configuration
 
-Update your SAML SSO configuration between Cobalt and your identity provider (IdP). You need to copy parameters between two systems, so it's handy to have both applications open. See [instructions for some popular IdPs](#instructions-for-specific-identity-providers) below.
+There are two ways to migrate to the new SAML implementation:
+
+- **Option 1**: Create a new SAML app with your identity provider (IdP). For details, see our [instructions](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow).
+- **Option 2**: Update your existing SAML configuration between Cobalt and your IdP, as described below.
+
+Before updating your existing configuration, note the following:
+
+- To avoid disrupting anyone's workflows, choose a time when the impact on users is minimal.
+- You need to copy parameters between two systems, so it's handy to have both applications open.
+- You can refer to [instructions for some popular IdPs](#instructions-for-specific-identity-providers) below.
+
+Here's a general workflow to **update your existing SAML configuration**:
 
 1. In your identity provider:
-    - Update the <span style="background-color: #ECE6FA; padding: 2px;">**ACS URL**</span> with the current value from Cobalt. The name of this parameter may differ for different IdPs. To get the ACS URL, in Cobalt, go to **Settings** > **Security**. Under **Configure SAML**, select **Configure**, and copy the ACS URL value.
+    - Update the <span style="background-color: #ECE6FA; padding: 2px;">**ACS URL**</span> with the current value from Cobalt. The name of this parameter may differ for different IdPs. To get the ACS URL, in Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**, and copy the ACS URL value.
 1. In Cobalt:
-    - Go to **Settings** > **Security**.
+    - Go to **Settings** > **Identity & Access**.
       - Make sure that the **Enforce SAML** toggle is turned off. You can [enforce SAML](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#enforce-saml-sso) after you complete the configuration.
       - You can view your legacy configuration under **Legacy SAML Configuration**. It may not match your current setup in the IdP.
     - Under **Configure SAML**, select **Configure**.
@@ -41,15 +52,13 @@ Update your SAML SSO configuration between Cobalt and your identity provider (Id
 
 ## Instructions for Specific Identity Providers
 
-Learn how to update your SAML configuration with the following IdPs:
+Learn how to update your existing SAML configuration with the following IdPs:
 
 - [Okta](#okta)
 - [Azure AD](#azure-ad)
 - [Duo](#duo)
 - [Google](#google)
-- [JumpCloud](#jumpcloud)
 - [OneLogin](#onelogin)
-- [Ping](#ping)
 
 ### Okta
 
@@ -57,13 +66,18 @@ Learn how to update your SAML configuration with the following IdPs:
 
 To update your existing SAML configuration with Okta:
 
-1. In Okta, go to your SAML application for Cobalt.
+1. In Okta, go to your SAML application for Cobalt. On the **General** tab, under **SAML Settings**, select **Edit**, then select **Next**.
     - **Single sign-on URL**: Enter **ACS URL** from Cobalt.
-    - Delete the **Default Relay State** value.
-1. In Cobalt, go to **Settings** > **Security**. Under **Configure SAML**, select **Configure**.
-    - **IdP Certificate**: Enter **Signing Certificate** from Okta.
+    - Delete the **Default Relay State** value.<br><br>
+    ![Update SAML settings in the Cobalt SAML app in Okta](/deepdive/Cobalt-Okta-SAML-app-update-1.png "Update SAML settings in the Cobalt SAML app in Okta")
+1. In Okta, go the **Sign On** tab, and select **Edit**. Under **SAML 2.0**, select **More details**.
+    - Download the **Signing Certificate**.<br><br>
+    ![Download the Signing Certificate in the Cobalt SAML app in Okta](/deepdive/Cobalt-Okta-SAML-app-update-2.png "Download the Signing Certificate in the Cobalt SAML app in Okta")
+1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
+    - **IdP Certificate**: Enter the **Signing Certificate** from Okta.<br><br>
+    ![Update SAML settings for Okta in Cobalt](/deepdive/Cobalt-Okta-SAML-app-update-3.png "Update SAML settings for Okta in Cobalt")
 
-To set up a new application, see the [general workflow](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Okta](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#okta).
+If you want to set up a new application, see the [general workflow](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Okta](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#okta).
 
 ### Azure AD
 
@@ -72,7 +86,7 @@ To update your existing SAML configuration with Azure AD:
 1. In Azure AD, go to your SAML application for Cobalt.
     - **Reply URL (Assertion Consumer Service URL)**: Enter **ACS URL** from Cobalt.
     - Delete the **Relay State** value.
-1. In Cobalt, go to **Settings** > **Security**. Under **Configure SAML**, select **Configure**.
+1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - **IdP Certificate**: Enter **Certificate (Base64)** from Azure AD.
 
 If you want to set up a new application, follow this [instruction](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#azure-ad).
@@ -84,7 +98,7 @@ To update your existing SAML configuration with Duo:
 1. In Duo, go to your SAML application for Cobalt.
     - **Assertion Consumer Service (ACS) URL**: Enter **ACS URL** from Cobalt.
     - Delete the **Default Relay State** value.
-1. In Cobalt, go to **Settings** > **Security**. Under **Configure SAML**, select **Configure**.
+1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - **IdP Certificate**: Enter **Certificate** from Duo.
 
 If you want to set up a new application, see the [general workflow](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Duo](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#duo).
@@ -96,22 +110,10 @@ To update your existing SAML configuration with Google:
 1. In the Google Admin console, go to your SAML application for Cobalt.
     - **ACS URL**: Enter **ACS URL** from Cobalt.
     - Delete the **Start URL** value (RelayState).
-1. In Cobalt, go to **Settings** > **Security**. Under **Configure SAML**, select **Configure**.
+1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - **IdP Certificate**: Enter **Certificate** from Google.
 
-To set up a new application, see the [general workflow](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Google](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#google).
-
-### JumpCloud
-
-To update your existing SAML configuration with JumpCloud:
-
-1. In JumpCloud, go to your SAML application for Cobalt.
-    - **ACS URL**: Enter **ACS URL** from Cobalt.
-    - Delete the **Default RelayState** value.
-1. In Cobalt, go to **Settings** > **Security**. Under **Configure SAML**, select **Configure**.
-    - **IdP Certificate**: Enter **Public certificate** from JumpCloud.
-
-To set up a new application, see the [general workflow](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [JumpCloud](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#jumpcloud).
+If you want to set up a new application, see the [general workflow](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Google](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#google).
 
 ### OneLogin
 
@@ -120,22 +122,10 @@ To update your existing SAML configuration with OneLogin:
 1. In OneLogin, go to your SAML application for Cobalt.
     - **Recipient**, **ACS (Consumer) URL Validator**, and **ACS (Consumer) URL**: Enter **ACS URL** from Cobalt.
     - Delete the **RelayState** value.
-1. In Cobalt, go to **Settings** > **Security**. Under **Configure SAML**, select **Configure**.
+1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - **IdP Certificate**: Enter **X.509 Certificate** from OneLogin.
 
-To set up a new application, see the [general workflow](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [OneLogin](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#onelogin).
-
-### Ping
-
-To update your existing SAML configuration with Ping:
-
-1. In Ping, go to your SAML application for Cobalt.
-    - **ACS**: Enter **ACS URL** from Cobalt.
-    - Delete the **RelayState** value.
-1. In Cobalt, go to **Settings** > **Security**. Under **Configure SAML**, select **Configure**.
-    - **IdP Certificate**: Enter **Signing Certificate** from Ping.
-
-To set up a new application, see the [general workflow](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Ping](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#ping).
+If you want to set up a new application, see the [general workflow](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [OneLogin](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#onelogin).
 
 ## Troubleshoot Your SAML SSO Configuration
 

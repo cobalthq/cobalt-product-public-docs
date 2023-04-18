@@ -22,7 +22,7 @@ Note the following about 2FA enforcement:
 
 ## Enforce 2FA
 
-1. Navigate to **Settings** > **Security**.
+1. Navigate to **Settings** > **Identity & Access**.
 1. Under **Enforce Two-Factor Authentication (2FA)**, turn on the toggle.
 1. In the overlay that appears, confirm your action.
 
@@ -47,7 +47,7 @@ We don't enforce 2FA for [Pentesters](/getting-started/glossary/#pentester) and 
 
 ## Disable 2FA Enforcement
 
-1. Navigate to **Settings** > **Security**.
+1. Navigate to **Settings** > **Identity & Access**.
 1. Under **Enforce Two-Factor Authentication (2FA)**, turn off the toggle.
 
 Users within your organization are no longer required to enable 2FA. This does not disable 2FA on their accounts. We recommend that they continue using 2FA to enhance their account security.
