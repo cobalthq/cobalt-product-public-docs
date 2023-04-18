@@ -267,3 +267,4 @@ To get help, contact your Customer Success Manager (CSM) or support@cobalt.io.
 | Ensure that all values match between your identity provider and Cobalt. | Mapped parameters in both setups must match. |
 | Ensure that the IdP certificate is accurate. | Copy the IdP certificate once again.<br>• Include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.<br>• Make sure there are no extra whitespaces. |
 | Ensure that you added users to the Cobalt platform. | We don’t support user provisioning through an IdP. When leveraging an IdP, make sure that there is an established identity for a user in Cobalt.<br>To establish an identity in Cobalt, a user needs to create a password and sign in to Cobalt. All subsequent sign-ins (after the user identity is established in Cobalt) are initiated through the organization's IdP. |
+| Assign users to the Cobalt application in the IdP system. | Add users to the new SAML application that you've set up. |

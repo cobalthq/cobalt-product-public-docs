@@ -141,4 +141,11 @@ To set up a new application, see the [general workflow](/platform-deep-dive/coll
 
 If the updated SAML configuration doesn't work, see our [troubleshooting tips](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#troubleshoot-your-saml-sso-configuration).
 
+When updating your existing SAML configuration, ensure that:
+
+- The **ACS URL** and **Entity ID** are correct in the IdP system.
+- The **Relay State** in the IdP system is blank. We no longer support it in the new SAML implementation.
+- The organization's **Slug** is accurate. The slug appears after `=` in the ACS URL. You can also find the slug in **Settings** > **General**.<br><br>
+![Organization's slug in the ACS URL](/deepdive/slug-acs-url.png "Organization's slug in the ACS URL")
+
 To get help, contact your Customer Success Manager (CSM) or support@cobalt.io.
