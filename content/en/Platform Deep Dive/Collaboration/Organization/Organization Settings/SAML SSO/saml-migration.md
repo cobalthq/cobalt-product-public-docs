@@ -12,7 +12,7 @@ description: >
 
 This page is for [Organization Owners](/getting-started/glossary/#organization-owner) who have set up their SAML SSO configuration **before April 24, 2023**.
 
-- If you don't update your SAML configuration, users in your organization will have to authenticate with their email and password or using Google authentication (if relevant).
+- If you don't update your SAML configuration, users in your organization will have to authenticate with their email and password or using Google authentication (OAuth 2.0), if relevant.
 - Make sure to update configurations for each organization where you're an Organization Owner.
 - If you don't have a legacy SAML setup, please visit [Configure SAML SSO](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/) for instructions.
 

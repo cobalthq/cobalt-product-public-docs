@@ -399,7 +399,8 @@ In the service provider-initiated (SP-initiated) [SAML SSO](#saml-single-sign-on
 
 In the identity provider-initiated (IdP-initiated) [SAML SSO](#saml-single-sign-on-sso), the authentication workflow starts on the identity provider side.
 
-- First, a user signs in to the identity provider system (such as Okta, OneLogin, or Microsoft Azure AD) and selects the app configured for their service provider.
+- First, a user signs in to the identity provider system, such as Okta, OneLogin, or Microsoft Azure AD.
+- The user selects the app configured for their service provider in the IdP system or follows a unique URL.
 - The service provider requests the IdP to authenticate the user.
 - Once the user's identity is authenticated on the IdP side, the user is signed in to the service provider system.
 

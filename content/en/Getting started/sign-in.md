@@ -27,8 +27,8 @@ Depending on the configurations of your organization, you can sign in to Cobalt 
   - If your organization has [enforced SAML](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#enforce-saml-sso), authentication from the Cobalt {{% sign-in %}} page is not possible.
 - From the Cobalt {{% sign-in %}} page, with:
   - Your email address and password.
-  - Your Google account that you used to set up your profile with Cobalt.<br><br>
-  ![Cobalt Sign In page](/gsg/Cobalt-Sign-In-Page.png "Cobalt Sign In page")
+  - Your Google account with which you were invited to Cobalt.<br><br>
+  ![Cobalt Sign In page](/gsg/Cobalt-sign-in-page.png "Cobalt Sign In page")
 
 {{< alert title="Tip" color="primary" >}}
 If you have problems signing in, see [Troubleshoot Sign-in Issues](/platform-deep-dive/cobalt-account/account-recovery/).

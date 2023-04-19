@@ -32,7 +32,7 @@ If [SAML SSO enforcement](#enforce-saml-sso) is off, users can authenticate in t
 
 - Through SAML SSO
 - With their email and password
-- Using Google authentication (OAuth), if relevant
+- Using Google authentication (OAuth 2.0), if relevant
 
 Here’s a general configuration workflow for SAML SSO:
 

@@ -15,7 +15,7 @@ As an [Organization Owner](/getting-started/glossary/#organization-owner), you c
 Note the following about 2FA enforcement:
 
 - 2FA enforcement only applies to **users who authenticate with their email and password**.
-- 2FA enforcement doesn't apply to single sign-on (SSO). This includes [SAML single sign-on (SSO)](/getting-started/sign-in/#saml-sso) and Google authentication.
+- 2FA enforcement doesn't apply to single sign-on (SSO). This includes [SAML single sign-on (SSO)](/getting-started/sign-in/#saml-sso) and Google authentication (OAuth 2.0).
 - If your organization has SAML SSO enforced, you can't enforce 2FA. Your SAML provider may already require 2FA.
 - 2FA enforcement affects users with the following roles:
     {{% owner-member-team-member %}}
@@ -26,9 +26,7 @@ Note the following about 2FA enforcement:
 1. Under **Enforce Two-Factor Authentication (2FA)**, turn on the toggle.
 1. In the overlay that appears, confirm your action.
 
-Users who haven't yet configured 2FA on their account get an email notification. They must enable 2FA upon their next sign-in.
-
-As an Organization Owner who enforces 2FA, you see an overlay prompting you to [enable 2FA](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication)—if you haven't already.
+Users get an email notification to enable 2FA. They must enable 2FA upon their next sign with their email and password.
 
 {{< alert title="Tip" color="primary" >}}
 {{% 2fa-see-troubleshooting %}}

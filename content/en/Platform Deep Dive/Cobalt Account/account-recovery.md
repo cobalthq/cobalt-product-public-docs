@@ -20,6 +20,7 @@ Follow these instructions if you can't sign in to Cobalt because:
 - You have [problems with two-factor authentication (2FA)](#problems-with-two-factor-authentication):
   - You [lost access to your authenticator](#lost-access-to-your-authenticator).
   - [One-time codes](#one-time-codes-dont-work) don't work.
+  - ["Remember this device" option](#remember-this-device-doesnt-work) doesn't work.
 - You [forgot your password](#forgot-your-password).
 - [We don't recognize your device](#we-dont-recognize-your-device).
 - You have [problems with SAML SSO](#cant-sign-in-using-saml-sso).
@@ -64,6 +65,18 @@ One-time codes that your authenticator app generates are time-based. If the code
 
 - Enter the code promptly, within 30 seconds as it appears in the authenticator app.
 - Make sure the time is synchronized between the devices. If you manually changed the time zone on your mobile device earlier, select the system time zone.
+
+### "Remember This Device" Doesn't Work
+
+When you sign in to Cobalt using 2FA, you can select **Remember this device for 30 days**. This option works for a specific device and browser.
+
+You need to enter a one-time code from your authenticator if:
+
+- You're using a different device or browser.
+- You cleared cookies from your browser, or you haven't enabled them.
+- You're browsing in incognito mode.
+- You're using a different internet connection.
+- Another user signed in on the same device using the same browser.
 
 ## Forgot Your Password
 
