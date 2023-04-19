@@ -13,14 +13,7 @@ description: >
 
 Beta integrations are fully functional connectors that we've developed using [Workato](https://www.workato.com/)—a workflow automation platform that enables greater flexibility to tailor our integrations to customers' unique workflows. We support integrations with:
 
-- Asana
-- Azure DevOps (Boards)
-- Bitbucket Issues
-- PagerDuty
-- PivotalTracker
-- ServiceNow
-- Trello
-- Zendesk
+{{% beta-integrations-list %}}
 
 <a class="btn btn-primary rounded" href="mailto:integrations@cobalt.io" target="_blank">Have Questions? Contact Us »</a>
 
