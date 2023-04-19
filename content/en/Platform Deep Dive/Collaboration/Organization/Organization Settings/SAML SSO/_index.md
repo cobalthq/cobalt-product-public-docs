@@ -188,8 +188,8 @@ In Okta:
 
 - Leave the **Default RelayState** field empty.
 - Set the **Application username format** to **Email**.
-- Add the following mapping attribute in **Attribute Statements**:
-  - **email**: `user.userName`
+<!--- Add the following mapping attribute in **Attribute Statements**:
+  - **email**: `user.userName`-->
 
 ### OneLogin
 
