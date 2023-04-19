@@ -26,7 +26,7 @@ Note the following about 2FA enforcement:
 1. Under **Enforce Two-Factor Authentication (2FA)**, turn on the toggle.
 1. In the overlay that appears, confirm your action.
 
-Users get an email notification to enable 2FA. They must enable 2FA upon their next sign with their email and password.
+Users get an email notification to enable 2FA. They must enable 2FA upon their next sign-in with their email and password.
 
 {{< alert title="Tip" color="primary" >}}
 {{% 2fa-see-troubleshooting %}}
