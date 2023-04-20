@@ -29,13 +29,13 @@ Here is a summary of updates:
 
 There are two ways to migrate to the new SAML implementation:
 
-- **Option 1**: Deactivate your current SAML app and create a new one. Learn [how to set up the configuration](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow).
+- **Option 1**: Deactivate your current SAML app and create a new one. Learn [how to configure SAML SSO](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/).
 - **Option 2**: Update your existing SAML configuration between Cobalt and your IdP, as described below.
 
 Before updating your existing configuration, note the following:
 
 - To avoid disrupting anyone's workflows, choose a time when the impact on users is minimal.
-- Turn off the [SAML enforcement](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#enforce-saml-sso) until you've successfully tested the new configuration.
+- Turn off [SAML enforcement](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#enforce-saml-sso) until you've successfully tested the new configuration.
 - You need to copy parameters between two systems, so it's handy to have both applications open.
 - You can refer to [instructions for some popular IdPs](#instructions-for-specific-identity-providers) below.
 
@@ -50,7 +50,7 @@ Here's a general workflow to **update your existing SAML configuration**:
     - Under **Configure SAML**, select **Configure**.
     - Update the <span style="background-color: #ECE6FA; padding: 2px;">**IdP Certificate**</span> with the current value from your identity provider, and select **Save Configuration** to confirm.
 1. We no longer require a <span style="background-color: #ECE6FA; padding: 2px;">**RelayState**</span> within the assertion. Delete it from the configuration in your IdP.
-1. Test the configuration. In the identity provider, select the Cobalt tile. You should be authenticated to Cobalt.
+1. Test the configuration. You should be authenticated to Cobalt.
 
 ## Instructions for Specific Identity Providers
 
