@@ -150,6 +150,8 @@ An Organization Member may also be a [Pentest Team Member](#pentest-team-member)
 
 {{% in-house-pentester-definition %}} An In-House Pentester role has the same privileges as a [Pentest Team Member](#pentest-team-member), with additional access to pentester functionality.
 
+A customer can invite pentesters from their organization, a third-party company, or both to complete In-House Pentests on the Cobalt [Pentest Management Platform (PMP)](/pmp/).
+
 ### Cobalt Staff
 
 {{% cobalt-staff-permissions %}}

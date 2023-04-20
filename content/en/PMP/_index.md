@@ -9,8 +9,8 @@ description: >
 
 {{< pageinfo >}}
 <p><span style="color:#6633d9; font-weight:500; background-color: #ece6fa; padding: 2px 4px; border-radius: 2px;">Beta</span></p>
-<p>The Cobalt Pentest Management Platform (PMP) is currently in beta for Premium and Enterprise <a href="/platform-deep-dive/credits/ptaas-tiers/">PtaaS tiers</a>. For details, see our <a href="https://www.cobalt.io/terms#pentest-management-platform" target="_blank">Terms & Conditions</a>.</p>
-<p>Your feedback is essential to the development of this new offering. If you have questions or suggestions, please contact <a href="mailto:storm@cobalt.io">storm@cobalt.io</a> or <a href="mailto:lauren@cobalt.io">lauren@cobalt.io</a>.</p>
+<p>With the Pentest Management Platform (PMP), you can launch and manage your in-house pentests with Cobalt. Set up a pentest, invite your own pentesters, and analyze pentest results in one place—on the platform you already know.</p>
+<p>You can run in-house pentests with pentesters of your choice: from your organization, a third-party company, or both. Cobalt pentesters are not involved in the testing process.</p>
 {{< /pageinfo >}}
 
 ## Introducing the Pentest Management Platform
