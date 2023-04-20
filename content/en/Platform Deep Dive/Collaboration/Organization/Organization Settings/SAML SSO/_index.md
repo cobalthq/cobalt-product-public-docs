@@ -47,9 +47,10 @@ Here’s a general configuration workflow for SAML SSO:
     - Select **Save Configuration**.<br>
     ![Configure SAML SSO in the Cobalt app](/deepdive/configure-saml-sso-overlay.png "Configure SAML SSO in the Cobalt app")
 1. Complete the configuration in the identity provider system. Enter the following values from Cobalt:
-    - **ACS URL** (unique value for each organization)
+    - **ACS URL** (unique value for each organization). Example: `https://login.app.cobalt.io/login/callback?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`).
     - **Entity ID**: `https://api.cobalt.io/users/saml/metadata`
 1. Test your SAML configuration.
+1. If the test is successful, assign users to the SAML app in the IdP.
 1. Notify users that now they can sign in through the selected identity provider. We don't send any notifications to users.
 
 We don’t synchronize user datastores, so make sure that all users:
@@ -90,7 +91,7 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
     - Verify that the single sign-on method for your application is SAML.
     - Under **Basic SAML Configuration**, enter:
        - **Identifier (Entity ID)**: `https://api.cobalt.io/users/saml/metadata`
-       - **Reply URL** (Assertion Consumer Service URL): ACS URL (unique value for each organization). Copy the value in the Cobalt app in **Settings** > **Identity & Access** > **Configure SAML**.
+       - **Reply URL** (Assertion Consumer Service URL): **ACS URL** from Cobalt (unique value for each organization). Copy the value in the Cobalt app in **Settings** > **Identity & Access** > **Configure SAML**.
        - **Sign on URL**: Leave this field blank.
        - **Relay State**: Leave this field.
        - **Logout URL**: Leave this field blank.
@@ -100,13 +101,13 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
        - **emailaddress**: `user.mail`
        - **name**: `user.userprincipalname`
        - **Unique User Identifier**: `user.userprincipalname`
-    - The Cobalt app expects the following attributes to be passed in the SAML response:
-       <table style="border: 1px solid #E0E2E6; padding: 5px;"><thead><tr><th style="border: 1px solid #E0E2E6; padding: 5px;">Name</th><th style="border: 1px solid #E0E2E6; padding: 5px;">Source Attribute</th></tr></thead><tbody><tr><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>Mail</code></td><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>user.mail</code></td></tr><tr><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>Othermail</code></td><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>user.othermail</code></td></tr></tbody></table>
+       - **Mail**: `user.mail`
+       - **Othermail**: `user.othermail`
     - Under **SAML Signing Certificate**, download **Certificate (Base 64)**.
-    - Under **Set up [Your App]**, copy the required values.
-1. Configure SAML settings in the Cobalt app in **Settings** > **Identity & Access** > **Configure SAML**. For these parameters, enter values from Azure AD:
-    - **IdP SSO URL**: Login URL
-    - **IdP Certificate**: Certificate (Base64)
+    - Under **Set up [Your App]**, copy **Login URL**.
+1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
+    - **IdP SSO URL**: Enter **Login URL** from Azure AD.
+    - **IdP Certificate**: Enter **Certificate (Base64)** from Azure AD.
 1. [Test your configuration](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal-setup-sso#test-single-sign-on).
 1. If the test is successful, [assign users](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal-assign-users#assign-a-user-account-to-an-enterprise-application) to the application.
 
@@ -187,9 +188,9 @@ We recommend creating a SAML application for Okta manually. To learn more, read 
 In Okta:
 
 - Leave the **Default RelayState** field empty.
-- Set the **Application username format** to **Email**.
-<!--- Add the following mapping attribute in **Attribute Statements**:
-  - **email**: `user.userName`-->
+- In **Attribute Statements**, add the following mapping attribute:
+  - **email**: `user.email`<br><br>
+  ![Set Attribute Statements in the Cobalt SAML app in Okta](/deepdive/Okta-manual-app-attributes.png "Set Attribute Statements in the Cobalt SAML app in Okta")
 
 ### OneLogin
 
