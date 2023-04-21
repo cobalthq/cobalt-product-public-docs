@@ -395,6 +395,34 @@ Cobalt may refer to this as the "scope" of your pentest. {{% scope-of-work %}}
 
 For more information, see https://developer.mozilla.org/en-US/docs/Glossary/SPA
 
+## Specialized Pentest
+
+A Specialized Pentest that you see in the Cobalt UI is a pentest engagement conducted by the Cobalt [Professional Services](https://www.cobalt.io/services/cybersecurity-consulting) team. Professional Services are an extension of our core [PtaaS platform](https://www.cobalt.io/ptaas) offering which provides access to Cobalt security experts who act as an extension of your internal team.
+
+Here are some examples of special pentest engagements:
+
+- Secure code review
+- Security hardening
+- IoT ecosystem testing
+- Pentest program management
+- Red teaming
+- Phishing engagements
+- Physical social engineering
+- Threat modeling
+- Wireless network pentesting
+
+For Specialized Pentests, we support additional asset types on the platform:
+
+- **IoT**: An IoT device. As [defined](https://csrc.nist.gov/glossary/term/iot_device) by NIST, an IoT device has at least one transducer (sensor or actuator) for interacting directly with the physical world and at least one network interface, such as Ethernet, Wi-Fi, or Bluetooth, for interfacing with the digital world.
+- **Physical**: An office, building, campus, or a physical device.
+- **Thick Client**: An application installed locally on a user's computer.
+- **Wireless Network**: A network that allows devices to stay connected without using wires of any kind.
+
+To launch a Specialized Pentest tailored to your needs, contact our [Professional Services](https://www.cobalt.io/services/cybersecurity-consulting) team. You can't create a Specialized Pentest or set up a special asset in the UI—we'll do that for you. Once the Specialized Pentest is set up, you can:
+
+- Edit the [asset details](/getting-started/assets/#asset-details), except for the asset type.
+- Edit pentest details. Some pentest parameters may slightly differ for Specialized Pentests.
+
 ## Static Web Page
 
 Some applications are built solely on HTML, and do not change depending on the user or location. Contrast with [Dynamic Web Pages](#dynamic-web-page).
