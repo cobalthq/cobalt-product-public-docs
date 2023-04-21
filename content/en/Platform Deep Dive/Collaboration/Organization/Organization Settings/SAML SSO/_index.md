@@ -69,7 +69,8 @@ SAML SSO enforcement reqiures organization users to sign in to Cobalt only throu
 To enforce SAML SSO for your organization:
 
 1. Navigate to **Settings** > **Identity & Access**. You must have SAML SSO configured.
-1. Under **SAML Single Sign-on (SSO)**, turn on the **Enforce SAML** toggle, and confirm your action.
+1. Under **SAML Single Sign-on (SSO)**, turn on the **Enforce SAML** toggle, and confirm your action.<br><br>
+    ![Manage SAML enforcement for your organization](/deepdive/SAML-enforcement.png "Manage SAML enforcement for your organization")
 1. Notify users that now they must sign in through the selected identity provider. We don't send any notifications, so make sure that SAML enforcement doesn't disrupt your workflows.
 
 ## Configuration Instructions for Specific Identity Providers
@@ -164,7 +165,7 @@ Once you've completed the setup, your application for Cobalt appears in the Goog
 
 <!--You can set up SAML SSO with Okta in two ways:
 
-- Use the preconfigured [Cobalt app](https://www.okta.com/integrations/cobalt/) for Okta. Learn [how to configure SAML SSO using the Cobalt app](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Cobalt.html).
+- Use the pre-integrated [Cobalt app](https://www.okta.com/integrations/cobalt/) for Okta. Learn [how to configure SAML SSO using the Cobalt app](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Cobalt.html).
 - _(Recommended)_ Create a SAML app for Cobalt manually. To learn more, read Okta's [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
 
 If you create an application for Okta manually, use the following parameters.-->

@@ -29,7 +29,7 @@ Here is a summary of updates:
 
 There are two ways to migrate to the new SAML implementation:
 
-- **Option 1**: Deactivate your current SAML app and create a new one. Learn [how to configure SAML SSO](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/).
+- **Option 1**: [Create a new SAML app](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow) and deactivate the old one. Once you've successfully tested the new app, assign users, and notify them of the new Cobalt SAML app or SSO URL. Then you can deactivate the old SAML app and depovision users.
 - **Option 2**: Update your existing SAML configuration between Cobalt and your IdP, as described below.
 
 Before updating your existing configuration, note the following:
@@ -148,15 +148,16 @@ If you want to set up a new application, see the [general workflow](/platform-de
 
 ### Google
 
+We recommend creating a new SAML app with Google. See the [general workflow](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Google](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#google).
+
+<!--
 To update your existing SAML configuration with Google:
 
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - **IdP Certificate**: Enter **Certificate** from the Google Admin console.
 1. In the Google Admin console, go to your SAML application for Cobalt.
     - **ACS URL**: Enter **ACS URL** from Cobalt.
-    - Delete the **Start URL** value (RelayState).
-
-If you want to set up a new application, see the [general workflow](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Google](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/#google).
+    - Delete the **Start URL** value (RelayState).-->
 
 ### OneLogin
 
