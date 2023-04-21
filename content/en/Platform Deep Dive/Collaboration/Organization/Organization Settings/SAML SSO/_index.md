@@ -102,8 +102,8 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
        - **emailaddress**: `user.mail`
        - **name**: `user.userprincipalname`
        - **Unique User Identifier**: `user.userprincipalname`
-       - **Mail**: `user.mail`
-       - **Othermail**: `user.othermail`
+    - The Cobalt app expects the following attributes to be passed in the SAML response:
+       <table style="border: 1px solid #E0E2E6; padding: 5px;"><thead><tr><th style="border: 1px solid #E0E2E6; padding: 5px;">Name</th><th style="border: 1px solid #E0E2E6; padding: 5px;">Source Attribute</th></tr></thead><tbody><tr><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>Mail</code></td><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>user.mail</code></td></tr><tr><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>Othermail</code></td><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>user.othermail</code></td></tr></tbody></table>
     - Under **SAML Signing Certificate**, download **Certificate (Base 64)**.
     - Under **Set up [Your App]**, copy **Login URL**.
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
