@@ -401,7 +401,7 @@ A Specialized Pentest that you see in the Cobalt UI is a pentest engagement cond
 
 Here are some examples of special pentest engagements:
 
-- Code review
+- Secure code review
 - Security hardening
 - IoT ecosystem testing
 - Pentest program management
@@ -414,7 +414,7 @@ Here are some examples of special pentest engagements:
 For Specialized Pentests, we support additional asset types on the platform:
 
 - **IoT**: An IoT device. As [defined](https://csrc.nist.gov/glossary/term/iot_device) by NIST, an IoT device has at least one transducer (sensor or actuator) for interacting directly with the physical world and at least one network interface, such as Ethernet, Wi-Fi, or Bluetooth, for interfacing with the digital world.
-- **Physical**: A physical device.
+- **Physical**: An office, building, campus, or a physical device.
 - **Thick Client**: An application installed locally on a user's computer.
 - **Wireless Network**: A network that allows devices to stay connected without using wires of any kind.
 
