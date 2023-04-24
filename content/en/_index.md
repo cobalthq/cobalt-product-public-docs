@@ -75,10 +75,10 @@ cascade:
 <div class="row align-items-md-stretch my-5">
       <div class="col-md-6">
         <div class="h-100 p-5 border rounded-lg" style="border-color: #D6E3FD">
-          <h3>Preview Risk Advisories</h3>
-          <p class="my-2">{{% new-label %}}</p>
-          <p>Add a technology stack for your software asset, and we'll show you a preview of risk advisories based on the Common Vulnerabilities and Exposures (CVE) standard for that stack. Remediate potential issues with your assets to keep your security strong.</p>
-          <a href="/platform-deep-dive/assets/risk-advisories/">Read the guide »</a>
+          <h3>Manage Your In-House Pentests</h3>
+          <p class="my-2">{{% beta-label %}}</p>
+          <p>Increase the efficiency and quality of your in-house pentests with the Cobalt Pentest Management Platform. Manage all your pentests in one place to streamline your end-to-end processes and standardize reporting.</p>
+          <a href="/pmp/">Learn more »</a>
         </div>
       </div>
       <div class="col-md-6">
