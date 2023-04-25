@@ -32,7 +32,9 @@ Here’s a general configuration workflow:
     ![Configure SAML SSO in the Cobalt app](/deepdive/ConfigureSAML.png "Configure SAML SSO in the Cobalt app")
 1. Complete the integration in the identity provider system, and test the connection.
     - Test your SAML configuration in an incognito window before signing out of Cobalt. This will prevent any account lockout.
-1. If the test is successful, [enforce SAML](#enforce-saml-sso) for all users.
+1. If the test is successful, assign users to the SAML app in the IdP.
+1. [Enforce SAML](#enforce-saml-sso) for all users.
+1. Notify users that now they must sign in through the selected identity provider. We don't send any notifications to users.
 
 We don’t synchronize user datastores, so make sure that all users:
 
