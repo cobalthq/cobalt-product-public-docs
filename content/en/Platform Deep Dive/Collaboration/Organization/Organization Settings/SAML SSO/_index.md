@@ -40,6 +40,18 @@ We don’t synchronize user datastores, so make sure that all users:
 
 If you have problems setting up SAML SSO, see our [troubleshooting tips](#troubleshoot-your-saml-sso-configuration).
 
+## Enforce SAML SSO
+
+SAML SSO enforcement reqiures organization users to sign in to Cobalt only through [SAML SSO](/getting-started/glossary/#saml-single-sign-on-sso). Once the enforcement is on, other authentication methods will no longer work. This affects the following roles:
+
+{{% owner-member-team-member %}}
+
+To enforce SAML SSO for your organization:
+
+1. Navigate to **Settings** > **Identity & Access**. You must have SAML SSO configured.
+1. Under **SAML 2.0**, turn on the **Enforce SAML** toggle, and confirm your action.
+1. Notify users that now they must sign in through the selected identity provider. We don't send any notifications, so make sure that SAML enforcement doesn't disrupt your workflows.
+
 ## Configuration Instructions for Specific Identity Providers
 
 **You can configure SAML SSO with your preferred identity provider**. Here are instructions for some popular IdPs:
