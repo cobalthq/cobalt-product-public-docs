@@ -2,6 +2,7 @@
 title: "Manage Users"
 linkTitle: "Manage Users"
 weight: 20
+aliases: /platform-deep-dive/collaboration/organization/manage-users/
 description: >
   Manage users for your organization.
 ---

@@ -1,7 +1,8 @@
 ---
 title: "Configure Organization Settings"
 linkTitle: "Organization Settings"
-weight: 40
+weight: 70
+aliases: /platform-deep-dive/collaboration/organization/organization-settings/
 description: >
   Adjust settings for your organization.
 ---
@@ -29,7 +30,7 @@ Both [Organization Owners](/getting-started/glossary/#organization-owner) and [M
 
 Only [Organization Owners](/getting-started/glossary/#organization-owner) can manage advanced settings:
 
-- [Enforce two-factor authentication](/platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/) for all users within the organization
-- Configure [SAML-based single sign-on (SSO)](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/)
+- [Enforce two-factor authentication](/platform-deep-dive/organization/organization-settings/enforce-2fa/) for all users within the organization
+- Configure [SAML-based single sign-on (SSO)](/platform-deep-dive/organization/organization-settings/saml-sso/)
 
 ![Configure identity and access settings](/deepdive/IdentityAndManagementSettings.png "Configure identity and access settings")

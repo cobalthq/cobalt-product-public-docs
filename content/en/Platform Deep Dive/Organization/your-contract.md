@@ -2,6 +2,7 @@
 title: "Your Cobalt Contract"
 linkTitle: "Your Contract"
 weight: 30
+aliases: /platform-deep-dive/collaboration/organization/your-contract/
 description: >
   Learn how your Cobalt contract works.
 ---
