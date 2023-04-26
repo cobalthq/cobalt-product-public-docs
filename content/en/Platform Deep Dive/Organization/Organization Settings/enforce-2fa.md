@@ -2,6 +2,7 @@
 title: "Enforce Two-Factor Authentication"
 linkTitle: "Enforce 2FA"
 weight: 10
+aliases: /platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/
 description: >
   Enforce 2FA for users.
 ---

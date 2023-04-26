@@ -2,12 +2,13 @@
 title: "Organization"
 linkTitle: "Organization"
 weight: 60
+aliases: /platform-deep-dive/collaboration/organization/
 description: >
   Collaborate on pentests with team members from your organization.
 ---
 
 {{% pageinfo %}}
-Organization Owners can [manage users](/platform-deep-dive/collaboration/organization/manage-users/) and [adjust settings](/platform-deep-dive/collaboration/organization/organization-settings/) for their organization.
+Organization Owners can [manage users](/platform-deep-dive/organization/manage-users/) and [adjust settings](/platform-deep-dive/organization/organization-settings/) for their organization.
 {{% /pageinfo %}}
 
 When you receive an email invitation from Cobalt, you join a specific organization with a role assigned to you. Within an organization, you and your team get access to the Cobalt platform and the pentest experience.

@@ -73,13 +73,13 @@ Click <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right">
 
 {{% expand "What is an organization?" %}}
 <br>
-When you receive an email invitation from Cobalt, you join a specific organization with a role assigned to you. Within an organization, you and your team get access to the Cobalt platform and the pentest experience. Learn more about <a href="/platform-deep-dive/collaboration/organization/">organizations</a>.
+When you receive an email invitation from Cobalt, you join a specific organization with a role assigned to you. Within an organization, you and your team get access to the Cobalt platform and the pentest experience. Learn more about <a href="/platform-deep-dive/organization/">organizations</a>.
 <br><br>
 {{% /expand %}}
 
 {{% expand "How do I add people to my organization?" %}}
 <br>
-Organization Owners can manage users for their organization. For instructions, see <a href="/platform-deep-dive/collaboration/organization/manage-users/#invite-users">Invite Users</a>.
+Organization Owners can manage users for their organization. For instructions, see <a href="/platform-deep-dive/organization/manage-users/#invite-users">Invite Users</a>.
 <br><br>
 {{% /expand %}}
 

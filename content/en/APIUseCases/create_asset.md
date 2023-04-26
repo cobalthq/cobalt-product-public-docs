@@ -14,7 +14,7 @@ define your assets on the Cobalt platform.
 To use our API, you need a Cobalt account with membership in your organization.
 Your organization owner can create an account and
 [assign you as a
-member](/platform-deep-dive/collaboration/organization/manage-users/#invite-users).
+member](/platform-deep-dive/organization/manage-users/#invite-users).
 Your organization owner is typically the user who interacts with the Cobalt
 Customer Success Manager (CSM).
 

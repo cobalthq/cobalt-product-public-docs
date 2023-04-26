@@ -22,8 +22,8 @@ Depending on your role, you may have access to an organization, specific pentest
 {{% team-member-definition %}}
 
 - A Pentest Team Member does not have to be an [Organization Owner](#organization-owner) or an [Organization Member](#organization-member).
-- When an Organization Owner [invites a user to an organization](/platform-deep-dive/collaboration/organization/manage-users/#invite-users), the user also becomes a Pentest Team Member on all pentests of the organization.
-  - An Organization Owner can [remove a Pentest Team Member from all pentests](/platform-deep-dive/collaboration/organization/manage-users/#remove-a-user-from-all-pentests) they collaborate on.
+- When an Organization Owner [invites a user to an organization](/platform-deep-dive/organization/manage-users/#invite-users), the user also becomes a Pentest Team Member on all pentests of the organization.
+  - An Organization Owner can [remove a Pentest Team Member from all pentests](/platform-deep-dive/organization/manage-users/#remove-a-user-from-all-pentests) they collaborate on.
   - Any Pentest Team Member can [add users](/platform-deep-dive/collaboration/manage-collaborators/#add-a-pentest-team-member) to a specific pentest or [remove](/platform-deep-dive/collaboration/manage-collaborators/#remove-a-pentest-team-member) them.
 
 A Pentest Team Member **has access to a specific pentest with the following permissions**:
@@ -59,11 +59,11 @@ When a customer starts their journey with Cobalt, we add an Organization Owner w
 | Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/), edit assets | ✓ | ✓ |
 | View organization users and pentest collaborators on the **People** page | ✓ | ✓ |
 | Manage [integrations](/integrations/) for an organization | ✓ | ✓ |
-| Edit the [organization profile](/platform-deep-dive/collaboration/organization/organization-settings/#edit-the-organization-profile) | ✓ | ✓ |
+| Edit the [organization profile](/platform-deep-dive/organization/organization-settings/#edit-the-organization-profile) | ✓ | ✓ |
 | View the [credits ledger](/platform-deep-dive/credits/track-credits/) | ✓ | ✓ |
 | View the [Insights](/platform-deep-dive/assets/insights/) page | ✓ | ✓ |
-| [Manage users](/platform-deep-dive/collaboration/organization/manage-users/) for an organization | — | ✓ |
-| Manage security settings for an organization: [two-factor authentication](/platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/) and [SAML](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/) | — | ✓ |
+| [Manage users](/platform-deep-dive/organization/manage-users/) for an organization | — | ✓ |
+| Manage security settings for an organization: [two-factor authentication](/platform-deep-dive/organization/organization-settings/enforce-2fa/) and [SAML](/platform-deep-dive/organization/organization-settings/saml-sso/) | — | ✓ |
 | Enable [co-branded reports](/platform-deep-dive/pentests/reports/cobranded-reports/) (for Cobalt partners) | — | ✓ |
 
 ### Organization Owner
@@ -73,15 +73,15 @@ An Organization Owner is the administrator for a customer organization within th
 An Organization Owner has the following **permissions**:
 
 - Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/), edit assets.
-- [Manage users for an organization](/platform-deep-dive/collaboration/organization/manage-users/) on the **People** page:
+- [Manage users for an organization](/platform-deep-dive/organization/manage-users/) on the **People** page:
   - Invite and remove users.
   - Switch user roles.
   - View users' email addresses.
   - Remove Pentest Team Members from all pentests they collaborate on.
-- Manage security settings for an organization: [two-factor authentication](/platform-deep-dive/collaboration/organization/organization-settings/enforce-2fa/) and [SAML](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/).
+- Manage security settings for an organization: [two-factor authentication](/platform-deep-dive/organization/organization-settings/enforce-2fa/) and [SAML](/platform-deep-dive/organization/organization-settings/saml-sso/).
 - Enable [co-branded reports](/platform-deep-dive/pentests/reports/cobranded-reports/) (for Cobalt partners).
 - Manage [integrations](/integrations/) for an organization.
-- Edit the [organization profile](/platform-deep-dive/collaboration/organization/organization-settings/#edit-the-organization-profile).
+- Edit the [organization profile](/platform-deep-dive/organization/organization-settings/#edit-the-organization-profile).
 - View the [credits ledger](/platform-deep-dive/credits/track-credits/).
 - View the [Insights](/platform-deep-dive/assets/insights/) page.
 
@@ -96,7 +96,7 @@ An Organization Member has the following **permissions**:
 - Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/), edit assets.
 - View users and pentest collaborators on the **People** page.
 - Manage [integrations](/integrations/) for an organization.
-- Edit the [organization profile](/platform-deep-dive/collaboration/organization/organization-settings/#edit-the-organization-profile).
+- Edit the [organization profile](/platform-deep-dive/organization/organization-settings/#edit-the-organization-profile).
 - View the [credits ledger](/platform-deep-dive/credits/track-credits/).
 - View the [Insights](/platform-deep-dive/assets/insights/) page.
 

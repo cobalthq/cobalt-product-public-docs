@@ -36,5 +36,5 @@ To remove a Pentest Team Member from a pentest:
 1. Locate the user you want to remove, select **Remove User** ![Trash bin icon](/icons/Trash.png "Trash bin icon"), and select **Yes** in the overlay to confirm.
 
 {{< alert title="Note" color="primary" >}}
-{{% remove-from-all-pentests %}} For details, see [Remove a User from All Pentests](/platform-deep-dive/collaboration/organization/manage-users/#remove-a-user-from-all-pentests).
+{{% remove-from-all-pentests %}} For details, see [Remove a User from All Pentests](/platform-deep-dive/organization/manage-users/#remove-a-user-from-all-pentests).
 {{< /alert >}}

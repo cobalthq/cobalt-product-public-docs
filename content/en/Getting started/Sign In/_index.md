@@ -51,7 +51,7 @@ Once your [Organization Owner](/getting-started/glossary/#organization-owner) ha
 If you can't sign in through SAML SSO, see our [troubleshooting tips](/platform-deep-dive/cobalt-account/account-recovery/#cant-sign-in-using-saml-sso).
 {{< /alert >}}
 
-Learn how Organization Owners can [configure SAML SSO](/platform-deep-dive/collaboration/organization/organization-settings/saml-sso/).
+Learn how Organization Owners can [configure SAML SSO](/platform-deep-dive/organization/organization-settings/saml-sso/).
 
 ## Two-Factor Authentication
 
