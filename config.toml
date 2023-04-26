@@ -94,7 +94,7 @@ section = ["HTML", "RSS"]
 
 [params]
 copyright = "Cobalt Labs"
-privacy_policy = "https://cobalt.io/terms/privacy"
+privacy_policy = "https://cobalt.io/terms#privacy"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
