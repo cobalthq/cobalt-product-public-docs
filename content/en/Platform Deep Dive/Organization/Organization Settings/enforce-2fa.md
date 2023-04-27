@@ -33,7 +33,14 @@ Users get an email notification to enable 2FA. They must enable 2FA upon their n
 {{% 2fa-see-troubleshooting %}}
 {{< /alert >}}
 
-### Check the 2FA Status of Users
+## Disable 2FA Enforcement
+
+1. Navigate to **Settings** > **Identity & Access**.
+1. Under **Enforce Two-Factor Authentication (2FA)**, turn off the toggle.
+
+Users within your organization are no longer required to enable 2FA. This does not disable 2FA on their accounts. We recommend that they continue using 2FA to enhance their account security.
+
+## Check the 2FA Status of Users
 
 To view the 2FA status on the user accounts within your organization, navigate to the **People** page. You see a yellow warning icon ![Warning icon](/icons/Warning.png "Warning icon") for a user when:
 
@@ -43,10 +50,3 @@ To view the 2FA status on the user accounts within your organization, navigate t
 We don't enforce 2FA for [Pentesters](/getting-started/glossary/#pentester) and [Pentest Leads](/getting-started/glossary/#pentest-lead), but we display a warning icon ![Warning icon](/icons/Warning.png "Warning icon") on the **Pentest Collaborators** tab if they haven't enabled 2FA.
 
 ![Check the 2FA status of users on the People page](/deepdive/Check2FAStatus.png "Check the 2FA status of users on the People page")
-
-## Disable 2FA Enforcement
-
-1. Navigate to **Settings** > **Identity & Access**.
-1. Under **Enforce Two-Factor Authentication (2FA)**, turn off the toggle.
-
-Users within your organization are no longer required to enable 2FA. This does not disable 2FA on their accounts. We recommend that they continue using 2FA to enhance their account security.

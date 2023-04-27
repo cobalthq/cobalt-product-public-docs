@@ -90,7 +90,7 @@ To remove a 2FA device:
 
 1. Navigate to https://app.cobalt.io/settings/security/2fa.
 1. Under **Two-Factor Authentication (2FA)**, select **Manage**.
-1. Under **Current Devices**, locate the desired device, and select **Remove**.
+1. Locate the desired device, and select **Remove**.
     - Remove other devices if needed.
 
 Now you can add a new 2FA device to protect your account. Make sure you also add one or more backup devices.

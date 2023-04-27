@@ -30,15 +30,29 @@ Here is a summary of updates:
 
 There are two ways to migrate to the new SAML implementation:
 
-- **Option 1**: [Create a new SAML app](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and deactivate the old one. Once you've successfully tested the new app, assign users, and notify them of the new Cobalt SAML app or SSO URL. Then you can deactivate the old SAML app and depovision users.
-- **Option 2**: Update your existing SAML configuration between Cobalt and your IdP, as described below.
+- **Option 1**: [Set up a new SAML configuration](#option-1-set-up-a-new-saml-configuration) and deactivate the old one.
+- **Option 2**: [Update your existing SAML configuration](#option-2-update-your-existing-saml-configuration) between Cobalt and your IdP.
+
+### Option 1: Set up a New SAML Configuration
+
+1. Create a new SAML app with your preferred identity provider. For instructions, see [how to configure SAML SSO](/platform-deep-dive/organization/organization-settings/saml-sso/).
+1. Test the new configuration.
+1. If the test is successful, assign users, and notify them of the new Cobalt SAML app or SSO URL.
+1. Deactivate the old SAML app and deprovision users.
+
+### Option 2: Update Your Existing SAML Configuration
 
 Before updating your existing configuration, note the following:
 
 - To avoid disrupting anyone's workflows, choose a time when the impact on users is minimal.
 - Turn off [SAML enforcement](/platform-deep-dive/organization/organization-settings/saml-sso/#enforce-saml-sso) until you've successfully tested the new configuration.
 - You need to copy parameters between two systems, so it's handy to have both applications open.
-- You can refer to [instructions for some popular IdPs](#instructions-for-specific-identity-providers) below.
+- You can refer to instructions for some popular IdPs below:
+  - [Okta](#okta)
+  - [Azure AD](#azure-ad)
+  - [Duo](#duo)
+  - [Google](#google)
+  - [OneLogin](#onelogin)
 
 Here's a general workflow to **update your existing SAML configuration**:
 
@@ -53,24 +67,14 @@ Here's a general workflow to **update your existing SAML configuration**:
 1. We no longer require a <span style="background-color: #ECE6FA; padding: 2px;">**RelayState**</span> within the assertion. Delete it from the configuration in your IdP.
 1. Test the configuration. You should be authenticated to Cobalt.
 
-## Instructions for Specific Identity Providers
-
-Learn how to update your existing SAML configuration with the following IdPs:
-
-- [Okta](#okta)
-- [Azure AD](#azure-ad)
-- [Duo](#duo)
-- [Google](#google)
-- [OneLogin](#onelogin)
-
-### Okta
+#### Okta
 
 Instructions differ depending on how you've set up your Cobalt SAML app in Okta:
 
 - [Manually created Cobalt SAML app](#manually-created-cobalt-saml-app-in-okta)
 - [Pre-integrated Cobalt SAML app](#pre-integrated-cobalt-saml-app-in-okta)
 
-#### Manually Created Cobalt SAML App in Okta
+##### Manually Created Cobalt SAML App in Okta
 
 Learn how to update your existing SAML configuration with Okta for a manually created Cobalt SAML app.
 
@@ -97,7 +101,7 @@ Learn how to update your existing SAML configuration with Okta for a manually cr
 
 If you want to set up a new application, see the [general workflow](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Okta](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
 
-#### Pre-integrated Cobalt SAML App in Okta
+##### Pre-integrated Cobalt SAML App in Okta
 
 Learn how to update your existing SAML configuration with Okta for a [pre-integrated Cobalt SAML app](https://www.okta.com/integrations/cobalt/).
 
@@ -123,7 +127,7 @@ Learn how to update your existing SAML configuration with Okta for a [pre-integr
     ![Update your SAML configuration for the pre-integrated Cobalt SAML app](/deepdive/Cobalt-configuration-for-Okta-preintegrated-app-2.png "Update your SAML configuration for the pre-integrated Cobalt SAML app")
 {{% /expand %}}
 
-### Azure AD
+#### Azure AD
 
 To update your existing SAML configuration with Azure AD:
 
@@ -135,7 +139,7 @@ To update your existing SAML configuration with Azure AD:
 
 If you want to set up a new application, follow this [instruction](/platform-deep-dive/organization/organization-settings/saml-sso/#azure-ad).
 
-### Duo
+#### Duo
 
 To update your existing SAML configuration with Duo:
 
@@ -147,7 +151,7 @@ To update your existing SAML configuration with Duo:
 
 If you want to set up a new application, see the [general workflow](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Duo](/platform-deep-dive/organization/organization-settings/saml-sso/#duo).
 
-### Google
+#### Google
 
 We recommend creating a new SAML app with Google. See the [general workflow](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Google](/platform-deep-dive/organization/organization-settings/saml-sso/#google).
 
@@ -160,7 +164,7 @@ To update your existing SAML configuration with Google:
     - **ACS URL**: Enter **ACS URL** from Cobalt.
     - Delete the **Start URL** value (RelayState).-->
 
-### OneLogin
+#### OneLogin
 
 To update your existing SAML configuration with OneLogin:
 
@@ -172,11 +176,11 @@ To update your existing SAML configuration with OneLogin:
 
 If you want to set up a new application, see the [general workflow](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [OneLogin](/platform-deep-dive/organization/organization-settings/saml-sso/#onelogin).
 
-## Troubleshoot Your SAML SSO Configuration
+## Troubleshooting
 
-If the updated SAML configuration doesn't work, see our [troubleshooting tips](/platform-deep-dive/organization/organization-settings/saml-sso/#troubleshoot-your-saml-sso-configuration).
+See our general [troubleshooting tips](/platform-deep-dive/organization/organization-settings/saml-sso/#troubleshoot-your-saml-sso-configuration) for SAML configurations.
 
-When updating your existing SAML configuration, ensure that:
+When updating your existing SAML setup, ensure that:
 
 - The **ACS URL** and **Entity ID** are correct in the IdP system.
 - The **Relay State** in the IdP system is blank. We no longer support it in the new SAML implementation.

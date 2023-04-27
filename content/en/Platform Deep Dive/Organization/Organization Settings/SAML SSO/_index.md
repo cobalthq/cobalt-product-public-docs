@@ -163,14 +163,12 @@ Once you've completed the setup, your application for Cobalt appears in the Goog
 
 ### Okta
 
-<!--You can set up SAML SSO with Okta in two ways:
+You can set up SAML SSO with Okta in two ways:
 
-- Use the pre-integrated [Cobalt app](https://www.okta.com/integrations/cobalt/) for Okta. Learn [how to configure SAML SSO using the Cobalt app](https://saml-doc.okta.com/SAML_Docs/How-to-Configure-SAML-2.0-for-Cobalt.html).
+- Use the pre-integrated [Cobalt app](https://www.okta.com/integrations/cobalt/) for Okta. Learn [how to configure SAML SSO using the Cobalt app](/platform-deep-dive/organization/organization-settings/saml-sso/okta/).
 - _(Recommended)_ Create a SAML app for Cobalt manually. To learn more, read Okta's [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
 
-If you create an application for Okta manually, use the following parameters.-->
-
-We recommend creating a SAML application for Okta manually. To learn more, read the Okta [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
+If you create an application for Okta **manually**, use the following parameters.
 
 | For This Parameter in Cobalt | Enter This Value from Okta |
 |---|---|
@@ -207,10 +205,9 @@ To configure SAML SSO with OneLogin:
     - **SAML issuer type**: Specific
     - **SAML signature element**: Assertion
 1. In OneLogin, navigate to your application connector. On the **SSO** tab, under **SAML Signature Algorithm**, select **SHA-256**.
-1. Configure parameters in the Cobalt app in **Settings** > **Identity & Access** > **Configure SAML**.
-    - Insert the following values from OneLogin. You can find them on the **SSO** tab of your application connector.
-       - **IdP SSO URL**: SAML 2.0 Endpoint (HTTP)
-       - **IdP Certificate**: X.509 Certificate > View Details
+1. Configure parameters in the Cobalt app in **Settings** > **Identity & Access** > **Configure SAML**. Enter the following values from OneLogin. You can find them on the **SSO** tab of your application connector.
+    - **IdP SSO URL**: SAML 2.0 Endpoint (HTTP)
+    - **IdP Certificate**: X.509 Certificate
 1. Navigate to your application connector in OneLogin.
 1. On the **Parameters** tab, select **Add Parameter**.
     - Under **Field name**, enter `email`, then select **Include in SAML assertion**, and select **Save**.

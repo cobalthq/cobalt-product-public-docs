@@ -8,10 +8,10 @@ description: >
 ---
 
 {{% pageinfo %}}
-This guide is for Organization Owners who configure SAML with Okta as an identity provider (IdP) using the pre-integrated [Cobalt SAML app](https://www.okta.com/integrations/cobalt/). If you want to [create an application for Okta](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml) manually, see [how to set up the configuration](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
+This guide is for Organization Owners who configure SAML with Okta as an identity provider (IdP) using the **pre-integrated [Cobalt SAML app](https://www.okta.com/integrations/cobalt/)**. If you want to [create an application for Okta](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml) manually, see [how to set up the configuration](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
 {{% /pageinfo %}}
 
-If your organization [enforces SAML](/platform-deep-dive/organization/organization-settings/saml-sso/#enforce-saml-sso) in Cobalt, users will no longer be able to sign in through the sign-in page. They must authenticate to Cobalt only through the Okta service.
+If your organization [enforces SAML](/platform-deep-dive/organization/organization-settings/saml-sso/#enforce-saml-sso) in Cobalt, users will no longer be able to authenticate through the sign-in page. They must authenticate to Cobalt only through the Okta service.
 
 ## Contents
 
