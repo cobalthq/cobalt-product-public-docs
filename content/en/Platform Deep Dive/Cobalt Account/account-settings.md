@@ -27,36 +27,25 @@ When finished, select **Update Profile** to confirm.
 
 To edit general account settings, select **Account Settings** on the user menu.
 
-![Adjust your account settings](/deepdive/AccountSettings.png "Account Settings page")
-
-### Change Your Email Address
-
-1. Navigate to https://app.cobalt.io/settings/account.
-1. In the **Your email** field, enter a new email address that you want to link to your Cobalt account.
-    - Make sure this email address is valid.
-1. Enter your current password to confirm the changes, and select **Update Account**.
-    - {{% forgot-password-reset %}}
-1. Follow the instructions in the email you receive.
-
-If you're signing in using [SAML single sign-on (SSO)](/getting-started/sign-in/#saml-sso), ask your identity provider (IdP) admin to verify that your email address is updated within the IdP system.
-
 ### Change Your Username
 
 You can create a custom username for your account.
 
 1. Navigate to https://app.cobalt.io/settings/account.
-1. In the **Choose a username** field, enter a new username.
-1. Enter your current password to confirm the changes, and select **Update Account**.
-    - {{% forgot-password-reset %}}
+1. In the **Username** field, enter a new username.
+1. Select **Save Changes** to confirm.
 
 ### Change Your Password
 
-Follow this instruction if you remember your password and want to change it. {{% forgot-password-reset %}}
+You can change your password by resetting it.
 
 1. Navigate to https://app.cobalt.io/settings/account.
-1. In the **New password** field, enter a new password.
-1. Enter the same password in the **Password Confirmation** field.
-1. Enter your current password to confirm the changes, and select **Update Account**.
+1. Select **Change Password**.
+1. Follow the instructions in the email that you receive to reset your password.
+
+If you're using Google authentication (OAuth 2.0), sign in with your email and password, and then change your password.
+
+If you [forgot your password](/platform-deep-dive/cobalt-account/account-recovery/#forgot-your-password), you can reset it from the Sign In page.
 
 ## Manage Security Settings
 
@@ -66,42 +55,47 @@ To manage two-factor authentication (2FA) settings for your account, select **Se
 
 #### Enable Two-Factor Authentication
 
-Even if your organization hasn't enforced 2FA for all users, we recommend that you enable it to enhance your account security. If you're using [SAML SSO](/getting-started/sign-in/#saml-sso) to sign in, you don't need to turn on 2FA.
+If you're **signing in with your email and password**, you can enable two-factor authentication (2FA) to protect your account. 2FA adds another layer of security to your account by requiring more than just a password to sign in.
 
-![Configure 2FA for your account](/deepdive/SecuritySettings.png "Two-factor authentication page")
+- Even if your organization doesn't [enforce 2FA](/platform-deep-dive/organization/organization-settings/enforce-2fa/) for all users, we recommend that you enable it to enhance your account security.
+- If you're signing in through single sign-on, 2FA doesn't apply. This includes [SAML SSO](/getting-started/sign-in/#saml-sso) and OAuth.
 
 To enable 2FA on your account:
 
 1. Navigate to https://app.cobalt.io/settings/security/2fa.
-    - You should see **Disabled** under **Status**.
-1. Enter your current password, and select **Enable two-factor authentication**.
-    - {{% forgot-password-reset %}}
-1. Scan the QR code using an authenticator app on your mobile device, such as [Authy](https://authy.com/) or [Google Authenticator](https://support.google.com/accounts/answer/1066447).
-1. Enter a 6-character code that your authenticator app generates.
-1. Select **Enable two-factor authentication** to confirm.
+1. Under **Two-Factor Authentication (2FA)**, select **Manage**, and reauthenticate to your account.
+1. To add a new authenticator device, select **Add a new OTP device**.
+1. Follow the instructions on the screen to complete the process. Use an authenticator of your choice, such as [Authy](https://authy.com/) or [Google Authenticator](https://support.google.com/accounts/answer/1066447).
+1. Add one or more backup devices to avoid being locked out of your account. Select **Add a new OTP device** to proceed.
 
-Now, each time you sign in to Cobalt, you need to enter a one-time code from your authenticator app. You can turn on the option to remember your device for 30 days.
+Now, each time you sign in to Cobalt, you must enter a one-time code from your authenticator app. If you have problems signing in with 2FA, see our [troubleshooting tips](/platform-deep-dive/cobalt-account/account-recovery/#problems-with-two-factor-authentication).
 
-For troubleshooting tips, see [Problems with Two-Factor Authentication](/platform-deep-dive/cobalt-account/account-recovery/#problems-with-two-factor-authentication).
+#### Manage 2FA Devices
+
+When you add a new 2FA device, it appears on the account security page<!--under **Current Devices**-->. Here, you can see devices with an authenticator app that generates one-time codes required for authentication to your Cobalt account.
+
+- **Add multiple backup devices** to avoid being locked out of your account. Select **Add a new OTP device** to proceed.
+- **Remove a device** if it's no longer valid or has been lost or stolen. Select **Delete**, and confirm your action.
 
 #### Reset Two-Factor Authentication
 
-We don't recommend turning off 2FA on your account. However, you may need to reset 2FA when:
+We don't recommend turning off 2FA on your account. However, you may need to reset your 2FA methods when:
 
-- You want to switch to a different authenticator provider.
-- You believe your [account was compromised](/platform-deep-dive/cobalt-account/account-recovery/#account-was-compromised)—and you still have access to your authenticator.
-- You have a new device. Depending on your authenticator, you can transfer data to a new device without having to reset 2FA in Cobalt.
-  - For Authy, [restore your access](https://support.authy.com/hc/en-us/articles/115012672088-Restoring-Authy-Access-on-a-New-Lost-or-Inaccessible-Phone) on a new device.
-  - For Google Authenticator, [transfer your codes](https://support.google.com/accounts/answer/1066447?hl=en&ref_topic=2954345#zippy=%2Ctransfer-google-authenticator-codes-to-new-phone) to a new device.
+- You believe your [account was compromised](/platform-deep-dive/cobalt-account/account-recovery/#account-was-compromised)—and you still have access to one of your authenticators.
+- Your authenticator device was lost or stolen.
 
-If you lose access to your authenticator, start the account recovery process, as described in [Lost Access to Your Authenticator](/platform-deep-dive/cobalt-account/account-recovery/#lost-access-to-your-authenticator).
+You can remove your current 2FA devices and add new ones for added security.
 
-To reset 2FA on your account:
+To remove a 2FA device:
 
 1. Navigate to https://app.cobalt.io/settings/security/2fa.
-1. Enter your current password, and select **Disable two-factor authentication**.
-    - {{% forgot-password-reset %}}
-1. To reactivate 2FA, follow the procedure described in [Enable Two-Factor Authentication](#enable-two-factor-authentication).
+1. Under **Two-Factor Authentication (2FA)**, select **Manage**.
+1. Under **Current Devices**, locate the desired device, and select **Remove**.
+    - Remove other devices if needed.
+
+Now you can add a new 2FA device to protect your account. Make sure you also add one or more backup devices.
+
+If you lose access to your authenticator and don't have a backup one, ask your Organization Owner to turn off 2FA. For details, see [Lost Access to Your Authenticator](/platform-deep-dive/cobalt-account/account-recovery/#lost-access-to-your-authenticator).
 
 ## Create and Manage API Tokens
 

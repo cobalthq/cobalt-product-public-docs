@@ -20,7 +20,7 @@ Follow these instructions if you can't sign in to Cobalt because:
 - You have [problems with two-factor authentication (2FA)](#problems-with-two-factor-authentication):
   - You [lost access to your authenticator](#lost-access-to-your-authenticator).
   - [One-time codes](#one-time-codes-dont-work) don't work.
-  - ["Remember this device" option](#remember-this-device-doesnt-work)  doesn't work.
+  - ["Remember this device" option](#remember-this-device-doesnt-work) doesn't work.
 - You [forgot your password](#forgot-your-password).
 - [We don't recognize your device](#we-dont-recognize-your-device).
 - You have [problems with SAML SSO](#cant-sign-in-using-saml-sso).
@@ -39,39 +39,24 @@ Follow these instructions if you can't sign in to Cobalt because:
 
 ### Lost Access to Your Authenticator
 
-Users in the following roles can ask an [Organization Owner](/getting-started/glossary/#organization-owner) to turn off [two-factor authentication (2FA)](/getting-started/sign-in/#two-factor-authentication) for their account:
+If you lost access to your authenticator and don't have a backup device, ask your [Organization Owner](/getting-started/glossary/#organization-owner) to [turn off two-factor authentication (2FA)](#turn-off-2fa-for-a-user) on your account. If you’re the only Organization Owner, contact {{% csm-support %}} for help.
 
-- [Organization Owner](/getting-started/glossary/#organization-owner)
-- [Organization Member](/getting-started/glossary/#organization-member)
-- [Pentest Team Member](/getting-started/glossary/#pentest-team-member)
+Once your Organization Owner has turned off 2FA, you get an email notification. You can now sign in without a second authentication factor.
 
-{{% org-owner-2fa %}} upon your request. Follow the steps below.
-
-To request to turn off 2FA:
-
-1. Sign in to Cobalt from the {{% sign-in %}} page in one of the following ways:
-   - With your username and password
-   - By selecting **Sign in with Google**
-1. On the page prompting you to enter a one-time code, select **Start account recovery process**.<br><br>
-    ![Two-Factor Authentication page](/deepdive/SignIn2FARecovery.png "Select 'Start account recovery process' to recover your account")
-1. Once you get an email with a one-time identity verification code, enter the code, and select **Verify**.
-1. Your Organization Owner gets notified and [turns off 2FA](#turn-off-2fa-for-a-user) for your account.
-   - {{% org-owner-2fa %}}.
-1. You get an email notification confirming that your 2FA settings were updated.
-1. You can now sign in without a second authentication factor.
-   - If your organization enforces 2FA, enable it upon signing in.
-
-Once you've set up a new authenticator, you can [turn on 2FA](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication) again.
+To protect your account, [enable 2FA](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication). Add one or more backup authenticators to avoid being locked out of your account.
 
 #### Turn Off 2FA for a User
 
-As an [Organization Owner](/getting-started/glossary/#organization-owner), you can turn off two-factor authentication for a user following their request.
+As an [Organization Owner](/getting-started/glossary/#organization-owner), you can turn off two-factor authentication for a user. A user who needs help with 2FA should contact their Organization Owner directly.
 
-1. Once you get an email notification requesting you to turn off 2FA, select **Recover Account** in the email.
-1. On the **People** page of your dashboard, locate the user who submitted the request.
+If you’re the only Organization Owner, contact {{% csm-support %}} for help.
+
+To turn off 2FA for a user:
+
+1. On the **People** page, locate the user who needs help with 2FA.
 1. Select the three-dot icon {{% three-dots %}} on the right, and then select **Turn Off 2FA**.
-   - We verified the user's identity with a one-time verification code. However, we recommend that you verify their identity again before turning off 2FA.<br>
-       ![Turn off 2FA for a user](/deepdive/TurnOff2FA.png "Turn off 2FA for a user")
+   - We recommend that you verify the user's identity before turning off 2FA.<br>
+   ![Turn off 2FA for a user](/deepdive/TurnOff2FA.png "Turn off 2FA for a user")
 1. Select **Confirm** in the overlay that appears.
 
 ### One-Time Codes Don't Work
@@ -121,12 +106,16 @@ To enhance your account security, we recommend that you [enable two-factor authe
 
 ## Can't Sign In Using SAML SSO
 
-If your organization has enabled [SAML SSO](/getting-started/sign-in/#saml-sso), sign in from the identity provider system, such as Okta or OneLogin. You can't sign in from the Cobalt {{% sign-in %}} page.
+If your organization has enforced [SAML SSO](/getting-started/sign-in/#saml-sso), sign in from the identity provider system, such as Okta or OneLogin. Authentication from the Cobalt {{% sign-in %}} page is not possible.
 
 - If you don't know what identity provider your organization uses, contact your Organization Owner.
 - If you don't see the Cobalt app within your identity provider, contact your IdP admin. They'll add Cobalt to your IdP account.
 - Ensure that you're a provisioned user both in the IdP system and Cobalt. Complete the account setup process for Cobalt, which includes confirming your email address and creating a password. The email address for your IdP and Cobalt must match.
-- As an Organization Owner, ensure that your [SAML SSO configuration](/platform-deep-dive/organization/organization-settings/saml-sso/#troubleshoot-your-saml-sso-configuration) is correct.
+
+For [Organization Owners](/getting-started/glossary/#organization-owner):
+
+- Ensure that your [SAML SSO configuration](/platform-deep-dive/organization/organization-settings/saml-sso/#troubleshoot-your-saml-sso-configuration) is correct.
+- If you're using a legacy SAML configuration, [update it to the new setup](/platform-deep-dive/organization/organization-settings/saml-sso/saml-migration/).
 
 ## Locked Out of Your Account
 
@@ -140,6 +129,7 @@ If the Cobalt {{% sign-in %}} page doesn't load, try to clear your browser's cac
 
 Instructions vary depending on the browser and operating system you're using. There may be several ways to complete this action.
 
+{{%expand "See instructions." %}}
 - **Chrome**:
   - **Windows**: Press Ctrl + F5.
   - **Mac**: Press ⌘ Cmd + Shift + R.
@@ -148,6 +138,7 @@ Instructions vary depending on the browser and operating system you're using. Th
   - **Mac**: Press ⌘ Cmd + Shift + R.
 - **Safari**: Press Option + ⌘ Cmd + E.
 - **Microsoft Edge**: Press Ctrl + F5.
+{{% /expand %}}
 
 ## Account Was Compromised
 

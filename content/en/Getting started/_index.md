@@ -10,7 +10,7 @@ description: >
 Visualize your journey with Cobalt, and launch your first pentest to make your security stronger.
 {{% /pageinfo %}}
 
-<span style="background-color: #ECE6FA; padding: 2px;">Take your first steps to get started:</span>
+Take your first steps to get started:
 
 - [Prepare for a pentest](#prepare-for-a-pentest)
 - [Launch a pentest](#launch-a-pentest)
