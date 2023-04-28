@@ -163,12 +163,14 @@ Once you've completed the setup, your application for Cobalt appears in the Goog
 
 ### Okta
 
-You can set up SAML SSO with Okta in two ways:
+<!--You can set up SAML SSO with Okta in two ways:
 
-- Use the pre-integrated [Cobalt app](https://www.okta.com/integrations/cobalt/) for Okta. Learn [how to configure SAML SSO using the Cobalt app](/platform-deep-dive/organization/organization-settings/saml-sso/okta/).
-- _(Recommended)_ Create a SAML app for Cobalt manually. To learn more, read Okta's [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
+- Use the [gallery Cobalt app](https://www.okta.com/integrations/cobalt/) in Okta. Learn [how to configure SAML using the gallery Cobalt app](/platform-deep-dive/organization/organization-settings/saml-sso/okta/).
+- _(Recommended)_ Create a non-gallery SAML app for Cobalt manually. To learn more, read Okta's [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
 
-If you create an application for Okta **manually**, use the following parameters.
+If you create an application for Okta **manually**, use the following parameters.-->
+
+We recommend creating a non-gallery SAML application for Cobalt manually. For details, read Okta's [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
 
 | For This Parameter in Cobalt | Enter This Value from Okta |
 |---|---|

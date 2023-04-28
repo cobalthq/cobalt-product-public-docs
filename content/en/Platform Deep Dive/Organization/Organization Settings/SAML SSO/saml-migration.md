@@ -22,7 +22,7 @@ This page is for [Organization Owners](/getting-started/glossary/#organization-o
 Here is a summary of updates:
 
 - Our **Assertion Consumer Service (ACS) URL** is no longer `https://api.cobalt.io/users/saml/auth`, but is now unique per organization. To get your unique ACS URL, go to **Settings** > **Identity & Access** > **Configure SAML** in the Cobalt app.
-   - Example ACS URL: `https://login.app.cobalt.io/login/callback?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`). You can also see the slug in **Settings** > **General**.
+  - Example ACS URL: `https://login.app.cobalt.io/login/callback?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`). You can also see the slug in **Settings** > **General**.
 - We no longer require a **RelayState** within the assertion.
 - Organization Owners can now enable or disable [SSO enforcement](/platform-deep-dive/organization/organization-settings/saml-sso/#enforce-saml-sso).
 
@@ -106,14 +106,18 @@ To update your existing SAML configuration with Google:
 
 #### Okta
 
+<!--
 Instructions differ depending on how you've set up your Cobalt SAML app in Okta:
 
-- [Manually created Cobalt SAML app](#manually-created-cobalt-saml-app-in-okta)
-- [Pre-integrated Cobalt SAML app](#pre-integrated-cobalt-saml-app-in-okta)
+- [Non-gallery app](#non-gallery-saml-app-for-cobalt)
+- [Gallery app for Cobalt](#gallery-saml-app-for-cobalt)
 
-##### Manually Created Cobalt SAML App in Okta
+##### Non-gallery SAML App for Cobalt
 
-Learn how to update your existing SAML configuration with Okta for a manually created Cobalt SAML app.
+Learn how to update your existing SAML configuration with Okta for a non-gallery Cobalt SAML app.
+-->
+
+Learn how to update your existing SAML configuration with Okta.
 
 {{%expand "Click to view instructions." %}}
 
@@ -138,31 +142,33 @@ Learn how to update your existing SAML configuration with Okta for a manually cr
 
 If you want to set up a new application, see the [general workflow](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Okta](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
 
-##### Pre-integrated Cobalt SAML App in Okta
+<!--
+##### Gallery SAML App for Cobalt
 
-Learn how to update your existing SAML configuration with Okta for a [pre-integrated Cobalt SAML app](https://www.okta.com/integrations/cobalt/).
+Learn how to update your existing SAML configuration with Okta for a [gallery Cobalt SAML app](https://www.okta.com/integrations/cobalt/).
 
 {{%expand "Click to view instructions." %}}
 
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - Copy the organization's **slug** that appears after `=` in the ACS URL. You can also see the slug in **Settings** > **General**.<br><br>
     ![Organization's slug in the ACS URL](/deepdive/slug-acs-url.png "Organization's slug in the ACS URL")
-1. In Okta, go to your pre-integrated SAML app for Cobalt. Select the **Sign On** tab, then select **Edit**.
+1. In Okta, go to your gallery SAML app for Cobalt. Select the **Sign On** tab, then select **Edit**.
     - Delete the **Default Relay State** value.<br><br>
-    ![Delete the Default Relay State in the pre-integrated Cobalt SAML app in Okta](/deepdive/Cobalt-configuration-for-Okta-preintegrated-app-3.png "Delete the Default Relay State in the pre-integrated Cobalt SAML app in Okta")
+    ![Delete the Default Relay State in your gallery Cobalt SAML app in Okta](/deepdive/Cobalt-configuration-for-Okta-preintegrated-app-3.png "Delete the Default Relay State in your gallery Cobalt SAML app in Okta")
     - Under **Metadata details**, select **More details**.
         - Copy the **Sign on URL**.
         - Download or copy the **Signing Certificate**.<br><br>
-    ![Update your SAML configuration for the pre-integrated Cobalt SAML app in Okta](/deepdive/Cobalt-configuration-for-Okta-manual-app-2.png "Update your SAML configuration for the pre-integrated Cobalt SAML app in Okta")
+    ![Update your SAML configuration in a gallery Cobalt SAML app in Okta](/deepdive/Cobalt-configuration-for-Okta-manual-app-2.png "Update your SAML configuration in a gallery Cobalt SAML app in Okta")
     - Under **Advanced Sign-on Settings**, in the **Slug** field, enter your organization’s slug from Cobalt.<br><br>
-    ![Enter your organization's slug in the pre-integrated Cobalt SAML app in Okta](/deepdive/Cobalt-configuration-for-Okta-preintegrated-app-1.png "Enter your organization's slug in the pre-integrated Cobalt SAML app in Okta")
+    ![Enter your organization's slug in a gallery Cobalt SAML app in Okta](/deepdive/Cobalt-configuration-for-Okta-preintegrated-app-1.png "Enter your organization's slug in a gallery Cobalt SAML app in Okta")
     - Save the changes.<br><br>
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - **IdP SSO URL**: Enter the **Sign on URL** from Okta.
     - **IdP Certificate**: Enter the **Signing Certificate** from Okta.
     - Select **Save Configuration**.<br><br>
-    ![Update your SAML configuration for the pre-integrated Cobalt SAML app](/deepdive/Cobalt-configuration-for-Okta-preintegrated-app-2.png "Update your SAML configuration for the pre-integrated Cobalt SAML app")
+    ![Update your SAML configuration in a gallery Cobalt SAML app](/deepdive/Cobalt-configuration-for-Okta-preintegrated-app-2.png "Update your SAML configuration in a gallery Cobalt SAML app")
 {{% /expand %}}
+-->
 
 #### OneLogin
 
