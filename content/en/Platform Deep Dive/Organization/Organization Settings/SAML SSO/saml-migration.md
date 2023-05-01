@@ -124,7 +124,7 @@ Learn how to update your existing SAML configuration with Okta.
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - Copy the **ACS URL**.<br><br>
     ![Update SAML settings for Okta in Cobalt](/deepdive/Cobalt-configuration-for-Okta-manual-app-1.png "Update SAML settings for Okta in Cobalt")
-1. In Okta, go to your SAML application for Cobalt. On the **General** tab, under **SAML Settings**, select **Edit**, then select **Next**.
+1. In Okta, go to your SAML application for Cobalt. On the **General** tab, under **SAML Settings**, select **Edit**, then select **Next**. If you don't see editable SAML Settings, we suggest that you [create a new non-gallery app](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
     - **Single sign-on URL**: Enter **ACS URL** from Cobalt.
     - Delete the **Default Relay State** value.
     - Save the changes.<br><br>
