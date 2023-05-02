@@ -61,7 +61,7 @@ To view notifications for all organizations you belong to, select the bell icon 
 
 ![Navigate to the Notifications page](/deepdive/ViewAllNotifications.png "Navigate to the Notifications page")
 
-On the **Notifications** page, you can select to view unread or all notifications.
+You only see recent notifications in the popover. To view all notifications, select the three-dot icon {{% three-dots %}} > **Go to notifications page**.
 
 - To mark all notifications as read, select **Mark all as read**.
 - To mark a single notification as read, select the dot icon •.
