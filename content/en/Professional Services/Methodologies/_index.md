@@ -1,5 +1,5 @@
 ---
-title: "Pentest Methodologies for Professional Services Pentests"
+title: "Methodologies for Professional Services Pentests"
 linkTitle: "Methodologies"
 weight: 200
 description: >
@@ -7,14 +7,14 @@ description: >
 ---
 
 {{% pageinfo %}}
-Deep dive into the details of penetration test methodologies for special pentest engagements with the Cobalt Professional Services team.
+Deep dive into the details of penetration testing methodologies for special pentest engagements with the Cobalt [Professional Services](/professional-services/) team.
 {{% /pageinfo %}}
 
 Learn more about each methodology:
 
-- [IoT ecosystem testing](/professional-services/methodologies/iot/)
-- [Thick client application testing](/professional-services/methodologies/thick-client/)
-- [Wireless network testing](/professional-services/methodologies/wireless-network/)
+- IoT ecosystem testing
+- Thick client application testing
+- Wireless network testing
 - Physical testing
 - Threat modeling
 - Phishing

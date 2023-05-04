@@ -61,12 +61,19 @@ Here are the stages of a typical pentest engagement with the Cobalt Professional
     - Pentest [methodology](#pentest-methodologies)
 1. **Testing**. We update you on the pentest progress in Slack and on the Cobalt platform. You can track the progress in real time.
     - Learn [how to use the coverage checklist](/platform-deep-dive/pentests/pentest-process/coverage-checklist/) to track the pentest progress.
-1. **Remediation**. We provide remediation guidance during testing. Remediate vulnerabilities to secure your systems.
-1. **Reporting**. We'll share a report once the pentest engagement is complete. Use the report to get an overview of the security posture of your systems. Work with your team to fix vulnerabilities and enhance your security strategy.
+1. **Remediation**. We provide remediation guidance during testing.
+    - Remediate vulnerabilities to secure your systems.
+1. **Reporting**. We'll share a report once the pentest engagement is complete.
+    - Use the report to get an overview of the security posture of your systems. Work with your team to fix vulnerabilities and enhance your security strategy.
 
 ## Reports
 
-We'll share a report once the pentest engagement is complete. For special pentest engagements, the report sections may slightly differ compared to standard pentests.
+We'll share a report once the pentest engagement is complete. For special pentest engagements, the report sections may differ compared to standard pentests.
+
+You can **download sample reports**:
+
+- [IoT Device Sample Report]()
+- [Red Team Sample Report]()
 
 ## Asset Types
 
