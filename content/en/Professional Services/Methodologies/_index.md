@@ -12,4 +12,12 @@ Deep dive into the details of penetration test methodologies for special pentest
 
 Learn more about each methodology:
 
-- 
+- [IoT ecosystem testing](/professional-services/methodologies/iot/)
+- [Thick client application testing](/professional-services/methodologies/thick-client/)
+- [Wireless network testing](/professional-services/methodologies/wireless-network/)
+- Physical testing
+- Threat modeling
+- Phishing
+- Red teaming
+- Security hardening
+- Secure code review
