@@ -10,7 +10,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-**This instruction is not relevant until May 2, 2023**.
+**This instruction is not relevant until May 16, 2023**.
 
 This guide is for Organization Owners who configure SAML with Okta as an identity provider (IdP) using the preconfigured [Cobalt SAML app](https://www.okta.com/integrations/cobalt/). If you want to [create an application for Okta](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml) manually, see [how to set up the configuration](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
 {{% /pageinfo %}}
