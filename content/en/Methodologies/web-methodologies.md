@@ -3,7 +3,7 @@ title: "Web Application Penetration Testing Methodology"
 linkTitle: "Web Methodologies"
 weight: 100
 description: >
-  Review pentest methodologies for web applications, including microservices.
+  Review Cobalt pentest methodologies for web applications, including microservices.
 aliases:
     - /getting-started/pentest-objectives/methodologies/web-methodologies/
     - /platform-deep-dive/pentests/pentest-process/methodologies/web-methodologies/
