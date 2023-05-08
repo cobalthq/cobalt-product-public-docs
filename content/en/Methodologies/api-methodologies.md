@@ -7,6 +7,7 @@ description: >
 aliases:
     - /getting-started/pentest-objectives/methodologies/api-methodologies/
     - /getting-started/pentest-objectives/methodologies/api/
+    - /platform-deep-dive/pentests/pentest-process/methodologies/api-methodologies/
 ---
 
 {{% pageinfo %}}

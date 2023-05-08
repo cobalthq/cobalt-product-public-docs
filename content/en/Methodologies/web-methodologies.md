@@ -1,36 +1,38 @@
 ---
-title: "Web Pentest Methodologies"
+title: "Web Application Penetration Testing Methodology"
 linkTitle: "Web Methodologies"
 weight: 100
 description: >
-  Review pentest objectives for Web Apps, including microservices.
+  Review pentest methodologies for web applications, including microservices.
 aliases:
     - /getting-started/pentest-objectives/methodologies/web-methodologies/
+    - /platform-deep-dive/pentests/pentest-process/methodologies/web-methodologies/
 ---
 
 {{% pageinfo %}}
-{{% pentest-rigor %}}
+Web application penetration testing is a process in which a tester uses simulated attacks to identify potential security vulnerabilities in a web application.
 {{% /pageinfo %}}
 
-We use the penetration testing objectives listed on this page. If you want to know more
-about each methodology, navigate to the [Pentest Methodologies](..) page associated with your asset.
+## Methodology Details
 
-## Web
+We follow an industry-standard methodology primarily based on the OWASP Application Security
+Verification Standard (ASVS) and Testing Guide. In support, we use a number of manual and automated
+tools, described in the following steps, to ensure full coverage.
+
+![Web application penetration testing methodology process](/methodologies/Web-application-penetration-test-methodology-process.png "Web application penetration testing methodology process")
+
+Penetration testing of a web application includes the following stages:
+
+- [Target scope reconnaissance](#target-scope-reconnaissance)
+- [Business and application logic mapping](#business-and-application-logic-mapping)
+- [Automated web crawling and web scanner configuration tweaking](#automated-web-crawling-and-web-scanner-configuration-tweakings)
+- [Authenticated vulnerability scanning / Manual crawling](#authenticated-vulnerability-scanning--manual-crawling)
+- [Manual web vulnerability tests / exploit reviews / microservices](#manual-web-vulnerability-tests--exploit-reviews--microservices)
+- [Ongoing assessments](#ongoing-assessments)
+- [Report, triage, and retest](#report-triage-and-retest)
 
 The Cobalt team of pentesters do not need access to the underlying web application source code,
 unless you specify it as a requirement.
-
-When you set up a pentest for a web asset in the UI, you'll see the following in the
-**Objectives** text box:
-
-```
-Coverage of OWASP top 10, ASVS and application logic.
-```
-
-Learn more about these objectives from OWASP:
-
-- [OWASP Top 10 Web Application Security Risks](https://owasp.org/www-project-top-ten)
-- [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard)
 
 We look at application logic by working with your app.
 
@@ -40,16 +42,8 @@ have additional APIs, you may consider setting up:
 - A combined Web + API test
 - A separate test for APIs
 
-### Methodology Details
+### Target Scope Reconnaissance
 
-We follow an industry standard methodology primarily based on the OWASP Application Security
-Verification Standard (ASVS) and Testing Guide. In support, we use a number of manual and automated
-tools, described in the following steps, to ensure full coverage.
-
-Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key for more information on each step.
-
-{{% expand "Target scope reconnaissance" %}}
-</br>
 Based on the Pentest Brief prepared by the client, Cobalt pentesters search for
 information about the targets and investigate the scope. This information
 includes:
@@ -71,10 +65,7 @@ Our pentesters may use reconnaissance scanning tools such as:
 - Aquatone
 - Masscan
 
-{{% /expand %}}
-
-{{% expand "Business and application logic mapping" %}}
-</br>
+### Business and application logic mapping
 
 Pentesters manually examine the target applications to map:
 
@@ -94,10 +85,8 @@ Our pentesters may use application logic analysis tools such as:
 - Burp Suite Pro/Community
 - Postman
 - OWASP Zed Attack Proxy
-{{% /expand %}}
 
-{{% expand "Automated web crawling and web scanner configuration tweaking" %}}
-</br>
+### Automated Web Crawling and Web Scanner Configuration Tweakings
 
 Our pentesters use both commercial and freeware security tools to assess the targeted
 application. They'll modify these tools as needed, to make sure that scanning can find
@@ -113,10 +102,8 @@ Our pentesters may use web crawling and scanning tools such as:
 - Nmap
 - Burp Suite Pro/Community
 - Nikto
-{{% /expand %}}
 
-{{% expand "Authenticated vulnerability scanning / Manual crawling" %}}
-</br>
+### Authenticated Vulnerability Scanning / Manual Crawling
 
 In this part of the pentest process, our pentesters:
 
@@ -136,10 +123,7 @@ They may use vulnerability scanning tools such as:
 - Burp Suite Pro/Community
 - sqlmap
 
-{{% /expand %}}
-
-{{% expand "Manual web vulnerability tests / exploit reviews / microservices" %}}
-</br>
+### Manual Web Vulnerability Tests / Exploit Reviews / Microservices
 
 Cobalt pentesters use tool-assisted manual tests to identify and analyze the
 following parts of the app for vulnerabilities:
@@ -189,10 +173,8 @@ Our pentesters use multiple testing and exploitation tools such as:
 - OWASP ZAP
 - Dirble
 - Nuclei
-{{% /expand %}}
 
-{{% expand "Ongoing assessments" %}}
-</br>
+### Ongoing Assessments
 
 Our pentesters report their findings, in real time, through the Cobalt platform.
 They also:
@@ -202,16 +184,9 @@ They also:
 
 You're welcome to communicate with our pentesters for each of their findings.
 
-{{% /expand %}}
-
-{{% expand "Report, triage, and retest" %}}
-</br>
+### Report, Triage, and Retest
 
 {{% report-triage-retest %}}
-
-{{% /expand %}}
-
-![Web pentest flow](/gsg/WebPentest.png "Flow chart for web penetration tests")
 
 ## Additional Requirements
 

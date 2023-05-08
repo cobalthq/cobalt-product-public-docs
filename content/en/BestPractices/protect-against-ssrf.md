@@ -179,7 +179,7 @@ Now that you've explored several SSRF exploitation scenarios, learn how to mitig
   - Properly validate and sanitize user-supplied input before passing it to sensitive methods such as URL parsers. When writing code, consider user-supplied input as unsafe.
 - Implement a strong allowlist.
   - Use allowlist-based validation for the IP addresses and DNS names to which your application requires access. This prevents an attacker from trying to request unintended resources.
-- Implement the [principle of least privilege](https://www.cisa.gov/uscert/bsi/articles/knowledge/principles/least-privilege).
+- Implement the [principle of least privilege](https://www.cisa.gov/uscert/bsi/articles/knowledge/principles/least-privilege/).
   - This principle states that a user should be granted only the minimum necessary rights to perform an operation, for the shortest time possible.
 - Deploy a restrictive firewall.
   - Use a web application firewall (WAF) with strict blocking rules to detect, block, and log any malicious payload or unintended input.
@@ -190,9 +190,9 @@ Now that you've explored several SSRF exploitation scenarios, learn how to mitig
 
 - https://owasp.org/www-project-top-ten/
 - https://owasp.org/Top10/A10_2021-Server-Side_Request_Forgery_%28SSRF%29/
-- https://medium.com/swlh/capital-one-data-breach-a-cloud-security-case-study-7a06ec900460
+- https://medium.com/swlh/capital-one-data-breach-a-cloud-security-case-study-7a06ec900460/
 - https://learn.snyk.io/lessons/ssrf-server-side-request-forgery/javascript/
-- https://rules.sonarsource.com/java
+- https://rules.sonarsource.com/java/
 - https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html
 - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-service.html
-- https://www.cisa.gov/uscert/bsi/articles/knowledge/principles/least-privilege
+- https://www.cisa.gov/uscert/bsi/articles/knowledge/principles/least-privilege/

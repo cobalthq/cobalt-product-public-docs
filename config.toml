@@ -155,10 +155,20 @@ no = 'Sorry to hear that. Please <a href="https://github.com/cobalthq/cobalt-pro
 #	icon = "fa fa-envelope"
 #       desc = "Discussion and help from your fellow users"
 [[params.links.user]]
+	name ="LinkedIn"
+	url = "https://www.linkedin.com/company/cobalt_io/mycompany/"
+	icon = "fab fa-linkedin-in"
+        desc = "Follow us on LinkedIn to learn more about what we do"
+[[params.links.user]]
 	name ="Twitter"
 	url = "https://twitter.com/cobalt_io"
 	icon = "fab fa-twitter"
-        desc = "Follow us on Twitter to get the latest news!"
+        desc = "Follow us on Twitter to get the latest news"
+[[params.links.user]]
+	name ="YouTube"
+	url = "https://www.youtube.com/channel/UCsWLzFUqOmAmjfP_CKMnO3g"
+	icon = "fab fa-youtube"
+        desc = "Subscribe to our YouTube channel"
 #[[params.links.user]]
 #	name = "Stack Overflow"
 #	url = "https://example.org/stack"
