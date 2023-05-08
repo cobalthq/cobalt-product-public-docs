@@ -8,7 +8,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Cobalt supports identity provider-initiated SAML single sign-on (SSO). As an Organization Owner, you can configure SAML SSO with your preferred identity provider.
+Cobalt supports **identity provider-initiated SAML single sign-on (SSO)**. As an Organization Owner, you can configure SAML SSO with your preferred identity provider.
 {{% /pageinfo %}}
 
 ## SAML SSO Overview
@@ -20,6 +20,9 @@ Cobalt supports [identity provider-initiated (IdP-initiated) SSO](/getting-start
 - To access Cobalt, users must sign in to the identity provider system and select the configured Cobalt app.
 - Cobalt acts as the service provider. When a user attempts to sign in to Cobalt from the IdP system, Cobalt requests the IdP to authenticate the user. Once the authentication is complete, the IdP sends a SAML assertion to Cobalt, and the user is signed in.
 - SAML SSO authentication from the Cobalt sign-in page is not possible.
+<br><br>
+
+![Cobalt identity provider-initiated SAML SSO](/deepdive/Cobalt-IdP-initiated-SAML-SSO-process.png "Cobalt identity provider-initiated SAML SSO")
 
 ## General Configuration Workflow
 
