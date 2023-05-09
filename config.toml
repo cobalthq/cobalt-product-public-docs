@@ -71,7 +71,7 @@ enableGitInfo = true
 
 [menu]
 [[menu.main]]
-  name = 'Cobalt.io'
+  name = 'Cobalt Home'
   url = 'https://www.cobalt.io/'
   weight = 10
 [[menu.main]]
