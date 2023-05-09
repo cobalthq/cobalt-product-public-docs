@@ -32,8 +32,6 @@ results. Here's what you can expect:
     {{% process-findings %}}
 1. <a id="report-timing">When your pentest is in Remediation or Closed, you can download [pentest reports](/platform-deep-dive/pentests/reports/).
     - If you've purchased a qualifying {{% ptaas-tier %}}, you can [customize your pentest report](/platform-deep-dive/pentests/reports/customize-report/).
-    - You're welcome to download this
-   [sample test report (PDF)](/gsg/GettingStarted_Sample_WebApp_Report.pdf) for a web app.
 1. We move your pentest to Closed once you've resolved all findings, which includes {{% resolved-finding-states %}}
 
 {{< alert title="Tip" color="primary" >}}
