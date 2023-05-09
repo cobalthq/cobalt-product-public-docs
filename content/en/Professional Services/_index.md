@@ -70,11 +70,6 @@ Here are the stages of a typical pentest engagement with the Cobalt Professional
 
 We'll share a report once the pentest engagement is complete. For special pentest engagements, the report sections may differ compared to standard pentests.
 
-You can **download sample reports**:
-
-- [IoT Device Sample Report]()
-- [Red Team Sample Report]()
-
 ## Asset Types
 
 For Specialized pentests run by the Cobalt Professional Services team, we support additional asset types, beyond our standard [asset types](/platform-deep-dive/assets/asset-types/):
