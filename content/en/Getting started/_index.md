@@ -25,11 +25,10 @@ Take your first steps to get started:
 - **Be responsive to pentest results**.
   - Pentesters will share vulnerabilities ([findings](/platform-deep-dive/pentests/findings/)) that they discover in real time. Start remediating them. [Collaborate on the pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/) and ask questions if you need help.
 - **Be available to help find solutions to problems**.
-  - Most of the time pentests are cautious and don’t perform any actions that have detrimental effects on your software. However, as a precautionary measure, you should prepare for the worst. Prepare a backup copy of your software (especially when testing a production environment), and have a team ready to respond to any unexpected events.
+  - Most of the time pentesters are cautious and don't perform any actions that have detrimental effects on your software. However, as a precautionary measure, you should prepare for the worst. Prepare a backup copy of your software (especially when testing a production environment), and have a team ready to respond to any unexpected events.
   - Establish communication with pentesters in [Slack](/platform-deep-dive/collaboration/collaborate-on-pentests/#use-slack-for-communication), and let them know you are there—available and responsive.
-- **Don’t improve the state of your environment or assets just before the pentest or during the pentest**.
-  - Unless there is a critical issue that poses a significant risk to your organization, we recommend that you hold off on fixing issues until the pentest is complete.
-  - If you start fixing issues during the pentest, you risk removing data that pentesters may need to complete the test. This may affect the pentest scope that you’ve initially set.
+- **Communicate significant changes to your environment made during a test to pentesters**.
+  - If you make significant changes to your environment during a test (including remediating vulnerabilities), make sure to communicate this to our pentesters. Any major updates to your asset that you make when the pentest is Live may impact pentesters' workflows and the testing process.
 
 ## Launch a Pentest
 
