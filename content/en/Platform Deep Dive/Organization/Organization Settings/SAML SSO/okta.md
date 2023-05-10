@@ -1,21 +1,20 @@
 ---
 title: "How to Configure SAML 2.0 for Cobalt"
-linkTitle: "Okta as IdP"
-weight: 20
+linkTitle: "Okta: Gallery Cobalt App"
+weight: 30
 toc_hide: true
-hide_summary: true
 aliases: /platform-deep-dive/collaboration/organization/organization-settings/saml-sso/okta/
 description: >
-  Configure SAML with Okta as an identity provider (IdP).
+  Configure SAML with Okta using their gallery app for Cobalt.
 ---
 
 {{% pageinfo %}}
-**This instruction is not relevant until May 2, 2023**.
+**Disclaimer:** This guide is not relevant until May 16, 2023.
 
-This guide is for Organization Owners who configure SAML with Okta as an identity provider (IdP) using the preconfigured [Cobalt SAML app](https://www.okta.com/integrations/cobalt/). If you want to [create an application for Okta](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml) manually, see [how to set up the configuration](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
+This guide is for Organization Owners who configure SAML with Okta as an identity provider (IdP) using the **[gallery Cobalt SAML app](https://www.okta.com/integrations/cobalt/)**. If you want to [create a non-gallery application for Okta](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml) manually, see [how to set up the configuration](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
 {{% /pageinfo %}}
 
-If your organization enforces SAML in Cobalt, users will no longer be able to sign in through the sign-in page. They must authenticate to Cobalt only through the Okta service.
+If your organization [enforces SAML](/platform-deep-dive/organization/organization-settings/saml-sso/#enforce-saml-sso) in Cobalt, users will no longer be able to authenticate through the sign-in page. They must authenticate to Cobalt only through the Okta service.
 
 ## Contents
 
@@ -36,9 +35,9 @@ For more information on the listed features, visit the [Okta Glossary](https://h
 1. Sign in to Cobalt, and go to **Settings** > **Identity & Access**. You should have an [Organization Owner](/getting-started/glossary/#organization-owner) role.
 1. Under **Configure SAML**, click **Configure**. An overlay for configuring SAML opens.<br><br>
     ![SAML SSO configuration overlay in the Cobalt app](/deepdive/configure-SAML-overlay.png "SAML SSO configuration overlay in the Cobalt app")
-1. Enter the following values from Okta. In the Okta Admin Dashboard, select the **Sign On** tab for the Cobalt SAML app, then click **Edit**. Under **Metadata details**, click **More details**.
-    - **IdP SSO URL**: Enter **Sign on URL**.
-    - **IdP Certificate**: Enter **Signing Certificate**. Download the certificate, and copy the file contents including `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.
+1. In Cobalt, enter the following values from Okta. In the Okta Admin Dashboard, select the **Sign On** tab for the Cobalt SAML app, then click **Edit**. Under **Metadata details**, click **More details**.
+    - **IdP SSO URL**: Enter the **Sign on URL** from Okta.
+    - **IdP Certificate**: Enter the **Signing Certificate** from Okta.
     - Click **Save Configuration**.<br><br>
     ![Set the Application username format in Okta](/deepdive/Okta-SAML-configurations.png "Set the Application username format in Okta")
 1. In Okta, select the **Sign On** tab for the Cobalt SAML app, then click **Edit**.
