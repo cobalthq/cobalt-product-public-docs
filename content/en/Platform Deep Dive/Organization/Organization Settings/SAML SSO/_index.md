@@ -11,6 +11,18 @@ description: >
 Cobalt supports **identity provider-initiated SAML single sign-on (SSO)**. As an Organization Owner, you can configure SAML SSO with your preferred identity provider.
 {{% /pageinfo %}}
 
+In this article:
+- [SAML SSO overview](#saml-sso-overview)
+- [General configuration workflow](#general-configuration-workflow)
+- [Enforce SAML SSO](#enforce-saml-sso)
+- [Configuration instructions for specific identity providers](#configuration-instructions-for-specific-identity-providers)
+  - [Azure AD](#azure-ad)
+  - [Duo](#duo)
+  - [Google](#google)
+  - [Okta](#okta)
+  - [OneLogin](#onelogin)
+- [Troubleshoot your SAML SSO configuration](#troubleshoot-your-saml-sso-configuration)
+
 ## SAML SSO Overview
 
 {{% sso-definition %}} The Cobalt SSO service is based on the [Security Assertion Markup Language 2.0 (SAML 2.0)](/getting-started/glossary/#security-assertion-markup-language) specifications. Learn more about [SAML SSO](/getting-started/glossary/#saml-single-sign-on-sso).
@@ -88,6 +100,10 @@ To enforce SAML SSO for your organization:
 
 ### Azure AD
 
+Learn how to configure SAML SSO with Azure Active Directory (Azure AD).
+
+{{%expand "Click to view instructions." %}}
+<br>
 To configure SAML SSO with Azure Active Directory (Azure AD):
 
 1. In Azure AD, create an [enterprise non-gallery application](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal) for Cobalt.
@@ -114,6 +130,7 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
     - **IdP Certificate**: Enter **Certificate (Base64)** from Azure AD.
 1. [Test your configuration](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal-setup-sso#test-single-sign-on).
 1. If the test is successful, [assign users](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal-assign-users#assign-a-user-account-to-an-enterprise-application) to the application.
+{{% /expand %}}
 
 ### Duo
 
@@ -173,33 +190,49 @@ Once you've completed the setup, your application for Cobalt appears in the Goog
 
 If you create an application for Okta **manually**, use the following parameters.-->
 
-We recommend creating a non-gallery SAML application for Cobalt manually. For details, read Okta's [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
+We recommend creating a **non-gallery SAML application** for Cobalt manually. For more information, refer to Okta [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
 
-| For This Parameter in Cobalt | Enter This Value from Okta |
-|---|---|
-| IdP SSO URL | Sign on URL (Identity Provider Single Sign-On URL) |
-| IdP Certificate | Signing Certificate (X.509 Certificate) |
-
+{{%expand "Click to view instructions." %}}
 <br>
+To create a non-gallery SAML app for Cobalt in Okta:
 
-| For This Parameter in Okta | Enter This Value from Cobalt |
-|---|---|
-| Single sign-on URL | ACS URL (unique value for each organization) |
-| Audience URI (SP Entity ID) | `https://api.cobalt.io/users/saml/metadata` |
+1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**. You will need the following values in the next steps:
+    - **ACS URL**
+    - **Entity ID**<br><br>
+    ![Configure a non-gallery SAML app for Okta in the Cobalt app](/deepdive/configure-non-gallery-SAML-app-in-Okta-1.png "Configure a non-gallery SAML app for Okta in the Cobalt app")
+1. In Okta, in the Admin Console, go to **Applications** > **Applications**.
+1. Select **Create App Integration**.
+1. In the overlay that appears, select **SAML 2.0** as the sign-in method, and then select **Next**.
+1. On the **General Settings** tab, enter general information for the integration, then select **Next**.
+1. On the **Configure SAML** tab, under **General**, enter SAML details:
+    -  **Single sign-on URL**: Enter **ACS URL** from Cobalt.
+    - **Audience URI (SP Entity ID)**: Enter `https://api.cobalt.io/users/saml/metadata`.
+    - Leave the **Default RelayState** field empty.
+    - For other fields, use default values.<br><br>
+    ![Configure a non-gallery SAML app in Okta](/deepdive/configure-non-gallery-SAML-app-in-Okta-2.png "Configure a non-gallery SAML app in Okta")
+1. Still on the **Configure SAML** tab, under **Attribute Statements (optional)**, add the following mapping attribute:
+    - **email**: `user.email`<br><br>
+    ![Set Attribute Statements in the Cobalt SAML app in Okta](/deepdive/Okta-manual-app-attributes.png "Set Attribute Statements in the Cobalt SAML app in Okta")
+1. Select **Next**.
+1. On the **Feedback** tab, select **I'm an Okta customer adding an internal app**, and then select **Finish**.
+1. Once you've created a SAML application, on the **Sign on** tab, under **Metadata details**, click **More details**. You need the following values to complete the configuration in Cobalt:
+    - **Sign on URL**
+    - **Signing Certificate**<br><br>
+    ![Configure a non-gallery SAML app in Okta](/deepdive/configure-non-gallery-SAML-app-in-Okta-3.png "Configure a non-gallery SAML app in Okta")
+1. In Cobalt, enter the following values from Okta, and then select **Save Configuration**.
+    - **IdP SSO URL**: Enter the **Sign on URL** from Okta.
+    - **IdP Certificate**: Enter the **Signing Certificate** from Okta.
+1. Test the integration.
+1. If the test is successful, assign users to the application.
 
-<br>
-
-In Okta:
-
-- Leave the **Default RelayState** field empty.
-- In **Attribute Statements**, add the following mapping attribute:
-  - **email**: `user.email`<br><br>
-  ![Set Attribute Statements in the Cobalt SAML app in Okta](/deepdive/Okta-manual-app-attributes.png "Set Attribute Statements in the Cobalt SAML app in Okta")
+{{% /expand %}}
 
 ### OneLogin
 
-For more information about setting up SAML SSO with OneLogin, refer to their [documentation](https://developers.onelogin.com/saml).
+Learn how to configure SAML SSO with OneLogin. For more information, refer to OneLogin [documentation](https://developers.onelogin.com/saml).
 
+{{%expand "Click to view instructions." %}}
+<br>
 To configure SAML SSO with OneLogin:
 
 1. Create a custom application connector for Cobalt. Follow OneLogin instructions to [build a SAML Custom Connector (Advanced)](https://onelogin.service-now.com/support?id=kb_article&sys_id=912bb23edbde7810fe39dde7489619de&kb_category=93e869b0db185340d5505eea4b961934). Enter the following values for configuration parameters in OneLogin:
@@ -222,6 +255,7 @@ To configure SAML SSO with OneLogin:
     - Go to **Administration**.
     - In the menu, select **Users** > **Users**.
     - Assign users to your application.
+{{% /expand %}}
 
 ## Troubleshoot Your SAML SSO Configuration
 
