@@ -157,8 +157,8 @@ To create a SAML app for Cobalt in Duo:
     - **Signature algorithm**: `SHA256`
     - **Signing options**: Select **Sign response** and **Sign assertion**.
     - **Map attributes**:
-    - **IdP Attribute**: `mail`
-    - **SAML Response Attribute**: `email`
+      - **IdP Attribute**: `mail`
+      - **SAML Response Attribute**: `email`
 1. Complete other required steps.
 1. Test the integration.
 1. If the test is successful, assign users to the application.
