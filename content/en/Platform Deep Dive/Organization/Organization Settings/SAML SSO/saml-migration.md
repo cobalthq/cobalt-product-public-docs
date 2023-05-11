@@ -15,7 +15,7 @@ This page is for [Organization Owners](/getting-started/glossary/#organization-o
 
 - If you don't update your SAML configuration by the end of the transition period, we'll deprecate your legacy configuration settings. This means you will not be able to sign in to Cobalt.
 - Make sure to update configurations for each organization where you're an Organization Owner.
-- If you don't have a legacy SAML setup, please visit [Configure SAML SSO](/platform-deep-dive/organization/organization-settings/saml-sso/) for instructions.
+- If you don't have a legacy setup and want to enable SAML, please visit [Configure SAML SSO](/platform-deep-dive/organization/organization-settings/saml-sso/) for instructions.
 
 ## What Has Changed in the SAML Implementation
 
