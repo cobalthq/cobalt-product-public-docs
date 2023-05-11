@@ -89,11 +89,11 @@ To update your existing SAML configuration with Duo:
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - **IdP Certificate**: Enter **Certificate** from Duo.
 
-If you want to set up a new application, see the [general workflow](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Duo](/platform-deep-dive/organization/organization-settings/saml-sso/#duo).
+If you want to set up a new application, follow this [instruction](/platform-deep-dive/organization/organization-settings/saml-sso/#duo).
 
 #### Google
 
-We recommend creating a new SAML app with Google. See the [general workflow](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Google](/platform-deep-dive/organization/organization-settings/saml-sso/#google).
+We recommend creating a new SAML app with Google. For details, follow this [instruction](/platform-deep-dive/organization/organization-settings/saml-sso/#google).
 
 <!--
 To update your existing SAML configuration with Google:
@@ -140,7 +140,7 @@ Learn how to update your existing SAML configuration with Okta.
 {{% /expand %}}
 <br>
 
-If you want to set up a new application, see the [general workflow](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Okta](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
+If you want to set up a new application, follow this [instruction](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
 
 <!--
 ##### Gallery SAML App for Cobalt
@@ -180,7 +180,7 @@ To update your existing SAML configuration with OneLogin:
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - **IdP Certificate**: Enter **X.509 Certificate** from OneLogin.
 
-If you want to set up a new application, see the [general workflow](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [OneLogin](/platform-deep-dive/organization/organization-settings/saml-sso/#onelogin).
+If you want to set up a new application, follow this [instruction](/platform-deep-dive/organization/organization-settings/saml-sso/#onelogin).
 
 ## Troubleshooting
 
