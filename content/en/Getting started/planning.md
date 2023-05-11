@@ -32,7 +32,7 @@ The pentest scope determines the number of credits required for a pentest. The b
 
 To set the pentest scope, identify the complexity of your asset. Under **Scoping**, specify the number of characteristics associated with the asset that need to be tested. To get exact numbers, consult with the asset owner inside your organization.
 
-The characteristics differ for each [asset type](/getting-started/assets/asset-type/):
+The characteristics differ for each [asset type](/platform-deep-dive/assets/asset-types/):
 
 - [Web](#web)
 - [Mobile](#mobile)
