@@ -100,7 +100,7 @@ To enforce SAML SSO for your organization:
 
 ### Azure AD
 
-Learn how to configure SAML SSO with Azure Active Directory (Azure AD).
+Learn how to configure SAML SSO with Azure Active Directory (Azure AD) as IdP.
 
 {{%expand "Click to view instructions." %}}
 <br>
@@ -134,52 +134,65 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
 
 ### Duo
 
-To set up SAML SSO with Duo, read their [documentation](https://duo.com/docs/sso-generic).
+Learn how to configure SAML SSO with Duo as IdP. For more information, refer to Duo [documentation](https://duo.com/docs/sso-generic).
 
-| For This Parameter in Cobalt | Enter This Value from Duo |
-|---|---|
-| IdP SSO URL | Single Sign-On URL |
-| IdP Certificate | Certificate |
-
+{{%expand "Click to view instructions." %}}
 <br>
+To create a SAML app for Cobalt in Duo:
 
-| For This Parameter in Duo | Enter This Value from Cobalt |
-|---|---|
-| Assertion Consumer Service (ACS) URL | ACS URL (unique value for each organization) |
-| Entity ID | `https://api.cobalt.io/users/saml/metadata` |
+1. In the Duo Admin Panel, go to **Applications**, and select **Protect an Application**. For details, read this [instruction](https://duo.com/docs/sso-generic).
+1. Under **Metadata**, copy the following values. You will need to add them to Cobalt in the next step.
+    - **Single Sign-On URL**
+    - **Certificate**
+1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
+    - **IdP SSO URL**: Enter **Single Sign-On URL** from Duo.
+    - **IdP Certificate**: Enter **Certificate** from Duo.
+1. Still in Cobalt, copy the **ACS URL** value, then select **Save Configuration**.
+1. Go back to Duo. Under **Service Provider**, enter:
+    - **ACS URL**: **ACS URL** from Cobalt.
+    - **Entity ID**: `https://api.cobalt.io/users/saml/metadata`
+1. In Duo, complete the **SAML Response** section with:
+    - **NameID format**: `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
+    - **NameID attribute**: `mail`
+    - **Signature algorithm**: `SHA256`
+    - **Signing options**: Select **Sign response** and **Sign assertion**.
+    - **Map attributes**:
+    - **IdP Attribute**: `mail`
+    - **SAML Response Attribute**: `email`
+1. Complete other required steps.
+1. Test the integration.
+1. If the test is successful, assign users to the application.
 
-In Duo, complete the **SAML Response** section with:
-
-- **NameID format**: `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
-- **NameID attribute**: `mail`
-- **Signature algorithm**: `SHA256`
-- **Signing options**: Select **Sign response** and **Sign assertion**.
-- **Map attributes**:
-  - **IdP Attribute**: `mail`
-  - **SAML Response Attribute**: `email`
+{{% /expand %}}
 
 ### Google
 
-For instructions on how to enable SAML SSO with Google, read their [guide](https://support.google.com/a/answer/6087519?hl=en).
+Learn how to configure SAML SSO with Google as IdP. For more information, refer to Google [documentation](https://support.google.com/a/answer/6087519?hl=en).
 
-| For This Parameter in Cobalt | Enter This Value from Google |
-|---|---|
-| IdP SSO URL | SSO URL |
-| IdP Certificate | Certificate |
-
+{{%expand "Click to view instructions." %}}
 <br>
+To create a SAML app for Cobalt in the Google Admin console:
 
-| For This Parameter in Google | Enter This Value from Cobalt |
-|---|---|
-| ACS URL | ACS URL (unique value for each organization) |
-| Entity ID | `https://api.cobalt.io/users/saml/metadata` |
+1. In the Google Admin console, go to **Menu** > **Apps** > **Web and mobile apps**. Follow this [instruction](https://support.google.com/a/answer/6087519?hl=en) for more details.
+1. Select **Add App**> **Add custom SAML app**.
+1. On the **App Details** page, enter general information for the integration, then select **Continue**.
+1. On the **Google Identity Provider details** page, locate the following values. You will need to add them to Cobalt in the next step.
+    - **SSO URL**
+    - **Certificate**
+1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
+    - **IdP SSO URL**: Enter **SSO URL** from the Google Admin console.
+    - **IdP Certificate**: Enter **Certificate** from the Google Admin console.
+1. Still in Cobalt, copy the **ACS URL** value, then select **Save Configuration**.
+1. Go back to the Google Admin console. In the **Service Provider Details** window, enter:
+    - **ACS URL**: **ACS URL** from Cobalt.
+    - **Entity ID**: `https://api.cobalt.io/users/saml/metadata`
+1. Leave the **Signed Response** option unselected (default).
+1. On the **Attribute Mapping** page, add an attribute `email`, and select **Basic Information** and **Primary Email**.
+1. Complete other required steps.
+1. Test the integration.
+1. If the test is successful, assign users to the application.
 
-In the Google Admin console, configure the following:
-
-- On the **Service Provider Details** page, leave the **Signed Response** option unselected (default).
-- On the **Attribute Mapping** page, add an attribute `email`, and select **Basic Information** and **Primary Email**.
-
-Once you've completed the setup, your application for Cobalt appears in the Google Workspace.
+{{% /expand %}}
 
 ### Okta
 
@@ -229,7 +242,7 @@ To create a non-gallery SAML app for Cobalt in Okta:
 
 ### OneLogin
 
-Learn how to configure SAML SSO with OneLogin. For more information, refer to OneLogin [documentation](https://developers.onelogin.com/saml).
+Learn how to configure SAML SSO with OneLogin as IdP. For more information, refer to OneLogin [documentation](https://developers.onelogin.com/saml).
 
 {{%expand "Click to view instructions." %}}
 <br>
