@@ -122,7 +122,15 @@ To scope a pentest for a combined asset, specify the number of characteristics f
 
 ## View Required Credits
 
-Once you’ve identified the [pentest scope](#scope-the-pentest), you can see the number of required credits in **Credit(s) Per Pentest**. Whenever you adjust the scope, our algorithm updates the number of credits. Under **Credits**, you can also view your **Available Balance**.
+Once you've identified the [pentest scope](#scope-the-pentest), you can see the number of required credits in **Credit(s) Per Pentest**. Whenever you adjust the scope, our algorithm updates the number of credits. Under **Credits**, you can also view your **Available Balance**.
+
+## Assign a Point of Contact
+
+Cobalt Staff may reach out to the point of contact with questions regarding the pentest.
+
+- You can assign yourself as the point of contact.
+- To assign other users, go to the **Collaborators** tab on the pentest page.
+- Organization Owners, Organization Members, and Pentest Team Members can assign a point of contact when the pentest is in the Draft or In Review states.
 
 ## Next Step
 

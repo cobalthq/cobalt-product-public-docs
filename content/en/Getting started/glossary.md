@@ -359,6 +359,12 @@ A summary of all vulnerability reports, including observations on positive secur
 
 Within Cobalt, this is also known as a Report or a Final Report. For more information, see [Pentest Reports](/platform-deep-dive/pentests/reports/).
 
+## Point of Contact
+
+A user assigned as the point of contact on a pentest may be contacted by Cobalt Staff members with questions regarding the pentest.
+
+Learn more about [assigning a point of contact](/getting-started/planning/#assign-a-point-of-contact).
+
 ## Projects (Cloud Assets)
 
 All resources included in your cloud [asset](#asset). For example, [AWS defines a project](https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/create-project.html) as a collection of resources associated with an asset.
