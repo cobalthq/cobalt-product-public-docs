@@ -165,6 +165,11 @@ no = 'Sorry to hear that. Please <a href="https://github.com/cobalthq/cobalt-pro
 	icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news"
 [[params.links.user]]
+	name ="Instagram"
+	url = "https://www.instagram.com/cobalt_io/?hl=en"
+	icon = "fab fa-instagram"
+        desc = "Check what we post on Instagram"
+[[params.links.user]]
 	name ="YouTube"
 	url = "https://www.youtube.com/channel/UCsWLzFUqOmAmjfP_CKMnO3g"
 	icon = "fab fa-youtube"
