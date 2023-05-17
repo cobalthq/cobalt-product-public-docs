@@ -78,7 +78,7 @@ a cloud, you can include the platform and system name in the text box.
 ![Cloud Platform Details](/gsg/CloudPlatformDetails.png "Does your asset include cloud components?")
 
 In some cases, you may need to inform your Cloud provider about tests. For guidance,
-see our page on [Cloud Methodologies](/platform-deep-dive/pentests/pentest-process/methodologies/cloud/).
+see our page on [Cloud Methodologies](/methodologies/cloud/).
 
 ### Additional Guidelines
 

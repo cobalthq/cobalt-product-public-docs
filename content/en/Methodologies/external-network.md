@@ -6,6 +6,7 @@ description: >
   Review methodologies for External Networks. Includes instances of Microsoft Office 365.
 aliases:
     - /getting-started/pentest-objectives/methodologies/external-network/
+    - /platform-deep-dive/pentests/pentest-process/methodologies/external-network/
 ---
 
 {{% pageinfo %}}
