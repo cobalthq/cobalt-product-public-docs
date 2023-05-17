@@ -14,23 +14,18 @@ Navigate to the **Settings** page in the Cobalt app.
 If your user role allows, you can:
 
 - Edit the [organization profile](#edit-the-organization-profile)
-- Configure [advanced settings](#manage-identity-and-access-settings): two-factor authentication and SAML-based single sign-on
+- Configure [security settings](#manage-security-settings)
 
 ## Edit the Organization Profile
 
-Both [Organization Owners](/getting-started/glossary/#organization-owner) and [Members](/getting-started/glossary/#organization-member) can do the following on the **General** tab:
+Both [Organization Owners](/getting-started/glossary/#organization-owner) and [Members](/getting-started/glossary/#organization-member) can edit the organization profile on the **General** tab in **Settings**:
 
 - Upload an image for their organization.
-- Edit the name and slug.
-  - The slug appears in the URL.
+- Edit the name and slug. The slug appears in the URL.
 
-![Configure general organization settings](/deepdive/GeneralOrganizationSettings.png "Configure general organization settings")
+## Manage Security Settings
 
-## Manage Identity and Access Settings
+Only [Organization Owners](/getting-started/glossary/#organization-owner) can manage security settings on the **Identity & Access** tab:
 
-Only [Organization Owners](/getting-started/glossary/#organization-owner) can manage advanced settings:
-
-- [Enforce two-factor authentication](/platform-deep-dive/organization/organization-settings/enforce-2fa/) for all users within the organization
-- Configure [SAML-based single sign-on (SSO)](/platform-deep-dive/organization/organization-settings/saml-sso/)
-
-![Configure identity and access settings](/deepdive/IdentityAndManagementSettings.png "Configure identity and access settings")
+- [Enforce two-factor authentication](/platform-deep-dive/organization/organization-settings/enforce-2fa/) for all users within the organization.
+- Configure [SAML-based single sign-on (SSO)](/platform-deep-dive/organization/organization-settings/saml-sso/).
