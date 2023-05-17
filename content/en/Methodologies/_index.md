@@ -1,15 +1,16 @@
 ---
-title: "Pentest Methodologies"
-linkTitle: "Pentest Methodologies"
-weight: 10
+title: "Cobalt Penetration Testing Methodologies"
+linkTitle: "Methodologies"
+weight: 7
 description: >
-  An overview of available pentest methodologies.
+  An overview of Cobalt pentest methodologies.
 aliases:
     - /getting-started/pentest-objectives/methodologies/
+    - /platform-deep-dive/pentests/pentest-process/methodologies/
 ---
 
 {{% pageinfo %}}
-Our pentesters follow specific methodologies for different types of assets.
+Cobalt pentesters follow specific methodologies for different types of assets.
 {{% /pageinfo %}}
 
 By default, our pentesters test for industry standard vulnerabilities from:
@@ -22,12 +23,12 @@ By default, our pentesters test for industry standard vulnerabilities from:
 For more information on how we pentest, refer to the detailed pages associated with your
 asset.
 
-- [Web](/platform-deep-dive/pentests/pentest-process/methodologies/web-methodologies/)
-- [API](/platform-deep-dive/pentests/pentest-process/methodologies/api-methodologies/)
-- [Mobile](/platform-deep-dive/pentests/pentest-process/methodologies/mobile/)
-- [Internal Network](/platform-deep-dive/pentests/pentest-process/methodologies/internal-network/)
-- [External Network](/platform-deep-dive/pentests/pentest-process/methodologies/external-network/)
-- [Cloud](/platform-deep-dive/pentests/pentest-process/methodologies/cloud/)
+- [Web](/methodologies/web-methodologies/)
+- [API](/methodologies/api-methodologies/)
+- [Mobile](/methodologies/mobile/)
+- [Internal Network](/methodologies/internal-network/)
+- [External Network](/methodologies/external-network/)
+- [Cloud](/methodologies/cloud/)
 
 In most cases, the Methodology is fixed, based on the [Asset Type](/getting-started/assets/asset-type/)
 you defined earlier. However, if you selected a combined asset type, such as Web + API, you

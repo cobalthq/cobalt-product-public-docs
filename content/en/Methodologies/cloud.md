@@ -6,6 +6,7 @@ description: >
   Review methodologies for Cloud Configurations.
 aliases:
     - /getting-started/pentest-objectives/methodologies/cloud/
+    - /platform-deep-dive/pentests/pentest-process/methodologies/cloud/
 ---
 
 {{% pageinfo %}}
@@ -28,7 +29,7 @@ here: -->
 
 We test cloud assets based on the cloud pentest methodologies listed on this
 page. If you want a network pentest of your cloud asset, ask us for an [External
-Network Pentest](/platform-deep-dive/pentests/pentest-process/methodologies/external-network/).
+Network Pentest](/methodologies/external-network/).
 
 ## Common Requirements
 
