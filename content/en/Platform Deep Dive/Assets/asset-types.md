@@ -14,8 +14,8 @@ We can perform pentests on assets in the following categories:
 
 {{% asset-types-table %}}
 
-{{< alert title="Note" color="primary" >}}
-We support additional asset types for Specialized Pentests conducted by the Cobalt [Professional Services](https://www.cobalt.io/services/cybersecurity-consulting) team: IoT, Physical, Thick Client, and Wireless Network. Learn more about [Specialized Pentests](/getting-started/glossary/#specialized-pentest).
+{{< alert title="Additional Asset Types" color="primary" >}}
+We support additional asset types for advanced pentest engagements conducted by the Cobalt [Professional Services](https://www.cobalt.io/services/cybersecurity-consulting) team: **IoT**, **Physical**, **Thick Client**, **Wireless Network**, and more. Learn more about [Professional Services pentests](/professional-services/).
 
-To launch a Specialized Pentest tailored to your needs, contact our [Professional Services](https://www.cobalt.io/services/cybersecurity-consulting) team.
+To launch an advanced pentest, **contact our Professional Services team** at [professional_services@cobalt.io](mailto:professional_services@cobalt.io).
 {{< /alert >}}

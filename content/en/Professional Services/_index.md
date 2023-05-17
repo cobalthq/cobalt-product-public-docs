@@ -89,4 +89,4 @@ To launch an advanced pentest, **contact our Professional Services team** at [pr
 Once we've set up a Specialized pentest, you can:
 
 - Edit [asset details](/getting-started/assets/#asset-details), except for the asset type.
-- Edit pentest details. Some pentest parameters may slightly differ for advanced pentests.
+- Edit pentest details. Some pentest parameters may slightly differ for Specialized pentests.
