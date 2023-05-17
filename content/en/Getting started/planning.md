@@ -13,17 +13,20 @@ Set the start date for your pentest and define its scope.
 ![Workflow for creating a pentest](/gsg/CreatePentestFlowStage6.png "Workflow for creating a pentest")
 <br>
 
+In the fourth step of the pentest wizard, you can:
+
+- [Schedule the pentest](#schedule-the-pentest)
+- [Scope the pentest](#scope-the-pentest)
+
+![Schedule and scope your pentest](/gsg/pentest-planning.png "Schedule and scope your pentest")
+
 ## Schedule the Pentest
 
-Depending on your {{% ptaas-tier %}},
-we can help you schedule pentests with a start date from at least one to three business days after you select **Submit for Review**.
+Depending on your {{% ptaas-tier %}}, we can help you schedule pentests with a start date from at least one to three business days after you select **Submit for Review**.
 
 The standard testing period is 14 days. It may vary depending on the pentest scope and other factors.
 
-![Planning and scoping a pentest](/gsg/ScheduleScopePentest.png "Schedule and scope your pentest")
-
-If you have any [special requirements](/getting-started/review-pentest/#additional-requests), such as qualifications for pentester certifications,
-we reserve the right to start the pentest later than the flow time specified in your
+If you have any [special requirements](/getting-started/review-pentest/#additional-requests), such as qualifications for pentester certifications, we reserve the right to start the pentest later than the flow time specified in your
 {{% ptaas-tier %}}.
 
 ## Scope the Pentest
@@ -46,7 +49,16 @@ Once you’ve scoped the pentest, review the required [credits](#view-required-c
 
 ### Web
 
-To scope a pentest for a Web asset, specify the number of the following characteristics of the asset that need to be tested:
+To scope a pentest for a Web asset, first determine the following:
+
+- Do you have a **traditional** or a [single-page application (SPA)](/getting-started/glossary/#single-page-application)?
+  - **Traditional application**: How many **dynamic pages** does the app have?
+  - **Single-page application**: How many **routes** does the app have?
+- What is the **technology stack**?
+- How many **user roles** do you want to test?
+- Do you have any **special requirements**?
+
+Specify the number of the following characteristics of the asset that need to be tested:
 
 | Scoping Parameter | Definition | Notes |
 |---|---|---|
