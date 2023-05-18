@@ -29,6 +29,7 @@ asset.
 - [Internal Network](/methodologies/internal-network/)
 - [External Network](/methodologies/external-network/)
 - [Cloud](/methodologies/cloud/)
+- [Azure AD](/methodologies/azure-ad/)
 
 In most cases, the Methodology is fixed, based on the [Asset Type](/getting-started/assets/asset-type/)
 you defined earlier. However, if you selected a combined asset type, such as Web + API, you
