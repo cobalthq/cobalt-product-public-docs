@@ -33,7 +33,7 @@ The pentest scope determines the number of credits required for a pentest. The b
 {{% alert title="Scoping a Comprehensive Pentest" color="primary" %}}
 When you set up a new <a href="/getting-started/glossary/#comprehensive-pentest">Comprehensive pentest</a> for an asset that you've already comprehensively tested earlier, you can:
 
-- **Inherit the scope** from the last completed Comprehensive pentest for this asset; or
+- **Inherit the scope** of your last completed Comprehensive pentest for this asset; or
 - **Change the scope** by adjusting scoping parameters, as described below.
 {{% /alert %}}
 
