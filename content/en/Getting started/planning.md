@@ -30,6 +30,13 @@ we reserve the right to start the pentest later than the flow time specified in 
 
 The pentest scope determines the number of credits required for a pentest. The bigger the scope, the more credits you need.
 
+{{% alert title="Scoping a Comprehensive Pentest" color="primary" %}}
+When you set up a new <a href="/getting-started/glossary/#comprehensive-pentest">Comprehensive pentest</a> for an asset that you've already comprehensively tested earlier, you can:
+
+- **Inherit the scope** from the last completed Comprehensive pentest for this asset; or
+- **Change the scope** by adjusting scoping parameters, as described below.
+{{% /alert %}}
+
 To set the pentest scope, identify the complexity of your asset. Under **Scoping**, specify the number of characteristics associated with the asset that need to be tested. To get exact numbers, consult with the asset owner inside your organization.
 
 The characteristics differ for each [asset type](/getting-started/assets/asset-type/):
@@ -122,7 +129,9 @@ To scope a pentest for a combined asset, specify the number of characteristics f
 
 ## View Required Credits
 
-Once you’ve identified the [pentest scope](#scope-the-pentest), you can see the number of required credits in **Credit(s) Per Pentest**. Whenever you adjust the scope, our algorithm updates the number of credits. Under **Credits**, you can also view your **Available Balance**.
+Once you've identified the [pentest scope](#scope-the-pentest), you can see the number of estimated credits in **Credit(s) Per Pentest**. Whenever you adjust the scope, our algorithm updates the number of credits.
+
+You can see the final number of required credits when the pentest is Planned, after we review your pentest request.
 
 ## Next Step
 
