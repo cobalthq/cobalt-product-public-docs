@@ -94,7 +94,10 @@ Learn how to configure SAML SSO with Azure Active Directory (Azure AD) as IdP.
 <br>
 To configure SAML SSO with Azure Active Directory (Azure AD):
 
-1. In Azure AD, create an [enterprise non-gallery application](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal) for Cobalt.
+1. In Azure AD, create an enterprise non-gallery application for Cobalt.
+    - Select **Enterprise applications**, then select **New application**.
+    - Select **Non-gallery application**.
+    - Enter a name for your application, and complete other required steps.
 1. [Enable SSO](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal-setup-sso) for the application. If available, follow the instructions that you see in the UI.
     - Verify that the single sign-on method for your application is SAML.
     - Under **Basic SAML Configuration**, enter:
