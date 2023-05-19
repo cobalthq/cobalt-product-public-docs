@@ -32,6 +32,6 @@ date of release.
 | [Prevent Insecure Design in SQL](/bestpractices/secure-design/)                     | 2022-10-21   | {{% shashank %}}      |
 | [Protect Your APIs With Rate Limiting](/bestpractices/api-rate-limiting/)           | 2022-10-21   | {{% payloadartist %}} |
 | [Prevent Server-Side Template Injections](/bestpractices/prevent-ssti/)             | 2022-10-21   | {{% unstabl3 %}}      |
-| [Validate User Input](/bestpractices/input-validation)                             | 2022-08-19   | {{% payloadartist %}} |
+| [Validate User Input](/bestpractices/input-validation/)                             | 2022-08-19   | {{% payloadartist %}} |
 | [Prevent Security Misconfiguration](/bestpractices/prevent-security-misconfig/)     | 2022-08-19   | {{% shashank %}}      |
 | [Protect Against Server-Side Request Forgery](/bestpractices/protect-against-ssrf/) | 2022-08-19   | {{% harsh-bothra %}}  |
