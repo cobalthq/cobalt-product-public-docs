@@ -243,7 +243,7 @@ Learn how to configure SAML SSO with OneLogin as IdP. For more information, refe
 To configure SAML SSO with OneLogin:
 
 1. Create a custom application connector for Cobalt. Follow OneLogin instructions to [build a SAML Custom Connector (Advanced)](https://onelogin.service-now.com/support?id=kb_article&sys_id=912bb23edbde7810fe39dde7489619de&kb_category=93e869b0db185340d5505eea4b961934).
-1. Enter the following values for configuration parameters in OneLogin:
+1. In OneLogin, enter the following values for configuration parameters:
     - **Audience (EntityID)**: `https://api.cobalt.io/users/saml/metadata`
     - **Recipient**, **ACS (Consumer) URL Validator**, and **ACS (Consumer) URL**: ACS URL (unique value for each organization).<br>Copy the value in the Cobalt app in **Settings** > **Identity & Access** > **Configure SAML**.
     - **SAML initiator**: OneLogin
@@ -255,8 +255,7 @@ To configure SAML SSO with OneLogin:
     - **IdP SSO URL**: Enter **SAML 2.0 Endpoint (HTTP)** from OneLogin.
     - **IdP Certificate**: Enter **X.509 Certificate** from OneLogin.<br>
     You can find these parameters in OneLogin on the **SSO** tab of your application connector.
-1. Navigate to your application connector in OneLogin.
-1. On the **Parameters** tab, select **Add Parameter**.
+1. Navigate to your application connector in OneLogin. On the **Parameters** tab, select **Add Parameter**.
     - Under **Field name**, enter `email`, then select **Include in SAML assertion**, and select **Save**.
     - Under **Value**, select **Email**, and select **Save**.
 1. To test your configuration, sign in to OneLogin as your assigned user. You should see a custom application for Cobalt that you configured.
