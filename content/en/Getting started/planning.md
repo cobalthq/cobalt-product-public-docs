@@ -171,7 +171,7 @@ Cobalt pentesters can test services on the following platforms:
 
 Each platform includes different categories of services, such as EC2, databases, and machine learning engines.
 
-![Scoping parameters for a Cloud Configuration asset](/gsg/pentest-scoping-ip-addresses.png "Scoping parameters for a Cloud Configuration asset")
+![Scoping parameters for a Cloud Configuration asset](/gsg/pentest-scoping-cloud-config.png "Scoping parameters for a Cloud Configuration asset")
 
 | Scoping Parameter | Definition | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|---|
