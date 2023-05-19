@@ -11,18 +11,6 @@ description: >
 Cobalt supports **identity provider-initiated SAML single sign-on (SSO)**. As an Organization Owner, you can configure SAML SSO with your preferred identity provider.
 {{% /pageinfo %}}
 
-In this article:
-- [SAML SSO overview](#saml-sso-overview)
-- [General configuration workflow](#general-configuration-workflow)
-- [Enforce SAML SSO](#enforce-saml-sso)
-- [Configuration instructions for specific identity providers](#configuration-instructions-for-specific-identity-providers)
-  - [Azure AD](#azure-ad)
-  - [Duo](#duo)
-  - [Google](#google)
-  - [Okta](#okta)
-  - [OneLogin](#onelogin)
-- [Troubleshoot your SAML SSO configuration](#troubleshoot-your-saml-sso-configuration)
-
 ## SAML SSO Overview
 
 {{% sso-definition %}} The Cobalt SSO service is based on the [Security Assertion Markup Language 2.0 (SAML 2.0)](/getting-started/glossary/#security-assertion-markup-language) specifications. Learn more about [SAML SSO](/getting-started/glossary/#saml-single-sign-on-sso).
