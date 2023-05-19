@@ -98,7 +98,7 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
     - Select **Enterprise applications**, then select **New application**.
     - Select **Non-gallery application**.
     - Select **Create your own application**.
-    - Enter a name for your application, the select **Create**.
+    - Enter a name for your application, then select **Create**.
     - Wait for the application to load.
 1. Enable SSO for the application.
     - On the application page, select **Set up single sign-on**.
