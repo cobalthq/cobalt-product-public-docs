@@ -30,6 +30,11 @@ addresses. You can typically find allowlists and denylists in files like
 
 An endpoint is typically a URL used to allow two software applications to communicate with each other. For example, `https://api.cobalt.io/orgs` is one endpoint that you can find at `https://docs.cobalt.io`.
 
+When [scoping a pentest for an API asset](/getting-started/planning/#api), ignore specific **parameters** and **HTTP methods** for each endpoint. For example, these are two different HTTP requests for the same endpoint:
+
+- `GET https://api.cobalt.io/pentests`
+- `POST https://api.cobalt.io/pentests`
+
 Some [RESTful API](#restful-api) endpoints include additional information that may make them seem different. For example, the following two URLs are in fact the same endpoint, as the content after the ampersand (&) describes an action on data sent from that URL:
 
 - example.com/endpoint1&_prettyPrint=true
@@ -446,6 +451,8 @@ Cobalt may refer to this as the "scope" of your pentest. {{% scope-of-work %}}
 
 For more information, see https://developer.mozilla.org/en-US/docs/Glossary/SPA
 
+Contrast with [traditional web application](#traditional-web-application).
+
 ## Specialized Pentest
 
 A Specialized Pentest that you see in the Cobalt UI is a pentest engagement conducted by the Cobalt [Professional Services](https://www.cobalt.io/services/cybersecurity-consulting) team. Professional Services are an extension of our core [PtaaS platform](https://www.cobalt.io/ptaas) offering which provides access to Cobalt security experts who act as an extension of your internal team.
@@ -477,6 +484,12 @@ To launch a Specialized Pentest tailored to your needs, contact our [Professiona
 ## Static Web Page
 
 Some applications are built solely on HTML, and do not change depending on the user or location. Contrast with [Dynamic Web Pages](#dynamic-web-page).
+
+## Traditional Web Application
+
+A web application that consists of a web browser on the client side and a web server. Most of the application logic is performed on the server side.
+
+May also be referred to as **multi-page application (MPA)**. Contrast with [single-page application](#single-page-application).
 
 ## User Role
 
