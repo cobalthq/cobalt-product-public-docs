@@ -119,8 +119,8 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - **IdP SSO URL**: Enter **Login URL** from Azure AD.
     - **IdP Certificate**: Enter **Certificate (Base64)** from Azure AD.
-1. [Test your configuration](https://learn.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal-setup-sso#test-single-sign-on).
-1. If the test is successful, [assign users](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal-assign-users#assign-a-user-account-to-an-enterprise-application) to the application.
+1. Test your configuration.
+1. If the test is successful, assign users to the application.
 {{% /expand %}}
 
 ### Duo
