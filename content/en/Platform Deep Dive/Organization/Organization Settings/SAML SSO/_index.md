@@ -97,9 +97,12 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
 1. In Azure AD, create an enterprise non-gallery application for Cobalt.
     - Select **Enterprise applications**, then select **New application**.
     - Select **Non-gallery application**.
-    - Enter a name for your application, and complete other required steps.
-1. [Enable SSO](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/add-application-portal-setup-sso) for the application. If available, follow the instructions that you see in the UI.
-    - Verify that the single sign-on method for your application is SAML.
+    - Select **Create your own application**.
+    - Enter a name for your application, the select **Create**.
+    - Wait for the application to load.
+1. Enable SSO for the application.
+    - On the application page, select **Set up single sign-on**.
+    - On the **Select a single sign-on method** screen, select **SAML**.
     - Under **Basic SAML Configuration**, enter:
        - **Identifier (Entity ID)**: `https://api.cobalt.io/users/saml/metadata`
        - **Reply URL** (Assertion Consumer Service URL): **ACS URL** from Cobalt (unique value for each organization).<br>Copy the value in the Cobalt app in **Settings** > **Identity & Access** > **Configure SAML**.
