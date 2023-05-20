@@ -1,1 +1,1 @@
-A Cobalt credit is a standardized unit of work that represents 8 pentesting hours.
+A **Cobalt credit** is a standardized unit of work that represents 8 pentesting hours.

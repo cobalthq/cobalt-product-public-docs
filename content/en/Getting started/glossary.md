@@ -176,7 +176,7 @@ As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a co
 
 ## Dynamic Web Page
 
-Many applications have web pages with dynamic content, which can be built on the server or the client. Contrast with [Static Web Pages](#static-web-page).
+A web page with dynamic content that a user can interact with. The content can be built on the server or the client side. Contrast with [Static Web Pages](#static-web-page).
 
 ## Environment
 
@@ -451,7 +451,7 @@ Cobalt may refer to this as the "scope" of your pentest. {{% scope-of-work %}}
 
 For more information, see https://developer.mozilla.org/en-US/docs/Glossary/SPA
 
-Contrast with [traditional web application](#traditional-web-application).
+Contrast with [Traditional Web Application](#traditional-web-application).
 
 ## Specialized Pentest
 
@@ -483,13 +483,13 @@ To launch a Specialized Pentest tailored to your needs, contact our [Professiona
 
 ## Static Web Page
 
-Some applications are built solely on HTML, and do not change depending on the user or location. Contrast with [Dynamic Web Pages](#dynamic-web-page).
+A web page with static content that doesn't change depending on the user or location. Contrast with [Dynamic Web Pages](#dynamic-web-page).
 
 ## Traditional Web Application
 
 A web application that consists of a web browser on the client side and a web server. Most of the application logic is performed on the server side.
 
-May also be referred to as **multi-page application (MPA)**. Contrast with [single-page application](#single-page-application).
+May also be referred to as **multi-page application (MPA)**. Contrast with [Single-Page Application](#single-page-application).
 
 ## User Role
 
