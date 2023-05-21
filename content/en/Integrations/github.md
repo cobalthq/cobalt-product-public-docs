@@ -60,7 +60,7 @@ A new issue is created in your GitHub repository, and the issue number appears u
 
 ## Remove the Integration
 
-You may want to remove the integration for a specific pentest.
+You may want to remove the integration with GitHub for a specific pentest.
 
 1. In Cobalt, navigate to **Pentests**, and select the desired pentest.
 1. Go to the **Integrations** tab.
