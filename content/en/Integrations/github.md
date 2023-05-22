@@ -20,6 +20,8 @@ In this article:
 
 ## Integration Overview
 
+[GitHub](https://github.com/) is a code hosting platform for version control and collaboration.
+
 You can configure a **one-way integration** with GitHub to push Cobalt [findings](/platform-deep-dive/pentests/findings/) as issues to your GitHub repository.
 
 - You can only push findings manually, one finding at a time.
