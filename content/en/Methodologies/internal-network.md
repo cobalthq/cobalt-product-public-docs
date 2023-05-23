@@ -6,6 +6,7 @@ description: >
   Review methodologies for Internal Networks.
 aliases:
     - /getting-started/pentest-objectives/methodologies/internal-network/
+    - /platform-deep-dive/pentests/pentest-process/methodologies/internal-network/
 ---
 
 {{% pageinfo %}}

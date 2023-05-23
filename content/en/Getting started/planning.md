@@ -32,7 +32,7 @@ The pentest scope determines the number of credits required for a pentest. The b
 
 To set the pentest scope, identify the complexity of your asset. Under **Scoping**, specify the number of characteristics associated with the asset that need to be tested. To get exact numbers, consult with the asset owner inside your organization.
 
-The characteristics differ for each [asset type](/getting-started/assets/asset-type/):
+The characteristics differ for each [asset type](/platform-deep-dive/assets/asset-types/):
 
 - [Web](#web)
 - [Mobile](#mobile)
@@ -115,6 +115,7 @@ To scope a pentest for a Cloud Configuration asset, specify the number of the fo
 Sometimes, assets fit into more than one category. To that end, Cobalt supports pentests on assets in the following groups of categories:
 
 - [Web](#web) + [API](#api)
+- [Web](#web) + [API](#api) + [External Network](#external-network)
 - [Web](#web) + [External Network](#external-network)
 - [Web](#web) + [Mobile](#mobile)
 

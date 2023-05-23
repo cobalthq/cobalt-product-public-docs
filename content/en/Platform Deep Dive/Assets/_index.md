@@ -68,7 +68,7 @@ For more information about user permissions, see [User Roles and Permissions](/p
 
 No, you can only launch a pentest for a **single asset**.
 
-If your asset has multiple [methodologies](/platform-deep-dive/pentests/pentest-process/methodologies/), such as Web + API, you can choose a combined methodology. If the combination is not available, such as for Mobile + External Network, do the following:
+If your asset has multiple [methodologies](/methodologies/), such as Web + API, you can choose a combined methodology. If the combination is not available, such as for Mobile + External Network, do the following:
 
 1. Select one of the available asset types.
 1. Let your CSM know so that we can select pentesters with the appropriate expertise.

@@ -6,6 +6,7 @@ description: >
   Review methodologies for Mobile Apps.
 aliases:
     - /getting-started/pentest-objectives/methodologies/mobile/
+    - /platform-deep-dive/pentests/pentest-process/methodologies/mobile/
 ---
 
 {{% pageinfo %}}
@@ -80,7 +81,7 @@ Our pentesters focus on:
 
 Our pentesters may also reverse engineer the application for insight and try to access sensitive data.
 
-For backend tests, they use [API Pentest Methodologies](/platform-deep-dive/pentests/pentest-process/methodologies/api-methodologies/).
+For backend tests, they use [API Pentest Methodologies](/methodologies/api-methodologies/).
 
 {{% mobile-scan-tools %}}
 
