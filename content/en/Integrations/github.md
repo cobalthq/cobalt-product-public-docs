@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Learn how to set up an integration between Cobalt and GitHub (Enterprise Cloud only). The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
+Learn how to set up an integration between Cobalt and GitHub (Cloud only). The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
 {{% /pageinfo %}}
 
 In this article:
