@@ -12,7 +12,7 @@ Configure the integration to import Cobalt findings into the DefectDojo platform
 
 In this article:
 - [Integration Overview](#integration-overview)
-- [Before You Start](#before-you-start)
+- [What You Need](#what-you-need)
 - [Step 1: Add a Tool Type](#step-1-add-a-tool-type)
 - [Step 2: Add a Tool Configuration](#step-2-add-a-tool-configuration)
 - [Step 3: Add an API Scan Configuration](#step-3-add-an-api-scan-configuration)
@@ -24,7 +24,7 @@ In this article:
 
 You can retrieve [findings](/platform-deep-dive/pentests/findings/) data from Cobalt using the API and import it into DefectDojo. Then you can manage, analyze, and triage vulnerabilities using reports, metrics, templates, and other tools available in DefectDojo.
 
-## Before You Start
+## What You Need
 
 To configure the integration, you need the following:
 
@@ -63,8 +63,8 @@ You can create multiple tool configurations for Cobalt. The process of adding a 
     - **Name**: Enter a meaningful name for your tool configuration.
     - **Tool Type**: Select **Cobalt.io**.
     - **Authentication Type**: Select **API Key**.
-    - **Extras**: Enter your [Cobalt organization token](#before-you-start).
-    - **API Key**: Enter your [Cobalt API key](#before-you-start).
+    - **Extras**: Enter your [Cobalt organization token](#what-you-need).
+    - **API Key**: Enter your [Cobalt API key](#what-you-need).
 1. Select **Submit**.<br><br>
     ![Tool configuration parameters in DefectDojo](/integrations/DefectDojo-add-tool-configuration-2.png "Tool configuration parameters in DefectDojo")
 
@@ -81,7 +81,7 @@ You can create multiple API scan configurations for Cobalt. The process of addin
     ![Add an API scan configuration in DefectDojo](/integrations/DefectDojo-add-api-scan-configuration-1.png "Add an API scan configuration in DefectDojo")
 1. On the configuration screen, enter:
     - **Tool Configuration**: Select the [tool configuration](#step-2-add-a-tool-configuration) you created.
-    - **Service Key**: Enter an [asset ID](#before-you-start) from Cobalt.
+    - **Service Key**: Enter an [asset ID](#what-you-need) from Cobalt.
 1. Select **Save**.<br><br>
     ![API scan configuration parameters in DefectDojo](/integrations/DefectDojo-add-api-scan-configuration-2.png "API scan configuration parameters in DefectDojo")
 
