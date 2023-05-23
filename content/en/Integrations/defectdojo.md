@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Learn how to set up an integration between Cobalt and DefectDojo using the Cobalt API. The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
+Configure the integration to import Cobalt findings into the DefectDojo platform. The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
 {{% /pageinfo %}}
 
 In this article:
