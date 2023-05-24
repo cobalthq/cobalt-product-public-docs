@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-A Cobalt credit is a standardized unit of work that represents 8 pentesting hours.
+{{% credit-definition %}}
 {{% /pageinfo %}}
 
 You can think of a Cobalt credit as a virtual voucher that you consume whenever you want to run a pentest. We offer 3 subscription plans, also known as PtaaS tiers, to best suit your budget and testing goals. Learn more about our [pricing model](https://www.cobalt.io/pentest-pricing).
@@ -15,6 +15,8 @@ You can think of a Cobalt credit as a virtual voucher that you consume whenever 
 ```
 1 credit = 8 pentesting hours
 ```
+
+## How Cobalt Credits Work
 
 Cobalt offers a flexible, on-demand consumption model to meet the modern pentesting needs of all security and development teams. We sell credits in annual packages. You can buy credits in advance and use them throughout the year based on your pentesting schedule.
 
