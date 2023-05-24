@@ -61,7 +61,9 @@ Once you’ve scoped the pentest, review the required [credits](#view-required-c
 
 ### Web
 
-To scope a pentest for a Web asset, specify the number of the following characteristics of the asset that need to be tested:
+To scope a pentest for a Web asset, specify the number of the following characteristics of the asset that need to be tested.
+
+![Scoping parameters for a Web asset](/gsg/pentest-scoping-web.png "Scoping parameters for a Web asset")
 
 | Parameter | Definition | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|---|
@@ -74,7 +76,9 @@ If the only APIs in your assets populate web pages, you may not need to set up a
 
 ### Mobile
 
-To scope a pentest for a Mobile asset, specify the number of the following characteristics of the asset that need to be tested:
+To scope a pentest for a Mobile asset, specify the number of the following characteristics of the asset that need to be tested.
+
+![Scoping parameters for a Mobile asset](/gsg/pentest-scoping-mobile.png "Scoping parameters for a Mobile asset")
 
 | Parameter | Definition | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|---|
@@ -83,7 +87,9 @@ To scope a pentest for a Mobile asset, specify the number of the following chara
 
 ### API
 
-To scope a pentest for an API asset, specify the number of the following characteristics of the asset that need to be tested:
+To scope a pentest for an API asset, specify the number of the following characteristics of the asset that need to be tested.
+
+![Scoping parameters for an API asset](/gsg/pentest-scoping-api.png "Scoping parameters for an API asset")
 
 | Parameter | Definition | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|---|
@@ -92,7 +98,9 @@ To scope a pentest for an API asset, specify the number of the following charact
 
 ### External Network
 
-To scope a pentest for an External Network asset, specify the number of IP addresses in your external network that need to be tested:
+To scope a pentest for an External Network asset, specify the number of IP addresses in your external network that need to be tested.
+
+![Scoping parameters for an External Network asset](/gsg/pentest-scoping-ip-addresses.png "Scoping parameters for an External Network asset")
 
 | Parameter | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|
@@ -100,13 +108,15 @@ To scope a pentest for an External Network asset, specify the number of IP addre
 
 ### Internal Network
 
-To scope a pentest for an Internal Network asset, specify the number of IP addresses in your internal network that need to be tested:
+To scope a pentest for an Internal Network asset, specify the number of IP addresses in your internal network that need to be tested.
+
+![Scoping parameters for an Internal Network asset](/gsg/pentest-scoping-ip-addresses.png "Scoping parameters for an Internal Network asset")
 
 | Parameter | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|
 | IP Addresses | Enter the number of active IP addresses in your internal network that need to be tested. |
 
-If you’re working with servers on the cloud, you can also set up a [Cloud Configuration](#cloud-configuration) asset.
+If you're working with servers on the cloud, you can also set up a [Cloud Configuration](#cloud-configuration) asset.
 
 ### Cloud Configuration
 
@@ -117,6 +127,8 @@ Cobalt pentesters can test services on the following platforms:
 - Microsoft Azure Cloud (Azure)
 
 Each platform includes different categories of services, such as EC2, databases, and machine learning engines.
+
+![Scoping parameters for a Cloud Configuration asset](/gsg/pentest-scoping-cloud-config.png "Scoping parameters for a Cloud Configuration asset")
 
 To scope a pentest for a Cloud Configuration asset, specify the number of the following characteristics of the asset that need to be tested:
 
