@@ -1,7 +1,7 @@
 ---
 title: "Import Cobalt Findings into Kenna Security"
 linkTitle: "Kenna Security"
-weight: 50
+weight: 70
 description: >
   Set up an integration with Kenna Security.
 ---
