@@ -1,7 +1,7 @@
 ---
 title: "Import Cobalt Findings into DefectDojo"
 linkTitle: "DefectDojo"
-weight: 40
+weight: 60
 description: >
  Set up an integration with DefectDojo.
 ---
