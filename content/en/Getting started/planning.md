@@ -142,6 +142,7 @@ To scope a pentest for a Cloud Configuration asset, specify the number of the fo
 Sometimes, assets fit into more than one category. To that end, Cobalt supports pentests on assets in the following groups of categories:
 
 - [Web](#web) + [API](#api)
+- [Web](#web) + [API](#api) + [External Network](#external-network)
 - [Web](#web) + [External Network](#external-network)
 - [Web](#web) + [Mobile](#mobile)
 
