@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Configure the integration to import Cobalt findings into the Kenna Security platform. The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
+Configure the integration to import Cobalt findings into the Kenna Security platform.
 
 You can also refer to the Kenna Security [documentation](https://github.com/KennaSecurity/toolkit/tree/main/tasks/connectors/cobaltio#readme).
 {{% /pageinfo %}}
