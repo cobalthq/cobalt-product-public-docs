@@ -1,7 +1,7 @@
 ---
 title: "Get Pentest Updates with Webhooks"
 linkTitle: "Webhooks"
-weight: 10
+weight: 30
 description: >
   Set up webhook notifications for your organization.
 ---
@@ -9,6 +9,16 @@ description: >
 {{% pageinfo %}}
 Configure webhooks to subscribe to real-time updates for your pentests.
 {{% /pageinfo %}}
+
+In this article:
+
+- [Introducing Webhooks](#introducing-webhooks)
+- [Before You Start](#before-you-start)
+- [Webhook Events](#webhook-events)
+- [Configure Webhooks in the UI](#configure-webhooks-in-the-ui)
+- [Troubleshoot Webhooks](#troubleshoot-webhooks)
+
+## Introducing Webhooks
 
 With our API-based webhooks, you can set up an integration between your app and the Cobalt platform to get notifications for pentest events. We’ll send you updates for each event to your URL through an HTTP POST request.
 
