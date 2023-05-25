@@ -23,7 +23,7 @@ Streamline your pentesting and development workflows with Cobalt integrations.
 <!-- Links to Zendesk are temporary. We'll change them once the content is moved to Product Docs. -->
 | Integration | Type | Use |
 |:---|:---|:---|
-| <img src="/integrations/Jira.png" alt="Jira icon" title="Jira icon" width="35" style="padding-right: 5px"> [Jira](https://cobaltio.zendesk.com/hc/en-us/sections/4407694113044-Integration-Guides) | Native | <li>Push Cobalt findings as issues to Jira Cloud, Server, or Data Center</li><li>Synchronize Cobalt findings with Jira tickets bi-directionally</li>
+| <img src="/integrations/Jira.png" alt="Jira icon" title="Jira icon" width="35" style="padding-right: 5px"> [Jira](/integrations/jira/) | Native | <li>Push Cobalt findings as issues to Jira Cloud, Server, or Data Center</li><li>Synchronize Cobalt findings with Jira tickets bi-directionally</li>
 | <img src="/integrations/Github.png" alt="GitHub icon" title="GitHub icon" width="35" style="padding-right: 5px"> [GitHub](/integrations/github/) | Native | Push Cobalt findings as issues to GitHub (Cloud only)
 | <img src="/integrations/Webhooks.png" alt="Webhooks icon" title="Webhooks icon" width="35" style="padding-right: 5px"> [Webhooks](/integrations/webhooks/) | Native | Subscribe to real-time notifications for pentest events using API-based webhooks
 | <img src="/integrations/AzureDevOps.png" alt="Azure DevOps icon" title="Azure DevOps icon" width="35" style="padding-right: 5px"> [Azure DevOps](/integrations/beta/) | Native | {{< beta-label >}} Push findings as work items to Azure DevOps

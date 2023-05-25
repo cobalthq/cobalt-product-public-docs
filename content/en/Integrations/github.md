@@ -15,7 +15,7 @@ In this article:
 - [Integration Overview](#integration-overview)
 - [Configure the Integration](#configure-the-integration)
 - [Push Findings to GitHub](#push-findings-to-github)
-- [Remove the Integration](#remove-the-integration)
+- [Deactivate the Integration](#remove-the-integration)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
 ## Integration Overview
@@ -60,9 +60,9 @@ A new issue is created in your GitHub repository, and the issue number appears u
 
 ![Link to a GitHub issue on a Cobalt finding](/integrations/GitHub-issue-on-finding.png "Link to a GitHub issue on a Cobalt finding")
 
-## Remove the Integration
+## Deactivate the Integration
 
-You may want to remove the integration with GitHub for a specific pentest.
+You may want to deactivate the integration with GitHub for a specific pentest.
 
 1. In Cobalt, navigate to **Pentests**, and select the desired pentest.
 1. Go to the **Integrations** tab.
