@@ -17,10 +17,10 @@ Follow best practices when creating a password for your Cobalt account. A strong
 - The password must contain:
   - At least 10 characters
   - At least 3 of the following:
-  - Lowercase letters: a–z
-  - Uppercase letters: A–Z
-  - Numbers: 0–9
-  - Special characters: !@#$%^&*
+    - Lowercase letters: a–z
+    - Uppercase letters: A–Z
+    - Numbers: 0–9
+    - Special characters: !@#$%^&*
 - We don't allow common passwords such as `password`, `123456`, or `qwerty`.
 
 Example of a strong password: `1$WinterIsComing$1` (don't use this example).
