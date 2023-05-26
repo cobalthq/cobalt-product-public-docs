@@ -15,7 +15,7 @@ In this article:
 - [Integration Overview](#integration-overview)
 - [Configure the Integration](#configure-the-integration)
 - [Push Findings to GitHub](#push-findings-to-github)
-- [Deactivate the Integration](#remove-the-integration)
+- [Deactivate the Integration](#deactivate-the-integration)
 - [Frequently Asked Questions](#frequently-asked-questions)
 
 ## Integration Overview
@@ -40,7 +40,7 @@ As an [Organization Owner](/getting-started/glossary/#organization-owner) or [Me
 1. In Cobalt, navigate to **Pentests**, and select the desired pentest.
 1. Go to the **Integrations** tab.
 1. Follow the instructions in the UI under **GitHub**.<br><br>
-  ![Configure an integration between Cobalt and GitHub](/integrations/configure-GitHub-integration.png "Configure an integration between Cobalt and GitHub")
+  ![Configure the integration between Cobalt and GitHub](/integrations/configure-GitHub-integration.png "Configure the integration between Cobalt and GitHub")
 
 ## Push Findings to GitHub
 
