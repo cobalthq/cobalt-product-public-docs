@@ -89,11 +89,15 @@ Learn how to retrieve Jira logs for the Cobalt Jira Server plugin.
 
 ### Step 1: Enable Logs
 
-1. In Jira, select the gear icon > **System**.
-1. On the left panel, select **Logging and profiling**.
+1. In Jira, select the gear icon > **System**.<br><br>
+    ![Navigate to System in Jira](/integrations/enable-jira-server-logs-1.png "Navigate to System in Jira")
+1. On the left panel, select **Logging and profiling**.<br><br>
+    ![Select Logging and profiling in Jira](/integrations/enable-jira-server-logs-2.png "Select Logging and profiling in Jira")
 1. Scroll down the page to locate the **Default Loggers** section.
-1. Select **Configure logging level for another package**.
-1. In the **Package name** field, type `io.cobalt.jira`, then select **Add**.
+1. Select **Configure logging level for another package**.<br><br>
+    ![Select Configure logging level for another package in Jira](/integrations/enable-jira-server-logs-3.png "Select Configure logging level for another package in Jira")
+1. In the **Package name** field, type `io.cobalt.jira`, then select **Add**.<br><br>
+    ![Configure login level in Jira Server](/integrations/enable-jira-server-logs-4.png "Configure login level in Jira Server")
 
 Logs for the Cobalt Jira Server plugin should now appear in the Jira logs.
 
@@ -104,6 +108,8 @@ Once you've enabled logs, you can retrieve them. The procedure differs depending
 {{%expand "You have access to the server file system." %}}
 
 To find the location of logs, navigate to **Administration** > **System** > **System Info**.
+
+![View the location of logs in Jira Server](/integrations/jira-server-logs.png "View the location of logs in Jira Server")
 
 Numbers in the file name indicate that the logs roll over. For example, `atlassian-jira.log`, then `atlassian-jira.log.1`, then `atlassian-jira.log.2`, and so on.
 
@@ -117,6 +123,8 @@ If you can't access the actual files, you can use a plugin to read the file and 
 
 1. In Jira, go to the **Manage apps** page.
 1. Under **Lastlog Add-on**, select **View Log**. You should see the log file.
+
+![Retrieve Jira Server logs using the Last Log add-on](/integrations/jira-server-logs-Lastlog.png "Retrieve Jira Server logs using the Last Log add-on")
 
 Numbers in the file name indicate that the logs roll over. For example, `atlassian-jira.log`, then `atlassian-jira.log.1`, then `atlassian-jira.log.2`, and so on.
 
