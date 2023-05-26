@@ -37,7 +37,7 @@ In this article:
 ### Step 2: Configure the Integration for a Pentest
 
 1. In Cobalt, go to **Integrations** > **Jira** > **Configuration**. Here, you can see pentests for which you can configure the integration. Pentests in the Draft state are not displayed.
-1. For the desired pentest, select the gear icon.
+1. For the desired pentest, select the gear icon ![Gear icon](/icons/Gear.png "Gear icon").
 1. In the overlay that appears, configure integration parameters:
     - **Jira Project**
     - **Issue Type**
@@ -71,7 +71,7 @@ The following parameters are **not** exported:
 {{% /expand %}}
 
 {{< alert title="Note" color="primary" >}}
-You can synchronize findings' [severity levels](/platform-deep-dive/pentests/findings/severity-levels/) with Jira using the **Cobalt Severity** label. [Learn more](/integrations/jira/synchronize-severity-levels/).
+You can synchronize findings' [severity levels](/platform-deep-dive/pentests/findings/severity-levels/) with Jira using the **Cobalt Severity** field. [Learn more](/integrations/jira/synchronize-severity-levels/).
 {{< /alert >}}
 
 ## Attachments Support

@@ -43,7 +43,7 @@ If the problem persists, please follow the steps below for your hosting option. 
 {{%expand "Jira Cloud:" %}}
 
 - Check if there are custom configurations in your Jira project.
-- If the problem with pushing findings persists for more than one hour, contact your CSM.<br>Please provide a screenshot of your Jira configuration in Cobalt. Navigate to **Integrations** > **Jira** > **Configuration**, and select the gear icon for the desired pentest.
+- If the problem with pushing findings persists for more than one hour, contact your CSM.<br>Please provide a screenshot of your Jira configuration in Cobalt. Navigate to **Integrations** > **Jira** > **Configuration**, and select the gear icon ![Gear icon](/icons/Gear.png "Gear icon") for the desired pentest.
 - To check if findings are not being pushed to Jira, navigate to the finding, and check the **External Issue Tracking** section.
 
 {{% /expand %}}
@@ -78,7 +78,7 @@ The default issue type in Cobalt is **Task**. If this issue type is not availabl
 
 1. In Cobalt, go to the **Integrations** page.
 1. Select **Jira**, and then navigate to the **Configuration** tab.
-1. For the desired pentest, select the gear icon.
+1. For the desired pentest, select the gear icon ![Gear icon](/icons/Gear.png "Gear icon").
 1. In the overlay that appears, select an issue type that is available in the associated Jira project, and then select **Save**.
 
 If the issue still persists, contact your Customer Success Manager.

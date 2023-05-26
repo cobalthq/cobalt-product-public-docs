@@ -7,12 +7,12 @@ description: >
 ---
 
 {{% pageinfo %}}
-You can synchronize findings' [severity levels](/platform-deep-dive/pentests/findings/severity-levels/) with Jira using the **Cobalt Severity** label.
+You can synchronize findings' [severity levels](/platform-deep-dive/pentests/findings/severity-levels/) with Jira using the **Cobalt Severity** field.
 {{% /pageinfo %}}
 
-**Cobalt Severity** is a label built by Cobalt. Avoid using custom labels such as "Severity."
+**Cobalt Severity** is a field built by Cobalt. Avoid using custom field such as "Severity."
 
-To add the **Cobalt Severity** label to your Jira project:
+To add the **Cobalt Severity** field to your Jira project:
 
 1. In your Jira software project, select the gear icon in the upper-right corner, and then select **Projects**.
 1. Select the three-dot icon next to the project you want to edit, and then select **Project Settings**.
