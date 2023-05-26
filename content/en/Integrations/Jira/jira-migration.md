@@ -37,7 +37,7 @@ The Cobalt Jira plugin does not store any data that needs to be migrated. Jira t
 Follow this guide if:
 
 - You're **not** migrating from Server/DC to Cloud; and
-- You've set up a new Jira Cloud environment and want to switch the instance connected with the Cobalt platform.
+- You've set up a new Jira Cloud environment and want to switch the instance connected with Cobalt.
 
 You can reconfigure the integration in two ways:
 

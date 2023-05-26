@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Your Jira Integration"
 linkTitle: "Troubleshooting"
-weight: 40
+weight: 60
 description: >
   Troubleshoot common issues with Cobalt plugins for Jira.
 ---
@@ -87,7 +87,7 @@ If the issue still persists, contact your Customer Success Manager.
 
 Learn how to retrieve Jira logs for the Cobalt Jira Server plugin.
 
-### Enable Logs
+### Step 1: Enable Logs
 
 1. In Jira, select the gear icon > **System**.
 1. On the left panel, select **Logging and profiling**.
@@ -97,7 +97,7 @@ Learn how to retrieve Jira logs for the Cobalt Jira Server plugin.
 
 Logs for the Cobalt Jira Server plugin should now appear in the Jira logs.
 
-### Retrieve Logs
+### Step 2: Retrieve Logs
 
 Once you've enabled logs, you can retrieve them. The procedure differs depending on whether you have or don't have access to the server file system. Click <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> for instructions.
 
