@@ -1,5 +1,5 @@
 ---
-title: "Set up an Integration with GitHub"
+title: "Integrate GitHub with Cobalt"
 linkTitle: "GitHub"
 weight: 20
 description: >

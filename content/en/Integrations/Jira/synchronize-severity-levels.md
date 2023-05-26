@@ -10,7 +10,7 @@ description: >
 You can synchronize findings' [severity levels](/platform-deep-dive/pentests/findings/severity-levels/) with Jira using the **Cobalt Severity** field.
 {{% /pageinfo %}}
 
-**Cobalt Severity** is a field built by Cobalt. Avoid using custom field such as "Severity."
+**Cobalt Severity** is a field built by Cobalt. Avoid using custom fields such as "Severity."
 
 To add the **Cobalt Severity** field to your Jira project:
 

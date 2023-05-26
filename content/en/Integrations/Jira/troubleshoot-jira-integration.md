@@ -76,9 +76,9 @@ To remedy this, make sure that the **issue type** is properly mapped between Cob
 
 The default issue type in Cobalt is **Task**. If this issue type is not available in your Jira project, select a different type.
 
-1. In Cobalt, go to the **Integrations** page.
-1. Select **Jira**, and then navigate to the **Configuration** tab.
+1. In Cobalt, go to **Integrations** > **Jira** > **Configuration**.
 1. For the desired pentest, select the gear icon ![Gear icon](/icons/Gear.png "Gear icon").
+    ![Select a pentest for which you want to configure the Jira integration](/integrations/configure-jira-integration-for-pentest.png "Select a pentest for which you want to configure the Jira integration")
 1. In the overlay that appears, select an issue type that is available in the associated Jira project, and then select **Save**.
 
 If the issue still persists, contact your Customer Success Manager.

@@ -12,10 +12,12 @@ Synchronize Cobalt [findings](/platform-deep-dive/pentests/findings/) with Jira 
 
 ## Overview
 
-As an [Organization Owner](/getting-started/glossary/#organization-owner) or [Member](/getting-started/glossary/#organization-member), you can configure an integration between Cobalt and Jira to streamline your workflows. With this integration, you can:
+As an [Organization Owner](/getting-started/glossary/#organization-owner) or [Member](/getting-started/glossary/#organization-member), you can integrate Jira with Cobalt to streamline your workflows. With this integration, you can:
 
-- **Push Cobalt findings as issues** to your Jira project
-- **Synchronize the status of Jira issues with Cobalt findings** once your team has completed remediation
+- **Push Cobalt findings as issues** to your Jira project.
+  - The [auto-push](/integrations/jira/push-findings/#how-auto-push-works) option allows you to push findings to Jira automatically.
+  - Pentest collaborators can also [push findings manually](/integrations/jira/push-findings/#push-findings-manually)—if they're not already synchronized.
+- **Synchronize the status of Jira issues with Cobalt findings** once your team has completed remediation.
 
 The integration works through **Cobalt plugins for Jira** available on the Atlassian Marketplace.
 
@@ -23,8 +25,6 @@ The integration works through **Cobalt plugins for Jira** available on the Atlas
 |---|---|---|
 | Jira Cloud | [Cobalt for Jira Cloud](https://marketplace.atlassian.com/apps/1222623/cobalt-for-jira-cloud) | [Jira Cloud Integration](/integrations/jira/jira-cloud/) |
 | Jira Server and Data Center | [Cobalt for Jira DC/Server](https://marketplace.atlassian.com/apps/1224424/cobalt-for-jira-dc-server) | [Jira Server and Data Center Integration](/integrations/jira/jira-server-dc/) |
-
-The [auto-push](/integrations/jira/push-findings/#how-auto-push-works) option allows you to push findings to Jira automatically. Pentest collaborators can also [push findings manually](/integrations/jira/push-findings/#push-findings-manually).
 
 If you have problems with your integration, see our [troubleshooting guide](/integrations/jira/troubleshoot-jira-integration/). To get more help, please contact your Customer Success Manager.
 
@@ -92,7 +92,7 @@ Yes, only if findings are in the Pending Fix state.
 <br>
 {{%expand "Can I set up the Jira integration if I sign in using single sign-on (SSO)?" %}}
 
-You can set up an integration with Jira regardless of your [sign-in method](/getting-started/sign-in/#sign-in-methods) and [two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#two-factor-authentication) status.
+You can set up the integration regardless of your [sign-in method](/getting-started/sign-in/#sign-in-methods) and [two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#two-factor-authentication) status.
 
 {{% /expand %}}
 

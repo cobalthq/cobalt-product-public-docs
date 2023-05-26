@@ -1,6 +1,8 @@
 You can deactivate the integration with Jira.
 
 1. In Cobalt, navigate to **Integrations** > **Jira**, and then select **Disconnect**.
+<br><br>
+    ![Disconnect a Jira integration in Cobalt](/integrations/disconnect-jira.png "Disconnect a Jira integration in Cobalt")
 1. In the Jira admin panel, uninstall the Jira plugin.
 
 Here’s what to expect once you’ve deactivated the connection:
