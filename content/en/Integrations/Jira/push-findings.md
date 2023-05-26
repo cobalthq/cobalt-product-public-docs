@@ -25,14 +25,16 @@ Here's how auto-push works:
   - The issue status in Jira is based on the project configuration. It's the first status in your project workflow, for example, To Do.
   - If the integration is enabled on a pentest with existing findings, Jira tickets are created for them retroactively.
 - Findings whose [state](/platform-deep-dive/pentests/findings/finding-states/) is not Pending Fix are not automatically pushed to Jira. If the finding state changes to Pending Fix, the finding is automatically pushed.
-- Once an issue is created in Jira, the issue ID appears on the finding in Cobalt under **External Issue Tracking**.
+- Once an issue is created in Jira, the issue ID appears on the finding in Cobalt under **External Issue Tracking**. Click the link to navigate to the issue.<br><br>
+    ![Jira issue link on the finding page](/integrations/external-issue-tracking-jira.png "Jira issue link on the finding page")
 
 ### Turn Auto-Push on or Off
 
 As an [Organization Owner](/getting-started/glossary/#organization-owner) or [Member](/getting-started/glossary/#organization-member), you can turn auto-push on or off for specific pentests as needed.
 
 1. In Cobalt, go to **Integrations** > **Jira** > **Configuration**.
-1. For the desired pentest, turn the **Auto-Push** toggle on or off.
+1. For the desired pentest, turn the **Auto-Push** toggle on or off.<br><br>
+    ![Turn auto-push on or off for specific pentests](/integrations/auto-push-toggle-for-Jira.png "Turn auto-push on or off for specific pentests")
 
 When auto-push is turned off, Jira issue statuses are still synchronized with Cobalt finding states.
 
