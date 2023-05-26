@@ -1,0 +1,128 @@
+---
+title: "Cloud Pentests"
+linkTitle: "Cloud Pentest Methodologies"
+weight: 140
+description: >
+  Review methodologies for Cloud Configurations.
+aliases:
+    - /getting-started/pentest-objectives/methodologies/cloud/
+    - /platform-deep-dive/pentests/pentest-process/methodologies/cloud/
+---
+
+{{% pageinfo %}}
+{{% pentest-rigor %}}
+{{% /pageinfo %}}
+
+We support penetration testing of systems in the following cloud environments:
+
+- Amazon AWS
+- Google Cloud Platform (GCP)
+- Microsoft Azure
+
+While we perform many of the same tests on different cloud configurations, each environment
+has unique testing requirements.
+
+## Cloud Network Pentest
+<!-- I cover needed content from
+https://cobaltio.zendesk.com/hc/en-us/articles/360057567991-Cloud-Configuration-Review-VS-Cloud-Network-Pentest
+here: -->
+
+We test cloud assets based on the cloud pentest methodologies listed on this
+page. If you want a network pentest of your cloud asset, ask us for an [External
+Network Pentest](/methodologies/external-network/).
+
+## Common Requirements
+
+Cobalt assesses your selected cloud environment, as well as all internal and external components. Cobalt
+follows an industry standard methodology primarily based on:
+
+- Best practices established by your cloud provider
+- OWASP standards for [Cloud Providers](https://owasp.org/www-pdf-archive/Cloud-Top10-Security-Risks.pdf) (PDF)
+  and [Application Security Verification Standard (ASVS)](/getting-started/glossary/#application-security-verification-standard-asvs).
+
+The Cobalt team of pentesters do not need access to the underlying web application
+source code, unless you specify it as a requirement.
+
+We follow an industry standard methodology primarily based on the OWASP ASVS
+Testing Guide. Our team takes the following steps to ensure full coverage:
+
+- Target scope reconnaissance
+- Component enumeration
+  - Based on automated component discovery
+- Automated component configuration assessment
+  - Detail risks, based on Center for Internet Security (CIS) best practices
+- Automated / manual review of externally exposed services
+  - Basic vulnerability assessments
+- Architectural design analysis
+- Report, triage, and retest
+
+![Cloud pentest flow](/gsg/CloudPentest.png)
+
+In general, the cloud providers that we work with no longer need to know before
+we perform our pentests. However, each cloud provider may have their own procedure.
+We've included links to procedures that we know of in the section for each provider.
+
+### Source IP Addresses
+
+Cloud providers may need to include IP addresses associated with pentest traffic in
+their [allowlist](/getting-started/glossary/#allowlist). We'll share these addresses when you
+create an actual pentest.
+
+### Testing Parameters
+
+When you create a pentest that involves a cloud provider, we'll share the information
+that your cloud provider may require, including:
+
+- Peak bandwidth
+- Peak queries per second
+- Escalation traffic requirements
+- Emergency contact information
+
+## Amazon AWS
+
+Our pentesters need access to test your AWS systems. To that end, you should prepare:
+
+- A dedicated AWS account for each pentester, with access to each target system.
+  - Identity and Access Management (IAM) API credentials for each affected AWS account.
+    - Include the following managed policies for the pentest user or role:
+      - `SecurityAudit`
+      - `ViewOnlyAccess`
+
+These are the required policy Amazon Resource Names (ARN):
+
+```
+arn:aws:iam::aws:policy/SecurityAudit
+arn:aws:iam::aws:policy/job-function/ViewOnlyAccess
+```
+
+You should also include the architecture of your cloud configuration.
+
+## Google Cloud Platform (GCP)
+
+Our pentesters need access to test your GCP systems. To that end, you should prepare:
+
+- A dedicated GCP account for each pentester, with access to each target system.
+  - GCP access keys.
+  - Identity and Access Management (IAM) API credentials for each affected GCP account.
+    - To provide API credentials, use a (service) account with Viewer and Security Reviewer
+      permissions.
+
+## Microsoft Azure
+
+Our pentesters need access to test your Azure systems. To that end, you should prepare:
+- A dedicated Azure account for each pentester, with access to each target system.
+  - Identity and Access Management (IAM) API credentials (read-only) for each dedicated account.
+
+## Other Cloud Providers
+
+We've done pentests on other cloud providers. You can refer to the
+[Common Requirements](#common-requirements) listed earlier.
+
+{{% alert title="Note" color="primary" %}}
+Cloud providers may require notification before we perform a pentest. For
+more information, consult the documentation for your cloud provider.
+{{% /alert %}}
+
+## Additional Requirements
+
+{{% additional-requirements %}}

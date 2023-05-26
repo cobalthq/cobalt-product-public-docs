@@ -21,8 +21,7 @@ results. Here's what you can expect:
    - {{% beta-label %}} [Messaging in the Cobalt app](/platform-deep-dive/collaboration/collaborate-on-pentests/#collaborate-in-the-cobalt-app). Select **Messages** on the pentest page. In the sidebar that opens, you can read updates from pentesters and communicate in the chat.
    <!--![Collaborate on a pentest in the Messages sidebar](/deepdive/MessagesSidebar.png "Collaborate on a pentest in the Messages sidebar")-->
    - A [Slack channel](/platform-deep-dive/collaboration/collaborate-on-pentests/#use-slack-for-communication) dedicated for your pentest.
-   - [**Pentester Updates** sidebar](/platform-deep-dive/collaboration/collaborate-on-pentests/#read-updates-from-pentesters) in the Cobalt app.<br><br>
-   ![Collaborate on a pentest in Slack, and read updates from pentesters](/gsg/SlackPentesterUpdates.png "Collaborate on a pentest in Slack, and read updates from pentesters")
+   - [**Pentester Updates** sidebar](/platform-deep-dive/collaboration/collaborate-on-pentests/#read-updates-from-pentesters) in the Cobalt app.
 1. You may get questions from your pentesters. You can also elaborate
    on your requirements for the pentest.
 1. As our pentesters analyze your asset, they'll add updates frequently. If they discover vulnerabilities ("[findings](/platform-deep-dive/pentests/findings/)"), you can start
@@ -32,8 +31,6 @@ results. Here's what you can expect:
     {{% process-findings %}}
 1. <a id="report-timing">When your pentest is in Remediation or Closed, you can download [pentest reports](/platform-deep-dive/pentests/reports/).
     - If you've purchased a qualifying {{% ptaas-tier %}}, you can [customize your pentest report](/platform-deep-dive/pentests/reports/customize-report/).
-    - You're welcome to download this
-   [sample test report (PDF)](/gsg/GettingStarted_Sample_WebApp_Report.pdf) for a web app.
 1. We move your pentest to Closed once you've resolved all findings, which includes {{% resolved-finding-states %}}
 
 {{< alert title="Tip" color="primary" >}}

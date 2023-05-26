@@ -7,14 +7,11 @@ description: >
 ---
 
 {{% pageinfo %}}
-Review some of the risks associated with [Insecure Design](https://owasp.org/Top10/A04_2021-Insecure_Design/),
-as it relates to SQL Learn how secure design can help minimize your risks.
+Review some of the risks associated with [Insecure Design](https://owasp.org/Top10/A04_2021-Insecure_Design/), as it relates to SQL. Learn how secure design can help minimize your risks.
 {{% /pageinfo %}}
 
 As noted by [OWASP](/getting-started/glossary/#open-web-application-security-project-owasp),
 Insecure Design is "new category for 2021 focuses on risks related to design and architectural flaws".
-
-# Prevent Insecure Design # 
 
 ## Description
 
@@ -43,24 +40,19 @@ Secure design recommends that you configure least privileges for application dat
 
 With secure design, you can limit the impact of SQL injection to the privileges of the compromised user 
 
-## Scenario 2 ##
-
-**Missing Access Control**
+### Scenario 2: Missing Access Control
 
 An access control issue was found in the production application, where the attacker was able to access the superadmin dashboard and get access to the data of other users. The superadmin dashboard URL was guessed by the attacker, and due to missing access control, it granted full access to the superadmin account. 
 
 A detailed threat modelling could have pointed out this scenario where an application user could access superadmin account. The threat model could also have recommended the developers implement strong access control, separating superadmin area of the application from the user side. 
 
-## Scenario 3 ##
-
-**Missing Rate Limiting**
+### Scenario 3: Missing Rate Limiting
 
 Missing rate limiting in the coupon code in an eCommerce website leads to bots trying to bruteforce the coupon codes, attracting unnecessary traffic which leads to performance issues. 
 
 Since this was not anticipated during the design phase, there wasn’t any preventive control to avoid this. A secure design with an application firewall to protect any bot activity and a lockout mechanism could have avoided this issue.
 
-
-# Prevention #
+## Prevention
 
 To avoid insecure design flaws, you must:
 
@@ -78,12 +70,9 @@ To avoid insecure design flaws, you must:
 
 - You can also follow [OpenSAMM](https://www.opensamm.org/) framework, an open-source framework for implementing a strategy for software security. This model can be applied organization-wide, for a single line of business, or even for an individual project and for any style of development.
 
-
-
-# References #
+## References
 
 - https://www.opensamm.org/
 - https://owasp.org/Top10/A04_2021-Insecure_Design/
 - https://www.threatmodelingmanifesto.org/
 - https://github.com/OWASP/DevGuide/blob/master/02-Design/01-Principles%20of%20Security%20Engineering.md
-
