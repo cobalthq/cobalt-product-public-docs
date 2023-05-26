@@ -56,20 +56,20 @@ You can reconfigure the integration in two ways:
     - URL of the old Jira Cloud instance
     - URL of the new Jira Cloud instance
     - Tags of pentests for which finding-to-ticket associations should be updated
-    - Migration option you selected (Option 1: Migrate Existing Tickets between Jira Instances)
+    - Migration option you selected (Option 1: Migrate existing tickets between Jira instances)
 
 ### Option 2: Push Findings to a New Jira Instance
 
 1. Uninstall the Cobalt Jira plugin from your current Jira Cloud instance.
 1. In Cobalt, disconnect the integration. Navigate to **Integrations** > **Jira**, and select **Disconnect**.
-1. [Install and connect the Cobalt Jira Cloud plugin]().
+1. [Install and connect the Cobalt for Jira Cloud plugin](/integrations/jira/jira-cloud/#step-1-connect-the-jira-plugin).
     - **Important**: Do not configure integrations for pentests in Cobalt.
 1. Contact your CSM to have findings-to-ticket associations deleted. Provide the following information:
     - Your organization name
     - URL of the old Jira Cloud instance
     - [Tags](/getting-started/glossary/#pentest-tag) of pentests for which finding-to-ticket associations should be deleted
-    - Migration option you selected (Option 2: Push Findings to a New Jira Instance)
-1. In Cobalt, [configure the Jira Cloud integration for pentests]().
-1. Enable the [auto-push]() option for pentests. Navigate to **Integrations** > **Jira** > **Configuration**, and turn on the **Auto-Push** toggle.
+    - Migration option you selected (Option 2: Push findings to a new Jira instance)
+1. In Cobalt, [configure the Jira Cloud integration for pentests](/integrations/jira/jira-cloud/#step-2-configure-the-integration-for-a-pentest).
+1. Enable the [auto-push](/integrations/jira/push-findings/#how-auto-push-works) option for pentests. Navigate to **Integrations** > **Jira** > **Configuration**, and turn on the **Auto-Push** toggle.
 
-Findings in the Pending Fix state should be synchronized with your new Jira Cloud instance. If the synchronization doesn't work, you can [push findings manually]().
+Findings in the Pending Fix state should be synchronized with your new Jira Cloud instance. If the synchronization doesn't work, you can [push findings manually](/integrations/jira/push-findings/#push-findings-manually).

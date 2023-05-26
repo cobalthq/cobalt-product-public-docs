@@ -10,11 +10,6 @@ description: >
 Synchronize Cobalt [findings](/platform-deep-dive/pentests/findings/) with Jira issues bi-directionally. The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
 {{% /pageinfo %}}
 
-In this article:
-
-- [Overview](#overview)
-- [Frequently Asked Questions](#frequently-asked-questions)
-
 ## Overview
 
 As an [Organization Owner](/getting-started/glossary/#organization-owner) or [Member](/getting-started/glossary/#organization-member), you can configure an integration between Cobalt and Jira to streamline your workflows. With this integration, you can:
