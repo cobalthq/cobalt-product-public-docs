@@ -29,8 +29,8 @@ Pentest timelines depend on the pentest type, scope, and other factors. When you
 
 - [Comprehensive Pentests](/getting-started/glossary/#agile-pentest): 14 days
 - [Agile Pentests](/getting-started/glossary/#comprehensive-pentest):
-  -  **3 or 4 credits**: 7 days
-  - **From 5 credits**: 14 days
+  - 3 or 4 credits: 7 days
+  - From 5 credits: 14 days
 
 Learn more about the [pentest types](/platform-deep-dive/pentests/pentest-types/).
 
