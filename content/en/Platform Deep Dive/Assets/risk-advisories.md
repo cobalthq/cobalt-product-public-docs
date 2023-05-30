@@ -21,11 +21,11 @@ This integration supports the following [asset types](/platform-deep-dive/assets
 
 When you [create](/platform-deep-dive/assets/#create-an-asset) or update an asset in the Cobalt app, add a technology stack for it:
 
-1. Once you’ve specified the [asset type](/platform-deep-dive/assets/asset-types/), select **Add Technology**, and start typing the technology name. We’ll show you a list of technologies that match your input. The list contains only valid technologies.
+1. Once you've specified the [asset type](/platform-deep-dive/assets/asset-types/), select **Add Technology**, and start typing the technology name. We'll show you a list of technologies that match your input.
 1. Select a technology with the exact version number.
-1. If your technology version is missing from the list, you can request to add it. Start typing the technology name, and then select **Add new version**. In the overlay that appears, submit a technology and its version, and we'll validate it for you.<br>
-  Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key for specific examples.
-   {{%expand "Examples of ✅ valid technologies:" %}}
+    - The **CPE** label means that a technology is present in the [Common Platform Enumeration (CPE) Dictionary](https://nvd.nist.gov/products/cpe) maintained by the National Institute of Standards and Technology (NIST). As defined by NIST, CPE is a structured naming scheme for information technology systems, software, and packages.
+1. If your technology version is missing from the list, you can add a custom version. Start typing the technology name, and then select **Add (technology)**. Click <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> for specific examples.<br>
+   {{%expand "Examples of ✅ valid CPE names:" %}}
    - For a Web asset:
      - Facebook React 17.0.1
      - Angular Angular 15.0.1 for Node.js
@@ -51,7 +51,7 @@ When you [create](/platform-deep-dive/assets/#create-an-asset) or update an asse
      - Microsoft SQL Server 2019
    {{% /expand%}}
 
-   {{%expand "Examples of ❌ invalid technologies to avoid:" %}}
+   {{%expand "Examples of ❌ invalid CPE names:" %}}
    - JavaScript
    - TypeScript
    - C#
@@ -64,7 +64,7 @@ When you [create](/platform-deep-dive/assets/#create-an-asset) or update an asse
    {{% /expand%}}<br>
 1. Add more technologies to the stack.
 
-![Add a technology stack for your asset](/deepdive/AddTechnologyForAsset.png "Add a technology stack for your asset")
+![Add a technology stack for your asset](/deepdive/add-technology-for-asset.png "Add a technology stack for your asset")
 
 When you create a pentest for this asset, the technologies that you added populate in the [Technology Stack](/getting-started/pentest-objectives/stack/) field on the **Set Requirements** page.
 
@@ -81,5 +81,5 @@ Select a vulnerability to view detailed information on the [National Vulnerabili
 ![Preview CVE-based risk advisories for your asset](/deepdive/PreviewRiskAdvisories.png "Preview CVE-based risk advisories for your asset")
 
 {{% alert title="Note" color="primary" %}}
-Potential vulnerabilities on the **Risk Advisory** tab don’t belong to your pentests. These are potential risks based on the <a href="https://www.cve.org/" target="_blank">Common Vulnerabilities and Exposures (CVE)</a> standard that we show for your reference.
+Potential vulnerabilities on the **Risk Advisory** tab don't belong to your pentests. These are potential risks based on the <a href="https://www.cve.org/" target="_blank">Common Vulnerabilities and Exposures (CVE)</a> standard that we show for your reference.
 {{% /alert %}}

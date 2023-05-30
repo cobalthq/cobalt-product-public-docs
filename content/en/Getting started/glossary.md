@@ -156,6 +156,10 @@ A customer can invite pentesters from their organization, a third-party company,
 
 {{% cobalt-staff-permissions %}}
 
+## Common Platform Enumeration (CPE)
+
+As defined by [NIST](https://nvd.nist.gov/products/cpe), Common Platform Enumeration (CPE) is a structured naming scheme for information technology systems, software, and packages. The official [CPE Dictionary](https://nvd.nist.gov/products/cpe) is hosted and maintained by NIST.
+
 ## Compliance Audit
 
 As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a comprehensive review of an organization's adherence to governing documents such as whether:
