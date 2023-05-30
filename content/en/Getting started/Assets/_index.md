@@ -32,7 +32,8 @@ The **Asset** screen prompts you for the following information:
 - [Asset Type](/getting-started/assets/asset-type/): Select one of the options described in the linked page.
 - [Technology Stack](/platform-deep-dive/assets/risk-advisories/#add-a-technology-stack-for-your-asset) (for Web, Mobile, API, and combined asset types): Add a technology stack for your asset. You can preview [potential vulnerabilities](/platform-deep-dive/assets/risk-advisories/) based on the [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) standard for this stack.
 - [Asset Description](/getting-started/assets/asset-description/): Add information that can help your pentesters fully analyze your asset.
-- [Attachment(s)](/getting-started/assets/asset-description/#attachments): Upload documentation, architecture diagrams, images, spreadsheets, or videos related to your asset.
+- [Attachments](/getting-started/assets/asset-description/#attachments): Upload documentation, architecture diagrams, images, spreadsheets, or videos related to your asset.
+- **Tags**: A tag is a custom asset identifier in a third-party system. Add tags to map your assets to external systems, such as your vulnerability management application or task tracking system.
 
 ![Specify asset details](/gsg/AssetScreen.png "Specify asset details")
 

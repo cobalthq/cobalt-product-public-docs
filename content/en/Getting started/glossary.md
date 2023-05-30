@@ -51,6 +51,12 @@ following categories:
 
 {{% asset-categories %}}
 
+## Asset Tag
+
+Custom asset identifier in a third-party system. As a customer, you can add tags to Cobalt assets to map them to external systems, such as your vulnerability management application or task tracking system.
+
+Learn more about [creating assets](/getting-started/assets/).
+
 ## Application Security (AppSec)
 
 Application security is the practice of using security software, hardware, techniques,
