@@ -33,8 +33,14 @@ The **Asset** screen prompts you for the following information:
 - [Technology Stack](/platform-deep-dive/assets/risk-advisories/#add-a-technology-stack-for-your-asset) (for Web, Mobile, API, and combined asset types): Add a technology stack for your asset. You can preview [potential vulnerabilities](/platform-deep-dive/assets/risk-advisories/) based on the [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) standard for this stack.
 - [Asset Description](/getting-started/assets/asset-description/): Add information that can help your pentesters fully analyze your asset.
 - [Attachments](/getting-started/assets/asset-description/#attachments): Upload documentation, architecture diagrams, images, spreadsheets, or videos related to your asset.
-- **Tags**: A tag is a custom asset identifier in a third-party system. Add tags to map your assets to external systems, such as your vulnerability management application or task tracking system.
+- [Asset Tags](#asset-tags): {{% asset-tag-definition %}} Learn [how to use asset tags](#asset-tags).
 
 ![Specify asset details](/gsg/AssetScreen.png "Specify asset details")
 
-The UI provides the information that you need to add an **Asset Title** and **Image**. Now take the next step and define your [Asset Type](/getting-started/assets/asset-type/).
+### Asset Tags
+
+{{% asset-tag-definition %}} You can add multiple tags to an asset. Use tags to:
+
+- Map your assets to external systems, such as your vulnerability management application or task tracking software. Add the asset identifier in your third-party system as a tag.
+- Assign internal teams or business units to manage specific assets in Cobalt.
+- Assign a compliance audit type the asset is subject to, such as `SOC 2`, `PCI-DSS`, or `CREST`.

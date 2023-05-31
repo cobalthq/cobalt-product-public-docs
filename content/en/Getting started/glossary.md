@@ -53,9 +53,9 @@ following categories:
 
 ## Asset Tag
 
-Custom asset identifier in a third-party system. As a customer, you can add tags to Cobalt assets to map them to external systems, such as your vulnerability management application or task tracking system.
+{{% asset-tag-definition %}}
 
-Learn more about [creating assets](/getting-started/assets/).
+Learn [how to use asset tags](/getting-started/assets/#asset-tags).
 
 ## Application Security (AppSec)
 
