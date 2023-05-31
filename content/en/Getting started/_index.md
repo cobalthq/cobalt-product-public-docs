@@ -101,6 +101,6 @@ If you need help, don't hesitate to contact us.
 - If you have a named Customer Success Manager, get in touch with them.
 - Otherwise, [submit a ticket](https://cobaltio.zendesk.com/hc/en-us/requests/new) or send an email to support@cobalt.io.
 
-We process requests within one business day.
+We process support requests within one business day.
 
 If you find a security issue on the Cobalt platform, please report it to security@cobalt.io. Learn more about our [security practices](https://cobalt.io/security/practices).
