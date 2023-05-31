@@ -41,7 +41,7 @@ You can change your password by resetting it.
 
 1. Navigate to https://app.cobalt.io/settings/account.
 1. Select **Change Password**.
-1. Follow the instructions in the email that you receive to reset your password.
+1. Follow the instructions in the email that you receive to reset your password. Learn [how to create a strong password](/platform-deep-dive/cobalt-account/password-best-practices/).
 
 If you're using Google authentication (OAuth 2.0), sign in with your email and password, and then change your password.
 

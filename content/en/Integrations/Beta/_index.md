@@ -1,7 +1,7 @@
 ---
 title: "Request a Beta Integration"
 linkTitle: "Beta Integrations"
-weight: 20
+weight: 100
 no_list: true
 description: >
   Try our new beta integrations for your next pentest.
