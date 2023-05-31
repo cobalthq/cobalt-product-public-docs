@@ -26,10 +26,10 @@ In this article:
 Possible reasons:
 
 - The finding state is other than Pending Fix. Only findings in the Pending Fix state are pushed to Jira.
-    - You can [push findings manually]().
+  - You can [push findings manually](/integrations/jira/push-findings/#push-findings-manually).
 - You disabled the auto-push option on the pentest. You can:
-    - [Enable auto-push]().
-    - [Push findings manually]().
+  - [Enable auto-push](/integrations/jira/push-findings/#turn-auto-push-on-or-off).
+  - [Push findings manually](/integrations/jira/push-findings/#push-findings-manually).
 <br><br>
 
 **You see a "null" pointer or a `A Jira issue is being created …` message in place of a Jira ticket ID on the finding.**
@@ -62,7 +62,7 @@ Ensure that:
 
 - The connection between Cobalt and Jira is established.
 - The Jira integration is configured for the pentest.
-- The [auto-push]() option is enabled for the pentest.
+- The [auto-push](/integrations/jira/push-findings/#how-auto-push-works) option is enabled for the pentest.
 
 ### Jira Issue Can't Be Created
 
