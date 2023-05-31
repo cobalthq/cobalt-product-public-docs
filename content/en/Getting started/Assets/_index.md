@@ -42,5 +42,6 @@ The **Asset** screen prompts you for the following information:
 {{% asset-tag-definition %}} You can add multiple tags to an asset. Use tags to:
 
 - Map your assets to external systems, such as your vulnerability management application or task tracking software. Add the asset identifier in your third-party system as a tag.
+- Associate other metadata such as vulnerabilities in external systems to Cobalt assets.
 - Assign internal teams or business units to manage specific assets in Cobalt.
 - Assign a compliance audit type the asset is subject to, such as `SOC 2`, `PCI-DSS`, or `CREST`.
