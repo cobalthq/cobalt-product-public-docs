@@ -1,54 +1,39 @@
 ---
-title: "Mobile Pentest Methodologies"
+title: "Mobile Application Penetration Testing Methodology"
 linkTitle: "Mobile Methodologies"
 weight: 110
 description: >
-  Review methodologies for Mobile Apps.
+  Review Cobalt pentest methodologies for mobile applications.
 aliases:
     - /getting-started/pentest-objectives/methodologies/mobile/
     - /platform-deep-dive/pentests/pentest-process/methodologies/mobile/
 ---
 
 {{% pageinfo %}}
-{{% pentest-rigor %}}
+Mobile application penetration testing is a process in which a tester uses simulated attacks to identify potential security vulnerabilities in a mobile application.
 {{% /pageinfo %}}
 
-We use the penetration testing objectives listed on this page. If you want to know more
-about each methodology, navigate to the [Pentest Methodologies](..) page associated with your asset.
+## Methodology Details
 
-## Mobile
+We follow an industry-standard methodology primarily based on the OWASP Mobile Application Security
+Verification Standard (MASVS) and Testing Guide (MASTG). Learn more about the [OWASP Mobile Application Security (MAS)](https://mas.owasp.org/).
+
+![Mobile application penetration testing methodology process](/methodologies/Mobile-application-penetration-test-methodology-process.png "Mobile application penetration testing methodology process")
+
+Penetration testing of a mobile application includes the following stages:
+
+- [Target scope reconnaissance](#target-scope-reconnaissance)
+- [Automated and manual testing](#automated-and-manual-testing)
+- [Exploit discovered vulnerabilities](#exploit-discovered-vulnerabilities)
+- [Report, triage, and retest](#report-triage-and-retest)
 
 The Cobalt team of pentesters do not need access to the underlying mobile application source code,
 unless you specify it as a requirement.
 
-When you set up a pentest for a mobile asset in the UI, you'll see the following in the
-**Objectives** text box:
+We look at application logic by working with your app. To support our pentesters, share the .ipa (iOS) and/or the .apk (Android) files when you [Define Your Assets](/getting-started/assets/). You may also share this information in the private Slack channel for your pentest.
 
-```
-Coverage of OWASP top 10, ASVS and application logic.
-```
+### Target Scope Reconnaissance
 
-Learn more about these objectives from OWASP:
-
-- [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10)
-- [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard)
-
-### Share Mobile App Files
-
-We look at application logic by working with your app. To support our pentesters, share the .ipa (iOS) and/or the .apk (Android) 
-files when you [Define Your Assets](/getting-started/assets/). You may also share this information in the private Slack channel
-for your pentest.
-
-### Methodology Details
-
-We follow an industry standard methodology primarily based on the OWASP Application Security
-Verification Standard (ASVS) and Testing Guide. Our team takes the following steps to ensure
-full coverage:
-
-Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key for more information on each step.
-
-{{% expand "Target scope reconnaissance" %}}
-</br>
 Based on the Pentest Brief prepared by the client, Cobalt pentesters search for
 information about the targets and investigate the scope. This information
 includes:
@@ -64,10 +49,7 @@ Pentesters then confirm that they can:
 
 {{% mobile-scan-tools %}}
 
-{{% /expand %}}
-
-{{% expand "Automated and manual testing" %}}
-</br>
+### Automated and Manual Testing
 
 Our pentesters use a range of manual techniques and automated tools to ensure
 proper coverage. They analyze your mobile app dynamically. They also
@@ -85,10 +67,7 @@ For backend tests, they use [API Pentest Methodologies](/methodologies/api-metho
 
 {{% mobile-scan-tools %}}
 
-{{% /expand %}}
-
-{{% expand "Exploit discovered vulnerabilities" %}}
-</br>
+### Exploit Discovered Vulnerabilities
 
 When our pentesters discover a vulnerability, they use various techniques to measure the impact on the following aspects of your data:
 
@@ -98,13 +77,10 @@ When our pentesters discover a vulnerability, they use various techniques to mea
 
 Our pentesters use various privilege escalation methods to impersonate different users, possibly
 to impact the security posture of the application.
- 
+
 {{% mobile-scan-tools %}}
 
-{{% /expand %}}
-
-{{% expand "Report, triage, and retest" %}}
-</br>
+### Report, Triage, and Retest
 
 Pentesters report and triage all findings as they work. We share details through our online platform. 
 We encourage you to address critical findings as we discover them. Our pentesters can retest findings, based
@@ -114,10 +90,6 @@ As our pentesters document findings, they provide:
 
 - Detailed steps to fix or remediate findings
 - Advice on what you can do to improve your security
-
-{{% /expand %}}
-
-![Mobile pentest flow](/gsg/MobilePentest.png)
 
 ## Additional Requirements
 
