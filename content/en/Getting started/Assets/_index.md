@@ -47,3 +47,5 @@ The **Asset** screen prompts you for the following information:
 - Assign a compliance audit type the asset is subject to, such as `SOC 2`, `PCI-DSS`, or `CREST`.
 
 You can also add asset tags using the Cobalt API. Learn more in our [API documentation](https://docs.cobalt.io/v2/#assets).
+
+![Add custom tags to Cobalt assets](/gsg/asset-tags.png "Add custom tags to Cobalt assets")
