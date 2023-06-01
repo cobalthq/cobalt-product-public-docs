@@ -42,6 +42,7 @@ A Pentest Team Member has **no access** to the following pages, unless they're a
 
 - **Assets**
 - **Pentests** (except for pentests they collaborate on)
+- **Findings**
 - **Insights**
 - **People**
 - **Credits**
@@ -57,6 +58,7 @@ When a customer starts their journey with Cobalt, we add an Organization Owner w
 | Permission | [Organization Member](#organization-member) | [Organization Owner](#organization-owner) |
 |---|:---:|:---:|
 | Create [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/), edit assets | ✓ | ✓ |
+| View [all findings](/platform-deep-dive/pentests/findings/#organization-view) reported within an organization on the **Findings** page | ✓ | ✓ |
 | View organization users and pentest collaborators on the **People** page | ✓ | ✓ |
 | Manage [integrations](/integrations/) for an organization | ✓ | ✓ |
 | Edit the [organization profile](/platform-deep-dive/organization/organization-settings/#edit-the-organization-profile) | ✓ | ✓ |
