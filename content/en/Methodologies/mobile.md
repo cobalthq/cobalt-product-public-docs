@@ -79,8 +79,7 @@ When our pentesters discover a vulnerability, they use various techniques to mea
 - Integrity
 - Availability
 
-Our pentesters use various privilege escalation methods to impersonate different users, possibly
-to impact the security posture of the application.
+Our pentesters use various techniques to exploit data storage, platform permissions, and other relevant security controls.
 
 ### Report, Triage, and Retest
 
