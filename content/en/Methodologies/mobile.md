@@ -47,8 +47,6 @@ Pentesters then confirm that they can:
 - Reach and scan the targets
 - Test the functionality of the application
 
-{{% mobile-scan-tools %}}
-
 ### Automated and Manual Testing
 
 Our pentesters use a range of manual techniques and automated tools to ensure
@@ -65,7 +63,13 @@ Our pentesters may also reverse engineer the application for insight and try to 
 
 For backend tests, they use [API Pentest Methodologies](/methodologies/api-methodologies/).
 
-{{% mobile-scan-tools %}}
+Our pentesters may use tools such as:
+
+- MobSF
+- Frida
+- Apktool
+- Dex2Jar
+- Objection
 
 ### Exploit Discovered Vulnerabilities
 
@@ -77,8 +81,6 @@ When our pentesters discover a vulnerability, they use various techniques to mea
 
 Our pentesters use various privilege escalation methods to impersonate different users, possibly
 to impact the security posture of the application.
-
-{{% mobile-scan-tools %}}
 
 ### Report, Triage, and Retest
 
