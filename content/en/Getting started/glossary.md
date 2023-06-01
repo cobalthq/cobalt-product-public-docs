@@ -28,7 +28,7 @@ addresses. You can typically find allowlists and denylists in files like
 
 ## API Endpoint
 
-An endpoint is typically a URL used to allow two software applications to communicate with each other. For example, `https://api.cobalt.io/orgs` is one endpoint that you can find at `https://docs.cobalt.io`.
+An endpoint is typically a URL used to allow two software applications to communicate with each other. For example, `https://api.cobalt.io/orgs` is one endpoint that you can find at `https://api.cobalt.io`.
 
 When [scoping a pentest for an API asset](/getting-started/planning/#api), ignore specific **parameters** and **HTTP methods** for each endpoint. For example, these are two different HTTP requests for the same endpoint:
 

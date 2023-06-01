@@ -63,7 +63,7 @@ Scoping parameters differ for each [asset type](/platform-deep-dive/assets/asset
 - [Cloud Config](#cloud-configuration)
 - [Assets of multiple types](#assets-of-multiple-types)
 
-Once you’ve scoped the pentest, review the required [credits](#view-required-credits), as determined by our algorithm.
+Once you've scoped the pentest, review the required [credits](#view-required-credits), as determined by our algorithm.
 
 ### Web
 
@@ -101,7 +101,7 @@ To scope a pentest for a Mobile asset, first determine the following:
 | Parameter | Definition | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|---|
 | [User Roles](/getting-started/glossary/#user-role) | {{% user-role %}} | <p>Enter the number of User Roles in your Mobile asset that need to be tested.</p><p>{{% count-user-roles %}}</p> |
-| [Screens](/getting-started/glossary/#mobile-screen) (For All OSes) | <p>A Screen is a screen-sized interface that a user interacts with on a mobile device.</p><p>Depending on the operating system, Screens may be referred to as:<ul><li>Superviews or subviews on iOS</li><li>Views on Android</li></ul></p><p>Screens in a mobile application are functionally equivalent to [Dynamic Pages](/getting-started/glossary/#dynamic-web-page) in a [Web](#web) asset.</p> | <p>Enter the number of Screens in your Mobile asset that need to be tested, based on the application type.</p><ul><li>**Native applications** are built to run on a specific mobile operating system, such as iOS or Android.<ul><li>Enter the total number of screens for all operating systems. We’ll test the application for each operating system it runs on.<ul><li>For example, your mobile application runs on both iOS and Android. The application has 10 screens, so you should specify 20 screens in total. </li></ul></li></li></ul></li><li>**Non-native applications** are built to run on multiple operating systems.<ul><li>Enter the number of screens in the application. Because non-native applications use the same codebase to run on different operating systems, we’ll test a single version.</li></ul></li></ul> |
+| [Screens](/getting-started/glossary/#mobile-screen) (For All OSes) | <p>A Screen is a screen-sized interface that a user interacts with on a mobile device.</p><p>Depending on the operating system, Screens may be referred to as:<ul><li>Superviews or subviews on iOS</li><li>Views on Android</li></ul></p><p>Screens in a mobile application are functionally equivalent to [Dynamic Pages](/getting-started/glossary/#dynamic-web-page) in a [Web](#web) asset.</p> | <p>Enter the number of Screens in your Mobile asset that need to be tested, based on the application type.</p><ul><li>**Native applications** are built to run on a specific mobile operating system, such as iOS or Android.<ul><li>Enter the total number of screens for all operating systems. We'll test the application for each operating system it runs on.<ul><li>For example, your mobile application runs on both iOS and Android. The application has 10 screens, so you should specify 20 screens in total. </li></ul></li></li></ul></li><li>**Non-native applications** are built to run on multiple operating systems.<ul><li>Enter the number of screens in the application. Because non-native applications use the same codebase to run on different operating systems, we'll test a single version.</li></ul></li></ul> |
 
 ### API
 
@@ -192,7 +192,7 @@ Each platform includes different categories of services, such as EC2, databases,
 | Parameter | Definition | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|---|
 | User Accounts, Projects, or Resource Groups | <p>User Accounts refer to accounts in your cloud asset.</p><p>[Projects](/getting-started/glossary/#projects-cloud-assets) are all resources included in your cloud asset.</p><p>[Resource Groups](/getting-started/glossary/#resource-group-cloud) are sets of resources in a cloud asset.</p> | Enter the total number of accounts, projects, or resource groups in your cloud asset that need to be tested. |
-| Unique Service Instances | Unique services are the different functionalities that you’ve configured in your cloud deployment. | Enter the number of unique services in your cloud asset that need to be tested. |
+| Unique Service Instances | Unique services are the different functionalities that you've configured in your cloud deployment. | Enter the number of unique services in your cloud asset that need to be tested. |
 
 ### Assets of Multiple Types
 
@@ -207,7 +207,7 @@ To scope a pentest for a combined asset, specify the number of characteristics f
 
 ## View Required Credits
 
-Once you’ve identified the [pentest scope](#scope-the-pentest), you can see the number of required credits in **Credit(s) Per Pentest**. Whenever you adjust the scope, our algorithm updates the number of credits. Under **Credits**, you can also view your **Available Balance**.
+Once you've identified the [pentest scope](#scope-the-pentest), you can see the number of required credits in **Credits Per Pentest**. Whenever you adjust the scope, our algorithm updates the number of credits. Under **Credits**, you can also view your **Available Balance**.
 
 ## Next Step
 
