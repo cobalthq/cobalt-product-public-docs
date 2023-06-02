@@ -32,12 +32,11 @@ When you [create](/platform-deep-dive/assets/#create-an-asset) or update an asse
      - Nuxtjs Nuxt.js 2.15.8 for Node.js
      - Vercel Next.js 13.0.5 for Node.js
    - For a Mobile asset:
-     - React Native 0.64.2
-     - Apple Swift for Ubuntu 5.1
-     - Google Android API 19
+     - Apple Swift 5.1 for Ubuntu
+     - Google Android API 19.0 (19)
      - Ionic Framework Ionic Web View 4.1.2 for Cordova
    - For an API asset:
-     - Node.js 16.16
+     - Nodejs Node.js 16.16.0
      - Python 3.9.0
      - Django Project Django 4.1.1
      - Microsoft ASP.NET Core 7.0.0
