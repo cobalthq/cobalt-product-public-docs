@@ -98,7 +98,7 @@ When ready, go to [step 3](#step-3-run-the-cobalt-task).
 
     export KENNA_CONNECTOR_ID=xxx
     ```
-1. Run the toolkit with the `cobaltio` task selected. This commands imports all findings from the configured organization in Cobalt into Kenna Security.
+1. Run the toolkit with the `cobaltio` task selected. This command imports all findings from the configured organization in Cobalt into Kenna Security.
     - (Recommended) By default, the AppSec module is used.
     - If you want to use the VM module instead, add `kenna_appsec_module=false` to the command below.
     ```docker

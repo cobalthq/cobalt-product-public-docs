@@ -60,6 +60,7 @@ Once you've connected the Jira plugin, configure the integration for specific pe
 
 <br>
 {{%expand "Learn how finding parameters are mapped between Cobalt and Jira." %}}
+<br>
 
 **Mappings of finding fields to Jira issue fields (Cobalt → Jira Cloud)**:
 
@@ -80,8 +81,6 @@ The following parameters are **not** exported:
 - Comments
 
 {{% /expand %}}
-
-
 
 {{< alert title="Note" color="primary" >}}
 You can synchronize findings' [severity levels](/platform-deep-dive/pentests/findings/severity-levels/) with Jira using the **Cobalt Severity** field. [Learn more](/integrations/jira/synchronize-severity-levels/).

@@ -32,7 +32,7 @@ In this article:
 
 1. In Cobalt, go to **Integrations** > **Jira**.
 1. Under **What type of Jira setup are you using?**, select **Jira Server**.<br><br>
-    ![Select to configure the integration with Jira Cloud in Cobalt](/integrations/configure-jira-server-dc-integration.png "Select to configure the integration with Jira Cloud in Cobalt")
+    ![Select to configure the integration with Jira Server in Cobalt](/integrations/configure-jira-server-dc-integration.png "Select to configure the integration with Jira Server in Cobalt")
 1. Follow the instructions in the UI to install and connect the [Cobalt for Jira DC/Server](https://marketplace.atlassian.com/apps/1224424/cobalt-for-jira-dc-server?tab=overview&hosting=datacenter) plugin.
 1. Return to the Cobalt app, and check the integration status. You should see your Jira instance on the **Jira Integration** page.<br><br>
     ![Jira integration status in Cobalt](/integrations/jira-integration-status.png "Jira integration status in Cobalt")
@@ -57,6 +57,7 @@ In this article:
 
 <br>
 {{%expand "Learn how finding parameters are mapped between Cobalt and Jira." %}}
+<br>
 
 **Mappings of finding fields to Jira issue fields (Cobalt → Jira Server/DC)**:
 
