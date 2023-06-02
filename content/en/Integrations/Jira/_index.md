@@ -33,12 +33,14 @@ If you have problems with your integration, see our [troubleshooting guide](/int
 Click <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> to view answers.
 
 {{%expand "What is a finding?" %}}
+<br>
 
 A finding is a vulnerability that a pentester reports during a pentest on the Cobalt platform. Learn more about [findings](/platform-deep-dive/pentests/findings/).
 
 {{% /expand %}}
 <br>
 {{%expand "What is a Jira issue (ticket)?" %}}
+<br>
 
 In Jira, an issue is a work item or an event that needs to be investigated within a project. Issues may also be referred to as tickets.
 
@@ -47,6 +49,7 @@ In the context of Jira integrations, a ticket is a finding that was synchronized
 {{% /expand %}}
 <br>
 {{%expand "Which required fields are supported to create Jira issues?" %}}
+<br>
 
 The following fields are required to create a Jira issue:
 
@@ -57,18 +60,21 @@ The following fields are required to create a Jira issue:
 {{% /expand %}}
 <br>
 {{%expand "Does the integration support custom required fields?" %}}
+<br>
 
 No, custom required fields are not supported.
 
 {{% /expand %}}
 <br>
 {{%expand "Does the integration support the Component field on Jira issues?" %}}
+<br>
 
 No, components are not supported. Learn more about [Jira project components](https://support.atlassian.com/jira-software-cloud/docs/organize-work-with-components/).
 
 {{% /expand %}}
 <br>
 {{%expand "What types of Jira projects does the integration support?" %}}
+<br>
 
 The integration supports software development Jira projects, such as:
 
@@ -79,18 +85,21 @@ The integration supports software development Jira projects, such as:
 {{% /expand %}}
 <br>
 {{%expand "How often findings are synchronized between Cobalt and Jira?" %}}
+<br>
 
 Findings are synchronized frequently between the Cobalt platform and Jira, usually every minute.
 
 {{% /expand %}}
 <br>
 {{%expand "Will historical findings be synchronized after I configure the Jira integration for a pentest?" %}}
+<br>
 
 Yes, only if findings are in the Pending Fix state.
 
 {{% /expand %}}
 <br>
 {{%expand "Can I set up the Jira integration if I sign in using single sign-on (SSO)?" %}}
+<br>
 
 You can set up the integration regardless of your [sign-in method](/getting-started/sign-in/#sign-in-methods) and [two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#two-factor-authentication) status.
 
