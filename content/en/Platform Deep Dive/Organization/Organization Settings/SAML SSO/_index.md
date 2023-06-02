@@ -11,6 +11,14 @@ description: >
 Cobalt supports **identity provider-initiated SAML single sign-on (SSO)**. As an Organization Owner, you can configure SAML SSO with your preferred identity provider.
 {{% /pageinfo %}}
 
+In this article:
+
+- [SAML SSO Overview](#saml-sso-overview)
+- [General Configuration Workflow](#general-configuration-workflow)
+- [Enforce SAML SSO](#enforce-saml-sso)
+- [Configuration Instructions for Specific Identity Providers](#configuration-instructions-for-specific-identity-providers)
+- [Troubleshoot Your SAML SSO Configuration](#troubleshoot-your-saml-sso-configuration)
+
 ## SAML SSO Overview
 
 {{% sso-definition %}} The Cobalt SSO service is based on the [Security Assertion Markup Language 2.0 (SAML 2.0)](/getting-started/glossary/#security-assertion-markup-language) specifications. Learn more about [SAML SSO](/getting-started/glossary/#saml-single-sign-on-sso).
