@@ -52,10 +52,10 @@ The complexity of your asset determines the **number of credits** required for a
 {{% credit-definition %}} You can think of a Cobalt credit as a virtual voucher that you consume whenever you want to run a pentest. Learn more about [Cobalt credits](/platform-deep-dive/credits/).
 
 {{% alert title="Scoping a Comprehensive Pentest" color="primary" %}}
-When you set up a new <a href="/getting-started/glossary/#comprehensive-pentest">Comprehensive pentest</a> for an asset that you've already comprehensively tested earlier, you can:
+When you set up a new <a href="/getting-started/glossary/#comprehensive-pentest">Comprehensive pentest</a> for an asset that you've already comprehensively tested earlier, you can select one of the options:
 
-- **Inherit the scope** of your last completed Comprehensive pentest for this asset; or
-- **Change the scope** by adjusting scoping parameters, as described below.
+- If the general size of the asset has not changed, **inherit the scope** of your last completed Comprehensive pentest; or
+- If the general size of the asset has changed, **rescope the pentest** by adjusting scoping parameters, as described below.
 
 ![Options for scoping a Comprehensive pentest](/gsg/scope-pentest-comprehensive-options.png "Options for scoping a Comprehensive pentest")
 {{% /alert %}}
@@ -78,7 +78,7 @@ Once you’ve scoped the pentest, review the required [credits](#view-required-c
 
 To scope a pentest for a Web asset, specify the number of the following characteristics of the asset that need to be tested.
 
-![Scoping parameters for a Web asset](/gsg/pentest-scoping-web.png "Scoping parameters for a Web asset")
+![Scoping parameters for a Web asset](/gsg/pentest-scoping-web-app.png "Scoping parameters for a Web asset")
 
 | Parameter | Definition | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|---|
