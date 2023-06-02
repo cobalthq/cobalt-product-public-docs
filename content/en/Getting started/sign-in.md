@@ -63,10 +63,10 @@ We support two-factor authentication (2FA) **for users who sign in with their em
 {{% 2fa-see-troubleshooting %}}
 {{< /alert >}}
 
-## Device Verification
+## Browser Verification
 
-{{% device-verification-intro %}}
+{{% browser-verification-intro %}}
 
 {{< alert title="Tip" color="primary" >}}
-If you see the **Verify It's You** message upon signing in, follow the steps described in [We Don't Recognize Your Device](/platform-deep-dive/cobalt-account/account-recovery/#we-dont-recognize-your-device).
+If you see the **Verify It's You** message upon signing in, follow the steps described in [We Don't Recognize Your Browser](/platform-deep-dive/cobalt-account/account-recovery/#we-dont-recognize-your-browser).
 {{< /alert >}}
