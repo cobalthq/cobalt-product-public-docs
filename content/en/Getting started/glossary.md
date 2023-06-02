@@ -300,6 +300,41 @@ test the [asset](#asset) specified in your pentest.
 Combines manual and human testing with a modern delivery platform to deploy
 penetration testing programs.
 
+## Pentest Report
+
+A summary of all vulnerability reports, including observations on positive security measures. Target audiences: executives, security engineers, and developers. Includes:
+
+- Executive Summary 
+  - Describes the tests performed with criteria.
+- Executive Analysis
+  - Includes a high-level summary of vulnerabilities.
+
+- Scope of Work
+
+  {{% scope-of-work %}}
+
+- Summary of Findings
+  - Trends and critical issues
+  - Auto-generated graphs
+- Summary of Recommendations
+  - Highlights of the work we recommend to remediate findings
+- Post-Test Remediation
+  - List of details with type, severity, state, and resolution
+- Finding Details
+  - More information on each finding
+
+Within Cobalt, this is also known as a Report or a Final Report. For more information, see [Pentest Reports](/platform-deep-dive/pentests/reports/).
+
+## Pentest Tag
+
+Pentest identifier on the Cobalt platform that starts with `#`. You can see the tag on the pentest page under the title.
+
+![Pentest tag](/gsg/pentest-tag.png "Pentest tag")
+
+## Projects (Cloud Assets)
+
+All resources included in your cloud [asset](#asset). For example, [AWS defines a project](https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/create-project.html) as a collection of resources associated with an asset.
+
 ## PtaaS Pentest
 
 A pentest that [Cobalt pentesters](#pentester) perform on the Cobalt [Pentest as a Service (PtaaS)](#pentest-as-a-service-ptaas) platform for a customer. This includes the following pentest types:
@@ -337,35 +372,6 @@ You may want a Comprehensive Pentest for:
 - All categories from the [OWASP Top 10](https://owasp.org/www-project-top-ten/) list
 - M&amp;A due diligence, to identify and eliminate possible risks for all parties involved
 - A specific customer of third-party attestation request
-
-## Pentest Report
-
-A summary of all vulnerability reports, including observations on positive security measures. Target audiences: executives, security engineers, and developers. Includes:
-
-- Executive Summary 
-  - Describes the tests performed with criteria.
-- Executive Analysis
-  - Includes a high-level summary of vulnerabilities.
-
-- Scope of Work
-
-  {{% scope-of-work %}}
-
-- Summary of Findings
-  - Trends and critical issues
-  - Auto-generated graphs
-- Summary of Recommendations
-  - Highlights of the work we recommend to remediate findings
-- Post-Test Remediation
-  - List of details with type, severity, state, and resolution
-- Finding Details
-  - More information on each finding
-
-Within Cobalt, this is also known as a Report or a Final Report. For more information, see [Pentest Reports](/platform-deep-dive/pentests/reports/).
-
-## Projects (Cloud Assets)
-
-All resources included in your cloud [asset](#asset). For example, [AWS defines a project](https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/create-project.html) as a collection of resources associated with an asset.
 
 ## Remediate
 
