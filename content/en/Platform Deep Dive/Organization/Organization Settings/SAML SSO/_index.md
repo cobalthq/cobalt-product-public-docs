@@ -154,8 +154,8 @@ To create a SAML app for Cobalt in Duo:
       - **IdP Attribute**: `mail`
       - **SAML Response Attribute**: `email`
 1. Complete other required steps.
+1. Assign users to the application.
 1. Test the integration.
-1. If the test is successful, assign users to the application.
 
 {{% /expand %}}
 
@@ -178,7 +178,7 @@ To create a SAML app for Cobalt in the Google Admin console:
     - **IdP Certificate**: Enter **Certificate** from the Google Admin console.
 1. Still in Cobalt, copy the **ACS URL** value, then select **Save Configuration**.
 1. Go back to the Google Admin console. In the **Service Provider Details** window, enter:
-    - **ACS URL**: **ACS URL** from Cobalt.
+    - **ACS URL**: **ACS URL** from Cobalt
     - **Entity ID**: `https://api.cobalt.io/users/saml/metadata`
 1. Leave the **Signed Response** option unselected (default).
 1. On the **Attribute Mapping** page, add an attribute `email`, and select **Basic Information** and **Primary Email**.
@@ -197,7 +197,9 @@ To create a SAML app for Cobalt in the Google Admin console:
 
 If you create an application for Okta **manually**, use the following parameters.-->
 
-We recommend creating a **non-gallery SAML application** for Cobalt manually. For more information, refer to Okta [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
+Create a **non-gallery SAML application** for Cobalt manually. For more information, refer to Okta [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
+
+Currently, the Cobalt SAML gallery app in Okta doesn't support new SAML settings.
 
 {{%expand "Click to view instructions." %}}
 <br>
@@ -214,7 +216,7 @@ To create a non-gallery SAML app for Cobalt in Okta:
 1. On the **Configure SAML** tab, under **General**, enter SAML details:
     -  **Single sign-on URL**: Enter **ACS URL** from Cobalt.
     - **Audience URI (SP Entity ID)**: Enter `https://api.cobalt.io/users/saml/metadata`.
-    - Leave the **Default RelayState** field empty.
+    - Leave the **Default RelayState** field blank.
     - For other fields, use default values.<br><br>
     ![Configure a non-gallery SAML app in Okta](/deepdive/configure-non-gallery-SAML-app-in-Okta-2.png "Configure a non-gallery SAML app in Okta")
 1. Still on the **Configure SAML** tab, under **Attribute Statements (optional)**, add the following mapping attribute:
@@ -227,8 +229,8 @@ To create a non-gallery SAML app for Cobalt in Okta:
     - **Signing Certificate**<br><br>
     ![Configure a non-gallery SAML app in Okta](/deepdive/configure-non-gallery-SAML-app-in-Okta-3.png "Configure a non-gallery SAML app in Okta")
 1. In Cobalt, enter the following values from Okta, and then select **Save Configuration**.
-    - **IdP SSO URL**: Enter the **Sign on URL** from Okta.
-    - **IdP Certificate**: Enter the **Signing Certificate** from Okta.
+    - **IdP SSO URL**: Enter **Sign on URL** from Okta.
+    - **IdP Certificate**: Enter **Signing Certificate** from Okta.
 1. Test the integration.
 1. If the test is successful, assign users to the application.
 
