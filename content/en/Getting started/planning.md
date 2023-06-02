@@ -15,16 +15,28 @@ Set the start date for your pentest and define its scope.
 
 ## Schedule the Pentest
 
-Depending on your {{% ptaas-tier %}},
-we can help you schedule pentests with a start date from at least one to three business days after you select **Submit for Review**.
+Depending on your {{% ptaas-tier %}}, you can schedule pentests with a start date from at least one to three business days after submitting it for review.
 
-The standard testing period is 14 days. It may vary depending on the pentest scope and other factors.
+If you have any [special requirements](/getting-started/review-pentest/#additional-requests), such as qualifications for pentester certifications, we reserve the right to start the pentest later than the flow time specified in your {{% ptaas-tier %}}.
 
-![Planning and scoping a pentest](/gsg/ScheduleScopePentest.png "Schedule and scope your pentest")
+![Set a start date for your pentest](/gsg/schedule-pentest.png "Set a start date for your pentest")
 
-If you have any [special requirements](/getting-started/review-pentest/#additional-requests), such as qualifications for pentester certifications,
-we reserve the right to start the pentest later than the flow time specified in your
-{{% ptaas-tier %}}.
+### Pentest Timelines
+
+Pentest timelines depend on the pentest type, scope, and other factors. When you [schedule your pentest](#schedule-the-pentest) and set a start date, the end date populates automatically.
+
+**Standard pentest timelines**:
+
+- [Comprehensive Pentests](/getting-started/glossary/#agile-pentest): 14 days
+- [Agile Pentests](/getting-started/glossary/#comprehensive-pentest):
+  - 3 or 4 credits: 7 days
+  - From 5 credits: 14 days
+
+Learn more about the [pentest types](/platform-deep-dive/pentests/pentest-types/).
+
+{{% alert title="Important" color="primary" %}}
+Pentest duration may vary depending on the pentest scope and other factors.
+{{% /alert %}}
 
 ## Scope the Pentest
 

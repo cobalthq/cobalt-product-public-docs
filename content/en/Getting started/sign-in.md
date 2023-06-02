@@ -15,7 +15,7 @@ Learn about your first steps with Cobalt after receiving a welcome email.
 Once you've received a welcome email from Cobalt, do the following:
 
 1. Select **Sign In** in the email.
-1. Create a password. Follow the password complexity requirements on the screen.
+1. Create a strong password. To learn more, read our [password best practices](/platform-deep-dive/cobalt-account/password-best-practices/).
 
 Once you've confirmed your email address and created a password, your Cobalt account is fully set up.
 
