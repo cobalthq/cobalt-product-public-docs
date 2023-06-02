@@ -207,7 +207,7 @@ If you create an application for Okta **manually**, use the following parameters
 
 Create a **non-gallery SAML application** for Cobalt manually. For more information, refer to Okta [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
 
-Currently, the Cobalt SAML gallery app in Okta doesn't support new SAML settings.
+Currently, the Cobalt gallery app in Okta doesn't support new SAML settings.
 
 {{%expand "Click to view instructions." %}}
 <br>
