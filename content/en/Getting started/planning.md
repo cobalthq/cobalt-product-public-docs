@@ -67,14 +67,7 @@ Once you've scoped the pentest, review the required [credits](#view-required-cre
 
 ### Web
 
-To scope a pentest for a Web asset, first determine the following:
-
-- Type of your web application:
-  - [Traditional application](/getting-started/glossary/#traditional-web-application): How many [dynamic pages](/getting-started/glossary/#dynamic-web-page) does the application have?
-  - [Single-page application](/getting-started/glossary/#single-page-application): How many [routes](/getting-started/glossary/#route-software) does the application have? As an example, read the [React Router documentation](https://reactrouter.com/en/main/start/concepts) to learn more about routing.
-- How many [user roles](/getting-started/glossary/#user-role) do you want to test?
-- What is the **technology stack**?
-- Do you have any **special requirements**?
+To scope a pentest for a Web asset, specify the number of the following characteristics of the asset that need to be tested.
 
 ![Scoping parameters for a Web asset](/gsg/pentest-scoping-web-app.png "Scoping parameters for a Web asset")
 
@@ -89,12 +82,7 @@ If the only APIs in your assets populate web pages, you may not need to set up a
 
 ### Mobile
 
-To scope a pentest for a Mobile asset, first determine the following:
-
-- What is the application **framework**?
-- On which **operating systems** (OSes) does the application run?
-- What is the **technology stack**?
-- Do you have any **special requirements**?
+To scope a pentest for a Mobile asset, specify the number of the following characteristics of the asset that need to be tested.
 
 ![Scoping parameters for a Mobile asset](/gsg/pentest-scoping-mobile.png "Scoping parameters for a Mobile asset")
 
@@ -105,11 +93,7 @@ To scope a pentest for a Mobile asset, first determine the following:
 
 ### API
 
-To scope a pentest for an API asset, first determine the following:
-
-- How many [endpoints](/getting-started/glossary/#api-endpoint) does your API have? Ignore specific parameters and HTTP methods for each endpoint.
-- What is the **technology stack**?
-- Do you have any **special requirements**?
+To scope a pentest for an API asset, specify the number of the following characteristics of the asset that need to be tested.
 
 ![Scoping parameters for an API asset](/gsg/pentest-scoping-api.png "Scoping parameters for an API asset")
 
@@ -120,10 +104,7 @@ To scope a pentest for an API asset, first determine the following:
 
 ### External Network
 
-To scope a pentest for an External Network asset, first determine the following:
-
-- How many **active hosts** are in the network?
-- Do you have any **special requirements**?
+To scope a pentest for an External Network asset, specify the number of IP addresses in your external network that need to be tested.
 
 ![Scoping parameters for an External Network asset](/gsg/pentest-scoping-ip-addresses.png "Scoping parameters for an External Network asset")
 
@@ -133,35 +114,7 @@ To scope a pentest for an External Network asset, first determine the following:
 
 ### Internal Network
 
-To scope a pentest for an Internal Network asset, first determine the following:
-
-- How many **active hosts** are in the network?
-- Do you have any **special requirements**?
-- Do you have **other considerations** that may affect the scope? For example, multiple [jump boxes](/getting-started/glossary/#jump-box) on the network.
-
-Because Cobalt pentesters execute pentests for internal networks remotely, they need:
-
-- Access to the internal corporate network through a stable VPN connection; and
-- A lightweight Linux server inside the network that serves as a [jump box]((/getting-started/glossary/#jump-box)) from which pentesters can scan and test the internal network during the assessment.
-
-Other requirements:
-
-- For **internal networks running on Amazon Web Services (AWS) machines**, we will:
-  - Send you a [link](https://aws.amazon.com/marketplace/pp/prodview-fznsw3f7mq7to) to create a Kali Virtual Machine (VM) inside AWS.
-  - Ask you to set up key-based SSH access for each pentester.
-- For **networks that don't use a cloud network setup**, do the following:
-  - [Download a Kali VMWare/VirtualBox image](https://www.kali.org/get-kali/).
-  - Set up key-based SSH access for each pentester.
-
-{{% alert title="Note" color="primary" %}}
-Recommended system resources for the virtual image (VMWare, VirtualBox, or AWS) should be at least:
-
-- 2 allocated virtual CPUs
-- 8 GB RAM
-- 20 GB of disk space
-
-Pentesters also need Root access to the Kali VM, which is mandatory.
-{{% /alert %}}
+To scope a pentest for an Internal Network asset, specify the number of IP addresses in your internal network that need to be tested.
 
 ![Scoping parameters for an Internal Network asset](/gsg/pentest-scoping-ip-addresses.png "Scoping parameters for an Internal Network asset")
 
@@ -173,12 +126,6 @@ If you're working with servers on the cloud, you can also set up a [Cloud Config
 
 ### Cloud Configuration
 
-To scope a pentest for a Cloud Configuration asset, first determine the following:
-
-- What is the **cloud platform**?
-- How many **account IDs** and **unique services** are in the configuration?
-- Do you have any **special requirements**?
-
 Cobalt pentesters can test services on the following platforms:
 
 - Google Cloud Platform (GCP)
@@ -186,6 +133,8 @@ Cobalt pentesters can test services on the following platforms:
 - Microsoft Azure Cloud (Azure)
 
 Each platform includes different categories of services, such as EC2, databases, and machine learning engines.
+
+To scope a pentest for a Cloud Configuration asset, specify the number of the following characteristics of the asset that need to be tested.
 
 ![Scoping parameters for a Cloud Configuration asset](/gsg/pentest-scoping-cloud-config.png "Scoping parameters for a Cloud Configuration asset")
 
