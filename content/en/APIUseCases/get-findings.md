@@ -1,5 +1,5 @@
 ---
-title: "Retrieve Cobalt Findings and Export Them to a Spreadsheet"
+title: "Retrieve Cobalt Findings and Import Them to a Spreadsheet"
 linkTitle: "Export Findings"
 weight: 120
 description: >
@@ -15,7 +15,7 @@ Complete the following steps:
 - [Step 1: Create an API Token in the Cobalt UI](#step-1-create-an-api-token-in-the-cobalt-ui)
 - [Step 2: Get Your Organization Token](#step-2-get-your-organization-token)
 - [Step 3: Get All Findings](#step-3-get-all-findings)
-- [Step 4: Export Findings to a Spreadsheet](#step-4-export-findings-to-a-spreadsheet)
+- [Step 4: Import Findings to Google Sheets](#step-4-import-findings-to-google-sheets)
 - [Step 5: Visualize Findings Data](#step-5-visualize-findings-data)
 
 To use our API, you need a Cobalt account with membership in your organization.
@@ -111,11 +111,11 @@ If the command is successful, you'll see
 For a list of error codes, see the [Errors](https://docs.cobalt.io/v2/#errors)
 section of our API reference.
 
-## Step 4: Export Findings to a Spreadsheet
+## Step 4: Import Findings to Google Sheets
 
-Now that you have findings data in JSON format, you can export it to the spreadsheet software of your choice.
+Now that you have findings data in JSON format, you can import it to the spreadsheet software of your choice.
 
-As an example, let's export findings to Google Sheets.
+As an example, let's import findings to Google Sheets.
 
 1. In Google Sheets, select **Extensions** > **Apps Script**.
 1. Use the [Class UrlFetchApp](https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app) service to import raw findings data. Refer to the [Class SpreadsheetApp](https://developers.google.com/apps-script/reference/spreadsheet/spreadsheet-app) reference for details.<br>
