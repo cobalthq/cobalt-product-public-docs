@@ -1,5 +1,5 @@
 ---
-title: "Retrieve Findings and Import Them to a Spreadsheet"
+title: "Retrieve Findings and Import Them to Google Sheets"
 linkTitle: "Retrieve and Import Findings"
 weight: 120
 description: >
