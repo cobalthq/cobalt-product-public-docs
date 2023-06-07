@@ -209,8 +209,8 @@ As an example, let's import findings to Google Sheets.
 1. Run the following script to download and import Cobalt findings. Replace `{{% api-token %}}` and `{{% org-token %}}` with your values.<br>
 
     ```js
-    function FETCH_DATA(pentest) {
-      var url = 'https://api.cobalt.io/findings?pentest='+pentest; 
+    function FETCH_DATA() {
+      var url = 'https://api.cobalt.io/findings';
       var params = { headers: {
         'Accept': 'application/vnd.cobalt.v2+json',
         'Content-Type': 'application/vnd.cobalt.v2+json',
