@@ -46,7 +46,8 @@ the API token that you [generated](#step-1-create-an-api-token-in-the-cobalt-ui)
 ```bash
 curl -X GET "https://api.cobalt.io/orgs" \
      -H "Accept: application/vnd.cobalt.v2+json" \
-     -H "Authorization: Bearer {{% api-token %}}"
+     -H "Authorization: Bearer {{% api-token %}}" \
+     | jq .
 ```
 
 {{%expand "Click to view a sample response." %}}
@@ -96,8 +97,94 @@ You can retrieve all [findings](/platform-deep-dive/pentests/findings/) with the
 curl -X GET "https://api.cobalt.io/findings" \
   -H "Accept: application/vnd.cobalt.v2+json" \
   -H "Authorization: Bearer {{% api-token %}}" \
-  -H "X-Org-Token: {{% org-token %}}"
+  -H "X-Org-Token: {{% org-token %}}" \
+  | jq .
 ```
+
+{{%expand "Click to view a sample response." %}}
+You should see output similar to:
+
+```json
+{
+  "data": [
+    {
+      "resource": {
+        "id": "vl_3sP2RCWWUajc3oRXmbQ4j9",
+        "tag": "#PT3334_37",
+        "title": "XSS vulnerability",
+        "description": "Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts...",
+        "type_category": "Cross-Site Scripting (XSS)",
+        "labels": [
+          {
+            "name": "Your label"
+          }
+        ],
+        "impact": 5,
+        "likelihood": 4,
+        "severity": "high",
+        "affected_targets": [
+          "https://example.com",
+          "192.168.1.1"
+        ],
+        "proof_of_concept": "Here you can see...",
+        "severity_justification": "The vulnerability can cause a lot of damage",
+        "suggested_fix": "Ensure this...",
+        "prerequisites": "Credentials are needed",
+        "pentest_id": "pt_PEtv4dqnwGV2efZhLw3BM5",
+        "http_request": "HTTP GET / ...",
+        "asset_id": "as_HcChCMueiPQQgvckmZtRSd",
+        "log": [
+          {
+            "action": "created",
+            "timestamp": "2021-04-01T15:13:24.322Z"
+          },
+          {
+            "action": "likelihood_changed",
+            "value": 4,
+            "timestamp": "2021-04-01T15:14:05.856Z"
+          },
+          {
+            "action": "impact_changed",
+            "value": 5,
+            "timestamp": "2021-04-01T15:14:05.856Z"
+          },
+          {
+            "action": "state_changed",
+            "value": "need_fix",
+            "timestamp": "2021-04-01T15:14:06.757Z"
+          },
+          {
+            "action": "state_changed",
+            "value": "check_fix",
+            "timestamp": "2021-04-01T15:14:57.845Z"
+          }
+        ],
+        "state": "check_fix",
+        "created_at": "2022-09-26T18:35:18.759Z",
+        "updated_at": "2022-09-26T18:36:57.462Z",
+        "attachments": [
+          {
+            "id": "at_LA5GcEL4HRitFGCHREqmzL",
+            "file_name": "rainbow.jpeg",
+            "download_url": "https://s3.amazonaws.com/acmecorp/uploads/attachment/file/12345/rainbow.jpeg?something=1"
+          }
+        ]
+      },
+      "links": {
+        "ui": {
+          "url": "https://api.cobalt.io/links/eyJ0eXBlIjoic29tZXRoaW5nIiwib3JnU2x1ZyI6ImNvYmFsdCIsInBlbnRlc3RUYWciOiJz="
+        }
+      }
+    }
+  ],
+  "pagination": {
+    "next_page": "/findings?cursor=a1b2c3d4",
+    "prev_page": "/findings?cursor=4d3c2b1a"
+  }
+}
+```
+{{% /expand %}}
+</br>
 
 For more information on each parameter, see our API reference documentation on
 how to [get all findings](https://docs.cobalt.io/v2/#get-all-findings).
@@ -106,7 +193,7 @@ If the command is successful, you'll see
 
 | Message    | Meaning          |
 |------------|------------------|
-| 200 OK | Findings retrieved    |
+| 200 OK | Findings for all pentests retrieved    |
 
 For a list of error codes, see the [Errors](https://docs.cobalt.io/v2/#errors)
 section of our API reference.
