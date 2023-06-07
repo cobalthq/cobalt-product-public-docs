@@ -10,7 +10,7 @@ description: >
 Use this document with our [Cobalt API documentation](https://docs.cobalt.io) to retrieve Cobalt findings for all pentests.
 {{% /pageinfo %}}
 
-In this article:
+Complete the following steps:
 
 - [Step 1: Create an API Token in the Cobalt UI](#step-1-create-an-api-token-in-the-cobalt-ui)
 - [Step 2: Get Your Organization Token](#step-2-get-your-organization-token)
@@ -96,18 +96,13 @@ You can retrieve all [findings](/platform-deep-dive/pentests/findings/) with the
 curl -X GET "https://api.cobalt.io/findings" \
   -H "Accept: application/vnd.cobalt.v2+json" \
   -H "Authorization: Bearer {{% api-token %}}" \
-  -H "X-Org-Token: {{% org-token %}}" \
-  -v
+  -H "X-Org-Token: {{% org-token %}}"
 ```
 
 For more information on each parameter, see our API reference documentation on
 how to [get all findings](https://docs.cobalt.io/v2/#get-all-findings).
 
-The command we use includes a `-v`, which sets up output in verbose mode. The
-command works without it. However, you would see no response from this REST call.
-
-When you review the output of the REST call with the `-v`, look for the line
-with `HTTP/2`. If the command is successful, you'll see
+If the command is successful, you'll see
 
 | Message    | Meaning          |
 |------------|------------------|
