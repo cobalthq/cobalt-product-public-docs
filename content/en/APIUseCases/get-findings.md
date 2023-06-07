@@ -46,7 +46,7 @@ the API token that you [generated](#step-1-create-an-api-token-in-the-cobalt-ui)
 ```bash
 curl -X GET "https://api.cobalt.io/orgs" \
      -H "Accept: application/vnd.cobalt.v2+json" \
-     -H "Authorization: Bearer {{% api-token %}}" \
+     -H "Authorization: Bearer {{% api-token %}}"
 ```
 
 {{%expand "Click to view a sample response." %}}
