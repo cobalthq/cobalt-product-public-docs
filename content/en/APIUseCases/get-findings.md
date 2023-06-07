@@ -125,8 +125,8 @@ As an example, let's import findings to Google Sheets.
     function FETCH_DATA(pentest) {
       var url = 'https://api.cobalt.io/findings?pentest='+pentest; 
       var params = { headers: {
-        'Accept': 'application/vnd.cobalt.v1+json',
-        'Content-Type': 'application/vnd.cobalt.v1+json',
+        'Accept': 'application/vnd.cobalt.v2+json',
+        'Content-Type': 'application/vnd.cobalt.v2+json',
         'Authorization': 'Bearer {{% api-token %}}',
         'X-Org-Token': '{{% org-token %}}'
       }}
