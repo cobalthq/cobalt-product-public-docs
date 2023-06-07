@@ -3,7 +3,7 @@ title: "Retrieve Findings and Import Them to a Spreadsheet"
 linkTitle: "Retrieve and Import Findings"
 weight: 120
 description: >
-  Learn how to retrieve all findings using the Cobalt API and export them to a spreadsheet.
+  Learn how to retrieve all findings using the Cobalt API and import them to Google Sheets.
 ---
 
 {{% pageinfo %}}
