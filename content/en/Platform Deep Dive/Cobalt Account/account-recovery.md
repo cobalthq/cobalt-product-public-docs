@@ -84,7 +84,7 @@ To reset your password:
 
 1. On the {{% sign-in %}} page, select **Forgot password?**.
 1. Enter your email address that you used to [sign in to Cobalt](/getting-started/sign-in/), and select **Reset Password**.
-1. Follow the instructions in the email you receive.
+1. Follow the instructions in the email you receive. Learn [how to create a strong password](/platform-deep-dive/cobalt-account/password-best-practices/).
 
 ## We Don't Recognize Your Device
 

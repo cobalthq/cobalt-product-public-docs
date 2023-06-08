@@ -1,7 +1,7 @@
 ---
 title: "Get Pentest Updates with Webhooks"
 linkTitle: "Webhooks"
-weight: 10
+weight: 30
 description: >
   Set up webhook notifications for your organization.
 ---
@@ -10,6 +10,16 @@ description: >
 Configure webhooks to subscribe to real-time updates for your pentests.
 {{% /pageinfo %}}
 
+In this article:
+
+- [Introducing Webhooks](#introducing-webhooks)
+- [Before You Start](#before-you-start)
+- [Webhook Events](#webhook-events)
+- [Configure Webhooks in the UI](#configure-webhooks-in-the-ui)
+- [Troubleshoot Webhooks](#troubleshoot-webhooks)
+
+## Introducing Webhooks
+
 With our API-based webhooks, you can set up an integration between your app and the Cobalt platform to get notifications for pentest events. We’ll send you updates for each event to your URL through an HTTP POST request.
 
 When you work with an API, you can become aware of new data in the following ways:
@@ -17,10 +27,9 @@ When you work with an API, you can become aware of new data in the following way
 - Repeatedly send requests to the same [API endpoint](/getting-started/glossary/#api-endpoint) to retrieve new information, which is known as polling.
 - Configure a webhook that automatically sends new data to the specified URL.
 
-<!--Update the diagram once new webhook events are released.-->
 {{< mermaid align="left" theme="default" >}}
 sequenceDiagram
-  title Webhook for pentest events
+  title Webhook for selected pentest events
    Your App->>Cobalt Platform: Notify me of new pentest events
    Cobalt Platform-->>Your App: Pentest created
    Cobalt Platform-->>Your App: Finding created
@@ -43,13 +52,17 @@ Read our [Best Practices](https://docs.cobalt.io/v2/#best-practices) for more in
 
 ## Webhook Events
 
-When you set up a webhook, you subscribe to the following events related to your pentests:
+When you set up a webhook, you can **select events** to which you want to subscribe:
 
 | Pentest | Finding |
 |---|---|
-| <li>Pentest created</li><li>[Pentest state](/platform-deep-dive/pentests/pentest-process/pentest-states/) changed</li> | <li>Finding created</li><li>Finding deleted</li><li>[Finding state](/platform-deep-dive/pentests/findings/finding-states/) changed</li><li>Finding updated</li>
+| <li>Pentest created</li><li>[Pentest state](/platform-deep-dive/pentests/pentest-process/pentest-states/) updated</li> | <li>Finding deleted</li><li>Finding published</li><li>[Finding state](/platform-deep-dive/pentests/findings/finding-states/) updated</li><li>Finding updated</li>
 
 For security reasons, we only post essential details about webhook events, such as their ID and type. To retrieve more information about the event, use the [Cobalt API](https://docs.cobalt.io/v2/).
+
+{{% alert title="Note" color="primary" %}}
+For webhooks that you created before June 2023, you get updates for **all events**. You can adjust the configuration of your existing webhooks. Select the three-dot icon {{% three-dots %}} under **Actions**, select **Edit Webhook**, select webhook events in the overlay, and then select **Save** to confirm.
+{{% /alert %}}
 
 ## Configure Webhooks in the UI
 
@@ -66,11 +79,12 @@ To create a webhook:
    - **Webhook URL**: URL to which Cobalt sends HTTP POST requests for pentest [events](#webhook-events).
      - Use a unique name and URL for each webhook you create.
    - (Optional) **Secret**: Your [webhook secret](#before-you-start) that we use to authenticate a POST request to your URL.
+   - **Events**: Select [webhook events](#webhook-events) to which you want to subscribe.
 1. When ready, select **Save**.
 1. We send a test event to the specified URL to validate your webhook. The webhook becomes active once the validation is complete.
    - If the validation fails, we'll deactivate your webhook within 24 hours. See [Troubleshoot Webhooks](#troubleshoot-webhooks) for more information.
 
-![Create a webhook in the Cobalt UI](/integrations/CreateWebhook1.png "Create a webhook in the Cobalt UI")
+![Create a webhook in the Cobalt UI](/integrations/create-webhook.png "Create a webhook in the Cobalt UI")
 
 ### Manage Webhooks
 

@@ -1,1 +1,1 @@
-<p>A User Role specifies the permissions or privileges associated with a user. Common examples of User Roles include:</p><p><ul><li>Global Administrator (such as a UNIX root user)</li><li>Administrator</li><li>Group Owner</li><li>Workspace Administrator</li><li>Full User</li><li>Guest</li></ul></p>
+A User Role is a user group within an application with specific permissions, such as an administrator, manager, or guest.
