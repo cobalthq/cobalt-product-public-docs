@@ -24,7 +24,7 @@ For all assets, we'd appreciate a:
 
 Include links to published documentation related to the
 asset. You can upload documentation, diagrams, and more in various
-file formats under [Attachment(s)](#attachments).
+file formats under [Attachments](#attachments).
 
 The following sections detail additional needs for different kinds of assets:
 

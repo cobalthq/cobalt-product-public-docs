@@ -51,6 +51,12 @@ following categories:
 
 {{% asset-categories %}}
 
+## Asset Tag
+
+{{% asset-tag-definition %}}
+
+Learn [how to use asset tags](/getting-started/assets/#asset-tags).
+
 ## Application Security (AppSec)
 
 Application security is the practice of using security software, hardware, techniques,

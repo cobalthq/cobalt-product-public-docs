@@ -1,0 +1,1 @@
+An asset tag is customer-defined metadata associated with a Cobalt asset.
