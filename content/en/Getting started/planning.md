@@ -54,7 +54,7 @@ The complexity of your asset determines the **number of credits** required for a
 {{% alert title="Scoping a Comprehensive Pentest" color="primary" %}}
 When you set up a new <a href="/getting-started/glossary/#comprehensive-pentest">Comprehensive pentest</a> for an asset that you've already comprehensively tested earlier, you can select one of the options:
 
-- If the general size of the asset has not changed, **inherit the scope** of your last completed Comprehensive pentest; or
+- If the general size of the asset has not changed, **inherit the scope** of your last completed Comprehensive pentest.
 - If the general size of the asset has changed, **rescope the pentest** by adjusting scoping parameters, as described below.
 
 ![Options for scoping a Comprehensive pentest](/gsg/scope-pentest-comprehensive-options.png "Options for scoping a Comprehensive pentest")
@@ -129,7 +129,7 @@ To scope a pentest for an Internal Network asset, specify the number of IP addre
 
 | Parameter | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|
-| IP Addresses | Enter the number of IP addresses in your internal network that need to be tested. |
+| IP Addresses | Enter the number of active IP addresses in your internal network that need to be tested. |
 
 If you're working with servers on the cloud, you can also set up a [Cloud Configuration](#cloud-configuration) asset.
 
