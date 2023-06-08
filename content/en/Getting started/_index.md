@@ -19,6 +19,8 @@ Take your first steps to get started:
 
 ## Prepare for a Pentest
 
+<a class="btn btn-outline-primary rounded" href="/getting-started/pentest-preparation/">Pentest Preparation Checklist »</a>
+
 - **Make your teams aware of the upcoming pentest**.
   - Notify everyone who should be aware of the pentest. Ensure that the pentest doesn’t disrupt anyone’s workflows.
   - Prepare credentials and account details for pentesters.
