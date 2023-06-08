@@ -452,8 +452,6 @@ A Specialized pentest that you see in the Cobalt UI is a pentest engagement cond
 
 Learn more about [Professional Services pentests](/professional-services/).
 
-To launch an advanced pentest, **contact our Professional Services team** at [professional_services@cobalt.io](mailto:professional_services@cobalt.io). You can't create a Specialized pentest or set up a special asset in the UI—we'll do that for you.
-
 ## Static Web Page
 
 Some applications are built solely on HTML, and do not change depending on the user or location. Contrast with [Dynamic Web Pages](#dynamic-web-page).
