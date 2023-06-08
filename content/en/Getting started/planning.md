@@ -51,6 +51,15 @@ The complexity of your asset determines the **number of credits** required for a
 
 {{% credit-definition %}} You can think of a Cobalt credit as a virtual voucher that you consume whenever you want to run a pentest. Learn more about [Cobalt credits](/platform-deep-dive/credits/).
 
+{{% alert title="Scoping a Comprehensive Pentest" color="primary" %}}
+When you set up a new <a href="/getting-started/glossary/#comprehensive-pentest">Comprehensive pentest</a> for an asset that you've already comprehensively tested earlier, you can select one of the options:
+
+- If the general size of the asset has not changed, **inherit the scope** of your last completed Comprehensive pentest.
+- If the general size of the asset has changed, **rescope the pentest** by adjusting scoping parameters, as described below.
+
+![Options for scoping a Comprehensive pentest](/gsg/scope-pentest-comprehensive-options.png "Options for scoping a Comprehensive pentest")
+{{% /alert %}}
+
 To set the pentest scope, identify the complexity of your asset. Under **Scoping**, specify the number of characteristics associated with the asset that need to be tested. To get exact numbers, consult with the asset owner inside your organization.
 
 Scoping parameters differ for each [asset type](/platform-deep-dive/assets/asset-types/):
@@ -110,7 +119,7 @@ To scope a pentest for an External Network asset, specify the number of IP addre
 
 | Parameter | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|
-| IP Addresses | Enter the number of IP addresses in your external network that need to be tested. |
+| IP Addresses | Enter the number of active IP addresses in your external network that need to be tested. |
 
 ### Internal Network
 
@@ -120,7 +129,7 @@ To scope a pentest for an Internal Network asset, specify the number of IP addre
 
 | Parameter | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|
-| IP Addresses | Enter the number of IP addresses in your internal network that need to be tested. |
+| IP Addresses | Enter the number of active IP addresses in your internal network that need to be tested. |
 
 If you're working with servers on the cloud, you can also set up a [Cloud Configuration](#cloud-configuration) asset.
 
@@ -156,7 +165,9 @@ To scope a pentest for a combined asset, specify the number of characteristics f
 
 ## View Required Credits
 
-Once you've identified the [pentest scope](#scope-the-pentest), you can see the number of required credits in **Credits Per Pentest**. Whenever you adjust the scope, our algorithm updates the number of credits. Under **Credits**, you can also view your **Available Balance**.
+Once you've identified the [pentest scope](#scope-the-pentest), you can see the number of estimated credits in **Credits Per Pentest**. Whenever you adjust the scope, our algorithm updates the number of credits.
+
+You can see the final number of required credits when the pentest is Planned, after we review your pentest request.
 
 ## Next Step
 
