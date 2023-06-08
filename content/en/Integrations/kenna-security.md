@@ -49,7 +49,7 @@ We recommend creating a dedicated connector for importing Cobalt findings in Ken
 1. On the configuration page, enter a name for your connector, such as *Kenna Data Importer - Cobalt.io*. Select **Save**.<br><br>
   ![Connector configuration page in Kenna Security](/integrations/Kenna-Security-create-data-importer-connector-4.png "Connector configuration page in Kenna Security")
 1. Select the connector you created.<br><br>
-  ![](/integrations/Kenna-Security-create-data-importer-connector-5.png "")
+  ![Select the connector you created in Kenna Security](/integrations/Kenna-Security-create-data-importer-connector-5.png "Select the connector you created in Kenna Security")
 1. Copy the connector ID. You will need it in [step 2](#step-2-get-the-kenna-security-toolkit-image).<br><br>
   ![Kenna Data Importer connector ID](/integrations/Kenna-Security-create-data-importer-connector-6.png "Kenna Data Importer connector ID")
 
@@ -98,7 +98,7 @@ When ready, go to [step 3](#step-3-run-the-cobalt-task).
 
     export KENNA_CONNECTOR_ID=xxx
     ```
-1. Run the toolkit with the `cobaltio` task selected. This commands imports all findings from the configured organization in Cobalt into Kenna Security.
+1. Run the toolkit with the `cobaltio` task selected. This command imports all findings from the configured organization in Cobalt into Kenna Security.
     - (Recommended) By default, the AppSec module is used.
     - If you want to use the VM module instead, add `kenna_appsec_module=false` to the command below.
     ```docker

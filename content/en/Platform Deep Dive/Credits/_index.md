@@ -10,6 +10,8 @@ description: >
 {{% credit-definition %}}
 {{% /pageinfo %}}
 
+## How Cobalt Credits Work
+
 You can think of a Cobalt credit as a virtual voucher that you consume whenever you want to run a pentest. We offer 3 subscription plans, also known as PtaaS tiers, to best suit your budget and testing goals. Learn more about our [pricing model](https://www.cobalt.io/pentest-pricing).
 
 ```

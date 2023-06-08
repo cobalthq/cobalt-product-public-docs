@@ -19,6 +19,8 @@ Take your first steps to get started:
 
 ## Prepare for a Pentest
 
+<a class="btn btn-outline-primary rounded" href="/getting-started/pentest-preparation/">Pentest Preparation Checklist »</a>
+
 - **Make your teams aware of the upcoming pentest**.
   - Notify everyone who should be aware of the pentest. Ensure that the pentest doesn’t disrupt anyone’s workflows.
   - Prepare credentials and account details for pentesters.
@@ -100,5 +102,7 @@ If you need help, don't hesitate to contact us.
 
 - If you have a named Customer Success Manager, get in touch with them.
 - Otherwise, [submit a ticket](https://cobaltio.zendesk.com/hc/en-us/requests/new) or send an email to support@cobalt.io.
+
+We process support requests within one business day.
 
 If you find a security issue on the Cobalt platform, please report it to security@cobalt.io. Learn more about our [security practices](https://cobalt.io/security/practices).
