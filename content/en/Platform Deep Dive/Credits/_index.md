@@ -18,8 +18,6 @@ You can think of a Cobalt credit as a virtual voucher that you consume whenever 
 1 credit = 8 pentesting hours
 ```
 
-## How Cobalt Credits Work
-
 Cobalt offers a flexible, on-demand consumption model to meet the modern pentesting needs of all security and development teams. We sell credits in annual packages. You can buy credits in advance and use them throughout the year based on your pentesting schedule.
 
 The number of credits needed for a pentest depends on the pentest scope. For more information, see [Plan and Scope the Pentest](/getting-started/planning/).
