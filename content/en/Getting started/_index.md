@@ -22,13 +22,13 @@ Take your first steps to get started:
 <a class="btn btn-outline-primary rounded" href="/getting-started/pentest-preparation/">Pentest Preparation Checklist »</a>
 
 - **Make your teams aware of the upcoming pentest**.
-  - Notify everyone who should be aware of the pentest. Ensure that the pentest doesn’t disrupt anyone’s workflows.
+  - Notify everyone who should be aware of the pentest. Ensure that the pentest doesn't disrupt anyones workflows.
   - Prepare credentials and account details for pentesters.
 - **Be responsive to pentest results**.
-  - Pentesters will share vulnerabilities ([findings](/platform-deep-dive/pentests/findings/)) that they discover in real time. Start remediating them. [Collaborate on the pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/) and ask questions if you need help.
+  - Pentesters will share vulnerabilities ([findings](/platform-deep-dive/pentests/findings/)) that they discover in real time. Start remediating them. [Collaborate on the pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/), and ask questions if you need help.
 - **Be available to help find solutions to problems**.
   - Most of the time pentesters are cautious and don't perform any actions that have detrimental effects on your software. However, as a precautionary measure, you should prepare for the worst. Prepare a backup copy of your software (especially when testing a production environment), and have a team ready to respond to any unexpected events.
-  - Establish communication with pentesters in [Slack](/platform-deep-dive/collaboration/collaborate-on-pentests/#use-slack-for-communication), and let them know you are there—available and responsive.
+  - Establish communication with pentesters, and let them know you are there—available and responsive.
 - **Communicate significant changes to your environment made during a test to pentesters**.
   - If you make significant changes to your environment during a test (including remediating vulnerabilities), make sure to communicate this to our pentesters. Any major updates to your asset that you make when the pentest is Live may impact pentesters' workflows and the testing process.
 
