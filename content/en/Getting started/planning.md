@@ -176,7 +176,7 @@ Select where you want to collaborate with Cobalt Staff and pentesters:
 - Cobalt Chat
 - Slack
 
-Learn more about [collaborating on a pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/).
+You can change your preference until the pentest is Planned. Learn more about [collaborating on a pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/).
 
 ![Select a collaboration platform when setting up a pentest](/deepdive/select-collaboration-platform.png "Select a collaboration platform when setting up a pentest")
 
