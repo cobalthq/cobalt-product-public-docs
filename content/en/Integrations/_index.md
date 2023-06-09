@@ -18,7 +18,7 @@ Streamline your pentesting and development workflows with Cobalt integrations.
 {{% get-started-integrations %}}
 
 - Set up **Native** integrations in the Cobalt app to push Cobalt data to external apps. Here, you can also create [webhooks](/integrations/webhooks/) to get real-time pentest updates.
-- Enable **Partner** integrations in third-party apps. You need an [API token](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui) to pull Cobalt data to external apps.
+- Enable **Partner** integrations in third-party apps. You need an [API token](/cobalt-api/create-personal-api-token/) to pull Cobalt data to external apps.
 
 | Integration | Type | Use |
 |:---|:---|:---|
@@ -50,7 +50,7 @@ Learn more about [beta integrations](/integrations/beta/).
 
 ## Build Your Own Integration
 
-Use our API to build your own integrations. You need a Cobalt [API token](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui) to make REST calls.
+Use our API to build your own integrations. You need a Cobalt [API token](/cobalt-api/create-personal-api-token/) to make REST calls.
 
 Refer to the [API documentation](https://docs.cobalt.io/) for details.
 

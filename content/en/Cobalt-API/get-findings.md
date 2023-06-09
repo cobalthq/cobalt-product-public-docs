@@ -1,7 +1,7 @@
 ---
 title: "Retrieve Findings and Import Them to Google Sheets"
 linkTitle: "Retrieve and Import Findings"
-weight: 120
+weight: 150
 description: >
   Learn how to retrieve all findings using the Cobalt API and import them to Google Sheets.
 ---
@@ -254,6 +254,6 @@ After importing raw findings data, you can create charts to visualize data. Here
 
 The result may appear as shown in the image.
 
-![Findings data imported to Google Sheets](/apiusecases/findings-imported-to-Google-Sheets.png "Findings data imported to Google Sheets")
+![Findings data imported to Google Sheets](/cobalt-api/findings-imported-to-Google-Sheets.png "Findings data imported to Google Sheets")
 
 You can control who can access your Macros and Google Sheets. Fine-tune to which parts of your data specific users have access. This allows you to generate live reports without inviting users to the Cobalt platform.
