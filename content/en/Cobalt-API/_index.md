@@ -24,14 +24,13 @@ Here are some examples of how you can scale your workflows:
 
 Read our comprehensive API documentation to learn how to send specific API requests and view examples.
 
-<a href="https://docs.cobalt.io/v2/" target="_blank" class="btn btn-primary rounded">Go to API Docs  »</a>
+<a href="https://docs.cobalt.io/v2/" target="_blank" class="btn btn-outline-primary rounded">Go to API Docs  »</a>
 
 ## Authentication
 
-To work with the Cobalt API, you need:
+To work with the Cobalt API, you need a [personal API access token](/cobalt-api/create-personal-api-token/).
 
-- A [personal API access token](/cobalt-api/create-personal-api-token/).
-- An [organization token](/cobalt-api/get-organization-token/) (for most requests). Because most API calls are scoped to a specific organization, you need to include this token in a request header.
+Because most API calls are scoped to a specific organization, you also need to include an [organization token](/cobalt-api/get-organization-token/) in a request header.
 
 ## Format JSON Responses
 
