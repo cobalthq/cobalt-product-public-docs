@@ -1,6 +1,6 @@
 ---
 title: "Retrieve Findings and Import Them to Google Sheets"
-linkTitle: "Retrieve and Import Findings"
+linkTitle: "Import Findings to Google Sheets"
 weight: 150
 description: >
   Learn how to retrieve all findings using the Cobalt API and import them to Google Sheets.
