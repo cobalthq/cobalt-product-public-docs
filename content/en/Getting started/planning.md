@@ -169,6 +169,17 @@ Once you've identified the [pentest scope](#scope-the-pentest), you can see the 
 
 You can see the final number of required credits when the pentest is Planned, after we review your pentest request.
 
+## Select a Collaboration Platform
+
+Select where you want to collaborate with Cobalt Staff and pentesters:
+
+- Cobalt Chat
+- Slack
+
+Learn more about [collaborating on a pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/).
+
+![Select a collaboration platform when setting up a pentest](/deepdive/select-collaboration-platform.png "Select a collaboration platform when setting up a pentest")
+
 ## Next Step
 
 If you're ready with your pentest, select **Save & Exit**. In the next screen, you can [review your work](/getting-started/review-pentest/) before submitting the pentest.
