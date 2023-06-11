@@ -99,9 +99,11 @@ If you lose access to your authenticator and don't have a backup one, ask your O
 
 ## Create and Manage API Tokens
 
-To work with the Cobalt API, you need an **API token**. Learn how to:
+To work with the Cobalt API, you need an **API token**. To manage your API tokens, navigate to https://app.cobalt.io/settings/api-tokens.
+
+Learn how to:
 
 - [Create an API token](/cobalt-api/create-personal-api-token/)
 - [Revoke API tokens](/cobalt-api/revoke-personal-api-tokens/)
 
-![Create and manage API tokens to work with the Cobalt API](/deepdive/SettingsAPITokens.png "API Tokens page")
+![Create and manage API tokens to work with the Cobalt API](/deepdive/API-tokens-page.png "API Tokens page")

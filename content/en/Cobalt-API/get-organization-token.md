@@ -12,7 +12,7 @@ Because most API calls are scoped to a specific [organization](/platform-deep-di
 
 To get an organization token:
 
-1. [Create a personal API token](/cobalt-api/-create-personal-api-token/).
+1. [Create a personal API token](/cobalt-api/create-personal-api-token/).
 1. Send a request to retrieve all organizations you belong to. Replace `{{% api-token %}}` with your token.
     ```bash
     curl -X GET "https://api.cobalt.io/orgs" \

@@ -26,7 +26,7 @@ Customer Success Manager (CSM).
 
 ## Step 1: Get All Findings
 
-Retrieve all [findings](/platform-deep-dive/pentests/findings/) with the following REST call:
+Retrieve all [findings](/platform-deep-dive/pentests/findings/) of an organization with the following REST call:
 
 ```bash
 curl -X GET "https://api.cobalt.io/findings" \
@@ -124,11 +124,11 @@ You should see output similar to:
 For more information on each parameter, see our API reference documentation on
 how to [get all findings](https://docs.cobalt.io/v2/#get-all-findings).
 
-If the command is successful, you'll see
+If the command is successful, you'll see the following HTTP code:
 
 | Message    | Meaning          |
 |------------|------------------|
-| 200 OK | Findings for all pentests retrieved    |
+| 200 OK | Findings for all pentests of an organization are returned. |
 
 For a list of error codes, see the [Errors](https://docs.cobalt.io/v2/#errors)
 section of our API reference.
@@ -182,7 +182,7 @@ After importing raw findings data, you can create charts to visualize data. Here
 
 - **Sum of impact points per target**: Use a QUERY inside a spreadsheet. The request sums up Impact Points (column G) and groups them by Affected Targets (Column J):<br>
     `=TRANSPOSE(QUERY('Raw Data'!B:J, "SELECT J, SUM(G) group by J " , 1))`
-- **Chart representing severity**:  In Google Sheets, select **Insert** > **Chart**, and select **Column I** as the data source.
+- **Chart representing severity**: In Google Sheets, select **Insert** > **Chart**, and select **Column I** as the data source.
 - **Chart representing likelihood**: In Google Sheets, select **Insert** > **Chart**, and select **Column H** as the data source.
 - **Chart showing the highest severity**: Use the following command:<br>
     `=INDIRECT("'Raw Data'!B"&MATCH(MAX('Raw Data'!G:G),'Raw Data'!G:G,0))`
