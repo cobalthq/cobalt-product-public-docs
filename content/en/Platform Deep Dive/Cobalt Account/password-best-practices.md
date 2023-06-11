@@ -50,7 +50,7 @@ Example of a strong password: `1$WinterIsComing$1` (don't use this example).
 
 To add an extra layer of security to your account, enable [two-factor authentication (2FA)](/platform-deep-dive/cobalt-account/account-settings/#two-factor-authentication). 2FA only works when you sign in with your email and password.
 
-As an [Organization Owner](/getting-started/glossary/#organization-owner), you can enhance the security of user accounts within your organization:
+As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner), you can enhance the security of user accounts within your organization:
 
 - [Enforce 2FA](/platform-deep-dive/organization/organization-settings/enforce-2fa/).
 - [Enable SAML single sign-on (SSO)](/platform-deep-dive/organization/organization-settings/saml-sso/). You can also [enforce SAML](/platform-deep-dive/organization/organization-settings/saml-sso/#enforce-saml-sso) to require users to authenticate only through SAML SSO.

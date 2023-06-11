@@ -11,7 +11,7 @@ description: >
 <p>On May 10, 2023, we made some changes to our SAML implementation. To avoid any disruptions to authentication, update your SAML configuration.</p><p>During the transition period, your existing SAML SSO setup will be valid. After the transition period, we'll stop supporting legacy configurations.</p>
 {{< /pageinfo >}}
 
-This page is for [Organization Owners](/getting-started/glossary/#organization-owner) who have set up their SAML SSO configuration **before May 10, 2023**.
+This page is for [Organization Owners](/platform-deep-dive/collaboration/user-roles/#organization-owner) who have set up their SAML SSO configuration **before May 10, 2023**.
 
 - If you don't update your SAML configuration by the end of the transition period, we'll deprecate your legacy configuration settings. This means you will not be able to sign in to Cobalt.
 - Make sure to update configurations for each organization where you're an Organization Owner.

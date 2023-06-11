@@ -39,7 +39,7 @@ Follow these instructions if you can't sign in to Cobalt because:
 
 ### Lost Access to Your Authenticator
 
-If you lost access to your authenticator and don't have a backup device, ask your [Organization Owner](/getting-started/glossary/#organization-owner) to [turn off two-factor authentication (2FA)](#turn-off-2fa-for-a-user) on your account. If you’re the only Organization Owner, contact {{% csm-support %}} for help.
+If you lost access to your authenticator and don't have a backup device, ask your [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) to [turn off two-factor authentication (2FA)](#turn-off-2fa-for-a-user) on your account. If you’re the only Organization Owner, contact {{% csm-support %}} for help.
 
 Once your Organization Owner has turned off 2FA, you get an email notification. You can now sign in without a second authentication factor.
 
@@ -47,7 +47,7 @@ To protect your account, [enable 2FA](/platform-deep-dive/cobalt-account/account
 
 #### Turn Off 2FA for a User
 
-As an [Organization Owner](/getting-started/glossary/#organization-owner), you can turn off two-factor authentication for a user. A user who needs help with 2FA should contact their Organization Owner directly.
+As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner), you can turn off two-factor authentication for a user. A user who needs help with 2FA should contact their Organization Owner directly.
 
 If you’re the only Organization Owner, contact {{% csm-support %}} for help.
 
@@ -112,7 +112,7 @@ If your organization has enforced [SAML SSO](/getting-started/sign-in/#saml-sso)
 - If you don't see the Cobalt app within your identity provider, contact your IdP admin. They'll add Cobalt to your IdP account.
 - Ensure that you're a provisioned user both in the IdP system and Cobalt. Complete the account setup process for Cobalt, which includes confirming your email address and creating a password. The email address for your IdP and Cobalt must match.
 
-For [Organization Owners](/getting-started/glossary/#organization-owner):
+For [Organization Owners](/platform-deep-dive/collaboration/user-roles/#organization-owner):
 
 - Ensure that your [SAML SSO configuration](/platform-deep-dive/organization/organization-settings/saml-sso/#troubleshoot-your-saml-sso-configuration) is correct.
 - If you're using a legacy SAML configuration, [update it to the new setup](/platform-deep-dive/organization/organization-settings/saml-sso/saml-migration/).
@@ -155,4 +155,4 @@ Here are the most common error messages you may see upon signing in to Cobalt.
 
 | Error | Description | Troubleshooting Steps |
 |---|---|---|
-| `You have to confirm your email address before continuing` | You haven't set up your account on the Cobalt platform. | To fully set up your account: <ol><li>Confirm your email address by selecting the link in the email invitation.</li><li>Create a password.</li></ol><p>Check your spam folder and filters for a welcome email from Cobalt.</p><p>If the invitation link in the email has expired, ask your [Organization Owner](/getting-started/glossary/#organization-owner) to invite you to the organization once again.</p><ul><li>**If you're an Organization Owner**: To resend an invitation to a user, [remove them from your organization](/platform-deep-dive/organization/manage-users/#remove-users), and then [invite](/platform-deep-dive/organization/manage-users/#invite-users) them again.</li><li>**If you're the only Organization Owner in your organization**: To get help, contact {{% csm-support %}}.</li></ul> |
+| `You have to confirm your email address before continuing` | You haven't set up your account on the Cobalt platform. | To fully set up your account: <ol><li>Confirm your email address by selecting the link in the email invitation.</li><li>Create a password.</li></ol><p>Check your spam folder and filters for a welcome email from Cobalt.</p><p>If the invitation link in the email has expired, ask your [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) to invite you to the organization once again.</p><ul><li>**If you're an Organization Owner**: To resend an invitation to a user, [remove them from your organization](/platform-deep-dive/organization/manage-users/#remove-users), and then [invite](/platform-deep-dive/organization/manage-users/#invite-users) them again.</li><li>**If you're the only Organization Owner in your organization**: To get help, contact {{% csm-support %}}.</li></ul> |

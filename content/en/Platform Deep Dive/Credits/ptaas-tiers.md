@@ -45,7 +45,7 @@ Cobalt offers **security services beyond pentesting**. Our goal is to be an ongo
 
 ## View Your Organization's Tier
 
-As an [Organization Owner](/getting-started/glossary/#organization-owner) or [Member](/getting-started/glossary/#organization-member), you can view your organization's tier on the [**Credits** page](/platform-deep-dive/credits/track-credits/). In the UI, it appears as **Subscription Plan**.
+As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](/platform-deep-dive/collaboration/user-roles/#organization-member), you can view your organization's tier on the [**Credits** page](/platform-deep-dive/credits/track-credits/). In the UI, it appears as **Subscription Plan**.
 - For some organizations, we don't show their subscription plan on the **Credits** page.
 
 ![View your organization's tier on the Credits page](/deepdive/SubscriptionPlanCreditsPage.png "View your organization's tier on the Credits page")

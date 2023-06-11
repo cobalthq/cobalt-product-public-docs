@@ -68,7 +68,7 @@ You only see recent notifications in the popover. To view all notifications, sel
 
 ## View Team Activity
 
-To view the latest activity of your team members and pentesters, navigate to the **Activity** page. Both organization users and [Pentest Team Members](/getting-started/glossary/#pentest-team-member) can view this page.
+To view the latest activity of your team members and pentesters, navigate to the **Activity** page. Both organization users and [Pentest Team Members](/platform-deep-dive/collaboration/user-roles/#pentest-team-member) can view this page.
 
 ![View team activity](/deepdive/ViewActivity.png "View team activity")
 

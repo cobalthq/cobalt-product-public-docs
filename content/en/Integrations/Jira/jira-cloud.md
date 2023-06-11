@@ -24,7 +24,7 @@ In this article:
 
 **Required permissions**:
 
-- **Cobalt**: [Organization Owner](/getting-started/glossary/#organization-owner) or [Member](/getting-started/glossary/#organization-member)
+- **Cobalt**: [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](/platform-deep-dive/collaboration/user-roles/#organization-member)
 - **Jira**: Jira admin
 
 ### Step 1: Connect the Jira Plugin

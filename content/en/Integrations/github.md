@@ -35,7 +35,7 @@ You can configure a **one-way integration** with GitHub to push Cobalt [findings
 
 ## Configure the Integration
 
-As an [Organization Owner](/getting-started/glossary/#organization-owner) or [Member](/getting-started/glossary/#organization-member), you can enable the GitHub integration for a specific pentest.
+As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](/platform-deep-dive/collaboration/user-roles/#organization-member), you can enable the GitHub integration for a specific pentest.
 
 1. In Cobalt, navigate to **Pentests**, and select the desired pentest.
 1. Go to the **Integrations** tab.

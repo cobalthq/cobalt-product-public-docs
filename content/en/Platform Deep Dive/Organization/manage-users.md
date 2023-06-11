@@ -8,7 +8,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-As an [Organization Owner](/getting-started/glossary/#organization-owner), you can [manage users for your organization](#manage-users-for-your-organization), in addition to managing [pentest collaborators](#manage-pentest-collaborators).
+As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner), you can [manage users for your organization](#manage-users-for-your-organization), in addition to managing [pentest collaborators](#manage-pentest-collaborators).
 {{% /pageinfo %}}
 
 ## Manage Users for Your Organization
@@ -32,7 +32,7 @@ To invite users to your organization:
     - Both Members and Owners have access to all [assets](/platform-deep-dive/assets/) and [pentests](/platform-deep-dive/pentests/) of an organization.
 1. Select **Invite** to confirm.
 
-Users receive an email invitation to join your organization. They also become collaborators on all pentests of the organization as [Pentest Team Members](/getting-started/glossary/#pentest-team-member).
+Users receive an email invitation to join your organization. They also become collaborators on all pentests of the organization as [Pentest Team Members](/platform-deep-dive/collaboration/user-roles/#pentest-team-member).
 
 <!--If an email address is invalid or a user has already joined, you see an error message.-->
 
@@ -40,7 +40,7 @@ Users receive an email invitation to join your organization. They also become co
 
 ### Change a User’s Role
 
-To change a user’s role from [Owner](/getting-started/glossary/#organization-owner) to [Member](/getting-started/glossary/#organization-member) or conversely, on the **People** page, use the list under **Role**.
+To change a user’s role from [Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) to [Member](/platform-deep-dive/collaboration/user-roles/#organization-member) or conversely, on the **People** page, use the list under **Role**.
 
 ![Change a user's role](/deepdive/ChangeUserRole.png "Role list on the People page")
 
@@ -51,16 +51,15 @@ To remove a user from your organization:
 1. On the **People** page, locate the user you want to remove.
 1. Select the three-dot icon {{% three-dots %}} on the right, and select **Remove User**.
 1. In the overlay that appears, select whether you want to remove a user:
-    - Only from the organization. The user can still collaborate on pentests as a [Pentest Team Member](/getting-started/glossary/#pentest-team-member).
+    - Only from the organization. The user can still collaborate on pentests as a [Pentest Team Member](/platform-deep-dive/collaboration/user-roles/#pentest-team-member).
     - From the organization and all pentests.
 
 ## Manage Pentest Collaborators
 
 On the **Pentest Collaborators** tab of the **People** page, you can see users who don't belong to your organization but can collaborate on specific pentests. This includes:
 
-- [Pentest Team Members](/getting-started/glossary/#pentest-team-member)
-- [Pentesters](/getting-started/glossary/#pentester)
-- [Pentest Leads](/getting-started/glossary/#pentest-lead)
+- [Pentest Team Members](/platform-deep-dive/collaboration/user-roles/#pentest-team-member)
+- [Cobalt pentesters](/platform-deep-dive/collaboration/user-roles/#cobalt-pentesters)
 
 To view pentests on which the user collaborates, select the link under **Pentests**. From here, you can navigate to the pentest page.
 

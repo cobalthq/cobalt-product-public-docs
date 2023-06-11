@@ -122,9 +122,6 @@ Learn more about the [Insights](/platform-deep-dive/assets/insights/) page and u
 
 When using the Cobalt platform, you may encounter a variety of user roles. Review a list of permissions associated with each role in [User Roles and Permissions](/platform-deep-dive/collaboration/user-roles/).
 
-<!-- Per https://zombie.atlassian.net/browse/DOCS-5 I should add info from an internal
-spreadsheet, but need to find pull code in Hugo -->
-
 ### Pentest Team Member
 
 {{% team-member-definition %}}
@@ -153,9 +150,13 @@ An Organization Member may also be a [Pentest Team Member](#pentest-team-member)
 
 {{% pentester-definition %}} Learn more about the [Pentester role](/platform-deep-dive/collaboration/user-roles/#pentester).
 
-### Pentest Lead
+### Lead
 
-{{% pentest-lead-permissions %}}
+{{% pentest-lead-role %}}
+
+### Coordinator
+
+{{% pentest-coordinator-role %}}
 
 ### In-House Pentester
 
@@ -302,9 +303,7 @@ may be used by opponents or enemies. OpSec measures can reduce security risks.
 ## Pentest
 
 Short for penetration test. As described in the [Getting Started Guide](/getting-started/),
-you can draft a pentest. Once you submit it for review, Cobalt reviews your pentest and assigns
-a [Pentest Lead](#pentest-lead) and frequently one or more [Pentesters](#pentester) who then
-test the [asset](#asset) specified in your pentest.
+you can draft a pentest. Once you submit it for review, Cobalt reviews your pentest and assigns pentesters who then test the [asset](#asset) specified in your pentest.
 
 ## Pentest as a Service (PtaaS)
 

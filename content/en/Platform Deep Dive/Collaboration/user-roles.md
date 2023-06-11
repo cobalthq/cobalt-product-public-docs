@@ -14,7 +14,7 @@ Depending on your role, you may have access to an organization, specific pentest
 |  | Roles and Key Permissions |
 |---|---|
 | **User Roles**<br><img src="/illustrations/user-roles.svg" alt="User roles on the Cobalt platform" width="120" height="120"> | **Pentest level**:<ul><li>[Pentest Team Member](#pentest-team-member):<ul><li>Collaborates on a specific pentest.</li><li>Has no access to organization users and settings, unless the user is also an Organization Owner or Member.</li></ul></li></ul><hr>**Organization level**:<ul><li>[Organization Owner](#organization-owner):<ul><li>Can create assets and pentests.</li><li>Manages organization users and settings.</li><li>Can't collaborate on specific pentests, unless the user is also a Pentest Team Member on these pentests.</li></ul><li>[Organization Member](#organization-member):<ul><li>Can create assets and pentests.</li><li>Can view organization users and settings.</li><li>Can't collaborate on specific pentests, unless the user is also a Pentest Team Member on these pentests.</li></ul></li></ul><hr>**Pentest + organization level**:<ul><li>[Organization Owner](#organization-owner) + [Pentest Team Member](#pentest-team-member) (on specific pentests)</li><li>[Organization Member](#organization-member) + [Pentest Team Member](#pentest-team-member) (on specific pentests)</li></ul> |
-| **Pentester Roles**<br><img src="/illustrations/pentester-roles.svg" alt="Pentester roles on the Cobalt platform" width="120" height="120"> | **Cobalt pentesters**:<ul><li>[Pentester](#pentester): Completes pentests for Cobalt customers.</li><li>[Pentest Lead](#pentest-lead): Leads a group of Cobalt Pentesters to complete a pentest.</li></ul><hr>**Customer pentesters**:<ul><li>[In-House Pentester](#in-house-pentester): Performs pentests for their organization on the Cobalt [Pentest Management Platform](/pmp/).</li></ul>  |
+| **Pentester Roles**<br><img src="/illustrations/pentester-roles.svg" alt="Pentester roles on the Cobalt platform" width="120" height="120"> | **Cobalt pentesters**:<ul><li>[Pentester](#pentester): Completes pentests for Cobalt customers.</li><li>[Lead](#lead): Leads a group of Cobalt Pentesters to complete a [Comprehensive pentest](/getting-started/glossary/#comprehensive-pentest).</li><li>[Coordinator](#pentest-coordinator): Leads a group of Cobalt Pentesters to complete an [Agile pentest](/getting-started/glossary/#agile-pentest).</li></ul><hr>**Customer pentesters**:<ul><li>[In-House Pentester](#in-house-pentester): Performs pentests for their organization on the Cobalt [Pentest Management Platform](/pmp/).</li></ul>  |
 | **Administrative Role**<br><img src="/illustrations/Cobalt-staff-role.svg" alt="Cobalt Staff role on the Cobalt platform" width="120" height="120"> | <ul><li>[Cobalt Staff](#cobalt-staff): Has administrative access to your pentests and organization.</li></ul> |
 
 ## Pentest Team Member
@@ -106,7 +106,11 @@ An Organization Member may also be a [Pentest Team Member](#pentest-team-member)
 
 ## Cobalt Pentesters
 
-When you run pentests using the Cobalt Pentest as a Service (PtaaS) platform, Cobalt pentesters participate in the process.
+When you run pentests using the Cobalt Pentest as a Service (PtaaS) platform, Cobalt pentesters participate in the process. This group includes the following roles:
+
+- [Pentester](#pentester)
+- [Lead](#lead)
+- [Coordinator](#coordinator)
 
 ### Pentester
 
@@ -121,9 +125,13 @@ The responsibilities of a Pentester include:
 
 Some Cobalt pentesters may be a Lead in one test, a Pentester in a second test, and possibly no role and no involvement in your other pentests.
 
-### Pentest Lead
+### Lead
 
-{{% pentest-lead-permissions %}}
+{{% pentest-lead-role %}}
+
+### Coordinator
+
+{{% pentest-coordinator-role %}}
 
 ## In-House Pentester
 
