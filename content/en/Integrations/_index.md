@@ -50,7 +50,7 @@ Learn more about [beta integrations](/integrations/beta/).
 
 ## Build Your Own Integration
 
-Use our API to build your own integrations. You need a Cobalt [API token](/cobalt-api/create-personal-api-token/) to make REST calls.
+Use our API to build your own integrations. You need a personal Cobalt [API token](/cobalt-api/create-personal-api-token/) to make REST calls.
 
 Refer to the [API documentation](https://docs.cobalt.io/) for details.
 
