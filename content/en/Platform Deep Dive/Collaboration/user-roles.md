@@ -19,7 +19,7 @@ Depending on your role, you may have access to an organization, specific pentest
 
 ## Pentest Team Member
 
-{{% team-member-definition %}}
+A Pentest Team Member is a customer (organization) representative during a specific pentest. In the UI, you see this role as "Team Member."
 
 - A Pentest Team Member does not have to be an [Organization Owner](#organization-owner) or an [Organization Member](#organization-member).
 - When an Organization Owner [invites a user to an organization](/platform-deep-dive/organization/manage-users/#invite-users), the user also becomes a Pentest Team Member on all pentests of the organization.
@@ -70,7 +70,7 @@ When a customer starts their journey with Cobalt, we add an Organization Owner w
 
 ### Organization Owner
 
-An Organization Owner is the administrator for a customer organization within the Cobalt app. In the UI, you see this role as “Owner.”
+An Organization Owner is the administrator for a customer organization within the Cobalt app. In the UI, you see this role as Owner."
 
 An Organization Owner has the following **permissions**:
 
@@ -91,7 +91,7 @@ An Organization Owner may also be a [Pentest Team Member](#pentest-team-member).
 
 ### Organization Member
 
-An Organization Member is a customer representative who manages pentests and assets for their organization on the Cobalt platform but has less permissions compared to an Organization Owner. In the UI, you see this role as “Member.”
+An Organization Member is a customer representative who manages pentests and assets for their organization on the Cobalt platform but has less permissions compared to an Organization Owner. In the UI, you see this role as "Member."
 
 An Organization Member has the following **permissions**:
 
@@ -127,18 +127,27 @@ Some Cobalt pentesters may be a Lead in one test, a Pentester in a second test, 
 
 ### Lead
 
-{{% pentest-lead-role %}}
+A pentest Lead is a Cobalt pentester who leads other Cobalt pentesters in their efforts to complete a [Comprehensive pentest](/getting-started/glossary/#comprehensive-pentest). A pentest Lead also drafts a [pentest report](/platform-deep-dive/pentests/reports/).
+
+For [Agile pentests](/getting-started/glossary/#agile-pentest), the corresponding role is [Coordinator](#coordinator).
 
 ### Coordinator
 
-{{% pentest-coordinator-role %}}
+A pentest Coordinator is a Cobalt pentester who leads other Cobalt pentesters in their efforts to complete an [Agile pentest](/getting-started/glossary/#agile-pentest).
+
+For [Comprehensive pentests](/getting-started/glossary/#comprehensive-pentest), the corresponding role is [Lead](#lead).
 
 ## In-House Pentester
 
-{{% in-house-pentester-definition %}} An In-House Pentester role has the same privileges as a [Pentest Team Member](#pentest-team-member), with additional access to pentester functionality.
+An In-House Pentester is a pentester invited by a customer (organization) to perform In-House pentests on the Cobalt [Pentest Management Platform (PMP)](/pmp/). An In-House Pentester role has the same privileges as a [Pentest Team Member](#pentest-team-member), with additional access to pentester functionality.
 
-Learn [how to complete an In-House Pentest](/pmp/complete-pentest/).
+A customer can invite pentesters from their organization, a third-party company, or both to complete In-House pentests on the Cobalt [Pentest Management Platform (PMP)](/pmp/).
+
+Learn [how to complete an In-House pentest](/pmp/complete-pentest/).
 
 ## Cobalt Staff
 
-{{% cobalt-staff-permissions %}}
+Select Cobalt Staff members have administrative access to your organization and pentests. If needed, they can help you:
+
+- Manage users in your organization
+- Manage work on your pentests

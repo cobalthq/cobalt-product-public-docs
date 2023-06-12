@@ -1,1 +1,0 @@
-An Organization Owner is the administrator for a customer organization within the Cobalt app. In the UI, you see this role as “Owner.”
