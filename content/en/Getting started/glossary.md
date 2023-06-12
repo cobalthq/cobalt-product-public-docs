@@ -28,7 +28,12 @@ addresses. You can typically find allowlists and denylists in files like
 
 ## API Endpoint
 
-An endpoint is typically a URL used to allow two software applications to communicate with each other. For example, `https://api.cobalt.io/orgs` is one endpoint that you can find at `https://docs.cobalt.io`.
+An endpoint is typically a URL used to allow two software applications to communicate with each other. For example, `https://api.cobalt.io/orgs` is one endpoint that you can find at `https://api.cobalt.io`.
+
+When [scoping a pentest for an API asset](/getting-started/planning/#api), ignore specific **parameters** and **HTTP methods** for each endpoint. For example, these are two different HTTP requests for the same endpoint:
+
+- `GET https://api.cobalt.io/pentests`
+- `POST https://api.cobalt.io/pentests`
 
 Some [RESTful API](#restful-api) endpoints include additional information that may make them seem different. For example, the following two URLs are in fact the same endpoint, as the content after the ampersand (&) describes an action on data sent from that URL:
 
@@ -50,6 +55,12 @@ See [API Endpoint](#api-endpoint) for how we look at RESTful and GraphQL APIs. T
 following categories:
 
 {{% asset-categories %}}
+
+## Asset Tag
+
+{{% asset-tag-definition %}}
+
+Learn [how to use asset tags](/getting-started/assets/#asset-tags).
 
 ## Application Security (AppSec)
 
@@ -156,6 +167,10 @@ A customer can invite pentesters from their organization, a third-party company,
 
 {{% cobalt-staff-permissions %}}
 
+## Common Platform Enumeration (CPE)
+
+As defined by [NIST](https://nvd.nist.gov/products/cpe), Common Platform Enumeration (CPE) is a structured naming scheme for information technology systems, software, and packages. The official [CPE Dictionary](https://nvd.nist.gov/products/cpe) is hosted and maintained by NIST.
+
 ## Compliance Audit
 
 As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a comprehensive review of an organization's adherence to governing documents such as whether:
@@ -171,7 +186,7 @@ As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a co
 
 ## Dynamic Web Page
 
-Many applications have web pages with dynamic content, which can be built on the server or the client. Contrast with [Static Web Pages](#static-web-page).
+A web page with dynamic content that a user can interact with. The content can be built on the server or the client side. Contrast with [Static Web Pages](#static-web-page).
 
 ## Environment
 
@@ -296,6 +311,41 @@ test the [asset](#asset) specified in your pentest.
 Combines manual and human testing with a modern delivery platform to deploy
 penetration testing programs.
 
+## Pentest Report
+
+A summary of all vulnerability reports, including observations on positive security measures. Target audiences: executives, security engineers, and developers. Includes:
+
+- Executive Summary 
+  - Describes the tests performed with criteria.
+- Executive Analysis
+  - Includes a high-level summary of vulnerabilities.
+
+- Scope of Work
+
+  {{% scope-of-work %}}
+
+- Summary of Findings
+  - Trends and critical issues
+  - Auto-generated graphs
+- Summary of Recommendations
+  - Highlights of the work we recommend to remediate findings
+- Post-Test Remediation
+  - List of details with type, severity, state, and resolution
+- Finding Details
+  - More information on each finding
+
+Within Cobalt, this is also known as a Report or a Final Report. For more information, see [Pentest Reports](/platform-deep-dive/pentests/reports/).
+
+## Pentest Tag
+
+Pentest identifier on the Cobalt platform that starts with `#`. You can see the tag on the pentest page under the title.
+
+![Pentest tag](/gsg/pentest-tag.png "Pentest tag")
+
+## Projects (Cloud Assets)
+
+All resources included in your cloud [asset](#asset). For example, [AWS defines a project](https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/create-project.html) as a collection of resources associated with an asset.
+
 ## PtaaS Pentest
 
 A pentest that [Cobalt pentesters](#pentester) perform on the Cobalt [Pentest as a Service (PtaaS)](#pentest-as-a-service-ptaas) platform for a customer. This includes the following pentest types:
@@ -333,35 +383,6 @@ You may want a Comprehensive Pentest for:
 - All categories from the [OWASP Top 10](https://owasp.org/www-project-top-ten/) list
 - M&amp;A due diligence, to identify and eliminate possible risks for all parties involved
 - A specific customer of third-party attestation request
-
-## Pentest Report
-
-A summary of all vulnerability reports, including observations on positive security measures. Target audiences: executives, security engineers, and developers. Includes:
-
-- Executive Summary 
-  - Describes the tests performed with criteria.
-- Executive Analysis
-  - Includes a high-level summary of vulnerabilities.
-
-- Scope of Work
-
-  {{% scope-of-work %}}
-
-- Summary of Findings
-  - Trends and critical issues
-  - Auto-generated graphs
-- Summary of Recommendations
-  - Highlights of the work we recommend to remediate findings
-- Post-Test Remediation
-  - List of details with type, severity, state, and resolution
-- Finding Details
-  - More information on each finding
-
-Within Cobalt, this is also known as a Report or a Final Report. For more information, see [Pentest Reports](/platform-deep-dive/pentests/reports/).
-
-## Projects (Cloud Assets)
-
-All resources included in your cloud [asset](#asset). For example, [AWS defines a project](https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/create-project.html) as a collection of resources associated with an asset.
 
 ## Remediate
 
@@ -446,37 +467,23 @@ Cobalt may refer to this as the "scope" of your pentest. {{% scope-of-work %}}
 
 For more information, see https://developer.mozilla.org/en-US/docs/Glossary/SPA
 
+Contrast with [Traditional Web Application](#traditional-web-application).
+
 ## Specialized Pentest
 
-A Specialized Pentest that you see in the Cobalt UI is a pentest engagement conducted by the Cobalt [Professional Services](https://www.cobalt.io/services/cybersecurity-consulting) team. Professional Services are an extension of our core [PtaaS platform](https://www.cobalt.io/ptaas) offering which provides access to Cobalt security experts who act as an extension of your internal team.
+A Specialized pentest that you see in the Cobalt UI is a pentest engagement conducted by the Cobalt [Professional Services](https://www.cobalt.io/services/cybersecurity-consulting) team.
 
-Here are some examples of special pentest engagements:
-
-- Secure code review
-- Security hardening
-- IoT ecosystem testing
-- Pentest program management
-- Red teaming
-- Phishing engagements
-- Physical social engineering
-- Threat modeling
-- Wireless network pentesting
-
-For Specialized Pentests, we support additional asset types on the platform:
-
-- **IoT**: An IoT device. As [defined](https://csrc.nist.gov/glossary/term/iot_device) by NIST, an IoT device has at least one transducer (sensor or actuator) for interacting directly with the physical world and at least one network interface, such as Ethernet, Wi-Fi, or Bluetooth, for interfacing with the digital world.
-- **Physical**: An office, building, campus, or a physical device.
-- **Thick Client**: An application installed locally on a user's computer.
-- **Wireless Network**: A network that allows devices to stay connected without using wires of any kind.
-
-To launch a Specialized Pentest tailored to your needs, contact our [Professional Services](https://www.cobalt.io/services/cybersecurity-consulting) team. You can't create a Specialized Pentest or set up a special asset in the UI—we'll do that for you. Once the Specialized Pentest is set up, you can:
-
-- Edit the [asset details](/getting-started/assets/#asset-details), except for the asset type.
-- Edit pentest details. Some pentest parameters may slightly differ for Specialized Pentests.
+Learn more about [Professional Services pentests](/professional-services/).
 
 ## Static Web Page
 
-Some applications are built solely on HTML, and do not change depending on the user or location. Contrast with [Dynamic Web Pages](#dynamic-web-page).
+A web page with static content that doesn't change depending on the user or location. Contrast with [Dynamic Web Pages](#dynamic-web-page).
+
+## Traditional Web Application
+
+A web application that consists of a web browser on the client side and a web server. Most of the application logic is performed on the server side.
+
+May also be referred to as **multi-page application (MPA)**. Contrast with [Single-Page Application](#single-page-application).
 
 ## User Role
 

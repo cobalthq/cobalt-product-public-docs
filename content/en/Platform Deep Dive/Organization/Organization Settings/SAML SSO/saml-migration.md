@@ -15,7 +15,7 @@ This page is for [Organization Owners](/getting-started/glossary/#organization-o
 
 - If you don't update your SAML configuration by the end of the transition period, we'll deprecate your legacy configuration settings. This means you will not be able to sign in to Cobalt.
 - Make sure to update configurations for each organization where you're an Organization Owner.
-- If you don't have a legacy SAML setup, please visit [Configure SAML SSO](/platform-deep-dive/organization/organization-settings/saml-sso/) for instructions.
+- If you don't have a legacy setup and want to enable SAML, please visit [Configure SAML SSO](/platform-deep-dive/organization/organization-settings/saml-sso/) for instructions.
 
 ## What Has Changed in the SAML Implementation
 
@@ -89,11 +89,11 @@ To update your existing SAML configuration with Duo:
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - **IdP Certificate**: Enter **Certificate** from Duo.
 
-If you want to set up a new application, see the [general workflow](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Duo](/platform-deep-dive/organization/organization-settings/saml-sso/#duo).
+If you want to set up a new application, follow this [instruction](/platform-deep-dive/organization/organization-settings/saml-sso/#duo).
 
 #### Google
 
-We recommend creating a new SAML app with Google. See the [general workflow](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Google](/platform-deep-dive/organization/organization-settings/saml-sso/#google).
+We recommend creating a new SAML app with Google. For details, follow this [instruction](/platform-deep-dive/organization/organization-settings/saml-sso/#google).
 
 <!--
 To update your existing SAML configuration with Google:
@@ -124,9 +124,9 @@ Learn how to update your existing SAML configuration with Okta.
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - Copy the **ACS URL**.<br><br>
     ![Update SAML settings for Okta in Cobalt](/deepdive/Cobalt-configuration-for-Okta-manual-app-1.png "Update SAML settings for Okta in Cobalt")
-1. In Okta, go to your SAML application for Cobalt. On the **General** tab, under **SAML Settings**, select **Edit**, then select **Next**. If you don't see editable SAML Settings, we suggest that you [create a new non-gallery app](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
+1. In Okta, go to your SAML application for Cobalt. On the **General** tab, under **SAML Settings**, select **Edit**, then select **Next**. If you don't see editable **SAML Settings**, we suggest that you [create a new non-gallery app](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
     - **Single sign-on URL**: Enter **ACS URL** from Cobalt.
-    - Delete the **Default Relay State** value.
+    - Delete the **Default RelayState** value.
     - Save the changes.<br><br>
     ![Update SAML settings in the Cobalt SAML app in Okta](/deepdive/Cobalt-Okta-SAML-app-update-1.png "Update SAML settings in the Cobalt SAML app in Okta")
 1. In Okta, go to the **Sign On** tab, and select **Edit**. Under **Metadata details**, select **More details**.
@@ -140,7 +140,7 @@ Learn how to update your existing SAML configuration with Okta.
 {{% /expand %}}
 <br>
 
-If you want to set up a new application, see the [general workflow](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [Okta](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
+If you want to set up a new application, follow this [instruction](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
 
 <!--
 ##### Gallery SAML App for Cobalt
@@ -180,7 +180,7 @@ To update your existing SAML configuration with OneLogin:
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - **IdP Certificate**: Enter **X.509 Certificate** from OneLogin.
 
-If you want to set up a new application, see the [general workflow](/platform-deep-dive/organization/organization-settings/saml-sso/#general-configuration-workflow) and configuration parameters for [OneLogin](/platform-deep-dive/organization/organization-settings/saml-sso/#onelogin).
+If you want to set up a new application, follow this [instruction](/platform-deep-dive/organization/organization-settings/saml-sso/#onelogin).
 
 ## Troubleshooting
 
