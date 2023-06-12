@@ -8,22 +8,24 @@ description: >
 ---
 
 {{% pageinfo %}}
-Read about new features, beta releases, improvements, and other updates.
+Read about the new features, beta releases, improvements, and other updates that we shipped.
 {{% /pageinfo %}}
 
+<div style="padding-right: 2.0625rem;">
 <div class="row align-items-md-stretch my-5">
       <div class="col-md-6">
         <div class="h-100 p-5 border rounded-lg" style="border-color: #D6E3FD">
-          <h3>📢 Announcements</h3>
-          <p>New features, improvements, and other updates.</p>
+          <h2>📢 Announcements</h2>
+          <p>New features, improvements, news, and other updates.</p>
           <a class="btn btn-outline-primary rounded" href="/product-updates/announcements/">Learn More »</a>
         </div>
       </div>
       <div class="col-md-6">
         <div class="h-100 p-5 border rounded-lg" style="border-color: #D6E3FD">
-          <h3>✨ What's New</h3>
-          <p>Monthly product updates for new functinality.</p>
+          <h2>✨ What's New</h2>
+          <p>Monthly recaps of the functionality we release.</p>
        <a class="btn btn-outline-primary rounded" href="/product-updates/releases/">Learn More »</a>
         </div>
       </div>
-    </div>
+</div>
+</div>
