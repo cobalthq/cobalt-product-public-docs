@@ -2,6 +2,7 @@
 title: "Create or Modify an Asset"
 linkTitle: "Create/Modify an Asset"
 weight: 140
+aliases: /apiusecases/create_asset/
 description: >
   Run this sequence of REST calls to create an asset.
 ---
