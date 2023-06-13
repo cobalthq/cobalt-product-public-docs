@@ -1,13 +1,14 @@
 ---
-title: "API Use Cases"
-linkTitle: "API Use Cases"
+title: "Cobalt API"
+linkTitle: "Cobalt API"
 weight: 100
+aliases: /apiusecases/
 description: >
   Includes practical uses for our API.
 ---
 
 {{% pageinfo %}}
-The pages in this book describe how you can work with the Cobalt platform using
+The pages in this section describe how you can work with the Cobalt platform using
 our API.
 {{% /pageinfo %}}
 
@@ -21,30 +22,25 @@ Here are some examples of how you can scale your workflows:
 - Pull findings into your security dashboard to perform a holistic internal analysis.
 - Integrate findings into your data visualization tool for a comprehensive view of your vulnerability and application landscape.
 
-<div class="card">
-  <div class="card-header" style="background-color: #F9FAFB;">
-    <b>API Documentation</b>
-  </div>
-  <div class="card-body">
-    <p class="card-text">Read our comprehensive API documentation to learn how to send specific API requests and view examples.</p>
-    <a href="https://docs.cobalt.io/v2/" target="_blank" class="btn btn-primary rounded">Go to API Docs</a>
-  </div>
-</div>
+Read our comprehensive API documentation to learn how to send specific API requests and view examples.
 
-{{< alert title="Note" color="primary" >}}
-{{% api-token-intro %}} For insctructions, see [Create an API Token in the Cobalt UI](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui).<br><br>
-Learn more about [managing API tokens](/platform-deep-dive/cobalt-account/account-settings/#create-and-manage-api-tokens).
-{{< /alert >}}
+<a href="https://docs.cobalt.io/v2/" target="_blank" class="btn btn-outline-primary rounded">Go to API Docs  »</a>
+
+## Authentication
+
+To work with the Cobalt API, you need a [personal API access token](/cobalt-api/create-personal-api-token/).
+
+Because most API calls are scoped to a specific organization, you also need to include an [organization token](/cobalt-api/get-organization-token/) in a request header.
+
+## Format JSON Responses
 
 This document assumes that you can run `curl` in a command line on your system.
 You can also set up the REST calls in this book in other API clients such as [Postman](https://learning.postman.com/docs/getting-started/introduction/) or [Insomnia](https://docs.insomnia.rest/).
 
 If you run `curl` from the command line, we recommend that you use the
-[`jq`](https://stedolan.github.io/jq/) command line JSON processor to format output. 
+[`jq`](https://stedolan.github.io/jq/) command line JSON processor to format output.
 
-## Format JSON Responses
-
-Without the `| jq.`, you may have output that looks like:
+Without the `| jq .`, you may have output that looks like:
 
 ```json
 {"pagination":{"next_page":null,"prev_page":null},"data":[{"resource":{"id":"YOUR-ORG-ID","name":"ORG-NAME","token":"YOUR-V2-ORGANIZATION-TOKEN"},"links":{"ui":{"url":"URL-WITH-YOUR-PENTESTS"}}}]}
