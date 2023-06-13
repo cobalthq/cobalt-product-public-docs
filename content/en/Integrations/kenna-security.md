@@ -12,14 +12,6 @@ Configure the integration to import Cobalt findings into the Kenna Security plat
 You can also refer to the Kenna Security [documentation](https://github.com/KennaSecurity/toolkit/tree/main/tasks/connectors/cobaltio#readme).
 {{% /pageinfo %}}
 
-In this article:
-- [Integration Overview](#integration-overview)
-- [What You Need](#what-you-need)
-- [Step 1: Create a Kenna Security Data Importer Connector](#step-1-create-a-kenna-security-data-importer-connector)
-- [Step 2: Get the Kenna Security Toolkit Image](#step-2-get-the-kenna-security-toolkit-image)
-- [Step 3: Run the Cobalt Task](#step-3-run-the-cobalt-task)
-- [Step 4: View Imported Findings](#step-4-view-imported-findings)
-
 ## Integration Overview
 
 [Kenna Security](https://www.cisco.com/c/en/us/products/security/kenna-is-part-of-cisco.html) is a risk and vulnerability intelligence platform.

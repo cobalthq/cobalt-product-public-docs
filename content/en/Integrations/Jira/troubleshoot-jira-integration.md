@@ -10,13 +10,6 @@ description: >
 If you experience unexpected behavior or have issues with Cobalt plugins for Jira, read our troubleshooting tips.
 {{% /pageinfo %}}
 
-In this article:
-
-- [Common Issues](#common-issues)
-  - [Findings Not Being Pushed to Jira](#findings-not-being-pushed-to-jira)
-  - [Jira Issue Can't Be Created](#jira-issue-cant-be-created)
-- [Retrieve Jira Server Logs for Troubleshooting](#retrieve-jira-server-logs-for-troubleshooting)
-
 ## Common Issues
 
 ### Findings Not Being Pushed to Jira
