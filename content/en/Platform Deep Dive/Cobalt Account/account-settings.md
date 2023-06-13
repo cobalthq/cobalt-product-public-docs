@@ -99,17 +99,11 @@ If you lose access to your authenticator and don't have a backup one, ask your O
 
 ## Create and Manage API Tokens
 
-{{% api-token-intro %}} See [Create an API Token in the Cobalt UI](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui) for instructions.
+To work with the Cobalt API, you need an **API token**. To manage your API tokens, navigate to https://app.cobalt.io/settings/api-tokens.
 
-![Create and manage API tokens to work with the Cobalt API](/deepdive/SettingsAPITokens.png "API Tokens page")
+Learn how to:
 
-To manage your API tokens, navigate to https://app.cobalt.io/settings/api-tokens.
+- [Create an API token](/cobalt-api/create-personal-api-token/)
+- [Revoke API tokens](/cobalt-api/revoke-personal-api-tokens/)
 
-- To revoke all tokens, select **Revoke All Tokens**.
-  - Any applications or scripts using these tokens will no longer be able to access the Cobalt API.
-- To revoke a single token, select the three-dot icon {{% three-dots %}} under **Actions**, and then select **Revoke Token**.
-- To edit the token name, select the three-dot icon {{% three-dots %}} under **Actions**, and then select **Edit Name**. Enter a new name in the overlay that appears.
-
-{{< alert title="Tip" color="primary" >}}
-Visit our [API documentation](https://docs.cobalt.io/v2/) to learn more about the Cobalt API.
-{{< /alert >}}
+![Create and manage API tokens to work with the Cobalt API](/deepdive/API-tokens-page.png "API Tokens page")
