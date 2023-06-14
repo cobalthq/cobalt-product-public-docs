@@ -177,6 +177,8 @@ Cobalt Staff may reach out to the point of contact with questions regarding the 
 - To assign other users, go to the **Collaborators** tab on the pentest page.
 - Organization Owners, Organization Members, and Pentest Team Members can assign a point of contact when the pentest is in the Draft or In Review states.
 
+![Assign a point of contact for a pentest](/gsg/point-of-contact.png "Assign a point of contact for a pentest")
+
 ## Next Step
 
 If you're ready with your pentest, select **Save & Exit**. In the next screen, you can [review your work](/getting-started/review-pentest/) before submitting the pentest.
