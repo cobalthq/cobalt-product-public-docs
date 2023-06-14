@@ -384,6 +384,41 @@ You may want a Comprehensive Pentest for:
 - M&amp;A due diligence, to identify and eliminate possible risks for all parties involved
 - A specific customer of third-party attestation request
 
+## Pentest Report
+
+A summary of all vulnerability reports, including observations on positive security measures. Target audiences: executives, security engineers, and developers. Includes:
+
+- Executive Summary 
+  - Describes the tests performed with criteria.
+- Executive Analysis
+  - Includes a high-level summary of vulnerabilities.
+
+- Scope of Work
+
+  {{% scope-of-work %}}
+
+- Summary of Findings
+  - Trends and critical issues
+  - Auto-generated graphs
+- Summary of Recommendations
+  - Highlights of the work we recommend to remediate findings
+- Post-Test Remediation
+  - List of details with type, severity, state, and resolution
+- Finding Details
+  - More information on each finding
+
+Within Cobalt, this is also known as a Report or a Final Report. For more information, see [Pentest Reports](/platform-deep-dive/pentests/reports/).
+
+## Point of Contact
+
+A user assigned as the point of contact on a pentest may be contacted by Cobalt Staff members with questions regarding the pentest.
+
+Learn more about [assigning a point of contact](/getting-started/planning/#assign-a-point-of-contact).
+
+## Projects (Cloud Assets)
+
+All resources included in your cloud [asset](#asset). For example, [AWS defines a project](https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/create-project.html) as a collection of resources associated with an asset.
+
 ## Remediate
 
 To fix a vulnerability identified by a pentest or incident report. Examples:
