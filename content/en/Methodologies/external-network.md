@@ -15,7 +15,7 @@ External network penetration testing is a process in which a tester uses simulat
 
 We follow an industry-standard methodology primarily based on the [Open Source Security Testing Methodology Manual (OSSTMM)](https://www.isecom.org/OSSTMM.3.pdf).
 
-![External network penetration testing methodology process](/methodologies/external-network-penetration-test-methodology-process.png "External network penetration testing methodology process")
+![External network penetration testing methodology process](/methodologies/external-internal-network-pentest-methodology-process.png "External network penetration testing methodology process")
 
 Penetration testing of an external network includes the following stages:
 

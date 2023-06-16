@@ -15,7 +15,7 @@ Web application penetration testing is a process in which a tester uses simulate
 
 We follow an industry-standard methodology primarily based on the OWASP Application Security Verification Standard (ASVS) and Testing Guide. In support, we use a number of manual and automated tools, described in the following steps, to ensure full coverage.
 
-![Web application penetration testing methodology process](/methodologies/Web-application-penetration-test-methodology-process.png "Web application penetration testing methodology process")
+![Web application penetration testing methodology process](/methodologies/web-app-pentest-methodology-process.png "Web application penetration testing methodology process")
 
 Penetration testing of a web application includes the following stages:
 

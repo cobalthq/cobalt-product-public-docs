@@ -71,7 +71,7 @@ penetration testing.
   - Printers
 - Report, triage, and retest
 
-![Internal network pentest flow](/gsg/ExternalNetworkPentest.png)
+![Internal network penetration testing methodology process](/methodologies/external-internal-network-pentest-methodology-process.png "Internal network penetration testing methodology process")
 
 <!-- The diagrams for internal and external networks are identical, Aug 6, 2021. -->
 

@@ -15,7 +15,7 @@ Mobile application penetration testing is a process in which a tester uses simul
 
 We follow an industry-standard methodology primarily based on the OWASP Mobile Application Security Verification Standard (MASVS) and Testing Guide (MASTG). Learn more about the [OWASP Mobile Application Security (MAS)](https://mas.owasp.org/).
 
-![Mobile application penetration testing methodology process](/methodologies/Mobile-application-penetration-test-methodology-process.png "Mobile application penetration testing methodology process")
+![Mobile application penetration testing methodology process](/methodologies/mobile-app-pentest-methodology-process.png "Mobile application penetration testing methodology process")
 
 Penetration testing of a mobile application includes the following stages:
 
