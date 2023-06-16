@@ -22,7 +22,7 @@ Follow these instructions if you can't sign in to Cobalt because:
   - [One-time codes](#one-time-codes-dont-work) don't work.
   - ["Remember this device" option](#remember-this-device-doesnt-work) doesn't work.
 - You [forgot your password](#forgot-your-password).
-- [We don't recognize your device](#we-dont-recognize-your-device).
+- [We don't recognize your browser](#we-dont-recognize-your-browser).
 - You have [problems with SAML SSO](#cant-sign-in-using-saml-sso).
 - You are [locked out of your account](#locked-out-of-your-account).
 - [The sign-in page doesn't load](#the-sign-in-page-doesnt-load).
@@ -86,23 +86,31 @@ To reset your password:
 1. Enter your email address that you used to [sign in to Cobalt](/getting-started/sign-in/), and select **Reset Password**.
 1. Follow the instructions in the email you receive. Learn [how to create a strong password](/platform-deep-dive/cobalt-account/password-best-practices/).
 
-## We Don't Recognize Your Device
+## We Don't Recognize Your Browser
 
-{{% device-verification-intro %}}
+{{% browser-verification-intro %}}
 
 When you see the **Verify It's You** message upon signing in, do the following:
 
 1. Check your email that you used to sign in to Cobalt.
-1. In the email prompting you to verify your device, double-check the details of your last sign-in attempt, and select **Verify Device**.
+1. In the email prompting you to verify your browser, double-check the details of your last sign-in attempt, and select **Verify Browser**.
     - If you don't recognize this sign-in attempt, do the following:
        - Contact {{% csm-support %}}. {{% compromised-account-action %}}
        - [Change your password](/platform-deep-dive/cobalt-account/account-settings/#change-your-password), and [reset two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#reset-two-factor-authentication).
-    - Make sure to verify your device before the link in the email expires.
-1. We save the device information and sign you in to the Cobalt app.
-    - You get an email confirming that we verified your new device.
-    - Next time you sign in from this device, you don't need to verify it again.
+    - Make sure to verify your browser before the link in the email expires.
+1. We save the browser information and sign you in to the Cobalt app.
+    - You get an email confirming that we verified your new browser.
+    - Next time you sign in from this browser, you don't need to verify it again.
 
 To enhance your account security, we recommend that you [enable two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication).
+
+**Troubleshooting tips**:
+
+- Make sure that cookies are turned on for the `cobalt.io` site in your browser. To turn on cookies, follow the instructions for your browser. Here are instructions for some popular browsers:
+  - [Google Chrome](https://support.google.com/accounts/answer/61416)
+  - [Firefox](https://support.mozilla.org/en-US/kb/websites-say-cookies-are-blocked-unblock-them)
+  - [Safari](https://support.apple.com/en-au/guide/safari/ibrw850f6c51/mac)
+- The subject line of the email we send is `[Cobalt] Verify Browser`. Search for this email in your mailbox. If you're not receiving emails from Cobalt, see our [troubleshooting tips](/platform-deep-dive/collaboration/manage-notifications/#troubleshoot-email-notifications).
 
 ## Can't Sign In Using SAML SSO
 
