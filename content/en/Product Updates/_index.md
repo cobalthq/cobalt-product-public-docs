@@ -1,23 +1,31 @@
 ---
-title: "Product Updates"
-linkTitle: "What's New"
+title: "Cobalt Updates"
+linkTitle: "Cobalt Updates"
 weight: 700
+no_list: true
 description: >
   Explore what's new with Cobalt.
 ---
 
 {{% pageinfo %}}
-We cover updates to the Cobalt platform in our release blog.
+Read about the new features, beta releases, improvements, and other updates that we shipped.
 {{% /pageinfo %}}
 
-## 2023
-
-- [Cobalt Release Blog: April 2023](https://www.cobalt.io/blog/cobalt-release-blog-april-2023)
-- [Cobalt Release Blog: March 2023](https://www.cobalt.io/blog/cobalt-release-blog-march-2023)
-- [Cobalt Release Blog: February 2023](https://www.cobalt.io/blog/cobalt-release-blog-february-2023)
-- [Cobalt Release Blog: January 2023](https://www.cobalt.io/blog/cobalt-release-blog-january-2023)
-
-## 2022
-
-- [Product Development Recap for 2022](https://www.cobalt.io/blog/product-development-recap-how-we-made-pentest-as-service-better-in-2022)
-- [Cobalt Release Blog: October](https://www.cobalt.io/blog/cobalt-release-blog-october)
+<div style="padding-right: 2.0625rem;">
+<div class="row align-items-md-stretch my-5">
+      <div class="col-md-6">
+        <div class="h-100 p-5 border rounded-lg" style="border-color: #D6E3FD">
+          <h2>📢 Announcements</h2>
+          <p>New features, improvements, news, and other updates.</p>
+          <a class="btn btn-outline-primary rounded" href="/product-updates/announcements/">Learn More »</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 p-5 border rounded-lg" style="border-color: #D6E3FD">
+          <h2>✨ What's New</h2>
+          <p>Monthly recaps of the functionality we release.</p>
+       <a class="btn btn-outline-primary rounded" href="/product-updates/releases/">Learn More »</a>
+        </div>
+      </div>
+</div>
+</div>
