@@ -294,6 +294,12 @@ The [OSSTMM](https://www.isecom.org/OSSTMM.3.pdf) tests the operational security
 locations, human interactions, and all communications on the network, whether they be wireless,
 wired, analog, or digital.
 
+## Operating System
+
+As defined by [NIST](https://csrc.nist.gov/glossary/term/operating_system), an **operating system (OS)** is a program that runs on a computer and provides a software platform on which other programs can run.
+
+A **mobile OS** is an OS that runs on a mobile device, such as a mobile phone, tablet, or smartwatch.
+
 ## Operations Security (OpSec)
 
 Operations Security, commonly known as OpSec, identifies critical information, and if/how it

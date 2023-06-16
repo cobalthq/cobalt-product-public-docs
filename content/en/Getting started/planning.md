@@ -91,14 +91,13 @@ If the only APIs in your assets populate web pages, you may not need to set up a
 
 ### Mobile
 
-To scope a pentest for a Mobile asset, specify the number of the following characteristics of the asset that need to be tested.
+To scope a pentest for a Mobile asset, specify the number of operating systems that need to be tested.
 
 ![Scoping parameters for a Mobile asset](/gsg/pentest-scoping-mobile.png "Scoping parameters for a Mobile asset")
 
-| Parameter | Definition | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
-|---|---|---|
-| [User Roles](/getting-started/glossary/#user-role) | {{% user-role %}} | <p>Enter the number of User Roles in your Mobile asset that need to be tested.</p><p>{{% count-user-roles %}}</p> |
-| [Screens](/getting-started/glossary/#mobile-screen) (For All OSes) | <p>A Screen is a screen-sized interface that a user interacts with on a mobile device.</p><p>Depending on the operating system, Screens may be referred to as:<ul><li>Superviews or subviews on iOS</li><li>Views on Android</li></ul></p><p>Screens in a mobile application are functionally equivalent to [Dynamic Pages](/getting-started/glossary/#dynamic-web-page) in a [Web](#web) asset.</p> | <p>Enter the number of Screens in your Mobile asset that need to be tested, based on the application type.</p><ul><li>**Native applications** are built to run on a specific mobile operating system, such as iOS or Android.<ul><li>Enter the total number of screens for all operating systems. We'll test the application for each operating system it runs on.<ul><li>For example, your mobile application runs on both iOS and Android. The application has 10 screens, so you should specify 20 screens in total. </li></ul></li></li></ul></li><li>**Non-native applications** are built to run on multiple operating systems.<ul><li>Enter the number of screens in the application. Because non-native applications use the same codebase to run on different operating systems, we'll test a single version.</li></ul></li></ul> |
+| Parameter | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
+|---|---|
+| [Operating Systems](/getting-started/glossary/#operating-system) | <p>A mobile operating system is an [operating system](/getting-started/glossary/#operating-system) that runs on a mobile device. Examples: iOS, Android, Windows Mobile.</p><p>Enter the number of operating systems for which the mobile app needs to be tested.</p><ul><li>**Native applications** are built to run on a specific mobile operating system, such as iOS or Android.</li><li>**Non-native applications** are built to run on multiple operating systems.</li></ul> |
 
 ### API
 
