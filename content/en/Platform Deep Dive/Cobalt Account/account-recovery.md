@@ -106,7 +106,7 @@ To enhance your account security, we recommend that you [enable two-factor authe
 
 **Troubleshooting tips**:
 
-- Make sure that cookies are enabled for the `cobalt.io` site in your browser. To turn on cookies, follow the instructions for your browser. Here are instructions for some popular browsers:
+- Make sure that cookies are turned on for the `cobalt.io` site in your browser. To turn on cookies, follow the instructions for your browser. Here are instructions for some popular browsers:
   - [Google Chrome](https://support.google.com/accounts/answer/61416)
   - [Firefox](https://support.mozilla.org/en-US/kb/websites-say-cookies-are-blocked-unblock-them)
   - [Safari](https://support.apple.com/en-au/guide/safari/ibrw850f6c51/mac)
