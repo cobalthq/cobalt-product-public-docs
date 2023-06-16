@@ -4,5 +4,5 @@ If you attempt to sign in from a device or browser that we don't recognize, we t
 
 - Sign in from a new device or browser
 - Use your browser's private (incognito) mode
-- Clear your site data
+- Clear or turn off cookies in your browser
 - Sign in from a different system

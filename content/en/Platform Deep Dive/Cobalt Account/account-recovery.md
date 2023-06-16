@@ -104,6 +104,14 @@ When you see the **Verify It's You** message upon signing in, do the following:
 
 To enhance your account security, we recommend that you [enable two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication).
 
+**Troubleshooting tips**:
+
+- Make sure that cookies are enabled for the `cobalt.io` site in your browser. To turn on cookies, follow the instructions for your browser. Here are instructions for some popular browsers:
+  - [Google Chrome](https://support.google.com/accounts/answer/61416)
+  - [Firefox](https://support.mozilla.org/en-US/kb/websites-say-cookies-are-blocked-unblock-them)
+  - [Safari](https://support.apple.com/en-au/guide/safari/ibrw850f6c51/mac)
+- The subject line of the email we send is `[Cobalt] Verify Browser`. Search for this email in your mailbox. If you're not receiving emails from Cobalt, see our [troubleshooting tips](/platform-deep-dive/collaboration/manage-notifications/#troubleshoot-email-notifications).
+
 ## Can't Sign In Using SAML SSO
 
 If your organization has enforced [SAML SSO](/getting-started/sign-in/#saml-sso), sign in from the identity provider system, such as Okta or OneLogin. Authentication from the Cobalt {{% sign-in %}} page is not possible.
