@@ -1,61 +1,55 @@
 ---
-title: "External Network Pentests"
+title: "External Network Penetration Testing Methodology"
 linkTitle: "External Network Methodologies"
 weight: 130
 description: >
-  Review methodologies for External Networks. Includes instances of Microsoft Office 365.
+  Review Cobalt pentest methodologies for external networks, including instances of Microsoft Office 365.
 aliases:
     - /getting-started/pentest-objectives/methodologies/external-network/
     - /platform-deep-dive/pentests/pentest-process/methodologies/external-network/
 ---
 
 {{% pageinfo %}}
-{{% pentest-rigor %}}
+External network penetration testing is a process in which a tester uses simulated attacks to identify potential security vulnerabilities in an external network.
 {{% /pageinfo %}}
 
-We use the penetration testing methodologies listed on the page. If you want to know more
-about each methodology, navigate to the page associated with your asset.
+We follow an industry-standard methodology primarily based on the [Open Source Security Testing Methodology Manual (OSSTMM)](https://www.isecom.org/OSSTMM.3.pdf).
 
-## External Networks
+![External network penetration testing methodology process](/methodologies/external-network-penetration-test-methodology-process.png "External network penetration testing methodology process")
 
-The Cobalt team of pentesters can proceed with a minimum of information, such as the IP addresses
-in question. However, you can include the following details in the scope of your desired pentest:
+Penetration testing of an external network includes the following stages:
 
-- Network diagrams
-- Infrastructure diagrams
-- Accounts (even temporary accounts for pentests)
-- User information
+- [Target scope reconnaissance](#target-scope-reconnaissance)
+- [Service discovery](#service-discovery)
+- [Vulnerability scans](#vulnerability-scans)
+- [Manual assessment](#manual-assessment)
+- [Additional testing](#additional-testing)
+- [Report, triage, and retest](#report-triage-and-retest)
 
-When you set up a pentest for an external network asset in the UI, you'll see the following in the
-**Objectives** text box:
+The Cobalt security assessment team carries out testing **without** the following, unless it's required as part of the pentest scope:
 
-```
-Coverage of OSSTMM and SANS top 20 security controls.
-```
+- Detailed network or infrastructure diagrams
+- Any accounts or additional user information
 
-Learn more about these objectives:
+However, you're welcome to add network diagrams and other details when [describing your asset](/getting-started/assets/asset-description/).
 
-- [Open Source Security Testing Methodology Manual (OSSTMM)](https://www.isecom.org/OSSTMM.3.pdf) (PDF)
-- SANS Top 20 Security Controls [CIS Controls v8](https://www.sans.org/blog/cis-controls-v8/)
+## Target Scope Reconnaissance
 
-### Methodology Details
+Our pentesters search for all information that a malicious user might find. For example, to connect to the internet, you typically have shared some information:
 
-We follow an industry standard methodology primarily based on the OSSTMM standard for
-penetration testing. Our team takes the following steps to ensure full coverage:
+- To receive email, you need to post a mail server address.
+- To set up a web server, you need to post its URL and more.
 
-Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key for more information on each step.
+Pentesters determine what information is available during this initial phase of testing. They examine the following:
 
-{{% expand "Target scope reconnaissance" %}}
-</br>
-Our pentesters search for all information that a malicious user might find. For example, to
-connect to the internet, you typically have shared some information. For example:
+- [Your corporate website](#your-corporate-website)
+- [Other web locations and databases](#other-web-locations-and-databases)
+- [Your domain names](#your-domain-names)
+- [Public records](#public-records)
 
-- To receive email, you need to post a mail server address
-- To set up a web server, you need to post its URL and more
+### Targets
 
-Our pentesters may go further in the following areas:
-
-**Your Corporate Website**
+#### Your Corporate Website
 
 Our pentesters evaluate your website in ways that could interest a potential attacker, including:
 
@@ -64,46 +58,48 @@ Our pentesters evaluate your website in ways that could interest a potential att
 - Domain information
 - Links to other servers within an organization
 - Other companies with links to your website
-- Information on the security policy of your organization 
+- Information on the security policy of your organization
 
-**Other Web Locations and Databases**
+#### Other Web Locations and Databases
 
-Our pentesters search for information on your asset from other websites and databases. They
-focus on information from publicly traded companies. They'll evaluate the public information
-that they find, including the information that goes beyond what's required by local laws.
+Our pentesters search for information on your asset from other websites and databases, especially anything related to publicly traded companies.
 
-They also evaluate news articles and press releases for more clues about your security policy.
+Pentesters then evaluate what information the organization makes public, especially anything that goes beyond what's required by local laws. They also evaluate news articles and press releases for more clues about your security policy.
 
-**Your Domain Names**
+#### Your Domain Names
 
 Our pentesters use "whois" databases to identify the domains that you own. These domains
 provide information about your network infrastructure.
 
-**Public Records**
+#### Public Records
 
-Public records, such as those available on "whois" databases, may include the:
+Public records about your organization may include information about the people responsible for administering your domain, such as their:
 
 - Name
 - Address
 - Telephone number
 
-Attackers may use social engineering to get extra information. They may look for details such as purchase of hardware and software.
+Attackers may use social engineering to get additional information, such as the details of hardware and software purchases. It also gives clues about where the best place to target an attack may be.
 
-**Tools**
+### Tools
 
-Our pentesters use tools such as:
+During this phase, pentesters use multiple reconnaissance scanning tools, such as:
 
+- Nmap
+- DirBuster
 - Shodan
 - Censys.io
 
-With these tools, they can find:
+The tools that pentesters use may vary from test to test.
+
+With these tools, pentesters can find:
 
 - IP addresses
-- Attached networks
+- Networks
 - Open ports
 - Webcams
 - Printers
-- Other devices connected to your network
+- Other devices connected to the internet
 
 With this information, our pentesters can identify potential weaknesses, including:
 
@@ -113,20 +109,14 @@ With this information, our pentesters can identify potential weaknesses, includi
 - Unpatched software
 - Leaked or exposed assets on [pastebins](https://pastebin.com/)
 
-{{% /expand %}}
-
-
-{{% expand "Service discovery" %}}
-</br>
+## Service Discovery
 
 After gathering all available information, our pentesters probe the resources associated
-with your asset. These tests involve several stages:
+with your asset. These tests involve several stages.
 
-**Port Scans**
+### Port Scans
 
-Our pentesters start with complete port scans on the IP address ranges for your asset. From
-this information, our pentesters can identify public-facing machines and resources, along with
-their functionality. For example, the following services require access to the outside world:
+Our pentesters start with complete port scans on the IP address ranges for your asset. From this information, our pentesters can identify public-facing machines and resources, along with their functionality. For example, the following services require access to the outside world:
 
 - Firewalls
 - Mail servers
@@ -137,65 +127,51 @@ their functionality. For example, the following services require access to the o
 
 All of these services leave characteristic signatures on a port scan.
 
-**Beyond Port Scans**
+### Beyond Port Scans
 
-Based on the initial port scan, our pentesters work to identify:
+Based on the results of the initial port scan, our pentesters work to identify:
 
-- Applications running on externally exposed machines
-- Version numbers for identified software and Operating Systems (OS)
+- The types of applications running on externally exposed machines
+- Version numbers for identified software
+- Operating systems on which the software runs
 
-In some cases, exposed hosts may have unused open services that our pentesters may try to access.
+In some cases, an externally exposed host may have open services that don't have functions associated with them. Pentesters can identify and target them for testing.
 
-**Our Pentesters Use Caution**
+{{% alert title="Tools" color="primary" %}}
+During this phase, pentesters use multiple service discovery tools, such as:
 
-As certain vulnerabilities and exploits could paralyze, damage, or alter the content of the
-network, our pentesters do not perform these attacks. They do make note of the possible risks.
+- Nmap
+- Aquatone
+- EyeWitness
+- testssl.sh
 
-For example, our pentesters won't run exploits that:
+The tools that pentesters use may vary from test to test.
+{{% /alert %}}
+
+As certain vulnerabilities and exploits could paralyze, damage, or alter the content of the network, our pentesters do not perform these attacks. They do make note of the possible risks. For example, our pentesters won't run exploits that:
 
 - Disable certain services
 - Deny service from outside systems
 - May affect customers (such as with a Denial of Service (DoS) attack)
+- Disable the ability of an organization to function
 
-Our pentesters do not disable the ability of your organization to function.
+## Vulnerability Scans
 
-**Tools**
+Our pentesters follow up by identifying vulnerabilities in the external-facing portion of the network. Their goal is to penetrate external endpoints and gain access to the internal LAN and the organization's resources.
 
-Our pentesters may use the following service discovery tools (and more):
+If a potential attacker achieves this goal, an organization could face:
 
-- Nmap
-- Aquatone
-- Eyewitness
-- testssl.sh
-
-{{% /expand %}}
-
-{{% expand "Vulnerability scans" %}}
-</br>
-
-Our pentesters follow up by identifying vulnerabilities in the external-facing portion of the
-network. Their goal is to penetrate external endpoints, in a way that allows access to the
-internal network and organization resources. 
-
-If a potential attacker achieves this goal, an organization could face: 
-
-- Leaks of sensitive or confidential information being leaked from the organization's network. Such leaks could include:
+- Leaks of sensitive or confidential information from the organization's network. Such leaks could include:
   - Personnel records
   - Payment data
   - Other financial records
-<br>
-- Attackers who use the mail gateway or website as the source of spam:
-  - This could lead to others who blacklist the domain of the organization
-  - Others could reject legitimate emails from the organization
-<br>
+- Attackers who use the mail gateway or website as the source of spam email. Other sites may blacklist the organization's domain and automatically reject legitimate email correspondence.
 - Defacing of the website. Attackers may even substitute their own version of the website where current or potential customers sign in.
-  - The organization could lose credibility or even potential customers
-<br>
-- Service disruptions. Such attacks could disrupt or disable services.
+  - The organization could lose credibility or even potential customers.
+- Service disruptions. Such attacks could put out of action organization's resources, either temporarily or permanently.
 
-**Tools**
-
-Our pentesters may use the following service discovery tools (and more):
+{{% alert title="Tools" color="primary" %}}
+During this phase, pentesters use multiple vulnerability scanning tools, such as:
 
 - Metasploit
 - Nessus
@@ -203,13 +179,12 @@ Our pentesters may use the following service discovery tools (and more):
 - Burp Suite Community/Professional
 - Nikto
 
-{{% /expand %}}
+The tools that pentesters use may vary from test to test.
+{{% /alert %}}
 
-{{% expand "Manual assessment. Includes DNS, routers, firewalls, web, email, and more" %}}
-</br>
+## Manual Assessment
 
-During manual assessment, our pentesters focus on specific identified resources associated with your external network.
-In most cases, we focus on visibly open services related to:
+During manual assessment, our pentesters focus on specific identified resources associated with your external network. In most cases, pentesters focus on visibly open services related to:
 
 - Web
 - FTP
@@ -222,7 +197,7 @@ In most cases, we focus on visibly open services related to:
 
 While pentesters perform checks based on the specifics of a given situation, we share the following "typical" scenario:
 
-**Domain Name System (DNS)**
+### Domain Name System (DNS)
 
 Network users need the ability to query DNS servers. If you have your own DNS server, a failure could affect your internet connection.
 If an attacker gets access to your DNS server, they could find out how:
@@ -230,10 +205,9 @@ If an attacker gets access to your DNS server, they could find out how:
 - The domain sends and receives email
 - Servers that support your website
 
-One serious DNS configuration error would allow unknown internet users to perform a DNS zone transfer, which could allow attackers to access
-more valuable information about your network.
+One serious DNS configuration error would allow unknown internet users to perform a DNS zone transfer, which could allow attackers to access more valuable information about your network.
 
-**Routers**
+### Routers
 
 All connections between networks and the Internet typically go through a border router managed by the Internet Service Provider (ISP).
 We locate all visible routers, establish the manufacturer and operating system (OS), then check for potential vulnerabilities. Our tests include:
@@ -242,7 +216,7 @@ We locate all visible routers, establish the manufacturer and operating system (
 - Default user accounts such as `admin`
 - Attempts to access the router using various databases of well-known default passwords and settings
 
-**Firewalls**
+### Firewalls
 
 A firewall is designed to be the main gateway to an organization, with rules to protect internal resources. They are not an
 "out-of-the-box" solution. Our pentesters look for:
@@ -258,7 +232,7 @@ Our pentesters test your firewall rules based on attacks, such as:
 - Corrupted IP packets
 - Attacks against open services
 
-**Web Servers**
+### Web Servers
 
 Web servers are vulnerable to defacement attacks, or could be used as a launching pad for further attacks against internal networks.
 Our pentesters scan all web servers (client side) for potential exploits and vulnerabilities that could leave the door open for a potential
@@ -267,7 +241,7 @@ attacker, such as:
 - Poor patching policy
 - Default installation
 
-**Email Servers**
+### Email Servers
 
 Our pentesters check SMTP, POP3, and IMAP on the mail gateway for open relay vulnerabilities. Your mail servers should:
 
@@ -278,14 +252,14 @@ Attackers could exploit an open relay to flood the mail server with spam. Some I
 
 Our pentesters examine the mail server using a variety of methods, such as sending emails to non-existent domains.
 
-**Remote Sites and Virtual Private Networks**
+### Remote Sites and Virtual Private Networks
 
 You may have set up a corporate network to connect to other offices over a VPN. While VPNs support secure communication, they may be vulnerable
 to the same configuration problems as firewalls, because firewalls handle the VPN. If someone 
 makes a mistake when they configure your VPN, that can lead to an attack vector to a
 corporate network.
 
-**Verifying Use of Secure Versions**
+### Verifying Use of Secure Versions
 
 As researchers discover vulnerabilities and security flaws in software, software vendors release patches for their products. Our pentesters
 search for outdated and unpatched versions of software. They run tests against published and patched exploits.
@@ -293,23 +267,32 @@ search for outdated and unpatched versions of software. They run tests against p
 Older versions have lower security thresholds and leave data vulnerable. According to the [SANS Institute](https://www.sans.org/),
 some of the most common vulnerabilities are based on outdated versions of Office 365. Cobalt can help you with that.
 
-**Ensuring Security of Legacy Protocols**
+### Ensuring Security of Legacy Protocols
 
 Our pentesters can test legacy protocols such as POP3, IMAP, and SMTP for known vulnerabilities and security flaws.
 
-**Tools**
-
-Our pentesters may use the following service discovery tools (and more):
+{{% alert title="Tools" color="primary" %}}
+During this phase, pentesters use manual testing and exploitation tools, such as:
 
 - Burp Suite Community/Professional
 - Metasploit
 - sqlmap
 - Postman
 
-{{% /expand %}}
+The tools that pentesters use may vary from test to test.
+{{% /alert %}}
 
-![External network pentest flow](/gsg/ExternalNetworkPentest.png)
+## Additional Testing
 
-## Additional Requirements
+Cobalt pentesters use various custom and publicly available tools throughout a pentest, such as:
 
-{{% additional-requirements %}}
+- Port scanners
+- Automated vulnerability scanners
+- HTTP proxies
+- Exploits
+- Custom scripts
+- Security applications
+
+## Report, Triage, and Retest
+
+{{% report-triage-retest %}}
