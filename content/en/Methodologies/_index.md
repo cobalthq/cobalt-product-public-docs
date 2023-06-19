@@ -16,8 +16,8 @@ Cobalt pentesters follow specific methodologies for different types of assets.
 Learn more about each methodology:
 
 - [Web application](/methodologies/web-methodologies/)
-- [API](/methodologies/api-methodologies/)
 - [Mobile application](/methodologies/mobile/)
+- [API](/methodologies/api-methodologies/)
 - [Internal network](/methodologies/internal-network/)
 - [External network](/methodologies/external-network/)
 - [Cloud configuration](/methodologies/cloud/):
