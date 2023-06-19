@@ -34,7 +34,7 @@ Penetration testing of an external network includes the following stages:
 
 {{% network-requirements %}}
 
-## Access to Your Network
+## Prerequisites
 
 {{% internal-network-requirements %}}
 
