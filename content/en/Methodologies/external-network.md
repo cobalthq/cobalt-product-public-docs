@@ -3,7 +3,7 @@ title: "External Network Penetration Testing Methodology"
 linkTitle: "External Network Methodologies"
 weight: 130
 description: >
-  Review Cobalt pentest methodologies for external networks (includes instanced of Microsoft Office 365).
+  Review Cobalt pentest methodologies for external networks (includes instances of Microsoft Office 365).
 aliases:
     - /getting-started/pentest-objectives/methodologies/external-network/
     - /platform-deep-dive/pentests/pentest-process/methodologies/external-network/
@@ -25,6 +25,8 @@ Penetration testing of an external network includes the following stages:
 - [Manual assessment](#manual-assessment)
 - [Additional testing](#additional-testing)
 - [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
+
+When testing Microsoft Office 365 instances, pentesters look into data security and encryption and verify access controls, in addition to testing the network that is hosting the services that are in scope.
 
 {{% alert title="Note" color="primary" %}}
 {{% various-tools %}}

@@ -173,7 +173,7 @@ Web servers are vulnerable to defacement attacks, or could be used as a launchin
 Cobalt pentesters scan all web and FTP servers in the internal network for potential exploits and vulnerabilities, such as:
 
 - Poor patching policy
-- "Vanilla" installation
+- Default installation
 - Insecure credentials
 
 ### Email Servers

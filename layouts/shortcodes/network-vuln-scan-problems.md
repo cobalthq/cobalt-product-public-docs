@@ -5,4 +5,4 @@ If a potential attacker achieves this goal, an organization could face:
   - Payment data
   - Other financial records
 - Attackers who use the mail gateway or website as the source of spam email. Other sites may blacklist the organization's domain and automatically reject legitimate email correspondence.
-- Service disruptions. Such attacks could put out of action organization's resources, either temporarily or permanently.
+- Service disruptions, to the point when organization's resources become unavailable, either temporarily or permanently.
