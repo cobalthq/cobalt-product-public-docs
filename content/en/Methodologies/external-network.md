@@ -3,7 +3,7 @@ title: "External Network Penetration Testing Methodology"
 linkTitle: "External Network Methodologies"
 weight: 130
 description: >
-  Review Cobalt pentest methodologies for external networks.
+  Review Cobalt pentest methodologies for external networks (includes instanced of Microsoft Office 365).
 aliases:
     - /getting-started/pentest-objectives/methodologies/external-network/
     - /platform-deep-dive/pentests/pentest-process/methodologies/external-network/
@@ -30,12 +30,7 @@ Penetration testing of an external network includes the following stages:
 {{% various-tools %}}
 {{% /alert %}}
 
-The Cobalt security assessment team carries out testing **without** the following, unless it's required as part of the pentest scope:
-
-- Detailed network or infrastructure diagrams
-- Any accounts or additional user information
-
-However, you're welcome to add network diagrams and other details when [describing your asset](/getting-started/assets/asset-description/).
+{{% network-requirements %}}
 
 ## Target Scope Reconnaissance
 
