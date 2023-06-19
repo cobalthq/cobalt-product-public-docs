@@ -1,28 +1,24 @@
 ---
-title: "Cloud Pentests"
-linkTitle: "Cloud Pentest Methodologies"
+title: "Cloud Configuration Review Methodologies"
+linkTitle: "Cloud Configuration Review"
 weight: 150
 description: >
-  Review methodologies for Cloud Configurations.
+  Learn how Cobalt pentesters review cloud configurations.
 aliases:
     - /getting-started/pentest-objectives/methodologies/cloud/
     - /platform-deep-dive/pentests/pentest-process/methodologies/cloud/
 ---
 
 {{% pageinfo %}}
-{{% pentest-rigor %}}
+Cobalt supports penetration testing of systems in the following cloud environments:
+
+- [Amazon AWS](/methodologies/amazon-aws-cloud-configuration/)
+- [Google Cloud Platform (GCP)](/methodologies/gcp-cloud-configuration/)
+- [Microsoft Azure](/methodologies/azure-cloud-configuration/)
 {{% /pageinfo %}}
 
-We support penetration testing of systems in the following cloud environments:
+While we perform many of the same tests on different cloud configurations, each environment has unique testing requirements.
 
-- Amazon AWS
-- Google Cloud Platform (GCP)
-- Microsoft Azure
-
-While we perform many of the same tests on different cloud configurations, each environment
-has unique testing requirements.
-
-## Cloud Network Pentest
 <!-- I cover needed content from
 https://cobaltio.zendesk.com/hc/en-us/articles/360057567991-Cloud-Configuration-Review-VS-Cloud-Network-Pentest
 here: -->
@@ -77,41 +73,6 @@ that your cloud provider may require, including:
 - Peak queries per second
 - Escalation traffic requirements
 - Emergency contact information
-
-## Amazon AWS
-
-Our pentesters need access to test your AWS systems. To that end, you should prepare:
-
-- A dedicated AWS account for each pentester, with access to each target system.
-  - Identity and Access Management (IAM) API credentials for each affected AWS account.
-    - Include the following managed policies for the pentest user or role:
-      - `SecurityAudit`
-      - `ViewOnlyAccess`
-
-These are the required policy Amazon Resource Names (ARN):
-
-```
-arn:aws:iam::aws:policy/SecurityAudit
-arn:aws:iam::aws:policy/job-function/ViewOnlyAccess
-```
-
-You should also include the architecture of your cloud configuration.
-
-## Google Cloud Platform (GCP)
-
-Our pentesters need access to test your GCP systems. To that end, you should prepare:
-
-- A dedicated GCP account for each pentester, with access to each target system.
-  - GCP access keys.
-  - Identity and Access Management (IAM) API credentials for each affected GCP account.
-    - To provide API credentials, use a (service) account with Viewer and Security Reviewer
-      permissions.
-
-## Microsoft Azure
-
-Our pentesters need access to test your Azure systems. To that end, you should prepare:
-- A dedicated Azure account for each pentester, with access to each target system.
-  - Identity and Access Management (IAM) API credentials (read-only) for each dedicated account.
 
 ## Other Cloud Providers
 
