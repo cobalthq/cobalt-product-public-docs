@@ -54,7 +54,7 @@ Testing Guide. Our team takes the following steps to ensure full coverage:
 - Automated / manual review of externally exposed services
   - Basic vulnerability assessments
 - Architectural design analysis
-- Report, triage, and retest
+- Reporting, triaging, and retesting
 
 ![Cloud pentest flow](/gsg/CloudPentest.png)
 

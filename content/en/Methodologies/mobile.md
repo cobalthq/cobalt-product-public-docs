@@ -22,7 +22,7 @@ Penetration testing of a mobile application includes the following stages:
 - [Target scope reconnaissance](#target-scope-reconnaissance)
 - [Automated and manual testing](#automated-and-manual-testing)
 - [Exploit discovered vulnerabilities](#exploit-discovered-vulnerabilities)
-- [Report, triage, and retest](#report-triage-and-retest)
+- [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
 
 Cobalt pentesters do not need access to the source code of your application, unless you specify it as a requirement.
 
@@ -67,6 +67,8 @@ Cobalt pentesters may use tools such as:
 - Apktool
 - Dex2Jar
 - Objection
+
+{{% various-tools %}}
 {{% /alert %}}
 
 ## Exploit Discovered Vulnerabilities
@@ -79,6 +81,6 @@ When our pentesters discover a vulnerability, they use various techniques to mea
 
 Our pentesters use various techniques to exploit data storage, platform permissions, and other relevant security controls.
 
-## Report, Triage, and Retest
+## Reporting, Triaging, and Retesting
 
 {{% report-triage-retest %}}

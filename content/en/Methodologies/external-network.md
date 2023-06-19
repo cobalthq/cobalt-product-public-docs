@@ -3,7 +3,7 @@ title: "External Network Penetration Testing Methodology"
 linkTitle: "External Network Methodologies"
 weight: 130
 description: >
-  Review Cobalt pentest methodologies for external networks, including instances of Microsoft Office 365.
+  Review Cobalt pentest methodologies for external networks (includes instances of Microsoft Office 365).
 aliases:
     - /getting-started/pentest-objectives/methodologies/external-network/
     - /platform-deep-dive/pentests/pentest-process/methodologies/external-network/
@@ -24,7 +24,11 @@ Penetration testing of an external network includes the following stages:
 - [Vulnerability scans](#vulnerability-scans)
 - [Manual assessment](#manual-assessment)
 - [Additional testing](#additional-testing)
-- [Report, triage, and retest](#report-triage-and-retest)
+- [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
+
+{{% alert title="Note" color="primary" %}}
+{{% various-tools %}}
+{{% /alert %}}
 
 The Cobalt security assessment team carries out testing **without** the following, unless it's required as part of the pentest scope:
 
@@ -35,7 +39,7 @@ However, you're welcome to add network diagrams and other details when [describi
 
 ## Target Scope Reconnaissance
 
-Our pentesters search for all information that a malicious user might find. For example, to connect to the internet, you typically have shared some information:
+Cobalt pentesters search for all information that a malicious user might find. For example, to connect to the internet, you typically have shared some information:
 
 - To receive email, you need to post a mail server address.
 - To set up a web server, you need to post its URL and more.
@@ -51,7 +55,7 @@ Pentesters determine what information is available during this initial phase of 
 
 #### Your Corporate Website
 
-Our pentesters evaluate your website in ways that could interest a potential attacker, including:
+Cobalt pentesters evaluate your website in ways that could interest a potential attacker, including:
 
 - Locations (URLs)
 - Contact details (such as phone numbers, email, and physical addresses)
@@ -62,13 +66,13 @@ Our pentesters evaluate your website in ways that could interest a potential att
 
 #### Other Web Locations and Databases
 
-Our pentesters search for information on your asset from other websites and databases, especially anything related to publicly traded companies.
+Cobalt pentesters search for information on your asset from other websites and databases, especially anything related to publicly traded companies.
 
 Pentesters then evaluate what information the organization makes public, especially anything that goes beyond what's required by local laws. They also evaluate news articles and press releases for more clues about your security policy.
 
 #### Your Domain Names
 
-Our pentesters use "whois" databases to identify the domains that you own. These domains
+Cobalt pentesters use "whois" databases to identify the domains that you own. These domains
 provide information about your network infrastructure.
 
 #### Public Records
@@ -89,8 +93,6 @@ During this phase, pentesters use multiple reconnaissance scanning tools, such a
 - DirBuster
 - Shodan
 - Censys.io
-
-The tools that pentesters use may vary from test to test.
 
 With these tools, pentesters can find:
 
@@ -116,7 +118,7 @@ with your asset. These tests involve several stages.
 
 ### Port Scans
 
-Our pentesters start with complete port scans on the IP address ranges for your asset. From this information, our pentesters can identify public-facing machines and resources, along with their functionality. For example, the following services require access to the outside world:
+Cobalt pentesters start with complete port scans on the IP address ranges for your asset. From this information, our pentesters can identify public-facing machines and resources, along with their functionality. For example, the following services require access to the outside world:
 
 - Firewalls
 - Mail servers
@@ -144,8 +146,6 @@ During this phase, pentesters use multiple service discovery tools, such as:
 - Aquatone
 - EyeWitness
 - testssl.sh
-
-The tools that pentesters use may vary from test to test.
 {{% /alert %}}
 
 As certain vulnerabilities and exploits could paralyze, damage, or alter the content of the network, our pentesters do not perform these attacks. They do make note of the possible risks. For example, our pentesters won't run exploits that:
@@ -157,7 +157,7 @@ As certain vulnerabilities and exploits could paralyze, damage, or alter the con
 
 ## Vulnerability Scans
 
-Our pentesters follow up by identifying vulnerabilities in the external-facing portion of the network. Their goal is to penetrate external endpoints and gain access to the internal LAN and the organization's resources.
+Cobalt pentesters follow up by identifying vulnerabilities in the external-facing portion of the network. Their goal is to penetrate external endpoints and gain access to the internal LAN and the organization's resources.
 
 If a potential attacker achieves this goal, an organization could face:
 
@@ -178,38 +178,55 @@ During this phase, pentesters use multiple vulnerability scanning tools, such as
 - Nmap
 - Burp Suite Community/Professional
 - Nikto
-
-The tools that pentesters use may vary from test to test.
 {{% /alert %}}
 
 ## Manual Assessment
 
-During manual assessment, our pentesters focus on specific identified resources associated with your external network. In most cases, pentesters focus on visibly open services related to:
+During manual assessment, Cobalt pentesters focus on specific identified resources associated with your external network. In most cases, pentesters focus on visibly open services:
 
-- Web
-- FTP
-- Email (incoming and outgoing)
+- Web servers
+- FTP servers
+- Email servers
 - Firewalls
 - Routers
 - DNS servers
-- Other services that are in place on the external IP address range
-  - Includes Office 365
+- Other services that are in place on the external IP address range, including Office 365 services
 
-While pentesters perform checks based on the specifics of a given situation, we share the following "typical" scenario:
+While pentesters perform checks based on the specifics of a given situation, a common scenario involves examining the following:
+
+- [Domain Name System (DNS)](#domain-name-system-dns)
+- [Routers](#routers)
+- [Firewalls](#firewalls)
+- [Web servers](#web-servers)
+- [Email servers](#email-servers)
+- [Remote sites and virtual private networks](#remote-sites-and-virtual-private-network-vpn)
+- [Verifying the use of secure versions](#verifying-the-use-of-secure-versions)
+- [Ensuring the security of legacy protocols](#ensuring-the-security-of-legacy-protocols)
+
+{{% alert title="Tools" color="primary" %}}
+During this phase, pentesters use manual testing and exploitation tools, such as:
+
+- Burp Suite Community/Professional
+- Metasploit
+- sqlmap
+- Postman
+{{% /alert %}}
 
 ### Domain Name System (DNS)
 
-Network users need the ability to query DNS servers. If you have your own DNS server, a failure could affect your internet connection.
-If an attacker gets access to your DNS server, they could find out how:
+For organizations to use the internet, their network users need the ability to query DNS servers. Some organizations have their own DNS server, and some rely on external DNS servers. If an organization's internal DNS server fails, this could cause their internet connection to go down.
 
-- The domain sends and receives email
-- Servers that support your website
+Attackers can also obtain internal knowledge from a DNS server, such as:
 
-One serious DNS configuration error would allow unknown internet users to perform a DNS zone transfer, which could allow attackers to access more valuable information about your network.
+- How the domain sends and receives email
+- Its website locations
+
+Let's look at an example of a serious DNS configuration error that may occur. When an organization allows unknown internet users to perform a DNS zone transfer, an attacker may get access to valuable information about the network.
 
 ### Routers
 
-All connections between networks and the Internet typically go through a border router managed by the Internet Service Provider (ISP).
+All connections to the internet typically go through a border router managed by the Internet Service Provider (ISP). However, sometimes routers remain unpatched for an extended period, or default user accounts remain active.
+
 We locate all visible routers, establish the manufacturer and operating system (OS), then check for potential vulnerabilities. Our tests include:
 
 - Checking software, to make sure your routers are patched and up to date
@@ -218,14 +235,9 @@ We locate all visible routers, establish the manufacturer and operating system (
 
 ### Firewalls
 
-A firewall is designed to be the main gateway to an organization, with rules to protect internal resources. They are not an
-"out-of-the-box" solution. Our pentesters look for:
+A firewall is designed to be the main gateway to an organization, with rules to protect internal resources. An attacker may get access to the firewall technology, so we don't recommend treating it as an "out-of-the-box" solution. An organization should configure a firewall for the specific needs of their business, and keep it up to date through patching and maintenance.
 
-- Firewalls that are configured for the specific needs of your business
-- Firewall software that's up to date with patches and maintenance
-- Configuration errors that could leave a path into the corporate LAN
-
-Our pentesters test your firewall rules based on attacks, such as:
+Our pentesters look for configuration errors that could leave a path into the corporate LAN. Pentesters attempt to perform firewall attacks, such as:
 
 - Buffer overflows
 - IP spoofing
@@ -235,7 +247,8 @@ Our pentesters test your firewall rules based on attacks, such as:
 ### Web Servers
 
 Web servers are vulnerable to defacement attacks, or could be used as a launching pad for further attacks against internal networks.
-Our pentesters scan all web servers (client side) for potential exploits and vulnerabilities that could leave the door open for a potential
+
+Cobalt pentesters scan all web servers (client side) for potential exploits and vulnerabilities that could leave the door open for a potential
 attacker, such as:
 
 - Poor patching policy
@@ -243,44 +256,30 @@ attacker, such as:
 
 ### Email Servers
 
-Our pentesters check SMTP, POP3, and IMAP on the mail gateway for open relay vulnerabilities. Your mail servers should:
+Cobalt pentesters check SMTP, POP3, and IMAP on the mail gateway for open relay vulnerabilities. Your mail servers should:
 
 - Accept mail _only_ for the organization's domains
 - Not relay mail for other domains
 
-Attackers could exploit an open relay to flood the mail server with spam. Some ISPs blacklist domains which are known to send spam.
+Attackers could exploit an open relay to flood the mail server with spam, which could lead to the domain being blacklisted.
 
 Our pentesters examine the mail server using a variety of methods, such as sending emails to non-existent domains.
 
-### Remote Sites and Virtual Private Networks
+### Remote Sites and Virtual Private Network (VPN)
 
-You may have set up a corporate network to connect to other offices over a VPN. While VPNs support secure communication, they may be vulnerable
-to the same configuration problems as firewalls, because firewalls handle the VPN. If someone 
-makes a mistake when they configure your VPN, that can lead to an attack vector to a
-corporate network.
+Corporate network infrastructures may require connections to several other subsidiary offices around the globe over a VPN. While VPNs support secure communication, they may be vulnerable to the same configuration problems as firewalls, because firewalls handle the VPN.
 
-### Verifying Use of Secure Versions
+An improperly configured VPN to a subsidiary site could be an attack vector to the main corporate network.
 
-As researchers discover vulnerabilities and security flaws in software, software vendors release patches for their products. Our pentesters
-search for outdated and unpatched versions of software. They run tests against published and patched exploits.
+### Verifying the Use of Secure Versions
 
-Older versions have lower security thresholds and leave data vulnerable. According to the [SANS Institute](https://www.sans.org/),
-some of the most common vulnerabilities are based on outdated versions of Office 365. Cobalt can help you with that.
+As researchers discover vulnerabilities and security flaws in software, software vendors release patches for their products. Our pentesters search for outdated and unpatched versions of software. They run tests against published and patched exploits.
 
-### Ensuring Security of Legacy Protocols
+Older versions have lower security thresholds and leave data vulnerable. According to the [SANS Institute](https://www.sans.org/), some of the most common vulnerabilities are based on outdated versions of Office 365. Cobalt can perform pentests for Office 365 instances.
 
-Our pentesters can test legacy protocols such as POP3, IMAP, and SMTP for known vulnerabilities and security flaws.
+### Ensuring the Security of Legacy Protocols
 
-{{% alert title="Tools" color="primary" %}}
-During this phase, pentesters use manual testing and exploitation tools, such as:
-
-- Burp Suite Community/Professional
-- Metasploit
-- sqlmap
-- Postman
-
-The tools that pentesters use may vary from test to test.
-{{% /alert %}}
+Cobalt pentesters can test legacy protocols such as POP3, IMAP, and SMTP for known vulnerabilities. They check if the use of these protocols is secured against documented security flaws.
 
 ## Additional Testing
 
@@ -293,6 +292,6 @@ Cobalt pentesters use various custom and publicly available tools throughout a p
 - Custom scripts
 - Security applications
 
-## Report, Triage, and Retest
+## Reporting, Triaging, and Retesting
 
 {{% report-triage-retest %}}

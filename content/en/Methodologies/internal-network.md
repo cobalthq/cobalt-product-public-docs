@@ -69,7 +69,7 @@ penetration testing.
   - Access control systems such as Microsoft Active Directory
   - Less secure email protocols (SMTP, POP3, IMAP)
   - Printers
-- Report, triage, and retest
+- Reporting, triaging, and retesting
 
 ![Internal network penetration testing methodology process](/methodologies/external-internal-network-pentest-methodology-process.png "Internal network penetration testing methodology process")
 

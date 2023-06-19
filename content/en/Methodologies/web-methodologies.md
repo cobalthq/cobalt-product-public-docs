@@ -25,7 +25,11 @@ Penetration testing of a web application includes the following stages:
 - [Authenticated vulnerability scanning / Manual crawling](#authenticated-vulnerability-scanning--manual-crawling)
 - [Manual web vulnerability tests / exploit reviews / microservices](#manual-web-vulnerability-tests--exploit-reviews--microservices)
 - [Ongoing assessments](#ongoing-assessments)
-- [Report, triage, and retest](#report-triage-and-retest)
+- [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
+
+{{% alert title="Note" color="primary" %}}
+{{% various-tools %}}
+{{% /alert %}}
 
 Cobalt pentesters do not need access to the source code of your application, unless you specify it as a requirement. We look at the application logic by working with your app.
 
@@ -187,6 +191,6 @@ They also:
 
 You're welcome to communicate with our pentesters for each of their findings.
 
-## Report, Triage, and Retest
+## Reporting, Triaging, and Retesting
 
 {{% report-triage-retest %}}
