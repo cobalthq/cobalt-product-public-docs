@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Azure Active Directory (AD) is a cloud-based identity and access management solution by Microsoft.
+{{% azure-ad-definition %}}
 
 Penetration testing of Azure AD is a process in which a tester uses simulated attacks to identify potential security vulnerabilities in the service.
 {{% /pageinfo %}}

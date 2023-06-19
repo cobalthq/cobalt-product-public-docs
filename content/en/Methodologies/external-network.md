@@ -3,7 +3,7 @@ title: "External Network Penetration Testing Methodology"
 linkTitle: "External Network Methodologies"
 weight: 130
 description: >
-  Review Cobalt pentest methodologies for external networks (includes instances of Microsoft Office 365).
+  Review Cobalt pentest methodologies for external networks.
 aliases:
     - /getting-started/pentest-objectives/methodologies/external-network/
     - /platform-deep-dive/pentests/pentest-process/methodologies/external-network/
@@ -39,51 +39,9 @@ However, you're welcome to add network diagrams and other details when [describi
 
 ## Target Scope Reconnaissance
 
-Cobalt pentesters search for all information that a malicious user might find. For example, to connect to the internet, you typically have shared some information:
+{{% network-recon-intro %}}
 
-- To receive email, you need to post a mail server address.
-- To set up a web server, you need to post its URL and more.
-
-Pentesters determine what information is available during this initial phase of testing. They examine the following:
-
-- [Your corporate website](#your-corporate-website)
-- [Other web locations and databases](#other-web-locations-and-databases)
-- [Your domain names](#your-domain-names)
-- [Public records](#public-records)
-
-### Targets
-
-#### Your Corporate Website
-
-Cobalt pentesters evaluate your website in ways that could interest a potential attacker, including:
-
-- Locations (URLs)
-- Contact details (such as phone numbers, email, and physical addresses)
-- Domain information
-- Links to other servers within an organization
-- Other companies with links to your website
-- Information on the security policy of your organization
-
-#### Other Web Locations and Databases
-
-Cobalt pentesters search for information on your asset from other websites and databases, especially anything related to publicly traded companies.
-
-Pentesters then evaluate what information the organization makes public, especially anything that goes beyond what's required by local laws. They also evaluate news articles and press releases for more clues about your security policy.
-
-#### Your Domain Names
-
-Cobalt pentesters use "whois" databases to identify the domains that you own. These domains
-provide information about your network infrastructure.
-
-#### Public Records
-
-Public records about your organization may include information about the people responsible for administering your domain, such as their:
-
-- Name
-- Address
-- Telephone number
-
-Attackers may use social engineering to get additional information, such as the details of hardware and software purchases. It also gives clues about where the best place to target an attack may be.
+{{% network-recon-list %}}
 
 ### Tools
 
@@ -113,31 +71,10 @@ With this information, our pentesters can identify potential weaknesses, includi
 
 ## Service Discovery
 
-After gathering all available information, our pentesters probe the resources associated
-with your asset. These tests involve several stages.
+{{% network-service-discovery-intro %}}
 
-### Port Scans
-
-Cobalt pentesters start with complete port scans on the IP address ranges for your asset. From this information, our pentesters can identify public-facing machines and resources, along with their functionality. For example, the following services require access to the outside world:
-
-- Firewalls
-- Mail servers
-- Office 365 servers
-- Web servers
-- FTP servers
-- More
-
-All of these services leave characteristic signatures on a port scan.
-
-### Beyond Port Scans
-
-Based on the results of the initial port scan, our pentesters work to identify:
-
-- The types of applications running on externally exposed machines
-- Version numbers for identified software
-- Operating systems on which the software runs
-
-In some cases, an externally exposed host may have open services that don't have functions associated with them. Pentesters can identify and target them for testing.
+- [Port scans](#port-scans)
+- [Further investigation](#further-investigation)
 
 {{% alert title="Tools" color="primary" %}}
 During this phase, pentesters use multiple service discovery tools, such as:
@@ -148,51 +85,43 @@ During this phase, pentesters use multiple service discovery tools, such as:
 - testssl.sh
 {{% /alert %}}
 
-As certain vulnerabilities and exploits could paralyze, damage, or alter the content of the network, our pentesters do not perform these attacks. They do make note of the possible risks. For example, our pentesters won't run exploits that:
+{{% network-service-discovery-limitations %}}
 
-- Disable certain services
-- Deny service from outside systems
-- May affect customers (such as with a Denial of Service (DoS) attack)
-- Disable the ability of an organization to function
+### Port Scans
+
+Cobalt pentesters start with complete port scans on the IP address ranges for your asset. From this information, our pentesters can identify public-facing machines and resources, along with their functionality.
+
+For example, the following services require access to the outside world to function:
+
+- Firewalls
+- Mail servers
+- Office 365 servers
+- Web servers
+- FTP servers
+- More
+
+All of these services leave characteristic signatures that a port scan can detect.
+
+### Further Investigation
+
+{{% network-sd-further-investigation %}}
 
 ## Vulnerability Scans
 
 Cobalt pentesters follow up by identifying vulnerabilities in the external-facing portion of the network. Their goal is to penetrate external endpoints and gain access to the internal LAN and the organization's resources.
 
-If a potential attacker achieves this goal, an organization could face:
-
-- Leaks of sensitive or confidential information from the organization's network. Such leaks could include:
-  - Personnel records
-  - Payment data
-  - Other financial records
-- Attackers who use the mail gateway or website as the source of spam email. Other sites may blacklist the organization's domain and automatically reject legitimate email correspondence.
+{{% network-vuln-scan-problems %}}
 - Defacing of the website. Attackers may even substitute their own version of the website where current or potential customers sign in.
   - The organization could lose credibility or even potential customers.
-- Service disruptions. Such attacks could put out of action organization's resources, either temporarily or permanently.
-
-{{% alert title="Tools" color="primary" %}}
-During this phase, pentesters use multiple vulnerability scanning tools, such as:
-
-- Metasploit
-- Nessus
-- Nmap
-- Burp Suite Community/Professional
-- Nikto
-{{% /alert %}}
 
 ## Manual Assessment
 
-During manual assessment, Cobalt pentesters focus on specific identified resources associated with your external network. In most cases, pentesters focus on visibly open services:
+{{% network-manual-intro %}}
 
-- Web servers
-- FTP servers
-- Email servers
-- Firewalls
-- Routers
-- DNS servers
+{{% network-manual-list %}}
 - Other services that are in place on the external IP address range, including Office 365 services
 
-While pentesters perform checks based on the specifics of a given situation, a common scenario involves examining the following:
+{{% network-manual-stages-intro %}}
 
 - [Domain Name System (DNS)](#domain-name-system-dns)
 - [Routers](#routers)
@@ -225,24 +154,11 @@ Let's look at an example of a serious DNS configuration error that may occur. Wh
 
 ### Routers
 
-All connections to the internet typically go through a border router managed by the Internet Service Provider (ISP). However, sometimes routers remain unpatched for an extended period, or default user accounts remain active.
-
-We locate all visible routers, establish the manufacturer and operating system (OS), then check for potential vulnerabilities. Our tests include:
-
-- Checking software, to make sure your routers are patched and up to date
-- Default user accounts such as `admin`
-- Attempts to access the router using various databases of well-known default passwords and settings
+{{% network-manual-routers %}}
 
 ### Firewalls
 
-A firewall is designed to be the main gateway to an organization, with rules to protect internal resources. An attacker may get access to the firewall technology, so we don't recommend treating it as an "out-of-the-box" solution. An organization should configure a firewall for the specific needs of their business, and keep it up to date through patching and maintenance.
-
-Our pentesters look for configuration errors that could leave a path into the corporate LAN. Pentesters attempt to perform firewall attacks, such as:
-
-- Buffer overflows
-- IP spoofing
-- Corrupted IP packets
-- Attacks against open services
+{{% network-manual-firewall %}}
 
 ### Web Servers
 
@@ -256,14 +172,7 @@ attacker, such as:
 
 ### Email Servers
 
-Cobalt pentesters check SMTP, POP3, and IMAP on the mail gateway for open relay vulnerabilities. Your mail servers should:
-
-- Accept mail _only_ for the organization's domains
-- Not relay mail for other domains
-
-Attackers could exploit an open relay to flood the mail server with spam, which could lead to the domain being blacklisted.
-
-Our pentesters examine the mail server using a variety of methods, such as sending emails to non-existent domains.
+{{% network-manual-email %}}
 
 ### Remote Sites and Virtual Private Network (VPN)
 
@@ -283,14 +192,7 @@ Cobalt pentesters can test legacy protocols such as POP3, IMAP, and SMTP for kno
 
 ## Additional Testing
 
-Cobalt pentesters use various custom and publicly available tools throughout a pentest, such as:
-
-- Port scanners
-- Automated vulnerability scanners
-- HTTP proxies
-- Exploits
-- Custom scripts
-- Security applications
+{{% network-additional-testing %}}
 
 ## Reporting, Triaging, and Retesting
 

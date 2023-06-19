@@ -1,7 +1,7 @@
 ---
 title: "Cloud Pentests"
 linkTitle: "Cloud Pentest Methodologies"
-weight: 140
+weight: 150
 description: >
   Review methodologies for Cloud Configurations.
 aliases:

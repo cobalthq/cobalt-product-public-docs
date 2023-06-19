@@ -1,0 +1,1 @@
+While pentesters perform checks based on the specifics of a given situation, a common scenario involves examining the following:
