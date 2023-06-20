@@ -19,7 +19,7 @@ Internal network penetration testing is a process in which a tester uses simulat
 
 <!-- The diagrams for internal and external networks are identical, Aug 6, 2021. -->
 
-Penetration testing of an external network includes the following stages:
+Penetration testing of an internal network includes the following stages:
 
 {{% network-stages-toc %}}
 
@@ -49,11 +49,11 @@ An attacker may have multiple avenues of exploration. Cobalt pentesters explore 
 {{% network-recon-list %}}
 
 {{% alert title="Tools" color="primary" %}}
-During this phase, pentesters use multiple reconnaissance scanning tools, such as:
+During this testing phase, pentesters use multiple reconnaissance scanning tools, such as:
 
 - Nmap
 - Nikto
-- Shodan.io
+- Shodan
 {{% /alert %}}
 
 ## Service Discovery
@@ -65,7 +65,7 @@ During this phase, pentesters use multiple reconnaissance scanning tools, such a
 - [Further investigation](#further-investigation)
 
 {{% alert title="Tools" color="primary" %}}
-During this phase, pentesters use multiple service discovery tools, such as:
+During this testing phase, pentesters use multiple service discovery tools, such as:
 
 - Nmap
 - Nikto
@@ -78,7 +78,7 @@ During this phase, pentesters use multiple service discovery tools, such as:
 
 ### Port Scans
 
-Pentesters perform a complete port scan against the internal network ranges provided. This gives a detailed breakdown of the machines and resources running inside the corporate network and what functions they perform.
+Pentesters perform a complete port scan on the provided internal network ranges. This gives a detailed breakdown of the machines and resources running inside the corporate network and what functions they perform.
 
 For example, the following services require access to the network to function:
 
@@ -88,7 +88,7 @@ For example, the following services require access to the network to function:
 - Web and patch deployment servers
 - Printers
 - FTP servers
-- Active Directory (AD) servers and clients
+- Azure Active Directory (AD) servers and clients
 
 All of these services leave characteristic signatures that a port scan can detect.
 
@@ -110,7 +110,7 @@ Cobalt pentesters follow up by identifying vulnerabilities in the internal-facin
 {{% network-vuln-scan-problems %}}
 
 {{% alert title="Tools" color="primary" %}}
-During this phase, pentesters use multiple vulnerability scanning tools, such as:
+During this testing phase, pentesters use multiple vulnerability scanning tools, such as:
 
 - Nessus
 - Acunetix
@@ -138,7 +138,7 @@ During this phase, pentesters use multiple vulnerability scanning tools, such as
 - [Printers](#printers)
 
 {{% alert title="Tools" color="primary" %}}
-During this phase, pentesters use manual testing and exploitation tools, such as:
+During this testing phase, pentesters use manual testing and exploitation tools, such as:
 
 - Ettercap
 - Metasploit
