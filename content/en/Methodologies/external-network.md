@@ -19,12 +19,7 @@ We follow an industry-standard methodology primarily based on the [Open Source S
 
 Penetration testing of an external network includes the following stages:
 
-- [Target scope reconnaissance](#target-scope-reconnaissance)
-- [Service discovery](#service-discovery)
-- [Vulnerability scans](#vulnerability-scans)
-- [Manual assessment](#manual-assessment)
-- [Additional testing](#additional-testing)
-- [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
+{{% network-stages-toc %}}
 
 When testing Microsoft Office 365 instances, pentesters look into data security and encryption and verify access controls, in addition to testing the network that is hosting the services that are in scope.
 

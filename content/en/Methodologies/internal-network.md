@@ -21,12 +21,7 @@ Internal network penetration testing is a process in which a tester uses simulat
 
 Penetration testing of an external network includes the following stages:
 
-- [Target scope reconnaissance](#target-scope-reconnaissance)
-- [Service discovery](#service-discovery)
-- [Vulnerability scans](#vulnerability-scans)
-- [Manual assessment](#manual-assessment)
-- [Additional testing](#additional-testing)
-- [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
+{{% network-stages-toc %}}
 
 {{% alert title="Note" color="primary" %}}
 {{% various-tools %}}
