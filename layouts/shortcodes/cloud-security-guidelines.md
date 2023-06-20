@@ -1,0 +1,3 @@
+- Additional security guidelines, such as:
+  - [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)
+  - [CIS Critical Security Controls](https://www.cisecurity.org/controls)

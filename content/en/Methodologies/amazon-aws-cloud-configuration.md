@@ -13,30 +13,22 @@ Amazon AWS cloud-based configuration review is an exercise in which Cobalt pente
 We follow an industry-standard methodology primarily based on:
 
 - [CIS AWS Foundations Benchmark](https://docs.aws.amazon.com/securityhub/latest/userguide/cis-aws-foundations-benchmark.html)
-- Additional testing guidelines, such as the [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)
+{{% cloud-security-guidelines %}}
 
 ![Amazon AWS cloud configuration review process](/methodologies/cloud-configuration-review-process.png "Amazon AWS cloud configuration review process")
 
-Review of a cloud configuration includes the following stages:
-
-- [Target scope reconnaissance](#target-scope-reconnaissance)
-- [Component enumeration](#component-enumeration)
-- [Automated component configuration assessment](#automated-component-configuration-assessment)
-- [Automated and manual assessment of externally exposed services](#automated-and-manual-assessment-of-externally-exposed-services)
-- [Architectural design analysis](#architectural-design-analysis)
-- [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
+{{% cloud-stages-toc %}}
 
 ## Prerequisites
 
-Our pentesters need access to test your AWS systems. To that end, you should prepare:
+Our pentesters need access to test your AWS systems. Prepare the following:
 
 - A dedicated AWS account for each pentester, with access to each target system.
-  - Identity and Access Management (IAM) API credentials for each affected AWS account.
-    - Include the following managed policies for the pentest user or role:
-      - `SecurityAudit`
-      - `ViewOnlyAccess`
+- Read-only Identity and Access Management (IAM) API credentials for each dedicated account. Add the following AWS managed policies to the pentester user or role:
+  - `SecurityAudit`
+  - `ViewOnlyAccess`
 
-The required policy Amazon Resource Names (ARN) are:
+The required [Amazon Resource Names (ARNs)](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference-arns.html) are:
 
 ```
 arn:aws:iam::aws:policy/SecurityAudit
@@ -45,19 +37,26 @@ arn:aws:iam::aws:policy/job-function/ViewOnlyAccess
 
 ## Target Scope Reconnaissance
 
+{{% cloud-recon %}}
 
 ## Component Enumeration
 
+{{% cloud-component-enumeration %}}
+  - IAM
+  - S3
+  - RDS
 
 ## Automated Component Configuration Assessment
 
+{{% cloud-component-assessment %}}
 
 ## Automated and Manual Assessment of Externally Exposed Services
 
+{{% cloud-external-services %}}
 
 ## Architectural Design Analysis
 
-
+{{% cloud-architect-design %}}
 
 ## Reporting, Triaging, and Retesting
 
@@ -65,7 +64,7 @@ arn:aws:iam::aws:policy/job-function/ViewOnlyAccess
 
 ## Tools
 
-During testing, pentesters use multiple testing tools, such as:
+During the assessment, pentesters use multiple testing tools, such as:
 
 - [Scout Suite](https://github.com/nccgroup/ScoutSuite): Cloud security auditing tool
 - [Prowler](https://github.com/prowler-cloud/prowler): Security best practices assessment tool

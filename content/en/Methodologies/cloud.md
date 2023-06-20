@@ -29,30 +29,12 @@ Network Pentest](/methodologies/external-network/).
 
 ## Common Requirements
 
-Cobalt assesses your selected cloud environment, as well as all internal and external components. Cobalt
-follows an industry standard methodology primarily based on:
+Cobalt assesses your selected cloud environment, as well as all internal and external components. Cobalt follows an industry standard methodology primarily based on:
 
-- Best practices established by your cloud provider
-- OWASP standards for [Cloud Providers](https://owasp.org/www-pdf-archive/Cloud-Top10-Security-Risks.pdf) (PDF)
-  and [Application Security Verification Standard (ASVS)](/getting-started/glossary/#application-security-verification-standard-asvs).
+- Security best practices of specific cloud providers
+- OWASP standards for [Cloud Providers](https://owasp.org/www-pdf-archive/Cloud-Top10-Security-Risks.pdf) (PDF) and [Application Security Verification Standard (ASVS)](/getting-started/glossary/#application-security-verification-standard-asvs)
 
-The Cobalt team of pentesters do not need access to the underlying web application
-source code, unless you specify it as a requirement.
-
-We follow an industry standard methodology primarily based on the OWASP ASVS
-Testing Guide. Our team takes the following steps to ensure full coverage:
-
-- Target scope reconnaissance
-- Component enumeration
-  - Based on automated component discovery
-- Automated component configuration assessment
-  - Detail risks, based on Center for Internet Security (CIS) best practices
-- Automated / manual review of externally exposed services
-  - Basic vulnerability assessments
-- Architectural design analysis
-- Reporting, triaging, and retesting
-
-![Cloud pentest flow](/gsg/CloudPentest.png)
+![Cloud configuration review process](/methodologies/cloud-configuration-review-process.png "Cloud configuration review process")
 
 In general, the cloud providers that we work with no longer need to know before
 we perform our pentests. However, each cloud provider may have their own procedure.
@@ -61,8 +43,7 @@ We've included links to procedures that we know of in the section for each provi
 ### Source IP Addresses
 
 Cloud providers may need to include IP addresses associated with pentest traffic in
-their [allowlist](/getting-started/glossary/#allowlist). We'll share these addresses when you
-create an actual pentest.
+their [allowlist](/getting-started/glossary/#allowlist). We'll share these addresses when you create an actual pentest.
 
 ### Testing Parameters
 

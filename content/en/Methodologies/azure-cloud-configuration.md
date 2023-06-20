@@ -13,43 +13,41 @@ Microsoft Azure cloud-based configuration review is an exercise in which Cobalt 
 We follow an industry-standard methodology primarily based on:
 
 - [Microsoft security best practices](https://learn.microsoft.com/en-us/azure/security/fundamentals/best-practices-and-patterns)
-- Additional testing guidelines, such as the [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard/)
+{{% cloud-security-guidelines %}}
 
-We also leverage the [Penetration Testing Rules of Engagement](https://www.microsoft.com/en-us/msrc/pentest-rules-of-engagement) by Microsoft to avoid causing downtime on your systems.
+We also follow the [Penetration Testing Rules of Engagement](https://www.microsoft.com/en-us/msrc/pentest-rules-of-engagement) by Microsoft to avoid causing downtime on your systems.
 
 ![Microsoft Azure cloud configuration review process](/methodologies/cloud-configuration-review-process.png "Microsoft Azure cloud configuration review process")
 
-Review of a cloud configuration includes the following stages:
-
-- [Target scope reconnaissance](#target-scope-reconnaissance)
-- [Component enumeration](#component-enumeration)
-- [Automated component configuration assessment](#automated-component-configuration-assessment)
-- [Automated and manual assessment of externally exposed services](#automated-and-manual-assessment-of-externally-exposed-services)
-- [Architectural design analysis](#architectural-design-analysis)
-- [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
+{{% cloud-stages-toc %}}
 
 ## Prerequisites
 
-Our pentesters need access to test your Azure systems. To that end, you should prepare:
+Our pentesters need access to test your Azure systems. Prepare the following:
 
 - A dedicated Azure account for each pentester, with access to each target system.
-  - Identity and Access Management (IAM) API credentials (read-only) for each dedicated account.
+- Read-only Identity and Access Management (IAM) API credentials for each dedicated account.
 
 ## Target Scope Reconnaissance
 
+{{% cloud-recon %}}
 
 ## Component Enumeration
 
+{{% cloud-component-enumeration %}}
+  - Azure Cloud Storage
 
 ## Automated Component Configuration Assessment
 
+{{% cloud-component-assessment %}}
 
 ## Automated and Manual Assessment of Externally Exposed Services
 
+{{% cloud-external-services %}}
 
 ## Architectural Design Analysis
 
-
+{{% cloud-architect-design %}}
 
 ## Reporting, Triaging, and Retesting
 
@@ -57,7 +55,7 @@ Our pentesters need access to test your Azure systems. To that end, you should p
 
 ## Tools
 
-During testing, pentesters use multiple testing tools, such as:
+During the assessment, pentesters use multiple testing tools, such as:
 
 - [Scout Suite](https://github.com/nccgroup/ScoutSuite): Cloud security auditing tool
 - [Other tools for Microsoft Azure](https://github.com/kmcquade/awesome-azure-security)
