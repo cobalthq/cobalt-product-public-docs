@@ -19,7 +19,7 @@ Cobalt pentesters can perform cloud configuration reviews for the following clou
 
 ## Methodology Overview
 
-Cobalt assesses your selected cloud environment, as well as all internal and external components. We follow an industry standard methodology primarily based on:
+Cobalt assesses your selected cloud environment, as well as all internal and external components. We follow an industry-standard methodology primarily based on:
 
 - Security best practices of specific cloud providers
 - OWASP standards for [Cloud Providers](https://owasp.org/www-pdf-archive/Cloud-Top10-Security-Risks.pdf) (PDF) and [Application Security Verification Standard (ASVS)](/getting-started/glossary/#application-security-verification-standard-asvs)
