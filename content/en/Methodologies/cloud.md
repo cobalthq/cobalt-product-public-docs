@@ -22,7 +22,7 @@ Cobalt pentesters can perform cloud configuration reviews for the following clou
 Cobalt assesses your selected cloud environment, as well as all internal and external components. We follow an industry-standard methodology primarily based on:
 
 - Security best practices of specific cloud providers
-- OWASP standards for [Cloud Providers](https://owasp.org/www-pdf-archive/Cloud-Top10-Security-Risks.pdf) (PDF) and [Application Security Verification Standard (ASVS)](/getting-started/glossary/#application-security-verification-standard-asvs)
+{{% cloud-security-guidelines %}}
 
 ![Cloud configuration review process](/methodologies/cloud-configuration-review-process.png "Cloud configuration review process")
 
@@ -36,10 +36,10 @@ Your cloud provider may require additional information:
   - Emergency contact information
 
 {{% alert title="Note" color="primary" %}}
-Cloud providers may require notification before we perform a pentest. For more information, consult the documentation for your cloud provider.
+Cloud providers may require notification before we perform a pentest. For more information, consult the documentation of your cloud provider.
 {{% /alert %}}
 
-## Cloud Configuration Review or Cloud Network Pentest?
+## Cloud Configuration Review or External Cloud Network Pentest?
 
 When you plan to test the security of your cloud environment (AWS, GCP, or Azure), you may not know **which methodology to choose**. You can look at pentesting cloud infrastructure environments from two perspectives:
 
@@ -66,7 +66,7 @@ Cloud configuration reviews are specific to Infrastructure as a service (IaaS) p
 - [Google Cloud Platform (GCP)](/methodologies/gcp-cloud-configuration/)
 - [Microsoft Azure](/methodologies/azure-cloud-configuration/)
 
-Pentesters assess your cloud environment, including its internal and external components. The key stages of the assessment are:
+Pentesters assess your cloud environment, as well as all internal and external components. The key stages of the assessment are:
 
 - Component discovery and enumeration
 - Component configuration assessment

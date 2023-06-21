@@ -25,8 +25,8 @@ We also follow the [Penetration Testing Rules of Engagement](https://www.microso
 
 Our pentesters need access to test your Azure systems. Prepare the following:
 
-- A dedicated Azure account for each pentester, with access to each target system.
-- Read-only Identity and Access Management (IAM) API credentials for each dedicated account.
+- A dedicated Azure account for each pentester, with access to each target system
+- Read-only Identity and Access Management (IAM) API credentials for each dedicated account
 
 ## Target Scope Reconnaissance
 
