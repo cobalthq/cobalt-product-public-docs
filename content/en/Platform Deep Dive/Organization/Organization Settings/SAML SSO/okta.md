@@ -8,7 +8,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-This guide is for Organization Owners who configure SAML with Okta as an identity provider (IdP) using the **[gallery Cobalt SAML app](https://www.okta.com/integrations/cobalt/)**.
+This guide is for Organization Owners who configure SAML with Okta as an identity provider (IdP) using the [gallery Cobalt SAML app](https://www.okta.com/integrations/cobalt/).
 
 If you want to [create a non-gallery application for Okta](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml) manually, see [how to set up the configuration](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
 {{% /pageinfo %}}
