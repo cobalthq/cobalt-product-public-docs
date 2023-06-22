@@ -173,7 +173,7 @@ You can see the final number of required credits when the pentest is Planned, af
 
 Select where you want to collaborate with Cobalt Staff and pentesters:
 
-- Cobalt chat
+- Cobalt Chat
 - Slack
 
 You can change your preference until the pentest is Planned. Learn more about [collaborating on a pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/).
