@@ -19,12 +19,7 @@ We follow an industry-standard methodology primarily based on the [Open Source S
 
 Penetration testing of an external network includes the following stages:
 
-- [Target scope reconnaissance](#target-scope-reconnaissance)
-- [Service discovery](#service-discovery)
-- [Vulnerability scans](#vulnerability-scans)
-- [Manual assessment](#manual-assessment)
-- [Additional testing](#additional-testing)
-- [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
+{{% network-stages-toc %}}
 
 When testing Microsoft Office 365 instances, pentesters look into data security and encryption and verify access controls, in addition to testing the network that is hosting the services that are in scope.
 
@@ -42,12 +37,12 @@ When testing Microsoft Office 365 instances, pentesters look into data security 
 
 ### Tools
 
-During this phase, pentesters use multiple reconnaissance scanning tools, such as:
+During this testing phase, pentesters use multiple tools, such as:
 
 - Nmap
 - DirBuster
 - Shodan
-- Censys.io
+- Censys
 
 With these tools, pentesters can find:
 
@@ -58,7 +53,7 @@ With these tools, pentesters can find:
 - Printers
 - Other devices connected to the internet
 
-With this information, our pentesters can identify potential weaknesses, including:
+With this information, our pentesters can identify potential weaknesses, such as:
 
 - Accidental leaks of sensitive information
 - Open network ports
@@ -74,7 +69,7 @@ With this information, our pentesters can identify potential weaknesses, includi
 - [Further investigation](#further-investigation)
 
 {{% alert title="Tools" color="primary" %}}
-During this phase, pentesters use multiple service discovery tools, such as:
+During this testing phase, pentesters use multiple tools, such as:
 
 - Nmap
 - Aquatone
@@ -86,7 +81,7 @@ During this phase, pentesters use multiple service discovery tools, such as:
 
 ### Port Scans
 
-Cobalt pentesters start with complete port scans on the IP address ranges for your asset. From this information, our pentesters can identify public-facing machines and resources, along with their functionality.
+Pentesters perform a complete port scan on the IP address ranges for your asset. From this information, pentesters can identify public-facing machines and resources, along with their functionality.
 
 For example, the following services require access to the outside world to function:
 
@@ -95,7 +90,6 @@ For example, the following services require access to the outside world to funct
 - Office 365 servers
 - Web servers
 - FTP servers
-- More
 
 All of these services leave characteristic signatures that a port scan can detect.
 
@@ -108,8 +102,17 @@ All of these services leave characteristic signatures that a port scan can detec
 Cobalt pentesters follow up by identifying vulnerabilities in the external-facing portion of the network. Their goal is to penetrate external endpoints and gain access to the internal LAN and the organization's resources.
 
 {{% network-vuln-scan-problems %}}
-- Defacing of the website. Attackers may even substitute their own version of the website where current or potential customers sign in.
-  - The organization could lose credibility or even potential customers.
+- Defacing of the website. Attackers may substitute their own version of the website where current or potential customers sign in. The organization could lose credibility or potential customers.
+
+{{% alert title="Tools" color="primary" %}}
+During this testing phase, pentesters use multiple tools, such as:
+
+- Metasploit
+- Nessus
+- Nmap
+- Burp Suite Community/Professional
+- Nikto
+{{% /alert %}}
 
 ## Manual Assessment
 
@@ -130,7 +133,7 @@ Cobalt pentesters follow up by identifying vulnerabilities in the external-facin
 - [Ensuring the security of legacy protocols](#ensuring-the-security-of-legacy-protocols)
 
 {{% alert title="Tools" color="primary" %}}
-During this phase, pentesters use manual testing and exploitation tools, such as:
+During this testing phase, pentesters use multiple tools, such as:
 
 - Burp Suite Community/Professional
 - Metasploit
@@ -142,10 +145,10 @@ During this phase, pentesters use manual testing and exploitation tools, such as
 
 For organizations to use the internet, their network users need the ability to query DNS servers. Some organizations have their own DNS server, and some rely on external DNS servers. If an organization's internal DNS server fails, this could cause their internet connection to go down.
 
-Attackers can also obtain internal knowledge from a DNS server, such as:
+Attackers may also obtain internal knowledge from a DNS server, such as:
 
 - How the domain sends and receives email
-- Its website locations
+- Website locations
 
 Let's look at an example of a serious DNS configuration error that may occur. When an organization allows unknown internet users to perform a DNS zone transfer, an attacker may get access to valuable information about the network.
 
@@ -161,8 +164,7 @@ Let's look at an example of a serious DNS configuration error that may occur. Wh
 
 Web servers are vulnerable to defacement attacks, or could be used as a launching pad for further attacks against internal networks.
 
-Cobalt pentesters scan all web servers (client side) for potential exploits and vulnerabilities that could leave the door open for a potential
-attacker, such as:
+Cobalt pentesters scan all web servers (client side) for potential exploits and vulnerabilities, such as:
 
 - Poor patching policy
 - Default installation
@@ -185,7 +187,7 @@ Older versions have lower security thresholds and leave data vulnerable. Accordi
 
 ### Ensuring the Security of Legacy Protocols
 
-Cobalt pentesters can test legacy protocols such as POP3, IMAP, and SMTP for known vulnerabilities. They check if the use of these protocols is secured against documented security flaws.
+Cobalt pentesters can test legacy protocols such as POP3, IMAP, and SMTP for known vulnerabilities. They verify if the use of these protocols is secured against documented security flaws.
 
 ## Additional Testing
 
