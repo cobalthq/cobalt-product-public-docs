@@ -1,0 +1,6 @@
+- [Target scope reconnaissance](#target-scope-reconnaissance)
+- [Service discovery](#service-discovery)
+- [Vulnerability scans](#vulnerability-scans)
+- [Manual assessment](#manual-assessment)
+- [Additional testing](#additional-testing)
+- [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
