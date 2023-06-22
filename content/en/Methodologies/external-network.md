@@ -37,7 +37,7 @@ When testing Microsoft Office 365 instances, pentesters look into data security 
 
 ### Tools
 
-During this phase, pentesters use multiple reconnaissance scanning tools, such as:
+During this testing phase, pentesters use multiple tools, such as:
 
 - Nmap
 - DirBuster
@@ -69,7 +69,7 @@ With this information, our pentesters can identify potential weaknesses, such as
 - [Further investigation](#further-investigation)
 
 {{% alert title="Tools" color="primary" %}}
-During this testing phase, pentesters use multiple service discovery tools, such as:
+During this testing phase, pentesters use multiple tools, such as:
 
 - Nmap
 - Aquatone
@@ -105,7 +105,7 @@ Cobalt pentesters follow up by identifying vulnerabilities in the external-facin
 - Defacing of the website. Attackers may even substitute their own version of the website where current or potential customers sign in. The organization could lose credibility or even potential customers.
 
 {{% alert title="Tools" color="primary" %}}
-During this testing phase, pentesters use multiple vulnerability scanning tools, such as:
+During this testing phase, pentesters use multiple tools, such as:
 
 - Metasploit
 - Nessus
@@ -133,7 +133,7 @@ During this testing phase, pentesters use multiple vulnerability scanning tools,
 - [Ensuring the security of legacy protocols](#ensuring-the-security-of-legacy-protocols)
 
 {{% alert title="Tools" color="primary" %}}
-During this testing phase, pentesters use manual testing and exploitation tools, such as:
+During this testing phase, pentesters use multiple tools, such as:
 
 - Burp Suite Community/Professional
 - Metasploit

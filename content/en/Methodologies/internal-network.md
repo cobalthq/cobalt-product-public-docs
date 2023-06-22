@@ -49,7 +49,7 @@ An attacker may have multiple avenues of exploration. Cobalt pentesters explore 
 {{% network-recon-list %}}
 
 {{% alert title="Tools" color="primary" %}}
-During this testing phase, pentesters use multiple reconnaissance scanning tools, such as:
+During this testing phase, pentesters use multiple tools, such as:
 
 - Nmap
 - Nikto
@@ -65,7 +65,7 @@ During this testing phase, pentesters use multiple reconnaissance scanning tools
 - [Further investigation](#further-investigation)
 
 {{% alert title="Tools" color="primary" %}}
-During this testing phase, pentesters use multiple service discovery tools, such as:
+During this testing phase, pentesters use multiple tools, such as:
 
 - Nmap
 - Nikto
@@ -110,7 +110,7 @@ Cobalt pentesters follow up by identifying vulnerabilities in the internal-facin
 {{% network-vuln-scan-problems %}}
 
 {{% alert title="Tools" color="primary" %}}
-During this testing phase, pentesters use multiple vulnerability scanning tools, such as:
+During this testing phase, pentesters use multiple tools, such as:
 
 - Nessus
 - Acunetix
@@ -138,7 +138,7 @@ During this testing phase, pentesters use multiple vulnerability scanning tools,
 - [Printers](#printers)
 
 {{% alert title="Tools" color="primary" %}}
-During this testing phase, pentesters use manual testing and exploitation tools, such as:
+During this testing phase, pentesters use multiple tools, such as:
 
 - Ettercap
 - Metasploit
