@@ -18,17 +18,17 @@ Before proceeding, ask your Organization Owner if SAML-based single sign-on (SSO
 Follow these instructions if you can't sign in to Cobalt because:
 
 - You have [problems with two-factor authentication (2FA)](#problems-with-two-factor-authentication):
-  - You [lost access to your authenticator](#lost-access-to-your-authenticator).
-  - [One-time codes](#one-time-codes-dont-work) don't work.
-  - ["Remember this device" option](#remember-this-device-doesnt-work) doesn't work.
-- You [forgot your password](#forgot-your-password).
-- [Your account isn't fully set up](#your-account-isnt-fully-set-up).
-- [Your email or password is invalid](#your-email-or-password-is-invalid).
-- [We don't recognize your browser](#we-dont-recognize-your-browser).
-- You have [problems with SAML SSO](#cant-sign-in-using-saml-sso).
-- You are [locked out of your account](#locked-out-of-your-account).
-- [The sign-in page doesn't load](#the-sign-in-page-doesnt-load).
-- You believe [your account was compromised](#account-was-compromised).
+  - You [lost access to your authenticator](#lost-access-to-your-authenticator)
+  - [One-time codes](#one-time-codes-dont-work) don't work
+  - ["Remember this device" option](#remember-this-device-doesnt-work) doesn't work
+- You [forgot your password](#forgot-your-password)
+- Your [account isn't fully set up](#account-isnt-fully-set-up)
+- Your [email or password is invalid](#email-or-password-is-invalid)
+- [We don't recognize your browser](#we-dont-recognize-your-browser)
+- You have [problems with SAML SSO](#cant-sign-in-using-saml-sso)
+- You're [locked out of your account](#locked-out-of-your-account)
+- [The sign-in page doesn't load](#the-sign-in-page-doesnt-load)
+- You believe [your account was compromised](#account-was-compromised)
 
 {{%expand "Here are some general tips that may help." %}}
 
@@ -41,7 +41,7 @@ Follow these instructions if you can't sign in to Cobalt because:
 
 ### Lost Access to Your Authenticator
 
-If you lost access to your authenticator and don't have a backup device, ask your [Organization Owner](/getting-started/glossary/#organization-owner) to [turn off two-factor authentication (2FA)](#turn-off-2fa-for-a-user) on your account. If you’re the only Organization Owner, contact {{% csm-support %}} for help.
+If you lost access to your authenticator and don't have a backup device, ask your [Organization Owner](/getting-started/glossary/#organization-owner) to [turn off two-factor authentication (2FA)](#turn-off-2fa-for-a-user) on your account. If you're the only Organization Owner, contact {{% csm-support %}} for help.
 
 Once your Organization Owner has turned off 2FA, you get an email notification. You can now sign in without a second authentication factor.
 
@@ -88,7 +88,18 @@ To reset your password:
 1. Enter your email address that you used to [sign in to Cobalt](/getting-started/sign-in/), and select **Reset Password**.
 1. Follow the instructions in the email you receive. Learn [how to create a strong password](/platform-deep-dive/cobalt-account/password-best-practices/).
 
-## Your Account Isn't Fully Set Up
+## Email or Password is Invalid
+
+When you sign in, you may see an error stating that your email or password is invalid.
+
+Ensure that:
+
+- Your Organization Owner has [invited](/platform-deep-dive/organization/manage-users/#invite-users) you to the Cobalt platform. You have fully set up your account in Cobalt and are signing in with the registered email address. Learn more about [setting up your account](#account-isnt-fully-set-up).
+- The password you're entering is correct. If you forgot your password, [reset](#forgot-your-password) it.
+
+If you're locked out of your account, see our [troubleshooting tips](#locked-out-of-your-account).
+
+## Account Isn't Fully Set Up
 
 To use the Cobalt platform, you need to fully set up your account.
 
@@ -99,21 +110,9 @@ To use the Cobalt platform, you need to fully set up your account.
 Possible problems:
 
 - If you're not receiving emails from Cobalt, see our [troubleshooting tips](/platform-deep-dive/collaboration/manage-notifications/#troubleshoot-email-notifications).
-- If the invitation link in the email has expired, ask your Organization Owner to invite you to the organization once again.
+- If the invitation link in the email has expired, ask your Organization Owner to invite you once again.
   - If you're an Organization Owner: To resend an invitation to a user, [remove them from your organization](/platform-deep-dive/organization/manage-users/#remove-users), and then [invite](/platform-deep-dive/organization/manage-users/#invite-users) them again.
   - If you're the only Organization Owner in your organization: To get help, contact your Customer Success Manager (CSM) or support@cobalt.io.
-
-## Your Email or Password is Invalid
-
-When you sign in, you may see an error stating that your email or password is invalid.
-
-Ensure that:
-
-- You're using the correct email address that you registered with.
-- The password you're entering is correct. If you forgot your password, [reset it](#forgot-your-password).
-- You have fully set up your account in Cobalt. [Learn more](#your-account-isnt-fully-set-up).
-
-If you're locked out of your account, see our [troubleshooting tips](#locked-out-of-your-account).
 
 ## We Don't Recognize Your Browser
 
@@ -192,4 +191,5 @@ Here are the most common error messages you may see upon signing in to Cobalt.
 
 | Error | Details | Troubleshooting Steps |
 |---|---|---|
-| `You have to confirm your email address before continuing` | You haven't fully set up your account on the Cobalt platform. | Confirm your email address by clicking the link in the email invitation, and then create a password. Learn more about [setting up your account](#your-account-isnt-fully-set-up). |
+| `You have to confirm your email address before continuing` | You haven't fully set up your account on the Cobalt platform. | Confirm your email address by clicking the link in the email invitation, and then create a password. Learn more about [setting up your account](#account-isnt-fully-set-up). |
+| `Invalid email or password` | The email address or password that you're using is incorrect. | See our [troubleshooting tips](#email-or-password-is-invalid).  |
