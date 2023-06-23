@@ -106,20 +106,12 @@ To update your existing SAML configuration with Google:
 
 #### Okta
 
-<!--
-Instructions differ depending on how you've set up your Cobalt SAML app in Okta:
+Instructions differ depending on how you've set up your Cobalt SAML app in Okta. Click <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> to view instructions.
 
-- [Non-gallery app](#non-gallery-saml-app-for-cobalt)
-- [Gallery app for Cobalt](#gallery-saml-app-for-cobalt)
+{{%expand "Non-gallery SAML app" %}}
+<br>
 
-##### Non-gallery SAML App for Cobalt
-
-Learn how to update your existing SAML configuration with Okta for a non-gallery Cobalt SAML app.
--->
-
-Learn how to update your existing SAML configuration with Okta.
-
-{{%expand "Click to view instructions." %}}
+To update your existing SAML configuration with Okta for a non-gallery SAML app:
 
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - Copy the **ACS URL**.<br><br>
@@ -138,16 +130,11 @@ Learn how to update your existing SAML configuration with Okta.
     - **IdP Certificate**: Enter the **Signing Certificate** from Okta.
     - Select **Save Configuration**.
 {{% /expand %}}
+
+{{%expand "Gallery SAML app for Cobalt" %}}
 <br>
 
-If you want to set up a new application, follow this [instruction](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
-
-<!--
-##### Gallery SAML App for Cobalt
-
-Learn how to update your existing SAML configuration with Okta for a [gallery Cobalt SAML app](https://www.okta.com/integrations/cobalt/).
-
-{{%expand "Click to view instructions." %}}
+To update your existing SAML configuration with Okta for a [gallery SAML app for Cobalt](https://www.okta.com/integrations/cobalt/):
 
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - Copy the organization's **slug** that appears after `=` in the ACS URL. You can also see the slug in **Settings** > **General**.<br><br>
@@ -168,7 +155,9 @@ Learn how to update your existing SAML configuration with Okta for a [gallery Co
     - Select **Save Configuration**.<br><br>
     ![Update your SAML configuration in a gallery Cobalt SAML app](/deepdive/Cobalt-configuration-for-Okta-preintegrated-app-2.png "Update your SAML configuration in a gallery Cobalt SAML app")
 {{% /expand %}}
--->
+<br>
+
+If you want to set up a new application, follow this [instruction](/platform-deep-dive/organization/organization-settings/saml-sso/#okta).
 
 #### OneLogin
 
