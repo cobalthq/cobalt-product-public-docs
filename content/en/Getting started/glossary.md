@@ -489,6 +489,12 @@ SAML is an XML-based framework for communicating user authentication, entitlemen
 
 As [defined](https://csrc.nist.gov/glossary/term/security_audit) by NIST, an independent review and examination of a system’s records and activities to determine the adequacy of system controls, ensure compliance with established security policy and procedures, detect breaches in security services, and recommend any changes that are indicated for countermeasures.
 
+## Sender Policy Framework
+
+Sender Policy Framework (SPF) is an email authentication method.
+
+An **SPF record** is a type of record that a domain owner uses to specify which mail servers are authorized to send email on behalf of their domain.
+
 ## SANS Institute
 
 Original sponsor of a set of standards for testing networks. SANS stands for SysAdmin, Audit,
