@@ -18,7 +18,7 @@ results. Here's what you can expect:
 1. We'll select the best available pentesters before the start of the pentest. The time we need
    depends on your {{% ptaas-tier %}} and any [additional requests](/getting-started/review-pentest/#additional-requests) you have.
 1. Once our pentesters start the pentest, they'll update you on their progress. Depending on the [collaboration platform](/platform-deep-dive/collaboration/collaborate-on-pentests/) you selected, you can communicate in:
-   - [Cobalt Chat](/platform-deep-dive/collaboration/collaborate-on-pentests/#collaborate-in-cobalt-chat); or
+   - [Cobalt Chat](/platform-deep-dive/collaboration/collaborate-on-pentests/#collaborate-through-cobalt-chat); or
    - [Slack channel](/platform-deep-dive/collaboration/collaborate-on-pentests/#use-slack-for-communication) dedicated for your pentest.
 1. You may get questions from your pentesters. You can also elaborate
    on your requirements for the pentest.
