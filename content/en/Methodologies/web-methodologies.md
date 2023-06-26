@@ -13,13 +13,9 @@ aliases:
 Web application penetration testing is a process in which a tester uses simulated attacks to identify potential security vulnerabilities in a web application.
 {{% /pageinfo %}}
 
-## Methodology Details
+We follow an industry-standard methodology primarily based on the OWASP Application Security Verification Standard (ASVS) and Testing Guide. In support, we use a number of manual and automated tools, described in the following steps, to ensure full coverage.
 
-We follow an industry-standard methodology primarily based on the OWASP Application Security
-Verification Standard (ASVS) and Testing Guide. In support, we use a number of manual and automated
-tools, described in the following steps, to ensure full coverage.
-
-![Web application penetration testing methodology process](/methodologies/Web-application-penetration-test-methodology-process.png "Web application penetration testing methodology process")
+![Web application penetration testing methodology process](/methodologies/web-app-pentest-methodology-process.png "Web application penetration testing methodology process")
 
 Penetration testing of a web application includes the following stages:
 
@@ -29,22 +25,22 @@ Penetration testing of a web application includes the following stages:
 - [Authenticated vulnerability scanning / Manual crawling](#authenticated-vulnerability-scanning--manual-crawling)
 - [Manual web vulnerability tests / exploit reviews / microservices](#manual-web-vulnerability-tests--exploit-reviews--microservices)
 - [Ongoing assessments](#ongoing-assessments)
-- [Report, triage, and retest](#report-triage-and-retest)
+- [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
 
-The Cobalt team of pentesters do not need access to the underlying web application source code,
-unless you specify it as a requirement.
+{{% alert title="Note" color="primary" %}}
+{{% various-tools %}}
+{{% /alert %}}
 
-We look at application logic by working with your app.
+Cobalt pentesters do not need access to the source code of your application, unless you specify it as a requirement. We look at the application logic by working with your app.
 
-Tests of a Web asset include tests of APIs used to populate content on that asset. If you
-have additional APIs, you may consider setting up:
+Tests of a Web asset include tests of APIs used to populate content on that asset. If you have additional APIs, you may consider setting up:
 
 - A combined Web + API test
 - A separate test for APIs
 
-### Target Scope Reconnaissance
+## Target Scope Reconnaissance
 
-Based on the Pentest Brief prepared by the client, Cobalt pentesters search for
+Based on the pentest brief prepared by the client, Cobalt pentesters search for
 information about the targets and investigate the scope. This information
 includes:
 
@@ -57,15 +53,17 @@ Pentesters then confirm that they can:
 - Reach and scan the targets
 - Test the functionality of the application
 
-Our pentesters may use reconnaissance scanning tools such as:
+{{% alert title="Tools" color="primary" %}}
+Cobalt pentesters may use reconnaissance scanning tools such as:
 
 - Recon-ng
 - Dnscan
 - Dirble
 - Aquatone
 - Masscan
+{{% /alert %}}
 
-### Business and application logic mapping
+## Business and Application Logic Mapping
 
 Pentesters manually examine the target applications to map:
 
@@ -80,13 +78,15 @@ tests, which determines:
 - How well these controls are enforced
 - How an attacker can bypass these controls
 
-Our pentesters may use application logic analysis tools such as:
+{{% alert title="Tools" color="primary" %}}
+Cobalt pentesters may use application logic analysis tools such as:
 
 - Burp Suite Pro/Community
 - Postman
 - OWASP Zed Attack Proxy
+{{% /alert %}}
 
-### Automated Web Crawling and Web Scanner Configuration Tweakings
+## Automated Web Crawling and Web Scanner Configuration Tweakings
 
 Our pentesters use both commercial and freeware security tools to assess the targeted
 application. They'll modify these tools as needed, to make sure that scanning can find
@@ -97,13 +97,15 @@ In addition, our pentesters run automated crawls to:
 - Identify any pages are available to unauthenticated users
 - Determine the full site tree
 
-Our pentesters may use web crawling and scanning tools such as:
+{{% alert title="Tools" color="primary" %}}
+Cobalt pentesters may use web crawling and scanning tools such as:
 
 - Nmap
 - Burp Suite Pro/Community
 - Nikto
+{{% /alert %}}
 
-### Authenticated Vulnerability Scanning / Manual Crawling
+## Authenticated Vulnerability Scanning / Manual Crawling
 
 In this part of the pentest process, our pentesters:
 
@@ -117,13 +119,16 @@ With automated scanning, our pentesters:
 - Assess the application using the authenticated sessions where applicable
 
 Our pentesters use extreme caution to minimize impact on the targeted system.
-They may use vulnerability scanning tools such as:
+
+{{% alert title="Tools" color="primary" %}}
+Cobalt pentesters may use vulnerability scanning tools such as:
 
 - WPScan
 - Burp Suite Pro/Community
 - sqlmap
+{{% /alert %}}
 
-### Manual Web Vulnerability Tests / Exploit Reviews / Microservices
+## Manual Web Vulnerability Tests / Exploit Reviews / Microservices
 
 Cobalt pentesters use tool-assisted manual tests to identify and analyze the
 following parts of the app for vulnerabilities:
@@ -167,14 +172,16 @@ For each finding, pentesters determine the risk associated with each issue by:
   - Demonstrate the presence of the vulnerability
   - Minimize potential adverse impact to the application, its data, and its underlying systems
 
-Our pentesters use multiple testing and exploitation tools such as:
+{{% alert title="Tools" color="primary" %}}
+Cobalt pentesters use multiple testing and exploitation tools, such as:
 
 - Burp Suite Pro/Community
 - OWASP ZAP
 - Dirble
 - Nuclei
+{{% /alert %}}
 
-### Ongoing Assessments
+## Ongoing Assessments
 
 Our pentesters report their findings, in real time, through the Cobalt platform.
 They also:
@@ -184,10 +191,6 @@ They also:
 
 You're welcome to communicate with our pentesters for each of their findings.
 
-### Report, Triage, and Retest
+## Reporting, Triaging, and Retesting
 
 {{% report-triage-retest %}}
-
-## Additional Requirements
-
-{{% additional-requirements %}}

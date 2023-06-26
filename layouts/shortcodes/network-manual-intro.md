@@ -1,0 +1,1 @@
+During manual assessment, Cobalt pentesters examine specific resources that they identified. In most cases, pentesters focus on visibly open services:

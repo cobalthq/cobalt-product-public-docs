@@ -1,0 +1,6 @@
+- Web servers
+- FTP servers
+- Email servers
+- Firewalls
+- Routers
+- DNS servers

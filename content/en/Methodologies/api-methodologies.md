@@ -187,7 +187,7 @@ You're welcome to communicate with our pentesters for each of their findings.
 
 {{% /expand %}}
 
-{{% expand "Report, triage, and retest" %}}
+{{% expand "Reporting, triaging, and retesting" %}}
 </br>
 
 {{% report-triage-retest %}}

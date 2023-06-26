@@ -1,7 +1,8 @@
 ---
 title: "Create or Modify an Asset"
 linkTitle: "Create/Modify an Asset"
-weight: 110
+weight: 140
+aliases: /apiusecases/create_asset/
 description: >
   Run this sequence of REST calls to create an asset.
 ---
@@ -25,76 +26,11 @@ our API.
 To create or modify an asset with our API, follow the sequence of commands shown
 on this page.
 
-## Create an API Token in the Cobalt UI
+## What You Need
 
-1. Navigate to https://app.cobalt.io/settings/api-tokens.
-1. If needed, sign in to the app.
-1. Enter an API Token Name.
-1. Select Generate New Token.
-1. In the modal that appears, you should see your API Token, in the **Secret
-   Token** text box.
-
-Save the API Token. After you close the overlay, you won't see the full token again.
-If you lose it, you may have to revoke the token and start over.
-
-<!-- Note: I've set up variables for `api-token` and `org-token`. Find them in
-the repo in the layouts-shortcodes sub-directory. -->
-
-Substitute the API token for `{{% api-token %}}` in the REST calls
-described on this page.
-
-## Use the API Token to Authorize Access 
-
-Next, you can use the API Token to authorize access to the Cobalt API. Take
-the API Token that you [generated](#create-an-api-token-in-the-cobalt-ui). Substitute that value for `{{% api-token %}}`:
-
-```bash
-curl https://api.cobalt.io/orgs \
-     -H "Accept: application/vnd.cobalt.v2+json" \
-     -H "Authorization: Bearer {{% api-token %}}" \
-     | jq .
-```
-
-{{%expand "Review sample output." %}}
-You should see output similar to:
-
-```json
-{
-  "pagination": {
-    "next_page": null,
-    "prev_page": null
-  },
-  "data": [
-    {
-      "resource": {
-        "id": "some_id",
-        "name": "Name of your organization",
-        "token": "{{% org-token %}}"
-      },
-      "links": {
-        "ui": {
-          "url": "https://api.cobalt.io/links/not_a_jwt_token"
-        }
-      }
-    }
-  ]
-}
-```
-{{% /expand %}}
-</br>
-  
-From the output, save the value for `token` as your organization token.
-In our API documentation, you'll see this as `{{% org-token %}}`.
-
-For more information, see our API reference documentation on the
-[organizations](https://docs.cobalt.io/v2/#organizations) `orgs` endpoint.
+{{% api-what-you-need %}}
 
 ## Create an Asset
-
-Now that you have the following information:
-
-- `{{% api-token %}}`
-- `{{% org-token %}}` 
 
 You can create an [asset](/getting-started/glossary/#asset) with the following REST call:
 

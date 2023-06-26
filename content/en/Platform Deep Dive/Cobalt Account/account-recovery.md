@@ -18,15 +18,17 @@ Before proceeding, ask your Organization Owner if SAML-based single sign-on (SSO
 Follow these instructions if you can't sign in to Cobalt because:
 
 - You have [problems with two-factor authentication (2FA)](#problems-with-two-factor-authentication):
-  - You [lost access to your authenticator](#lost-access-to-your-authenticator).
-  - [One-time codes](#one-time-codes-dont-work) don't work.
-  - ["Remember this device" option](#remember-this-device-doesnt-work) doesn't work.
-- You [forgot your password](#forgot-your-password).
-- [We don't recognize your device](#we-dont-recognize-your-device).
-- You have [problems with SAML SSO](#cant-sign-in-using-saml-sso).
-- You are [locked out of your account](#locked-out-of-your-account).
-- [The sign-in page doesn't load](#the-sign-in-page-doesnt-load).
-- You believe [your account was compromised](#account-was-compromised).
+  - You [lost access to your authenticator](#lost-access-to-your-authenticator)
+  - [One-time codes](#one-time-codes-dont-work) don't work
+  - ["Remember this device" option](#remember-this-device-doesnt-work) doesn't work
+- You [forgot your password](#forgot-your-password)
+- Your [account isn't fully set up](#account-isnt-fully-set-up)
+- Your [email or password is invalid](#email-or-password-is-invalid)
+- [We don't recognize your browser](#we-dont-recognize-your-browser)
+- You have [problems with SAML SSO](#cant-sign-in-using-saml-sso)
+- You're [locked out of your account](#locked-out-of-your-account)
+- [The sign-in page doesn't load](#the-sign-in-page-doesnt-load)
+- You believe [your account was compromised](#account-was-compromised)
 
 {{%expand "Here are some general tips that may help." %}}
 
@@ -39,7 +41,7 @@ Follow these instructions if you can't sign in to Cobalt because:
 
 ### Lost Access to Your Authenticator
 
-If you lost access to your authenticator and don't have a backup device, ask your [Organization Owner](/getting-started/glossary/#organization-owner) to [turn off two-factor authentication (2FA)](#turn-off-2fa-for-a-user) on your account. If you’re the only Organization Owner, contact {{% csm-support %}} for help.
+If you lost access to your authenticator and don't have a backup device, ask your [Organization Owner](/getting-started/glossary/#organization-owner) to [turn off two-factor authentication (2FA)](#turn-off-2fa-for-a-user) on your account. If you're the only Organization Owner, contact {{% csm-support %}} for help.
 
 Once your Organization Owner has turned off 2FA, you get an email notification. You can now sign in without a second authentication factor.
 
@@ -49,7 +51,7 @@ To protect your account, [enable 2FA](/platform-deep-dive/cobalt-account/account
 
 As an [Organization Owner](/getting-started/glossary/#organization-owner), you can turn off two-factor authentication for a user. A user who needs help with 2FA should contact their Organization Owner directly.
 
-If you’re the only Organization Owner, contact {{% csm-support %}} for help.
+If you're the only Organization Owner, contact {{% csm-support %}} for help.
 
 To turn off 2FA for a user:
 
@@ -86,23 +88,57 @@ To reset your password:
 1. Enter your email address that you used to [sign in to Cobalt](/getting-started/sign-in/), and select **Reset Password**.
 1. Follow the instructions in the email you receive. Learn [how to create a strong password](/platform-deep-dive/cobalt-account/password-best-practices/).
 
-## We Don't Recognize Your Device
+## Email or Password is Invalid
 
-{{% device-verification-intro %}}
+When you sign in, you may see an error stating that your email or password is invalid.
+
+Ensure that:
+
+- Your Organization Owner has [invited](/platform-deep-dive/organization/manage-users/#invite-users) you to the Cobalt platform. You have fully set up your account in Cobalt and are signing in with the registered email address. Learn more about [setting up your account](#account-isnt-fully-set-up).
+- The password you're entering is correct. If you forgot your password, [reset](#forgot-your-password) it.
+
+If you're locked out of your account, see our [troubleshooting tips](#locked-out-of-your-account).
+
+## Account Isn't Fully Set Up
+
+To use the Cobalt platform, you need to fully set up your account.
+
+1. Ask your [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) to [invite you to your organization](/platform-deep-dive/organization/manage-users/#invite-users) in Cobalt, if they haven't already done so.
+1. Confirm your email address by clicking the link in the email invitation.
+1. Create a password.
+
+Possible problems:
+
+- If you're not receiving emails from Cobalt, see our [troubleshooting tips](/platform-deep-dive/collaboration/manage-notifications/#troubleshoot-email-notifications).
+- If the invitation link in the email has expired, ask your Organization Owner to invite you once again.
+  - If you're an Organization Owner: To resend an invitation to a user, [remove them from your organization](/platform-deep-dive/organization/manage-users/#remove-users), and then [invite](/platform-deep-dive/organization/manage-users/#invite-users) them again.
+  - If you're the only Organization Owner in your organization: To get help, contact your Customer Success Manager (CSM) or support@cobalt.io.
+
+## We Don't Recognize Your Browser
+
+{{% browser-verification-intro %}}
 
 When you see the **Verify It's You** message upon signing in, do the following:
 
 1. Check your email that you used to sign in to Cobalt.
-1. In the email prompting you to verify your device, double-check the details of your last sign-in attempt, and select **Verify Device**.
+1. In the email prompting you to verify your browser, double-check the details of your last sign-in attempt, and select **Verify Browser**.
     - If you don't recognize this sign-in attempt, do the following:
        - Contact {{% csm-support %}}. {{% compromised-account-action %}}
        - [Change your password](/platform-deep-dive/cobalt-account/account-settings/#change-your-password), and [reset two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#reset-two-factor-authentication).
-    - Make sure to verify your device before the link in the email expires.
-1. We save the device information and sign you in to the Cobalt app.
-    - You get an email confirming that we verified your new device.
-    - Next time you sign in from this device, you don't need to verify it again.
+    - Make sure to verify your browser before the link in the email expires.
+1. We save the browser information and sign you in to the Cobalt app.
+    - You get an email confirming that we verified your new browser.
+    - Next time you sign in from this browser, you don't need to verify it again.
 
 To enhance your account security, we recommend that you [enable two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication).
+
+**Troubleshooting tips**:
+
+- Make sure that cookies are turned on for the `cobalt.io` site in your browser. To turn on cookies, follow the instructions for your browser. Here are instructions for some popular browsers:
+  - [Google Chrome](https://support.google.com/accounts/answer/61416)
+  - [Firefox](https://support.mozilla.org/en-US/kb/websites-say-cookies-are-blocked-unblock-them)
+  - [Safari](https://support.apple.com/en-au/guide/safari/ibrw850f6c51/mac)
+- The subject line of the email we send is `[Cobalt] Verify Browser`. Search for this email in your mailbox. If you're not receiving emails from Cobalt, see our [troubleshooting tips](/platform-deep-dive/collaboration/manage-notifications/#troubleshoot-email-notifications).
 
 ## Can't Sign In Using SAML SSO
 
@@ -153,6 +189,7 @@ If you have access to your Cobalt account, do the following:
 
 Here are the most common error messages you may see upon signing in to Cobalt.
 
-| Error | Description | Troubleshooting Steps |
+| Error | Details | Troubleshooting Steps |
 |---|---|---|
-| `You have to confirm your email address before continuing` | You haven't set up your account on the Cobalt platform. | To fully set up your account: <ol><li>Confirm your email address by selecting the link in the email invitation.</li><li>Create a password.</li></ol><p>Check your spam folder and filters for a welcome email from Cobalt.</p><p>If the invitation link in the email has expired, ask your [Organization Owner](/getting-started/glossary/#organization-owner) to invite you to the organization once again.</p><ul><li>**If you're an Organization Owner**: To resend an invitation to a user, [remove them from your organization](/platform-deep-dive/organization/manage-users/#remove-users), and then [invite](/platform-deep-dive/organization/manage-users/#invite-users) them again.</li><li>**If you're the only Organization Owner in your organization**: To get help, contact {{% csm-support %}}.</li></ul> |
+| `You have to confirm your email address before continuing` | You haven't fully set up your account on the Cobalt platform. | Confirm your email address by clicking the link in the email invitation, and then create a password. Learn more about [setting up your account](#account-isnt-fully-set-up). |
+| `Invalid email or password` | The email address or password that you're using is incorrect. | See our [troubleshooting tips](#email-or-password-is-invalid).  |
