@@ -1,1 +1,0 @@
-A Pentest Team Member is a customer (organization) representative during a specific pentest. In the UI, you see this role as “Team Member.”

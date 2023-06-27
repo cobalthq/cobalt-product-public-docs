@@ -31,7 +31,7 @@ For more information on the listed features, visit the [Okta Glossary](https://h
 
 ## Configuration Steps
 
-1. Sign in to Cobalt, and go to **Settings** > **Identity & Access**. You should have an [Organization Owner](/getting-started/glossary/#organization-owner) role.
+1. Sign in to Cobalt, and go to **Settings** > **Identity & Access**. You should have an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) role.
 1. Under **Configure SAML**, click **Configure**. An overlay for configuring SAML opens.<br><br>
     ![SAML SSO configuration overlay in the Cobalt app](/deepdive/configure-SAML-overlay.png "SAML SSO configuration overlay in the Cobalt app")
 1. In Cobalt, enter the following values from Okta. In the Okta Admin Dashboard, select the **Sign On** tab for the Cobalt SAML app, then click **Edit**. Under **Metadata details**, click **More details**.

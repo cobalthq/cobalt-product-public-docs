@@ -1,3 +1,3 @@
-- [Organization Owner](/getting-started/glossary/#organization-owner)
-- [Organization Member](/getting-started/glossary/#organization-member)
-- [Pentest Team Member](/getting-started/glossary/#pentest-team-member)
+- [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner)
+- [Organization Member](/platform-deep-dive/collaboration/user-roles/#organization-member)
+- [Pentest Team Member](/platform-deep-dive/collaboration/user-roles/#pentest-team-member)

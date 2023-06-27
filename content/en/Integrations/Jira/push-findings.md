@@ -12,7 +12,7 @@ Learn how auto-push works and how to push findings to Jira manually.
 
 ## How Auto-Push Works
 
-Once an [Organization Owner](/getting-started/glossary/#organization-owner) or [Member](/getting-started/glossary/#organization-member) has enabled the Jira integration on a pentest, findings start to automatically synchronize with the selected Jira project. The **Auto-Push** option is enabled by default.
+Once an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](/platform-deep-dive/collaboration/user-roles/#organization-member) has enabled the Jira integration on a pentest, findings start to automatically synchronize with the selected Jira project. The **Auto-Push** option is enabled by default.
 
 Here's how auto-push works:
 
@@ -25,7 +25,7 @@ Here's how auto-push works:
 
 ### Turn Auto-Push on or Off
 
-As an [Organization Owner](/getting-started/glossary/#organization-owner) or [Member](/getting-started/glossary/#organization-member), you can turn auto-push on or off for specific pentests as needed.
+As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](/platform-deep-dive/collaboration/user-roles/#organization-member), you can turn auto-push on or off for specific pentests as needed.
 
 1. In Cobalt, go to **Integrations** > **Jira** > **Configuration**.
 1. For the desired pentest, turn the **Auto-Push** toggle on or off.<br><br>
@@ -35,7 +35,7 @@ When auto-push is turned off, Jira issue statuses are still synchronized with Co
 
 ## Push Findings Manually
 
-As a [Pentest Team Member](/getting-started/glossary/#pentest-team-member), you can push findings to Jira manually—if they're not already synchronized. This may be needed if:
+As a [Pentest Team Member](/platform-deep-dive/collaboration/user-roles/#pentest-team-member), you can push findings to Jira manually—if they're not already synchronized. This may be needed if:
 
 - [Auto-push](#how-auto-push-works) is turned off on a pentest; or
 - The [finding state](/platform-deep-dive/pentests/findings/finding-states/) is other than Pending Fix, even though auto-push is enabled. If you want to push findings in other states, you can do it manually.

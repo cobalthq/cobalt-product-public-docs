@@ -12,7 +12,7 @@ Synchronize Cobalt [findings](/platform-deep-dive/pentests/findings/) with Jira 
 
 ## Overview
 
-As an [Organization Owner](/getting-started/glossary/#organization-owner) or [Member](/getting-started/glossary/#organization-member), you can integrate Jira with Cobalt to streamline your workflows. With this integration, you can:
+As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](/platform-deep-dive/collaboration/user-roles/#organization-member), you can integrate Jira with Cobalt to streamline your workflows. With this integration, you can:
 
 - **Push Cobalt findings as issues** to your Jira project.
   - The [auto-push](/integrations/jira/push-findings/#how-auto-push-works) option allows you to push findings to Jira automatically.

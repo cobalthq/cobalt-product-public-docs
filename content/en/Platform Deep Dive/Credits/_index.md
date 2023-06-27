@@ -24,7 +24,7 @@ The number of credits needed for a pentest depends on the pentest scope. For mor
 
 ## View and Track Your Credits
 
-As an [Organization Owner](/getting-started/glossary/#organization-owner) or [Member](/getting-started/glossary/#organization-member), you can [view and track credits](/platform-deep-dive/credits/track-credits/) for your organization. Navigate to the **Credits** page to see the current balance and analyze how your organization uses credits.
+As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](/platform-deep-dive/collaboration/user-roles/#organization-member), you can [view and track credits](/platform-deep-dive/credits/track-credits/) for your organization. Navigate to the **Credits** page to see the current balance and analyze how your organization uses credits.
 
 ![View credits for your organization](/deepdive/CreditsPage.png "View credits for your organization")
 

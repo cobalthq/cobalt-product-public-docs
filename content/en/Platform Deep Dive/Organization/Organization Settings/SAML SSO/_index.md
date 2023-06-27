@@ -26,7 +26,7 @@ Cobalt supports [identity provider-initiated (IdP-initiated) SSO](/getting-start
 
 ## General Configuration Workflow
 
-As an [Organization Owner](/getting-started/glossary/#organization-owner), you can configure SAML SSO for your organization with your preferred identity provider. Configuration procedures differ for each IdP. See [configuration instructions](#configuration-instructions-for-specific-identity-providers) for some popular IdPs below.
+As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner), you can configure SAML SSO for your organization with your preferred identity provider. Configuration procedures differ for each IdP. See [configuration instructions](#configuration-instructions-for-specific-identity-providers) for some popular IdPs below.
 
 Once you've enabled SSO, users can sign in to Cobalt through the configured IdP. This affects the following roles:
 
