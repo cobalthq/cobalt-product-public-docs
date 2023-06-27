@@ -7,15 +7,10 @@ description: >
 ---
 
 {{% pageinfo %}}
-Professional Services are an extension of our core [PtaaS platform](https://www.cobalt.io/ptaas) offering. Our security experts can run advanced pentest engagements for your organization, acting as an extension of your internal security team.<br><br><a class="btn btn-outline-primary rounded" href="mailto:professional_services@cobalt.io" target="_blank">Need an Advanced Pentest? Contact Us »</a>
+Professional Services are an extension of our core [PtaaS platform](https://www.cobalt.io/ptaas) offering. Our security experts can run advanced pentest engagements for your organization, acting as an extension of your internal security team.
 {{% /pageinfo %}}
 
-**In this article:**
-
-- [Pentest Engagements](#pentest-engagements)
-- [Pentest Process](#pentest-process)
-- [Asset Types](#asset-types)
-- [How to Launch a Pentest](#how-to-launch-a-pentest)
+<a class="btn btn-outline-primary rounded" href="mailto:professional_services@cobalt.io" target="_blank">Need an Advanced Pentest? Contact Us »</a>
 
 ## Pentest Engagements
 

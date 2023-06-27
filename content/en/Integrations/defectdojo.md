@@ -10,14 +10,6 @@ description: >
 Configure the integration to import Cobalt findings into the DefectDojo platform.
 {{% /pageinfo %}}
 
-In this article:
-- [Integration Overview](#integration-overview)
-- [What You Need](#what-you-need)
-- [Step 1: Add a Tool Type](#step-1-add-a-tool-type)
-- [Step 2: Add a Tool Configuration](#step-2-add-a-tool-configuration)
-- [Step 3: Add an API Scan Configuration](#step-3-add-an-api-scan-configuration)
-- [Step 4: Import Findings](#step-4-import-findings)
-
 ## Integration Overview
 
 [DefectDojo](https://github.com/DefectDojo/django-DefectDojo) is a security orchestration and vulnerability management platform. It's a free open source tool that allows you to manage your application security program and streamline your DevSecOps workflows.
@@ -28,7 +20,7 @@ You can retrieve [findings](/platform-deep-dive/pentests/findings/) data from Co
 
 To configure the integration, you need the following:
 
-- **Cobalt API token**. Learn [how to create an API token](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui).
+- **Cobalt API token**. Learn [how to create an API token](/cobalt-api/create-personal-api-token/).
 - **Cobalt organization token**. Learn [how to retrieve an organization token](https://docs.cobalt.io/v1/#organizations) using the Cobalt API v1.
   - Make sure that you use the [Cobalt API v1](https://docs.cobalt.io/v1) and not v2. This integration doesn't support organization tokens from the API v2.
 - **Asset identifier in Cobalt**. You can get an asset ID in two ways:

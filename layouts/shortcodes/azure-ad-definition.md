@@ -1,0 +1,1 @@
+Azure Active Directory (AD) is a cloud-based identity and access management solution by Microsoft.

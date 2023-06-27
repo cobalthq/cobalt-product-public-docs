@@ -1,0 +1,1 @@
+After gathering all available information, our pentesters probe the resources of the targeted organization. These tests involve several stages.

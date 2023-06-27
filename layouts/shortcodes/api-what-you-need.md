@@ -1,0 +1,2 @@
+- [Personal API token](/cobalt-api/create-personal-api-token/): `YOUR-PERSONAL-API-TOKEN`
+- [Organization token](/cobalt-api/get-organization-token/): `YOUR-V2-ORGANIZATION-TOKEN`

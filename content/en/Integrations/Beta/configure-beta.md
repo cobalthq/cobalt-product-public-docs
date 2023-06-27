@@ -22,14 +22,14 @@ To configure the integration, complete the following steps:
 1. [Connect to your Cobalt account](#step-3-connect-to-your-cobalt-account).
 1. [Authenticate to the connected app](#step-4-authenticate-to-the-connected-app).
 
-## What You'll Need
+## What You Need
 
 To complete the configuration, you need the following:
 
 - **Webhook URL**: URL that is used in the configuration to send integration events. We'll send you your webhook URL in the onboarding email.
-- **Organization Token**: Unique organization token used in API calls. We'll send you your organization token in the onboarding email.
-- **API Token**: Your personal API token required to authorize access to the Cobalt API. Learn [how to create an API token](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui).
-- **Integration Credentials**: Credentials for the connected platform.
+- **Organization token**: Unique organization token used in API calls. We'll send you your organization token in the onboarding email.
+- **API token**: Your personal API token required to authorize access to the Cobalt API. Learn [how to create an API token](/cobalt-api/create-personal-api-token/).
+- **Integration credentials**: Credentials for the connected platform.
 
 ## Step 1: Create a Webhook
 
@@ -53,7 +53,7 @@ Once you've signed in to your Workato workspace, you need to authenticate to you
 1. In your Workato workspace, under **Projects**, select **Connections**.
 1. Select **Cobalt Connection**.
 1. Enter the following:
-    - **Bearer token**: Paste the **API Token** that you created. Learn [how to create an API token](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui).
+    - **Bearer token**: Paste the **API Token** that you created. Learn [how to create an API token](/cobalt-api/create-personal-api-token/).
     - **Org token**: Paste the **Organization Token** that you received from us in the onboarding email.
 1. Select **Connect**.
 

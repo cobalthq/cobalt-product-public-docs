@@ -1,6 +1,6 @@
 ---
 title: "Best Practices for Security"
-linkTitle: "Best Practices"
+linkTitle: "Security Best Practices"
 weight: 600
 description: >
   Recommendations for developers focused on security.

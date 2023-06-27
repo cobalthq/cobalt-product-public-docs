@@ -1,5 +1,5 @@
 ---
-title: "Azure AD Penetration Testing Methodologies"
+title: "Azure Active Directory Penetration Testing Methodologies"
 linkTitle: "Azure AD Methodologies"
 weight: 220
 description: >
@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Azure Active Directory (AD) is a cloud-based identity and access management solution by Microsoft.
+{{% azure-ad-definition %}}
 
 Penetration testing of Azure AD is a process in which a tester uses simulated attacks to identify potential security vulnerabilities in the service.
 {{% /pageinfo %}}
@@ -31,7 +31,7 @@ Penetration testing of an Azure AD service includes the following stages:
 - [Enumeration](#enumeration)
 - [Lateral movement](#lateral-movement)
 - [Persistence](#persistence)
-- [Report, triage, and retest](#report-triage-and-retest)
+- [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
 
 ### Reconnaissance
 
@@ -44,10 +44,12 @@ Based on the pentest target that you provide, our pentesters can obtain the foll
 - Valid and invalid users
 - Public Azure blobs
 
+{{% alert title="Tools" color="primary" %}}
 Our pentesters may use scanning tools such as:
 
 - AADInternals
 - MicroBurst
+{{% /alert %}}
 
 ### Initial Access
 
@@ -141,7 +143,7 @@ After gaining an authorized user account with lateral movement attacks, our pent
 
 As an example, this is how the Applications and Service Principals technique works. To obtain user privileges with the Global Administrator rights on Azure AD, our pentesters first create an application with high privileges. Then they create an application with password reset privileges on the Global Administrator user.
 
-### Report, Triage, and Retest
+### Reporting, Triaging, and Retesting
 
 {{% report-triage-retest %}}
 

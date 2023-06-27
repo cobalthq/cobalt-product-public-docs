@@ -12,15 +12,6 @@ Learn how to integrate **Jira Server** or **Jira Data Center** with Cobalt. The 
 If your organization uses Jira Cloud, see [Jira Cloud Integration](/integrations/jira/jira-cloud/).
 {{% /pageinfo %}}
 
-In this article:
-
-- [Configuration](#configuration)
-  - [Step 1: Connect the Jira Plugin](#step-1-connect-the-jira-plugin)
-  - [Step 2: Configure the Integration for a Pentest](#step-2-configure-the-integration-for-a-pentest)
-- [How the Integration Works](#how-the-integration-works)
-- [Attachments Support](#attachments-support)
-- [Deactivate the Integration](#deactivate-the-integration)
-
 ## Configuration
 
 **Required permissions**:

@@ -11,14 +11,6 @@ description: >
 Cobalt supports **identity provider-initiated SAML single sign-on (SSO)**. As an Organization Owner, you can configure SAML SSO with your preferred identity provider.
 {{% /pageinfo %}}
 
-In this article:
-
-- [SAML SSO Overview](#saml-sso-overview)
-- [General Configuration Workflow](#general-configuration-workflow)
-- [Enforce SAML SSO](#enforce-saml-sso)
-- [Configuration Instructions for Specific Identity Providers](#configuration-instructions-for-specific-identity-providers)
-- [Troubleshoot Your SAML SSO Configuration](#troubleshoot-your-saml-sso-configuration)
-
 ## SAML SSO Overview
 
 {{% sso-definition %}} The Cobalt SSO service is based on the [Security Assertion Markup Language 2.0 (SAML 2.0)](/getting-started/glossary/#security-assertion-markup-language) specifications. Learn more about [SAML SSO](/getting-started/glossary/#saml-single-sign-on-sso).
@@ -198,19 +190,16 @@ To create a SAML app for Cobalt in the Google Admin console:
 
 ### Okta
 
-<!--You can set up SAML SSO with Okta in two ways:
+You can set up SAML SSO with Okta in two ways:
 
-- Use the [gallery Cobalt app](https://www.okta.com/integrations/cobalt/) in Okta. Learn [how to configure SAML using the gallery Cobalt app](/platform-deep-dive/organization/organization-settings/saml-sso/okta/).
-- _(Recommended)_ Create a non-gallery SAML app for Cobalt manually. To learn more, read Okta's [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
+- Use the **gallery SAML app for Cobalt**. Learn [how to configure SAML using the gallery app](/platform-deep-dive/organization/organization-settings/saml-sso/okta/).
+- Create a **non-gallery SAML app** for Cobalt manually. Follow the instructions below.
 
-If you create an application for Okta **manually**, use the following parameters.-->
-
-Create a **non-gallery SAML application** for Cobalt manually. For more information, refer to Okta [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
-
-Currently, the Cobalt gallery app in Okta doesn't support new SAML settings.
-
-{{%expand "Click to view instructions." %}}
+{{%expand "Click to view instructions for a non-gallery SAML app." %}}
 <br>
+
+For more information on how to create a non-gallery app, refer to the Okta [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
+
 To create a non-gallery SAML app for Cobalt in Okta:
 
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**. You will need the following values in the next steps:
@@ -285,6 +274,7 @@ To get help, contact your Customer Success Manager (CSM) or support@cobalt.io.
 | Troubleshooting Tip | Details |
 |---|---|
 | Ensure that all values match between your identity provider and Cobalt. | Mapped parameters in both setups must match. |
-| Ensure that the IdP certificate is accurate. | Copy the IdP certificate once again.<br>• Include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.<br>• Make sure there are no extra whitespaces. |
+| Ensure that the IdP certificate is accurate. | Copy the IdP certificate once again.<br>- Include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.<br>- Make sure there are no extra whitespaces. |
 | Ensure that you added users to the Cobalt platform. | We don’t support user provisioning through an IdP. When leveraging an IdP, make sure that there is an established identity for a user in Cobalt.<br>To establish an identity in Cobalt, a user needs to create a password and sign in to Cobalt. All subsequent sign-ins (after the user identity is established in Cobalt) are initiated through the organization's IdP. |
 | Assign users to the Cobalt application in the IdP system. | Add users to the new SAML application that you've set up. |
+| Try to configure the setup again in a new browser window. | There may be a problem with your current session. This may happen if:<br>- You pressed the Back button in your browser.<br>- You refreshed the page during the setup process.<br>- An issue occurred with your browser cookies.<br>- You opened too many sign-in windows. <br>- A temporary glitch has occurred.

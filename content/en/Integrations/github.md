@@ -10,14 +10,6 @@ description: >
 Learn how to set up an integration between Cobalt and GitHub (Cloud only). The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
 {{% /pageinfo %}}
 
-In this article:
-
-- [Integration Overview](#integration-overview)
-- [Configure the Integration](#configure-the-integration)
-- [Push Findings to GitHub](#push-findings-to-github)
-- [Deactivate the Integration](#deactivate-the-integration)
-- [Frequently Asked Questions](#frequently-asked-questions)
-
 ## Integration Overview
 
 [GitHub](https://github.com/) is a code hosting platform for version control and collaboration.

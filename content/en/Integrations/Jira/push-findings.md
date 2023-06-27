@@ -10,11 +10,6 @@ description: >
 Learn how auto-push works and how to push findings to Jira manually.
 {{% /pageinfo %}}
 
-In this article:
-
-- [How Auto-Push Works](#how-auto-push-works)
-- [Push Findings Manually](#push-findings-manually)
-
 ## How Auto-Push Works
 
 Once an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](/platform-deep-dive/collaboration/user-roles/#organization-member) has enabled the Jira integration on a pentest, findings start to automatically synchronize with the selected Jira project. The **Auto-Push** option is enabled by default.

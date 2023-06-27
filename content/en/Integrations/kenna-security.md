@@ -12,14 +12,6 @@ Configure the integration to import Cobalt findings into the Kenna Security plat
 You can also refer to the Kenna Security [documentation](https://github.com/KennaSecurity/toolkit/tree/main/tasks/connectors/cobaltio#readme).
 {{% /pageinfo %}}
 
-In this article:
-- [Integration Overview](#integration-overview)
-- [What You Need](#what-you-need)
-- [Step 1: Create a Kenna Security Data Importer Connector](#step-1-create-a-kenna-security-data-importer-connector)
-- [Step 2: Get the Kenna Security Toolkit Image](#step-2-get-the-kenna-security-toolkit-image)
-- [Step 3: Run the Cobalt Task](#step-3-run-the-cobalt-task)
-- [Step 4: View Imported Findings](#step-4-view-imported-findings)
-
 ## Integration Overview
 
 [Kenna Security](https://www.cisco.com/c/en/us/products/security/kenna-is-part-of-cisco.html) is a risk and vulnerability intelligence platform.
@@ -30,7 +22,7 @@ You can retrieve [findings](/platform-deep-dive/pentests/findings/) data from Co
 
 To configure the integration, you need the following:
 
-- **Cobalt API token**. Learn [how to create an API token](/apiusecases/create_asset/#create-an-api-token-in-the-cobalt-ui).
+- **Cobalt API token**. Learn [how to create an API token](/cobalt-api/create-personal-api-token/).
 - **Cobalt organization token**. Learn [how to retrieve an organization token](https://docs.cobalt.io/v1/#organizations) using the Cobalt API v1.
   - Make sure that you use the [Cobalt API v1](https://docs.cobalt.io/v1) and not v2. This integration doesn't support organization tokens from the API v2.
 - **Kenna Security API key**. Learn [how to create an API key](https://help.kennasecurity.com/hc/en-us/articles/360029111331-API-Key-Generation-and-Permissions).
