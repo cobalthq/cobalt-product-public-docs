@@ -29,6 +29,7 @@ A Pentest Team Member is a customer (organization) representative during a speci
 A Pentest Team Member **has access to a specific pentest with the following permissions**:
 
 - View and edit pentest details.
+- Manage findings for a pentest.
 - [Collaborate on a pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/) in the Cobalt app and in Slack.
 - [Manage users](/platform-deep-dive/collaboration/manage-collaborators/) for a pentest.
 - View pentest activity updates and pentester updates.
