@@ -29,22 +29,6 @@ The Cobalt Professional Services team can run the following pentest engagements:
 
 Can't find what you need? [Contact us](mailto:professional_services@cobalt.io) to plan a pentest tailored to your needs.
 
-<!--
-## Pentest Methodologies
-
-We follow pentest methodologies based on the industry best practices. Learn more about each methodology:
-
-- IoT ecosystem testing
-- Thick client application testing
-- Wireless network testing
-- Physical testing
-- Threat modeling
-- Phishing
-- Red teaming
-- Security hardening
-- Secure code review
--->
-
 ## Pentest Process
 
 ![Lifecycle of the Cobalt pentest program](/deepdive/PentestProcessFlow.png "Lifecycle of the Cobalt pentest program")
