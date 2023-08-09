@@ -12,7 +12,7 @@ description: >
 
 According to the [Unrestricted Resource Consumption](https://owasp.org/www-project-api-security/), "Lack of Resources and Rate Limiting" is number 4 in the API Security Top 10 for 2023.
 
-## Description
+## Description 
 
 Attackers are always on the lookout for vulnerable APIs. The impact goes beyond DoS (Denial of Service). For instance, the attacker can misuse a lack of rate limits to make phone calls to [premium phone numbers](https://en.wikipedia.org/wiki/Premium-rate_telephone_number). While doing so, they can easily cause a lot of financial losses to the business.
   
