@@ -1,1 +1,1 @@
-[Sign In](https://app.cobalt.io/users/sign_in)
+[Sign In](https://app.cobalt.io/)
