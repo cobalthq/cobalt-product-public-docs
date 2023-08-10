@@ -22,7 +22,7 @@ In the fourth step of the pentest wizard, you can:
 
 ## Schedule the Pentest
 
-Depending on your {{% ptaas-tier %}}, you can schedule pentests with a start date from at least one to three business days after submitting it for review.
+Depending on your {{% ptaas-tier %}}, you can schedule pentests with a start date from at least one to three business days after submitting it for review. Pentests submitted after 11 AM PST (19:00 UTC) will require an additional business day start time.
 
 If you have any [special requirements](/getting-started/review-pentest/#additional-requests), such as qualifications for pentester certifications, we reserve the right to start the pentest later than the flow time specified in your {{% ptaas-tier %}}.
 
@@ -42,7 +42,7 @@ Pentest timelines depend on the pentest type, scope, and other factors. When you
 Learn more about the [pentest types](/platform-deep-dive/pentests/pentest-types/).
 
 {{% alert title="Important" color="primary" %}}
-Pentest duration may vary depending on the pentest scope and other factors.
+Pentest duration may vary depending on the pentest scope and other factors. Pentests must be completed before your contract ends. We are unable to conduct pentesting outside of your subscription period. 
 {{% /alert %}}
 
 ## Scope the Pentest
