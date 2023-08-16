@@ -118,7 +118,7 @@ Possible problems:
 
 {{% browser-verification-intro %}}
 
-When you see the **Verify It's You** message upon signing in, do the following:
+When you see the **Verify Your Browser** message upon signing in, do the following:
 
 1. Check your email that you used to sign in to Cobalt.
 1. In the email prompting you to verify your browser, double-check the details of your last sign-in attempt, and select **Verify Browser**.
