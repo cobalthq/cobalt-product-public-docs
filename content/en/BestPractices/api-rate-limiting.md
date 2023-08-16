@@ -10,7 +10,7 @@ description: >
   To protect your APIs against abuse, you should implement rate limiting. In this article, we explore why you should prioritize it today rather than in the future.
 {{% /pageinfo %}}
 
-According to the [Unrestricted Resource Consumption](https://owasp.org/www-project-api-security/), "Lack of Resources and Rate Limiting" is number 4 in the API Security Top 10 for 2023.
+According to the [OWASP API Security Project](https://owasp.org/www-project-api-security/), "Unrestricted Resource Consumption" is number 4 in the API Security Top 10 for 2023.
 
 ## Description 
 
