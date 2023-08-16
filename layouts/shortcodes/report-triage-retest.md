@@ -1,6 +1,4 @@
-Cobalt pentesters report and triage all vulnerabilities during the assessment. You
-can review details of all [findings](/platform-deep-dive/pentests/findings/), in real time, through the Cobalt platform. In these findings, as well as in any [report](/platform-deep-dive/pentests/reports/), our pentesters include detailed
-information on how you can:
+Cobalt pentesters report and triage all vulnerabilities during the assessment. You can review details of all [findings](/platform-deep-dive/pentests/findings/), in real time, through the Cobalt platform. In these findings, as well as in any [report](/platform-deep-dive/pentests/reports/), our pentesters include detailed information on how you can:
 
 - Remediate each finding
 - Improve your overall security posture

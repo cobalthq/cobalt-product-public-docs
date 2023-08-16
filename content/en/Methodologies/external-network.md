@@ -102,7 +102,7 @@ All of these services leave characteristic signatures that a port scan can detec
 Cobalt pentesters follow up by identifying vulnerabilities in the external-facing portion of the network. Their goal is to penetrate external endpoints and gain access to the internal LAN and the organization's resources.
 
 {{% network-vuln-scan-problems %}}
-- Defacing of the website. Attackers may even substitute their own version of the website where current or potential customers sign in. The organization could lose credibility or even potential customers.
+- Defacing of the website. Attackers may substitute their own version of the website where current or potential customers sign in. The organization could lose credibility or potential customers.
 
 {{% alert title="Tools" color="primary" %}}
 During this testing phase, pentesters use multiple tools, such as:

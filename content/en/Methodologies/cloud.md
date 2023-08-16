@@ -1,128 +1,84 @@
 ---
-title: "Cloud Pentests"
-linkTitle: "Cloud Pentest Methodologies"
+title: "Cloud Configuration Review Methodologies"
+linkTitle: "Cloud Configuration Review"
 weight: 150
 description: >
-  Review methodologies for Cloud Configurations.
+  Learn how Cobalt pentesters review cloud configurations.
 aliases:
     - /getting-started/pentest-objectives/methodologies/cloud/
     - /platform-deep-dive/pentests/pentest-process/methodologies/cloud/
 ---
 
 {{% pageinfo %}}
-{{% pentest-rigor %}}
+Cobalt pentesters can perform cloud configuration reviews for the following cloud providers:
+
+- [Amazon AWS](/methodologies/amazon-aws-cloud-configuration/)
+- [Google Cloud Platform (GCP)](/methodologies/gcp-cloud-configuration/)
+- [Microsoft Azure](/methodologies/azure-cloud-configuration/)
 {{% /pageinfo %}}
 
-We support penetration testing of systems in the following cloud environments:
+## Methodology Overview
 
-- Amazon AWS
-- Google Cloud Platform (GCP)
-- Microsoft Azure
+Cobalt assesses your selected cloud environment, as well as all internal and external components. We follow an industry-standard methodology primarily based on:
 
-While we perform many of the same tests on different cloud configurations, each environment
-has unique testing requirements.
+- Security best practices of specific cloud providers
+{{% cloud-security-guidelines %}}
 
-## Cloud Network Pentest
-<!-- I cover needed content from
-https://cobaltio.zendesk.com/hc/en-us/articles/360057567991-Cloud-Configuration-Review-VS-Cloud-Network-Pentest
-here: -->
+![Cloud configuration review process](/methodologies/cloud-configuration-review-process.png "Cloud configuration review process")
 
-We test cloud assets based on the cloud pentest methodologies listed on this
-page. If you want a network pentest of your cloud asset, ask us for an [External
-Network Pentest](/methodologies/external-network/).
+Your cloud provider may require additional information:
 
-## Common Requirements
-
-Cobalt assesses your selected cloud environment, as well as all internal and external components. Cobalt
-follows an industry standard methodology primarily based on:
-
-- Best practices established by your cloud provider
-- OWASP standards for [Cloud Providers](https://owasp.org/www-pdf-archive/Cloud-Top10-Security-Risks.pdf) (PDF)
-  and [Application Security Verification Standard (ASVS)](/getting-started/glossary/#application-security-verification-standard-asvs).
-
-The Cobalt team of pentesters do not need access to the underlying web application
-source code, unless you specify it as a requirement.
-
-We follow an industry standard methodology primarily based on the OWASP ASVS
-Testing Guide. Our team takes the following steps to ensure full coverage:
-
-- Target scope reconnaissance
-- Component enumeration
-  - Based on automated component discovery
-- Automated component configuration assessment
-  - Detail risks, based on Center for Internet Security (CIS) best practices
-- Automated / manual review of externally exposed services
-  - Basic vulnerability assessments
-- Architectural design analysis
-- Reporting, triaging, and retesting
-
-![Cloud pentest flow](/gsg/CloudPentest.png)
-
-In general, the cloud providers that we work with no longer need to know before
-we perform our pentests. However, each cloud provider may have their own procedure.
-We've included links to procedures that we know of in the section for each provider.
-
-### Source IP Addresses
-
-Cloud providers may need to include IP addresses associated with pentest traffic in
-their [allowlist](/getting-started/glossary/#allowlist). We'll share these addresses when you
-create an actual pentest.
-
-### Testing Parameters
-
-When you create a pentest that involves a cloud provider, we'll share the information
-that your cloud provider may require, including:
-
-- Peak bandwidth
-- Peak queries per second
-- Escalation traffic requirements
-- Emergency contact information
-
-## Amazon AWS
-
-Our pentesters need access to test your AWS systems. To that end, you should prepare:
-
-- A dedicated AWS account for each pentester, with access to each target system.
-  - Identity and Access Management (IAM) API credentials for each affected AWS account.
-    - Include the following managed policies for the pentest user or role:
-      - `SecurityAudit`
-      - `ViewOnlyAccess`
-
-These are the required policy Amazon Resource Names (ARN):
-
-```
-arn:aws:iam::aws:policy/SecurityAudit
-arn:aws:iam::aws:policy/job-function/ViewOnlyAccess
-```
-
-You should also include the architecture of your cloud configuration.
-
-## Google Cloud Platform (GCP)
-
-Our pentesters need access to test your GCP systems. To that end, you should prepare:
-
-- A dedicated GCP account for each pentester, with access to each target system.
-  - GCP access keys.
-  - Identity and Access Management (IAM) API credentials for each affected GCP account.
-    - To provide API credentials, use a (service) account with Viewer and Security Reviewer
-      permissions.
-
-## Microsoft Azure
-
-Our pentesters need access to test your Azure systems. To that end, you should prepare:
-- A dedicated Azure account for each pentester, with access to each target system.
-  - Identity and Access Management (IAM) API credentials (read-only) for each dedicated account.
-
-## Other Cloud Providers
-
-We've done pentests on other cloud providers. You can refer to the
-[Common Requirements](#common-requirements) listed earlier.
+- **Source IP addresses**. Cloud providers may need to include IP addresses associated with pentest traffic in their [allowlist](/getting-started/glossary/#allowlist). We'll share these addresses when you create an actual pentest.
+- **Testing parameters**. When you create a pentest that involves a cloud provider, we'll share the information that your cloud provider may require, including:
+  - Peak bandwidth
+  - Peak queries per second
+  - Escalation traffic requirements
+  - Emergency contact information
 
 {{% alert title="Note" color="primary" %}}
-Cloud providers may require notification before we perform a pentest. For
-more information, consult the documentation for your cloud provider.
+Cloud providers may require notification before we perform a pentest. For more information, consult the documentation of your cloud provider.
 {{% /alert %}}
 
-## Additional Requirements
+## Cloud Configuration Review or External Cloud Network Pentest?
 
-{{% additional-requirements %}}
+When you plan to test the security of your cloud environment (AWS, GCP, or Azure), you may not know **which methodology to choose**. You can look at pentesting cloud infrastructure environments from two perspectives:
+
+- Configuration perspective:
+  - [Cloud Configuration Review](#cloud-configuration-review) methodology
+- Network perspective:
+  - [External Cloud Network Pentest](#external-cloud-network-pentest) methodology
+
+{{< alert title="Which Methodology is Right for You?" color="primary" >}}
+For PCI compliance, the [External Network Pentest Methodology](/methodologies/external-network/) is required.
+
+Cloud configuration reviews are not required by any compliance frameworks. Use this methodology when you:
+
+- Move your environment from on-premises to the cloud
+- Change your cloud provider
+- Make significant changes to your infrastructure
+{{< /alert >}}
+
+### Cloud Configuration Review
+
+Cloud configuration reviews are specific to Infrastructure as a service (IaaS) providers. Cobalt can perform reviews for the following providers:
+
+- [Amazon AWS](/methodologies/amazon-aws-cloud-configuration/)
+- [Google Cloud Platform (GCP)](/methodologies/gcp-cloud-configuration/)
+- [Microsoft Azure](/methodologies/azure-cloud-configuration/)
+
+Pentesters assess your cloud environment, as well as all internal and external components. The key stages of the assessment are:
+
+- Component discovery and enumeration
+- Component configuration assessment
+- Assessment of externally exposed services
+- Architectural design analysis
+
+### External Cloud Network Pentest
+
+When using the [External Network Penetration Testing Methodology](/methodologies/external-network/), Cobalt pentesters test your cloud network holistically. They perform:
+
+- Testing of all services provided by your cloud provider
+- Segmentation testing
+- Assessment of services provided by other vendors, such as WAF, CDN, and DNS
+
+We follow an industry-standard methodology primarily based on the [Open Source Security Testing Methodology Manual (OSSTMM)](https://www.isecom.org/OSSTMM.3.pdf).
