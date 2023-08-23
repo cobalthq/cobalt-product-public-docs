@@ -34,7 +34,7 @@ When you're done, configure the integration for specific pentests.
 
 Once you've connected the Jira plugin, configure the integration for specific pentests.
 
-1. In Cobalt, go to **Integrations** > **Jira** > **Configuration**. Here, you can see pentests for which you can configure the integration. Pentests in the Draft state are not displayed.
+1. In Cobalt, go to **Integrations** > **Jira** > **Configuration**. Here, you can see pentests for which you can configure the integration. 
 1. For the desired pentest, select the gear icon ![Gear icon](/icons/Gear.png "Gear icon").<br><br>
     ![Select a pentest for which you want to configure the Jira integration](/integrations/configure-jira-integration-for-pentest.png "Select a pentest for which you want to configure the Jira integration")
 1. In the overlay that appears, configure integration parameters:
