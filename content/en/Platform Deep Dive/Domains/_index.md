@@ -29,6 +29,8 @@ Here you can see the Domains that have already been added, and also you can add 
 
 For the Domains already added you can see the Scan status and how many Host have been discovered. You can use the side kebab menu to delete/remove Domains from the list.
 
+![List_of_domains](/deepdive/listofdomains.png "List_of_domains")
+
 Use the “Add Domain” button to add a new Domain.
 
 When entering a Domain, please confirm that the Domain is associated with your Organization.
