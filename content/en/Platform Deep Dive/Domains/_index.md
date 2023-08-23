@@ -39,14 +39,19 @@ When a Domain is added, Cobalt will start a scan searching for Hosts on the Doma
 
 Cobalt will consecutively run daily scans on all Domains in the Domains list. 
 
+![Scan a domain](/deepdive/scanadomain.png "Scan a Domain")
+
 When the scan has been completed, typically after a few minutes, you see the discovered hosts by clicking on the Domain in the Domains list.
 
 At a glance you can see all hosts, their Status, when the IP was first seen by a scan, and the last pentest where the Host was included in the scope/targets.
 
+![Hosts](/deepdive/hosts.png "List of Hosts")
 
 You can click on a Host to see more details about the resolved IP address and open ports. Currently the scan does not support IPv6. The following ports are scanned: 43, 80, 8080, 20, 21, 22, 139, 137, 445, 53, 8443, 23, 25, 69
 
 These results are for the past seven days to avoid being affected by short-term network issues.
+
+![Ips and Ports](/deepdive/ipsandports.png "IPs and Ports")
 
 Hosts are shown with the following 3 statuses:
 
@@ -58,3 +63,4 @@ You can Search for Hosts, Filter by Status and Filter by date for when the Host 
 
 Filtering for the date can be helpful e.g. if you want to surface only Host that have been discovered within the last week.
 
+![Search](/deepdive/search.png "Search")
