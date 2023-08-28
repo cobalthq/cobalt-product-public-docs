@@ -1,5 +1,5 @@
 ---
-linkTitle: "API v2 docs"
+linkTitle: "API documentation"
 weight: 200
 ---
 
