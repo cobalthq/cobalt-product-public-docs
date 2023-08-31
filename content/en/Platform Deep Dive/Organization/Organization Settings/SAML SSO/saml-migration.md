@@ -22,7 +22,9 @@ This page is for [Organization Owners](/platform-deep-dive/collaboration/user-ro
 Here is a summary of updates:
 
 - Our **Assertion Consumer Service (ACS) URL** is no longer `https://api.cobalt.io/users/saml/auth`, but is now unique per organization. To get your unique ACS URL, go to **Settings** > **Identity & Access** > **Configure SAML** in the Cobalt app.
-  - Example ACS URL: `https://login.app.cobalt.io/login/callback?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`). You can also see the slug in **Settings** > **General**.
+  - Example ACS URL: `https://login.app.us.cobalt.io/login/callback?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`). You can also see the slug in **Settings** > **General**.
+- Our **Audience Restriction** now contains a location subdomain.
+  - Example Audience: `https://api.us.cobalt.io/users/saml/metadata`
 - We no longer require a **RelayState** within the assertion.
 - Organization Owners can now enable or disable [SSO enforcement](/platform-deep-dive/organization/organization-settings/saml-sso/#enforce-saml-sso).
 
