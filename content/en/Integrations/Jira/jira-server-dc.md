@@ -83,6 +83,6 @@ You can add attachments to Cobalt findings. To ensure that attachments are creat
   - Create a `$JIRA_HOME/import/cobalt` directory.
   - Read and write files within the `$JIRA_HOME/import/cobalt` directory.
 
-## Deactivate the Integration
+## Delete the Integration
 
 {{% jira-deactivate %}}

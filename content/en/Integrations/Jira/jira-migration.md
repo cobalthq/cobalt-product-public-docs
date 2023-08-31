@@ -17,8 +17,8 @@ Learn how to reconfigure your Jira integration if you:
 If you're migrating entirely from Jira Server/DC to Jira Cloud, do the following:
 
 1. Uninstall the Cobalt Jira plugin from your Jira Server/DC.
-1. In Cobalt, disconnect the integration. Navigate to **Integrations** > **Jira**, and select **Disconnect**.<br><br>
-    ![Disconnect a Jira integration in Cobalt](/integrations/disconnect-jira.png "Disconnect a Jira integration in Cobalt")
+1. In Cobalt, delete the integration. Navigate to **Integrations** > **Jira**, and select **Delete**.<br><br>
+    ![Delete a Jira integration in Cobalt](/integrations/delete-jira.png "Delete a Jira integration in Cobalt")
 1. Follow the Atlassian [guide](https://www.atlassian.com/migration/plan/cloud-guide) to migrate from Jira Server/DC to Cloud.
     - **Important**: Don't change Jira project names while migrating.
 1. [Integrate Jira Cloud with Cobalt](/integrations/jira/jira-cloud/).
@@ -47,7 +47,7 @@ You can reconfigure the integration in two ways:
 ### Option 1: Migrate Existing Tickets between Jira Instances
 
 1. Uninstall the Cobalt Jira plugin from your current Jira Cloud instance.
-1. In Cobalt, disconnect the integration. Navigate to **Integrations** > **Jira**, and select **Disconnect**.
+1. In Cobalt, delete the integration. Navigate to **Integrations** > **Jira**, and select **Delete**.
 1. Follow the Atlassian [documentation](https://confluence.atlassian.com/jirakb/migrate-projects-from-one-jira-cloud-site-to-another-779160766.html) to migrate projects between Jira instances. Migrate tickets related to findings.
     - **Important**: Don't change Jira project names while migrating.
 1. [Configure the integration](/integrations/jira/jira-cloud/) between Cobalt and your new Jira Cloud instance.
@@ -61,7 +61,7 @@ You can reconfigure the integration in two ways:
 ### Option 2: Push Findings to a New Jira Instance
 
 1. Uninstall the Cobalt Jira plugin from your current Jira Cloud instance.
-1. In Cobalt, disconnect the integration. Navigate to **Integrations** > **Jira**, and select **Disconnect**.
+1. In Cobalt, delete the integration. Navigate to **Integrations** > **Jira**, and select **Delete**.
 1. [Install and connect the **Cobalt for Jira Cloud** plugin](/integrations/jira/jira-cloud/#step-1-connect-the-jira-plugin).
     - **Important**: Do not configure integrations for pentests in Cobalt.
 1. Contact your Customer Success Manager to have findings-to-ticket associations deleted. Provide the following information:
