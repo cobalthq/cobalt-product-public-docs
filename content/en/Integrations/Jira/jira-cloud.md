@@ -78,6 +78,6 @@ The following parameters are **not** exported:
 You can synchronize findings' [severity levels](/platform-deep-dive/pentests/findings/severity-levels/) with Jira using the **Cobalt Severity** field. [Learn more](/integrations/jira/synchronize-severity-levels/).
 {{< /alert >}}
 
-## Deactivate the Integration
+## Delete the Integration
 
 {{% jira-deactivate %}}
