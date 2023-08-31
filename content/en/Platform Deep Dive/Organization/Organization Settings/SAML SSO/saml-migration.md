@@ -25,6 +25,7 @@ Here is a summary of updates:
   - Example ACS URL: `https://login.app.us.cobalt.io/login/callback?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`). You can also see the slug in **Settings** > **General**.
 - Our **Audience Restriction** now contains a location subdomain.
   - Example Audience: `https://api.us.cobalt.io/users/saml/metadata`
+  - For EU data center: `https://api.eu.cobalt.io/users/saml/metadata`
 - We no longer require a **RelayState** within the assertion.
 - Organization Owners can now enable or disable [SSO enforcement](/platform-deep-dive/organization/organization-settings/saml-sso/#enforce-saml-sso).
 

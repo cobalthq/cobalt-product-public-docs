@@ -50,8 +50,8 @@ Here’s a general configuration workflow for SAML SSO:
     - Select **Save Configuration**.<br>
     ![Configure SAML SSO in the Cobalt app](/deepdive/configure-saml-sso-overlay.png "Configure SAML SSO in the Cobalt app")
 1. Complete the configuration in the identity provider system. Enter the following values from Cobalt:
-    - **ACS URL** (unique value for each organization). Example: `https://login.app.cobalt.io/login/callback?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`).
-    - **Entity ID**: `https://api.cobalt.io/users/saml/metadata`
+    - **ACS URL** (unique value for each organization). Example: `https://login.app.us.cobalt.io/login/callback?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`).
+    - **Entity ID**: `https://api.us.cobalt.io/users/saml/metadata`
 1. Test your SAML configuration.
 1. If the test is successful, assign users to the SAML app in the IdP.
 1. Notify users that now they can sign in through the selected identity provider. We don't send any notifications to users.
@@ -104,7 +104,8 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
     - On the application page, select **Set up single sign-on**.
     - On the **Select a single sign-on method** screen, select **SAML**.
     - Under **Basic SAML Configuration**, enter:
-       - **Identifier (Entity ID)**: `https://api.cobalt.io/users/saml/metadata`
+       - **Identifier (Entity ID)**: `https://api.us.cobalt.io/users/saml/metadata`
+         - For EU data center: `https://api.eu.cobalt.io/users/saml/metadata`
        - **Reply URL** (Assertion Consumer Service URL): **ACS URL** from Cobalt (unique value for each organization).<br>Copy the value in the Cobalt app in **Settings** > **Identity & Access** > **Configure SAML**.
        - **Sign on URL**: Leave this field blank.
        - **Relay State**: Leave this field.
@@ -144,7 +145,8 @@ To create a SAML app for Cobalt in Duo:
 1. Still in Cobalt, copy the **ACS URL** value, then select **Save Configuration**.
 1. Go back to Duo. Under **Service Provider**, enter:
     - **ACS URL**: **ACS URL** from Cobalt.
-    - **Entity ID**: `https://api.cobalt.io/users/saml/metadata`
+    - **Entity ID**: `https://api.us.cobalt.io/users/saml/metadata`
+      - For EU data center: `https://api.eu.cobalt.io/users/saml/metadata`
 1. In Duo, complete the **SAML Response** section with:
     - **NameID format**: `urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress`
     - **NameID attribute**: `mail`
@@ -179,7 +181,8 @@ To create a SAML app for Cobalt in the Google Admin console:
 1. Still in Cobalt, copy the **ACS URL** value, then select **Save Configuration**.
 1. Go back to the Google Admin console. In the **Service Provider Details** window, enter:
     - **ACS URL**: **ACS URL** from Cobalt
-    - **Entity ID**: `https://api.cobalt.io/users/saml/metadata`
+    - **Entity ID**: `https://api.us.cobalt.io/users/saml/metadata`
+      - For EU data center: `https://api.eu.cobalt.io/users/saml/metadata`
 1. Leave the **Signed Response** option unselected (default).
 1. On the **Attribute Mapping** page, add an attribute `email`, and select **Basic Information** and **Primary Email**.
 1. Complete other required steps.
@@ -212,7 +215,8 @@ To create a non-gallery SAML app for Cobalt in Okta:
 1. On the **General Settings** tab, enter general information for the integration, then select **Next**.
 1. On the **Configure SAML** tab, under **General**, enter SAML details:
     -  **Single sign-on URL**: Enter **ACS URL** from Cobalt.
-    - **Audience URI (SP Entity ID)**: Enter `https://api.cobalt.io/users/saml/metadata`.
+    - **Audience URI (SP Entity ID)**: Enter `https://api.us.cobalt.io/users/saml/metadata`.
+      - For EU data center: `https://api.eu.cobalt.io/users/saml/metadata`
     - Leave the **Default RelayState** field blank.
     - For other fields, use default values.<br><br>
     ![Configure a non-gallery SAML app in Okta](/deepdive/configure-non-gallery-SAML-app-in-Okta-2.png "Configure a non-gallery SAML app in Okta")
@@ -243,7 +247,8 @@ To configure SAML SSO with OneLogin:
 
 1. Create a custom application connector for Cobalt. Follow OneLogin instructions to [build a SAML Custom Connector (Advanced)](https://onelogin.service-now.com/support?id=kb_article&sys_id=912bb23edbde7810fe39dde7489619de&kb_category=93e869b0db185340d5505eea4b961934).
 1. In OneLogin, enter the following values for configuration parameters:
-    - **Audience (EntityID)**: `https://api.cobalt.io/users/saml/metadata`
+    - **Audience (EntityID)**: `https://api.us.cobalt.io/users/saml/metadata`
+      - For EU data center: `https://api.eu.cobalt.io/users/saml/metadata`
     - **Recipient**, **ACS (Consumer) URL Validator**, and **ACS (Consumer) URL**: ACS URL (unique value for each organization).<br>Copy the value in the Cobalt app in **Settings** > **Identity & Access** > **Configure SAML**.
     - **SAML initiator**: OneLogin
     - **SAML nameID format**: Email
