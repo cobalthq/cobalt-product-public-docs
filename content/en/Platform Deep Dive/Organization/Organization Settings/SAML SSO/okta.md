@@ -1,11 +1,5 @@
----
-title: "How to Configure SAML 2.0 for Cobalt"
-linkTitle: "Okta: Gallery Cobalt App"
-weight: 30
-aliases: /platform-deep-dive/collaboration/organization/organization-settings/saml-sso/okta/
-description: >
-  Configure SAML with Okta using their gallery app for Cobalt.
----
+
+
 
 {{% pageinfo %}}
 This guide is for Organization Owners who configure SAML with Okta as an identity provider (IdP) using the [gallery Cobalt SAML app](https://www.okta.com/integrations/cobalt/).
