@@ -111,13 +111,11 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
        - **Relay State**: Leave this field.
        - **Logout URL**: Leave this field blank.
     - Under **User Attributes & Claims**, add custom attribute mappings to your SAML token attributes configuration.
-       - **givenname**: `user.givenname`
-       - **surname**: `user.surname`
-       - **emailaddress**: `user.mail`
+       - **email**: `user.mail`
        - **name**: `user.userprincipalname`
        - **Unique User Identifier**: `user.userprincipalname`
     - The Cobalt app expects the following attributes to be passed in the SAML response:
-       <table style="border: 1px solid #E0E2E6; padding: 5px;"><thead><tr><th style="border: 1px solid #E0E2E6; padding: 5px;">Name</th><th style="border: 1px solid #E0E2E6; padding: 5px;">Source Attribute</th></tr></thead><tbody><tr><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>Mail</code></td><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>user.mail</code></td></tr><tr><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>Othermail</code></td><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>user.othermail</code></td></tr></tbody></table>
+       <table style="border: 1px solid #E0E2E6; padding: 5px;"><thead><tr><th style="border: 1px solid #E0E2E6; padding: 5px;">Name</th><th style="border: 1px solid #E0E2E6; padding: 5px;">Source Attribute</th></tr></thead><tbody><tr><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>email</code></td><td style="border: 1px solid #E0E2E6; padding: 5px;"><code>user.mail</code></td></tr></tbody></table>
     - Under **SAML Signing Certificate**, download **Certificate (Base 64)**.
     - Under **Set up [Your App]**, copy **Login URL**.
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
