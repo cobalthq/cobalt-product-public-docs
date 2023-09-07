@@ -15,11 +15,12 @@ One of the largest cybersecurity challenges for enterprises today is understandi
 Domains is an experimental attack surface discovery/monitoring (ASM) feature to help customers understand what Hosts under their Domains are externally reachable, ensuring that all assets in their environment can be properly secured.
 
 Domains will be launched with basic functionality that allows customers to see hosts under their Domains. Ultimately, Domains will grow in feature richness to accommodate for use cases such as:
-Risks related to Hosts, e.g. risk for subdomain takeover
-Auto-enumerating Domains from DNS providers (e.g. Route53, Cloudflare, etc)
-Associate Domains/hosts with Assets / Pentests / Findings
-Scan related URLs for vulnerabilities (DAST)
-Weekly updates on new hosts in your attack surface
+
+- Risks related to Hosts, e.g. risk for subdomain takeover
+- Auto-enumerating Domains from DNS providers (e.g. Route53, Cloudflare, etc)
+- Associate Domains/hosts with Assets / Pentests / Findings
+- Scan related URLs for vulnerabilities (DAST)
+- Weekly updates on new hosts in your attack surface
 
 ## How to use the Domains feature
 
