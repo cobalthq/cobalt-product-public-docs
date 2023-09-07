@@ -191,7 +191,15 @@ To create a SAML app for Cobalt in the Google Admin console:
 
 ### Okta
 
-For more information, refer to the Okta [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
+You can set up SAML SSO with Okta in two ways:
+
+- Use the **gallery SAML app for Cobalt**. Learn [how to configure SAML using the gallery app](/platform-deep-dive/organization/organization-settings/saml-sso/okta/).
+- Create a **non-gallery SAML app** for Cobalt manually. Follow the instructions below.
+
+{{%expand "Click to view instructions for a non-gallery SAML app." %}}
+<br>
+
+For more information on how to create a non-gallery app, refer to the Okta [documentation](https://help.okta.com/en-us/Content/Topics/Apps/Apps_App_Integration_Wizard_SAML.htm?cshid=ext_Apps_App_Integration_Wizard-saml).
 
 To create a non-gallery SAML app for Cobalt in Okta:
 
@@ -224,6 +232,8 @@ To create a non-gallery SAML app for Cobalt in Okta:
     - **IdP Certificate**: Enter **Signing Certificate** from Okta.
 1. Test the integration.
 1. If the test is successful, assign users to the application.
+
+{{% /expand %}}
 
 ### OneLogin
 
