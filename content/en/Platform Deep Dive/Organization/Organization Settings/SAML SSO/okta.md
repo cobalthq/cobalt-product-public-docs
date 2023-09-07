@@ -53,4 +53,4 @@ The following SAML attributes are supported:
 
 | Name      | Value          |
 | --------- | -------------- |
-| email     | user.userName     |
+| email     | user.email     |
