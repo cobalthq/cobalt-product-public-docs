@@ -56,9 +56,9 @@ These results are for the past seven days to avoid being affected by short-term 
 
 Hosts are shown with the following 3 statuses:
 
-Open: The host has a resolvable IP and open ports
-No Ports: The host has a resolvable IP, but no open ports
-Unused: There is no resolvable IP address
+- Open: The host has a resolvable IP and open ports
+- No Ports: The host has a resolvable IP, but no open ports
+- Unused: There is no resolvable IP address
 
 You can Search for Hosts, Filter by Status and Filter by date for when the Host was first seen.
 
