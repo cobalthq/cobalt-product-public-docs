@@ -108,7 +108,7 @@ To configure SAML SSO with Azure Active Directory (Azure AD):
          - For EU data center: `https://api.eu.cobalt.io/users/saml/metadata`
        - **Reply URL** (Assertion Consumer Service URL): **ACS URL** from Cobalt (unique value for each organization).<br>Copy the value in the Cobalt app in **Settings** > **Identity & Access** > **Configure SAML**.
        - **Sign on URL**: Leave this field blank.
-       - **Relay State**: Leave this field.
+       - **Relay State**: Leave this field blank.
        - **Logout URL**: Leave this field blank.
     - Under **User Attributes & Claims**, add custom attribute mappings to your SAML token attributes configuration.
        - **email**: `user.mail`
