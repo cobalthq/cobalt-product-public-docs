@@ -84,7 +84,7 @@ enableGitInfo = true
   weight = 30
 [[menu.main]]
   name = 'API Docs'
-  url = 'https://docs.cobalt.io/'
+  url = 'https://docs.cobalt.io/cobalt-api/v2'
   weight = 40
 
 # Everything below this are Site Params

@@ -18,13 +18,13 @@ The Cobalt [RESTful API](/getting-started/glossary/#restful-api) gives you acces
 
 Here are some examples of how you can scale your workflows:
 
-- Retrieve [findings](https://docs.cobalt.io/v2/#findings) that our pentesters discovered during a pentest.
+- Retrieve [findings](https://docs.cobalt.io/cobalt-api/v2) that our pentesters discovered during a pentest.
 - Pull findings into your security dashboard to perform a holistic internal analysis.
 - Integrate findings into your data visualization tool for a comprehensive view of your vulnerability and application landscape.
 
 Read our comprehensive API documentation to learn how to send specific API requests and view examples.
 
-<a href="https://docs.cobalt.io/v2/" target="_blank" class="btn btn-outline-primary rounded">Go to API Docs  »</a>
+<a href="https://docs.cobalt.io/cobalt-api/v2" target="_blank" class="btn btn-outline-primary rounded">Go to API Docs  »</a>
 
 ## Authentication
 
