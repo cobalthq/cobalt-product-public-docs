@@ -50,7 +50,7 @@ curl -X POST "https://api.cobalt.io/assets" \
 ```
 
 For more information on each parameter, see our API reference documentation on
-how to [Create an Asset](https://docs.cobalt.io/cobalt-api/v2).
+how to [Create an Asset](https://docs.cobalt.io/cobalt-api/v2/#create-an-asset).
 
 The command we use includes a `-v`, which sets up output in verbose mode. The
 command works without it. However, you would see no response from this REST call.
@@ -62,7 +62,7 @@ with `HTTP/2`. If the command is successful, you'll see
 |------------|------------------|
 | HTTP/2 201 | Asset created    |
 
-For a list of error codes, see the [Errors](https://docs.cobalt.io/cobalt-api/v2)
+For a list of error codes, see the [Errors](https://docs.cobalt.io/cobalt-api/v2/#errors)
 section of our API reference.
 
 ### Next Steps
@@ -76,7 +76,7 @@ then [Add or Modify Asset Details](#add-or-modify-asset-details).
 ## Find Your Asset ID
 
 To add or modify information related to your asset, you'll need the asset ID.
-You can find this ID with the REST call to [Get All Assets](https://docs.cobalt.io/cobalt-api/v2):
+You can find this ID with the REST call to [Get All Assets](https://docs.cobalt.io/cobalt-api/v2/#get-all-assets):
 
 ```bash
 curl -X GET "https://api.cobalt.io/assets" \
@@ -89,7 +89,7 @@ curl -X GET "https://api.cobalt.io/assets" \
 If you've set up more than one asset, you may need to search through the output.
 You can also limit the number of assets in the output with the `limit`
 parameter. For more information about each asset response field, see our API
-reference to [Get All Assets](https://docs.cobalt.io/cobalt-api/v2).
+reference to [Get All Assets](https://docs.cobalt.io/cobalt-api/v2/#get-all-assets).
 
 {{% alert title="Tip" color="primary" %}}
 You can use `jq` to filter assets by their `title` and `id`. To do so, end the
@@ -152,7 +152,7 @@ with `HTTP/2`. If the command is successful, you'll see:
 |------------|------------------|
 | HTTP/2 204 | Asset updated    |
 
-For a list of error codes, see the [Errors](https://docs.cobalt.io/cobalt-api/v2)
+For a list of error codes, see the [Errors](https://docs.cobalt.io/cobalt-api/v2/#errors)
 section of our API reference.
 
 <!-- Leaving out due to current bug, API-1069

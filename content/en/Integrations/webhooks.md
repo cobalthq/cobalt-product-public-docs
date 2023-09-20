@@ -30,7 +30,7 @@ sequenceDiagram
 {{< /mermaid >}}
 <br>
 
-You can configure webhooks through the [API](https://docs.cobalt.io/cobalt-api/v2) and in the [Cobalt UI](#configure-webhooks-in-the-ui).
+You can configure webhooks through the [API](https://docs.cobalt.io/cobalt-api/v2/#webhooks) and in the [Cobalt UI](#configure-webhooks-in-the-ui).
 <!-- Provide a link to API docs or API use case. -->
 
 ## Before You Start
@@ -40,7 +40,7 @@ Before you start creating webhooks, complete the configuration in your app.
 1. Make sure that the **URL** where you want to receive notifications is valid and your services work properly. If possible, test your connections.
 1. (Optional) To add an extra layer of security to the integration, generate a **webhook secret** in your app. When we send a POST request to your URL, we include your secret in the request header. This allows you to validate that the API request is from Cobalt.
 
-Read our [Best Practices](https://docs.cobalt.io/cobalt-api/v2) for more information.
+Read our [Best Practices](https://docs.cobalt.io/cobalt-api/v2/#best-practices) for more information.
 
 ## Webhook Events
 

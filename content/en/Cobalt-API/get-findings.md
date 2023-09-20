@@ -123,7 +123,7 @@ You should see output similar to:
 </br>
 
 For more information on each parameter, see our API reference documentation on
-how to [get all findings](https://docs.cobalt.io/cobalt-api/v2).
+how to [get all findings](https://docs.cobalt.io/cobalt-api/v2/#get-all-findings).
 
 If the command is successful, you'll see the following HTTP code:
 
@@ -131,7 +131,7 @@ If the command is successful, you'll see the following HTTP code:
 |------------|------------------|
 | 200 OK | Findings for all pentests of an organization are returned. |
 
-For a list of error codes, see the [Errors](https://docs.cobalt.io/cobalt-api/v2)
+For a list of error codes, see the [Errors](https://docs.cobalt.io/cobalt-api/v2/#errors)
 section of our API reference.
 
 ## Step 2: Import Findings to Google Sheets
