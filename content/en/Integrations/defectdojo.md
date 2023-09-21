@@ -21,11 +21,11 @@ You can retrieve [findings](/platform-deep-dive/pentests/findings/) data from Co
 To configure the integration, you need the following:
 
 - **Cobalt API token**. Learn [how to create an API token](/cobalt-api/create-personal-api-token/).
-- **Cobalt organization token**. Learn [how to retrieve an organization token](https://docs.cobalt.io/v1/#organizations) using the Cobalt API v1.
-  - Make sure that you use the [Cobalt API v1](https://docs.cobalt.io/v1) and not v2. This integration doesn't support organization tokens from the API v2.
+- **Cobalt organization token**. Learn [how to retrieve an organization token](https://docs.cobalt.io/cobalt-api/v1/#organizations) using the Cobalt API v1.
+  - Make sure that you use the [Cobalt API v1](https://docs.cobalt.io/cobalt-api/v1) and not v2. This integration doesn't support organization tokens from the API v2.
 - **Asset identifier in Cobalt**. You can get an asset ID in two ways:
   - In the Cobalt app, go to **Assets**, navigate to the asset page, and copy the ID from the URL. For example, the asset ID in this example URL `https://app.cobalt.io/organization/assets/as_KoEUfS0` is `as_KoEUfS0`.
-  - [Retrieve your assets](https://docs.cobalt.io/v1/#assets) using the Cobalt API, and find the asset ID in the API response.
+  - [Retrieve your assets](https://docs.cobalt.io/cobalt-api/v1/#assets) using the Cobalt API, and find the asset ID in the API response.
 
 ## Step 1: Add a Tool Type
 
