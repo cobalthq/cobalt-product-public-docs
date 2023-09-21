@@ -7,13 +7,13 @@ HUGO_VERSION = "0.109.0"
 HUGO_ENV = "production"
 
 [[redirects]]
-  from = "https://cobalt-docs.netlify.app"
-  to = "https://docs.cobalt.io"
+  from = "https://cobalt-docs.netlify.app/*"
+  to = "https://docs.cobalt.io/:splat"
   status = 301
   force = true
 [[redirects]]
-  from = "https://developer.cobalt.io"
-  to = "https://docs.cobalt.io"
+  from = "https://developer.cobalt.io/*"
+  to = "https://docs.cobalt.io/:splat"
   status = 301
   force = true
 
