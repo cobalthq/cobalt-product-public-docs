@@ -1,6 +1,6 @@
 ---
-title: "Cloud Pentests"
-linkTitle: "Cloud Pentest Methodologies"
+title: "Cloud Configuration Pentests"
+linkTitle: "Cloud Configuration Pentest Methodologies"
 weight: 150
 description: >
   Review methodologies for Cloud Configurations.
