@@ -25,6 +25,7 @@ Follow these instructions if you can't sign in to Cobalt because:
 - Your [account isn't fully set up](#account-isnt-fully-set-up)
 - Your [email or password is invalid](#email-or-password-is-invalid)
 - [We don't recognize your browser](#we-dont-recognize-your-browser)
+  - You're [not receiving our emails](#not-receiving-our-emails)
 - You have [problems with SAML SSO](#cant-sign-in-using-saml-sso)
 - You're [locked out of your account](#locked-out-of-your-account)
 - [The sign-in page doesn't load](#the-sign-in-page-doesnt-load)
@@ -131,6 +132,14 @@ When you see the **Verify Your Browser** message upon signing in, do the followi
     - Next time you sign in from this browser, you don't need to verify it again.
 
 To enhance your account security, we recommend that you [enable two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication).
+
+### Not receiving our emails
+
+If you're not seeing the browser verification email, or any other emails from us, in your inbox, do the following:
+
+1. Check your inbox settings for any rules or filters that might be routing emails from `cobalt.io` to another folder in your email.
+1. If you do not have any filters or rules, your email server may be applying [greylisting](https://en.wikipedia.org/wiki/Greylisting_(email))
+    - Have your IT administrator allow `no-reply@cobalt.io` and `no-reply-accounts@cobalt.io` as email senders
 
 **Troubleshooting tips**:
 
