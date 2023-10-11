@@ -92,7 +92,7 @@ To remove a 2FA device:
 
 Now you can add a new 2FA device to protect your account.
 
-If you lose access to your authenticator, ask your Organization Owner to turn off 2FA. For details, see [Lost Access to Your Authenticator](/platform-deep-dive/cobalt-account/account-recovery/#lost-access-to-your-authenticator).
+If you lose access to your authenticator, ask your Organization Owner to turn off 2FA or use your recovery code. For details, see [Lost Access to Your Authenticator](/platform-deep-dive/cobalt-account/account-recovery/#lost-access-to-your-authenticator).
 
 ## Create and Manage API Tokens
 
