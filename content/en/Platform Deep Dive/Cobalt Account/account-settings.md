@@ -63,39 +63,36 @@ If you're **signing in with your email and password**, you can enable two-factor
 To enable 2FA on your account:
 
 1. Navigate to https://app.cobalt.io/settings/security/2fa.
-1. Under **Two-Factor Authentication (2FA)**, select **Manage**, and reauthenticate to your account.
-1. To add a new authenticator device, select **Add a new OTP device**.
-1. Follow the instructions on the screen to complete the process. Use an authenticator of your choice, such as [Authy](https://authy.com/) or [Google Authenticator](https://support.google.com/accounts/answer/1066447).
-1. Add one or more backup devices to avoid being locked out of your account. Select **Add a new OTP device** to proceed.
+2. Under **Two-Factor Authentication (2FA)**, select **Manage**, and reauthenticate to your account.
+3. To add a new authenticator device, select **Set Up**.
+4. Follow the instructions on the screen to complete the process. Use an authenticator of your choice, such as [Authy](https://authy.com/) or [Google Authenticator](https://support.google.com/accounts/answer/1066447).
+5. After selecting Continue, you will see your recovery code. Save the code. After you close the overlay, you won’t see the code again.
 
 Now, each time you sign in to Cobalt, you must enter a one-time code from your authenticator app. If you have problems signing in with 2FA, see our [troubleshooting tips](/platform-deep-dive/cobalt-account/account-recovery/#problems-with-two-factor-authentication).
 
 #### Manage 2FA Devices
 
-When you add a new 2FA device, it appears on the account security page<!--under **Current Devices**-->. Here, you can see devices with an authenticator app that generates one-time codes required for authentication to your Cobalt account.
+When you add a new 2FA device, it appears on the account security page<!--under **Current Devices**-->. Here, you can see the authenticator app that generates one-time codes required for authentication to your Cobalt account.
 
-- **Add multiple backup devices** to avoid being locked out of your account. Select **Add a new OTP device** to proceed.
-- **Remove a device** if it's no longer valid or has been lost or stolen. Select **Delete**, and confirm your action.
+- **Remove an app ** if it's no longer valid or has been lost or stolen. Select **Delete**, and confirm your action.
 
 #### Reset Two-Factor Authentication
 
 We don't recommend turning off 2FA on your account. However, you may need to reset your 2FA methods when:
 
-- You believe your [account was compromised](/platform-deep-dive/cobalt-account/account-recovery/#account-was-compromised)—and you still have access to one of your authenticators.
 - Your authenticator device was lost or stolen.
 
-You can remove your current 2FA devices and add new ones for added security.
+You can remove your current 2FA device and add a new one for added security.
 
 To remove a 2FA device:
 
 1. Navigate to https://app.cobalt.io/settings/security/2fa.
 1. Under **Two-Factor Authentication (2FA)**, select **Manage**.
-1. Locate the desired device, and select **Remove**.
-    - Remove other devices if needed.
+1. Locate the desired device, and select the trash icon.
 
-Now you can add a new 2FA device to protect your account. Make sure you also add one or more backup devices.
+Now you can add a new 2FA device to protect your account.
 
-If you lose access to your authenticator and don't have a backup one, ask your Organization Owner to turn off 2FA. For details, see [Lost Access to Your Authenticator](/platform-deep-dive/cobalt-account/account-recovery/#lost-access-to-your-authenticator).
+If you lose access to your authenticator, ask your Organization Owner to turn off 2FA or use your recovery code. For details, see [Lost Access to Your Authenticator](/platform-deep-dive/cobalt-account/account-recovery/#lost-access-to-your-authenticator).
 
 ## Create and Manage API Tokens
 

@@ -41,11 +41,17 @@ Follow these instructions if you can't sign in to Cobalt because:
 
 ### Lost Access to Your Authenticator
 
-If you lost access to your authenticator and don't have a backup device, ask your [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) to [turn off two-factor authentication (2FA)](#turn-off-2fa-for-a-user) on your account. If you're the only Organization Owner, contact {{% csm-support %}} for help.
+If you lost access to your authenticator, ask your [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) to [turn off two-factor authentication (2FA)](#turn-off-2fa-for-a-user) on your account. If you're the only Organization Owner, contact {{% csm-support %}} for help.
 
 Once your Organization Owner has turned off 2FA, you get an email notification. You can now sign in without a second authentication factor.
 
-To protect your account, [enable 2FA](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication). Add one or more backup authenticators to avoid being locked out of your account.
+If you have a [recovery code](#recovery-code) enabled:
+
+1. Sign in as usual with your email and password.
+2. Under **Verify Your Identity**, select **Try another method**, then **Recovery code**.
+3. Enter your saved recovery code. You will be prompted to save a new recovery code for future use before access to your account.
+
+To protect your account, [enable 2FA](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication).
 
 #### Turn Off 2FA for a User
 
