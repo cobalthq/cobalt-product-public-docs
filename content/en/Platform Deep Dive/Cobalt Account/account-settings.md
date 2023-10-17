@@ -84,7 +84,8 @@ You can remove your current 2FA device and add a new one for added security.
 
 To remove a 2FA device:
 
-<iframe width="640" height="454" src="https://www.loom.com/embed/779b1b5ca1754b5aa7f7d4247202c836?sid=419a5bf0-1eed-4447-a215-73eb581321e8?hide_owner=true&hide_share=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe width="600" height="426" src="https://www.loom.com/embed/779b1b5ca1754b5aa7f7d4247202c836?sid=419a5bf0-1eed-4447-a215-73eb581321e8?hide_owner=true&hide_share=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 1. Navigate to https://app.cobalt.io/settings/security/2fa.
 1. Under **Two-Factor Authentication (2FA)**, select **Manage**.
