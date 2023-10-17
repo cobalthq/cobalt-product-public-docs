@@ -74,8 +74,6 @@ Now, each time you sign in to Cobalt, you must enter a one-time code from your a
 
 When you add a new 2FA device, it appears on the account security page<!--under **Current Devices**-->. Here, you can see the authenticator app that generates one-time codes required for authentication to your Cobalt account.
 
-- **Remove an app** if it's no longer valid or has been lost or stolen. Select **Delete**, and confirm your action.
-
 #### Reset Two-Factor Authentication
 
 We don't recommend turning off 2FA on your account. However, you may need to reset your 2FA methods when:
