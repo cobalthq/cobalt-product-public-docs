@@ -66,7 +66,7 @@ To enable 2FA on your account:
 2. Under **Two-Factor Authentication (2FA)**, select **Manage**, and reauthenticate to your account.
 3. To add a new authenticator device, select **Set Up**.
 4. Follow the instructions on the screen to complete the process. Use an authenticator of your choice, such as [Authy](https://authy.com/) or [Google Authenticator](https://support.google.com/accounts/answer/1066447).
-5. After selecting **Continue**, you will see your [recovery code](platform-deep-dive/cobalt-account/account-recovery/#recovery-code). Save the code. After you close the overlay, you won’t see the code again.
+5. After selecting **Continue**, you will see your [recovery code](/platform-deep-dive/cobalt-account/account-recovery/#recovery-code). Save the code. After you close the overlay, you won’t see the code again.
 
 Now, each time you sign in to Cobalt, you must enter a one-time code from your authenticator app. If you have problems signing in with 2FA, see our [troubleshooting tips](/platform-deep-dive/cobalt-account/account-recovery/#problems-with-two-factor-authentication).
 
