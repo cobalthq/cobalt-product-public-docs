@@ -45,7 +45,7 @@ If you lost access to your authenticator, ask your [Organization Owner](/platfor
 
 Once your Organization Owner has turned off 2FA, you get an email notification. You can now sign in without a second authentication factor.
 
-If you have a [recovery code](#recovery-code) enabled:
+If you have a [recovery code](/getting-started/glossary/#recovery-code) enabled:
 
 1. Sign in as usual with your email and password.
 2. Under **Verify Your Identity**, select **Try another method**, then **Recovery code**.
