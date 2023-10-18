@@ -62,7 +62,7 @@ If you're **signing in with your email and password**, you can enable two-factor
 
 To enable 2FA on your account:
 
-<iframe width="600" height="302" src="https://www.loom.com/embed/2c7043b983224c228c7012f95972e786?sid=5cdc7e81-7955-4468-a708-bafc59578f71?hide_owner=true&hide_share=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe width="600" height="301" src="https://www.loom.com/embed/3b33b59038374e2fa09f6f3f0fb5a2fb?sid=4a203b01-bbdd-4957-b5a0-64ceeb37d002?hide_owner=true&hide_share=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 1. Navigate to https://app.cobalt.io/settings/security/2fa.
 2. Under **Two-Factor Authentication (2FA)**, select **Manage**, and reauthenticate to your account.
