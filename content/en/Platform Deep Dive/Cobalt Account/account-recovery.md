@@ -47,7 +47,7 @@ Once your Organization Owner has turned off 2FA, you get an email notification. 
 
 If you have a [recovery code](/getting-started/glossary/#recovery-code) enabled:
 
-<iframe width="600" height="293" src="https://www.loom.com/embed/e21fe27754c542dba799f4c016e0e7fc?sid=ca5f37b1-c1b3-497b-b29c-782c898190b1?hide_owner=true&hide_share=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe width="600" height="291" src="https://www.loom.com/embed/eebe34fc674a4fe5917ac6b94a445997?sid=7a3aab21-0c0f-44c6-b43c-95f01e5ef5bb?hide_owner=true&hide_share=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 1. Sign in as usual with your email and password.
 2. Under **Verify Your Identity**, select **Try another method**, then **Recovery code**.
