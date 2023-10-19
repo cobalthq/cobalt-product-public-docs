@@ -62,6 +62,8 @@ If you're **signing in with your email and password**, you can enable two-factor
 
 To enable 2FA on your account:
 
+<iframe width="600" height="301" src="https://www.loom.com/embed/3b33b59038374e2fa09f6f3f0fb5a2fb?sid=4a203b01-bbdd-4957-b5a0-64ceeb37d002?hide_owner=true&hide_share=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 1. Navigate to https://app.cobalt.io/settings/security/2fa.
 2. Under **Two-Factor Authentication (2FA)**, select **Manage**, and reauthenticate to your account.
 3. To add a new authenticator device, select **Set Up**.
@@ -83,6 +85,9 @@ We don't recommend turning off 2FA on your account. However, you may need to res
 You can remove your current 2FA device and add a new one for added security.
 
 To remove a 2FA device:
+
+<iframe width="600" height="426" src="https://www.loom.com/embed/779b1b5ca1754b5aa7f7d4247202c836?sid=419a5bf0-1eed-4447-a215-73eb581321e8?hide_owner=true&hide_share=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 1. Navigate to https://app.cobalt.io/settings/security/2fa.
 1. Under **Two-Factor Authentication (2FA)**, select **Manage**.
