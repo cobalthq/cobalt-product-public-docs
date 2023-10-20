@@ -20,11 +20,11 @@ Scans address these challenges head-on. By combining the power of PtaaS with DAS
 
 1. To add a target, select the plus button
 
-![Create Target](/deepdive/scans/1_CreateTarget.png "Create Target")
+![Create Target](/deepdive/scans/1_CreateTarget.png "Create Target")<br>
 
 2. Add a name for the target and the URL
 
-![Add Target](/deepdive/scans/2_AddTarget.png "Add Target")
+![Add Target](/deepdive/scans/2_AddTarget.png "Add Target")<br>
 
 3. To add authentication toggle on the “Authenticated Scan” option
     - Follow the Steps to add authentication details
@@ -33,31 +33,31 @@ Scans address these challenges head-on. By combining the power of PtaaS with DAS
           - Field Name
           - Field Value
 
-![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")
+![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
 
 4. To run a scan, select “Start Scan”
 
-![Start Scan - Targets](/deepdive/scans/4_StartScanTargets.png "Start Scan - Targets")
+![Start Scan - Targets](/deepdive/scans/4_StartScanTargets.png "Start Scan - Targets")<br>
 
 5. You have two options to View Results
     1. You can view the results on the target
     
-    ![Target - Scan Results Sample Report](/deepdive/scans/5_TargetScanResultsSampleReport.png "Target - Scan Results Sample Report")
+    ![Target - Scan Results Sample Report](/deepdive/scans/5_TargetScanResultsSampleReport.png "Target - Scan Results Sample Report")<br>
 
     2. Or, navigate to scans and view results for individual scans by clicking on the Started Date.
 
-    ![Scans Sample Findings Report](/deepdive/scans/6_ScansSampleFindingsReport.png "Scans Sample Findings Report")
+    ![Scans Sample Findings Report](/deepdive/scans/6_ScansSampleFindingsReport.png "Scans Sample Findings Report")<br>
 
 6. Generate Report
     1. From Targets, select the target you want to view a report for
 
     2. Select “View Report”
 
-    ![View Report](/deepdive/scans/7_ViewReport.png "View Report")
+    ![View Report](/deepdive/scans/7_ViewReport.png "View Report")<br>
 
     You’ll then see a PDF report with the scan report findings.
 
-    ![Report](/deepdive/scans/8_Report.png "Report")
+    ![Report](/deepdive/scans/8_Report.png "Report")<br>
 
 7. Move Finding State
     1. You can update the state for each finding
@@ -70,7 +70,9 @@ Scans address these challenges head-on. By combining the power of PtaaS with DAS
 8. Retest Finding
     1. You can retest individual findings.
     2. Navigate to the finding you want to retest and select “retest”
-    ![Retest Finding](/deepdive/scans/9_Retest_Finding.png "Retest Finding")
+
+    ![Retest Finding](/deepdive/scans/9_Retest_Finding.png "Retest Finding")<br>
+
     3. If the scan engine does not find the vulnerability again it will automatically mark the finding as “Fixed”.  If the issue still persists, it will move back to its previous state.
 
 ## How to Contact Support
