@@ -14,6 +14,8 @@ The complexity of today's applications, combined with the constant evolution of 
 
 Scans address these challenges head-on. By combining the power of PtaaS with DAST, you gain a comprehensive solution for continuously assessing risk.
 
+To access the Scans Beta you must be an org owner or org member.
+
 The beta period runs until December 31, 2023. During the beta, you have access to three scans a month, allowing you to fully explore this new feature. Anticipate usage and limitation adjustments in 2024.
 
 ## How to Use Scans
