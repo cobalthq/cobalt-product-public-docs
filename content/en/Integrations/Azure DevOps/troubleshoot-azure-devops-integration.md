@@ -43,7 +43,7 @@ Possible reasons:
 
 You can also [check if there is an error with an integration](/integrations/azure-devops/troubleshoot-azure-devops-integration/#check-thehealth-of-the-integration) from the integration configuration screen.
 
-If you experience an error not covered by the solutions above, please reach out to your CSM or the Integrations team at integrations@cobalt.io.  
+If you experience an error not covered by the solutions above, please reach out to your CSM or the Integrations team at [integrations@cobalt.io](mailto:integrations@cobalt.io)
 
 ## Revert a Change
 
