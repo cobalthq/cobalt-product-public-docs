@@ -6,6 +6,24 @@ description: >
   Troubleshoot common issues with the Azure DevOps integration.
 ---
 
+## Clear Cobalt Session Cookies
+
+To clear Cobalt session cookies:  
+
+1. Launch Chrome and navigate to the Cobalt application (https://app.us.cobalt.io).
+2. On the left side of the address bar, click the Site Information icon, then select **Cookies and site data**.
+3. Click **Manage cookies and site data**.
+4. From the “Cookies in use popup”, click the trash icon beside `api.us.cobalt.io` to delete the cookie.
+5. Finally, click the **Done** button under the "Cookies in use" window.
+
+## Check if There is an Error
+
+If the integration is not functioning as expected, you can check the health and get detailed performance information via the following steps:  
+
+1. Go to **Integrations** > **Azure DevOps Boards** > **Configuration**, and for the desired pentest, select the gear icon.
+2. For the “Create tickets for findings” sync, click **Edit**.
+3. In the workflow window, select **Jobs** from the tab bar.
+
 ## Configuration Forms Do Not Appear
 
 _I am attempting to set up a connection or configure Azure DevOps for a pentest, but the forms do not show up._
