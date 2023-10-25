@@ -2,6 +2,8 @@
 title: "Troubleshooting"
 linkTitle: "Troubleshooting"
 weight: 50
+description: >
+  Troubleshoot common issues with the Azure DevOps integration.
 ---
 
 ## Configuration Forms Do Not Appear
