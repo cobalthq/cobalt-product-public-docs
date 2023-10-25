@@ -22,6 +22,17 @@ Once you’ve connected your Azure DevOps instance, configure the integration fo
 6. Close the workflow editor by clicking **Done**.
 7. To enable sync for the pentest, activate the toggle for “Create tickets for findings".
 
+## Set Work Item Field Values
+
+You can set values for any fields in your work item type template. In the “Create Work Item in Azure DevOps” action, once you’ve selected the **Project** and **Work Item Type**, all fields in the work item type template will be presented in the form. Values can be entered as:
+- _Static_ text values will be passed for every work item created for the pentest.
+- _Dynamic_ values can be entered using Datapills, and will populate the input with parameters for the specific finding for which the work item is created.  
+- _Combination_ of static text and data pills to combine and format multiple parameters.
+
+To set dynamic values:
+1. Click into the desired field.
+2. In the Recipe data window, open **Parameters** > **Finding**, and click the desired parameter to populate the datapill into the field.
+
 ## Update Configuration for a Pentest
 
 To modify the configuration for a pentest: 
