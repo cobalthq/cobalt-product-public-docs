@@ -62,7 +62,6 @@ Once you've signed in to your Workato workspace, you need to authenticate to you
 To complete the integration, connect to the third-party app:
 
 - [Asana](#asana)
-- [Azure DevOps (Boards)](#azure-devops-boards)
 - [Bitbucket Issues](#bitbucket-issues)
 - [Jira (Beta)](#jira-beta)
 - [PagerDuty](#pagerduty)
@@ -80,22 +79,6 @@ The Asana connector uses OAuth for authentication. To set up your Asana integrat
 1. Select **Asana Beta - Asana Connection**.
 1. Select **Connect**, and sign in to your Asana account.
 1. Select **Grant access**.
-
-### Azure DevOps (Boards)
-
-To set up a connection with Azure DevOps, you need a **Personal access token**. For instructions, read the [Azure DevOps documentation](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows#create-a-pat).
-
-To set up your Azure DevOps integration:
-
-1. In your Workato workspace, select **Projects**.
-1. In the **Azure DevOps Beta Integration** project, select **Connections**.
-1. Select **Azure DevOps Beta - AzureDevOps Connection**.
-1. On the connection screen, enter the following:
-    - Your Azure DevOps username
-    - Personal access token
-    - Organization name
-    - API version: `7.0`
-1. Select **Connect**.
 
 ### Bitbucket Issues
 
