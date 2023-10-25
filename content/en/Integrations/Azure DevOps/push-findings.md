@@ -1,6 +1,6 @@
 ---
-title: "Push Findings to Azure DevOps Boards"
-linkTitle: "Push Findings to Azure DevOps Boards"
+title: "Push Findings to Azure DevOps"
+linkTitle: "Push Findings to Azure DevOps"
 weight: 50
 description: >
   Once you’ve connected your Azure DevOps instance, you can configure pentests to push findings to an ADO Team Project.
