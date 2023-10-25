@@ -14,7 +14,7 @@ As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organiz
 2. On the **Connection** tab, click **Add Connection**.
 3. In the **Configure Connection with Azure DevOps** form of the overlay, enter:
    - OAuth 2.0 grant type
-   - Organization: Your Azure DevOps Organization ID (https://dev.azure.com/{yourOrganization})
+   - Organization: Your Azure DevOps Organization ID (`https://dev.azure.com/{yourOrganization}`)
    - API Version: 7.0
    - Username: Your account email address in Azure DevOps
    - Personal Access Token: Your Azure DevOps [personal access token](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows)
