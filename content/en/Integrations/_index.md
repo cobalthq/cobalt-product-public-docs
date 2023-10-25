@@ -40,9 +40,9 @@ Streamline your pentesting and development workflows with Cobalt integrations.
 | <img src="/integrations/PlexTrac.png" alt="PlexTrac icon" title="PlexTrac icon" width="35" style="padding-right: 5px"> [PlexTrac](https://docs.plextrac.com/plextrac-documentation/product-documentation/account-management/account-admin/tools-and-integrations/integrations/cobalt) | Partner | Import Cobalt findings into a PlexTrac report
 | <img src="/integrations/anecdotes.png" alt="anecdotes icon" title="anecdotes icon" width="35" style="padding-right: 5px"> [anecdotes](https://www.anecdotes.ai/plugins/security) | Partner | Integrate Cobalt findings into the anecdotes.ai compliance operating system
 
-## Request a Beta Integration
+## Request an Integration
 
-Request to enable a beta integration for your next pentest to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software:
+Request to enable an integration for your next pentest to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software:
 
 {{% beta-integrations-list %}}
 
