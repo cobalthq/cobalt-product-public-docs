@@ -49,5 +49,5 @@ You can manage Azure DevOps connections for specific pentests:
 1. View the connection status in **Integrations** > **Azure DevOps Boards** > **Configuration**. 
 2. Next to a pentest with the integration enabled (where the Status indicator is green), select the gear icon ![Gear icon](/icons/Gear.png "Gear icon").
 3. For any sync that is enabled (indicated by a blue toggle), disable it by toggling it to a gray state.
-4. Click the back arrow ![LeftArrow icon](/icons/LeftArrow.png "LeftArrow icon") icon to return to the list.
+4. Click the back arrow ![ArrowLeft icon](/icons/ArrowLeft.png "ArrowLeft icon") icon to return to the list.
 5. The Status indicator will now display in gray.
