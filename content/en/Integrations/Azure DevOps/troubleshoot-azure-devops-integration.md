@@ -32,7 +32,7 @@ Possible reasons:
 
 ## Work Items Are Not Being Created
 
-Azure Devops integration is enabled for the pentest but work items are not being created when findings are moved to Pending Fix.
+Azure DevOps integration is enabled for the pentest but work items are not being created when findings are moved to Pending Fix.
 
 Possible reasons:  
 - **Personal Access Token (PAT) expired**: Your Azure DevOps PAT may need to be refreshed.  
