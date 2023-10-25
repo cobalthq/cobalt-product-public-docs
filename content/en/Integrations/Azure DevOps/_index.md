@@ -89,7 +89,7 @@ Findings are pushed to Azure DevOps when they are published and set to Pending F
 {{%expand "Does the integration work with my Azure DevOps Server?" %}}
 <br>
 
-No, only Azure DevOps Cloud is currently supported. If you use an on-prem version, please reach out to us at integrations@cobalt.io. 
+No, only Azure DevOps Cloud is currently supported. If you use an on-prem version, please reach out to us at [integrations@cobalt.io](mailto:integrations@cobalt.io). 
 
 {{% /expand %}}
 <br>
