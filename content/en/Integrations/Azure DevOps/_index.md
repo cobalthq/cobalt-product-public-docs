@@ -20,7 +20,7 @@ Integrate with Azure DevOps to create work items for your Cobalt findings and st
 
 - Connect your Azure DevOps system to Cobalt and push pentest findings as work items to your team boards.
 - Configure Azure DevOps for each pentest, selecting the Team Project, Work Item Type, and other field mappings for tickets created from findings.
-- When a new finding in the Pending Fix [state](platform-deep-dive/pentests/findings/finding-states) is reported, a new work item is automatically created in Azure DevOps.
+- When a new finding in the Pending Fix [state](/platform-deep-dive/pentests/findings/finding-states) is reported, a new work item is automatically created in Azure DevOps.
 
 ### Limitations
 
