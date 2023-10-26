@@ -6,6 +6,12 @@ You can find the source files for published Cobalt Product Documentation in this
 - Themed with [Docsy](https://github.com/google/docsy)
 - Written in [Goldmark](https://github.com/yuin/goldmark/), compatible with the [CommonMark](ihttps://commonmark.org/) Markdown specification
 
+## Tips for small and quick changes
+
+- If you wish to add a page or edit an existing one, you don't have to run the server locally.
+- All you need to do is apply your changes in standard Markdown syntax and create a draft pull request.
+- We have Netlify automation that creates a preview link to display your changes. You will find this link in your pull request, as well as in an email you will receive from the Netlify bot.
+
 ## Build Prerequisites
 
 When editing documentation, you should learn how to [build the docs "locally"](#build-the-docs-locally) on your system. To set up that build, you need to install:
