@@ -20,7 +20,7 @@ The beta period runs until December 31, 2023. During the beta, you have access t
 
 To access the Scans Beta you must be an org owner or org member.
 
-We use the following IP Address to make requests to your target: **52.19.40.38 (AWS IP)**
+We use the following IP Address to make requests to your target: **52.19.40.38**
 
 ## How to Use Scans
 
