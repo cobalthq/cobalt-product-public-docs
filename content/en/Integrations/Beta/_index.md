@@ -8,7 +8,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-<p><a href="#submit-a-request">Request to enable a beta integration</a> for your next pentest to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software.</p><p><span style="background-color: #ECE6FA; padding: 2px;">Navigate to the <b>Integrations</b> page in the Cobalt app to get started.</span> {{< tier-feature-html>}}</p>
+<p><a href="#submit-a-request">Request to enable an integration</a> for your next pentest to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software.</p><p><span style="background-color: #ECE6FA; padding: 2px;">Navigate to the <b>Integrations</b> page in the Cobalt app to get started.</span> {{< tier-feature-html>}}</p>
 {{% /pageinfo %}}
 
 The following integrations are fully functional connectors that we've developed using [Workato](https://www.workato.com/)—a workflow automation platform that enables greater flexibility to tailor our integrations to customers' unique workflows.
