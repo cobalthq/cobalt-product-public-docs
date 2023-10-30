@@ -13,7 +13,7 @@ Once you’ve connected your Azure DevOps instance, configure the integration fo
 1. In Cobalt, go to **Integrations** > **Azure DevOps Boards** > **Configuration**. Here, you can see pentests for which you can configure the integration.
 2. For the desired pentest, select the gear icon ![Gear icon](/icons/Gear.png "Gear icon").<br><br>
     ![Azure DevOps configuration gear icon](/integrations/ADO-integration-configuration-status-gear-icon.png "Azure DevOps configuration gear icon")
-3. For the **Create tickets for findings** sync, click **Edit**.<br><br>
+3. For the **Create Work Items for Findings** sync, click **Edit**.<br><br>
     ![Azure DevOps syncs edit](/integrations/ADO-integration-syncs-edit-button.png "Azure DevOps syncs edit")
 4. In the workflow editor overlay that appears, configure the integration parameters:
     - Open the **Create Work Item in Azure DevOps** action.<br><br>
@@ -28,7 +28,7 @@ Once you’ve connected your Azure DevOps instance, configure the integration fo
     ![Save Azure DevOps recipe](/integrations/ADO-documentation-configuration-embed-click-save.png "Save Azure DevOps recipe")
 6. Close the workflow editor by clicking **Done**.<br><br>
     ![Click Done to close workflow editor](/integrations/ADO-documentation-configuration-embed-click-done.png "Click Done to close workflow editor")
-7. To enable the sync for the pentest, activate the toggle for **Create tickets for findings**.<br><br>
+7. To enable the sync for the pentest, activate the toggle for **Create Work Items for Findings**.<br><br>
     ![Azure DevOps syncs switch off](/integrations/ADO-integration-syncs-switch-off.png "Azure DevOps syncs switch off")
 
 ## Set Work Item Field Values
@@ -49,7 +49,7 @@ To modify the configuration for a pentest:
 
 1. In Cobalt, go to **Integrations** > **Azure DevOps Boards** > **Configuration**. 
 2. For the desired pentest, select the gear icon ![Gear icon](/icons/Gear.png "Gear icon").
-3. For the **Create tickets for findings** sync, if the sync is enabled (indicated by a blue toggle), disable it by toggling it to a gray state.<br><br>
+3. For the **Create Work Items for Findings** sync, if the sync is enabled (indicated by a blue toggle), disable it by toggling it to a gray state.<br><br>
     ![Azure DevOps syncs switch on](/integrations/ADO-integration-syncs-switch-on.png "Azure DevOps syncs switch on")
 4. Select **Edit**.
 5. Follow the steps in [Configure the Integration for a Pentest](/integrations/azure-devops/push-findings/#configure-the-integration-for-a-pentest) to change configuration options.
