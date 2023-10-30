@@ -15,7 +15,7 @@ description: >
     ![Manage cookies and site data](/integrations/ADO-integration-troubleshoot-clear-cookies-manage.png "Manage cookies and site data")
 4. From the popup, click the trash icon beside `app.us.cobalt.io` to delete the cookie.<br><br>
     ![Cookies and site data](/integrations/ADO-integration-troubleshoot-clear-cookies-delete.png "Cookies and site data")
-5. Click the **Done**.
+5. Click **Done**.
 
 ## Check the Health of the Integration
 
