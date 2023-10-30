@@ -56,6 +56,8 @@ If you modified a configuration and the integration is not working, you can reve
 1. Going to **Integrations** > **Azure DevOps Boards** > **Configuration**, and for the desired pentest, selecting the gear icon ![Gear icon](/icons/Gear.png "Gear icon").
 2. For the “Create tickets for findings” sync, click **Edit**.
 3. In the workflow window, select **Versions** from the tab bar.
-4. Select a version of the recipe prior to the change you suspect caused the problem.
-5. Click **Restore this version** to revert to the selected version.
+4. Select a version of the recipe prior to the change you suspect caused the problem.<br><br>
+    ![Azure DevOps recipe versions](/integrations/ADO-interation-show-recipe-versions.png "Azure DevOps recipe versions")
+5. Click **Restore this version** to revert to the selected version.<br><br>
+    ![Azure DevOps restore recipe version](/integrations/ADO-integration-restore-recipe-version.png "Azure DevOps restore recipe version")
 6. Restart the recipe.
