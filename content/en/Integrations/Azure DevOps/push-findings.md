@@ -16,12 +16,12 @@ Once you’ve connected your Azure DevOps instance, configure the integration fo
 3. For the **Create tickets for findings** sync, click **Edit**.<br><br>
     ![Azure DevOps syncs edit](/integrations/ADO-integration-syncs-edit-button.png "Azure DevOps syncs edit")
 4. In the workflow editor overlay that appears, configure the integration parameters:
-   - Open the **Create Work Item in Azure DevOps** action.<br><br>
+    - Open the **Create Work Item in Azure DevOps** action.<br><br>
     ![Create work item in Azure DevOps](/integrations/jira-integration-status.png "Create work item in Azure DevOps")
-  - Select values for the required (*) parameters: **Project, Work Item Type, Title, State**. New work items created for findings in this pentest will be based on these selections.<br><br>
+    - Select values for the required (*) parameters: **Project, Work Item Type, Title, State**. New work items created for findings in this pentest will be based on these selections.<br><br>
     ![Select values for required parameters](/integrations/jira-integration-status.png "Select values for required parameters")
-  - Provide values for any other required fields in your work item template. Required fields will be marked with a red asterisk (*).
-  - Set values for any other optional fields. If a field in your work item template is not visible in the form, click **Show optional fields** at the top of the input form, and select the appropriate fields from the list.<br><br>
+    - Provide values for any other required fields in your work item template. Required fields will be marked with a red asterisk (*).
+    - Set values for any other optional fields. If a field in your work item template is not visible in the form, click **Show optional fields** at the top of the input form, and select the appropriate fields from the list.<br><br>
     ![Select values for optional fields](/integrations/jira-integration-status.png "Select values for optional fields")
 5. Click **Save** in the workflow editor to save your entries.<br><br>
     ![Save Azure DevOps recipe](/integrations/jira-integration-status.png "Save Azure DevOps recipe")
