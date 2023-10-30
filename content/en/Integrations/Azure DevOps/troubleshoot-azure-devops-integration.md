@@ -45,7 +45,7 @@ Possible reasons:
 - **Work item required fields**: Check that all required fields have a value.
 - **Work item workflow rules**: Verify that work item workflow rules do not disable fields that are passed by the integration. 
 
-You can also [check if there is an error with an integration](/integrations/azure-devops/troubleshoot-azure-devops-integration/#check-thehealth-of-the-integration) from the integration configuration screen.
+You can also [check if there is an error with an integration](/integrations/azure-devops/troubleshoot-azure-devops-integration/#check-the-health-of-the-integration) from the integration configuration screen.
 
 If you experience an error not covered by the solutions above, please reach out to your CSM or the Integrations team at [integrations@cobalt.io](mailto:integrations@cobalt.io)
 
