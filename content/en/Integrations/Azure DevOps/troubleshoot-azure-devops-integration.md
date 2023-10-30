@@ -23,7 +23,8 @@ If the integration is not functioning as expected, you can check the health and 
 
 1. Go to **Integrations** > **Azure DevOps Boards** > **Configuration**, and for the desired pentest, select the gear icon ![Gear icon](/icons/Gear.png "Gear icon").
 2. For the **Create tickets for findings** sync, click **Edit**.
-3. In the workflow window, select **Jobs** from the tab bar.
+3. In the workflow window, select **Jobs** from the tab bar.<br><br>
+    ![Azure DevOps recipe jobs tab](/integrations/ADO-integration-check-error-jobs.png "Azure DevOps recipe jobs tab")
 
 ## Configuration Forms Do Not Appear
 
