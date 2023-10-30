@@ -16,7 +16,7 @@ Integrate with Azure DevOps to create work items for your Cobalt findings and st
 
 ## Overview
 
-### How It Works
+### How it Works
 
 - Connect your Azure DevOps system to Cobalt and push pentest findings as work items to your team boards.
 - Configure Azure DevOps for each pentest, selecting the Team Project, Work Item Type, and other field mappings for tickets created from findings.
