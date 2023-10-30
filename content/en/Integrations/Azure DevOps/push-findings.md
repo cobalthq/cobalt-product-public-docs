@@ -41,7 +41,7 @@ You can set values for any field in your work item type template. In the **Creat
 To set dynamic values:
 1. Click into the desired field.
 2. In the Recipe data window, open **Parameters** > **Finding**, and click the desired parameter to populate the datapill into the field.<br><br>
-    ![Populate values with datapill](static/integrations/ADO-documentation-configuration-embed-datapill.png "Populate values with datapill")
+    ![Populate values with datapill](/integrations/ADO-documentation-configuration-embed-datapill.png "Populate values with datapill")
 
 ## Update the Configuration for a Pentest
 
