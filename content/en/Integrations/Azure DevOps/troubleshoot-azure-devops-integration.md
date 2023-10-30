@@ -22,7 +22,7 @@ description: >
 If the integration is not functioning as expected, you can check the health and get detailed performance information through the following steps:  
 
 1. Go to **Integrations** > **Azure DevOps Boards** > **Configuration**, and for the desired pentest, select the gear icon ![Gear icon](/icons/Gear.png "Gear icon").
-2. For the **Create tickets for findings** sync, click **Edit**.
+2. For the **Create Work Items for Findings** sync, click **Edit**.
 3. In the workflow window, select **Jobs** from the tab bar.<br><br>
     ![Azure DevOps recipe jobs tab](/integrations/ADO-integration-check-error-jobs.png "Azure DevOps recipe jobs tab")
 
@@ -55,7 +55,7 @@ The integration stopped working after making a change in the configuration.
 
 If you modified a configuration and the integration is not working, you can revert to a previous version by:
 1. Going to **Integrations** > **Azure DevOps Boards** > **Configuration**, and for the desired pentest, selecting the gear icon ![Gear icon](/icons/Gear.png "Gear icon").
-2. For the **Create tickets for findings** sync, click **Edit**.
+2. For the **Create Work Items for Findings** sync, click **Edit**.
 3. In the workflow window, select **Versions** from the tab bar.
 4. Select a version of the recipe prior to the change you suspect caused the problem.<br><br>
     ![Azure DevOps recipe versions](/integrations/ADO-interation-show-recipe-versions.png "Azure DevOps recipe versions")
