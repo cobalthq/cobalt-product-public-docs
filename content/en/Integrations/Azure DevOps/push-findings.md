@@ -22,7 +22,7 @@ Once you’ve connected your Azure DevOps instance, configure the integration fo
 - Set values for any other optional fields. If a field in your work item template is not visible in the form, click **Show optional fields** at the top of the input form, and select the appropriate fields from the list.
 5. Click **Save** in the workflow editor to save your entries.
 6. Close the workflow editor by clicking **Done**.
-7. To enable sync for the pentest, activate the toggle for **Create tickets for findings**.<br><br>
+7. To enable thge sync for the pentest, activate the toggle for **Create tickets for findings**.<br><br>
     ![Azure DevOps syncs switch off](/integrations/ADO-integration-syncs-switch-off.png "Azure DevOps syncs switch off")
 
 ## Set Work Item Field Values
