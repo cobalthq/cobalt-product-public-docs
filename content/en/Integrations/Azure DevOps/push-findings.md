@@ -17,17 +17,18 @@ Once you’ve connected your Azure DevOps instance, configure the integration fo
     ![Azure DevOps syncs edit](/integrations/ADO-integration-syncs-edit-button.png "Azure DevOps syncs edit")
 4. In the workflow editor overlay that appears, configure the integration parameters:
     - Open the **Create Work Item in Azure DevOps** action.<br><br>
-    ![Create work item in Azure DevOps](/integrations/jira-integration-status.png "Create work item in Azure DevOps")
+    ![Create work item in Azure DevOps](/integrations/ADO-documentation-configuration-embed-create-work-item.png "Create work item in Azure DevOps")
     - Select values for the required (*) parameters: **Project, Work Item Type, Title, State**. New work items created for findings in this pentest will be based on these selections.<br><br>
-    ![Select values for required parameters](/integrations/jira-integration-status.png "Select values for required parameters")
+    ![Select values for required parameters](/integrations/ADO-documentation-required-parameters.png "Select values for required parameters")
     - Provide values for any other required fields in your work item template. Required fields will be marked with a red asterisk (*).
     - Set values for any other optional fields. If a field in your work item template is not visible in the form, click **Show optional fields** at the top of the input form, and select the appropriate fields from the list.<br><br>
-    ![Select values for optional fields](/integrations/jira-integration-status.png "Select values for optional fields")
+    ![Select values for optional fields](/integrations/ADO-documentation-configuration-embed-optional-fields.png "Select values for optional fields")<br><br>
+    ![Select values for optional fields overlay](/integrations/ADO-documentation-configuration-embed-optional-fields-overlay.png "Select values for optional fields overlay")
 5. Click **Save** in the workflow editor to save your entries.<br><br>
-    ![Save Azure DevOps recipe](/integrations/jira-integration-status.png "Save Azure DevOps recipe")
+    ![Save Azure DevOps recipe](/integrations/ADO-documentation-configuration-embed-click-save.png "Save Azure DevOps recipe")
 6. Close the workflow editor by clicking **Done**.<br><br>
-    ![Click Done to close workflow editor](/integrations/jira-integration-status.png "Click Done to close workflow editor")
-7. To enable thge sync for the pentest, activate the toggle for **Create tickets for findings**.<br><br>
+    ![Click Done to close workflow editor](/integrations/ADO-documentation-configuration-embed-click-done.png "Click Done to close workflow editor")
+7. To enable the sync for the pentest, activate the toggle for **Create tickets for findings**.<br><br>
     ![Azure DevOps syncs switch off](/integrations/ADO-integration-syncs-switch-off.png "Azure DevOps syncs switch off")
 
 ## Set Work Item Field Values
@@ -40,7 +41,7 @@ You can set values for any field in your work item type template. In the **Creat
 To set dynamic values:
 1. Click into the desired field.
 2. In the Recipe data window, open **Parameters** > **Finding**, and click the desired parameter to populate the datapill into the field.<br><br>
-    ![Populate values with datapill](/integrations/ADO-integration-syncs-switch-off.png "Populate values with datapill")
+    ![Populate values with datapill](static/integrations/ADO-documentation-configuration-embed-datapill.png "Populate values with datapill")
 
 ## Update the Configuration for a Pentest
 
