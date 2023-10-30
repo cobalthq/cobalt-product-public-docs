@@ -27,7 +27,7 @@ Once you’ve connected your Azure DevOps instance, configure the integration fo
 
 ## Set Work Item Field Values
 
-You can set values for any fields in your work item type template. In the **Create Work Item in Azure DevOps** action, once you’ve selected the **Project** and **Work Item Type**, all fields in the work item type template will be presented in the form. Values can be entered as:
+You can set values for any field in your work item type template. In the **Create Work Item in Azure DevOps** action, once you’ve selected the **Project** and **Work Item Type**, all fields in the work item type template will be presented in the form. Values can be entered as:
 - **Static** text values will be passed for every work item created for the pentest.
 - **Dynamic** values can be entered using datapills, and will populate the input with parameters for the specific finding for which the work item is created.  
 - **Combination** of static text and datapills to combine and format multiple parameters.
