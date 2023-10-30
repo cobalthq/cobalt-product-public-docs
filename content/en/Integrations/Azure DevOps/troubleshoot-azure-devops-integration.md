@@ -47,7 +47,7 @@ Possible reasons:
 
 You can also [check if there is an error with an integration](/integrations/azure-devops/troubleshoot-azure-devops-integration/#check-the-health-of-the-integration) from the integration configuration screen.
 
-If you experience an error not covered by the solutions above, please reach out to your CSM or the Integrations team at [integrations@cobalt.io](mailto:integrations@cobalt.io)
+If you experience an error not covered by the solutions above, please reach out to your CSM or the Integrations team at [integrations@cobalt.io](mailto:integrations@cobalt.io).
 
 ## Revert a Change
 
@@ -55,7 +55,7 @@ The integration stopped working after making a change in the configuration.
 
 If you modified a configuration and the integration is not working, you can revert to a previous version by:
 1. Going to **Integrations** > **Azure DevOps Boards** > **Configuration**, and for the desired pentest, selecting the gear icon ![Gear icon](/icons/Gear.png "Gear icon").
-2. For the “Create tickets for findings” sync, click **Edit**.
+2. For the **Create tickets for findings** sync, click **Edit**.
 3. In the workflow window, select **Versions** from the tab bar.
 4. Select a version of the recipe prior to the change you suspect caused the problem.<br><br>
     ![Azure DevOps recipe versions](/integrations/ADO-interation-show-recipe-versions.png "Azure DevOps recipe versions")
