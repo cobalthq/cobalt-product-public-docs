@@ -46,7 +46,7 @@ Request to enable an integration for your next pentest to streamline your remedi
 
 {{% beta-integrations-list %}}
 
-Learn more about [beta integrations](/integrations/beta/).
+Learn more about [these integrations](/integrations/beta/).
 
 ## Build Your Own Integration
 
