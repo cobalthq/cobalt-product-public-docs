@@ -9,9 +9,12 @@ description: >
 ## Clear Cobalt Session Cookies
 
 1. Launch Chrome and navigate to the Cobalt application (https://app.us.cobalt.io).
-2. On the left side of the address bar, click the Site Information icon, then select **Cookies and site data**.
-3. Click **Manage cookies and site data**.
-4. From the popup, click the trash icon beside `app.us.cobalt.io` to delete the cookie.
+2. On the left side of the address bar, click the Site Information icon, then select **Cookies and site data**.<br><br>
+    ![Site information](/integrations/ADO-integration-troubleshoot-clear-cookies-cookies-site-data.png "Site information")
+3. Click **Manage cookies and site data**.<br><br>
+    ![Manage cookies and site data](/integrations/ADO-integration-troubleshoot-clear-cookies-manage.png "Manage cookies and site data")
+4. From the popup, click the trash icon beside `app.us.cobalt.io` to delete the cookie.<br><br>
+    ![Cookies and site data](/integrations/ADO-integration-troubleshoot-clear-cookies-delete.png "Cookies and site data")
 5. Click the **Done**.
 
 ## Check the Health of the Integration
