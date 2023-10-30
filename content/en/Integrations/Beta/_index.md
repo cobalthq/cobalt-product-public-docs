@@ -26,7 +26,7 @@ The following integrations are fully functional connectors that we've developed 
 To opt in to the program:
 
 1. Navigate to the **Integrations** page, and select the desired app with the {{< coming-soon >}} label.
-1. Complete the sign-up form.
+1. In the overlay that appears, click **Request Integration**.
 
 By submitting a request, you're joining a waiting list to have the integration enabled for your next pentest with Cobalt.
 
