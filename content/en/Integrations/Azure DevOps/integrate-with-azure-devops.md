@@ -12,7 +12,7 @@ As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organiz
 
 1. In Cobalt, go to **Integrations** > **Azure DevOps Boards**.
 2. On the **Connection** tab, click **Add Connection**.
-3. In the **Configure Connection with Azure DevOps** form of the overlay, enter:
+3. In the **Configure Connection with Azure DevOps Boards** form of the overlay, enter:
    - OAuth 2.0 grant type
    - Organization: Your Azure DevOps Organization ID (`https://dev.azure.com/{yourOrganization}`)
    - API Version: 7.0
@@ -22,7 +22,7 @@ As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organiz
 
 Return to the Cobalt app, and check the integration status. You should see *Integration Status: Connected* on the **Azure DevOps Boards > Connection** page.
 
-When you’re done, configure the integration for specific pentests.
+When you’re done, [configure the integration](/integrations/azure-devops/push-findings/#configure-the-integration-for-a-pentest) for specific pentests.
 
 ## Update Connection
 
