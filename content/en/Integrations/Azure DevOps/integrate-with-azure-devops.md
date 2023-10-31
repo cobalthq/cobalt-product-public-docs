@@ -18,7 +18,7 @@ As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organiz
    - API Version: 7.0
    - Username: Your account email address in Azure DevOps
    - Personal Access Token: Your Azure DevOps [personal access token](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows)
-4. Click **Done**.
+4. Click **Connect**, then **Done**.
 
 Return to the Cobalt app, and check the integration status. You should see *Integration Status: Connected* on the **Azure DevOps Boards > Connection** page.
 
