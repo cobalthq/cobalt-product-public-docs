@@ -16,19 +16,19 @@ Once you’ve connected your Azure DevOps instance, configure the integration fo
 3. For the **Create Work Items for Findings** sync, click **Edit**.<br><br>
     ![Azure DevOps syncs edit](/integrations/ADO-integration-syncs-edit-button.png "Azure DevOps syncs edit")
 4. In the workflow editor overlay that appears, configure the integration parameters:
-    - Open the **Create Work Item in Azure DevOps** action.<br><br>
+   1. Open the **Create Work Item in Azure DevOps** action.<br><br>
     ![Create work item in Azure DevOps](/integrations/ADO-documentation-configuration-embed-create-work-item.png "Create work item in Azure DevOps")
-    - Select values for the required (*) parameters: **Project, Work Item Type, Title, State**. New work items created for findings in this pentest will be based on these selections.<br><br>
+    2. Select values for the required (*) parameters: **Project, Work Item Type, Title, State**. New work items created for findings in this pentest will be based on these selections.<br><br>
     ![Select values for required parameters](/integrations/ADO-documentation-required-parameters.png "Select values for required parameters")
-    - Provide values for any other required fields in your work item template. Required fields will be marked with a red asterisk (*).
-    - Set values for any other optional fields. If a field in your work item template is not visible in the form, click **Show optional fields** at the top of the input form, and select the appropriate fields from the list.<br><br>
+    3. Provide values for any other required fields in your work item template. Required fields will be marked with a red asterisk (*).
+    4. Set values for any other optional fields. If a field in your work item template is not visible in the form, click **Show optional fields** at the top of the input form, and select the appropriate fields from the list.<br><br>
     ![Select values for optional fields](/integrations/ADO-documentation-configuration-embed-optional-fields.png "Select values for optional fields")<br><br>
     ![Select values for optional fields overlay](/integrations/ADO-documentation-configuration-embed-optional-fields-overlay.png "Select values for optional fields overlay")
-5. Click **Save** in the workflow editor to save your entries.<br><br>
+6. Click **Save** in the workflow editor to save your entries.<br><br>
     ![Save Azure DevOps recipe](/integrations/ADO-documentation-configuration-embed-click-save.png "Save Azure DevOps recipe")
-6. Close the workflow editor by clicking **Done**.<br><br>
+7. Close the workflow editor by clicking **Done**.<br><br>
     ![Click Done to close workflow editor](/integrations/ADO-documentation-configuration-embed-click-done.png "Click Done to close workflow editor")
-7. To enable the sync for the pentest, activate the toggle for **Create Work Items for Findings**.<br><br>
+8. To enable the sync for the pentest, activate the toggle for **Create Work Items for Findings**.<br><br>
     ![Azure DevOps syncs switch off](/integrations/ADO-integration-syncs-switch-off.png "Azure DevOps syncs switch off")
 
 ## Set Work Item Field Values
