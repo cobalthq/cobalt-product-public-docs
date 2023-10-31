@@ -62,7 +62,7 @@ Yes. When configuring the integration for a pentest, you can set values for all 
 {{%expand "Can I manually create a work item for an individual finding?" %}}
 <br>
 
-No, auto-push is currently not supported. 
+No, only auto-push is currently supported. 
 
 {{% /expand %}}
 <br>
