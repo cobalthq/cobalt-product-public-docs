@@ -6,17 +6,6 @@ description: >
   Troubleshoot common issues with the Azure DevOps integration.
 ---
 
-## Clear Cobalt Session Cookies
-
-1. Launch Chrome and navigate to the Cobalt application (https://app.us.cobalt.io).
-2. On the left side of the address bar, click the Site Information icon, then select **Cookies and site data**.<br><br>
-    ![Site information](/integrations/ADO-integration-troubleshoot-clear-cookies-cookies-site-data.png "Site information")
-3. Click **Manage cookies and site data**.<br><br>
-    ![Manage cookies and site data](/integrations/ADO-integration-troubleshoot-clear-cookies-manage.png "Manage cookies and site data")
-4. From the popup, click the trash icon beside `app.us.cobalt.io` to delete the cookie.<br><br>
-    ![Cookies and site data](/integrations/ADO-integration-troubleshoot-clear-cookies-delete.png "Cookies and site data")
-5. Click **Done**.
-
 ## Check the Health of the Integration
 
 If the integration is not functioning as expected, you can check the health and get detailed performance information through the following steps:  
@@ -30,9 +19,8 @@ If the integration is not functioning as expected, you can check the health and 
 
 The forms do not appear when attempting to set up a connection or configure Azure DevOps for a pentest.
 
-Possible reasons:
-- Blocked cookies: If your browser is set to block all third-party cookies, you must allow cookies for `cobalt.io` by following [these instructions](https://support.google.com/chrome/answer/95647?sjid=8733712878597538106-NA#zippy=%2Callow-or-block-third-party-cookies%2Callow-third-party-cookies-for-a-specific-site). 
-- Outdated cookies: If this is your first time using the Azure DevOps integration in the Cobalt platform, you must first [clear Cobalt session cookies](/integrations/azure-devops/troubleshoot-azure-devops-integration/#clear-cobalt-session-cookies).
+Possible reason:
+- Blocked cookies: If your browser is set to block all third-party cookies, you must allow cookies for `cobalt.io` by following [these instructions](https://support.google.com/chrome/answer/95647?sjid=8733712878597538106-NA#zippy=%2Callow-or-block-third-party-cookies%2Callow-third-party-cookies-for-a-specific-site).
 
 ## Work Items Are Not Being Created
 
