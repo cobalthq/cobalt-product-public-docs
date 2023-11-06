@@ -467,7 +467,7 @@ Contrast with [Traditional Web Application](#traditional-web-application).
 
 A Specialized pentest that you see in the Cobalt UI is an engagement conducted by the Cobalt [Cybersecurity Services](https://www.cobalt.io/services/cybersecurity-consulting) team.
 
-Learn more about [Cybersecurity Services](/professional-services/).
+Learn more about [Cybersecurity Services](/cybersecurity-services/).
 
 ## Static Web Page
 
