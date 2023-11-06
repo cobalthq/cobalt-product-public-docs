@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Services Pentests"
+title: "Cybersecurity Services"
 linkTitle: "Cybersecurity Services"
 weight: 6
 description: >
