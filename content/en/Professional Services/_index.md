@@ -1,33 +1,35 @@
 ---
-title: "Professional Services Pentests"
-linkTitle: "Professional Services"
+title: "Cybersecurity Services Pentests"
+linkTitle: "Cybersecurity Services"
 weight: 6
 description: >
-  Run advanced pentest engagements with the Cobalt Professional Services team.
+  Run advanced engagements with the Cobalt Cybersecurity Services team.
 ---
 
 {{% pageinfo %}}
-Professional Services are an extension of our core [PtaaS platform](https://www.cobalt.io/ptaas) offering. Our security experts can run advanced pentest engagements for your organization, acting as an extension of your internal security team.
+Cybersecurity Services provide security testing solutions beyond pentesting. Our focus on process execution allows for faster engagements with a centralized view into the health of security programs and a clear path for elevated security posture.
 {{% /pageinfo %}}
 
 <a class="btn btn-outline-primary rounded" href="mailto:professional_services@cobalt.io" target="_blank">Need an Advanced Pentest? Contact Us »</a>
 
 ## Pentest Engagements
 
-The Cobalt Professional Services team can run the following pentest engagements:
+The Cobalt Cybersecurity Services team can run the following pentest engagements:
 
-- IoT ecosystem testing
-- Thick client application testing
-- Wireless network testing
-- Physical social engineering
-- Threat modeling
-- Phishing
-- Red teaming
-- Security hardening
+- IoT ecosystem pentest
 - Secure code review
+- Vulnerability validation
+- Goal-based pentest
+- Threat modeling
+- Red teaming
+- Thick client application pentest
+- Wireless network pentest
+- Physical social engineering
+- Electronic social engineering
+- Security hardening
 - Pentest program management
 
-Can't find what you need? [Contact us](mailto:professional_services@cobalt.io) to plan a pentest tailored to your needs.
+Can't find what you need? [Contact us](mailto:professional_services@cobalt.io) to plan an engagement tailored to your needs.
 
 <!--
 ## Pentest Methodologies
@@ -50,20 +52,20 @@ We follow pentest methodologies based on the industry best practices. Learn more
 ![Lifecycle of the Cobalt pentest program](/deepdive/PentestProcessFlow.png "Lifecycle of the Cobalt pentest program")
 <br><br>
 
-Here are the stages of an advanced pentest engagement:
+Here are the stages of a Cybersecurity Service engagement:
 
 | | Stage | Description |
 |---|---|---|
-| 1 | **Discover** | You define what you need to test and [contact](mailto:professional_services@cobalt.io) the Cobalt Professional Services team.  |
-| 2 | **Plan** | We arrange a kickoff call to plan, scope, and schedule your pentest. During this stage, we:<ul><li>Determine the pentest scope, including the [engagement type](#pentest-engagements) and pentest methodology.</li><li>Create a Statement of Work.</li><li>Set pentest timelines.</li></ul> |
-| 3 | **Test** | The Cobalt Professional Services team tests your asset using the determined pentest methodology.<ul><li>We share vulnerabilities that we discover in real time, in a dedicated Slack channel.</li><li>At this stage, you can start remediating findings.</li></ul> |
-| 4 | **Remediate** | The testing process is complete. Remediate findings that pentesters discovered.<ul><li>We provide remediation guidance during testing.</li><li>We don't provide free retesting for advanced pentests.</li></ul> |
-| 5 | **Report** | We share a report once the pentest engagement is complete.<ul><li>For advanced pentests, the [report sections](/platform-deep-dive/pentests/reports/report-contents/) may differ compared to standard pentests.</li><li>We also offer a debrief call where you can ask questions about the remediation, report, and testing that we performed.</li></ul> |
-| 6 | **Analyze** | Once the pentest is complete, analyze the security posture of your asset.<ul><li>Deep dive into the pentest report to assess discovered vulnerabilities with your development and security teams.</li><li>Take the required remediation actions.</li><li>Identify what you expect from your next pentest for this asset.</li></ul> |
+| 1 | **Discover** | You define what you need to test and request the service in the platform or contact your CSM.  |
+| 2 | **Plan** | We arrange a kickoff call to plan, scope, and schedule the service. During this stage, we:<ul><li>Determine the scope, including the [engagement type](#pentest-engagements) and  methodology.</li><li>Create a Statement of Work.</li><li>Set timelines.</li></ul> |
+| 3 | **Test** | The Cobalt Cybersecurity Services team tests your asset using the determined methodology.<ul><li>We share vulnerabilities that we discover in real time, in a dedicated Slack channel.</li><li>At this stage, you can start remediating findings.</li></ul> |
+| 4 | **Remediate** | The testing process is complete. Remediate discovered findings.<ul><li>We provide remediation guidance during testing.</li><li>We don't provide free retesting for Cybersecurity Services.</li></ul> |
+| 5 | **Report** | We share a report once the engagement is complete.<ul><li>For advanced pentests, the [report sections](/platform-deep-dive/pentests/reports/report-contents/) may differ compared to standard pentests.</li><li>We also offer a debrief call where you can ask questions about the remediation, report, and testing performed.</li></ul> |
+| 6 | **Analyze** | Once the engagement is complete, analyze the security posture of your asset.<ul><li>Deep dive into the report to assess discovered vulnerabilities with your development and security teams.</li><li>Take the required remediation actions.</li></ul> |
 
 ## Asset Types
 
-For advanced pentests run by the Cobalt Professional Services team, we support additional asset types, beyond our standard [asset types](/platform-deep-dive/assets/asset-types/). You may see these asset types in the Cobalt UI:
+Cybersecurity Services supports additional asset types, beyond our standard pentest [asset types](/platform-deep-dive/assets/asset-types/). You may see these asset types in the Cobalt UI:
 
 | Asset Type | Description |
 |---|---|
@@ -71,17 +73,12 @@ For advanced pentests run by the Cobalt Professional Services team, we support a
 | Physical | An office, building, campus, or a physical device. |
 | Thick Client | An application installed locally on a user's computer. |
 | Wireless Network | A network that allows devices to stay connected without using wires of any kind. |
-| Other | Asset used in other advanced pentest engagements, such as phishing, read teaming, security hardening, and more.
+| Other | Asset used in other engagements, such as phishing, red teaming, security hardening, and more.
 
-## How to Launch a Pentest
-
-A Specialized pentest that you see in the Cobalt UI is a pentest engagement conducted by the Cobalt Professional Services team.
+## How to Request Cybersecurity Services
 
 ![Specialized pentest in the Cobalt UI](/profservices/specialized-pentest-label.png "Specialized pentest in the Cobalt UI")
 
-To launch an advanced pentest, **contact our Professional Services team** at [professional_services@cobalt.io](mailto:professional_services@cobalt.io). You can't create an advanced pentest or set up a special asset in the UI—we'll do that for you.
+To request a Cybersecurity Service, navigate to the Services tab in the Cobalt UI. Select the services you’re interested in and select ‘Request Service’.
 
-Once we've set up a Specialized pentest, you can:
-
-- Edit [asset details](/getting-started/assets/#asset-details), except for the asset type.
-- Edit pentest details. Some pentest parameters may slightly differ for Specialized pentests.
+Our CSM team will reach out to start the process at a time that suits you.
