@@ -40,7 +40,7 @@ The availability of some features in the Cobalt platform depends on the {{% ptaa
 | Credit rollover | — | — | Up to 10% | At the end of your calendar year of purchase, we'll rollover up to 10% of your remaining credits to the next calendar year. Contact your CSM for more details. |
 
 {{% alert title="Note" color="primary" %}}
-Cobalt offers **security services beyond pentesting**. Our goal is to be an ongoing resource for our customers and a true extension of their security team by helping them protect their broader IT ecosystems. For this reason, we offer a variety of <a href="https://demo.cobalt.io/hubfs/Cobalt_Professional%20Services_Brochure.pdf" target="_blank">professional services</a> designed to boost the maturity of your current security program and improve your overall security posture.
+Cobalt offers **security services beyond pentesting**. Our goal is to be an ongoing resource for our customers and a true extension of their security team by helping them protect their broader IT ecosystems. For this reason, we offer a variety of <a href="https://demo.cobalt.io/hubfs/Cobalt_Professional%20Services_Brochure.pdf" target="_blank">Cybersecurity Services</a> designed to boost the maturity of your current security program and improve your overall security posture.
 {{% /alert %}}
 
 ## View Your Organization's Tier
