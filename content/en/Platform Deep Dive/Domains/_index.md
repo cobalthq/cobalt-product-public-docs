@@ -96,8 +96,11 @@ Action:  Think about also having the DNS entry only available within your VPN.
 4. This host refers to a smtp server which did not respond successfully.
 
 What: This host refers to a smtp server by a MX DNS record which did not respond successfully.
+
 Why: That could mean you refer to an account or resource which does not exist anymore and could be registered by someone else.
+
 Action: Check whether the referred smtp server still exists and responds as intended.
+
 Severiy: Medium
 
 5.	This host refers to a dns server which did not respond successfully.
