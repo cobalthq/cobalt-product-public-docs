@@ -91,7 +91,7 @@ Severiy: Low
 
 What: The IP of this host seem to be offline as it does not react to any port.
 Why: That could mean you have a public DNS entry pointing to an IP which is only available in your VPN. Someone could start a server with the same IP in another network.
-Action:  Think about also having the DNS entry only available within your VPN.
+Action: Think about also having the DNS entry only available within your VPN.
 
 4. This host refers to a smtp server which did not respond successfully.
 
