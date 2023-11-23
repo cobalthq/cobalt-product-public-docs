@@ -83,8 +83,11 @@ Severiy: Low
 2. This host refers to another domain, but does not resolve to any IP, someone could register this domain.
 
 What: This host refers to another domain by a CNAME, MX or NS DNS record which does not have an IP DNS record.
+
 Why: That could mean you refer to an IP you no longer own which could be registered by someone else.
+
 Action: Check whether the referred domain still exists.
+
 Severiy: Low
 
 3. We did not reach a server with this IP, potentially someone could start a server with the same IP. If it’s only available within your VPN you should think about also having the DNS entry only available within your VPN.
