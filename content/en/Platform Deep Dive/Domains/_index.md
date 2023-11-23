@@ -70,49 +70,54 @@ Filtering for the date can be helpful e.g. if you want to surface only Host that
 
 The Takeover Risk feature considers 5 conditions, that when are true could indicate a potential risk of DNS- or Subdomain takeover. 
 
-1. This host refers to a website or api which did not respond successfully.
+1.  We did not reach a server with this IP, potentially someone could start a server with the same IP. If it’s only available within your VPN you should think about also having the DNS entry only available within your VPN.
 
-What: This host refers to a website or api by a CNAME DNS record which did not respond successfully.
+* What: The IP of this host seems to be offline as it does not react to any port.
+  
+* Why: That could mean you have a public DNS entry pointing to an IP which is only available in your VPN. Someone could start a server with the same IP in another network.
+  
+* Action: Think about also having the DNS entry only available within your VPN.This host refers to a website or api which did not respond successfully.
 
-Why: That could mean you refer to an account or resource which does not exist anymore and could be registered by someone else.
+* Severity: Informational
 
-Action: Check whether the referred website or api still exists and responds as intended.
+2. This host refers to a website or api which did not respond successfully.
 
-Severiy: Low
+* What: This host refers to a website or api by a CNAME DNS record which did not respond successfully.
 
-2. This host refers to another domain, but does not resolve to any IP, someone could register this domain.
+* Why: That could mean you refer to an account or resource which does not exist anymore and could be registered by someone else.
 
-What: This host refers to another domain by a CNAME, MX or NS DNS record which does not have an IP DNS record.
+* Action: Check whether the referred website or api still exists and responds as intended.
 
-Why: That could mean you refer to an IP you no longer own which could be registered by someone else.
+* Severity: Low
 
-Action: Check whether the referred domain still exists.
+3. This host refers to another domain, but does not resolve to any IP, someone could register this domain.
 
-Severiy: Low
+* What: This host refers to another domain by a CNAME, MX or NS DNS record which does not have an IP DNS record.
 
-3. We did not reach a server with this IP, potentially someone could start a server with the same IP. If it’s only available within your VPN you should think about also having the DNS entry only available within your VPN.
+* Why: That could mean you refer to an IP you no longer own which could be registered by someone else.
 
-What: The IP of this host seem to be offline as it does not react to any port.
-Why: That could mean you have a public DNS entry pointing to an IP which is only available in your VPN. Someone could start a server with the same IP in another network.
-Action: Think about also having the DNS entry only available within your VPN.
+* Action: Check whether the referred domain still exists.
+
+* Severity: Low
+
 
 4. This host refers to a smtp server which did not respond successfully.
 
-What: This host refers to a smtp server by a MX DNS record which did not respond successfully.
+* What: This host refers to a smtp server by a MX DNS record which did not respond successfully.
 
-Why: That could mean you refer to an account or resource which does not exist anymore and could be registered by someone else.
+* Why: That could mean you refer to an account or resource which does not exist anymore and could be registered by someone else.
 
-Action: Check whether the referred smtp server still exists and responds as intended.
+* Action: Check whether the referred smtp server still exists and responds as intended.
 
-Severiy: Medium
+* Severity: Medium
 
 5. This host refers to a dns server which did not respond successfully.
 
-What: This host refers to a DNS server by a NS DNS record which did not respond successfully.
+* What: This host refers to a DNS server by a NS DNS record which did not respond successfully.
 
-Why: That could mean you refer to an account or resource which does not exist anymore and could be registered by someone else.
+* Why: That could mean you refer to an account or resource which does not exist anymore and could be registered by someone else.
 
-Action: Check whether the referred DNS server still exists and responds as intended.
+* Action: Check whether the referred DNS server still exists and responds as intended.
 
-Severiy: Medium
+* Severity: Medium
 
