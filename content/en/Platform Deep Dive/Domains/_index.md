@@ -103,7 +103,7 @@ Action: Check whether the referred smtp server still exists and responds as inte
 
 Severiy: Medium
 
-5.	This host refers to a dns server which did not respond successfully.
+5. This host refers to a dns server which did not respond successfully.
 
 What: This host refers to a DNS server by a NS DNS record which did not respond successfully.
 
