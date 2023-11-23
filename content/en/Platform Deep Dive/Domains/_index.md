@@ -73,8 +73,11 @@ The Takeover Risk feature considers 5 conditions, that when are true could indic
 1. This host refers to a website or api which did not respond successfully.
 
 What: This host refers to a website or api by a CNAME DNS record which did not respond successfully.
+
 Why: That could mean you refer to an account or resource which does not exist anymore and could be registered by someone else.
+
 Action: Check whether the referred website or api still exists and responds as intended.
+
 Severiy: Low
 
 2. This host refers to another domain, but does not resolve to any IP, someone could register this domain.
