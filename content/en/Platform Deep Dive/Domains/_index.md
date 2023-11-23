@@ -104,7 +104,3 @@ Why: That could mean you refer to an account or resource which does not exist an
 Action: Check whether the referred DNS server still exists and responds as intended.
 Severiy: Medium
 
-
-
-
-
