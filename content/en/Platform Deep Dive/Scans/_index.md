@@ -14,7 +14,7 @@ The complexity of today's applications, combined with the constant evolution of 
 
 Scans address these challenges head-on. By combining the power of PtaaS with DAST, you gain a comprehensive solution for continuously assessing risk.
 
-The beta period runs until December 31, 2023. During the beta, you have access to three scans a month, allowing you to fully explore this new feature. Anticipate usage and limitation adjustments in 2024.
+The beta period runs until December 31, 2023. During the beta, you have access to three scans a month, allowing you to fully explore this new feature. Scans reset on the first of the month. Anticipate usage and limitation adjustments in 2024.
 
 To access the Scans Beta you must be an org owner or org member. Staff org members can also access this section to be able to better provide support.
 
@@ -38,6 +38,7 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
       2. Add fields (You will likely have one field for username and one for password)
           - Field Name
           - Field Value
+    - **NOTE**: Currently, the Scans tool only supports login form authentication.
 
 ![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
 
