@@ -70,7 +70,7 @@ Scoping parameters differ for each [asset type](/platform-deep-dive/assets/asset
 - [External Network](#external-network)
 - [Internal Network](#internal-network)
 - [Cloud Config](#cloud-configuration)
-- [Desktop] (#desktop)
+- [Desktop](#desktop)
 - [Assets of multiple types](#assets-of-multiple-types)
 
 Once you've scoped the pentest, review the required [credits](#view-required-credits), as determined by our algorithm.
