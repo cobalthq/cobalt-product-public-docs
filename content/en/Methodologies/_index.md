@@ -30,7 +30,7 @@ asset.
 - [External Network](/methodologies/external-network/)
 - [Cloud](/methodologies/cloud/)
 - [Azure AD](/methodologies/azure-ad/)
-- [Desktop] (/methodologies/desktop/)
+- [Desktop](/methodologies/desktop/)
 
 In most cases, the Methodology is fixed, based on the [Asset Type](/platform-deep-dive/assets/asset-types/)
 you defined earlier. However, if you selected a combined asset type, such as Web + API, you
