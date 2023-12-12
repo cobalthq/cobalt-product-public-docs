@@ -101,7 +101,7 @@ You should also include the architecture of your cloud configuration.
 
 Cloud Configuration Reviews meet the Security standards based on the Center for Internet Security (CIS) Benchmarks. AWS CIS Benchmarks cover IAM, Storage, Logging, Monitoring, and Networking.
 
-#### Specific checks catogories that are covered as part of the Pentest
+#### Specific checks categories that are covered as part of the Pentest
 
 1. AWS Cloudtrail
 2. AWS Cloudwatch
@@ -131,7 +131,7 @@ Our pentesters need access to test your GCP systems. To that end, you should pre
 
 Cloud Configuration Reviews meet the Security standards based on the Center for Internet Security (CIS) Benchmarks. GCP CIS Benchmarks cover IAM, Storage, Logging, Monitoring, Virtual Machines, Cloud SQL DB Services, BigQuery, and Networking.
 
-#### Specific checks catogories that are covered as part of the Pentest
+#### Specific checks categories that are covered as part of the Pentest
 
 1. GCP Identity and Access Management
 2. GCP Logging and Monitoring
@@ -151,7 +151,7 @@ Our pentesters need access to test your Azure systems. To that end, you should p
 
 Cloud Configuration Reviews meet the Security standards based on the Center for Internet Security (CIS) Benchmarks. Azure CIS Benchmarks cover IAM, Microsoft Defender, Storage Accounts, Database Services, Logging, Monitoring, Key Vault, AppService and Networking.
 
-#### Specific checks catogories that are covered as part of the Pentest
+#### Specific checks categories that are covered as part of the Pentest
 
 1. Identity and Access Management
 2. Microsoft Defender
