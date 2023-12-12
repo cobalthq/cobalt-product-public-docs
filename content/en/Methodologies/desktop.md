@@ -1,7 +1,7 @@
 ---
 title: "Desktop Penetration Testing Methodology"
 linkTitle: "Desktop Methodologies"
-weight: 100
+weight: 240
 description: >
   Review Cobalt pentest methodologies for desktop applications.
 ---

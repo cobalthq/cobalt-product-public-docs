@@ -1,7 +1,7 @@
 ---
 title: "External Network Penetration Testing Methodology"
 linkTitle: "External Network Methodologies"
-weight: 130
+weight: 180
 description: >
   Review Cobalt pentest methodologies for external networks (includes instances of Microsoft Office 365).
 aliases:

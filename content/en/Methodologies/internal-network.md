@@ -1,7 +1,7 @@
 ---
 title: "Internal Network Penetration Testing Methodology"
 linkTitle: "Internal Network Methodologies"
-weight: 140
+weight: 150
 description: >
   Review Cobalt pentest methodologies for internal networks.
 aliases:
