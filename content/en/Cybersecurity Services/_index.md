@@ -10,8 +10,6 @@ description: >
 Cybersecurity Services provide security testing solutions beyond pentesting. Our focus on process execution allows for faster engagements with a centralized view into the health of security programs and a clear path for elevated security posture.
 {{% /pageinfo %}}
 
-<a class="btn btn-outline-primary rounded" href="mailto:professional_services@cobalt.io" target="_blank">Need an Advanced Pentest? Contact Us »</a>
-
 ## Pentest Engagements
 
 The Cobalt Cybersecurity Services team can run the following pentest engagements:
@@ -29,7 +27,7 @@ The Cobalt Cybersecurity Services team can run the following pentest engagements
 - Security hardening
 - Pentest program management
 
-Can't find what you need? [Contact us](mailto:professional_services@cobalt.io) to plan an engagement tailored to your needs.
+Can't find what you need? [Contact us](mailto:cybersecurity_services@cobalt.io) to plan an engagement tailored to your needs.
 
 <!--
 ## Pentest Methodologies
@@ -52,7 +50,7 @@ We follow pentest methodologies based on the industry best practices. Learn more
 ![Lifecycle of the Cobalt pentest program](/deepdive/PentestProcessFlow.png "Lifecycle of the Cobalt pentest program")
 <br><br>
 
-Here are the stages of a Cybersecurity Service engagement:
+Here are the stages of a Cybersecurity Services engagement:
 
 | | Stage | Description |
 |---|---|---|
