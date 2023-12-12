@@ -29,6 +29,7 @@ asset.
 - [Internal Network](/methodologies/internal-network/)
 - [External Network](/methodologies/external-network/)
 - [Cloud](/methodologies/cloud/)
+- [Desktop](/methodologies/desktop/)
 - [Azure AD](/methodologies/azure-ad/)
 
 In most cases, the Methodology is fixed, based on the [Asset Type](/platform-deep-dive/assets/asset-types/)
