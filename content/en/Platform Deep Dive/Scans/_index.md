@@ -60,7 +60,7 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 ![Scan failed](/deepdive/scans/scan-failed-01.png "Scan failed")<br>
 ![Scan failed](/deepdive/scans/scan-failed-02.png "Scan failed")<br>
 
-6. Generate Report
+7. Generate Report
     1. From Targets, select the target you want to view a report for
 
     2. Select “View Report”
@@ -71,7 +71,7 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
     ![Report](/deepdive/scans/8_Report.png "Report")<br>
 
-7. Move Finding State
+8. Move Finding State
     1. You can update the state for each finding
     2. Each finding has the following states:
         - **Pending Fix** (default): A vulnerability was found in a scan and has not been remediated
@@ -79,7 +79,7 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
         - **Accepted Risk**: This is a known vulnerability but due to a mitigating control, the user accepts the risk.
         - **Re-test**: The user has remediated the vulnerability and is ready to retest the finding. Submitting a retest is the only way to mark a vulnerability as “fixed”.
 
-8. Retest Finding
+9. Retest Finding
     1. You can retest individual findings.
     2. Navigate to the finding you want to retest and select “retest”
 
