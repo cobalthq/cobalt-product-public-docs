@@ -57,7 +57,9 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
 6. If the scan fails, navigate to the scans list or the scan details page to see the reason for the failed scan(s).
 
+[Scan List View]
 ![Scan failed](/deepdive/scans/scan-failed-01.png "Scan failed")<br>
+[Scan Details View]
 ![Scan failed](/deepdive/scans/scan-failed-02.png "Scan failed")<br>
 
 7. Generate Report
