@@ -55,6 +55,11 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
     ![Scans Sample Findings Report](/deepdive/scans/6_ScansSampleFindingsReport.png "Scans Sample Findings Report")<br>
 
+6. If the scan fails, navigate to the scans list or the scan details page to see the reason for the failed scan(s).
+
+![Scan failed](/deepdive/scans/scan-failed-01.png "Scan failed")<br>
+![Scan failed](/deepdive/scans/scan-failed-02.png "Scan failed")<br>
+
 6. Generate Report
     1. From Targets, select the target you want to view a report for
 
