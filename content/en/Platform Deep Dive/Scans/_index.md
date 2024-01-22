@@ -80,23 +80,20 @@ Scan Details View:
 
 ### Reports
 
-For compliance and to better understand the results of your scans, we provide different types of scans. To view them follow these steps:
+For compliance and to better understand the results of your scans, we provide different types of scans.
 
-1. From Targets, click `Download` to select the report you want to download.
+From Targets, click `Download` to select the report you want to download:
 
 ![View Report](/deepdive/scans/7_ViewReport.png "View Report")<br>
 
-You’ll then see a PDF report with the scan report findings.
 
-![Report](/deepdive/scans/8_Report.png "Report")<br>
-
-2. You can also do this from the Scans list or the scans page
-3. Read more about these reports in [Report types]
+You can read more about these reports in [Report types]
 
 
 #### Report types
 
 There are different report types that you can download from a scan. Note that for failed scans, scans are not available.
+Most of these reports are PDF reports, except for the crawl report, which is a CSV file.
 
 ##### Standard Report
 
@@ -145,7 +142,8 @@ The report indicates if a target was tested for the requirements checklist and i
 ##### Crawl report
 
 The crawl or coverage report lists URLs that were scanned along with ones that weren't scanned. This acts as a
-tool for you to check if the scanner is reaching every endpoint possible and filtering them successfully.
+tool for you to check if the scanner is reaching every endpoint possible and filtering them successfully. This
+report is a CSV file, which you can export to Excel or any similar tool that you use.
 
 Before and while doing tests, the crawler will navigate your website to find every endpoint possible
 while testing every input it might find. Then those URLs are sent to the scanner to be tested
