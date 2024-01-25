@@ -1,2 +1,11 @@
+---
+title: "Groups"
+linkTitle: "Groups"
+weight: 10
+description: >
+  Group-based access controls.
+---
 
-This is a placeholder for Groups documentation
+{{% pageinfo %}}
+Manage assets and their associated data.
+{{% /pageinfo %}}
