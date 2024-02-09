@@ -3,7 +3,7 @@ title: "Scans"
 linkTitle: "Scans"
 weight: 50
 description: >
-  Scans (Beta) - Web Application Vulnerability Scanning
+  Scans - Web Application Vulnerability Scanning
 ---
 
 {{% pageinfo %}}
@@ -14,51 +14,9 @@ The complexity of today's applications, combined with the constant evolution of 
 
 Scans address these challenges head-on. By combining the power of PtaaS with DAST, you gain a comprehensive solution for continuously assessing risk.
 
-The beta period runs until December 31, 2023. During the beta, you have access to three scans a month, allowing you to fully explore this new feature. Scans reset on the first of the month. Anticipate usage and limitation adjustments in 2024.
-
-To access the Scans Beta you must be an org owner or org member. Staff org members can also access this section to be able to better provide support.
+To get started with Scans, you will need to add a target. Every Cobalt Customer has access to one target for free unlimited scanning. Additional targets can be purchased. Learn more about [targets](/platform-deep-dive/scans/targets).
 
 We use the following IP Address to make requests to your target: **52.19.40.38**
-
-## What is a DAST Target?
-
-A DAST target is the specific entry point (URL or endpoint) of a web application, website, API, or any component that accepts input from the outside world. It defines the scope, or boundaries, of the security scan conducted by a DAST tool, limiting the tool to analyzing only those pages, links, or forms within the target's domain. 
-
-For instance, with a target of `https://example.com`, the scan would cover `https://example.com/app1` but not `https://app2.example.com`. Essentially, the scanner examines URLs beginning with "example.com."
-
-### Examples of DAST Targets:
-
-- **URLs:** These are the most common targets, representing individual web pages or sections within an application:
-
-  - `https://www.example.com`: Top-level domain hosting the application
-
-  - `https://example.com/blog`: Sub-folder or sub-section within the application
-
-  - `https://admin.example.com`: Subdomain hosting a separate application
-
-- **APIs:** Applications often use APIs for communication, and DAST can identify vulnerabilities like unauthorized access or data leaks:
-
-  - `https://api.us.example.com`: Internal API hosted on a subdomain
-
-  - `https://api.eu.example.com`: Separate API instance hosted independently
-
-- **Forms:** DAST can assess the security of login forms, registration pages, and other input fields against attacks like SQL injection or cross-site scripting:
-
-  - `https://example.com/login`: Login form within the top-level domain
-
-  - `https://checkout.example.com`: Checkout and payment form hosted on a subdomain
-
-### What is NOT a DAST Target:
-
-- **Cobalt Assets:** Assets in Cobalt are non synonymous with targets. An asset is often an entire application, comprised of multiple internal and third-party systems, APIs, and other components. DAST tools don't analyze an entire codebase, but focus solely on parts that accept external input. Those components, which live within a unique URL (ie. `example.com`, `app.example.com` and `api.example.com`) would each constitute an individual target. 
-
-- **Servers or Networks:** While applications run on servers and interact with networks, DAST tools typically don't directly test these aspects.
-
-- **Source Code:** DAST analyzes application behavior, not the code itself. That's the domain of Static Application Security Testing (SAST).
-
-- **Third Party Apps:** External applications that customers don't have approval to run scans or test on.
-
-A clear and well-defined DAST target ensures the scan focuses on the specific areas of an application most susceptible to external threats.
 
 ## How to Use Scans
 
@@ -78,15 +36,16 @@ A clear and well-defined DAST target ensures the scan focuses on the specific ar
       2. Add fields (You will likely have one field for username and one for password)
           - Field Name
           - Field Value
-    - **NOTE**: Currently, the Scans tool only supports login form authentication.
+    - **NOTE**: Currently, the DAST tool only supports login form authentication.
 
 ![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
 
 4. To run a scan, select “Start Scan”
+    1. You also have the ability to schedule a scan at a later time
 
 ![Start Scan - Targets](/deepdive/scans/4_StartScanTargets.png "Start Scan - Targets")<br>
 
-5. You have two options to View Results
+5. Once a scan is complete, you have two options to View Results
     1. You can view the results on the target
 
     ![Target - Scan Results Sample Report](/deepdive/scans/5_TargetScanResultsSampleReport.png "Target - Scan Results Sample Report")<br>
