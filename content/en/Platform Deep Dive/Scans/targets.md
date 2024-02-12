@@ -3,11 +3,11 @@ title: "Targets"
 linkTitle: "Targets"
 weight: 50
 description: >
-  XXXX
+  A target is the URL of a Web Application, Website, or API.
 ---
 
 {{% pageinfo %}}
-XXXX.
+A target defines the scope of the scan.
 {{% /pageinfo %}}
 
 ## What is a DAST Target?
