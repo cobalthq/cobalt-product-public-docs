@@ -22,6 +22,8 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
 [Watch the how-to video here.](https://videos.cobalt.io/watch/4D8kQcTmPBE3HdWy6X3fHW)
 
+### Add a Target
+
 1. To add a target, select the plus button
 
 ![Create Target](/deepdive/scans/1_CreateTarget.png "Create Target")<br>
@@ -29,6 +31,8 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 2. Add a name for the target and the URL
 
 ![Add Target](/deepdive/scans/2_AddTarget.png "Add Target")<br>
+
+### Authentication
 
 3. To add authentication toggle on the “Authenticated Scan” option
     - Follow the Steps to add authentication details
@@ -40,10 +44,14 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
 ![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
 
+### Scan Scheduling
+
 4. To run a scan, select “Start Scan”
     1. You also have the ability to schedule a scan at a later time
 
 ![Start Scan - Targets](/deepdive/scans/4_StartScanTargets.png "Start Scan - Targets")<br>
+
+### Scan Results
 
 5. Once a scan is complete, you have two options to View Results
     1. You can view the results on the target
@@ -54,12 +62,16 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
     ![Scans Sample Findings Report](/deepdive/scans/6_ScansSampleFindingsReport.png "Scans Sample Findings Report")<br>
 
+### Failed Scans
+
 6. If the scan fails, navigate to the scans list or the scan details page to see the reason for the failed scan(s).
 
 Scan List View:
 ![Scan failed](/deepdive/scans/scan-failed-01.png "Scan failed")<br>
 Scan Details View:
 ![Scan failed](/deepdive/scans/scan-failed-02.png "Scan failed")<br>
+
+### Finding States
 
 7. Move Finding State
     1. You can update the state for each finding
@@ -85,9 +97,7 @@ From Targets, click `Download` to select the report you want to download:
 
 ![View Report](/deepdive/scans/7_ViewReport.png "View Report")<br>
 
-
 You can also do this from the scans list or the scans page.
-
 
 #### Report types
 
