@@ -78,6 +78,16 @@ The default issue type in Cobalt is **Task**. If this issue type is not availabl
 
 If the issue still persists, contact your Customer Success Manager.
 
+### Jira Data Center plugin is Inactive
+
+If the Cobalt Jira Data Center plugin's status is `inactive`, please make sure your firewalls are configured 
+to allow outbound HTTPS connections to the appropriate Cobalt IP address for your region.
+
+| Region        | IP Address    |
+|---------------|---------------|
+| United States | 104.18.30.198 |
+| Europe        | 141.101.90.96 |
+
 ## Retrieve Jira Server Logs for Troubleshooting
 
 Learn how to retrieve Jira logs for the [Cobalt for Jira DC/Server](https://marketplace.atlassian.com/apps/1224424/cobalt-for-jira-dc-server) plugin.
