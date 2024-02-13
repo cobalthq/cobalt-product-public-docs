@@ -87,7 +87,7 @@ From Targets, click `Download` to select the report you want to download:
 ![View Report](/deepdive/scans/7_ViewReport.png "View Report")<br>
 
 
-You can also do this from the scans list or the scans page.
+You can also do this from the scans list or the scan details page.
 
 
 #### Report types
