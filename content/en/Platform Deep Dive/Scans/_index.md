@@ -12,7 +12,7 @@ Scan your Web Applications to discover external vulnerabilities.
 
 The complexity of today's applications, combined with the constant evolution of cyber threats, makes it increasingly difficult to ensure security measures. Traditional methods of security assessment often fall short of providing continuous insights, leading to potential blind spots.
 
-DAST Scanner addresses these challenges head-on. By combining the power of PtaaS with DAST, you gain a comprehensive solution for continuously assessing risk.
+The DAST Scanner addresses these challenges head-on. By combining the power of PtaaS with DAST, you gain a comprehensive solution for continuously assessing risk.
 
 The beta period runs until December 31, 2023. During the beta, you have access to three scans a month, allowing you to fully explore this new feature. Scans reset on the first of the month. Anticipate usage and limitation adjustments in 2024.
 
