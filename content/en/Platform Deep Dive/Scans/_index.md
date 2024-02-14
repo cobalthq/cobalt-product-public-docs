@@ -20,7 +20,7 @@ To access the DAST Scanner Beta you must be an org owner or org member. Staff or
 
 We use the following IP Address to make requests to your target: **52.19.40.38**
 
-## How to Use DAST Scanner
+## How to Use the DAST Scanner
 
 <!-- TODO: update this video -->
 [Watch the how-to video here.](https://videos.cobalt.io/watch/4D8kQcTmPBE3HdWy6X3fHW)
