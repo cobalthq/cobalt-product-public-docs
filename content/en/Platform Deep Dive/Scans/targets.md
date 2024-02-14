@@ -12,6 +12,8 @@ A target defines the scope of the scan.
 
 ## What is a DAST Target?
 
+![Breakdown of a DAST Target URL](/static/deepdive/scans/Anatomy_DASTTarget.png "Breakdown of a DAST Target URL")
+
 A DAST target is the specific entry point (URL or endpoint) of a web application, website, API, or any component that accepts input from the outside world. It defines the scope, or boundaries, of the security scan conducted by a DAST tool, limiting the tool to analyzing only those pages, links, or forms within the target's domain. 
 
 For instance, with a target of `https://example.com`, the scan would cover `https://example.com/app1` but not `https://app2.example.com`. Essentially, the scanner examines URLs beginning with "example.com."
