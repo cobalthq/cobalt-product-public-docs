@@ -1,9 +1,9 @@
 ---
-title: "Scans"
-linkTitle: "Scans"
+title: "DAST Scanner"
+linkTitle: "DAST Scanner"
 weight: 50
 description: >
-  Scans (Beta) - Web Application Vulnerability Scanning
+  DAST Scanner (Beta) - Web Application Vulnerability Scanning
 ---
 
 {{% pageinfo %}}
@@ -12,16 +12,17 @@ Scan your Web Applications to discover external vulnerabilities.
 
 The complexity of today's applications, combined with the constant evolution of cyber threats, makes it increasingly difficult to ensure security measures. Traditional methods of security assessment often fall short of providing continuous insights, leading to potential blind spots.
 
-Scans address these challenges head-on. By combining the power of PtaaS with DAST, you gain a comprehensive solution for continuously assessing risk.
+DAST Scanner addresses these challenges head-on. By combining the power of PtaaS with DAST, you gain a comprehensive solution for continuously assessing risk.
 
 The beta period runs until December 31, 2023. During the beta, you have access to three scans a month, allowing you to fully explore this new feature. Scans reset on the first of the month. Anticipate usage and limitation adjustments in 2024.
 
-To access the Scans Beta you must be an org owner or org member. Staff org members can also access this section to be able to better provide support.
+To access the DAST Scanner Beta you must be an org owner or org member. Staff org members can also access this section to be able to better provide support.
 
 We use the following IP Address to make requests to your target: **52.19.40.38**
 
-## How to Use Scans
+## How to Use DAST Scanner
 
+<!-- TODO: update this video -->
 [Watch the how-to video here.](https://videos.cobalt.io/watch/4D8kQcTmPBE3HdWy6X3fHW)
 
 1. To add a target, select the plus button
@@ -38,7 +39,7 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
       2. Add fields (You will likely have one field for username and one for password)
           - Field Name
           - Field Value
-    - **NOTE**: Currently, the Scans tool only supports login form authentication.
+    - **NOTE**: Currently, the DAST Scanner tool only supports login form authentication.
 
 ![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
 
@@ -92,7 +93,7 @@ You can also do this from the scans list or the scan details page.
 
 #### Report types
 
-There are different report types that you can download from a scan. Note that for failed scans, scans are not available.
+There are different report types that you can download from a scan. Note that for failed scans, reports are not available.
 Most of these reports are PDF reports, except for the crawl report, which is a CSV file.
 
 ##### Standard Report
