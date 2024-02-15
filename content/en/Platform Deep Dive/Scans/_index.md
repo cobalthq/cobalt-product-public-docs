@@ -24,17 +24,17 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
 ### Add a Target
 
-1. To add a target, select the plus button
+- To add a target, select the plus button
 
 ![Create Target](/deepdive/scans/1_CreateTarget.png "Create Target")<br>
 
-2. Add a name for the target and the URL
+- Add a name for the target and the URL
 
 ![Add Target](/deepdive/scans/2_AddTarget.png "Add Target")<br>
 
 ### Authentication
 
-3. To add authentication toggle on the “Authenticated Scan” option
+- To add authentication toggle on the “Authenticated Scan” option
     - Follow the Steps to add authentication details
       1. Login form URL
       2. Add fields (You will likely have one field for username and one for password)
@@ -46,48 +46,48 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
 ### Scan Scheduling
 
-4. To run a scan, select “Start Scan”
-    1. You also have the ability to schedule a scan at a later time
+- To run a scan, select “Start Scan”
+  - You also have the ability to schedule a scan at a later time
 
 ![Start Scan - Targets](/deepdive/scans/4_StartScanTargets.png "Start Scan - Targets")<br>
 
 ### Scan Results
 
-5. Once a scan is complete, you have two options to View Results
-    1. You can view the results on the target
+- Once a scan is complete, you have two options to View Results
+    - You can view the results on the target
 
     ![Target - Scan Results Sample Report](/deepdive/scans/5_TargetScanResultsSampleReport.png "Target - Scan Results Sample Report")<br>
 
-    2. Or, navigate to scans and view results for individual scans by clicking on the Started Date.
+    - Or, navigate to scans and view results for individual scans by clicking on the Started Date.
 
     ![Scans Sample Findings Report](/deepdive/scans/6_ScansSampleFindingsReport.png "Scans Sample Findings Report")<br>
 
 ### Failed Scans
 
-6. If the scan fails, navigate to the scans list or the scan details page to see the reason for the failed scan(s).
+- If the scan fails, navigate to the scans list or the scan details page to see the reason for the failed scan(s).
 
-Scan List View:
+  - Scan List View:
 ![Scan failed](/deepdive/scans/scan-failed-01.png "Scan failed")<br>
-Scan Details View:
+  - Scan Details View:
 ![Scan failed](/deepdive/scans/scan-failed-02.png "Scan failed")<br>
 
 ### Finding States
 
-7. Move Finding State
-    1. You can update the state for each finding
-    2. Each finding has the following states:
-        - **Pending Fix** (default): A vulnerability was found in a scan and has not been remediated
-        - **Declined**: This is a false positive and not relevant to your application  (Each of these gets reviewed internally by Cobalt)
-        - **Accepted Risk**: This is a known vulnerability but due to a mitigating control, the user accepts the risk.
-        - **Re-test**: The user has remediated the vulnerability and is ready to retest the finding. Submitting a retest is the only way to mark a vulnerability as “fixed”.
+- Move Finding State
+  - You can update the state for each finding
+  - Each finding has the following states:
+    - **Pending Fix** (default): A vulnerability was found in a scan and has not been remediated
+    - **Declined**: This is a false positive and not relevant to your application  (Each of these gets reviewed internally by Cobalt)
+    - **Accepted Risk**: This is a known vulnerability but due to a mitigating control, the user accepts the risk.
+    - **Re-test**: The user has remediated the vulnerability and is ready to retest the finding. Submitting a retest is the only way to mark a vulnerability as “fixed”.
 
-8. Retest Finding
-    1. You can retest individual findings.
-    2. Navigate to the finding you want to retest and select “retest”
+- Retest Finding
+    - You can retest individual findings.
+    - Navigate to the finding you want to retest and select “retest”
 
     ![Retest Finding](/deepdive/scans/9_Retest_Finding.png "Retest Finding")<br>
 
-    3. If the scan engine does not find the vulnerability again it will automatically mark the finding as “Fixed”.  If the issue still persists, it will move back to its previous state.
+    - If the scan engine does not find the vulnerability again it will automatically mark the finding as “Fixed”.  If the issue still persists, it will move back to its previous state.
 
 ### Reports
 
