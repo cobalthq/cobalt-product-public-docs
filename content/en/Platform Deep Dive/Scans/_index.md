@@ -19,7 +19,6 @@ To get started with Scans, you will need to add a target. Every Cobalt Customer 
 {{% alert title="Note" color="primary" %}}
 We use the following IP Address to make requests to your target: **52.19.40.38**
 {{% /alert %}}
-We use the following IP Address to make requests to your target: **52.19.40.38**
 
 ## How to Use Scans
 
