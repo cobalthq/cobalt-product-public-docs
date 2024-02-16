@@ -16,6 +16,9 @@ Scans address these challenges head-on. By combining the power of PtaaS with DAS
 
 To get started with Scans, you will need to add a target. Every Cobalt Customer has access to one target for free unlimited scanning. Additional targets can be purchased. Learn more about [targets](/platform-deep-dive/scans/targets).
 
+{{% alert title="Note" color="primary" %}}
+We use the following IP Address to make requests to your target: **52.19.40.38**
+{{% /alert %}}
 We use the following IP Address to make requests to your target: **52.19.40.38**
 
 ## How to Use Scans
