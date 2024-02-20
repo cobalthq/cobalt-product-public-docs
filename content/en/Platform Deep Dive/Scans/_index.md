@@ -27,7 +27,7 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
 ### Add a Target
 
-- To add a [target](/platform-deep-dive/scans/targets), select the plus button
+- To add a [target](/platform-deep-dive/scans/targets), select the Add Target button
 
 ![Create Target](/deepdive/scans/1_CreateTarget.png "Create Target")<br>
 
