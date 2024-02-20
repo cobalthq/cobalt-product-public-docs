@@ -4,6 +4,7 @@ linkTitle: "DAST Scanner"
 weight: 50
 description: >
   DAST Scanner - Web Application Vulnerability Scanning
+---
 
 {{% pageinfo %}}
 Scan your Web Applications to discover external vulnerabilities.
