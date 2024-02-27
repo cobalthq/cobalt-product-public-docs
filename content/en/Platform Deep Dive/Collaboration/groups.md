@@ -25,7 +25,11 @@ Assign assets and [Organization Members](/platform-deep-dive/collaboration/user-
     - [Pentest Team Members](/platform-deep-dive/collaboration/user-roles/#pentest-team-member) that are not part of your organization can still be [manually added](/platform-deep-dive/collaboration/manage-collaborators/#add-a-pentest-team-member) to each pentest.
 - Select **Create Group**.
 
+![Create group page](/deepdive/Groups_CreateForm.png "Create group page")
+
 ## View and Manage Groups
+
+![Groups main page](/deepdive/Groups_MainPageandActions.png "Groups main page")
 
 On the **Groups** page, you can:
 
@@ -37,6 +41,8 @@ On the **Groups** page, you can:
 
 ## Group Details Page
 
+![Group details page](/deepdive/Groups_ViewPage.png "Group details page")
+
 On the group details page, you can:
 
 - View associated assets
@@ -47,6 +53,8 @@ On the group details page, you can:
 ## Assigning a Group to an Asset
 
 In addition to assigning existing assets to a group from the Groups page, you can assign a group during [asset creation](/platform-deep-dive/assets/#create-an-asset) or editing.
+
+![Groups field in asset form](/deepdive/CreateNewAsset.png "Groups field in asset form")
 
 - The **Asset** screen will prompt you for the usual [details](/getting-started/assets/#asset-details).
 - You will additionally see an **Assigned Group** field. This is by default set to the ‘All Org Members’ group. Select from the dropdown to choose another group within your organization.
