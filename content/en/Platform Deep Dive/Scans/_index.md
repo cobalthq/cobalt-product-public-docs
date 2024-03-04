@@ -3,7 +3,7 @@ title: "DAST Scanner"
 linkTitle: "DAST Scanner"
 weight: 50
 description: >
-  DAST Scanner (Beta) - Web Application Vulnerability Scanning
+  DAST Scanner - Web Application Vulnerability Scanning
 ---
 
 {{% pageinfo %}}
@@ -14,72 +14,87 @@ The complexity of today's applications, combined with the constant evolution of 
 
 The DAST Scanner addresses these challenges head-on. By combining the power of PtaaS with DAST, you gain a comprehensive solution for continuously assessing risk.
 
-The beta period runs until December 31, 2023. During the beta, you have access to three scans a month, allowing you to fully explore this new feature. Scans reset on the first of the month. Anticipate usage and limitation adjustments in 2024.
+To get started with the DAST Scanner, you will need to add a target. Every Cobalt Customer has access to one target for free unlimited scanning. Additional targets can be purchased. Learn more about [targets](/platform-deep-dive/scans/targets).
 
-To access the DAST Scanner Beta you must be an org owner or org member. Staff org members can also access this section to be able to better provide support.
-
+{{% alert title="Note" color="primary" %}}
 We use the following IP Address to make requests to your target: **52.19.40.38**
+{{% /alert %}}
 
 ## How to Use the DAST Scanner
 
 <!-- TODO: update this video -->
 [Watch the how-to video here.](https://videos.cobalt.io/watch/4D8kQcTmPBE3HdWy6X3fHW)
 
-1. To add a target, select the plus button
+### Add a Target
+
+- To add a [target](/platform-deep-dive/scans/targets), select the Add Target button
 
 ![Create Target](/deepdive/scans/1_CreateTarget.png "Create Target")<br>
 
-2. Add a name for the target and the URL
+- Add a name for the target and the URL
 
 ![Add Target](/deepdive/scans/2_AddTarget.png "Add Target")<br>
 
-3. To add authentication toggle on the “Authenticated Scan” option
+### Authentication
+
+- To add authentication toggle on the “Authenticated Scan” option
     - Follow the Steps to add authentication details
       1. Login form URL
       2. Add fields (You will likely have one field for username and one for password)
           - Field Name
           - Field Value
+    - **NOTE**: Currently, the DAST Scanner only supports login form authentication.
+      
       3. (Optional) Add the Submit Button: if the submit button is outside of your `<form>` tag, or especially if your login inputs are not inside a `<form>` tag, then the `submit_button` must be defined so that the right button is clicked. For that, add a new field in the target authentication settings, with `submit_button` in the name, and the respective button CSS selector in the value (it must be a CSS selector) as, for example, `#login-form-container button[type="submit"]`.
  
     - **NOTE**: Currently, the DAST Scanner tool only supports login form authentication. Learn more about [target authentication](/platform-deep-dive/scans/target_auth).
 
 ![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
 
-4. To run a scan, select “Start Scan”
+### Scan Scheduling
+
+- To run a scan, select “Start Scan”
+  - You also have the ability to schedule a scan at a later time
 
 ![Start Scan - Targets](/deepdive/scans/4_StartScanTargets.png "Start Scan - Targets")<br>
 
-5. You have two options to View Results
-    1. You can view the results on the target
+### Scan Results
+
+- Once a scan is complete, you have two options to View Results
+    - You can view the results on the target
 
     ![Target - Scan Results Sample Report](/deepdive/scans/5_TargetScanResultsSampleReport.png "Target - Scan Results Sample Report")<br>
 
-    2. Or, navigate to scans and view results for individual scans by clicking on the Started Date.
+    - Or, navigate to scans and view results for individual scans by clicking on the Started Date.
 
     ![Scans Sample Findings Report](/deepdive/scans/6_ScansSampleFindingsReport.png "Scans Sample Findings Report")<br>
 
-6. If the scan fails, navigate to the scans list or the scan details page to see the reason for the failed scan(s).
+### Failed Scans
 
-Scan List View:
+- If the scan fails, navigate to the scans list or the scan details page to see the reason for the failed scan(s).
+
+  - Scan List View:
 ![Scan failed](/deepdive/scans/scan-failed-01.png "Scan failed")<br>
-Scan Details View:
+  - Scan Details View:
 ![Scan failed](/deepdive/scans/scan-failed-02.png "Scan failed")<br>
 
-7. Move Finding State
-    1. You can update the state for each finding
-    2. Each finding has the following states:
-        - **Pending Fix** (default): A vulnerability was found in a scan and has not been remediated
-        - **Declined**: This is a false positive and not relevant to your application  (Each of these gets reviewed internally by Cobalt)
-        - **Accepted Risk**: This is a known vulnerability but due to a mitigating control, the user accepts the risk.
-        - **Re-test**: The user has remediated the vulnerability and is ready to retest the finding. Submitting a retest is the only way to mark a vulnerability as “fixed”.
+### Finding States
 
-8. Retest Finding
-    1. You can retest individual findings.
-    2. Navigate to the finding you want to retest and select “retest”
+- Move Finding State
+  - You can update the state for each finding
+  - Each finding has the following states:
+    - **Pending Fix** (default): A vulnerability was found in a scan and has not been remediated
+    - **Declined**: This is a false positive and not relevant to your application  (Each of these gets reviewed internally by Cobalt)
+    - **Accepted Risk**: This is a known vulnerability but due to a mitigating control, the user accepts the risk.
+    - **Re-test**: The user has remediated the vulnerability and is ready to retest the finding. Submitting a retest is the only way to mark a vulnerability as “fixed”.
+
+- Retest Finding
+    - You can retest individual findings.
+    - Navigate to the finding you want to retest and select “retest”
 
     ![Retest Finding](/deepdive/scans/9_Retest_Finding.png "Retest Finding")<br>
 
-    3. If the scan engine does not find the vulnerability again it will automatically mark the finding as “Fixed”.  If the issue still persists, it will move back to its previous state.
+    - If the scan engine does not find the vulnerability again it will automatically mark the finding as “Fixed”.  If the issue still persists, it will move back to its previous state.
 
 ### Reports
 
@@ -89,9 +104,7 @@ From Targets, click `Download` to select the report you want to download:
 
 ![View Report](/deepdive/scans/7_ViewReport.png "View Report")<br>
 
-
 You can also do this from the scans list or the scan details page.
-
 
 #### Report types
 
