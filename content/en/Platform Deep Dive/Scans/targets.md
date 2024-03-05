@@ -1,7 +1,7 @@
 ---
 title: "Targets"
 linkTitle: "Targets"
-weight: 50
+weight: 10
 description: >
   A target is the URL of a Web Application, Website, or API.
 ---
