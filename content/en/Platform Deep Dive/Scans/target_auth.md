@@ -1,7 +1,7 @@
 ---
 title: "Target Authentication"
-linkTitle: "Target Authentication"
-weight: 50
+linkTitle: "Authentication"
+weight: 20
 description: >
   More information about target authentication fields and hacks
 ---
