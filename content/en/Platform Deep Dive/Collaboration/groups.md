@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-As an [Organization Owners](/platform-deep-dive/collaboration/user-roles/#organization-owner), you can manage access to your organization’s assets and their associated pentests and findings.
+As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner), you can manage access to your organization’s assets and their associated pentests and findings.
 {{% /pageinfo %}}
 
 ## Create a Group
@@ -91,7 +91,7 @@ The pentest **Collaborators** tab will still show all individual collaborators a
 {{%expand "Will all of a pentest’s collaborators carry over when I copy the pentest?" %}}
 <br>
 
-Only individual group members that own the pentest will carry over to the newly copied pentest. Any non-group members will have to be manually added to the pentest again.
+Yes. All individual group members that own the pentest and any non-group member that was manually added previously will carry over to the newly copied pentest.
 
 {{% /expand %}}
 <br>
