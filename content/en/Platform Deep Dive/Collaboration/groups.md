@@ -10,6 +10,8 @@ description: >
 As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner), you can manage access to your organization’s assets and their associated pentests and findings.
 {{% /pageinfo %}}
 
+Watch a demo video going over the Groups feature [here](https://videos.cobalt.io/watch/aLD1nkwYisFLrSXJLdBgAc).
+
 ## Create a Group
 
 Assign assets and [Organization Members](/platform-deep-dive/collaboration/user-roles/#organization-member) into a group:
