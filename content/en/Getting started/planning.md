@@ -71,6 +71,8 @@ Scoping parameters differ for each [asset type](/platform-deep-dive/assets/asset
 - [Internal Network](#internal-network)
 - [Cloud Config](#cloud-configuration)
 - [Desktop](#desktop)
+- [LLM/AI Owasp Top 10](#llm-owasp-top-ten)
+- [LLM/AI Prompt Injection](#llm-prompt-injection)
 - [Assets of multiple types](#assets-of-multiple-types)
 
 Once you've scoped the pentest, review the required [credits](#view-required-credits), as determined by our algorithm.
@@ -159,6 +161,20 @@ To scope a pentest for a Desktop asset, specify the number of the following char
 | Parameter | Definition | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|---|
 | [Operating Systems](/getting-started/glossary/#mobile-screen) | <p>An operating system (OS) is software that allows desktop devices to run applications and programs. | <p>Enter the total number of operating systems in your desktop application that need to be tested. Examples of desktop operating systems include Microsoft Windows, macOS, various Linux distributions, and others.</li></ul> |
+
+### AI/LLM Pentesting
+
+Cobalt offers two levels of AI/LLM pentesting: 
+
+- Prompt Injection (+5 credits)
+Focus on testing the security of your AI systems against prompt injection attacks. These attacks manipulate the AI’s input to generate malicious output, which can compromise the system’s integrity and confidentiality.
+
+- OWASP Top 10 for LLMs (+16 credits)
+Test your LLMs against the Open Web Application Security Project (OWASP) Top 10 most critical web application security risks. Ensure they’re protected against unauthorized access, data breaches, and disruptions
+
+To scope a AI/LLM pentest specify the Number of independent LLM features to be tested.
+
+If multiple independent features are selected, the results will be documented in the same report and findings will reported in the same pentest. If seperate reports are needed, it's recommended to run seperate pentests for them.
 
 ### Assets of Multiple Types
 
