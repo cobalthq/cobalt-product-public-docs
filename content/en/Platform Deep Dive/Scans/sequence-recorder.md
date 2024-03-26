@@ -13,11 +13,18 @@ _Work in progress_
 Once installed, click on Cobalt's extension icon, a small window will pop up. Type in there
 the URL of the target that you'd like to add authentication to and click `Start Recording`
 
+
+![Click Start recording](/deepdive/scans/sequence-recorder/recorder1.png "Start Recording")
+
 You'll see a red dot (🔴) in the tab title, meaning that it's recording. Perform the necessary
 actions to authenticate. Once done, click on the extension icon again and click `Stop Recording`.
 
-A new tab will appear. You can either copy the sequence to the clipboard or download it as a file.
-You can now go to your target settings in Cobalt's application and paste or upload the sequence there.
+![Click Stop recording](/deepdive/scans/sequence-recorder/recorder2.png "Stop Recording")
 
+A new tab will appear. You can either copy the sequence to the clipboard or download it as a file.
+
+![Get the sequence](/deepdive/scans/sequence-recorder/recorder3.png "Get the sequence")
+
+You can now go to your target settings on Cobalt and paste or upload the sequence there.
 
 Once those steps are completed, scans against this target will try to authenticate using these steps.
