@@ -71,8 +71,7 @@ Scoping parameters differ for each [asset type](/platform-deep-dive/assets/asset
 - [Internal Network](#internal-network)
 - [Cloud Config](#cloud-configuration)
 - [Desktop](#desktop)
-- [LLM/AI Owasp Top 10](#llm-owasp-top-ten)
-- [LLM/AI Prompt Injection](#llm-prompt-injection)
+- [AI/LLM Pentest] (#aillm-pentesting)
 - [Assets of multiple types](#assets-of-multiple-types)
 
 Once you've scoped the pentest, review the required [credits](#view-required-credits), as determined by our algorithm.
