@@ -35,7 +35,7 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
 ![Add Target](/deepdive/scans/2_AddTarget.png "Add Target")<br>
 
-See more about how to configure a target in [targets]
+See more about how to configure a target in [configuring a target]
 
 
 ### Scan Scheduling
@@ -163,4 +163,4 @@ For support, please reach out to your CSM or email us at dast@cobalt.io.
 <!-- links -->
 
 [Report types]: #report-types
-[targets]: /platform-deep-dive/scans/targets
+[configuring a target]: /platform-deep-dive/scans/targets#configuring-a-target

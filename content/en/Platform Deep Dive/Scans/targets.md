@@ -58,19 +58,19 @@ There are a few configuration options available when setting up targets.
 
 - **Authenticated targets**: You can see a detailed explanation in [Authentication]
 
-- **Avoided URLs**: Scans work by crawling and discovering new urls in your application. If you want to avoid scanning certain parts
-of the app or reducing the scope of the scan, you can add them to Avoided URLs. These are valid examples for avoided URLs:
+- **Avoided URLs**: Scans work by crawling and discovering new urls in your application. If you want to reduce the scope of the scan to
+avoid scanning certain parts of the app, you can add them to Avoided URLs. These are valid examples for avoided URLs:
 ```
 https://example.com/admin*
 https://api.example.com/api/users*
 https://example.com/account*
 ```
 - **Seed paths**: In a similar way, a scan starts usually from the target url. Sometimes, there are some pages that are not reachable from there. If you want to add some extra starting points for the scan, you can use seed paths. Note that only relative paths are allowed
-and the Avoided URLs take precedence. These are some valid examples:
+and the Avoided URLs take precedence. This is a valid example:
 
 ```
 posts/search?query=coablt
 ```
 
 <!-- links -->
-[Authentication]: /deepdive/scans/target_auth.md
+[Authentication]: /deepdive/scans/target_auth
