@@ -73,4 +73,5 @@ posts/search?query=coablt
 ```
 
 <!-- links -->
-[Authentication]: /deepdive/scans/target_auth
+[Authentication]: /platform-deep-dive/scans/target_auth
+
