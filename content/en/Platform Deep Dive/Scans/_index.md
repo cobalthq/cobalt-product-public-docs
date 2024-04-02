@@ -35,21 +35,8 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
 ![Add Target](/deepdive/scans/2_AddTarget.png "Add Target")<br>
 
-### Authentication
+See more about how to configure a target in [targets]
 
-- To add authentication toggle on the “Authenticated Scan” option
-    - Follow the Steps to add authentication details
-      1. Login form URL
-      2. Add fields (You will likely have one field for username and one for password)
-          - Field Name
-          - Field Value
-    - **NOTE**: Currently, the DAST Scanner only supports login form authentication.
-      
-      3. (Optional) Add the Submit Button: if the submit button is outside of your `<form>` tag, or especially if your login inputs are not inside a `<form>` tag, then the `submit_button` must be defined so that the right button is clicked. For that, add a new field in the target authentication settings, with `submit_button` in the name, and the respective button CSS selector in the value (it must be a CSS selector) as, for example, `#login-form-container button[type="submit"]`.
- 
-    - **NOTE**: Currently, the DAST Scanner tool only supports login form authentication. Learn more about [target authentication](/platform-deep-dive/scans/target_auth).
-
-![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
 
 ### Scan Scheduling
 
@@ -176,3 +163,4 @@ For support, please reach out to your CSM or email us at dast@cobalt.io.
 <!-- links -->
 
 [Report types]: #report-types
+[targets]: /platform-deep-dive/scans/targets
