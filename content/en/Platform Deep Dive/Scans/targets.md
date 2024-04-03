@@ -52,7 +52,7 @@ For instance, with a target of `https://example.com`, the scan would cover `http
 
 A clear and well-defined DAST target ensures the scan focuses on the specific areas of an application most susceptible to external threats.
 
-## Configuring a target
+## Configuring a Target
 
 There are a few configuration options available when setting up targets.
 
