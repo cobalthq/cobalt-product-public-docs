@@ -21,12 +21,6 @@ To add authentication, toggle on the “Authenticated Scan” option and then:
     - Field Name
     - Field Value
 
-3. (Optional) Add the Submit Button: if the submit button is outside of your `<form>` tag, or especially if your login
-inputs are not inside a `<form>` tag, then the `submit_button` must be defined so that the right button is clicked.
-For that, add a new field in the target authentication settings, with `submit_button` in the name, and the respective
-button CSS selector in the value (it must be a CSS selector) as, for example, `#login-form-container button[type="submit"]`.
-
-
 ![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
 
 
