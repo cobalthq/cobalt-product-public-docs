@@ -56,7 +56,7 @@ A clear and well-defined DAST target ensures the scan focuses on the specific ar
 
 There are a few configuration options available when setting up targets.
 
-- **Authenticated targets**: You can see a detailed explanation in [Authentication]
+- **Authenticated targets**: You can see a detailed explanation in [Authentication].
 
 - **Avoided URLs**: Scans work by crawling and discovering new urls in your application. If you want to reduce the scope of the scan to
 avoid scanning certain parts of the app, you can add them to Avoided URLs. These are valid examples for avoided URLs:
