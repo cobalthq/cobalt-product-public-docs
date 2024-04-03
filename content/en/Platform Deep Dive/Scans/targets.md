@@ -65,7 +65,7 @@ https://example.com/admin*
 https://api.example.com/api/users*
 https://example.com/account*
 ```
-- **Seed paths**: In a similar way, a scan starts usually from the target url. Sometimes, there are some pages that are not reachable from there. If you want to add some extra starting points for the scan, you can use seed paths. Note that only relative paths are allowed
+- **Seed Paths**: In a similar way, a scan starts usually from the target url. Sometimes, there are some pages that are not reachable from there. If you want to add some extra starting points for the scan, you can use seed paths. Note that only relative paths are allowed
 and the Avoided URLs take precedence. This is a valid example:
 
 ```
