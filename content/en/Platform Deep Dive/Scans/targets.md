@@ -69,7 +69,7 @@ https://example.com/account*
 and the Avoided URLs take precedence. This is a valid example:
 
 ```
-posts/search?query=coablt
+posts/search?query=cobalt
 ```
 
 <!-- links -->
