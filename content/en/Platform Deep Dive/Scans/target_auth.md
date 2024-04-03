@@ -16,7 +16,7 @@ When a scan is started and the target has a login configuration, the first thing
 
 To add authentication toggle on the “Authenticated Scan” option and then:
 
-1. Add the URL where the login form is
+1. Add the URL where the login form is located.
 2. Add fields (You will likely have one field for username and one for password)
     - Field Name
     - Field Value
