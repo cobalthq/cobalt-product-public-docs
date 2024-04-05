@@ -12,6 +12,17 @@ If your website has areas that require authentication, you may provide the DAST 
 
 When a scan is started and the target has a login configuration, the first thing the crawler does is log into the application (web target) to obtain a session. Upon successful login, it will start crawling the app. While the crawler is running, it constantly verifies whether the session is still valid. Currently, this check is performed automatically based on the login configuration, but soon we will have the option to configure how the loss of session can be detected.
 
+# Basic steps
+
+To add authentication, toggle on the “Authenticated Scan” option and then:
+
+1. Add the URL where the login form is located.
+2. Add the fields required for login. You will likely have one field for username and one for password.
+    - Field Name
+    - Field Value
+
+![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
+
 
 # Using a Login Form
 
@@ -68,7 +79,7 @@ To address this, we offer the option to define the button that should be clicked
 - Field value: `<CSS selector of an element only visible when logged out>` (e.g., `form.login #username`) or
 - Field value: `["CSS selector 1", "CSS selector 2"]` (e.g., `["#form.login #username", "form.login #password"]`)
 
-### Wait for a loading login input/element 
+### Wait for a loading login input/element
 
 To wait for a login input/element when the target has some unusual behavior while loading the login page, or to click on a button to go to the login page without the need for a login sequence:
 
