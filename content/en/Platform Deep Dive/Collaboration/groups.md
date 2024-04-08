@@ -10,7 +10,9 @@ description: >
 As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner), you can manage access to your organization’s assets and their associated pentests and findings.
 {{% /pageinfo %}}
 
-Watch a demo video going over the Groups feature [here](https://videos.cobalt.io/watch/aLD1nkwYisFLrSXJLdBgAc).
+Watch a demo video going over the Groups feature:
+
+<iframe width="466" height="301" src="https://www.loom.com/embed/37841915aabe4bd3a96112ccc097668e?sid=c4a83555-1465-4d3c-b17e-4c0588f12f95" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Create a Group
 
