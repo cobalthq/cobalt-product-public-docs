@@ -14,7 +14,7 @@ Cybersecurity Services provides security testing solutions beyond pentesting as 
 
 The Cobalt Cybersecurity Services team can run the following engagements:
 
-- Digital risk assessment<sup>*</sup>
+- [Digital risk assessment](/cybersecurity-services/digital-risk-assessment/)<sup>*</sup>
 - IoT ecosystem pentest
 - Secure code review
 - Vulnerability validation
