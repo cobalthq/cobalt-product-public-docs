@@ -73,8 +73,6 @@ Cybersecurity Services supports additional asset types, beyond our standard pent
 
 ## How to Request Cybersecurity Services
 
-![Specialized pentest in the Cobalt UI](/profservices/specialized-pentest-label.png "Specialized pentest in the Cobalt UI")
-
 To request a Cybersecurity Service, navigate to the `Catalog` page in Cobalt. Select `Request` on the service you are interested in.
 
 Our CSM team will reach out to start the process at a time that suits you. We will ask you to fill out a scoping form which will speed up the process.
