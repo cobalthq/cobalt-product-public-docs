@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Cybersecurity Services provides security testing solutions beyond pentesting as a Service. Our focus on process execution allows for faster engagements with a centralized view into the health of security programs and a clear path for elevated security posture.
+Cybersecurity Services provides security testing solutions beyond Pentesting as a Service. Our focus on process execution allows for faster engagements with a centralized view into the health of security programs and a clear path for elevated security posture.
 {{% /pageinfo %}}
 
 ## Engagements
