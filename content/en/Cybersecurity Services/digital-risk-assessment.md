@@ -6,13 +6,11 @@ description: >
   Review details & methodology for Digital Risk Assessments. 
 ---
 
-{{% pageinfo %}}
-{{% pentest-rigor %}}
-{{% /pageinfo %}}
 
 ## Digital Risk Assessment
 
 A Digital Risk Assessment (DRA) is a systematic process for identifying, analyzing, and prioritizing potential threats and vulnerabilities from an attacker’s perspective within an organization's digital ecosystem.
+
 Digital Risk Assessment is a type of engagement outside of our standard Pentesting as a Service. Refer to the below chart for details of a Digital Risk Assessment. 
 
 | **Feature** | Description |
