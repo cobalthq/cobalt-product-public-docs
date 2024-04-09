@@ -3,34 +3,33 @@ title: "Cybersecurity Services"
 linkTitle: "Cybersecurity Services"
 weight: 6
 description: >
-  Run advanced engagements with the Cobalt Cybersecurity Services team.
+  Run engagements with the Cobalt Cybersecurity Services team.
 ---
 
 {{% pageinfo %}}
-Cybersecurity Services provide security testing solutions beyond pentesting. Our focus on process execution allows for faster engagements with a centralized view into the health of security programs and a clear path for elevated security posture.
+Cybersecurity Services provides security testing solutions beyond Pentesting as a Service. Our focus on process execution allows for faster engagements with a centralized view into the health of security programs and a clear path for elevated security posture.
 {{% /pageinfo %}}
 
-## Pentest Engagements
+## Engagements
 
-The Cobalt Cybersecurity Services team can run the following pentest engagements:
+The Cobalt Cybersecurity Services team can run the following engagements:
 
+- [Digital risk assessment](/cybersecurity-services/digital-risk-assessment/)<sup>*</sup>
 - IoT ecosystem pentest
 - Secure code review
 - Vulnerability validation
 - Goal-based pentest
 - Threat modeling
 - Red teaming
-- Thick client application pentest
 - Wireless network pentest
 - Physical social engineering
 - Electronic social engineering
 - Security hardening
-- Pentest program management
 
-Can't find what you need? [Contact us](mailto:cybersecurity_services@cobalt.io) to plan an engagement tailored to your needs.
+<sup>*</sup>Indicates engagements available to use on Cobalt. Other engagement types will be handled by request on the Catalog page or [contact us](mailto:cybersecurity_services@cobalt.io).
 
 <!--
-## Pentest Methodologies
+## Methodologies
 
 We follow pentest methodologies based on the industry best practices. Learn more about each methodology:
 
@@ -45,7 +44,7 @@ We follow pentest methodologies based on the industry best practices. Learn more
 - Secure code review
 -->
 
-## Pentest Process
+## Process
 
 ![Lifecycle of the Cobalt pentest program](/deepdive/PentestProcessFlow.png "Lifecycle of the Cobalt pentest program")
 <br><br>
@@ -54,11 +53,11 @@ Here are the stages of a Cybersecurity Services engagement:
 
 | | Stage | Description |
 |---|---|---|
-| 1 | **Discover** | You define what you need to test and request the service in the platform or contact your CSM.  |
-| 2 | **Plan** | We arrange a kickoff call to plan, scope, and schedule the service. During this stage, we:<ul><li>Determine the scope, including the [engagement type](#pentest-engagements) and  methodology.</li><li>Create a Statement of Work.</li><li>Set timelines.</li></ul> |
+| 1 | **Discover** | You define what you need to test. Create an engagement brief, or make a request on the Catalog page.  |
+| 2 | **Plan** | During this stage, we will determine the scope, including the [engagement type](#pentest-engagements) and methodology. Create a Statement of Work (if applicable) and set timelines. |
 | 3 | **Test** | The Cobalt Cybersecurity Services team tests your asset using the determined methodology.<ul><li>We share vulnerabilities that we discover in real time, in a dedicated Slack channel.</li><li>At this stage, you can start remediating findings.</li></ul> |
-| 4 | **Remediate** | The testing process is complete. Remediate discovered findings.<ul><li>We provide remediation guidance during testing.</li><li>We don't provide free retesting for Cybersecurity Services.</li></ul> |
-| 5 | **Report** | We share a report once the engagement is complete.<ul><li>For advanced pentests, the [report sections](/platform-deep-dive/pentests/reports/report-contents/) may differ compared to standard pentests.</li><li>We also offer a debrief call where you can ask questions about the remediation, report, and testing performed.</li></ul> |
+| 4 | **Remediate** | The testing process is complete. Remediate discovered findings.<ul><li>We provide remediation guidance during testing.</li><li>Free retesting is depending upon the type of engagement.</li></ul> |
+| 5 | **Report** | We share a report once the engagement is complete. For engagements, the [report sections](/platform-deep-dive/pentests/reports/report-contents/) may differ compared to standard pentests. |
 | 6 | **Analyze** | Once the engagement is complete, analyze the security posture of your asset.<ul><li>Deep dive into the report to assess discovered vulnerabilities with your development and security teams.</li><li>Take the required remediation actions.</li></ul> |
 
 ## Asset Types
@@ -68,15 +67,12 @@ Cybersecurity Services supports additional asset types, beyond our standard pent
 | Asset Type | Description |
 |---|---|
 | IoT | An IoT ecosystem. As [defined](https://csrc.nist.gov/glossary/term/iot_device) by NIST, an IoT device has at least one transducer (sensor or actuator) for interacting directly with the physical world and at least one network interface, such as Ethernet, Wi-Fi, or Bluetooth, for interfacing with the digital world. |
-| Physical | An office, building, campus, or a physical device. |
-| Thick Client | An application installed locally on a user's computer. |
-| Wireless Network | A network that allows devices to stay connected without using wires of any kind. |
+| Physical | Offices, buildings, data centers, campuses, or any other physical space that requires access control due to the presence of sensitive information, equipment, or processes. |
+| Wireless Network | Wi-Fi networks consist of a wireless router or access point that broadcasts signals, allowing devices equipped with Wi-Fi capability (such as smartphones, laptops, tablets, and smart home devices) to connect wirelessly. Users can access the internet or communicate with other devices within the network range without needing physical cables. |
 | Other | Asset used in other engagements, such as phishing, red teaming, security hardening, and more.
 
 ## How to Request Cybersecurity Services
 
-![Specialized pentest in the Cobalt UI](/profservices/specialized-pentest-label.png "Specialized pentest in the Cobalt UI")
+To request a Cybersecurity Service, navigate to the `Catalog` page in Cobalt. Select `Request` on the service you are interested in.
 
-To request a Cybersecurity Service, navigate to the Services tab in the Cobalt UI. Select the services you’re interested in and select ‘Request Service’.
-
-Our CSM team will reach out to start the process at a time that suits you.
+Our CSM team will reach out to start the process at a time that suits you. We will ask you to fill out a scoping form which will speed up the process.
