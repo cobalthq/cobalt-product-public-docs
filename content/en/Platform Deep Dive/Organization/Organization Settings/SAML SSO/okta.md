@@ -40,8 +40,10 @@ For more information on the listed features, visit the [Okta Glossary](https://h
     - Click **Save Configuration**.<br><br>
     ![Set the Application username format in Okta](/deepdive/Okta-SAML-configurations.png "Set the Application username format in Okta")
 1. In Okta, select the **Sign On** tab for the Cobalt SAML app, then click **Edit**.
+    - **Region**: Enter your region, if applicable. The slug appears in the subdomain of the ACS URL.
+      - **Note**: the default value is `us`.<br>
     - **Slug**: Enter your organization’s slug from Cobalt. The slug appears after `=` in the ACS URL. You can also find the slug in **Settings** > **General**.<br><br>
-    ![Organization's slug in the ACS URL](/deepdive/slug-acs-url.png "Organization's slug in the ACS URL")
+    ![Organization's region and slug in the ACS URL](/deepdive/Updated_ACS_URL.png "Organization's region and slug in the ACS URL")
     - **Application username format**: Select **Email**.<br><br>
     ![Set the Application username format in Okta](/deepdive/Okta-app-username-format.png "Set the Application username format in Okta")
     - Click **Save**.

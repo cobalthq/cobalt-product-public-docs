@@ -1,7 +1,7 @@
 ---
 title: "Mobile Application Penetration Testing Methodology"
 linkTitle: "Mobile Methodologies"
-weight: 110
+weight: 140
 description: >
   Review Cobalt pentest methodologies for mobile applications.
 aliases:

@@ -7,6 +7,22 @@ HUGO_VERSION = "0.109.0"
 HUGO_ENV = "production"
 
 [[redirects]]
-  from = "https://cobalt-docs.netlify.app"
-  to = "https://developer.cobalt.io"
+  from = "https://cobalt-docs.netlify.app/*"
+  to = "https://docs.cobalt.io/:splat"
+  status = 301
+  force = true
+[[redirects]]
+  from = "https://developer.cobalt.io/*"
+  to = "https://docs.cobalt.io/:splat"
+  status = 301
+  force = true
+
+# Redirects for the old docs.cobalt.io API documentation to the new location
+[[redirects]]
+  from = "/v1"
+  to = "/cobalt-api/v1"
+  status = 301
+[[redirects]]
+  from = "/v2"
+  to = "/cobalt-api/v2"
   status = 301

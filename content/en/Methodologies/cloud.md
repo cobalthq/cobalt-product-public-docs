@@ -1,7 +1,7 @@
 ---
-title: "Cloud Pentests"
-linkTitle: "Cloud Pentest Methodologies"
-weight: 150
+title: "Cloud Configuration Pentests"
+linkTitle: "Cloud Configuration Pentest Methodologies"
+weight: 200
 description: >
   Review methodologies for Cloud Configurations.
 aliases:
@@ -97,6 +97,26 @@ arn:aws:iam::aws:policy/job-function/ViewOnlyAccess
 
 You should also include the architecture of your cloud configuration.
 
+### What is covered
+
+Cloud Configuration Reviews meet the Security standards based on the Center for Internet Security (CIS) Benchmarks. AWS CIS Benchmarks cover IAM, Storage, Logging, Monitoring, and Networking.
+
+#### Specific checks categories that are covered as part of the Pentest
+
+1. AWS Cloudtrail
+2. AWS Cloudwatch
+3. AWS EC2
+4. AWS ELB
+5. AWS IAM
+6. AWS RDS
+7. AWS Redshift
+8. AWS Route 53
+9. AWS S3
+10. AWS SES
+11. AWS SNS
+12. AWS SQS
+13. AWS VPC
+
 ## Google Cloud Platform (GCP)
 
 Our pentesters need access to test your GCP systems. To that end, you should prepare:
@@ -107,11 +127,41 @@ Our pentesters need access to test your GCP systems. To that end, you should pre
     - To provide API credentials, use a (service) account with Viewer and Security Reviewer
       permissions.
 
+### What is covered
+
+Cloud Configuration Reviews meet the Security standards based on the Center for Internet Security (CIS) Benchmarks. GCP CIS Benchmarks cover IAM, Storage, Logging, Monitoring, Virtual Machines, Cloud SQL DB Services, BigQuery, and Networking.
+
+#### Specific checks categories that are covered as part of the Pentest
+
+1. GCP Identity and Access Management
+2. GCP Logging and Monitoring
+3. GCP Networking
+4. GCP Virtual Machines
+5. GCP Storage
+6. GCP Cloud SQL Database Services
+7. GCP BigQuery
+
 ## Microsoft Azure
 
 Our pentesters need access to test your Azure systems. To that end, you should prepare:
 - A dedicated Azure account for each pentester, with access to each target system.
   - Identity and Access Management (IAM) API credentials (read-only) for each dedicated account.
+
+### What is covered
+
+Cloud Configuration Reviews meet the Security standards based on the Center for Internet Security (CIS) Benchmarks. Azure CIS Benchmarks cover IAM, Microsoft Defender, Storage Accounts, Database Services, Logging, Monitoring, Key Vault, AppService and Networking.
+
+#### Specific checks categories that are covered as part of the Pentest
+
+1. Identity and Access Management
+2. Microsoft Defender
+3. Storage Accounts
+4. Database Services
+5. Logging and Monitoring
+6. Networking
+7. Virtual Machines
+8. Key Vault
+9. AppService
 
 ## Other Cloud Providers
 

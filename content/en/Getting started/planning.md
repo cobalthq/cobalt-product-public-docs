@@ -70,6 +70,8 @@ Scoping parameters differ for each [asset type](/platform-deep-dive/assets/asset
 - [External Network](#external-network)
 - [Internal Network](#internal-network)
 - [Cloud Config](#cloud-configuration)
+- [Desktop](#desktop)
+- [AI/LLM Pentest](#aillm-pentesting)
 - [Assets of multiple types](#assets-of-multiple-types)
 
 Once you've scoped the pentest, review the required [credits](#view-required-credits), as determined by our algorithm.
@@ -150,6 +152,32 @@ To scope a pentest for a Cloud Configuration asset, specify the number of the fo
 |---|---|---|
 | User Accounts, Projects, or Resource Groups | <p>User Accounts refer to accounts in your cloud asset.</p><p>[Projects](/getting-started/glossary/#projects-cloud-assets) are all resources included in your cloud asset.</p><p>[Resource Groups](/getting-started/glossary/#resource-group-cloud) are sets of resources in a cloud asset.</p> | Enter the total number of accounts, projects, or resource groups in your cloud asset that need to be tested.<ul><li>**GCP**: The cloud configuration size is based on _Projects_. In Identity and Access Management (IAM), access is managed through IAM policies. An IAM policy can be attached to a Google Cloud Project. Each policy contains a collection of role bindings that associate one or more principals, such as users or service accounts, with an IAM role.</li><li>**AWS**: The number of AWS accounts within the AWS Organization. The IAM user that pentesters will use to enumerate and assess AWS configurations is set based upon these accounts.</li><li>**Azure**: Subscriptions may contain various Resource Groups—containers that hold related resources for an Azure solution. The CIS Benchmark for Azure is assessed at the Subscription level.</li></ul> |
 | Unique Service Instances | Unique services are the different functionalities that you've configured in your cloud deployment. | Enter the number of unique services in your cloud asset that need to be tested.<ul><li>Examples of services: EC2, S3, Comprehend, Kubernetes, Azure Bot Service, Cloud Storage, Azure Container Service.</li><li>Cobalt sizes _Unique Instance of Services Used_ for Cloud Configuration Reviews as we're enumerating configurations, not hosts. Example: 100 EC2 instances using the same base image are considered redundant from the configuration perspective and counted as 1 unique service.</li></ul> |
+
+### Desktop
+
+To scope a pentest for a Desktop asset, specify the number of the following characteristics of the asset that need to be tested.
+
+| Parameter | Definition | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
+|---|---|---|
+| [Operating Systems](/getting-started/glossary/#mobile-screen) | <p>An operating system (OS) is software that allows desktop devices to run applications and programs. | <p>Enter the total number of operating systems in your desktop application that need to be tested. Examples of desktop operating systems include Microsoft Windows, macOS, various Linux distributions, and others.</li></ul> |
+
+### AI/LLM Pentesting
+
+Cobalt offers two levels of AI/LLM pentesting of Web related Assets. 
+
+- [LLM/AI Prompt Injection](#llm-prompt-injection) (+5 credits)
+Focus on testing the security of your AI systems against prompt injection attacks. These attacks manipulate the AI’s input to generate malicious output, which can compromise the system’s integrity and confidentiality.
+
+- [LLM/AI Owasp Top 10](#llm-owasp-top-ten) (+16 credits)
+Test your LLMs against the Open Web Application Security Project (OWASP) Top 10 most critical web application security risks. Ensure they’re protected against unauthorized access, data breaches, and disruptions
+
+To scope a AI/LLM pentest specify the Number of independent LLM features to be tested.
+
+If multiple independent features are selected, the results will be documented in the same report and findings will reported in the same pentest. If seperate reports are needed, it's recommended to run seperate pentests for them.
+
+AI/LLM pentests can be run both as a Comprehensive pentest (including a thorough final pentest analysis and report) and as an Agile pentest (no final report).
+
+AI/LLM pentests are available for Web assets only.
 
 ### Assets of Multiple Types
 

@@ -368,6 +368,10 @@ Learn more about [assigning a point of contact](/getting-started/planning/#assig
 
 All resources included in your cloud [asset](#asset). For example, [AWS defines a project](https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/create-project.html) as a collection of resources associated with an asset.
 
+## Recovery Code
+
+A recovery option, with [2FA](#multi-factor-authentication) enabled, to regain entry into your account if you lose access to your device and/or authenticator app.
+
 ## Remediate
 
 To fix a vulnerability identified by a pentest or incident report. Examples:
@@ -461,9 +465,9 @@ Contrast with [Traditional Web Application](#traditional-web-application).
 
 ## Specialized Pentest
 
-A Specialized pentest that you see in the Cobalt UI is a pentest engagement conducted by the Cobalt [Professional Services](https://www.cobalt.io/services/cybersecurity-consulting) team.
+A Specialized pentest that you see in the Cobalt UI is an engagement conducted by the Cobalt [Cybersecurity Services](https://www.cobalt.io/services/cybersecurity-consulting) team.
 
-Learn more about [Professional Services pentests](/professional-services/).
+Learn more about [Cybersecurity Services](/cybersecurity-services/).
 
 ## Static Web Page
 

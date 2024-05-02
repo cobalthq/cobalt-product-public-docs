@@ -1,5 +1,4 @@
 - Asana
-- Azure DevOps (Boards)
 - Bitbucket Issues
 - PagerDuty
 - PivotalTracker
