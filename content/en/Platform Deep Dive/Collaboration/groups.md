@@ -29,7 +29,7 @@ Assign [Organization Members](/platform-deep-dive/collaboration/user-roles/#orga
 - Select **Create Group**.
 
 {{% alert title="Note" color="primary" %}}
-Assets can be [individually assigned](/platform-deep-dive/assets/#assigning-a-group-to-an-asset) to a group from the Create or Edit Asset forms.
+Assets can be [individually assigned](/collaboration/groups/#assigning-a-group-to-an-asset) to a group from the Create or Edit Asset forms.
 {{% /alert %}}
 
 ![Create group page](/deepdive/Groups_CreateForm.png "Create group page")
