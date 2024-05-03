@@ -6,8 +6,8 @@ replayed by the scans when trying to authenticate to the target.
 
 # Installation
 
-You can install the [Chrome browser extension]  or the [Firefox add-on] as you would normally
-install any other browser plugin
+You can install the [Chrome browser extension] or the [Firefox add-on] as you would normally
+install any other browser plugin.
 
 # Usage
 
