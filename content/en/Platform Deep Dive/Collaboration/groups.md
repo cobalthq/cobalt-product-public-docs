@@ -16,7 +16,7 @@ Watch a demo video going over the Groups feature:
 
 ## Create a Group
 
-Assign assets and [Organization Members](/platform-deep-dive/collaboration/user-roles/#organization-member) into a group:
+Assign [Organization Members](/platform-deep-dive/collaboration/user-roles/#organization-member) into a group:
 
 - Navigate to the **People** page, and then to the **Groups** tab.
 - Select **Create Group**.
@@ -27,6 +27,10 @@ Assign assets and [Organization Members](/platform-deep-dive/collaboration/user-
     - Organization Owners and Cobalt Staff will not appear in this list but will still have access to all assets.
     - [Pentest Team Members](/platform-deep-dive/collaboration/user-roles/#pentest-team-member) that are not part of your organization can still be [manually added](/platform-deep-dive/collaboration/manage-collaborators/#add-a-pentest-team-member) to each pentest.
 - Select **Create Group**.
+
+{{% alert title="Note" color="primary" %}}
+Assets can be [individually assigned](/platform-deep-dive/assets/#assigning-a-group-to-an-asset) to a group from the Create or Edit Asset forms.
+{{% /alert %}}
 
 ![Create group page](/deepdive/Groups_CreateForm.png "Create group page")
 
@@ -55,7 +59,7 @@ On the group details page, you can:
 
 ## Assigning a Group to an Asset
 
-In addition to assigning existing assets to a group from the Groups page, you can assign a group during [asset creation](/platform-deep-dive/assets/#create-an-asset) or editing.
+You can assign a group to multiple assets during [asset creation](/platform-deep-dive/assets/#create-an-asset) or editing.
 
 ![Groups field in asset form](/deepdive/CreateNewAsset.png "Groups field in asset form")
 
