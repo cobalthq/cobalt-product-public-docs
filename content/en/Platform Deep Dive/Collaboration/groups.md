@@ -23,7 +23,6 @@ Assign assets and [Organization Members](/platform-deep-dive/collaboration/user-
 - The **Create Group** screen prompts you for the following:
   - **Group Name**: Set up a descriptive name to easily identify the group.
   - **Description**: Add information to further describe the group.
-  - **Associated Assets**: Select from a list of all assets within your organization (Note: Assets already associated with another group will not appear in this list).
   - **Members**: Select from a list of all Organization Members within your organization. These users will have exclusive access to the group’s associated assets, and their pentests and findings.
     - Organization Owners and Cobalt Staff will not appear in this list but will still have access to all assets.
     - [Pentest Team Members](/platform-deep-dive/collaboration/user-roles/#pentest-team-member) that are not part of your organization can still be [manually added](/platform-deep-dive/collaboration/manage-collaborators/#add-a-pentest-team-member) to each pentest.
