@@ -50,8 +50,11 @@ Here’s a general configuration workflow for SAML SSO:
     - Select **Save Configuration**.<br>
     ![Configure SAML SSO in the Cobalt app](/deepdive/configure-saml-sso-overlay.png "Configure SAML SSO in the Cobalt app")
 1. Complete the configuration in the identity provider system. Enter the following values from Cobalt:
-    - **ACS URL** (unique value for each organization). Example: `https://login.app.us.cobalt.io/login/callback?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`).
+    - **ACS URL**: (unique value for each organization).
+      - Example: `https://login.app.us.cobalt.io/login/callback?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`).
     - **Entity ID**: `https://api.us.cobalt.io/users/saml/metadata`
+    - **Metadata**: If your identity provider requires the SAML metadata file, it can be obtained at the following URL.
+      - Example: `https://login.app.us.cobalt.io/samlp/metadata?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`).
 1. Test your SAML configuration.
 1. If the test is successful, assign users to the SAML app in the IdP.
 1. Notify users that now they can sign in through the selected identity provider. We don't send any notifications to users.
