@@ -109,7 +109,7 @@ To wait for a login input/element when the target has some unusual behavior whil
 
 If your login page does not have all the login credentials inputs in one page, for example, you have to enter an email then click next to enter the password, you can use a login sequence. It will record your actions and replay them during the scan. 
 
-To learn more about Cobalt's Sequence Recorder browser plugin, check the [Sequence Recorder](/deepdive/scans/sequence-recorder/) page.
+To learn more about Cobalt's Sequence Recorder browser plugin, check the [Sequence Recorder](/platform-deep-dive/scans/sequence-recorder) page.
 
 Once you have a sequence recorded, go to the target's Advanced Settings, toggle on the “Login sequence option and then:
 1. Enter a name for the sequence to easily identify it later.
