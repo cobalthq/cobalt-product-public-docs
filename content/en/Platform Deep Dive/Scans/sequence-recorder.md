@@ -6,7 +6,8 @@ replayed by the scans when trying to authenticate to the target.
 
 # Installation
 
-_Work in progress_
+You can install the [Chrome browser extension] or the [Firefox add-on] as you would normally
+install any other browser plugin.
 
 # Usage
 
@@ -28,3 +29,8 @@ A new tab will appear. You can either copy the sequence to the clipboard or down
 You can now go to your target settings on Cobalt and paste or upload the sequence there.
 
 Once those steps are completed, scans against this target will try to authenticate using these steps.
+
+<!-- links -->
+
+[Chrome browser extension]: https://chromewebstore.google.com/detail/cobalt-sequence-recorder/enncnbaaflabakepkoemnilfpemdmemh
+[Firefox add-on]: https://addons.mozilla.org/en-US/firefox/addon/cobalt-sequence-recorder/
