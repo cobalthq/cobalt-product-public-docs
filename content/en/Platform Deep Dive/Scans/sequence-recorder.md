@@ -1,3 +1,11 @@
+---
+title: "Sequence recorder"
+linkTitle: "Sequence recorder"
+weight: 30
+description: >
+  More information about login sequence recorder
+---
+
 # Sequence recorder
 
 Cobalt's Sequence Recorder is a browser plugin that records your actions in the browser. This can specifically

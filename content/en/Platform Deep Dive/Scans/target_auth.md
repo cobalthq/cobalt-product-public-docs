@@ -12,9 +12,10 @@ If your website has areas that require authentication, you may provide the DAST 
 
 When a scan is started and the target has a login configuration, the first thing the crawler does is log into the application (web target) to obtain a session. Upon successful login, it will start crawling the app. While the crawler is running, it constantly verifies whether the session is still valid. Currently, this check is performed automatically based on the login configuration, but soon we will have the option to configure how the loss of session can be detected.
 
+
 # Basic steps
 
-To add authentication, toggle on the “Authenticated Scan” option and then:
+To add authentication using a simple login form, go to the target's Advanced Settings, toggle on the “Login form” option and then:
 
 1. Add the URL where the login form is located.
 2. Add the fields required for login. You will likely have one field for username and one for password.
@@ -103,3 +104,18 @@ To wait for a login input/element when the target has some unusual behavior whil
 - The login page exhibits unusual behavior, requiring the use of the "hack" `1_wait` to wait for a specific input (this issue can be particularly difficult to identify).
 - The target is blocking our access, preventing us from reaching the login page.
 - The login process includes a required CAPTCHA that users may not notice because the page uses "smart recaptcha," which is only triggered when a crawler is detected.
+
+# Using a Login Sequence
+
+If your login page does not have all the login credentials inputs in one page, for example, you have to enter an email then click next to enter the password, you can use a login sequence. It will record your actions and replay them during the scan. 
+
+To learn more about Cobalt's Sequence Recorder browser plugin, check the [Sequence Recorder](/deepdive/scans/sequence-recorder/) page.
+
+Once you have a sequence recorded, go to the target's Advanced Settings, toggle on the “Login sequence option and then:
+1. Enter a name for the sequence to easily identify it later.
+2. Paste the sequence in the field provided, or upload the sequence file directly.
+3. Click on the "Add Sequence" button.
+
+You can upload multiple sequences and enable only the one you want to use for the scan.
+
+![Login Sequence](/deepdive/scans/3.1_LoginSequence.png "Login Sequence")<br>
