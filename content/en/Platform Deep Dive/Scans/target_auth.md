@@ -15,21 +15,17 @@ When a scan is started and the target has a login configuration, the first thing
 
 # Basic steps
 
-To add authentication using a simple login form, go to the target's Advanced Settings, toggle on the “Login form” option and then:
 
-1. Add the URL where the login form is located.
-2. Add the fields required for login. You will likely have one field for username and one for password.
-    - Field Name
-    - Field Value
-
-![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
+To enable authentication, you can go to the target's Advanced Settings and select either [Login Form](#using-a-login-form) or [Login Sequence](#using-a-login-sequence).
 
 
 # Using a Login Form
 
 (applicable when the login form requires a username/email and password, which is a common use case)
 
-To simplify the configuration, we require the Login URL and at least one field name with its respective value.
+To add authentication using a simple login form, go to the target's Advanced Settings, then toggle on the “Login form” option. To simplify the configuration, we require the Login URL and at least one field name with its respective value.
+
+![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
 
 ## The Login URL
 
