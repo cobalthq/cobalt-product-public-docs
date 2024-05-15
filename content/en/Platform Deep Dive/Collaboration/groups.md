@@ -28,9 +28,9 @@ Assign [Organization Members](/platform-deep-dive/collaboration/user-roles/#orga
     - [Pentest Team Members](/platform-deep-dive/collaboration/user-roles/#pentest-team-member) that are not part of your organization can still be [manually added](/platform-deep-dive/collaboration/manage-collaborators/#add-a-pentest-team-member) to each pentest.
 - Select **Create Group**.
 
-{{% alert title="Note" color="primary" %}}
+{{< alert title="Note" color="primary" >}}
 Assets can be [individually assigned](/platform-deep-dive/collaboration/groups/#assigning-a-group-to-an-asset) to a group from the Create or Edit Asset forms.
-{{% /alert %}}
+{{< /alert >}}
 
 ![Create group page](/deepdive/Groups_CreateForm.png "Create group page")
 
