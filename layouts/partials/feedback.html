@@ -33,16 +33,16 @@
    }
 
    const sendFeedback = (value) => {
-      if (typeof ga !== 'function') return;
+      if (typeof dataLayer !== 'object' || typeof dataLayer.push !== 'function') return;
+
       const args = {
-         command: 'send',
-         hitType: 'event',
-         category: 'Feedback Buttons',
+         event: 'Feedback Buttons',
          action: 'click',
          label: window.location.pathname,
          value: value
       };
-      ga(args.command, args.hitType, args.category, args.action, args.label, args.value);
+
+      dataLayer.push(args);
    };
 
    if (yesButton !== null ) {
