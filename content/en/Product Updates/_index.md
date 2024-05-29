@@ -10,6 +10,10 @@ description: >
 We cover updates to the Cobalt platform in our release blog.
 {{% /pageinfo %}}
 
+## 2024
+
+- [Cobalt Release Blog: June 2024](TBD)
+
 ## 2023
 
 - [Cobalt Release Blog: May 2023](https://www.cobalt.io/blog/cobalt-release-blog-may-2023)
