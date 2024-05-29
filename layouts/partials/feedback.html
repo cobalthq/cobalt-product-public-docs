@@ -19,8 +19,8 @@
    const noButton = document.querySelector('.feedback-no');
 
    const disableButtons = () => {
-      yesButton.disabled = true;
-      noButton.disabled = true;
+      yesButton.classList.add('disabled')
+      noButton.classList.add('disabled')
    };
 
    function thanksFeedback(button){
