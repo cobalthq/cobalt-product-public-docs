@@ -4,7 +4,6 @@
 	{{ .Content }}
 	{{ if (and (not .Params.hide_feedback) (.Site.Params.ui.feedback.enable) (.Site.GoogleAnalytics)) }}
 		{{ partial "feedback.html" .Site.Params.ui.feedback }}
-		<script src="/js/feedback.js" type="text/javascript"></script>
 		<br />
 	{{ end }}
 	{{ if (.Site.DisqusShortname) }}
