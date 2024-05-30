@@ -45,19 +45,15 @@
       dataLayer.push(args);
    };
 
-   if (yesButton !== null ) {
-      yesButton.addEventListener('click', () => {
-         thanksFeedback(yesButton);
-         disableButtons();
-         sendFeedback(1);
-      });
-   }
+   yesButton.addEventListener('click', () => {
+      thanksFeedback(yesButton);
+      disableButtons();
+      sendFeedback(1);
+   });
 
-   if (noButton !== null ) {
-      noButton.addEventListener('click', () => {
-         thanksFeedback(noButton);
-         disableButtons();
-         sendFeedback(0);
-      });
-   }
+   noButton.addEventListener('click', () => {
+      thanksFeedback(noButton);
+      disableButtons();
+      sendFeedback(0);
+   });
 </script>
