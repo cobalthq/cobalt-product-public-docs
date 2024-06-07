@@ -40,10 +40,21 @@ See more about how to configure a target in [configuring a target]
 
 ### Scan Scheduling
 
-- To run a scan, select “Start Scan”
-  - You also have the ability to schedule a scan at a later time
+- To run a scan, select "Scan Now”. This will start a scan immediately.
 
 ![Start Scan - Targets](/deepdive/scans/4_StartScanTargets.png "Start Scan - Targets")<br>
+
+- Selecting "Scan Later..." allows setting a specific start date and time for the scan. 
+  - This can also be a recurring schedule, if an option other than "None" is selected in the "Recurrence" dropdown.
+  - The accepted recurrences are: Hourly, daily, weekly, monthly and quarterly.
+
+![Scan Later - Targets](/deepdive/scans/10_ScheduledScanForm.png "Scan Later - Targets")<br>
+
+-  Upcoming scheduled scans can be viewed under the "Scheduled Scans" tab.
+  - Recurring scheduled scans are marked with a "Recurring" label, while one-off scans don't have any labeling.
+  - The "Start Date" always refers to the date of the next scheduled scan.
+
+![Scheduled Scans View - Targets](/deepdive/scans/11_ScheduledScansView.png "Scheduled Scans View - Targets")<br>
 
 ### Scan Results
 
