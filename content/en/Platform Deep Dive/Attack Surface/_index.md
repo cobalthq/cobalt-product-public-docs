@@ -1,20 +1,20 @@
 ---
-title: "Domains"
-linkTitle: "Domains"
+title: "Attack Surface"
+linkTitle: "Attack Surface"
 weight: 40
 description: >
-  Domains (Beta) – Attack Surface Discovery.
+  Attack Surface Discovery and Monitoring.
 ---
 
 {{% pageinfo %}}
 Scan your Domains to discover Hosts.
 {{% /pageinfo %}}
 
-One of the largest cybersecurity challenges for enterprises today is understanding their complete attack surface and its risk posture. Oftentimes, organizations may have publicly discoverable assets that they didn’t previously know about, leaving them exposed to attack. 
+One of the largest cybersecurity challenges for enterprises today is understanding their complete attack surface and its risk posture. Oftentimes, organizations may have publicly discoverable assets that they didn’t previously know about, leaving them exposed to attack.
 
-Domains is an experimental attack surface discovery/monitoring (ASM) feature to help customers understand what Hosts under their Domains are externally reachable, ensuring that all assets in their environment can be properly secured.
+Attack Surface is an attack surface discovery/monitoring (ASM) feature to help customers understand what Hosts under their Domains are externally reachable, ensuring that all assets in their environment can be properly secured.
 
-Domains will be launched with basic functionality that allows customers to see hosts under their Domains. Ultimately, Domains will grow in feature richness to accommodate for use cases such as:
+Attack Surface was launched with basic functionality that allows customers to see hosts under their Domains. Ultimately, Domains will grow in feature richness to accommodate for use cases such as:
 
 - Risks related to Hosts, e.g. risk for subdomain takeover
 - Auto-enumerating Domains from DNS providers (e.g. Route53, Cloudflare, etc)
@@ -22,9 +22,9 @@ Domains will be launched with basic functionality that allows customers to see h
 - Scan related URLs for vulnerabilities (DAST)
 - Weekly updates on new hosts in your attack surface
 
-## How to use the Domains feature
+## How to use the Attack Surface feature
 
-Go to the Domains (Beta) tab in the main left navigation menu
+Go to the Attack Surface tab in the main left navigation menu
 
 Here you can see the Domains that have already been added, and also you can add more Domains.
 
@@ -36,9 +36,9 @@ Use the “Add Domain” button to add a new Domain.
 
 When entering a Domain, please confirm that the Domain is associated with your Organization.
 
-When a Domain is added, Cobalt will start a scan searching for Hosts on the Domain. 
+When a Domain is added, Cobalt will start a scan searching for Hosts on the Domain.
 
-Cobalt will consecutively run daily scans on all Domains in the Domains list. 
+Cobalt will consecutively run daily scans on all Domains in the Domains list.
 
 ![Scan a domain](/deepdive/scanadomain.png "Scan a Domain")
 
@@ -68,14 +68,14 @@ Filtering for the date can be helpful e.g. if you want to surface only Host that
 
 ## How does the Takeover Risk work
 
-The Takeover Risk feature considers 5 conditions, that when are true could indicate a potential risk of DNS- or Subdomain takeover. 
+The Takeover Risk feature considers 5 conditions, that when are true could indicate a potential risk of DNS- or Subdomain takeover.
 
 1.  We did not reach a server with this IP, potentially someone could start a server with the same IP. If it’s only available within your VPN you should think about also having the DNS entry only available within your VPN.
 
 * What: The IP of this host seems to be offline as it does not react to any port.
-  
+
 * Why: That could mean you have a public DNS entry pointing to an IP which is only available in your VPN. Someone could start a server with the same IP in another network.
-  
+
 * Action: Think about also having the DNS entry only available within your VPN.This host refers to a website or api which did not respond successfully.
 
 * Severity: Informational
