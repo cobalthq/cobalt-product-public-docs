@@ -4,6 +4,8 @@ linkTitle: "Attack Surface"
 weight: 40
 description: >
   Attack Surface Discovery and Monitoring.
+aliases:
+- /domains
 ---
 
 {{% pageinfo %}}
