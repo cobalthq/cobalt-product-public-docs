@@ -120,7 +120,7 @@ Once you have a sequence recorded, go to the target's Advanced Settings, toggle 
 
 You can upload multiple sequences and enable only the one you want to use for the scan.
 
-<img src="/deepdive/scans/3.1_LoginSequence.png" alt="Login Sequence" class='image-box' style='width: 75%;'>
+{{% image src="/deepdive/scans/3.1_LoginSequence.png" alt="Login Sequence" %}}
 
 ## API Target Authentication
 
@@ -140,13 +140,13 @@ To enable API authentication, go to the API target's Advanced Settings and follo
 
 3. Click 'Authenticate' to validate the configuration.
 
-<img src="/deepdive/scans/API-Auth-1.png" alt="API authentication - authenticate" class='image-box'>
+{{% image src="/deepdive/scans/API-Auth-1.png" alt="API authentication - authenticate" %}}
 
 4. If the authentication is successful, choose the token to use from the response. The DAST Scanner will use this token in the subsequent requests.
 
 5. You need then to choose where to place the token, the field name for the token, and value prefix if needed.
 
-<img src="/deepdive/scans/API-Auth-2.png" alt="API authentication - save" class='image-box'>
+{{% image src="/deepdive/scans/API-Auth-2.png" alt="API authentication - save" %}}
 
 ### Custom Headers
 
@@ -160,4 +160,4 @@ Instead of using the authentication method, you can also define custom headers t
 
 4. You can add multiple headers if needed.
 
-<img src="/deepdive/scans//scanner-tab/Custom-Headers.png" alt="Custom Headers" class='image-box'>
+{{% image src="/deepdive/scans//scanner-tab/Custom-Headers.png" alt="Custom Headers" %}}
