@@ -52,6 +52,14 @@ For instance, with a target of `https://example.com`, the scan would cover `http
 
 A clear and well-defined DAST target ensures the scan focuses on the specific areas of an application most susceptible to external threats.
 
+## Adding a Web or API Target
+
+When adding a new target, you can choose between Web and API. Once the target type has been selected and saved, you can't change the type again.
+
+To scan an API, we need its specification, the schema. You can define it with an URL pointing to the schema or uploading it. The former has the advantage of us fetching the schema before every scan, ensuring we always get the most up-to-date version.
+
+![Add API target](/deepdive/scans/2_AddTarget-API.png "Add API target")<br>
+
 ## Configuring a Target
 
 There are a few configuration options available when setting up targets.
@@ -65,8 +73,7 @@ https://example.com/admin*
 https://api.example.com/api/users*
 https://example.com/account*
 ```
-- **Seed Paths**: In a similar way, a scan starts usually from the target url. Sometimes, there are some pages that are not reachable from there. If you want to add some extra starting points for the scan, you can use seed paths. Note that only relative paths are allowed
-and the Avoided URLs take precedence. This is a valid example:
+- **Seed Paths** (for web targets only): In a similar way, a scan starts usually from the target url. Sometimes, there are some pages that are not reachable from there. If you want to add some extra starting points for the scan, you can use seed paths. Note that only relative paths are allowed and the Avoided URLs take precedence. This is a valid example:
 
 ```
 posts/search?query=cobalt

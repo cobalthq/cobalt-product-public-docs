@@ -113,3 +113,43 @@ Once you have a sequence recorded, go to the target's Advanced Settings, toggle 
 You can upload multiple sequences and enable only the one you want to use for the scan.
 
 ![Login Sequence](/deepdive/scans/3.1_LoginSequence.png "Login Sequence")<br>
+
+## API Target Authentication
+
+The DAST Scanner supports APIs with different authentication methods. You can set a fixed API key in a custom header or configure a login endpoint from which you obtain an authentication token.
+
+You can also define custom parameter values that replace those found in the schema. This allows you to override example values or to ensure domain-specific values are properly filled.
+
+### API Authentication
+
+To enable API authentication, go to the API target's Advanced Settings and follow the steps in the form.
+
+1. First, select the media type for the authentication method. The DAST Scanner supports the following media types:
+   - `application/json`
+   - `application/x-www-form-urlencoded`
+
+2. Next, provide the login endpoint and the payload to be sent.
+
+3. Click 'Authenticate' to validate the configuration.
+
+![API authentication - authenticate](/deepdive/scans/API-Auth-1.png "API authentication - authenticate")<br>
+
+4. If the authentication is successful, choose the token to use from the response. The DAST Scanner will use this token in the subsequent requests.
+
+5. You need then to choose where to place the token, the field name for the token, and value prefix if needed.
+
+![API authentication - save](/deepdive/scans/API-Auth-2.png "API authentication - save")<br>
+
+### Custom Headers
+
+Instead of using the authentication method, you can also define custom headers to be sent with every request. This is useful when the API requires a fixed API key or other headers.
+
+1. To add custom headers, go to the target's Advanced Settings, the Scanner tab.
+
+2. Provide the header name and value.
+
+3. Click 'Add'.
+
+4. You can add multiple headers if needed.
+
+![Custom Headers](/deepdive/scans//scanner-tab/Custom-Headers.png "Custom Headers")<br>
