@@ -62,7 +62,7 @@ See more about how to configure a target in [configuring a target]
 
     ![Target - Scan Results Sample Report](/deepdive/scans/5_TargetScanResultsSampleReport.png "Target - Scan Results Sample Report")<br>
 
-    - Or, navigate to scans and view results for individual scans by clicking on the Started Date.
+    - Or, navigate to the scans tab and view results for individual scans.
 
     ![Scans Sample Findings Report](/deepdive/scans/6_ScansSampleFindingsReport.png "Scans Sample Findings Report")<br>
 
