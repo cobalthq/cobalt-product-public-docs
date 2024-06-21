@@ -13,13 +13,11 @@ If your website has areas that require authentication, you may provide the DAST 
 When a scan is started and the target has a login configuration, the first thing the crawler does is log into the application (web target) to obtain a session. Upon successful login, it will start crawling the app. While the crawler is running, it constantly verifies whether the session is still valid. Currently, this check is performed automatically based on the login configuration, but soon we will have the option to configure how the loss of session can be detected.
 
 
-# Basic steps
+## Web target authentication options
 
+To enable authentication for a web target, you can go to the target's Advanced Settings and select either [Login Form](#using-a-login-form) or [Login Sequence](#using-a-login-sequence).
 
-To enable authentication, you can go to the target's Advanced Settings and select either [Login Form](#using-a-login-form) or [Login Sequence](#using-a-login-sequence).
-
-
-# Using a Login Form
+## Using a Login Form
 
 (applicable when the login form requires a username/email and password, which is a common use case)
 
@@ -27,7 +25,7 @@ To add authentication using a simple login form, go to the target's Advanced Set
 
 ![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
 
-## The Login URL
+### The Login URL
 
 - The login URL may be the same as the target URL if the form is located on the root path or if it automatically redirects to the login page.
 - If the root path does not contain the login form or does not redirect to the login page, a specific URL must be provided.
@@ -39,7 +37,7 @@ For example:
 - If `https://example.com/` or `https://example.com/login` redirects to a third-party authentication provider (e.g., `https://example.auth0.com/?token=xyz`), define `https://example.com/` or `https://example.com/login` as the Login URL.
 
 
-## The fields
+### The fields
 
 We require the names and values of the fields. This refers to the value of the HTML input attribute `name` and the value that should be entered into the input. For example, for `<input type="text" name="username" value="">`, the field's name should be `username` and you should provide the respective value.
 
@@ -68,15 +66,15 @@ To address this, we offer the option to define the button that should be clicked
 - Field name: `submit_button`
 - Field value: `<CSS selector of the button>` (this must be a CSS selector)
 
-## Extra hacks to assist in certain situations
+### Extra hacks to assist in certain situations
 
-### Check for session loss:
+#### Check for session loss:
 
 - Field name: `check_loggedout`
 - Field value: `<CSS selector of an element only visible when logged out>` (e.g., `form.login #username`) or
 - Field value: `["CSS selector 1", "CSS selector 2"]` (e.g., `["#form.login #username", "form.login #password"]`)
 
-### Wait for a loading login input/element
+#### Wait for a loading login input/element
 
 To wait for a login input/element when the target has some unusual behavior while loading the login page, or to click on a button to go to the login page without the need for a login sequence:
 
@@ -90,7 +88,7 @@ To wait for a login input/element when the target has some unusual behavior whil
 
 **(The prefixed number, specifies the order)**
 
-## The most common issues when login fails
+### The most common issues when login fails
 
 - Incorrect or non-functioning credentials (e.g., user account is blocked).
 - The login URL is incorrect or does not display the login inputs for some reason. For example, the login might be through Auth0, and users may have copied the URL directly from Auth0 with a token, rendering it invalid.
@@ -101,7 +99,7 @@ To wait for a login input/element when the target has some unusual behavior whil
 - The target is blocking our access, preventing us from reaching the login page.
 - The login process includes a required CAPTCHA that users may not notice because the page uses "smart recaptcha," which is only triggered when a crawler is detected.
 
-# Using a Login Sequence
+## Using a Login Sequence
 
 If your login page does not have all the login credentials inputs in one page, for example, you have to enter an email then click next to enter the password, you can use a login sequence. It will record your actions and replay them during the scan. 
 
