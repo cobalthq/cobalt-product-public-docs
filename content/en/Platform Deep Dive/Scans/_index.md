@@ -5,6 +5,14 @@ weight: 50
 description: >
   DAST Scanner - Web Application Vulnerability Scanning
 ---
+<style>
+.image-box {
+  margin: 20px;
+  border: 1px solid #DADDE1;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+</style>
 
 {{% pageinfo %}}
 Scan your Web Applications to discover external vulnerabilities.
@@ -28,11 +36,11 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
 - To add a [target](/platform-deep-dive/scans/targets), select the Add Target button
 
-![Create Target](/deepdive/scans/1_CreateTarget.png "Create Target")<br>
+<img src="/deepdive/scans/1_CreateTarget.png" alt="Create Target" class='image-box'>
 
 - Add a name for the target and the URL
 
-![Add Target](/deepdive/scans/2_AddTarget.png "Add Target")<br>
+<img src="/deepdive/scans/2_AddTarget.png" alt="Add Target" class='image-box'>
 
 See more about how to configure a target in [configuring a target]
 
@@ -41,39 +49,39 @@ See more about how to configure a target in [configuring a target]
 
 - To run a scan, select "Scan Now”. This will start a scan immediately.
 
-![Start Scan - Targets](/deepdive/scans/4_StartScanTargets.png "Start Scan - Targets")<br>
+<img src="/deepdive/scans/4_StartScanTargets.png" alt="Start Scan - Targets" class='image-box'>
 
 - Selecting "Scan Later..." allows setting a specific start date and time for the scan. 
   - This can also be a recurring schedule, if an option other than "None" is selected in the "Recurrence" dropdown.
   - The accepted recurrences are: Hourly, daily, weekly, monthly and quarterly.
 
-![Scan Later - Targets](/deepdive/scans/10_ScheduledScanForm.png "Scan Later - Targets")<br>
+<img src="/deepdive/scans/10_ScheduledScanForm.png" alt="Scan Later - Targets" class='image-box'>
 
 -  Upcoming scheduled scans can be viewed under the "Scheduled Scans" tab.
   - Recurring scheduled scans are marked with a "Recurring" label, while one-off scans don't have any labeling.
   - The "Start Date" always refers to the date of the next scheduled scan.
 
-![Scheduled Scans View - Targets](/deepdive/scans/11_ScheduledScansView.png "Scheduled Scans View - Targets")<br>
+<img src="/deepdive/scans/11_ScheduledScansView.png" alt="Scheduled Scans View - Targets" class='image-box'>
 
 ### Scan Results
 
 - Once a scan is complete, you have two options to View Results
     - You can view the results on the target
 
-    ![Target - Scan Results Sample Report](/deepdive/scans/5_TargetScanResultsSampleReport.png "Target - Scan Results Sample Report")<br>
+    <img src="/deepdive/scans/5_TargetScanResultsSampleReport.png" alt="Target - Scan Results Sample Report" class='image-box'>
 
     - Or, navigate to the scans tab and view results for individual scans.
 
-    ![Scans Sample Findings Report](/deepdive/scans/6_ScansSampleFindingsReport.png "Scans Sample Findings Report")<br>
+    <img src="/deepdive/scans/6_ScansSampleFindingsReport.png" alt="Scans Sample Findings Report" class='image-box'>
 
 ### Failed Scans
 
 - If the scan fails, navigate to the scans list or the scan details page to see the reason for the failed scan(s).
 
   - Scan List View:
-![Scan failed](/deepdive/scans/scan-failed-01.png "Scan failed")<br>
+<img src="/deepdive/scans/scan-failed-01.png" alt="Scan failed" class='image-box'>
   - Scan Details View:
-![Scan failed](/deepdive/scans/scan-failed-02.png "Scan failed")<br>
+<img src="/deepdive/scans/scan-failed-02.png" alt="Scan failed" class='image-box'>
 
 ### Finding States
 
@@ -89,7 +97,7 @@ See more about how to configure a target in [configuring a target]
     - You can retest individual findings.
     - Navigate to the finding you want to retest and select “retest”
 
-    ![Retest Finding](/deepdive/scans/9_Retest_Finding.png "Retest Finding")<br>
+    <img src="/deepdive/scans/9_Retest_Finding.png" alt="Retest Finding" class='image-box'>
 
     - If the scan engine does not find the vulnerability again it will automatically mark the finding as “Fixed”.  If the issue still persists, it will move back to its previous state.
 
@@ -99,7 +107,7 @@ For compliance and to better understand the results of your scans, we provide di
 
 From Targets, click `Download` to select the report you want to download:
 
-![View Report](/deepdive/scans/7_ViewReport.png "View Report")<br>
+<img src="/deepdive/scans/7_ViewReport.png" alt="View Report" class='image-box'>
 
 You can also do this from the scans list or the scan details page.
 

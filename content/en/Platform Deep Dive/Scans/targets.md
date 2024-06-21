@@ -5,6 +5,14 @@ weight: 10
 description: >
   A target is the URL of a Web Application, Website, or API.
 ---
+<style>
+.image-box {
+  margin: 20px;
+  border: 1px solid #DADDE1;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+</style>
 
 {{% pageinfo %}}
 A target defines the scope of the scan.
@@ -12,7 +20,7 @@ A target defines the scope of the scan.
 
 ## What is a DAST Target?
 
-![Breakdown of a DAST Target URL](/deepdive/scans/Anatomy_DASTTarget.png "Breakdown of a DAST Target URL")
+<img src="/deepdive/scans/Anatomy_DASTTarget.png" alt="Breakdown of a DAST Target URL" class='image-box'>
 
 A DAST target is the specific entry point (URL or endpoint) of a web application, website, API, or any component that accepts input from the outside world. It defines the scope, or boundaries, of the security scan conducted by a DAST tool, limiting the tool to analyzing only those pages, links, or forms within the target's domain.
 
@@ -58,7 +66,7 @@ When adding a new target, you can choose between Web and API. Once the target ty
 
 To scan an API, we need its specification, the schema. You can define it with an URL pointing to the schema or uploading it. The former has the advantage of us fetching the schema before every scan, ensuring we always get the most up-to-date version.
 
-![Add API target](/deepdive/scans/2_AddTarget-API.png "Add API target")<br>
+<img src="/deepdive/scans/2_AddTarget-API.png" alt="Add API target" class='image-box'>
 
 ## Configuring a Target
 

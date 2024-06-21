@@ -5,6 +5,14 @@ weight: 30
 description: >
   More information about login sequence recorder
 ---
+<style>
+.image-box {
+  margin: 20px;
+  border: 1px solid #DADDE1;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+</style>
 
 # Sequence recorder
 
@@ -23,16 +31,16 @@ Once installed, click on Cobalt's extension icon, a small window will pop up. Ty
 the URL of the target that you'd like to add authentication to and click `Start Recording`
 
 
-![Click Start recording](/deepdive/scans/sequence-recorder/recorder1.png "Start Recording")
+<img src="/deepdive/scans/sequence-recorder/recorder1.png" alt="Start Recording" class="image-box">
 
 You'll see a red dot (🔴) in the tab title, meaning that it's recording. Perform the necessary
 actions to authenticate. Once done, click on the extension icon again and click `Stop Recording`.
 
-![Click Stop recording](/deepdive/scans/sequence-recorder/recorder2.png "Stop Recording")
+<img src="/deepdive/scans/sequence-recorder/recorder2.png" alt="Stop Recording" class='image-box'>
 
 A new tab will appear. You can either copy the sequence to the clipboard or download it as a file.
 
-![Get the sequence](/deepdive/scans/sequence-recorder/recorder3.png "Get the sequence")
+<img src="/deepdive/scans/sequence-recorder/recorder3.png" alt="Get the sequence" class='image-box' style="width: 80%;">
 
 You can now go to your target settings on Cobalt and paste or upload the sequence there.
 

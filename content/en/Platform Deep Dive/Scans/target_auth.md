@@ -5,6 +5,14 @@ weight: 20
 description: >
   More information about target authentication fields and hacks
 ---
+<style>
+.image-box {
+  margin: 20px;
+  border: 1px solid #DADDE1;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+</style>
 
 If your website has areas that require authentication, you may provide the DAST Scanner with credentials to log in to your website. By doing this, you're enabling the DAST Scanner to run a scan that might reveal any vulnerabilities in deeper parts of your app.
 
@@ -23,7 +31,7 @@ To enable authentication for a web target, you can go to the target's Advanced S
 
 To add authentication using a simple login form, go to the target's Advanced Settings, then toggle on the “Login form” option. To simplify the configuration, we require the Login URL and at least one field name with its respective value.
 
-![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
+<img src="/deepdive/scans/3_AuthenticatedScan.png" alt="Authenticated Scan" class='image-box' style='width: 75%;'>
 
 ### The Login URL
 
@@ -112,7 +120,7 @@ Once you have a sequence recorded, go to the target's Advanced Settings, toggle 
 
 You can upload multiple sequences and enable only the one you want to use for the scan.
 
-![Login Sequence](/deepdive/scans/3.1_LoginSequence.png "Login Sequence")<br>
+<img src="/deepdive/scans/3.1_LoginSequence.png" alt="Login Sequence" class='image-box' style='width: 75%;'>
 
 ## API Target Authentication
 
@@ -132,13 +140,13 @@ To enable API authentication, go to the API target's Advanced Settings and follo
 
 3. Click 'Authenticate' to validate the configuration.
 
-![API authentication - authenticate](/deepdive/scans/API-Auth-1.png "API authentication - authenticate")<br>
+<img src="/deepdive/scans/API-Auth-1.png" alt="API authentication - authenticate" class='image-box'>
 
 4. If the authentication is successful, choose the token to use from the response. The DAST Scanner will use this token in the subsequent requests.
 
 5. You need then to choose where to place the token, the field name for the token, and value prefix if needed.
 
-![API authentication - save](/deepdive/scans/API-Auth-2.png "API authentication - save")<br>
+<img src="/deepdive/scans/API-Auth-2.png" alt="API authentication - save" class='image-box'>
 
 ### Custom Headers
 
@@ -152,4 +160,4 @@ Instead of using the authentication method, you can also define custom headers t
 
 4. You can add multiple headers if needed.
 
-![Custom Headers](/deepdive/scans//scanner-tab/Custom-Headers.png "Custom Headers")<br>
+<img src="/deepdive/scans//scanner-tab/Custom-Headers.png" alt="Custom Headers" class='image-box'>
