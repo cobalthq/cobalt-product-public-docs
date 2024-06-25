@@ -6,7 +6,9 @@ description: >-
      Explore What's New from Cobalt This Month
 ---
 
-{{% pageinfo %}} Stay Up-to-Date with the Latest Enhancements on the Cobalt Platform {{% /pageinfo %}}
+{{% pageinfo %}} 
+Stay Up-to-Date with the Latest Enhancements on the Cobalt Platform. 
+{{% /pageinfo %}}
 
 ## January 2024
 
