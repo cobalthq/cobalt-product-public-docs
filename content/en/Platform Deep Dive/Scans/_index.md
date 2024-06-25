@@ -22,8 +22,8 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
 ## How to Use the DAST Scanner
 
-<!-- TODO: update this video -->
-[Watch the how-to video here.](https://videos.cobalt.io/watch/4D8kQcTmPBE3HdWy6X3fHW)
+<iframe src="https://play.vidyard.com/t2kwGzh5zhfgP5rupyKrrB" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
 
 ### Add a Target
 
