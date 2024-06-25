@@ -64,7 +64,7 @@ A clear and well-defined DAST target ensures the scan focuses on the specific ar
 
 When adding a new target, you can choose between Web and API. Once the target type has been selected and saved, you can't change the type again.
 
-To scan an API, we need its specification, the schema. You can define it with an URL pointing to the schema or uploading it. The former has the advantage of us fetching the schema before every scan, ensuring we always get the most up-to-date version.
+To scan an API, we need its specification, the schema. You can define it with a URL pointing to the schema or uploading it. The former has the advantage of us fetching the schema before every scan, ensuring we always get the most up-to-date version.
 
 {{% image src="/deepdive/scans/2_AddTarget-API.png" alt="Add API target" %}}
 
