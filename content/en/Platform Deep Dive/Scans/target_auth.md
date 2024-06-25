@@ -160,4 +160,21 @@ Instead of using the authentication method, you can also define custom headers t
 
 4. You can add multiple headers if needed.
 
-{{% image src="/deepdive/scans//scanner-tab/Custom-Headers.png" alt="Custom Headers" %}}
+{{% image src="/deepdive/scans/scanner-tab/Custom-Headers.png" alt="Custom Headers" %}}
+
+
+### API Parameter Custom Values
+
+
+In this scenario, you have a fixed API key that must be placed in a specific parameter. To configure this option, proceed as follows:
+
+
+1. To add custom parameter, go to the target's Advanced Settings, the Scanner tab.
+
+2. Provide the parameter's name and value.
+
+3. Click 'Add'.
+
+4. You can add multiple parameters if needed.
+
+{{% image src="/deepdive/scans/scanner-tab/API-Parameter.png" alt="API parameter Custom Values" %}}
