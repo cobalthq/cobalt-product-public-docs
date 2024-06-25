@@ -11,7 +11,7 @@ description: >-
 ## January 2024
 
 
-### Enhancements to Improve Transparency and Accountability in Carry Over Finding Process
+#### Enhancements to Improve Transparency and Accountability in Carry Over Finding Process
 
 To address issues with findings not being carried over from previous pentests, we have implemented the following improvements:
 
