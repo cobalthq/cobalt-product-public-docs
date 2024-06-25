@@ -1,6 +1,6 @@
 ---
 title: "Release Notes"
-linkTitle: "What's New"
+linkTitle: "January 2024"
 weight: 50
 description: >-
      Explore What's New from Cobalt This Month
@@ -8,7 +8,7 @@ description: >-
 
 {{% pageinfo %}} Stay Up-to-Date with the Latest Enhancements on the Cobalt Platform - January 2024 Release Notes {{% /pageinfo %}}
 
-## Cobalt Product Release Notes - January 2024
+## January 2024
 
 
 ### Enhancements to Improve Transparency and Accountability in Carry Over Finding Process
