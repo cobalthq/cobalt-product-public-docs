@@ -5,6 +5,7 @@ weight: 50
 description: >
   DAST Scanner - Web Application Vulnerability Scanning
 ---
+<script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
 
 {{% pageinfo %}}
 Scan your Web Applications to discover external vulnerabilities.
@@ -22,7 +23,6 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
 ## How to Use the DAST Scanner
 
-<script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
 <img
   style="width: 60%; margin: auto; display: block;"
   class="vidyard-player-embed"
