@@ -22,8 +22,7 @@ We use the following IP Address to make requests to your target: **52.19.40.38**
 
 ## How to Use the DAST Scanner
 
-<!-- TODO: update this video -->
-[Watch the how-to video here.](https://videos.cobalt.io/watch/4D8kQcTmPBE3HdWy6X3fHW)
+<iframe width="600" height="426" src="https://www.loom.com/embed/cf8be3aade454a69abad5fdabb85a77e?sid=db674578-d640-497e-88cd-5ba629cd1fe6?hide_owner=true&hide_share=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Add a Target
 
