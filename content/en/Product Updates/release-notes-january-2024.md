@@ -1,5 +1,5 @@
 ---
-title: "Release Notes"
+title: "Release Notes: January 2024"
 linkTitle: "January 2024"
 weight: 50
 description: >-
@@ -10,7 +10,7 @@ description: >-
 Stay Up-to-Date with the Latest Enhancements on the Cobalt Platform. 
 {{% /pageinfo %}}
 
-## January 2024
+### January 2024
 
 
 #### Enhancements to Improve Transparency and Accountability in Carry Over Finding Process
