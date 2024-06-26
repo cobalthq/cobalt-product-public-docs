@@ -24,3 +24,6 @@ Extra hosts can be configured similarly to API targets, although the options are
 ![Custom Header](/deepdive/scans/extra-hosts/ExtraHosts_CustomHeaders.png "Custom Header")
 
 ![Custom Cookies](/deepdive/scans/extra-hosts/ExtraHosts_CustomCookies.png "Custom Cookies")
+
+Both headers and cookies can be removed by clicking on the trash icon next to every entry. 
+Since removing these may negatively impact future scan results, there's a confirmation step required for every removal.
