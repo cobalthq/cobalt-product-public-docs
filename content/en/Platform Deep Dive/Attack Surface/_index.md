@@ -68,58 +68,36 @@ Filtering for the date can be helpful e.g. if you want to surface only Host that
 
 ![Search](/deepdive/search.png "Search")
 
-## How does the Takeover Risk work
+## The Attack Surface Scan
 
-The Takeover Risk feature considers 5 conditions, that when are true could indicate a potential risk of DNS- or Subdomain takeover.
+The Attack Surface Scan is a critical component of our security suite designed to identify and evaluate potential vulnerabilities within the exposed elements of your network. By scanning discovered Targets, we ensure that your attack surface remains secure against a variety of threats.
 
-1.  We did not reach a server with this IP, potentially someone could start a server with the same IP. If it’s only available within your VPN you should think about also having the DNS entry only available within your VPN.
+### Types of Findings
 
-* What: The IP of this host seems to be offline as it does not react to any port.
+Our comprehensive scan checks for vulnerabilities across the following types of findings:
 
-* Why: That could mean you have a public DNS entry pointing to an IP which is only available in your VPN. Someone could start a server with the same IP in another network.
+- **Credentials Disclosure**: Detects exposed credentials within files that could compromise system security.
+- **Generic Tokens**: Uncovers usage of generic tokens that may lead to security breaches.
+- **Weak Cipher Suites**: Evaluates the strength of cipher suites in use, flagging those that are outdated or vulnerable.
+- **Missing Security Headers**: Assesses the presence of critical security headers that help protect against common web vulnerabilities.
+  - `cross-origin-resource-policy`
+  - `cross-origin-opener-policy`
+  - `cross-origin-embedder-policy`
+  - `clear-site-data`
+  - `referrer-policy`
+  - `x-permitted-cross-domain-policies`
+  - `x-content-type-options`
+  - `x-frame-options`
+  - `permissions-policy`
+  - `content-security-policy`
+  - `strict-transport-security`
+- **Takeover Risk**: Identifies potential vectors for unauthorized control of system components.
+  - `No Ports` The IP of this host seems to be offline as it does not react to any port.
+  - `Forward Without IP` This host refers to another domain by a CNAME, MX, or NS DNS record which does not resolve to any IP.
+  - `Forward With HTTP Error` This host refers to a website or API by a CNAME DNS record which did not respond successfully.
+  - `Forward With SMTP Error` This host refers to an SMTP server by an MX DNS record which did not respond successfully.
+  - `Forward With DNS Error` This host refers to a DNS server by an NS DNS record which did not respond successfully.
 
-* Action: Think about also having the DNS entry only available within your VPN.This host refers to a website or api which did not respond successfully.
+The above list of supported scans was last edited on June 26th 2024, and will be updated as new scans are added
 
-* Severity: Informational
-
-2. This host refers to a website or api which did not respond successfully.
-
-* What: This host refers to a website or api by a CNAME DNS record which did not respond successfully.
-
-* Why: That could mean you refer to an account or resource which does not exist anymore and could be registered by someone else.
-
-* Action: Check whether the referred website or api still exists and responds as intended.
-
-* Severity: Low
-
-3. This host refers to another domain, but does not resolve to any IP, someone could register this domain.
-
-* What: This host refers to another domain by a CNAME, MX or NS DNS record which does not have an IP DNS record.
-
-* Why: That could mean you refer to an IP you no longer own which could be registered by someone else.
-
-* Action: Check whether the referred domain still exists.
-
-* Severity: Low
-
-
-4. This host refers to a smtp server which did not respond successfully.
-
-* What: This host refers to a smtp server by a MX DNS record which did not respond successfully.
-
-* Why: That could mean you refer to an account or resource which does not exist anymore and could be registered by someone else.
-
-* Action: Check whether the referred smtp server still exists and responds as intended.
-
-* Severity: Medium
-
-5. This host refers to a dns server which did not respond successfully.
-
-* What: This host refers to a DNS server by a NS DNS record which did not respond successfully.
-
-* Why: That could mean you refer to an account or resource which does not exist anymore and could be registered by someone else.
-
-* Action: Check whether the referred DNS server still exists and responds as intended.
-
-* Severity: Medium
-
+Note: If additional scan coverage is needed, please consider a Cobalt DAST scan. The DAST scan is much more thorough, and allows for both API scans and authenticated scans.
