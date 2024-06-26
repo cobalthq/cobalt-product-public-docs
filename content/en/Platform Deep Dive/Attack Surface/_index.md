@@ -72,11 +72,9 @@ Filtering for the date can be helpful e.g. if you want to surface only Host that
 
 The Attack Surface Scan is a critical component of our security suite designed to identify and evaluate potential vulnerabilities within the exposed elements of your network. By scanning discovered Targets, we ensure that your attack surface remains secure against a variety of threats.
 
-(This section was last edited on June 25th 2024, and will be updated as new scans are added)
+### Types of Findings
 
-### Categories of Findings
-
-Our comprehensive scan checks for vulnerabilities across the following categories of findings:
+Our comprehensive scan checks for vulnerabilities across the following types of findings:
 
 - **Credentials Disclosure**: Detects exposed credentials within files that could compromise system security.
 - **Generic Tokens**: Uncovers usage of generic tokens that may lead to security breaches.
@@ -100,3 +98,6 @@ Our comprehensive scan checks for vulnerabilities across the following categorie
   - `Forward With SMTP Error` This host refers to an SMTP server by an MX DNS record which did not respond successfully.
   - `Forward With DNS Error` This host refers to a DNS server by an NS DNS record which did not respond successfully.
 
+The above list of supported scans was last edited on June 26th 2024, and will be updated as new scans are added
+
+Note: If additional scan coverage is needed, please consider a Cobalt DAST scan. The DAST scan is much more thorough, and allows for both API scans and authenticated scans.
