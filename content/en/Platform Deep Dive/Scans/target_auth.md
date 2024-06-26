@@ -124,9 +124,9 @@ You can upload multiple sequences and enable only the one you want to use for th
 
 ## API Target Authentication
 
-The DAST Scanner supports APIs with different authentication methods. You can set a fixed API key in a custom header or configure a login endpoint from which you obtain an authentication token.
+The DAST Scanner supports APIs with different authentication methods. You can set a fixed API key in a [custom header](#custom-headers) or configure a login endpoint from which you obtain an authentication token.
 
-You can also define custom parameter values that replace those found in the schema. This allows you to override example values or to ensure domain-specific values are properly filled.
+You can also define [custom parameter values](#api-parameter-custom-values) that replace those found in the schema. This allows you to override example values or to ensure domain-specific values are properly filled.
 
 ### API Authentication
 

@@ -174,4 +174,4 @@ For support, please reach out to your CSM or email us at dast@cobalt.io.
 <!-- links -->
 
 [Report types]: #report-types
-[configuring a target]: /platform-deep-dive/scans/targets#configuring-a-target
+[configuring a target]: /platform-deep-dive/scans/targets#adding-a-web-or-api-target
