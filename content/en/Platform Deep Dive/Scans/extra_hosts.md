@@ -3,19 +3,17 @@ title: "Extra Hosts"
 linkTitle: "Extra Hosts"
 weight: 10
 description: >
-  An extra host is a non-origin domain that a Web Application sends requests to.
+  Add extra hosts to include further domains in Web Application scans.
 ---
 
-{{% pageinfo %}}
-An extra host tells the scanner which additional domains to follow and create requests for
-{{% /pageinfo %}}
-
-## What is an Extra Host?
+## Description
 
 ![Extra Hosts page](/deepdive/scans/extra-hosts/ExtraHosts_List.png "Extra Hosts page")
 
 An extra host serves the purpose of including non-origin domains in the scope of a Web target's scan. 
 Oftentimes, a web application will send requests to a domain that's different from where it was loaded from. By default, those interactions won't be taken into account when scanning for vulnerabilities. However, if these domains are specified as extra hosts, they will be included by the scanner.
+
+## Configuration
 
 ![Extra Hosts form](/deepdive/scans/extra-hosts/ExtraHosts_Create.png "Extra Hosts form")
 
