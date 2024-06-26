@@ -7,18 +7,25 @@ description: >
 ---
 
 {{% pageinfo %}}
-We cover updates to the Cobalt platform in our release blog.
+We cover updates to the Cobalt platform in our release notes below.
 {{% /pageinfo %}}
+
+## 2024
+
+- [May 2024](#)
+- [April 2024](#)
+- [March 2024](#)
+- [January 2024](/product-updates/release-notes-january-2024/)
 
 ## 2023
 
-- [Cobalt Release Blog: May 2023](https://www.cobalt.io/blog/cobalt-release-blog-may-2023)
-- [Cobalt Release Blog: April 2023](https://www.cobalt.io/blog/cobalt-release-blog-april-2023)
-- [Cobalt Release Blog: March 2023](https://www.cobalt.io/blog/cobalt-release-blog-march-2023)
-- [Cobalt Release Blog: February 2023](https://www.cobalt.io/blog/cobalt-release-blog-february-2023)
-- [Cobalt Release Blog: January 2023](https://www.cobalt.io/blog/cobalt-release-blog-january-2023)
+- [May 2023](https://www.cobalt.io/blog/cobalt-release-blog-may-2023)
+- [April 2023](https://www.cobalt.io/blog/cobalt-release-blog-april-2023)
+- [March 2023](https://www.cobalt.io/blog/cobalt-release-blog-march-2023)
+- [February 2023](https://www.cobalt.io/blog/cobalt-release-blog-february-2023)
+- [January 2023](https://www.cobalt.io/blog/cobalt-release-blog-january-2023)
 
 ## 2022
 
 - [Product Development Recap for 2022](https://www.cobalt.io/blog/product-development-recap-how-we-made-pentest-as-service-better-in-2022)
-- [Cobalt Release Blog: October](https://www.cobalt.io/blog/cobalt-release-blog-october)
+- [October 2022](https://www.cobalt.io/blog/cobalt-release-blog-october)
