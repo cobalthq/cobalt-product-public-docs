@@ -5,6 +5,14 @@ weight: 10
 description: >
   A target is the URL of a Web Application, Website, or API.
 ---
+<style>
+.image-box {
+  margin: 20px;
+  border: 1px solid #DADDE1;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+</style>
 
 {{% pageinfo %}}
 A target defines the scope of the scan.
@@ -12,7 +20,7 @@ A target defines the scope of the scan.
 
 ## What is a DAST Target?
 
-![Breakdown of a DAST Target URL](/deepdive/scans/Anatomy_DASTTarget.png "Breakdown of a DAST Target URL")
+{{% image src="/deepdive/scans/Anatomy_DASTTarget.png" alt="Breakdown of a DAST Target URL" %}}
 
 A DAST target is the specific entry point (URL or endpoint) of a web application, website, API, or any component that accepts input from the outside world. It defines the scope, or boundaries, of the security scan conducted by a DAST tool, limiting the tool to analyzing only those pages, links, or forms within the target's domain.
 
@@ -52,6 +60,14 @@ For instance, with a target of `https://example.com`, the scan would cover `http
 
 A clear and well-defined DAST target ensures the scan focuses on the specific areas of an application most susceptible to external threats.
 
+## Adding a Web or API Target
+
+When adding a new target, you can choose between Web and API. Once the target type has been selected and saved, you can't change the type again.
+
+To scan an API, we need its specification, the schema. You can define it with a URL pointing to the schema or uploading it. The former has the advantage of us fetching the schema before every scan, ensuring we always get the most up-to-date version.
+
+{{% image src="/deepdive/scans/2_AddTarget-API.png" alt="Add API target" %}}
+
 ## Configuring a Target
 
 There are a few configuration options available when setting up targets.
@@ -65,8 +81,7 @@ https://example.com/admin*
 https://api.example.com/api/users*
 https://example.com/account*
 ```
-- **Seed Paths**: In a similar way, a scan starts usually from the target url. Sometimes, there are some pages that are not reachable from there. If you want to add some extra starting points for the scan, you can use seed paths. Note that only relative paths are allowed
-and the Avoided URLs take precedence. This is a valid example:
+- **Seed Paths** (for web targets only): In a similar way, a scan starts usually from the target url. Sometimes, there are some pages that are not reachable from there. If you want to add some extra starting points for the scan, you can use seed paths. Note that only relative paths are allowed and the Avoided URLs take precedence. This is a valid example:
 
 ```
 posts/search?query=cobalt

@@ -5,6 +5,14 @@ weight: 20
 description: >
   More information about target authentication fields and hacks
 ---
+<style>
+.image-box {
+  margin: 20px;
+  border: 1px solid #DADDE1;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+</style>
 
 If your website has areas that require authentication, you may provide the DAST Scanner with credentials to log in to your website. By doing this, you're enabling the DAST Scanner to run a scan that might reveal any vulnerabilities in deeper parts of your app.
 
@@ -13,21 +21,19 @@ If your website has areas that require authentication, you may provide the DAST 
 When a scan is started and the target has a login configuration, the first thing the crawler does is log into the application (web target) to obtain a session. Upon successful login, it will start crawling the app. While the crawler is running, it constantly verifies whether the session is still valid. Currently, this check is performed automatically based on the login configuration, but soon we will have the option to configure how the loss of session can be detected.
 
 
-# Basic steps
+## Web target authentication options
 
+To enable authentication for a web target, you can go to the target's Advanced Settings and select either [Login Form](#using-a-login-form) or [Login Sequence](#using-a-login-sequence).
 
-To enable authentication, you can go to the target's Advanced Settings and select either [Login Form](#using-a-login-form) or [Login Sequence](#using-a-login-sequence).
-
-
-# Using a Login Form
+## Using a Login Form
 
 (applicable when the login form requires a username/email and password, which is a common use case)
 
 To add authentication using a simple login form, go to the target's Advanced Settings, then toggle on the “Login form” option. To simplify the configuration, we require the Login URL and at least one field name with its respective value.
 
-![Authenticated Scan](/deepdive/scans/3_AuthenticatedScan.png "Authenticated Scan")<br>
+<img src="/deepdive/scans/3_AuthenticatedScan.png" alt="Authenticated Scan" class='image-box' style='width: 75%;'>
 
-## The Login URL
+### The Login URL
 
 - The login URL may be the same as the target URL if the form is located on the root path or if it automatically redirects to the login page.
 - If the root path does not contain the login form or does not redirect to the login page, a specific URL must be provided.
@@ -39,7 +45,7 @@ For example:
 - If `https://example.com/` or `https://example.com/login` redirects to a third-party authentication provider (e.g., `https://example.auth0.com/?token=xyz`), define `https://example.com/` or `https://example.com/login` as the Login URL.
 
 
-## The fields
+### The fields
 
 We require the names and values of the fields. This refers to the value of the HTML input attribute `name` and the value that should be entered into the input. For example, for `<input type="text" name="username" value="">`, the field's name should be `username` and you should provide the respective value.
 
@@ -68,15 +74,15 @@ To address this, we offer the option to define the button that should be clicked
 - Field name: `submit_button`
 - Field value: `<CSS selector of the button>` (this must be a CSS selector)
 
-## Extra hacks to assist in certain situations
+### Extra hacks to assist in certain situations
 
-### Check for session loss:
+#### Check for session loss:
 
 - Field name: `check_loggedout`
 - Field value: `<CSS selector of an element only visible when logged out>` (e.g., `form.login #username`) or
 - Field value: `["CSS selector 1", "CSS selector 2"]` (e.g., `["#form.login #username", "form.login #password"]`)
 
-### Wait for a loading login input/element
+#### Wait for a loading login input/element
 
 To wait for a login input/element when the target has some unusual behavior while loading the login page, or to click on a button to go to the login page without the need for a login sequence:
 
@@ -90,7 +96,7 @@ To wait for a login input/element when the target has some unusual behavior whil
 
 **(The prefixed number, specifies the order)**
 
-## The most common issues when login fails
+### The most common issues when login fails
 
 - Incorrect or non-functioning credentials (e.g., user account is blocked).
 - The login URL is incorrect or does not display the login inputs for some reason. For example, the login might be through Auth0, and users may have copied the URL directly from Auth0 with a token, rendering it invalid.
@@ -101,7 +107,7 @@ To wait for a login input/element when the target has some unusual behavior whil
 - The target is blocking our access, preventing us from reaching the login page.
 - The login process includes a required CAPTCHA that users may not notice because the page uses "smart recaptcha," which is only triggered when a crawler is detected.
 
-# Using a Login Sequence
+## Using a Login Sequence
 
 If your login page does not have all the login credentials inputs in one page, for example, you have to enter an email then click next to enter the password, you can use a login sequence. It will record your actions and replay them during the scan. 
 
@@ -114,4 +120,61 @@ Once you have a sequence recorded, go to the target's Advanced Settings, toggle 
 
 You can upload multiple sequences and enable only the one you want to use for the scan.
 
-![Login Sequence](/deepdive/scans/3.1_LoginSequence.png "Login Sequence")<br>
+{{% image src="/deepdive/scans/3.1_LoginSequence.png" alt="Login Sequence" %}}
+
+## API Target Authentication
+
+The DAST Scanner supports APIs with different authentication methods. You can set a fixed API key in a [custom header](#custom-headers) or configure a login endpoint from which you obtain an authentication token.
+
+You can also define [custom parameter values](#api-parameter-custom-values) that replace those found in the schema. This allows you to override example values or to ensure domain-specific values are properly filled.
+
+### API Authentication
+
+To enable API authentication, go to the API target's Advanced Settings and follow the steps in the form.
+
+1. First, select the media type for the authentication method. The DAST Scanner supports the following media types:
+   - `application/json`
+   - `application/x-www-form-urlencoded`
+
+2. Next, provide the login endpoint and the payload to be sent.
+
+3. Click 'Authenticate' to validate the configuration.
+
+{{% image src="/deepdive/scans/API-Auth-1.png" alt="API authentication - authenticate" %}}
+
+4. If the authentication is successful, choose the token to use from the response. The DAST Scanner will use this token in the subsequent requests.
+
+5. You need then to choose where to place the token, the field name for the token, and value prefix if needed.
+
+{{% image src="/deepdive/scans/API-Auth-2.png" alt="API authentication - save" %}}
+
+### Custom Headers
+
+Instead of using the authentication method, you can also define custom headers to be sent with every request. This is useful when the API requires a fixed API key or other headers.
+
+1. To add custom headers, go to the target's Advanced Settings, the Scanner tab.
+
+2. Provide the header name and value.
+
+3. Click 'Add'.
+
+4. You can add multiple headers if needed.
+
+{{% image src="/deepdive/scans/scanner-tab/Custom-Headers.png" alt="Custom Headers" %}}
+
+
+### API Parameter Custom Values
+
+
+In this scenario, you have a fixed API key that must be placed in a specific parameter. To configure this option, proceed as follows:
+
+
+1. To add custom parameter, go to the target's Advanced Settings, the Scanner tab.
+
+2. Provide the parameter's name and value.
+
+3. Click 'Add'.
+
+4. You can add multiple parameters if needed.
+
+{{% image src="/deepdive/scans/scanner-tab/API-Parameter.png" alt="API parameter Custom Values" %}}
