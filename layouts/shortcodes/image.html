@@ -1,0 +1,14 @@
+<style>
+.image-box {
+  margin: 20px;
+  border: 1px solid #DADDE1;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 90% !important;
+}
+</style>
+
+{{ $_hugo_config := `{ "version": 1 }` }}
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+<img src="{{ $src }}" alt="{{ $alt }}" class="image-box">
