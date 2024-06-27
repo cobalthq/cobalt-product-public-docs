@@ -28,4 +28,4 @@ To address issues with findings not being carried over from previous pentests, w
 - Testers are required to provide reasons for marking a finding as "Not Applicable," enabling staff to provide additional context to customers if needed.
 - These enhancements aim to enhance transparency and trust with our customers by ensuring that all findings from previous pentests are thoughtfully reviewed and addressed accordingly.
 
-![Confirm Finding is Not Applicable](/release-notes/ReviewFindingsNow.png "Finding Not Applicable")
+![Confirm Finding is Not Applicable](/release-notes/FindingNotApplicable.png "Finding Not Applicable")
