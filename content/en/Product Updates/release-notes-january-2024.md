@@ -21,7 +21,7 @@ To address issues with findings not being carried over from previous pentests, w
 - Added "this action cannot be undone" language in confirmation modals.
 - Updated the blue banner to persist (not dismissable) to ensure all findings are addressed.
 
-![Review Findings Banner](/release-notes/ReviewFindingsNow.pngg "Review Findings Banner")
+![Review Findings Banner](/release-notes/ReviewFindingsNow.png "Review Findings Banner")
 
 **"Not Applicable" Option:**
 - Introduced an option to indicate that a finding was reviewed as part of the current test but was not applicable.
