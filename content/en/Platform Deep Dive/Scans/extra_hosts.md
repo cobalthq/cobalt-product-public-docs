@@ -1,7 +1,7 @@
 ---
 title: "Extra Hosts"
 linkTitle: "Extra Hosts"
-weight: 15
+weight: 40
 description: >
   Add extra hosts to include further domains in Web Application scans.
 ---
