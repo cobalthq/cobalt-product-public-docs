@@ -20,6 +20,8 @@ To prepare for the impending launch of Engagements in April 2024, we have rename
 
 ![Catalog Page](/release-notes/Catalog.png "Catalog")
 
+---
+
 #### New Home Page Launches
 
 We are excited to announce the launch of our new 'Home' page on the Cobalt platform. This centralized dashboard will serve as the welcome screen for our customers when they log in, providing them with a single-pane view of their testing activity. 
@@ -27,6 +29,8 @@ We are excited to announce the launch of our new 'Home' page on the Cobalt platf
 The purpose of this new feature is to help our customers visualize and prioritize what is most important to them, making it easier for them to stay informed and efficiently manage their testing activities. We believe that this new Home page will greatly improve the user experience and provide our customers with a powerful tool to optimize their offensive security program.
 
 ![Cobalt Home](/release-notes/Home.png "Home")
+
+---
 
 #### New Chart in Insights
 
