@@ -12,6 +12,7 @@ description: >
 
 An extra host serves the purpose of including non-origin domains in the scope of a Web target's scan. 
 Oftentimes, a web application will send requests to a domain that's different from where it was loaded from. By default, those interactions won't be taken into account when scanning for vulnerabilities. However, if these domains are specified as extra hosts, they will be included by the scanner.
+> Example: If your target is a Single-Page App (SPA), this could be a problem. In a SPA, the web app is pretty much built in Javascript, and the server-side application is invoked via an API. Sometimes, this API sits under app.example.com/api, but it's very frequent to see the API on a dedicated host, such as api.example.com.
 
 ## Configuration
 
