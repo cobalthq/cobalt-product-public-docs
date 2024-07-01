@@ -88,5 +88,5 @@ posts/search?query=cobalt
 ```
 
 <!-- links -->
-[Authentication]: /platform-deep-dive/scans/target_auth
+[Authentication]: /platform-deep-dive/scans/target-auth
 
