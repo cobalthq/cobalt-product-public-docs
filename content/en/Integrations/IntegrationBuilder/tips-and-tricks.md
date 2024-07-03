@@ -59,7 +59,10 @@ See [our public API documentation](/cobalt-api/v2/) for more information about t
 
 ## Customizing fields
 
-(labels, optional fields, etc)
+When you are building recipes for creating tickets in a ticketing system, you may want to customize the fields that you are setting on the tickets.
+To set extra optional fields for tickets, you can use the `optional fields available` button within the create ticket action to set extra fields.
+
+![Optional fields button](/integrations/integration_builder/tips_and_tricks/customizing_fields/optional_fields_button.png "Optional fields button")
 
 ## Lookup tables
 
