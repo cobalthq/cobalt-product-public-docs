@@ -2,11 +2,10 @@
 title: "Connect your applications"
 linkTitle: "Connect your applications"
 weight: 10
-description: Connect your applications.
 ---
 
 {{% pageinfo %}}
-Lorem
+Manage your connections within the Projects tab of the Integration Builder
 {{% /pageinfo %}}
 
 ## Set up a new connection
@@ -29,7 +28,17 @@ You can now use triggers and actions within recipes to interact with the app you
 
 ## Edit a connection
 
-ipsum
+1. Select the connection that you would like to edit
+
+![Select connection](/integrations/integration_builder/connect_your_apps/edit_connection/select_connection.png "Select connection")
+
+2. Disconnect the connection. Recipes that are using the connection will stop working while the connection is disconnected.
+
+![Disconnect connection](/integrations/integration_builder/connect_your_apps/edit_connection/disconnect_connection.png "Disconnect connection")
+
+3. Update the connection information
+
+4. Click connect
 
 ## Delete a connection
 
