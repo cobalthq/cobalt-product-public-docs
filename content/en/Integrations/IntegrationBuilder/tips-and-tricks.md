@@ -62,8 +62,15 @@ See [our public API documentation](/cobalt-api/v2/) for more information about t
 When you are building recipes for creating tickets in a ticketing system, you may want to customize the fields that you are setting on the tickets.
 To set extra optional fields for tickets, you can use the `optional fields available` button within the create ticket action to set extra fields.
 
-![Optional fields button](/integrations/integration_builder/tips_and_tricks/customizing_fields/optional_fields_button.png "Optional fields button")
+![Optional fields button](/integrations/integration_builder/tips_and_tricks/optional_fields_button.png "Optional fields button")
 
 ## Mapping fields
 
-ipsum
+The integration builder has powerful field mapping functionality.
+When you select an action within a recipe, you can see the action's input fields.
+You can populate these input fields with the output from any other action or trigger within your recipe.
+When you select an action input, the "Recipe data" drawer will open.
+Within this drawer, the outputs from the actions and triggers within your recipe will appear as "data pills".
+You can simply drag-and-drop the data pills from the drawer into action input fields as desired.
+
+![Data pill mapping](/integrations/integration_builder/tips_and_tricks/data_pill_mapping.png "Data pill mapping")
