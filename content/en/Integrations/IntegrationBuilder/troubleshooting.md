@@ -33,7 +33,9 @@ If you think the failure is being caused by an issue with the Integration Builde
 
 ## How to rerun a failed recipe
 
-ipsum
+If you need to re-run a failed recipe, you can navigate to the failed job then click the "Repeat this job" button.
+
+![Rerun recipe](/integrations/integration_builder/troubleshooting/rerun_recipe.png "Rerun recipe")
 
 ## How to check the health of a recipe
 
