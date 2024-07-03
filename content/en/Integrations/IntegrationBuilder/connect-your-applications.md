@@ -50,4 +50,53 @@ You can now use triggers and actions within recipes to interact with the app you
 
 ## Available connectors
 
-ipsum
+* Airtable
+* Asana
+* Azure DevOps
+* Basecamp 2
+* Bitbucket
+* BMC Helix ITSM
+* BMC Innovation Suite
+* Box
+* ClickUp
+* Cloud Watch
+* Cobalt
+* Codeship
+* Collibra
+* Confluence
+* ConnectWise
+* CrowdStrike Falcon
+* Datadog
+* Dropbox
+* Excel
+* Freshservice
+* GitLab
+* GitHub
+* Gmail
+* Google BigQuery
+* Google Calendar
+* Google Docs
+* Google Drive
+* Google Sheets
+* Hive
+* Jira Cloud - Jira Software
+* Jira Cloud - Jira Service Desk
+* Kenna Security
+* Looker
+* Microsoft Sharepoint
+* Monday
+* New Relic
+* OneDrive
+* Outlook
+* Pagerduty
+* Pivotal Tracker
+* Power BI
+* Ruby code snippets
+* ServiceNow
+* Smartsheet
+* Splunk
+* Tableau
+* ThreatMiner
+* Trello
+* Wrike
+* Zendesk
