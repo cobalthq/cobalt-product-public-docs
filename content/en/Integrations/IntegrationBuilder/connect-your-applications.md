@@ -9,6 +9,18 @@ description: Connect your applications.
 Lorem
 {{% /pageinfo %}}
 
-## Lorem
+## Set up a new connection
+
+ipsum
+
+## Edit a connection
+
+ipsum
+
+## Delete a connection
+
+ipsum
+
+## Available connectors
 
 ipsum
