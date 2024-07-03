@@ -12,6 +12,11 @@ The Integration Builder is currently in Open Beta.
 
 The Cobalt Integration Builder is a no-code automation platform which enables customers to create and manage custom integrations (using a library of available connectors) and orchestrate security data workflows directly from the Cobalt platform.
 
+## Video Walkthrough
+
+https://drive.google.com/file/d/18gcm1P0HXVz6jVdTk4cKGb1oQ0Tiqh1J/view?usp=sharing
+(replace with public video link once marketing gives us a link)
+
 ## Key Concepts
 
 ### Connectors
