@@ -9,6 +9,22 @@ description: Tips & Tricks.
 Lorem
 {{% /pageinfo %}}
 
-## Lorem
+## Trigger conditions
+
+(trigger by asset / pentest / target)
+
+## External Ticket References
+
+ipsum
+
+## Customizing fields
+
+(labels, optional fields, etc)
+
+## Lookup tables
+
+ipsum
+
+## Mapping fields
 
 ipsum
