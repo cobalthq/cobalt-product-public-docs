@@ -37,10 +37,6 @@ If you need to re-run a failed recipe, you can navigate to the failed job then c
 
 ![Rerun recipe](/integrations/integration_builder/troubleshooting/rerun_recipe.png "Rerun recipe")
 
-## How to check the health of a recipe
-
-ipsum
-
 ## How to revert a change to a recipe
 
 ipsum
