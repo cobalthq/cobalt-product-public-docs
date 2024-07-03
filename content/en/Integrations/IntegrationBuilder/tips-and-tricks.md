@@ -4,10 +4,6 @@ linkTitle: "Tips & Tricks"
 weight: 30
 ---
 
-{{% pageinfo %}}
-Lorem
-{{% /pageinfo %}}
-
 ## Trigger filters
 
 Trigger filters can be used to limit the scope of a recipe trigger.
