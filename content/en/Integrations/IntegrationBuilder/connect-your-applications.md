@@ -42,7 +42,11 @@ You can now use triggers and actions within recipes to interact with the app you
 
 ## Delete a connection
 
-ipsum
+1. Select the connection that you would like to delete
+
+2. Click the Delete Connection button. Any recipes that use this connection will stop working
+
+![Delete connection](/integrations/integration_builder/connect_your_apps/delete_connection/delete_connection.png "Delete connection")
 
 ## Available connectors
 
