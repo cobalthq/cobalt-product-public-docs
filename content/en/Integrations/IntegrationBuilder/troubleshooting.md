@@ -39,4 +39,14 @@ If you need to re-run a failed recipe, you can navigate to the failed job then c
 
 ## How to revert a change to a recipe
 
-ipsum
+If you make a change to your recipe that causes failures, you can easily revert to a previous version of the recipe.
+
+To see the available versions of your recipe, navigate to the "versions" tab for your recipe.
+
+![Recipe versions list](/integrations/integration_builder/troubleshooting/revert_recipe_change/recipe_versions.png "Recipe versions list")
+
+Next, click on the last-known working version of the recipe and click "Restore this version"
+
+![Restore recipe version](/integrations/integration_builder/troubleshooting/revert_recipe_change/restore_recipe_version.png "Restore recipe version")
+
+You can now click "Start recipe" to start the restored version of your recipe.
