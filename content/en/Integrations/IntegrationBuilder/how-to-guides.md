@@ -73,15 +73,22 @@ You can simply drag-and-drop the data pills from the drawer into action input fi
 
 ## Authentication best practices
 
-Integration Builder establishes connections to other apps using the app's authorization/authentication API.  The available methods can vary, but usually use one of the following:  
+Integration Builder establishes connections to other apps using the app's authorization/authentication API.
+The available methods can vary, but usually use one of the following:  
 
 * OAuth 2.0
 * OAuth 1.0 (and variations)
 * Basic authentication (username and password)
 * API key or secret
 
-As part of this step, you provide Cobalt with the permission to access data from the app. The permissions granted to Cobalt usually correspond with those of the user authorizing the app.  As such, when creating connections, we recommend:
+As part of this step, you provide Cobalt with the permission to access data from the app.
+The permissions granted to Cobalt usually correspond with those of the user authorizing the app.
+As such, when creating connections, we recommend:
 
-* Creating a dedicated app user for Cobalt ensures that recipes aren't dependent on the account of a human user. If someone leaves the company, recipes will continue to run. Additionally, it will allow you to tailor the permissions that your Cobalt recipe has to your app, thereby reducing security risk.
-* When developing and testing recipes, we recommend using sandbox (or non-production) credentials for your connections to ensure that live data isn’t affected when switching environments. 
-* Please note:  When setting up a connection, all users in your Cobalt Org will be able to use that connection and access any data. Be sure to use service accounts and limit permissions. 
+* Creating a dedicated app user for Cobalt ensures that recipes aren't dependent on the account of a human user.
+  If someone leaves the company, recipes will continue to run. Additionally, it will allow you to tailor the permissions
+  that your Cobalt recipe has to your app, thereby reducing security risk.
+* When developing and testing recipes, we recommend using sandbox (or non-production) credentials for your connections
+  to ensure that live data isn’t affected when switching environments. 
+* Please note:  When setting up a connection, all users in your Cobalt Org will be able to use that connection and
+  access any data. Be sure to use service accounts and limit permissions. 
