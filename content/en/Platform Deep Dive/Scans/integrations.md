@@ -35,7 +35,7 @@ Click <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right">
 {{%expand "Does it create duplicate tickets?" %}}
 <br>
 
-ipsum
+The DAST ticketing integration will not create duplicate tickets as long as you follow our guidance regarding [external ticket references](/integrations/integrationbuilder/how-to-guides/#external-ticket-references).
 
 {{% /expand %}}
 <br>
@@ -43,7 +43,11 @@ ipsum
 {{%expand "Can I route tickets from different targets to different tools or projects?" %}}
 <br>
 
-ipsum
+Yes.
+You can create one ticket-push recipe per DAST target and configure the recipes differently.
+You should use [trigger filters](/integrations/integrationbuilder/how-to-guides/#trigger-filters)
+to ensure that each recipe is triggered only by findings that are associated to the correct target.
+Checkout the video above for a walkthrough of this process.
 
 {{% /expand %}}
 <br>
@@ -51,7 +55,10 @@ ipsum
 {{%expand "Can I update a DAST finding from my ticketing tool?" %}}
 <br>
 
-ipsum
+No.
+Our public API does not currently have functionality that can be used to update a DAST finding.
+The Integration Builder uses our public API, so it doesn't support updating DAST findings either.
+This functionality is on our roadmap.
 
 {{% /expand %}}
 <br>
@@ -59,15 +66,14 @@ ipsum
 {{%expand "How do I know if a ticket has been created for a finding?" %}}
 <br>
 
-ipsum
+When everything is working correctly, you can see tickets associated to your DAST findings directly within the DAST user interface.
+It is possible in failure scenarios that the integration could correctly create a ticket but fail to record an [external ticket references](/integrations/integrationbuilder/how-to-guides/#external-ticket-references).
+If this situation occurs, a ticket would exist, but it would not show up in the DAST user interface.
+You can investigate failures using our [troubleshooting steps](/integrations/integrationbuilder/troubleshooting/).
 
 {{% /expand %}}
 <br>
 
-{{% alert title="LOREM" color="primary" %}}
-IPSUMMMM!!
-{{% /alert %}}
-
 ## Troubleshooting
 
-(note: move ADO troubleshooting section to int builder section and link to it from DAST and ADO sections)
+Checkout our general Integration Builder troubleshooting documentation [here](/integrations/integrationbuilder/troubleshooting/).
