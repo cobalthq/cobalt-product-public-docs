@@ -23,7 +23,7 @@ Within the view for the failed job, you can click on the action that failed. Thi
 ![Recipe action error](/integrations/integration_builder/troubleshooting/how_to_troubleshoot/action_error.png "Recipe action error")
 
 If you are unsure about how to fix the issue, you can view the input and debug tabs for the failing action to aquire more information that may be helpful for troubleshooting the issue.
-You may need to re-read your recipe to make sure the logic still makes sense and there are no obvious logic errors.
+You may need to re-read your recipe to make sure the logic still makes sense.
 If you think the failure is being caused by an issue with the Integration Builder or the Cobalt public API, please reach out to your CSM.
 
 ## How to rerun a failed recipe

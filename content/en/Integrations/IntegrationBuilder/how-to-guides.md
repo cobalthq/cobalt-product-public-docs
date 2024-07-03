@@ -19,9 +19,8 @@ You may then select the filters to add.
 ![Add filters](/integrations/integration_builder/how_to_guides/trigger_filters/add_filters.png "Add filters")
 
 You can then set the value of the trigger.
-Some trigger filters accept a textual input.
-Some trigger filters have a dropdown box that may be used to select a value.
-Some trigger filters support both textual input and dropdown selections.
+Some trigger filters accept only a textual input.
+Some trigger filters accept textual input and have a dropdown box that may be used to select a value.
 
 ![Set filter value](/integrations/integration_builder/how_to_guides/trigger_filters/set_filter_value.png "Set filter value")
 

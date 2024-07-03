@@ -27,7 +27,7 @@ Integration Builder workflows are comprised of the following elements:
 
 ### Trigger
 
-Triggers determine what event to listen to execute the actions described in a recipe.
+Triggers determine what event to listen to and execute the actions described in a recipe.
 Triggers can be set off in real time when an event occurs in the Cobalt platform (ie. when a finding is published)
 or other apps (ie. Jira ticket is updated), at a specific time, or at a scheduled interval.
 
@@ -67,7 +67,7 @@ or simply type into the input field to set a static value.
 {{%expand "Can I connect to multiple environments of the same application?" %}}
 <br>
 
-Yes. In the Integration Builder, go to the Projects tab,
+Yes. You can create a connection to each environment of the application. Within your recipes you can choose which connection to use.
 
 {{% /expand %}}
 <br>
