@@ -1,7 +1,7 @@
 ---
 title: "Tips & Tricks"
 linkTitle: "Tips & Tricks"
-weight: 10
+weight: 30
 description: Tips & Tricks.
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Manage integration recipes"
 linkTitle: "Manage integration recipes"
-weight: 10
+weight: 20
 description: Manage integration recipes.
 ---
 
