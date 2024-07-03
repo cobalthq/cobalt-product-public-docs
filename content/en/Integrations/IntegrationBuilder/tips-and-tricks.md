@@ -31,7 +31,31 @@ Some trigger filters support both textual input and dropdown selections.
 
 ## External Ticket References
 
-ipsum
+An external ticket reference is an association between a ticket in your ticketing system and a Cobalt finding.
+External ticket references serve two purposes:
+
+* They power our ability to display tickets for findings in the Cobalt UI
+* They prevent duplicate tickets from being created by integrations
+
+The Cobalt connector provides an action for creating external ticket references and for searching external ticket references.
+A reference may be searched by:
+
+* Finding ID
+* Ticketing system
+* Ticket ID (from ticketing system)
+
+For the above-mentioned purposes to be achieved, it is important that your ticket-creation recipes:
+
+* Search ticket references for a finding before creating a new ticket
+* Do not create a new ticket if a ticket reference for a finding already exists
+* Create ticket references after creating a new ticket
+
+Here's an example of what these steps look like in a recipe:
+
+![Search ticket reference](/integrations/integration_builder/tips_and_tricks/external_ticket_references/search_ticket_reference.png "Search ticket reference")
+![Create ticket reference](/integrations/integration_builder/tips_and_tricks/external_ticket_references/create_ticket_reference.png "Create ticket reference")
+
+See [our public API documentation](/cobalt-api/v2/) for more information about the properties of an external ticket reference.
 
 ## Customizing fields
 
