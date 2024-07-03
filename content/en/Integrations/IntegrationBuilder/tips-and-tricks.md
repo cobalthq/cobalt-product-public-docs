@@ -64,10 +64,6 @@ To set extra optional fields for tickets, you can use the `optional fields avail
 
 ![Optional fields button](/integrations/integration_builder/tips_and_tricks/customizing_fields/optional_fields_button.png "Optional fields button")
 
-## Lookup tables
-
-ipsum
-
 ## Mapping fields
 
 ipsum
