@@ -9,6 +9,18 @@ description: Troubleshooting.
 Lorem
 {{% /pageinfo %}}
 
-## Lorem
+## How to troubleshoot errors
+
+ipsum
+
+## How to rerun a failed recipe
+
+ipsum
+
+## How to check the health of a recipe
+
+ipsum
+
+## How to revert a change to a recipe
 
 ipsum
