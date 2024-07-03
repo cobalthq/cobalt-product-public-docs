@@ -45,3 +45,9 @@ Next, click on the last-known working version of the recipe and click "Restore t
 ![Restore recipe version](/integrations/integration_builder/troubleshooting/revert_recipe_change/restore_recipe_version.png "Restore recipe version")
 
 You can now click "Start recipe" to start the restored version of your recipe.
+
+## Configuration forms do not appear
+
+If forms do not appear while you are attempting to create a connection or configure a recipe, the most likely cause is that your browser is blocking third party cookies.
+
+If your browser is set to block all third-party cookies, you must allow cookies for `cobalt.io` by following [these instructions](https://support.google.com/chrome/answer/95647?sjid=8733712878597538106-NA#zippy=%2Callow-or-block-third-party-cookies%2Callow-third-party-cookies-for-a-specific-site).
