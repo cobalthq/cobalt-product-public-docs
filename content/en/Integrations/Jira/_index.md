@@ -1,7 +1,7 @@
 ---
 title: "Integrate Jira with Cobalt"
 linkTitle: "Jira"
-weight: 10
+weight: 11
 description: >
   Set up an integration to push Cobalt findings to Jira.
 ---
