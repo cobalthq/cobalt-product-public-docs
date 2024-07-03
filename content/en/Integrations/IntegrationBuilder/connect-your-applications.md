@@ -11,7 +11,9 @@ Lorem
 
 ## Set up a new connection
 
-ipsum
+To set up a new connection, click the create recipe button
+
+![Create connection folder view](/integrations/integration_builder/connect_your_apps/folder_view.png "Create connection folder view")
 
 ## Edit a connection
 
