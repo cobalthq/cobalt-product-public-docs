@@ -14,11 +14,6 @@ The Cobalt Integration Builder is a no-code automation platform which enables cu
 integrations (using a library of available connectors) and orchestrate security
 data workflows directly from the Cobalt platform.
 
-## Video Walkthrough
-
-https://drive.google.com/file/d/18gcm1P0HXVz6jVdTk4cKGb1oQ0Tiqh1J/view?usp=sharing
-(replace with public video link once marketing gives us a link)
-
 ## How it Works
 
 The Integration Builder provides a marketplace of available connectors for common business and security applications.
@@ -109,3 +104,7 @@ Cobalt’s Data Processing Agreement.  See: [Workato FAQs](https://docs.workato.
 
 {{% /expand %}}
 <br>
+
+## Video Walkthrough
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/91a63de90ccd4b70aac14e92efaf0d91?sid=acb463cf-c049-4e68-b5b2-0440f83fa2e9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
