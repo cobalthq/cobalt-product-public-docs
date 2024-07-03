@@ -26,7 +26,7 @@ We provide integration quickstart templates for the above-mentioned ticketing sy
 
 ## Steps to Integrate with Ticketing Systems
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/7d61c971c7cc47daa750bf41ff247831?sid=4b489001-a940-4011-9c80-73ec6c5b9f19" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<iframe src="https://play.vidyard.com/kVCJ1gQ6ywr1t2G3K7Z46m" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ## Frequently Asked Questions
 

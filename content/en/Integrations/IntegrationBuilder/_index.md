@@ -48,6 +48,8 @@ The Integration Builder provides a library of connectors for common business and
 Integration Builder connects to apps to build recipes. Once authenticated, each the triggers and actions provided
 by that app become available to use across recipes. See authentication best practices.
 
+<iframe src="https://play.vidyard.com/a22pBZVWCwGaWvs8VQZXEC" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
 ## Frequently Asked Questions
 
 Click <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> to view answers.
@@ -104,7 +106,3 @@ Cobalt’s Data Processing Agreement.  See: [Workato FAQs](https://docs.workato.
 
 {{% /expand %}}
 <br>
-
-## Video Walkthrough
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/91a63de90ccd4b70aac14e92efaf0d91?sid=acb463cf-c049-4e68-b5b2-0440f83fa2e9" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
