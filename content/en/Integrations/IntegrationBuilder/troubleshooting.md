@@ -2,12 +2,7 @@
 title: "Troubleshooting"
 linkTitle: "Troubleshooting"
 weight: 40
-description: Troubleshooting.
 ---
-
-{{% pageinfo %}}
-Lorem
-{{% /pageinfo %}}
 
 ## How to troubleshoot errors
 
