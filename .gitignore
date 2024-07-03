@@ -4,3 +4,4 @@ node_modules/
 tech-doc-hugo/
 tmp/
 .DS_Store
+.idea
