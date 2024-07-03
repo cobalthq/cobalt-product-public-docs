@@ -17,63 +17,31 @@ The Cobalt Integration Builder is a no-code automation platform which enables cu
 https://drive.google.com/file/d/18gcm1P0HXVz6jVdTk4cKGb1oQ0Tiqh1J/view?usp=sharing
 (replace with public video link once marketing gives us a link)
 
-## Key Concepts
+## How it Works
 
-### Connectors
+The Integration Builder provides a marketplace of available connectors for common business and security applications.  Each connector provides a set of triggers and actions, which can be used to perform a set of data functions when an event occurs in the Cobalt platform or external system.  Once a customer sets up connections for their DevSecOps applications and tools, they select from a library of pre-built recipes, or create their own recipes, using the triggers and actions enabled by the Cobalt connector and (one or more) other services to construct a workflow between the systems.
 
-The Integration Builder provides a library of connectors for common business and security applications.
+Integration Builder workflows are comprised of the following elements:
 
-### Connections
-
-Integration Builder connects to apps to build recipes.
-Once authenticated, each connection is reusable across multiple recipes.
-Integration Builder establishes connections to other apps using the app's authorization/authentication API.
-The available methods can vary, but usually use one of the following:
-
-* OAuth 2.0
-* OAuth 1.0 (and variations)
-* Basic authentication (username and password)
-* API key or secret
-
-As part of this step, you provide Cobalt with the permission to access data from the app. The permissions granted to Cobalt usually correspond with those of the user authorizing the app. As such, when creating connections, we recommend:
-
-* Creating a dedicated app user for Cobalt ensures that recipes aren't dependent on the account of a human user. If someone leaves the company, recipes will continue to run. Additionally, it will allow you to tailor the permissions that your Cobalt recipe has to your app, thereby reducing security risk.
-* When developing and testing recipes, we recommend using sandbox (or non-production) credentials for your connections to ensure that live data isn’t affected when switching environments.
-
-Please note:  When setting up a connection, all users in your Cobalt Org will be able to use that connection and access any data. Be sure to use service accounts and limit permissions.
-
-
-### Recipes
-
-A recipe is an automated workflow that connects your apps. Each recipe is comprised of a trigger and one or more actions. When you turn on your recipe, it waits for a triggering event to run the actions.
-
-### Triggers
+### Trigger
 
 Triggers determine what event to listen to execute the actions described in a recipe. Triggers can be set off in real time when an event occurs in the Cobalt platform (ie. when a finding is published) or other apps (ie. Jira ticket is updated), at a specific time, or at a scheduled interval.
 
-### Actions
+### Action
 
 Every connector provides a set of actions, which serve as building blocks to construct a workflow recipe.
 
-## How it Works
+### Recipe
 
-### Accessing the Integration Builder
+Automated workflow comprising a trigger and one or more actions to accomplish an integration use case between apps.
 
-### Dashboard
+### Connector
 
-### Projects
+The Integration Builder provides a library of connectors for common business and security applications.
 
-### Library
+### Connection
 
-The Library lists all app connectors available in the Integration Builder.
-
-### Lookup Tables
-
-Lookup tables – similar to cross-reference tables – provide a convenient way to retrieve frequently used data. These tables are structured with rows and columns, enabling you to search for entries by matching data in one or more columns. The available actions for lookup tables include adding, searching, viewing all entries, updating, deleting entries, and clearing the table.
-
-## Use Cases
-
-lorem
+Integration Builder connects to apps to build recipes.  Once authenticated, each the triggers and actions provided by that app become available to use across recipes.  See authentication best practices.
 
 ## Frequently Asked Questions
 
@@ -126,7 +94,3 @@ Yes. The Integration Builder is built with Workato, Cobalt’s integration platf
 
 {{% /expand %}}
 <br>
-
-{{% alert title="LOREM" color="primary" %}}
-IPSUMMMM!!
-{{% /alert %}}
