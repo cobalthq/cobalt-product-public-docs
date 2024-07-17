@@ -29,14 +29,16 @@ Digital Risk Assessment is a type of engagement outside of our standard Pentesti
 ### Methodology Details
 
 Cobalt will use publicly available information and commonly used OSINT methodologies and tooling (such as those documented at https://osintframework.com) to assess an organization from an external, adversarial perspective. Cobalt will employ a passive approach to OSINT reconnaissance.
+
 Activities conducted within a Digital Risk Assessment are noted within the brief:
 
-- Advanced Search Engine Operators (“dorks”)
-- Attempts to identify sensitive or proprietary indexed files
-- Password dumps
+- Advanced Search Engine Operators ("dorks")
 - Attempts to identify code used for internal applications
-- Email, name, phone, and username harvesting 
-- Identification of employee badges on social media sites
-- Company research
+- Attempts to identify sensitive or proprietary indexed files
 - Building layouts
+- Company research
 - Domain and host enumeration
+- Email, name, phone, and username harvesting
+- Identification of employee badges on social media sites
+- Online brand protection
+- Password dumps
