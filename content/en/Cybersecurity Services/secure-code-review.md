@@ -16,7 +16,7 @@ Secure code reviews are a specialized type of engagement that is not included in
 | **Feature** | Description |
 |---|---|
 | **Fulfilled by** | Staffed by Core members & fulfilled by Cybersecurity Services |
-| **Number of credits** | Starting from 8 credits*, minimum of 4 days of effort |
+| **Number of credits** | Starting from 8 credits<sup>*</sup>, minimum of 4 days of effort |
 | **Number of testers** | Dependent on scope |
 | **Collaboration** | Slack |
 | **Retesting** | Yes - according to your [credit tier](https://www.cobalt.io/pentest-pricing) |
@@ -26,7 +26,7 @@ Secure code reviews are a specialized type of engagement that is not included in
 | **Kick off call** | Not included |
 | **Debrief call** | Not included |
 
-*dependent upon organization’s credit price 
+<sup>*</sup>dependent upon organization’s credit price 
 
 ### Methodology Details
 
