@@ -16,7 +16,7 @@ The Cobalt Cybersecurity Services team can run the following engagements:
 
 - [Digital risk assessment](/cybersecurity-services/digital-risk-assessment/)<sup>*</sup>
 - IoT ecosystem pentest
-- Secure code review
+- [Secure code review](/cybersecurity-services/secure-code-review/)<sup>*</sup>
 - Vulnerability validation
 - Goal-based pentest
 - Threat modeling
@@ -27,22 +27,6 @@ The Cobalt Cybersecurity Services team can run the following engagements:
 - Security hardening
 
 <sup>*</sup>Indicates engagements available to use on Cobalt. Other engagement types will be handled by request on the Catalog page or [contact us](mailto:cybersecurity_services@cobalt.io).
-
-<!--
-## Methodologies
-
-We follow pentest methodologies based on the industry best practices. Learn more about each methodology:
-
-- IoT ecosystem testing
-- Thick client application testing
-- Wireless network testing
-- Physical testing
-- Threat modeling
-- Phishing
-- Red teaming
-- Security hardening
-- Secure code review
--->
 
 ## Process
 
