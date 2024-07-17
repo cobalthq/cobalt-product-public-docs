@@ -135,6 +135,10 @@ As [defined](https://csrc.nist.gov/glossary/term/compliance_audit) by NIST, a co
 
 {{% learn-more-reports %}}
 
+## Digital Risk Assessment
+
+A systematic process for identifying, analyzing, and prioritizing potential threats and vulnerabilities from an attacker’s perspective within an organization’s digital ecosystem.
+
 ## Dynamic Web Page
 
 A web page with dynamic content that a user can interact with. The content can be built on the server or the client side. Contrast with [Static Web Pages](#static-web-page).
@@ -431,6 +435,13 @@ In the identity provider-initiated (IdP-initiated) [SAML SSO](#saml-single-sign-
 - The user selects the app configured for their service provider in the IdP system or follows a unique URL.
 - The service provider requests the IdP to authenticate the user.
 - Once the user's identity is authenticated on the IdP side, the user is signed in to the service provider system.
+
+## Secure Code Review
+
+A Secure Code Review is the human-led examination of software’s source code in order to identify security vulnerabilities 
+that are the result of design flaws, but proven to be valid security issues. It is an important part of any organization's 
+software development life cycle (SDLC) and helps improve the overall quality and security of the software and an organization's 
+overall security posture.
 
 ## Security Assertion Markup Language
 
