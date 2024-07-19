@@ -52,7 +52,7 @@ Here’s a general configuration workflow for SAML SSO:
         - Enter your email domain(s) here if you want your users to be
         automatically redirected from our sign in form to your IdP (SP-initiated
         SSO)
-        - This is will have the same effect as **Enforce SAML** for any user
+        - This will have the same effect as **Enforce SAML** for any user
         that signs in with a matching email address
     - Select **Save Configuration**.<br>
     ![Configure SAML SSO in the Cobalt app](/deepdive/configure-saml-sso-overlay.png "Configure SAML SSO in the Cobalt app")
