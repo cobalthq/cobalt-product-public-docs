@@ -15,24 +15,25 @@ Cobalt supports **identity provider-initiated SAML single sign-on (SSO)**. As an
 
 {{% sso-definition %}} The Cobalt SSO service is based on the [Security Assertion Markup Language 2.0 (SAML 2.0)](/getting-started/glossary/#security-assertion-markup-language) specifications. Learn more about [SAML SSO](/getting-started/glossary/#saml-single-sign-on-sso).
 
-Cobalt supports [identity provider-initiated (IdP-initiated) SSO](/getting-started/glossary/#idp-initiated-sso), where the authentication workflow starts on the identity provider side. There are a number of identity provider solutions that you can leverage to implement SSO with Cobalt, such as Okta, OneLogin, Microsoft Azure AD, and more.
+Cobalt supports [identity provider-initiated (IdP-initiated) SSO](/getting-started/glossary/#idp-initiated-sso), where the authentication workflow starts on the identity provider side.
+There are a number of identity provider solutions that you can leverage to implement SSO with Cobalt, such as Okta, OneLogin, Microsoft Azure AD, and more.
 
-- To access Cobalt, users must sign in to the identity provider system and select the configured Cobalt app.
+- To access Cobalt, users sign in to the identity provider system and select the configured Cobalt app.
 - Cobalt acts as the service provider. When a user attempts to sign in to Cobalt from the IdP system, Cobalt requests the IdP to authenticate the user. Once the authentication is complete, the IdP sends a SAML assertion to Cobalt, and the user is signed in.
-- SAML SSO authentication from the Cobalt sign-in page (SP-initiated SSO) is not possible.
 <br><br>
 
 ![Cobalt identity provider-initiated SAML SSO](/deepdive/Cobalt-IdP-initiated-SAML-SSO-process.png "Cobalt identity provider-initiated SAML SSO")
 
 ## General Configuration Workflow
 
-As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner), you can configure SAML SSO for your organization with your preferred identity provider. Configuration procedures differ for each IdP. See [configuration instructions](#configuration-instructions-for-specific-identity-providers) for some popular IdPs below.
+As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner), you can configure SAML SSO for your organization with your preferred identity provider.
+Configuration procedures differ for each IdP. See [configuration instructions](#configuration-instructions-for-specific-identity-providers) for some popular IdPs below.
 
 Once you've enabled SSO, users can sign in to Cobalt through the configured IdP. This affects the following roles:
 
 {{% owner-member-team-member %}}
 
-If [SAML SSO enforcement](#enforce-saml-sso) is off, users can authenticate in the following ways:
+If [SAML SSO enforcement](#enforce-saml-sso) is off and the Identity Provider Domains are not set, users can authenticate in the following ways:
 
 - Through SAML SSO
 - With their email and password
@@ -47,6 +48,12 @@ Here’s a general configuration workflow for SAML SSO:
     - Enter the following values from your identity provider:
       - **IdP SSO URL**
       - **IdP Certificate** (Make sure to include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.)
+      - **Identity Provider Domains** (optional)
+        - Enter your email domain(s) here if you want your users to be
+        automatically redirected from our sign in form to your IdP (SP-initiated
+        SSO)
+        - This will have the same effect as **Enforce SAML** for any user
+        that signs in with a matching email address
     - Select **Save Configuration**.<br>
     ![Configure SAML SSO in the Cobalt app](/deepdive/configure-saml-sso-overlay.png "Configure SAML SSO in the Cobalt app")
 1. Complete the configuration in the identity provider system. Enter the following values from Cobalt:
@@ -66,9 +73,22 @@ We don’t synchronize user datastores, so make sure that all users:
 
 If you have problems setting up SAML SSO, see our [troubleshooting tips](#troubleshoot-your-saml-sso-configuration).
 
+## Service Provider-initiated SAML SSO
+
+Cobalt now supports SP-initiated SSO. There are two ways you can access
+SP-initiated SSO once your SAML configuration is set up:
+
+- Use the following URL format: `https://app.us.cobalt.io/users/saml/sign_in?connection=example-org`
+  - Replace `example-org` with your organization's slug
+- Add **Identity Provider Domains** to your SAML configuration
+  - Users with matching email addresses will be automatically redirected from
+  our sign in form to your IdP to complete the authentication flow
+  - This will have the same effect as enabling **Enforce SAML**
+
 ## Enforce SAML SSO
 
-SAML SSO enforcement reqiures organization users to sign in to Cobalt only through [SAML SSO](/getting-started/glossary/#saml-single-sign-on-sso). Once the enforcement is on, other authentication methods will no longer work. This affects the following roles:
+SAML SSO enforcement reqiures organization users to sign in to Cobalt only through [SAML SSO](/getting-started/glossary/#saml-single-sign-on-sso).
+Once the enforcement is on, other authentication methods will no longer work. This affects the following roles:
 
 {{% owner-member-team-member %}}
 
