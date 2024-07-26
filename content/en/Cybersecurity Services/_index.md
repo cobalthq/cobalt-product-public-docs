@@ -26,7 +26,7 @@ The Cobalt Cybersecurity Services team can run the following engagements:
 - Electronic social engineering
 - Security hardening
 
-<sup>*</sup>Indicates engagements available to use on Cobalt. Other engagement types will be handled by request on the Catalog page or [contact us](mailto:cybersecurity_services@cobalt.io).
+<sup>*</sup>Indicates engagements available to create on Cobalt. Other engagement types will be handled by request on the Catalog page or [contact us](mailto:cybersecurity_services@cobalt.io).
 
 ## Process
 
