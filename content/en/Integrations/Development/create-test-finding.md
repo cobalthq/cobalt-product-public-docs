@@ -10,7 +10,7 @@ description: >
 
 - Cobalt staff have already created and set up a test organization for you. If not, please contact your customer
   success manager.
-- You have been invited to the test organization, accepted the invitation, and have an Owner role. This user will
+- You have been invited to the test organization, accepted the invitation, and have an **Owner** role. This user will
   be referred to as the primary user throughout the rest of the document.
 
   > ℹ️️️️ The email address of this user will be referenced as the primary email
