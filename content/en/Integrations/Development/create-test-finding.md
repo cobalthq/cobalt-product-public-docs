@@ -163,9 +163,11 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
 > ℹ️️ The pentest must be **live** to submit findings.
 
-1. From the incognito browser window, open the previously created pentest and launch it by click on **Launch Pentest**.
+1. From the incognito browser window, open the previously created pentest and launch it by clicking on **Launch Pentest**.
 
    ![Launch pentest](/integrations/Create-test-finding-launch-pentest.png "Launch pentest")
+
+   > ℹ️️ You should now see that the pentest is live
 
    ![Live pentest](/integrations/Create-test-finding-live-pentest.png "Live pentest")
 
