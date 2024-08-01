@@ -13,7 +13,7 @@ description: >
 - You have been invited to the test organization, accepted the invitation, and have an **Owner** role. This user will
   be referred to as the primary user throughout the rest of the document.
 
-  > ℹ️️️️ The email address of this user will be referenced as the primary email
+  > ℹ️️️️ The email address of this user will be referenced as the primary email.
 
   ![Verify primary user role](/integrations/Create-test-finding-verify-primary-user-role.png "Verify primary user role")
 
