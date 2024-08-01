@@ -141,9 +141,9 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
 1. Click on **staff your in-house pentesters** in the flash message to add assign the secondary user to the pentest.
 
-   > [Pentest planned](/integrations/Create-test-finding-pentest-planned.png "Pentest planned")
+   ![Pentest planned](/integrations/Create-test-finding-pentest-planned.png "Pentest planned")
 
-   > ℹ️️ Pentesters and collaborators can accessed and configured from the **Collaborators**. Select **Pentests** from the sidebar, select a pentest, open the **Collaborators** tab.
+   > ℹ️️ Pentesters and collaborators can also be accessed and configured from the **Collaborators**. Select **Pentests** from the sidebar, select a pentest, open the **Collaborators** tab.
 
 1. Click on the down pointing triangle (**▼**) and select **In-House Pentester**.
 
