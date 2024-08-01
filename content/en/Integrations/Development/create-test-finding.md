@@ -167,7 +167,7 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
    ![Launch pentest](/integrations/Create-test-finding-launch-pentest.png "Launch pentest")
 
-   > ℹ️️ You should now see that the pentest is live
+1. The pentest is now in the **live** state.
 
    ![Live pentest](/integrations/Create-test-finding-live-pentest.png "Live pentest")
 
@@ -175,13 +175,13 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
    ![Submit finding](/integrations/Create-test-finding-submit-finding.png "Submit finding")
 
-   The following information must be set create a test finding data:
+   The following information must be set to create a test finding:
 
-   - **Vulnerability type**,
-   - **Description**,
-   - **Proof of Concept**,
-   - **Severity**, and
-   - **Suggested fix**.
+   - **Vulnerability type**
+   - **Description**
+   - **Proof of Concept**
+   - **Severity**
+   - **Suggested fix**
 
    ![Set description](/integrations/Create-test-finding-set-description.png "Set description")
 
@@ -191,17 +191,17 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
    ![Set suggested fix](/integrations/Create-test-finding-set-suggested-fix.png "Set suggested fix")
 
-   > ️ ℹ️️ The input content is irrelevant but some validation constraints must be fulfilled. For example, the severity is at least a three character long string.
+   > ️ ℹ️️ The input content is irrelevant but some validation constraints must be fulfilled. For example, the severity must contain at least 3 characters.
 
-1. Click on **Submit for Triaging**. at the bottom of the page when all required info set.
+1. Click on **Submit for Triaging** at the bottom of the page when all required info is set.
 
    ![Submit for triage](/integrations/Create-test-finding-submit-for-triage.png "Submit for triage")
 
-1. The pentest finding is in the **Triaging** state.
+1. The pentest finding is now in the **Triaging** state.
 
    !['Triaging' finding](/integrations/Create-test-finding-vuln-triaging.png "'Triaging' finding")
 
-1. Change the the finding state to **Pending Fix** from the **State** dropdown and submit the evaluation.
+1. Change the finding state to **Pending Fix** from the **State** dropdown and submit the evaluation.
 
    ![Select 'Pending Fix' state](/integrations/Create-test-finding-select-pending-fix-state.png "Select 'Pending Fix' state")
 
@@ -209,7 +209,7 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
    ![Submit evaluation](/integrations/Create-test-finding-submit-evaluation.png "Submit evaluation")
 
-1. The pentest finding is in the **Pending Fix** state.
+1. The pentest finding is now in the **Pending Fix** state.
 
    !['Pending Fix' finding](/integrations/Create-test-finding-pending-fix-vuln.png "'Pending Fix' finding")
 
@@ -221,7 +221,7 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
 ## Working with the test findings (_primary user_)
 
-1. The findings created by the secondary user for the in-house pentest are visible for the primary user.
+1. The findings created by the secondary user for the in-house pentest are visible to the primary user.
 
    ![New findings notification](/integrations/Create-test-finding-pending-fix-vuln-notification.png "New findings notification")
 
