@@ -1,15 +1,15 @@
 ---
-title: "Create Test Findings"
-linkTitle: "Create Test Findings"
+title: "Create Test Finding"
+linkTitle: "Create Test Finding"
 weight: 150
 description: >
-  Populate a test organization with test findings using an in-house pentest.
+  This document is intended for organizations looking to test their integration builder in a non-prod environment. It includes detailed steps for populating an in-house pentest with fake findings for testing purposes.
 ---
 
 ## Purpose
 
 This document is intended for organizations looking to test their integration builder in a non-prod environment.
-It includes detailed steps for populating an in-house pentest with fake vulnerabilities for testing purposes.
+It includes detailed steps for populating an in-house pentest with fake findings for testing purposes.
 
 ## Prerequisites
 
