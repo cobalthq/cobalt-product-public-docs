@@ -20,18 +20,8 @@ description: >
 ## Statuses
 
 A scan can have the following states:
-- Canceled
-- Canceling
-- Completed
-- Completed With Errors
-- Failed
-- Finishing Up
-- Paused
-- Pausing
-- Queued
-- Resuming
-- Running
-- Under Review
+
+{{% image src="/deepdive/scans/scans/ScanStatuses.png" alt="scan statuses" %}}
 
 To start a scan, you can either **start** it immediately or **schedule** it for a later point in time. This can even be on a [recurring basis].
 {{% image src="/deepdive/scans/scans/StartScan.png" alt="start scan button" class="borderless-image" %}}
