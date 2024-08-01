@@ -131,7 +131,7 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
    > ℹ️️ You can check the _I'm a point of contact for this pentest_ checkbox.
 
-1. The **In-House** pentest is in **Draft** state. Click on **Move to Planned**.
+1. The **In-House** pentest is in the **Draft** state. Click on **Move to Planned**.
 
    ![Pentest created](/integrations/Create-test-finding-pentest-created.png "Pentest created")
 
@@ -195,11 +195,11 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
    ![Submit for triage](/integrations/Create-test-finding-submit-for-triage.png "Submit for triage")
 
-1. The pentest finding is in **Triaging** state.
+1. The pentest finding is in the **Triaging** state.
 
    !['Triaging' finding](/integrations/Create-test-finding-vuln-triaging.png "'Triaging' finding")
 
-1. Select the finding state to **Pending Fix** from the dropdown and submit the evaluation.
+1. Change the the finding state to **Pending Fix** from the dropdown and submit the evaluation.
 
    ![Select 'Pending Fix' state](/integrations/Create-test-finding-select-pending-fix-state.png "Select 'Pending Fix' state")
 
@@ -207,7 +207,7 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
    ![Submit evaluation](/integrations/Create-test-finding-submit-evaluation.png "Submit evaluation")
 
-1. The pentest finding is in **Pending Fix** state.
+1. The pentest finding is in the **Pending Fix** state.
 
    !['Pending Fix' finding](/integrations/Create-test-finding-pending-fix-vuln.png "'Pending Fix' finding")
 
