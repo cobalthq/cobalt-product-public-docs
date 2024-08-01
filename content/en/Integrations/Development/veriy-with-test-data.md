@@ -6,22 +6,10 @@ description: >
   Populate a test organization with test findings using an in-house pentest.
 ---
 
-## TODO
-
 ## Purpose
 
 This document is intended for organizations looking to test their integration builder in a non-prod environment.
 It includes detailed steps for populating an in-house pentest with fake vulnerabilities for testing purposes.
-
-## Limitations
-
-In this tutorial, we will explore the _'+1 email address trick'_ to simulate multiple users within the Cobalt application.
-
-The _'+1 email address trick'_ is a clever method used to generate various email addresses from a single Gmail account. This technique involves adding a “+1” (or a combination of numbers and letters) to the local part of your Gmail address before the “@” symbol.
-
-For instance, if your Gmail address is `joeman@gmail.com`, you can create a new address by appending “+1” to the local part: `joeman+1@gmail.com`. For more comprehensive information about this functionality, please refer to the official Gmail blog [here](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html).
-
-> ⚠️ **It's important to note that the +1 email address trick is specific to Gmail and allows users to create aliases for better inbox organization. However, it may not be compatible with all email providers such as Hotmail, Outlook, or iCloud.**
 
 ## Prerequisites
 
@@ -30,13 +18,23 @@ For instance, if your Gmail address is `joeman@gmail.com`, you can create a new 
 - You have been invited to the test organization, accepted the invitation, and have an Owner role. This user will
   be referred to as the primary user throughout the rest of the document.
 
-  > ℹ️️ The email address of this user will be referenced as the primary email
+  > ℹ️️️️ The email address of this user will be referenced as the primary email
 
   ![Verify primary user role](/integrations/Create-test-finding-verify-primary-user-role.png "Verify primary user role")
 
+### Limitations
+
+In this tutorial, we will explore the _+1 email address trick_ to simulate multiple users within the Cobalt application.
+
+The _+1 email address trick_ is a syntax technique used to create multiple email addresses based on a single Gmail address. This trick involves appending a “+1” (or any combination of numbers and letters) to the local part of your Gmail address, before the “@” symbol.
+
+ > ℹ️️️️ Example: If your Gmail address is `joeman@gmail.com`, you can create a new email address by adding “+1” to the local part: `joeman+1@gmail.com`. For more comprehensive information about this functionality, please refer to the official Gmail blog [here](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html).
+
+> ⚠️ **It's important to note that the '+1 email address trick' is specific to Gmail and allows users to create aliases for better inbox organization. However, it may not be compatible with all email providers such as Hotmail, Outlook, or iCloud.**
+
 ## Set up secondary user
 
-> ℹ️️ This documentation uses `kittaakos@gmail.com` as the primary user's email address.
+> ℹ️️️️ This documentation uses `kittaakos@gmail.com` as the primary user's email address.
 
 1. Log in to the Cobalt application with your primary user.
 1. Open the **People** page from the sidebar.
@@ -48,7 +46,7 @@ For instance, if your Gmail address is `joeman@gmail.com`, you can create a new 
 
    ![Add secondary user](/integrations/Create-test-finding-add-secondary-user.png "Add secondary user")
 
-   > ℹ Since the primary email address is `kittaakos@gmail.com`, the secondary will be `kittaakos+1gmail.com`.
+   > ℹ️️ Since the primary email address is `kittaakos@gmail.com`, the secondary will be `kittaakos+1gmail.com`.
 
 1. Click on the **Invite** button.
 
@@ -58,7 +56,7 @@ For instance, if your Gmail address is `joeman@gmail.com`, you can create a new 
 
    ![Verify secondary user invited](/integrations/Create-test-finding-verify-secondary-user-invited.png "Verify secondary user invited")
 
-   > ️️ℹ You may need to scroll down in the list of people in your organization.
+   > ️️ℹ️️ You may need to scroll down in the list of people in your organization.
 
 1. Check your primary emails for the invitation of the secondary user.
 
@@ -81,7 +79,7 @@ For instance, if your Gmail address is `joeman@gmail.com`, you can create a new 
 
    > 🎉 You have successfully logged into Cobalt using your secondary user.
 
-## Create In-House Pentest (Primary user)
+## Create In-House Pentest (_primary user_)
 
 1. Using your primary user, open the **Pentests** page from the sidebar and click on **Create Pentest**.
 
@@ -91,13 +89,13 @@ For instance, if your Gmail address is `joeman@gmail.com`, you can create a new 
 
    ![Get started with In-House Pentests](/integrations/Create-test-finding-get-started-with-inhouse-pentests.png "Get started with In-House Pentests")
 
-   > ️ ℹ You can skip this step if the **In-House Pentest Beta** feature is already enabled for your organization.
+   > ️ ℹ️️ You can skip this step if the **In-House Pentest Beta** feature is already enabled for your organization.
 
 1. Click on **Enter the Beta** if you want to enable the **In-House Pentest Beta** feature.
 
    ![Enter In-House Pentests Beta](/integrations/Create-test-finding-enter-inhouse-pentests.png "Enter In-House Pentests Beta")
 
-   > ️ ℹ You can skip this step if the **In-House Pentest Beta** feature is already enabled for your organization.
+   > ️ ℹ️️ You can skip this step if the **In-House Pentest Beta** feature is already enabled for your organization.
 
 1. Select the **In-House Pentest** type and asset you want to test, then click on **Continue**.
 
@@ -105,19 +103,19 @@ For instance, if your Gmail address is `joeman@gmail.com`, you can create a new 
 
    ![Create In-House Pentest](/integrations/Create-test-finding-create-inhouse-pentest.png "Create In-House Pentest")
 
-   > ️ ℹ You can create a dedicate asset for testing purposes or use an existing one.
+   > ️ ℹ️️ You can create a dedicate asset for testing purposes or use an existing one.
 
-1. You can leave the **Asset** page by clicking on **Next**
+1. No changes are required on the **Asset** page. You can proceed by clicking on **Next**.
 
    ![Rename In-House Pentest](/integrations/Create-test-finding-rename-pentest.png "Rename In-House Pentest")
 
-   > ℹ Changing the pentest name is optional but helps to distinguish test pentests from each other. The pentest can be renamed ny clicking on the pencil icon next to the pentest name and confirm the changes with **Done**.
+   > ℹ️️ Changing the pentest name is optional but helps to distinguish test pentests from each other. The pentest can be renamed ny clicking on the pencil icon next to the pentest name and confirm the changes with **Done**.
 
-1. On the **Requirement** page, the following information must be provided:
+1. On the **Requirement** page, the following fields must be set:
 
-   - Targets,
-   - Objectives, and
-   - Technology stack.
+   - **Targets**,
+   - **Objectives**, and
+   - **Technology stack**.
 
    ![Set targets](/integrations/Create-test-finding-set-targets.png "Set targets")
 
@@ -125,60 +123,109 @@ For instance, if your Gmail address is `joeman@gmail.com`, you can create a new 
 
    ![Set technology stack](/integrations/Create-test-finding-set-technology-stack.png "Set technology stack")
 
-   > ️ ℹ The input content is irrelevant.
+   > ️ ℹ️️ The input content is irrelevant.
 
 1. No changes are required on the **Details** page. Proceed by clicking on **Next**.
 
    ![Optional details](/integrations/Create-test-finding-optional-details.png "Optional details")
 
-1. Select the required **Start** and **End** dates on the **Scope & Plan** page, and click on **Save & Exit** to finish the wizard.
+1. Select the required **Start** and **End** dates on the **Scope & Plan** page, and click on **Save & Exit** to create the pentest.
 
    ![Configure plan](/integrations/Create-test-finding-configure-plan.png "Configure plan")
 
-   > ℹ It is recommended to check the _I'm a point of contact for this pentest_ checkbox.
+   > ℹ️️ You can check the _I'm a point of contact for this pentest_ checkbox.
 
-![Pentest created](/integrations/Create-test-finding-pentest-created.png "Pentest created")
+1. The **In-House** pentest is in **Draft** state. Click on **Move to Planned**.
 
-![Plan pentest](/integrations/Create-test-finding-plan-pentest.png "Plan pentest")
+   ![Pentest created](/integrations/Create-test-finding-pentest-created.png "Pentest created")
 
-![Pentest planned](/integrations/Create-test-finding-pentest-planned.png "Pentest planned")
+1. Confirm it by clicking on **Move to Planned** in the modal dialog.
 
-![Add In-House pentester](/integrations/Create-test-finding-add-inhouse-pentester.png "Add In-House pentester")
+   ![Plan pentest](/integrations/Create-test-finding-plan-pentest.png "Plan pentest")
 
-![Add secondary user to pentest](/integrations/Create-test-finding-add-secondary-user-to-pentest.png "Add secondary user to pentest")
+1. Click on **staff your in-house pentesters** in the flash message to add assign the secondary user to the pentest.
 
-![Verify secondary user added](/integrations/Create-test-finding-verify-secondary-user-add.png "Verify secondary user added")
+   > [Pentest planned](/integrations/Create-test-finding-pentest-planned.png "Pentest planned")
 
-![Secondary user invited](/integrations/Create-test-finding-secondary-user-invited.png "Secondary user invited")
+   > ℹ️️ Pentesters and collaborators can accessed and configured from the **Collaborators**. Select **Pentests** from the sidebar, select a pentest, open the **Collaborators** tab.
 
-![Launch pentest](/integrations/Create-test-finding-launch-pentest.png "Launch pentest")
+1. Click on the down pointing triangle (**▼**) and select **In-House Pentester**.
 
-![Live pentest](/integrations/Create-test-finding-live-pentest.png "Live pentest")
+   ![Add In-House pentester](/integrations/Create-test-finding-add-inhouse-pentester.png "Add In-House pentester")
 
-![Submit finding](/integrations/Create-test-finding-submit-finding.png "Submit finding")
+1. Set the secondary email as the input and click on the **Add In-House Pentester** button.
 
-![Select vulnerability type](/integrations/Create-test-finding-select-vulnerability-type.png "Select vulnerability type")
+   ![Add secondary user to pentest](/integrations/Create-test-finding-add-secondary-user-to-pentest.png "Add secondary user to pentest")
 
-![Set description](/integrations/Create-test-finding-set-description.png "Set description")
+1. Verify the secondary user is in the **Collaborators** list with **In-House Pentester** role.
 
-![Set proof of concept](/integrations/Create-test-finding-set-poc.png "Set proof of concept")
+   ![Secondary user invited](/integrations/Create-test-finding-secondary-user-invited.png "Secondary user invited")
 
-![Set severity](/integrations/Create-test-finding-set-severity.png "Set severity")
+   > 🎉 You have successfully created an in-house pentest and staffed the secondary user as a pentester.
 
-![Set suggested fix](/integrations/Create-test-finding-set-suggested-fix.png "Set suggested fix")
+## Create Test Finding (_secondary user_)
 
-![Submit for triage](/integrations/Create-test-finding-submit-for-triage.png "Submit for triage")
+   > ℹ️️ The pentest must be **live** to submit findings.
 
-!['Triaging' finding](/integrations/Create-test-finding-vuln-triaging.png "'Triaging' finding")
+1. From the incognito browser window, open the previously created pentest and launch it by click on **Launch Pentest**.
 
-![Select 'Pending Fix' state](/integrations/Create-test-finding-select-pending-fix-state.png "Select 'Pending Fix' state")
+   ![Launch pentest](/integrations/Create-test-finding-launch-pentest.png "Launch pentest")
 
-![Submit evaluation](/integrations/Create-test-finding-submit-evaluation.png "Submit evaluation")
+   ![Live pentest](/integrations/Create-test-finding-live-pentest.png "Live pentest")
 
-!['Pending Fix' finding](/integrations/Create-test-finding-pending-fix-vuln.png "'Pending Fix' finding")
+1. Click on **Submit Finding**.
 
-![In-House pentest findings](/integrations/Create-test-finding-pentest-vulns.png "In-House pentest findings")
+   ![Submit finding](/integrations/Create-test-finding-submit-finding.png "Submit finding")
 
-![New findings notification](/integrations/Create-test-finding-pending-fix-vuln-notification.png "New findings notification")
+   The following information must be set create a test finding data:
+      - **Vulnerability type**,
+      - **Description**,
+      - **Proof of concept**,
+      - **Severity**, and
+      - **Suggested fix**.
 
-![Review new finding](/integrations/Create-test-finding-pending-fix-vuln-review.png "Review new finding")
+   ![Select vulnerability type](/integrations/Create-test-finding-select-vulnerability-type.png "Select vulnerability type")
+
+   ![Set description](/integrations/Create-test-finding-set-description.png "Set description")
+
+   ![Set proof of concept](/integrations/Create-test-finding-set-poc.png "Set proof of concept")
+
+   ![Set severity](/integrations/Create-test-finding-set-severity.png "Set severity")
+
+   ![Set suggested fix](/integrations/Create-test-finding-set-suggested-fix.png "Set suggested fix")
+
+   > ️ ℹ️️ The input content is irrelevant but some validation constraints must be fulfilled. For example, the severity is at least a three character long string.
+
+1. Click on **Submit for Triaging**. at the bottom of the page when all required info set.
+
+   ![Submit for triage](/integrations/Create-test-finding-submit-for-triage.png "Submit for triage")
+
+1. The pentest finding is in **Triaging** state.
+
+   !['Triaging' finding](/integrations/Create-test-finding-vuln-triaging.png "'Triaging' finding")
+
+1. Select the finding state to **Pending Fix** from the dropdown and submit the evaluation.
+
+   ![Select 'Pending Fix' state](/integrations/Create-test-finding-select-pending-fix-state.png "Select 'Pending Fix' state")
+
+1. Set the **Likelihood**, **Business Impact**, and the **Report Quality** values by clicking on the circles (**●**) and on the **Submit evaluation** button.
+
+   ![Submit evaluation](/integrations/Create-test-finding-submit-evaluation.png "Submit evaluation")
+
+1. The pentest finding is in **Pending Fix** state.
+
+   !['Pending Fix' finding](/integrations/Create-test-finding-pending-fix-vuln.png "'Pending Fix' finding")
+
+1. See all pentest findings.
+
+   ![In-House pentest findings](/integrations/Create-test-finding-pentest-vulns.png "In-House pentest findings")
+
+   > 🎉 You have successfully created a finding for the in-house pentest with the secondary user.
+
+## Working with the test findings (_primary user_)
+
+1. The findings created by the secondary user for the in-house pentest are visible for the primary user.
+
+   ![New findings notification](/integrations/Create-test-finding-pending-fix-vuln-notification.png "New findings notification")
+
+   ![Review new finding](/integrations/Create-test-finding-pending-fix-vuln-review.png "Review new finding")
