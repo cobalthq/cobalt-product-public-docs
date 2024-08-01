@@ -23,7 +23,7 @@ In this tutorial, we will explore the _+1 email address trick_ to simulate multi
 
 The _+1 email address trick_ is a syntax technique used to create multiple email addresses based on a single Gmail address. This trick involves appending a “+1” (or any combination of numbers and letters) to the local part of your Gmail address, before the “@” symbol.
 
- > ℹ️️️️ Example: If your Gmail address is `joeman@gmail.com`, you can create a new email address by adding “+1” to the local part: `joeman+1@gmail.com`. For more comprehensive information about this functionality, please refer to the official Gmail blog [here](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html).
+> ℹ️️️️ Example: If your Gmail address is `joeman@gmail.com`, you can create a new email address by adding “+1” to the local part: `joeman+1@gmail.com`. For more comprehensive information about this functionality, please refer to the official Gmail blog [here](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html).
 
 > ⚠️ **It's important to note that the '+1 email address trick' is specific to Gmail and allows users to create aliases for better inbox organization. However, it may not be compatible with all email providers such as Hotmail, Outlook, or iCloud.**
 
@@ -160,7 +160,7 @@ The _+1 email address trick_ is a syntax technique used to create multiple email
 
 ## Create Test Finding (_secondary user_)
 
-   > ℹ️️ The pentest must be **live** to submit findings.
+> ℹ️️ The pentest must be **live** to submit findings.
 
 1. From the incognito browser window, open the previously created pentest and launch it by click on **Launch Pentest**.
 
@@ -173,11 +173,12 @@ The _+1 email address trick_ is a syntax technique used to create multiple email
    ![Submit finding](/integrations/Create-test-finding-submit-finding.png "Submit finding")
 
    The following information must be set create a test finding data:
-      - **Vulnerability type**,
-      - **Description**,
-      - **Proof of concept**,
-      - **Severity**, and
-      - **Suggested fix**.
+
+   - **Vulnerability type**,
+   - **Description**,
+   - **Proof of concept**,
+   - **Severity**, and
+   - **Suggested fix**.
 
    ![Set description](/integrations/Create-test-finding-set-description.png "Set description")
 
