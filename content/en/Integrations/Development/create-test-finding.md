@@ -17,7 +17,7 @@ description: >
 
   ![Verify primary user role](/integrations/Create-test-finding-verify-primary-user-role.png "Verify primary user role")
 
-### Limitations
+### _+1 email address trick_
 
 In this tutorial, we will explore the _+1 email address trick_ to simulate multiple users within the Cobalt application.
 
@@ -25,24 +25,24 @@ The _+1 email address trick_ is a syntax technique used to create multiple email
 
 For example, if your Gmail address is `joeman@gmail.com`, you can create a new email address by adding “+1” to the local part: `joeman+1@gmail.com`. For more comprehensive information about this functionality, please refer to the official Gmail blog [here](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html).
 
+#### Limitations
+
 > ⚠️ **It's important to note that the _+1 email address trick_ is specific to Gmail and allows users to create aliases for better inbox organization. However, it may not be compatible with all email providers such as Hotmail, Outlook, or iCloud.**
 
 ## Set up secondary user
 
 1. Log in to the Cobalt application with your primary user.
 
-   > ℹ️️️️ This example uses `kittaakos@gmail.com` as the primary user's email address.
-
 1. Open the **People** page from the sidebar.
 1. Click on the **Invite Users** button.
 
    ![Invite a user](/integrations/Create-test-finding-invite-a-user.png "Invite a user")
 
-1. Enter the email address of the secondary user using the _+1 email address trick_ and click on **Add** or press <kbd>Enter</kbd>.
+1. Enter the email address of the secondary user using the [_+1 email address trick_](#1-email-address-trick) and click on **Add** or press <kbd>Enter</kbd>.
 
    ![Add secondary user](/integrations/Create-test-finding-add-secondary-user.png "Add secondary user")
 
-   > ℹ️️ Since the primary email address is `kittaakos@gmail.com`, the secondary will be `kittaakos+1gmail.com`.
+   > ℹ️️ Insert `+1` before the `@`.
 
 1. Click on the **Invite** button.
 
