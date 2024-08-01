@@ -37,7 +37,7 @@ The _+1 email address trick_ is a syntax technique used to create multiple email
 
    ![Invite a user](/integrations/Create-test-finding-invite-a-user.png "Invite a user")
 
-1. Enter the email address of the secondary user using the _'+1 email address trick'_ and click on **Add** or press <kbd>Enter</kbd>.
+1. Enter the email address of the secondary user using the _+1 email address trick_ and click on **Add** or press <kbd>Enter</kbd>.
 
    ![Add secondary user](/integrations/Create-test-finding-add-secondary-user.png "Add secondary user")
 
