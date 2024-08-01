@@ -5,11 +5,6 @@ weight: 15
 description: >
   A scan represents a test run against a specific target
 ---
-<style>
-  .progress-image {
-    width: 400px;
-  }
-</style>
 
 ## Statuses
 
@@ -62,27 +57,27 @@ Each component will have its own progress bar to provide quick visual feedback.
 Aside from the bars filling up as each component progresses, the color of the bar may change as well to reflect its state:
 - Light grey: The specific component hasn't started yet or the whole scan is paused.
 
-{{% image src="/deepdive/scans/scans/LightGreyProgressBar.png" alt="light grey progress bar" class="progress-image" %}}
+{{% image src="/deepdive/scans/scans/LightGreyProgressBar.png" alt="light grey progress bar" width="400px" %}}
 
 - Blue: The component has started and is making progress.
 
-{{% image src="/deepdive/scans/scans/BlueProgressBar.png" alt="blue progress bar" class="progress-image" %}}
+{{% image src="/deepdive/scans/scans/BlueProgressBar.png" alt="blue progress bar" width="400px" %}}
 
 - Green: The component has successfully completed its duty.
 
-{{% image src="/deepdive/scans/scans/GreenProgressBar.png" alt="green progress bar" class="progress-image" %}}
+{{% image src="/deepdive/scans/scans/GreenProgressBar.png" alt="green progress bar" width="400px" %}}
 
 - Red: The component failed. Whenever this occurs, details will show below the progress bar.
 
-{{% image src="/deepdive/scans/scans/RedProgressBar.png" alt="red progress bar" class="progress-image" %}}
+{{% image src="/deepdive/scans/scans/RedProgressBar.png" alt="red progress bar" width="400px" %}}
 
 - Yellow: The component didn't fail but there's potential for improvement, since it didn't run optimally. Details will show below the progress bar.
 
-{{% image src="/deepdive/scans/scans/YellowProgressBar.png" alt="yellow progress bar" class="progress-image" %}}
+{{% image src="/deepdive/scans/scans/YellowProgressBar.png" alt="yellow progress bar" width="400px" %}}
 
 - Dark grey: The whole scan has been canceled.
 
-{{% image src="/deepdive/scans/scans/DarkGreyProgressBar.png" alt="dark grey progress bar" class="progress-image" %}}
+{{% image src="/deepdive/scans/scans/DarkGreyProgressBar.png" alt="dark grey progress bar" width="400px" %}}
 
 
 

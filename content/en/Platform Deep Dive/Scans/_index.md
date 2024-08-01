@@ -55,6 +55,8 @@ See more about how to configure a target in [configuring a target]
 
 {{% image src="/deepdive/scans/11_ScheduledScansView.png" alt="Scheduled Scans View - Targets" %}}
 
+Information about scan statuses, transitions and progress tracking can be found [here].
+
 ### Scan Results
 
 - Once a scan is complete, you have two options to View Results
@@ -175,3 +177,4 @@ For support, please reach out to your CSM or email us at dast@cobalt.io.
 
 [Report types]: #report-types
 [configuring a target]: /platform-deep-dive/scans/targets#adding-a-web-or-api-target
+[here]: /platform-deep-dive/scans/scans
