@@ -199,7 +199,7 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
    !['Triaging' finding](/integrations/Create-test-finding-vuln-triaging.png "'Triaging' finding")
 
-1. Change the the finding state to **Pending Fix** from the dropdown and submit the evaluation.
+1. Change the the finding state to **Pending Fix** from the **State** dropdown and submit the evaluation.
 
    ![Select 'Pending Fix' state](/integrations/Create-test-finding-select-pending-fix-state.png "Select 'Pending Fix' state")
 
