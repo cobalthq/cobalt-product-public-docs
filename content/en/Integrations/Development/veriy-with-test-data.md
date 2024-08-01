@@ -8,24 +8,78 @@ description: >
 
 ## TODO
 
+## Purpose
 
-![Verify primary user role](/integrations/Create-test-finding-verify-primary-user-role.png "Verify primary user role")
+This document is intended for organizations looking to test their integration builder in a non-prod environment.
+It includes detailed steps for populating an in-house pentest with fake vulnerabilities for testing purposes.
 
-![Invite a user](/integrations/Create-test-finding-invite-a-user.png "Invite a user")
+## Limitations
 
-![Add secondary user](/integrations/Create-test-finding-add-secondary-user.png "Add secondary user")
+In this tutorial, we will explore the _'+1 email address trick'_ to simulate multiple users within the Cobalt application.
 
-![Invite secondary user](/integrations/Create-test-finding-invite-secondary-user.png "Invite secondary user")
+The _'+1 email address trick'_ is a clever method used to generate various email addresses from a single Gmail account. This technique involves adding a “+1” (or a combination of numbers and letters) to the local part of your Gmail address before the “@” symbol.
 
-![Verify secondary user invited](/integrations/Create-test-finding-verify-secondary-user-invited.png "Verify secondary user invited")
+For instance, if your Gmail address is `joeman@gmail.com`, you can create a new address by appending “+1” to the local part: `joeman+1@gmail.com`. For more comprehensive information about this functionality, please refer to the official Gmail blog [here](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html).
 
-![Check invitation email](/integrations/Create-test-finding-check-invitation-email.png "Check invitation email")
+> ⚠️ **It's important to note that the +1 email address trick is specific to Gmail and allows users to create aliases for better inbox organization. However, it may not be compatible with all email providers such as Hotmail, Outlook, or iCloud.**
 
-![Get started with secondary user](/integrations/Create-test-finding-get-started-with-secondary-user.png "Get started with secondary user")
+## Prerequisites
 
-![Set password for secondary user](/integrations/Create-test-finding-set-password-for-secondary-user.png "Set password for secondary user")
+- Cobalt staff have already created and set up a test organization for you. If not, please contact your customer
+  success manager.
+- You have been invited to the test organization, accepted the invitation, and have an Owner role. This user will
+  be referred to as the primary user throughout the rest of the document.
 
-![Log in with secondary user](/integrations/Create-test-finding-log-in-with-secondary-user.png "Log in with secondary user")
+  > ℹ️️ The email address of this user will be referenced as the primary email
+
+  ![Verify primary user role](/integrations/Create-test-finding-verify-primary-user-role.png "Verify primary user role")
+
+## Set up secondary user
+
+> ℹ️️ This documentation uses `kittaakos@gmail.com` as the primary user's email address.
+
+1. Log in to the Cobalt application with your primary user.
+1. Open the **People** page from the sidebar.
+1. Click on the **Invite User** button.
+
+   ![Invite a user](/integrations/Create-test-finding-invite-a-user.png "Invite a user")
+
+1. Enter the email address of the secondary user using the _'+1 email address trick'_ and click on **Add** or press <kbd>Enter</kbd>.
+
+   ![Add secondary user](/integrations/Create-test-finding-add-secondary-user.png "Add secondary user")
+
+   > ℹ️️ Since the primary email address is `kittaakos@gmail.com`, the secondary will be `kittaakos+1gmail.com`.
+
+1. Click on the **Invite** button.
+
+   ![Invite secondary user](/integrations/Create-test-finding-invite-secondary-user.png "Invite secondary user")
+
+1. Verify secondary user has been invited.
+
+   ![Verify secondary user invited](/integrations/Create-test-finding-verify-secondary-user-invited.png "Verify secondary user invited")
+
+   > ️️ℹ️️ You may need to scroll down in the list of people in your organization.
+
+1. Check your primary emails for the invitation of the secondary user.
+
+   ![Check invitation email](/integrations/Create-test-finding-check-invitation-email.png "Check invitation email")
+
+1. Click on **Get Started** in the email.
+
+   ![Get started with secondary user](/integrations/Create-test-finding-get-started-with-secondary-user.png "Get started with secondary user")
+
+1. Set a new password for the new user and click **Continue**.
+
+   ![Set password for secondary user](/integrations/Create-test-finding-set-password-for-secondary-user.png "Set password for secondary user")
+
+1. Open a new browser window in [incognito or private browsing mode](https://en.wikipedia.org/wiki/Private_browsing).
+1. In the private browser window, navigate to https://app.us.cobalt.io to access the Cobalt application.
+1. Enter your secondary email address and click on **Continue**, then use the password you set for the secondary email
+   address to log in to the application and click **Continue** again.
+
+   ![Log in with secondary user](/integrations/Create-test-finding-log-in-with-secondary-user.png "Log in with secondary user")
+
+   > 🎉 You have successfully logged into Cobalt using your secondary user.
 
 ![Open Pentests page](/integrations/Create-test-finding-open-pentests-page.png "Open Pentests page")
 
