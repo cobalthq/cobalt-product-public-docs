@@ -184,8 +184,6 @@ The _+1 email address trick_ is a syntax technique used to create multiple email
       - **Severity**, and
       - **Suggested fix**.
 
-   ![Select vulnerability type](/integrations/Create-test-finding-select-vulnerability-type.png "Select vulnerability type")
-
    ![Set description](/integrations/Create-test-finding-set-description.png "Set description")
 
    ![Set proof of concept](/integrations/Create-test-finding-set-poc.png "Set proof of concept")
