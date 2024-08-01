@@ -25,7 +25,7 @@ The _+1 email address trick_ is a syntax technique used to create multiple email
 
 For example, if your Gmail address is `joeman@gmail.com`, you can create a new email address by adding “+1” to the local part: `joeman+1@gmail.com`. For more comprehensive information about this functionality, please refer to the official Gmail blog [here](https://gmail.googleblog.com/2008/03/2-hidden-ways-to-get-more-from-your.html).
 
-> ⚠️ **It's important to note that the '+1 email address trick' is specific to Gmail and allows users to create aliases for better inbox organization. However, it may not be compatible with all email providers such as Hotmail, Outlook, or iCloud.**
+> ⚠️ **It's important to note that the _+1 email address trick_ is specific to Gmail and allows users to create aliases for better inbox organization. However, it may not be compatible with all email providers such as Hotmail, Outlook, or iCloud.**
 
 ## Set up secondary user
 
