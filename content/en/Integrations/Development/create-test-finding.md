@@ -33,7 +33,7 @@ The _+1 email address trick_ is a syntax technique used to create multiple email
 
 1. Log in to the Cobalt application with your primary user.
 1. Open the **People** page from the sidebar.
-1. Click on the **Invite User** button.
+1. Click on the **Invite Users** button.
 
    ![Invite a user](/integrations/Create-test-finding-invite-a-user.png "Invite a user")
 
