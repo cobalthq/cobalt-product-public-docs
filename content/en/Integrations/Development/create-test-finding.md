@@ -177,7 +177,7 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
    - **Vulnerability type**,
    - **Description**,
-   - **Proof of concept**,
+   - **Proof of Concept**,
    - **Severity**, and
    - **Suggested fix**.
 
