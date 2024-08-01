@@ -48,7 +48,7 @@ For instance, if your Gmail address is `joeman@gmail.com`, you can create a new 
 
    ![Add secondary user](/integrations/Create-test-finding-add-secondary-user.png "Add secondary user")
 
-   > ℹ️️ Since the primary email address is `kittaakos@gmail.com`, the secondary will be `kittaakos+1gmail.com`.
+   > ℹ Since the primary email address is `kittaakos@gmail.com`, the secondary will be `kittaakos+1gmail.com`.
 
 1. Click on the **Invite** button.
 
@@ -58,7 +58,7 @@ For instance, if your Gmail address is `joeman@gmail.com`, you can create a new 
 
    ![Verify secondary user invited](/integrations/Create-test-finding-verify-secondary-user-invited.png "Verify secondary user invited")
 
-   > ️️ℹ️️ You may need to scroll down in the list of people in your organization.
+   > ️️ℹ You may need to scroll down in the list of people in your organization.
 
 1. Check your primary emails for the invitation of the secondary user.
 
@@ -81,31 +81,61 @@ For instance, if your Gmail address is `joeman@gmail.com`, you can create a new 
 
    > 🎉 You have successfully logged into Cobalt using your secondary user.
 
-![Open Pentests page](/integrations/Create-test-finding-open-pentests-page.png "Open Pentests page")
+## Create In-House Pentest (Primary user)
 
-![Create pentest](/integrations/Create-test-finding-create-pentest.png "Create pentest")
+1. Using your primary user, open the **Pentests** page from the sidebar and click on **Create Pentest**.
 
-![Get started with In-House Pentests](/integrations/Create-test-finding-get-started-with-inhouse-pentests.png "Get started with In-House Pentests")
+   ![Create pentest](/integrations/Create-test-finding-create-pentest.png "Create pentest")
 
-![Enter In-House Pentests Beta](/integrations/Create-test-finding-enter-inhouse-pentests.png "Enter In-House Pentests Beta")
+1. Click on **Get Started** if you have not yet enabled the **In-House Pentest Beta** feature for your organization.
 
-(need to do it once!)
+   ![Get started with In-House Pentests](/integrations/Create-test-finding-get-started-with-inhouse-pentests.png "Get started with In-House Pentests")
 
-![In-House Pentests Beta Enabled](/integrations/Create-test-finding-inhouse-pentests-enabled.png "In-House Pentests Beta Enabled")
+   > ️ ℹ You can skip this step if the **In-House Pentest Beta** feature is already enabled for your organization.
 
-![Create In-House Pentest](/integrations/Create-test-finding-create-inhouse-pentest.png "Create In-House Pentest")
+1. Click on **Enter the Beta** if you want to enable the **In-House Pentest Beta** feature.
 
-![Rename In-House Pentest](/integrations/Create-test-finding-rename-pentest.png "Rename In-House Pentest")
+   ![Enter In-House Pentests Beta](/integrations/Create-test-finding-enter-inhouse-pentests.png "Enter In-House Pentests Beta")
 
-![Set targets](/integrations/Create-test-finding-set-targets.png "Set targets")
+   > ️ ℹ You can skip this step if the **In-House Pentest Beta** feature is already enabled for your organization.
 
-![Set objectives](/integrations/Create-test-finding-set-objectives.png "Set objectives")
+1. Select the **In-House Pentest** type and asset you want to test, then click on **Continue**.
 
-![Set technology stack](/integrations/Create-test-finding-set-technology-stack.png "Set technology stack")
+   ![In-House Pentests Beta Enabled](/integrations/Create-test-finding-inhouse-pentests-enabled.png "In-House Pentests Beta Enabled")
 
-![Optional details](/integrations/Create-test-finding-optional-details.png "Optional details")
+   ![Create In-House Pentest](/integrations/Create-test-finding-create-inhouse-pentest.png "Create In-House Pentest")
 
-![Configure plan](/integrations/Create-test-finding-configure-plan.png "Configure plan")
+   > ️ ℹ You can create a dedicate asset for testing purposes or use an existing one.
+
+1. You can leave the **Asset** page by clicking on **Next**
+
+   ![Rename In-House Pentest](/integrations/Create-test-finding-rename-pentest.png "Rename In-House Pentest")
+
+   > ℹ Changing the pentest name is optional but helps to distinguish test pentests from each other. The pentest can be renamed ny clicking on the pencil icon next to the pentest name and confirm the changes with **Done**.
+
+1. On the **Requirement** page, the following information must be provided:
+
+   - Targets,
+   - Objectives, and
+   - Technology stack.
+
+   ![Set targets](/integrations/Create-test-finding-set-targets.png "Set targets")
+
+   ![Set objectives](/integrations/Create-test-finding-set-objectives.png "Set objectives")
+
+   ![Set technology stack](/integrations/Create-test-finding-set-technology-stack.png "Set technology stack")
+
+   > ️ ℹ The input content is irrelevant.
+
+1. No changes are required on the **Details** page. Proceed by clicking on **Next**.
+
+   ![Optional details](/integrations/Create-test-finding-optional-details.png "Optional details")
+
+1. Select the required **Start** and **End** dates on the **Scope & Plan** page, and click on **Save & Exit** to finish the wizard.
+
+   ![Configure plan](/integrations/Create-test-finding-configure-plan.png "Configure plan")
+
+   > ℹ It is recommended to check the _I'm a point of contact for this pentest_ checkbox.
 
 ![Pentest created](/integrations/Create-test-finding-pentest-created.png "Pentest created")
 
