@@ -3,7 +3,7 @@ title: "Create Test Finding"
 linkTitle: "Create Test Finding"
 weight: 150
 description: >
-  This document is intended for organizations looking to test their integration builder in a non-prod environment. It includes detailed steps for populating an in-house pentest with fake findings for testing purposes.
+  This document is intended for organizations that want to test their integrations in a non-prod environment. It includes detailed steps for populating an in-house pentest with fake findings for testing purposes.
 ---
 
 ## Prerequisites
@@ -48,13 +48,13 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
    ![Invite secondary user](/integrations/Create-test-finding-invite-secondary-user.png "Invite secondary user")
 
-1. Verify secondary user has been invited.
+1. Verify that the secondary user has been invited.
 
    ![Verify secondary user invited](/integrations/Create-test-finding-verify-secondary-user-invited.png "Verify secondary user invited")
 
    > ️️ℹ️️ You may need to scroll down in the list of people in your organization.
 
-1. Check your primary emails for the invitation of the secondary user.
+1. Check your primary email inbox for the invitation of the secondary user.
 
    ![Check invitation email](/integrations/Create-test-finding-check-invitation-email.png "Check invitation email")
 
@@ -99,19 +99,19 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
    ![Create In-House Pentest](/integrations/Create-test-finding-create-inhouse-pentest.png "Create In-House Pentest")
 
-   > ️ ℹ️️ You can create a dedicate asset for testing purposes or use an existing one.
+   > ️ ℹ️️ You can create a dedicated asset for testing purposes or use an existing one.
 
 1. No changes are required on the **Asset** page. You can proceed by clicking on **Next**.
 
    ![Rename In-House Pentest](/integrations/Create-test-finding-rename-pentest.png "Rename In-House Pentest")
 
-   > ℹ️️ Changing the pentest name is optional but helps to distinguish test pentests from each other. The pentest can be renamed ny clicking on the pencil icon next to the pentest name and confirm the changes with **Done**.
+   > ℹ️️ Changing the pentest name is optional but helps to distinguish test pentests from each other. The pentest can be renamed by clicking on the pencil icon next to the pentest name and confirm the changes with **Done**.
 
-1. On the **Requirement** page, the following fields must be set:
+1. On the **Requirements** page, the following fields must be set:
 
-   - **Targets**,
-   - **Objectives**, and
-   - **Technology stack**.
+   - **Targets**
+   - **Objectives**
+   - **Technology stack**
 
    ![Set targets](/integrations/Create-test-finding-set-targets.png "Set targets")
 
@@ -139,11 +139,11 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
    ![Plan pentest](/integrations/Create-test-finding-plan-pentest.png "Plan pentest")
 
-1. Click on **staff your in-house pentesters** in the flash message to add assign the secondary user to the pentest.
+1. Click on **staff your in-house pentesters** in the flash message to assign the secondary user to the pentest.
 
    ![Pentest planned](/integrations/Create-test-finding-pentest-planned.png "Pentest planned")
 
-   > ℹ️️ Pentesters and collaborators can also be accessed and configured from the **Collaborators**. Select **Pentests** from the sidebar, select a pentest, open the **Collaborators** tab.
+   > ℹ️️ Pentesters and collaborators can also be accessed and configured from the **Collaborators** tab. Select **Pentests** from the sidebar, select a pentest, then open the **Collaborators** tab.
 
 1. Click on the down pointing triangle (**▼**) and select **In-House Pentester**.
 
@@ -153,7 +153,7 @@ For example, if your Gmail address is `joeman@gmail.com`, you can create a new e
 
    ![Add secondary user to pentest](/integrations/Create-test-finding-add-secondary-user-to-pentest.png "Add secondary user to pentest")
 
-1. Verify the secondary user is in the **Collaborators** list with **In-House Pentester** role.
+1. Verify the secondary user is in the **Collaborators** list with the **In-House Pentester** role.
 
    ![Secondary user invited](/integrations/Create-test-finding-secondary-user-invited.png "Secondary user invited")
 
