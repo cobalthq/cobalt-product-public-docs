@@ -6,11 +6,6 @@ description: >
   This document is intended for organizations looking to test their integration builder in a non-prod environment. It includes detailed steps for populating an in-house pentest with fake findings for testing purposes.
 ---
 
-## Purpose
-
-This document is intended for organizations looking to test their integration builder in a non-prod environment.
-It includes detailed steps for populating an in-house pentest with fake findings for testing purposes.
-
 ## Prerequisites
 
 - Cobalt staff have already created and set up a test organization for you. If not, please contact your customer
