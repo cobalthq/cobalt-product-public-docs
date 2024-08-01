@@ -29,9 +29,10 @@ The _+1 email address trick_ is a syntax technique used to create multiple email
 
 ## Set up secondary user
 
-> ℹ️️️️ This documentation uses `kittaakos@gmail.com` as the primary user's email address.
-
 1. Log in to the Cobalt application with your primary user.
+
+   > ℹ️️️️ This example uses `kittaakos@gmail.com` as the primary user's email address.
+
 1. Open the **People** page from the sidebar.
 1. Click on the **Invite Users** button.
 
