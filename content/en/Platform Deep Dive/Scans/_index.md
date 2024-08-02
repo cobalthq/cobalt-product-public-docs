@@ -55,7 +55,7 @@ See more about how to configure a target in [configuring a target]
 
 {{% image src="/deepdive/scans/11_ScheduledScansView.png" alt="Scheduled Scans View - Targets" %}}
 
-Information about scan statuses, transitions and progress tracking can be found [here].
+Information about scan statuses, transitions, and progress tracking can be found [here].
 
 ### Scan Results
 
