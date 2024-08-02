@@ -44,7 +44,7 @@ Initially, a scan will get **queued** while the scanner is waiting for resource 
 
 {{% image src="/deepdive/scans/scans/PauseScan.png" alt="pause scan button" class="borderless-image mb0" %}}
 
-A running scan can either be **paused** or **canceled**. Canceling a scan will finish all of its sub-processes and won't allow the scan to be spun up again. 
+A running scan can either be **paused** or **canceled**. Canceling a scan will finish all of its sub-processes and won't allow the scan to be restarted again.
 
 {{% image src="/deepdive/scans/scans/ResumeScan.png" alt="resume scan button" class="borderless-image mb0" %}}
 
