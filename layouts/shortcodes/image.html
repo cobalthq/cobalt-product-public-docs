@@ -11,4 +11,5 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 {{ $src := .Get "src" }}
 {{ $alt := .Get "alt" }}
-<img src="{{ $src }}" alt="{{ $alt }}" class="image-box">
+{{ $class := .Get "class" }}
+<img src="{{ $src }}" alt="{{ $alt }}" class="image-box {{ $class }}">
