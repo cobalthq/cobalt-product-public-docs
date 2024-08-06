@@ -105,6 +105,6 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
    ![Discard pentest filter](/integrations/Jira-Cloud-migration-filter-by-asset-1.png "Discard pentest filter")
 
-   ![Configure filtering by asset](/integrations/Jira-Cloud-migration-filter-by-asset-1.png "Configure filtering by asset")
+   ![Configure filtering by asset](/integrations/Jira-Cloud-migration-filter-by-asset-2.png "Configure filtering by asset")
 
-   ![Select the asset](/integrations/Jira-Cloud-migration-filter-by-asset-1.png "Select the asset")
+   ![Select the asset](/integrations/Jira-Cloud-migration-filter-by-asset-3.png "Select the asset")
