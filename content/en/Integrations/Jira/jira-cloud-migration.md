@@ -100,7 +100,7 @@ Now, assuming that this project is already set up with native Jira Cloud integra
    > 1. Click on the **✕** next to your chosen pentest to remove it as a filter.
    > 1. Choose the **+1 optional field available**.
    > 1. Opt for **Asset**.
-   > 1. Click on **Apply Changes**.
+   > 1. Click on **Apply changes**.
    > 1. Pick an **asset** from the list to narrow down the trigger events and filter for findings that are associated with any pentest of the selected asset.
 
    ![Discard pentest filter](/integrations/Jira-Cloud-migration-filter-by-asset-1.png "Discard pentest filter")
