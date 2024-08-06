@@ -50,34 +50,35 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
 1.  In the _Native Jira Cloud_ project
 1.  Create a **Task** Jira issue
+
+    > ℹ️ The **Task** can be created via auto-push if configured for the pentest or manually from the pentest finding page.
+
 1.  When a pentest finding is submitted and is in the **Pending Fix** state.
 1.  Update the pentest finding to the **Ready for Retest** state when the Jira **Task** status changes to **Acceptance Testing**.
 1.  Update the pentest finding to the **Accepted Risk** state when the Jira **Task** status changes to **Won't Do**.
-
-> ℹ️ The **Task** can be created via auto-push if configured for the pentest or manually from the pentest finding page.
 
 ### Push finding from the Cobalt Platform to Jira Cloud
 
 1. Open the **Integrations** page from the sidebar and select **Integration Builder** tile.
 
-![Open Integration Builder](/integrations/Jira-Cloud-migration-open-integration-builder.png "Open Integration Builder")
+   ![Open Integration Builder](/integrations/Jira-Cloud-migration-open-integration-builder.png "Open Integration Builder")
 
 1. Open the **Library** tab, search for the **[Cobalt > Jira Cloud] Push pentest finding to Jira** recipe by specifying _push pentest finding jira_ and pressing <kbd>Enter</kbd>. Select the recipe by clicking on the recipe tile.
 
-![Search recipe](/integrations/Jira-Cloud-migration-search-recipe.png "Search recipe")
+   ![Search recipe](/integrations/Jira-Cloud-migration-search-recipe.png "Search recipe")
 
 1. Click on the **Use Recipe** button to save a copy of recipe into your workspace.
 
-![Use recipe](/integrations/Jira-Cloud-migration-use-recipe.png "Use recipe")
+   ![Use recipe](/integrations/Jira-Cloud-migration-use-recipe.png "Use recipe")
 
 1. Select the **Cobalt** folder to save a copy of the recipe and click on **Save and copy**.
 
-![Save and copy](/integrations/Jira-Cloud-migration-save-and-copy.png "Save and copy")
+   > ℹ️ You can select any arbitrary folder to save a copy of the recipe.
 
-> ℹ️ You can select any arbitrary folder to save a copy of the recipe.
+   > ℹ️ You can create a new folder before saving a copy of any recipes. To do so, click on the **Projects** tab in the **Integration Builder** and click on the plus sign (**+**) to **Create folder** from the project explorer sidebar.
 
-> ℹ️ You can create a new folder before saving a copy of any recipes. To do so, click on the **Projects** tab in the **Integration Builder** and click on the plus sign (**+**) to **Create folder** from the project explorer sidebar.
+   ![Save and copy](/integrations/Jira-Cloud-migration-save-and-copy.png "Save and copy")
 
 1. Click on **Customize recipe** to adjust the pre-build recipe template to your Jira Cloud configuration.
 
-![Customize recipe](/integrations/Jira-Cloud-migration-customize-recipe.png "Customize recipe")
+   ![Customize recipe](/integrations/Jira-Cloud-migration-customize-recipe.png "Customize recipe")
