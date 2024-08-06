@@ -38,7 +38,7 @@ To better understand the required migration steps and the recipes' configuration
 
 - **To Do** (_default_, 'To do' category)
 - **In Progress** (_default_, 'In progress' category)
-- **Acceptance Testing** (\__custom_, 'In progress' category)
+- **Acceptance Testing** (_custom_, 'In progress' category)
 - **Done** (_default_, 'Done' category)
 - **Won't Do** (_custom_, 'Done' category)
 
