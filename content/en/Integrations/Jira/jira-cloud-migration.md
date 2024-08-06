@@ -28,4 +28,26 @@ We've added a variety of pre-built recipes to the Integration Builder's library 
 
 Different types of recipes call for different Jira Cloud workflow configurations. For instance, creating a Jira issue when a pentest vulnerability is discovered requires no additional workflow customization. However, if you wish to update your Jira issue from the Cobalt Platform, your Jira Cloud workflow needs specific [issue statuses](https://support.atlassian.com/jira-cloud-administration/docs/what-are-issue-statuses-priorities-and-resolutions/#Issue-statuses). Additionally, if you want to update your Jira issue based on changes in the Cobalt Platform findings, you need to set up [transitions in your Jira workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows). This documentation will provide an example and cover the required Jira workflow changes later on.
 
-> ℹ️ See more on how the recipes work and the basic concept [here](/integrations/integrationbuilder/#how-it-works).
+## Migration
+
+### Example Jira Project
+
+To better understand the required migration steps and the recipes' configuration, This tutorial provides an introduction to a sample Jira Cloud project using the default [Kanban](https://www.atlassian.com/software/jira/templates/kanban) template. Let's assume that the workflow for the **Task** issue type of this sample project includes the following statuses:
+
+![Sample Jira Cloud project workflow - Initial state](/integrations/Jira-Cloud-migration-sample-jira-cloud-project-workflow-initial-state.png "Sample Jira Cloud project workflow - Initial state")
+
+- **To Do** (_default_, 'To do' category)
+- **In Progress** (_default_, 'In progress' category)
+- **Acceptance Testing** (\__custom_, 'In progress' category)
+- **Done** (_default_, 'Done' category)
+- **Won't Do** (_custom_, 'Done' category)
+
+Now, assuming that this project is already set up with native Jira Cloud integration in the Cobalt application. The native Jira Cloud integration does the following:
+
+![Native Jira Cloud configuration](/integrations/Jira-Cloud-migration-native-jira-cloud-configuration.png "Native Jira Cloud configuration")
+
+1.  In the _Native Jira Cloud_ project
+1.  Create a **Task** Jira issue
+1.  When a pentest finding is submitted and is in the **Pending Fix** state.
+1.  Update the pentest finding state to **Ready for Retest** when the Jira **Task** status changes to **Acceptance Testing**.
+1.  Update the pentest finding state to **Accepted Risk** when the Jira **Task** status changes to **Won't Do**.
