@@ -59,6 +59,8 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
 ### Push finding from the Cobalt Platform to Jira Cloud
 
+#### Use the recipe
+
 1. Open the **Integrations** page from the sidebar and select **Integration Builder** tile.
 
    ![Open Integration Builder](/integrations/Jira-Cloud-migration-open-integration-builder.png "Open Integration Builder")
@@ -81,4 +83,28 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
 1. Click on **Customize recipe** to adjust the pre-build recipe template to your Jira Cloud configuration.
 
+   > ℹ️ The recipe is not ready for use yet. It needs the Jira Cloud project configuration, including the project name and the task Jira issue type to create.
+
    ![Customize recipe](/integrations/Jira-Cloud-migration-customize-recipe.png "Customize recipe")
+
+#### Customize the recipe
+
+1. Select the recipe **Trigger** in the editor and select a pentest from the list.
+
+   > ℹ️ By default, this recipe will be activated whenever there is a change in the status of any pentest finding within the Cobalt Platform. Once a specific pentest is chosen from the list, the recipe will only be triggered if the status change involves a finding related to the selected pentest. If it doesn't, the recipe will not be activated.
+
+   ![Configure finding state change trigger](/integrations/Jira-Cloud-migration-configure-finding-state-change-trigger.png "Configure finding state change trigger")
+
+   > ℹ️ If the pentest does not exist in the Cobalt Platform at the time of the migration, you have the option to filter the trigger events by an asset.
+   >
+   > 1. Click on the **✕** next to your chosen pentest to remove it as a filter.
+   > 1. Choose the **+1 optional field available**.
+   > 1. Opt for **Asset**.
+   > 1. Click on **Apply Changes**.
+   > 1. Pick an **asset** from the list to narrow down the trigger events and filter for findings that are associated with any pentest of the selected asset.
+
+   ![Discard pentest filter](/integrations/Jira-Cloud-migration-filter-by-asset-1.png "Discard pentest filter")
+
+   ![Configure filtering by asset](/integrations/Jira-Cloud-migration-filter-by-asset-1.png "Configure filtering by asset")
+
+   ![Select the asset](/integrations/Jira-Cloud-migration-filter-by-asset-1.png "Select the asset")
