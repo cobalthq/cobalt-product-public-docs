@@ -37,8 +37,7 @@ Cobalt assesses your selected cloud environment, as well as all internal and ext
 follows an industry standard methodology primarily based on:
 
 - Best practices established by your cloud provider
-- OWASP standards for [Cloud Providers](https://owasp.org/www-pdf-archive/Cloud-Top10-Security-Risks.pdf) (PDF)
-  and [Application Security Verification Standard (ASVS)](/getting-started/glossary/#application-security-verification-standard-asvs).
+- [Application Security Verification Standard (ASVS)](/getting-started/glossary/#application-security-verification-standard-asvs).
 
 The Cobalt team of pentesters do not need access to the underlying web application
 source code, unless you specify it as a requirement.
