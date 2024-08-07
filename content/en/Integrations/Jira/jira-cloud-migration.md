@@ -24,7 +24,7 @@ We've added a variety of pre-built recipes to the Integration Builder's library 
 
 1. [Push finding from the Cobalt Platform to Jira Cloud](#push-finding-from-the-cobalt-platform-to-jira-cloud)
 1. [Updating the Cobalt Platform from Jira Cloud](#updating-the-cobalt-platform-from-jira-cloud)
-1. Updating Jira Cloud from the Cobalt Platform
+1. [Updating Jira Cloud from the Cobalt Platform](#updating-jira-cloud-from-the-cobalt-platform)
 
 Different types of recipes call for different Jira Cloud workflow configurations. For instance, creating a Jira issue when a pentest vulnerability is discovered requires no additional workflow customization. However, if you wish to update your Jira issue from the Cobalt Platform, your Jira Cloud workflow needs specific [issue statuses](https://support.atlassian.com/jira-cloud-administration/docs/what-are-issue-statuses-priorities-and-resolutions/#Issue-statuses). Additionally, if you want to update your Jira issue based on changes in the Cobalt Platform findings, you need to set up [transitions in your Jira workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows). This documentation will provide an example and cover the required Jira workflow changes later on.
 
@@ -35,6 +35,8 @@ Different types of recipes call for different Jira Cloud workflow configurations
 ### Introduction
 
 To better understand the required migration steps and the recipes' configuration, this tutorial provides an introduction to a sample Jira Cloud project using the default [Kanban](https://www.atlassian.com/software/jira/templates/kanban) template. Let's assume that the workflow for the **Task** issue type of this sample project includes the following statuses:
+
+#### Initial Jira workflow
 
 ![Sample Jira Cloud project workflow - Initial state](/integrations/Jira-Cloud-migration-sample-jira-cloud-project-workflow-initial-state.png "Sample Jira Cloud project workflow - Initial state")
 
@@ -146,7 +148,7 @@ There are two pre-built recipe templates available in the **Integration Builder*
 
    1. Select the **IF condition** in the editor.
    1. Specify the expected Jira Cloud project **key** value. For example, `NJC`.
-   1. Specify the expected status of the Jira Cloud project issue type. For example, `Acceptance Testing`, based on the [example Jira workflow](#jira-workflow-statuses).
+   1. Specify the **name** of the expected Jira issue status. For example, `Acceptance Testing`, based on the [example Jira workflow](#jira-workflow-statuses).
 
    ![Issue filter condition](/integrations/Jira-Cloud-migration-issue-filter-condition.png "Issue filter condition")
 
@@ -154,7 +156,7 @@ There are two pre-built recipe templates available in the **Integration Builder*
    >
    > You can check the workflow statuses in your Jira Cloud project:
    >
-   > - Open the board of your Jira project.
+   > - Open the board of your Jira Cloud project.
    > - Click on the kebab menu (**⋯**).
    > - Select **Manage workflow**.
    > - Click on the expected status see its **name**.
@@ -165,6 +167,32 @@ There are two pre-built recipe templates available in the **Integration Builder*
    1. **Save** the editor, click on **Exit** to close the editor, and select **Start recipe**
 
 > ℹ️ Follow the same customization steps for the **[Jira Cloud > Cobalt] Move pentest finding to 'Accepted Risk'** recipe. Make sure to use the correct Jira issue status, such as `Won't Do`, as indicated in the [example Jira workflow](#jira-workflow-statuses).
+
+### Updating Jira Cloud from the Cobalt Platform
+
+> ⚠️ The **Integration Builder**-based Jira Cloud integration is recommended over the native Jira Cloud integration. It offers the ability to automatically update the status of your Jira Cloud issues when the corresponding pentest finding changes. However, configuring Jira workflow transitions is necessary for this functionality. Without a transition, the Jira issue status cannot be programmatically altered. Reference the official Jira Cloud documentation on [adding a new transition to a workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows/#Adding-a-transition-to-a-workflow) for more details.
+
+Modify the example Jira workflow by adding the following workflow transitions:
+
+| Transition    | Description                                                         |
+| ------------- | ------------------------------------------------------------------- |
+| `start_work`  | transition an issue from **To Do** to **In Progress**.              |
+| `fix_issue`   | transition an issue from **In Progress** to **Acceptance Testing**. |
+| `accept_fix`  | transition an issue from **Acceptance Testing** to **Done**.        |
+| `reject_fix`  | transition an issue from **Acceptance Testing** to **In Progress**. |
+| `accept_risk` | transition an issue from **In Progress** to **Won't Do**.           |
+
+![Sample Jira Cloud project workflow - Modified state](/integrations/Jira-Cloud-migration-sample-jira-cloud-project-workflow-modified-state.png "Sample Jira Cloud project workflow - Modified state")
+
+> ⚠️ By default, all Jira statuses allow issues in any other status to move into them. The **Any** Jira status label represents this kind of "global" transition. Although it is not mandatory, it is highly recommended to disallow issues in any status to move into them. This is to avoid accidentally moving a Jira issue, for example, from the **In Progress** into the **Done** status. This is to prevent invalid Jira transitions. Such an invalid Jira workflow transition would attempt to automatically update the pentest finding state from the **Pending Fix** state to the **Fixed** state which is invalid and will perpetually fail.
+>
+> - Select **Manage workflow** from your Jira Cloud board.
+> - Select the Jira status, for example **Won't Do**.
+> - Uncheck the checkmark next to **Allow issues in any status to move to this one**.
+> - Click on **Update workflow** to confirm the changes.
+> - Apply the workflow updates on the appropriate Jira issue type.
+
+![Disallow Any status](/integrations/Jira-Cloud-migration-disallow-any-status.png "Disallow Any status")
 
 ## Frequently Asked Questions
 
