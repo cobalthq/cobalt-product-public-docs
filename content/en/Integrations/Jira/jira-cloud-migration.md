@@ -217,7 +217,7 @@ There are two pre-built recipe templates available in the **Integration Builder*
 
    1. **Save** the editor, click on **Exit** to close the editor, and select **Start recipe**.
 
-> ℹ️ Follow the same customization steps for the **[Cobalt > Jira Cloud] Move Jira issue to 'Done' when pentest finding fixed** recipe. Make sure to use the correct Jira workflow transition name, such as `accept_fix` to move the issue status from **Acceptance Testing** to **Done**, as indicated in the [example Jira workflow](#jira-workflow-statuses).
+> ℹ️ Follow the same customization steps for the **[Cobalt > Jira Cloud] Move Jira issue to 'Done' when pentest finding fixed** recipe. Make sure to use the correct Jira workflow transition name, such as `accept_fix` to move the issue status from **Acceptance Testing** to **Done**, as indicated in the [example Jira workflow](#manage-jira-workflow-transitions).
 
 ## Frequently Asked Questions
 
