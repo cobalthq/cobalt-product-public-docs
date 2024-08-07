@@ -203,6 +203,12 @@ Yes.
 
 {{% /expand %}}
 <br>
+{{%expand "What is an external ticket reference?" %}}
+<br>
+The external ticket reference is a Cobalt Platform entity that represents the association between a finding and a ticket created in an external ticketing system.
+
+{{% /expand %}}
+<br>
 {{%expand "What is the difference between the Jira issue key and ID?" %}}
 <br>
 
@@ -214,7 +220,6 @@ Each issue also has an issue **ID**, which is a numeric identifier assigned sequ
 
 ![Change External ID](/integrations/Jira-Cloud-migration-change-external-id.gif "Change External ID")
 
-<br>
 {{% /expand %}}
 
 ![title](/integrations/Jira-Cloud-migration-title.png "title")
