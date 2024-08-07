@@ -8,9 +8,7 @@ description: >
 
 {{% pageinfo %}}
 
-This guide is designed to assist organizations in transitioning from the native **Jira Cloud** integration to the new recipe-based integration created by the [**Integration Builder**](https://docs.cobalt.io/integrations/integrationbuilder/).
-
-TODO: fix link! must be relative!
+This guide is designed to assist organizations in transitioning from the native **Jira Cloud** integration to the new recipe-based integration created by the [**Integration Builder**](/integrations/integrationbuilder/).
 
 > ⚠️ Please note that this migration guide is not applicable if your organization uses a native **Jira Server** or a **Jira Data Center** integration.
 
@@ -127,10 +125,10 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
 There are two pre-built recipe templates available in the **Integration Builder** library that can be used to update the status of the pentest finding in the Cobalt Platform when the issue status changes in Jira Cloud.
 
-| Name                                                                 | Description                                                                                                                          | Notes                                                                                                      |
-| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
-| **[Jira Cloud > Cobalt] Move pentest finding to 'Ready for Retest'** | When the Jira Cloud issue status changes to a customer defined status, update the Cobalt pentest finding state to 'Accepted Risk'    | Search for _move pentest finding ready retest_ in the **Integration Builder** library to find the recipe.  |
-| **[Jira Cloud > Cobalt] Move pentest finding to 'Accepted Risk'**    | When the Jira Cloud issue status changes to a customer defined status, update the Cobalt pentest finding state to 'Ready for Retest' | Search for _move pentest finding accepted risk_ in the **Integration Builder** library to find the recipe. |
+| Name                                                                 | Description                                                                                                                          |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **[Jira Cloud > Cobalt] Move pentest finding to 'Ready for Retest'** | When the Jira Cloud issue status changes to a customer defined status, update the Cobalt pentest finding state to 'Accepted Risk'    |
+| **[Jira Cloud > Cobalt] Move pentest finding to 'Accepted Risk'**    | When the Jira Cloud issue status changes to a customer defined status, update the Cobalt pentest finding state to 'Ready for Retest' |
 
 1. [Use the recipe](#use-the-recipe) by saving a copy into your workspace and click on **Customize recipe** to configure it according to your Jira Cloud project issue type.
 1. Configure the recipe trigger and specify a datetime before the pentest is launched.
@@ -164,11 +162,13 @@ There are two pre-built recipe templates available in the **Integration Builder*
    ![Manage workflow](/integrations/Jira-Cloud-migration-manage-workflow.png "Manage workflow")
    ![Manage statuses](/integrations/Jira-Cloud-migration-manage-statuses.png "Manage statuses")
 
-   1. **Save** the editor, click on **Exit** to close the editor, and select **Start recipe**
+   1. **Save** the editor, click on **Exit** to close the editor, and select **Start recipe**.
 
 > ℹ️ Follow the same customization steps for the **[Jira Cloud > Cobalt] Move pentest finding to 'Accepted Risk'** recipe. Make sure to use the correct Jira issue status, such as `Won't Do`, as indicated in the [example Jira workflow](#jira-workflow-statuses).
 
 ### Updating Jira Cloud from the Cobalt Platform
+
+#### Manage Jira workflow transitions
 
 > ⚠️ The **Integration Builder**-based Jira Cloud integration is recommended over the native Jira Cloud integration. It offers the ability to automatically update the status of your Jira Cloud issues when the corresponding pentest finding changes. However, configuring Jira workflow transitions is necessary for this functionality. Without a transition, the Jira issue status cannot be programmatically altered. Reference the official Jira Cloud documentation on [adding a new transition to a workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows/#Adding-a-transition-to-a-workflow) for more details.
 
@@ -187,12 +187,34 @@ Modify the example Jira workflow by adding the following workflow transitions:
 > ⚠️ By default, all Jira statuses allow issues in any other status to move into them. The **Any** Jira status label represents this kind of "global" transition. Although it is not mandatory, it is highly recommended to disallow issues in any status to move into them. This is to avoid accidentally moving a Jira issue, for example, from the **In Progress** into the **Done** status. This is to prevent invalid Jira transitions. Such an invalid Jira workflow transition would attempt to automatically update the pentest finding state from the **Pending Fix** state to the **Fixed** state which is invalid and will perpetually fail.
 >
 > - Select **Manage workflow** from your Jira Cloud board.
-> - Select the Jira status, for example **Won't Do**.
+> - Select the Jira status, for example, **Won't Do**.
 > - Uncheck the checkmark next to **Allow issues in any status to move to this one**.
 > - Click on **Update workflow** to confirm the changes.
 > - Apply the workflow updates on the appropriate Jira issue type.
 
 ![Disallow Any status](/integrations/Jira-Cloud-migration-disallow-any-status.png "Disallow Any status")
+
+There are two pre-built recipe templates available in the **Integration Builder** library that can be used to update the status of a issue in Jira Cloud when the state of the pentest finding changes in the Cobalt Platform.
+
+| Name                                                                                                 | Description                                                                                                                                                                           |
+| ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Cobalt > Jira Cloud] Move Jira issue to 'In Progress' when fix for pentest finding was rejected** | When the Cobalt pentest finding state changes to 'Pending Fix' after the finding has been retested AND the Jira Cloud issue IS present, update the Jira issue status to 'In Progress' |
+| **[Cobalt > Jira Cloud] Move Jira issue to 'Done' when pentest finding fixed**                       | When the Cobalt pentest finding state changes to 'Fixed', update the Jira Cloud issue status to 'Done'                                                                                |
+
+1. [Use the recipe](#use-the-recipe) by saving a copy into your workspace and click on **Customize recipe** to configure it according to your Jira Cloud project issue type.
+1. Customize the recipe trigger and filter the events by a pentest or by an asset. Reference the [recipe customization](#customize-the-recipe) section on how to configure the trigger.
+1. Configure the recipe to update the Jira issue status to **In Progress**.
+
+   1. Select the **Update status of issue in Jira** action.
+   1. Specify the Jira workflow **Transition name** that will transition the issue from the **Acceptance Testing** status to the **In Progress** status. For example, `reject_fix`, based on the [example Jira workflow transitions](#manage-jira-workflow-transitions).
+
+   ![Workflow transition name](/integrations/Jira-Cloud-migration-workflow-transition-name.png "Workflow transition name")
+
+   > ⚠️ Remember to use the exact case-sensitive name of the expected Jira workflow transition.
+
+   1. **Save** the editor, click on **Exit** to close the editor, and select **Start recipe**.
+
+> ℹ️ Follow the same customization steps for the **[Cobalt > Jira Cloud] Move Jira issue to 'Done' when pentest finding fixed** recipe. Make sure to use the correct Jira workflow transition name, such as `accept_fix` to move the issue status from **Acceptance Testing** to **Done**, as indicated in the [example Jira workflow](#jira-workflow-statuses).
 
 ## Frequently Asked Questions
 
