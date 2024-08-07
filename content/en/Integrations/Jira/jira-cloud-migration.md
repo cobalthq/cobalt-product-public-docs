@@ -322,5 +322,3 @@ Each issue also has an issue **ID**, which is a numeric identifier assigned sequ
 ![Change External ID](/integrations/Jira-Cloud-migration-change-external-id.gif "Change External ID")
 
 {{% /expand %}}
-
-![title](/integrations/Jira-Cloud-migration-title.png "title")
