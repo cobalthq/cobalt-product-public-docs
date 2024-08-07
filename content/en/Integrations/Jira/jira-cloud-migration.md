@@ -35,7 +35,7 @@ Additionally, if you want to update your Jira Cloud issue status based on the pe
 
 ### Introduction
 
-To better understand the required migration steps and the recipes' configuration, this tutorial provides an introduction to a sample Jira Cloud project using the default [Kanban](https://www.atlassian.com/software/jira/templates/kanban) template. Let's assume that the workflow for the **Task** issue type of this sample project includes the following statuses:
+To better understand the required migration steps and the recipes' customization, this tutorial provides an introduction to a sample Jira Cloud project using the default [Kanban](https://www.atlassian.com/software/jira/templates/kanban) template. Let's assume that the workflow for the **Task** issue type of this sample project includes the following statuses:
 
 #### Initial Jira workflow
 
