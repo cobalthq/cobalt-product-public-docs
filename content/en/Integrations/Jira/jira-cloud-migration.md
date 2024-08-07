@@ -95,8 +95,6 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
    ![Configure finding state change trigger](/integrations/Jira-Cloud-migration-configure-finding-state-change-trigger.png "Configure finding state change trigger")
 
-   ![Select datapill](/integrations/Jira-Cloud-migration-select-datapill.gif "Select datapill")
-
 ## Frequently Asked Questions
 
 Click <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> to view answers.
@@ -118,15 +116,52 @@ If the pentest does not exist in the Cobalt Platform at the time of the migratio
 
    ![Select the asset](/integrations/Jira-Cloud-migration-filter-by-asset-3.png "Select the asset")
 
-> ℹ️ Alternatively, you can request your customer success manager to create a test organization for you. You can then use an **In-House** pentest with dummy pentest findings data to test your integration in a non-production environment. **In-House pentests do not consume credits.** You can run as many pentests as you want. For more details on how to generate test findings for an **In-House** pentest, click [here](../integrations/development/create-test-finding).
+   > ℹ️ Alternatively, you can request your customer success manager to create a test organization for you. You can then use an **In-House** pentest with dummy pentest findings data to test your integration in a non-production environment. **In-House pentests do not consume credits.** You can run as many pentests as you want. For more details on how to generate test findings for an **In-House** pentest, click [here](../integrations/development/create-test-finding).
 
 TODO: fix link!
 
 {{% /expand %}}
 <br>
-{{%expand "This is another FAQ" %}}
+{{%expand "Does the **Integration Builder**-based Jira Cloud integration support custom required fields?" %}}
 <br>
 
-This is another answer.
+Yes. Once you've chosen the Jira Cloud project and the issue type for the **Create issue in Jira** action, all custom required fields of the Jira issue will appear with an asterisk (**\***). You can then assign any value to them. For instance, you can set the pentest finding ID as the value of **my_required_field** by drag and dropping the **datapill** into the field.
+
+![Select datapill](/integrations/Jira-Cloud-migration-select-datapill.gif "Select datapill")
 
 {{% /expand %}}
+<br>
+{{%expand "Does the **Integration Builder**-based Jira Cloud integration support custom labels?" %}}
+<br>
+
+Yes.
+
+1. Select the **Create issue in Jira** action.
+1. When the Jira Cloud project and the issue type is selected, scroll down to the bottom of the inputs part and click on **+ 11 optional fields available**.
+
+   ![Add optional field](/integrations/Jira-Cloud-migration-use-labels-1.png "Add optional field")
+
+   > ℹ️ The number of the available optional fields may very based on your Jira Cloud project.
+
+1. Choose the **Labels**.
+1. Confirm the dialog by clicking on **Apply changes**.
+
+   ![Select label](/integrations/Jira-Cloud-migration-title.png "Select label")
+
+1. Specify the **labels** separated by a comma.
+
+   ![Specify labels](/integrations/Jira-Cloud-migration-title.png "Specify labels")
+
+   > ⚠️ The **labels** are separated by a **comma**. Do not use spaces or any other whitespace characters to separate the labels.
+   >
+   > ✅ Correct
+   >
+   > - `bug,Cobalt,security`
+   >
+   > ❌ Incorrect
+   >
+   > - `bug Cobalt security`
+   > - `bug, Cobalt, security`
+   > - `bug,Cobalt,security,`
+
+![title](/integrations/Jira-Cloud-migration-title.png "title")
