@@ -107,7 +107,7 @@ This action creates the external ticket reference in the Cobalt Platform. The fo
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Title**            | This property defines the appearance of the external ticket reference UI component in the Cobalt application. It is recommended to keep the default value and use the **Key** **datapill** of the Jira issue.                                                                                                   |
 | **Ticketing System** | Must be set to **Jira**. Please do not modify the default value.                                                                                                                                                                                                                                                |
-| **External URL**     | The URL should point to your Jira issue. It is recommended to use the `https://YOUR_DOMAIN.atlassian.net/browse/` text along with the **Key** **datapill** of the Jira issue.                                                                                                                                   |
+| **External URL**     | The URL should point to your Jira issue. It is recommended to use the `https://YOUR_DOMAIN.atlassian.net/browse/` text followed by the **Key** **datapill** of the Jira issue.                                                                                                                                  |
 | **External ID**      | If you do not plan to move the Jira issues between projects, please leave the value as is and use the **Key** **datapill** of the Jira issue. However, if you might plan to move the Jira issues between projects in the future, you must use the **ID** **datapill** of the Jira issue instead of the **Key**. |
 | **Finding ID**       | The ID of the pentest finding. It is already configured, so please do not make any changes to it.                                                                                                                                                                                                               |
 
@@ -203,7 +203,8 @@ Yes.
 
 {{% /expand %}}
 <br>
-{{%expand "What is the difference between the Jira issue Key and ID?" %}}
+{{%expand "What is the difference between the Jira issue key and ID?" %}}
+<br>
 
 Issues are identified by a **key** such as `ABC-123`, which specifies the project it belongs to with the project's **key** (`ABC`) as the first part of the issue key, followed by a sequentially assigned number starting from 1 within that project. If an issue is moved to another project, its issue **key** will change accordingly.
 
