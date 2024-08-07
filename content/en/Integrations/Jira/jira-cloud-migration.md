@@ -24,7 +24,10 @@ We've added a variety of pre-built recipes to the Integration Builder's library 
 1. [Update the Cobalt Platform from Jira Cloud](#update-the-cobalt-platform-from-jira-cloud)
 1. [Update Jira Cloud from the Cobalt Platform](#update-jira-cloud-from-the-cobalt-platform)
 
-Different types of recipes call for different Jira Cloud workflow configurations. For instance, creating a Jira issue when a pentest vulnerability is discovered requires no additional workflow customization. However, if you wish to update your Jira issue from the Cobalt Platform, your Jira Cloud workflow needs specific [issue statuses](https://support.atlassian.com/jira-cloud-administration/docs/what-are-issue-statuses-priorities-and-resolutions/#Issue-statuses). Additionally, if you want to update your Jira issue based on changes in the Cobalt Platform findings, you need to set up [transitions in your Jira workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows). This documentation will provide an example and cover the required Jira workflow changes later on.
+Different types of recipes call for different Jira Cloud workflow configurations.
+For instance, creating a Jira issue when a pentest vulnerability is discovered requires no additional workflow customization.
+However, if you wish to update the pentest finding state in the Cobalt Platform when the Jira Cloud issue status changes, your workflow needs specific [issue statuses](https://support.atlassian.com/jira-cloud-administration/docs/what-are-issue-statuses-priorities-and-resolutions/#Issue-statuses).
+Additionally, if you want to update your Jira Cloud issue status based on the pentest finding state changes, you need to set up [transitions in your Jira workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows). This documentation will provide an example and cover the required Jira workflow changes later on.
 
 ## Migration
 
