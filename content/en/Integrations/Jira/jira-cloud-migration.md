@@ -111,7 +111,13 @@ Now, assuming that this project is already set up with native Jira Cloud integra
    | **External ID**      | If you do not plan to move the Jira issues between projects, please leave the value as is and use the **Key** **datapill** of the Jira issue. However, if you might plan to move the Jira issues between projects in the future, you must use the **ID** **datapill** of the Jira issue instead of the **Key**. |
    | **Finding ID**       | The ID of the pentest finding. It is already configured, so please do not make any changes to it.                                                                                                                                                                                                               |
 
-![Configure External URL](/integrations/Jira-Cloud-migration-configure-external-url.gif "Configure External URL")
+   ![Configure External URL](/integrations/Jira-Cloud-migration-configure-external-url.gif "Configure External URL")
+
+1. **Save** the recipe changes, click on **Exit** to quit the recipe editor, and select **Start recipe** to start the recipe.
+
+   ![Save and exit editor](/integrations/Jira-Cloud-migration-save-exit-start-recipe-1.png "Save and exit editor")
+
+   ![Start recipe](/integrations/Jira-Cloud-migration-save-exit-start-recipe-2.png "Start recipe")
 
 ## Frequently Asked Questions
 
