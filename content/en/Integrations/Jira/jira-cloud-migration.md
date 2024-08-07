@@ -150,7 +150,7 @@ There are two pre-built recipe templates available in the **Integration Builder*
 
    ![Issue filter condition](/integrations/Jira-Cloud-migration-issue-filter-condition.png "Issue filter condition")
 
-   > ⚠️ Remember to use the exact case sensitive label of the expected Jira status.
+   > ⚠️ Remember to use the exact case-sensitive label of the expected Jira status.
    >
    > You can check the workflow statuses in your Jira Cloud project:
    >
@@ -164,7 +164,7 @@ There are two pre-built recipe templates available in the **Integration Builder*
 
    1. **Save** the editor, click on **Exit** to close the editor, and select **Start recipe**
 
-   > ℹ️ Apply the same customization steps for the **[Jira Cloud > Cobalt] Move pentest finding to 'Accepted Risk'** recipe. Remember to use the appropriate Jira issue status. For example, `Won't Do`, based on the [example Jira workflow](#jira-workflow-statuses).
+> ℹ️ Follow the same customization steps for the **[Jira Cloud > Cobalt] Move pentest finding to 'Accepted Risk'** recipe. Make sure to use the correct Jira issue status, such as `Won't Do`, as indicated in the [example Jira workflow](#jira-workflow-statuses).
 
 ## Frequently Asked Questions
 
