@@ -237,9 +237,7 @@ If the pentest does not exist in the Cobalt Platform at the time of the migratio
 
    ![Select the asset](/integrations/Jira-Cloud-migration-filter-by-asset-3.png "Select the asset")
 
-   > ℹ️ Alternatively, you can request your customer success manager to create a test organization for you. You can then use an **In-House** pentest with dummy pentest findings data to test your integration in a non-production environment. **In-House pentests do not consume credits.** You can run as many pentests as you want. For more details on how to generate test findings for an **In-House** pentest, click [here](../integrations/development/create-test-finding).
-
-TODO: fix link!
+   > ℹ️ Alternatively, you can request your customer success manager to create a test organization for you. You can then use an **In-House** pentest with dummy pentest findings data to test your integration in a non-production environment. **In-House pentests do not consume credits.** You can run as many pentests as you want. For more details on how to generate test findings for an **In-House** pentest, click [here](/integrations/development/create-test-finding).
 
 {{% /expand %}}
 <br>
