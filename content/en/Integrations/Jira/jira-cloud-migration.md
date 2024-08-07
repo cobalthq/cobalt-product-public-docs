@@ -23,7 +23,7 @@ The document offers detailed, step-by-step instructions on utilizing **Integrati
 We've added a variety of pre-built recipes to the Integration Builder's library to facilitate seamless bidirectional synchronization between your Jira Cloud and the Cobalt Platform. Depending on your workflow, you can choose to configure and use a subset of these recipes. The recipes are categorized into three groups:
 
 1. [Push finding from the Cobalt Platform to Jira Cloud](#push-finding-from-the-cobalt-platform-to-jira-cloud)
-1. Updating the Cobalt Platform from Jira Cloud
+1. [Updating the Cobalt Platform from Jira Cloud](#updating-the-cobalt-platform-from-jira-cloud)
 1. Updating Jira Cloud from the Cobalt Platform
 
 Different types of recipes call for different Jira Cloud workflow configurations. For instance, creating a Jira issue when a pentest vulnerability is discovered requires no additional workflow customization. However, if you wish to update your Jira issue from the Cobalt Platform, your Jira Cloud workflow needs specific [issue statuses](https://support.atlassian.com/jira-cloud-administration/docs/what-are-issue-statuses-priorities-and-resolutions/#Issue-statuses). Additionally, if you want to update your Jira issue based on changes in the Cobalt Platform findings, you need to set up [transitions in your Jira workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows). This documentation will provide an example and cover the required Jira workflow changes later on.
@@ -37,6 +37,8 @@ Different types of recipes call for different Jira Cloud workflow configurations
 To better understand the required migration steps and the recipes' configuration, this tutorial provides an introduction to a sample Jira Cloud project using the default [Kanban](https://www.atlassian.com/software/jira/templates/kanban) template. Let's assume that the workflow for the **Task** issue type of this sample project includes the following statuses:
 
 ![Sample Jira Cloud project workflow - Initial state](/integrations/Jira-Cloud-migration-sample-jira-cloud-project-workflow-initial-state.png "Sample Jira Cloud project workflow - Initial state")
+
+#### Jira workflow statuses
 
 - **To Do** (_default_, 'To do' category)
 - **In Progress** (_default_, 'In progress' category)
@@ -111,13 +113,58 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 | **External ID**      | If you do not plan to move the Jira issues between projects, please leave the value as is and use the **Key** **datapill** of the Jira issue. However, if you might plan to move the Jira issues between projects in the future, you must use the **ID** **datapill** of the Jira issue instead of the **Key**. |
 | **Finding ID**       | The ID of the pentest finding. It is already configured, so please do not make any changes to it.                                                                                                                                                                                                               |
 
-   ![Configure External URL](/integrations/Jira-Cloud-migration-configure-external-url.gif "Configure External URL")
+![Configure External URL](/integrations/Jira-Cloud-migration-configure-external-url.gif "Configure External URL")
 
 1. **Save** the recipe changes, click on **Exit** to quit the recipe editor, and select **Start recipe** to start the recipe.
 
    ![Save and exit editor](/integrations/Jira-Cloud-migration-save-exit-start-recipe-1.png "Save and exit editor")
 
    ![Start recipe](/integrations/Jira-Cloud-migration-save-exit-start-recipe-2.png "Start recipe")
+
+### Updating the Cobalt Platform from Jira Cloud
+
+There are two pre-built recipe templates available in the **Integration Builder** library that can be used to update the status of the pentest finding in the Cobalt Platform when the issue status changes in Jira Cloud.
+
+| Name                                                                 | Description                                                                                                                          | Notes                                                                                                      |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------- |
+| **[Jira Cloud > Cobalt] Move pentest finding to 'Ready for Retest'** | When the Jira Cloud issue status changes to a customer defined status, update the Cobalt pentest finding state to 'Accepted Risk'    | Search for _move pentest finding ready retest_ in the **Integration Builder** library to find the recipe.  |
+| **[Jira Cloud > Cobalt] Move pentest finding to 'Accepted Risk'**    | When the Jira Cloud issue status changes to a customer defined status, update the Cobalt pentest finding state to 'Ready for Retest' | Search for _move pentest finding accepted risk_ in the **Integration Builder** library to find the recipe. |
+
+1. [Use the recipe](#use-the-recipe) by saving a copy into your workspace and click on **Customize recipe** to configure it according to your Jira Cloud project issue type.
+1. Configure the recipe trigger and specify a datetime before the pentest is launched.
+
+   1. Select **New/updated issue in Jira** recipe **trigger** in the editor.
+   1. Specify a datetime before your pentest is in the **live** state using the **From** setting.
+      > ℹ️ The **From** setting allows recipes to retrieve past trigger events from a specified date and time. Instead of only picking up new trigger events (events created since the recipe was started), this setting enables the selection of events that have already occurred. When you start a recipe for the first time, it retrieves new or updated issues from the specified date and time. Once a recipe has been run or tested, this value cannot be changed.
+      >
+      > In the example below, the trigger for new or updated Jira issues has a **From** date of 7 Aug 2024, midnight PST.
+   1. **Refresh** the editor to resolve the validation errors in the recipe.
+
+   ![Configure from setting](/integrations/Jira-Cloud-migration-configure-from-setting.png "Configure from setting")
+
+1. Configure the recipe filter to only include issues from the relevant Jira Cloud project with a specified Jira issue status.
+
+   1. Select the **IF condition** in the editor.
+   1. Specify the expected Jira Cloud project **key** value. For example, `NJC`.
+   1. Specify the expected status of the Jira Cloud project issue type. For example, `Acceptance Testing`, based on the [example Jira workflow](#jira-workflow-statuses).
+
+   ![Issue filter condition](/integrations/Jira-Cloud-migration-issue-filter-condition.png "Issue filter condition")
+
+   > ⚠️ Remember to use the exact case sensitive label of the expected Jira status.
+   >
+   > You can check the workflow statuses in your Jira Cloud project:
+   >
+   > - Open the board of your Jira project.
+   > - Click on the kebab menu (**⋯**).
+   > - Select **Manage workflow**.
+   > - Click on the expected status see its **name**.
+
+   ![Manage workflow](/integrations/Jira-Cloud-migration-manage-workflow.png "Manage workflow")
+   ![Manage statuses](/integrations/Jira-Cloud-migration-manage-statuses.png "Manage statuses")
+
+   1. **Save** the editor, click on **Exit** to close the editor, and select **Start recipe**
+
+   > ℹ️ Apply the same customization steps for the **[Jira Cloud > Cobalt] Move pentest finding to 'Accepted Risk'** recipe. Remember to use the appropriate Jira issue status. For example, `Won't Do`, based on the [example Jira workflow](#jira-workflow-statuses).
 
 ## Frequently Asked Questions
 
