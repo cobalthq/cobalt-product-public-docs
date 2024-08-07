@@ -95,6 +95,10 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
    ![Configure finding state change trigger](/integrations/Jira-Cloud-migration-configure-finding-state-change-trigger.png "Configure finding state change trigger")
 
+1. Select the **Create issue in Jira** action and configure your Jira Cloud project then the **project issue type** from the dropdown.
+
+   ![Select issue type](/integrations/Jira-Cloud-migration-select-issue-type.png "Select issue type")
+
 ## Frequently Asked Questions
 
 Click <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> to view answers.
@@ -122,10 +126,29 @@ TODO: fix link!
 
 {{% /expand %}}
 <br>
+{{%expand "Can I customize the Jira issue when pushing the pentest finding to Jira Cloud?" %}}
+<br>
+
+Yes.
+
+The recipe automatically uses the **Title** and **Tag** properties of the pentest finding to generate the **Summary** of the Jira issue. For instance, `My Test Finding-#PT25715_3`. You can use any text or **datapill** to create a **Summary** tailored to specific needs.
+
+While the **Description** is not mandatory for creating a Jira issue, the recipe includes a default template. However, similar to the **Summary**, you can personalize the issue using any text or **datapill**.
+
+> ℹ️ When hovering over a datapill, you can view its origin. For example, hovering over the **Title** **datapill** reveals that the value originates from the output of the second action: **Get pentest finding in Cobalt**, and it uses the **Title** property of the **Resource**.
+>
+> To understand the data structure of the **Resource** object representing a pentest finding, you may refer to the [Get a Finding](https://cobalt-public-api.netlify.app/v2/#get-a-finding) public API documentation.
+
+![Hover datapill](/integrations/Jira-Cloud-migration-hover-datapill.gif "Hover datapill")
+
+{{% /expand %}}
+<br>
 {{%expand "Does the Integration Builder-based Jira Cloud integration support custom required fields?" %}}
 <br>
 
-Yes. Once you've chosen the Jira Cloud project and the issue type for the **Create issue in Jira** action, all custom required fields of the Jira issue will appear with an asterisk (**\***). You can then assign any value to them. For instance, you can set the pentest finding ID as the value of **my_required_field** by drag and dropping the **datapill** into the field.
+Yes.
+
+Once you've chosen the Jira Cloud project and the issue type for the **Create issue in Jira** action, all custom required fields of the Jira issue will appear with an asterisk (**\***). You can then assign any value to them. For instance, you can set the pentest finding ID as the value of **my_required_field** by drag and dropping the **datapill** into the custom required field.
 
 ![Select datapill](/integrations/Jira-Cloud-migration-select-datapill.gif "Select datapill")
 
@@ -163,5 +186,7 @@ Yes.
    > - `bug Cobalt security`
    > - `bug, Cobalt, security`
    > - `bug,Cobalt,security,`
+
+{{% /expand %}}
 
 ![title](/integrations/Jira-Cloud-migration-title.png "title")
