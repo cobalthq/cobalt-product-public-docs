@@ -122,7 +122,7 @@ TODO: fix link!
 
 {{% /expand %}}
 <br>
-{{%expand "Does the **Integration Builder**-based Jira Cloud integration support custom required fields?" %}}
+{{%expand "Does the Integration Builder-based Jira Cloud integration support custom required fields?" %}}
 <br>
 
 Yes. Once you've chosen the Jira Cloud project and the issue type for the **Create issue in Jira** action, all custom required fields of the Jira issue will appear with an asterisk (**\***). You can then assign any value to them. For instance, you can set the pentest finding ID as the value of **my_required_field** by drag and dropping the **datapill** into the field.
@@ -131,7 +131,7 @@ Yes. Once you've chosen the Jira Cloud project and the issue type for the **Crea
 
 {{% /expand %}}
 <br>
-{{%expand "Does the **Integration Builder**-based Jira Cloud integration support custom labels?" %}}
+{{%expand "Does the Integration Builder-based Jira Cloud integration support custom labels?" %}}
 <br>
 
 Yes.
@@ -146,11 +146,11 @@ Yes.
 1. Choose the **Labels**.
 1. Confirm the dialog by clicking on **Apply changes**.
 
-   ![Select label](/integrations/Jira-Cloud-migration-title.png "Select label")
+   ![Select label](/integrations/Jira-Cloud-migration-use-labels-2.png "Select label")
 
 1. Specify the **labels** separated by a comma.
 
-   ![Specify labels](/integrations/Jira-Cloud-migration-title.png "Specify labels")
+   ![Specify labels](/integrations/Jira-Cloud-migration-use-labels-3.png "Specify labels")
 
    > ⚠️ The **labels** are separated by a **comma**. Do not use spaces or any other whitespace characters to separate the labels.
    >
