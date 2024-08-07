@@ -10,6 +10,8 @@ description: >
 
 This guide is designed to assist organizations in transitioning from the native **Jira Cloud** integration to the new recipe-based integration created by the [**Integration Builder**](https://docs.cobalt.io/integrations/integrationbuilder/).
 
+TODO: fix link! must be relative!
+
 > ⚠️ Please note that this migration guide is not applicable if your organization uses a native **Jira Server** or a **Jira Data Center** integration.
 
 {{% /pageinfo %}}
@@ -117,6 +119,8 @@ If the pentest does not exist in the Cobalt Platform at the time of the migratio
    ![Select the asset](/integrations/Jira-Cloud-migration-filter-by-asset-3.png "Select the asset")
 
 > ℹ️ Alternatively, you can request your customer success manager to create a test organization for you. You can then use an **In-House** pentest with dummy pentest findings data to test your integration in a non-production environment. **In-House pentests do not consume credits.** You can run as many pentests as you want. For more details on how to generate test findings for an **In-House** pentest, click [here](../integrations/development/create-test-finding).
+
+TODO: fix link!
 
 {{% /expand %}}
 <br>
