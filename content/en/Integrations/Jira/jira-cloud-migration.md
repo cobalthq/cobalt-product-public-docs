@@ -6,8 +6,6 @@ description: >
   Learn how to migrate from the native Jira Cloud integration to the Integration Builder.
 ---
 
-## Purpose
-
 {{% pageinfo %}}
 
 This guide is designed to assist organizations in transitioning from the native **Jira Cloud** integration to the new recipe-based integration created by the [**Integration Builder**](https://docs.cobalt.io/integrations/integrationbuilder/).
