@@ -69,7 +69,7 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
    ![Search recipe](/integrations/Jira-Cloud-migration-search-recipe.png "Search recipe")
 
-1. Click on the **Use Recipe** button to save a copy of recipe into your workspace.
+1. Click on the **Use this recipe** button to save a copy of recipe into your workspace.
 
    ![Use recipe](/integrations/Jira-Cloud-migration-use-recipe.png "Use recipe")
 
