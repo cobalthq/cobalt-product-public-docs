@@ -95,13 +95,22 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
    ![Configure finding state change trigger](/integrations/Jira-Cloud-migration-configure-finding-state-change-trigger.png "Configure finding state change trigger")
 
-   > ℹ️ If the pentest does not exist in the Cobalt Platform at the time of the migration, you have the option to filter the trigger events by an asset.
-   >
-   > 1. Click on the **✕** next to your chosen pentest to remove it as a filter.
-   > 1. Choose the **+ 1 optional field available**.
-   > 1. Opt for **Asset** in the dialog.
-   > 1. Click on **Apply changes** to confirm the changes.
-   > 1. Pick an **asset** from the list to narrow down the trigger events and filter for findings that are associated with any pentest of the selected asset.
+   ![Select datapill](/integrations/Jira-Cloud-migration-select-datapill.gif "Select datapill")
+
+## Frequently Asked Questions
+
+Click <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> to view answers.
+
+{{%expand "What should I do if the pentest does not exist in the Cobalt Platform at the time of the migration?" %}}
+<br>
+
+If the pentest does not exist in the Cobalt Platform at the time of the migration, you have the option to filter the trigger events by an asset.
+
+1. Click on the **✕** next to your chosen pentest to remove it as a filter.
+1. Choose the **+ 1 optional field available**.
+1. Opt for **Asset** in the dialog.
+1. Click on **Apply changes** to confirm the changes.
+1. Pick an **asset** from the list to narrow down the trigger events and filter for findings that are associated with any pentest of the selected asset.
 
    ![Discard pentest filter](/integrations/Jira-Cloud-migration-filter-by-asset-1.png "Discard pentest filter")
 
@@ -109,4 +118,13 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
    ![Select the asset](/integrations/Jira-Cloud-migration-filter-by-asset-3.png "Select the asset")
 
-   ![Select datapill](/integrations/Jira-Cloud-migration-select-datapill.gif "Select datapill")
+> ℹ️ Alternatively, you can request your customer success manager to create a test organization for you. You can then use an **In-House** pentest with dummy pentest findings data to test your integration in a non-production environment. **In-House pentests do not consume credits.** You can run as many pentests as you want. For more details on how to generate test findings for an **In-House** pentest, click [here](integrations/development/create-test-finding).
+
+{{% /expand %}}
+<br>
+{{%expand "This is another FAQ" %}}
+<br>
+
+This is another answer.
+
+{{% /expand %}}
