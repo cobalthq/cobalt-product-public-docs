@@ -89,15 +89,29 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
 #### Customize the recipe
 
-1. Select the recipe **Trigger** in the editor and select a pentest from the list.
+1. To configure the recipe's run condition, select the recipe **Trigger** in the editor and select a pentest from the list.
 
    > ℹ️ By default, this recipe will be activated whenever there is a change in the status of any pentest finding within the Cobalt Platform. Once a specific pentest is chosen from the list, the recipe will only be triggered if the status change involves a finding related to the selected pentest. If it doesn't, the recipe will not be activated.
 
    ![Configure finding state change trigger](/integrations/Jira-Cloud-migration-configure-finding-state-change-trigger.png "Configure finding state change trigger")
 
-1. Select the **Create issue in Jira** action and configure your Jira Cloud project then the **project issue type** from the dropdown.
+1. To customize the issue creation in Jira Cloud, select the **Create issue in Jira** action and configure your Jira Cloud **Project issue type** from the dropdown.
 
-   ![Select issue type](/integrations/Jira-Cloud-migration-select-issue-type.png "Select issue type")
+   ![Select project issue type](/integrations/Jira-Cloud-migration-select-project-issue-type.png "Select project issue type")
+
+1. To customize the external ticket reference in Cobalt, select the **Create external ticket reference in Cobalt** actions.
+
+This action creates the external ticket reference in the Cobalt Platform. The following properties are required:
+
+|                      |                                                                                                                                                                                                                                                                                                                 |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Title**            | This property defines the appearance of the external ticket reference UI component in the Cobalt application. It is recommended to keep the default value and use the **Key** **datapill** of the Jira issue.                                                                                                   |
+| **Ticketing System** | Must be set to **Jira**. Please do not modify the default value.                                                                                                                                                                                                                                                |
+| **External URL**     | The URL should point to your Jira issue. It is recommended to use the `https://YOUR_DOMAIN.atlassian.net/browse/` text along with the **Key** **datapill** of the Jira issue.                                                                                                                                   |
+| **External ID**      | If you do not plan to move the Jira issues between projects, please leave the value as is and use the **Key** **datapill** of the Jira issue. However, if you might plan to move the Jira issues between projects in the future, you must use the **ID** **datapill** of the Jira issue instead of the **Key**. |
+| **Finding ID**       | The ID of the pentest finding. It is already configured, so please do not make any changes to it.                                                                                                                                                                                                               |
+
+![Configure External URL](/integrations/Jira-Cloud-migration-configure-external-url.gif "Configure External URL")
 
 ## Frequently Asked Questions
 
@@ -112,7 +126,7 @@ If the pentest does not exist in the Cobalt Platform at the time of the migratio
 1. Choose the **+ 1 optional field available**.
 1. Opt for **Asset** in the dialog.
 1. Click on **Apply changes** to confirm the changes.
-1. Pick an **asset** from the list to narrow down the trigger events and filter for findings that are associated with any pentest of the selected asset.
+1. Pick an **Asset** from the list to narrow down the trigger events and filter for findings that are associated with any pentest of the selected asset.
 
    ![Discard pentest filter](/integrations/Jira-Cloud-migration-filter-by-asset-1.png "Discard pentest filter")
 
@@ -187,6 +201,19 @@ Yes.
    > - `bug, Cobalt, security`
    > - `bug,Cobalt,security,`
 
+{{% /expand %}}
+<br>
+{{%expand "What is the difference between the Jira issue Key and ID?" %}}
+
+Issues are identified by a **key** such as `ABC-123`, which specifies the project it belongs to with the project's **key** (`ABC`) as the first part of the issue key, followed by a sequentially assigned number starting from 1 within that project. If an issue is moved to another project, its issue **key** will change accordingly.
+
+Each issue also has an issue **ID**, which is a numeric identifier assigned sequentially across all projects. The issue **ID** remains unchanged, even if the issue is moved to a different project. Other information linked to the issue, such as attachments or people involved, can reference the issue **ID** and does not require updating if the issue is moved to another project. The issue **key**, on the other hand, quickly indicates the project to which the issue belongs.
+
+> ⚠️ If you plan to move Jira issues between projects, always use the Jira issue **ID** as the **External ID** when creating external ticket references or searching for them.
+
+![Change External ID](/integrations/Jira-Cloud-migration-change-external-id.gif "Change External ID")
+
+<br>
 {{% /expand %}}
 
 ![title](/integrations/Jira-Cloud-migration-title.png "title")
