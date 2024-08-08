@@ -151,7 +151,7 @@ There are two pre-built recipe templates available in the **Integration Builder*
 
    1. Select the **IF condition** in the editor.
    1. Specify the expected Jira Cloud project **key** value. For example, `NJC`.
-   1. Specify the **name** of the expected Jira issue status. For example, `Acceptance Testing`, based on the [example Jira workflow](#jira-workflow-statuses).
+   1. Specify the **name** of the expected Jira issue status. For example, `Acceptance Testing`, based on the [example Jira workflow statuses](#jira-workflow-statuses).
 
    ![Issue filter condition](/integrations/Jira-Cloud-migration-issue-filter-condition.png "Issue filter condition")
 
