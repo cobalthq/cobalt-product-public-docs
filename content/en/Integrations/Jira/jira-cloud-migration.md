@@ -94,6 +94,8 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
 #### Customize the recipe
 
+> ⚠️ To customize the recipes, you need to have the **Jira** connection set up. If you haven't set up a [connection](/integrations/integrationbuilder/#connection) to your Jira Cloud using the **Jira** [connector](/integrations/integrationbuilder/#connector) yet, you can learn how to manage your **Integration Builder** connections [here](/integrations/integrationbuilder/connect-your-applications/).
+
 1. To configure the recipe's run condition, select the recipe **Trigger** in the editor and select a pentest from the list.
 
    > ℹ️ By default, this recipe will be activated whenever there is a change in the status of any pentest finding within the Cobalt Platform. Once a specific pentest is chosen from the list, the recipe will only be triggered if the status change involves a finding related to the selected pentest. If it doesn't, the recipe will not be activated.
@@ -106,7 +108,7 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
 1. To customize the external ticket reference in Cobalt, select the **Create external ticket reference in Cobalt** actions.
 
-   This action creates the external ticket reference in the Cobalt Platform. The following properties are required:
+   This action creates the [external ticket reference](/integrations/integrationbuilder/how-to-guides/#external-ticket-references) in the Cobalt Platform. The following properties are required:
 
 |                      |                                                                                                                                                                                                                                                                                                                 |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -304,12 +306,6 @@ Yes.
    > - `bug Cobalt security`
    > - `bug, Cobalt, security`
    > - `bug,Cobalt,security,`
-
-{{% /expand %}}
-<br>
-{{%expand "What is an external ticket reference?" %}}
-<br>
-The external ticket reference is a Cobalt Platform entity that represents the association between a finding and a ticket created in an external ticketing system.
 
 {{% /expand %}}
 <br>
