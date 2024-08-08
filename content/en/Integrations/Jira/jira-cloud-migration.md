@@ -189,7 +189,7 @@ Modify the example Jira workflow by adding the following workflow transitions:
 
 ![Sample Jira Cloud project workflow - Modified state](/integrations/Jira-Cloud-migration-sample-jira-cloud-project-workflow-modified-state.png "Sample Jira Cloud project workflow - Modified state")
 
-> ⚠️ By default, all Jira statuses allow issues in any other status to move into them. The **Any** Jira status label represents this kind of "global" transition. Although it is not mandatory, it is highly recommended to disallow issues in any status to move into them. This is to avoid accidentally moving a Jira issue, for example, from the **In Progress** into the **Done** status. This is to prevent invalid Jira transitions. Such an invalid Jira workflow transition would attempt to automatically update the pentest finding state from the **Pending Fix** state to the **Fixed** state which is invalid and will perpetually fail.
+> ⚠️ By default, all Jira statuses allow issues from any other status to be moved into them. The **Any** Jira status label indicates this "global" transition capability. Although it's not mandatory, it's highly recommended to restrict issues from any status to move into them. This is to prevent accidental movements of Jira issues, such as moving from the **In Progress** status to the **Done** status, thereby avoiding invalid Jira transitions. An invalid Jira workflow transition, for example, would attempt to automatically change the pentest finding state from **Pending Fix** to **Fixed**, which is invalid and would consistently fail.
 >
 > - Select **Manage workflow** from your Jira Cloud board.
 > - Select the Jira status, for example, **Won't Do**.
