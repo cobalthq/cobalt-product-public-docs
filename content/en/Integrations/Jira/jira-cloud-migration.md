@@ -8,9 +8,11 @@ description: >
 
 {{% pageinfo %}}
 
-This guide is designed to assist organizations in transitioning from the native **Jira Cloud** integration to the new recipe-based integration created by the [**Integration Builder**](/integrations/integrationbuilder/).
+This guide is designed to help organizations transition from our native **Jira Cloud** integration to our much more powerful [**Integration Builder**](/integrations/integrationbuilder/).
 
-> ⚠️ Please note that this migration guide is not applicable if your organization uses a native **Jira Server** or a **Jira Data Center** integration.
+> ⚠️ This migration guide is not applicable if your organization uses **Jira Server** or **Jira Data Center**.
+
+> ⚠️ The Integration Builder is currently in Open Beta status. We do not recommend that all customers migrate to the Integration Builder at this time. We recommend that you migrate to the Integration Builder if our current generally-available Jira integration does not meet your needs.
 
 {{% /pageinfo %}}
 
