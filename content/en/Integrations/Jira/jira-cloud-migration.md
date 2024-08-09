@@ -1,9 +1,9 @@
 ---
-title: "Migrate from native Jira Cloud to Integration Builder"
-linkTitle: "Migrate from native Jira Cloud to Integration Builder"
+title: "Migrate to Integration Builder"
+linkTitle: "Migrate to Integration Builder"
 weight: 50
 description: >
-  Learn how to migrate from the native Jira Cloud integration to the Integration Builder.
+  Migrate from the native Jira Cloud integration to the Integration Builder.
 ---
 
 {{% pageinfo %}}
