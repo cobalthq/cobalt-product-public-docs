@@ -252,7 +252,7 @@ If the pentest does not exist in the Cobalt Platform at the time of the migratio
 
 Yes.
 
-The recipe automatically uses the **Title** and **Tag** properties of the pentest finding to generate the **Summary** of the Jira issue. For instance, `My Test Finding-#PT25715_3`. You can use any text or **datapill** to create a **Summary** tailored to specific needs.
+The recipe automatically uses the **Title** and **Tag** properties of the pentest finding to generate the **Summary** of the Jira issue. For instance, `My Test Finding - #PT25715_3`. You can use any text or **datapill** to create a **Summary** tailored to specific needs.
 
 While the **Description** is not mandatory for creating a Jira issue, the recipe includes a default template. However, similar to the **Summary**, you can personalize the issue using any text or **datapill**.
 
