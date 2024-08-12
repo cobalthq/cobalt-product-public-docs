@@ -121,7 +121,7 @@ Assuming that this project is already set up with the native Jira Cloud integrat
 
 ![Configure External URL](/integrations/Jira-Cloud-migration-configure-external-url.gif "Configure External URL")
 
-1. **Save** the recipe changes, click on **Exit** to quit the recipe editor, and select **Start recipe** to start the recipe.
+1. **Save** the recipe changes, click on **Exit** to quit the recipe editor, and click **Start recipe** to start the recipe.
 
    ![Save and exit editor](/integrations/Jira-Cloud-migration-save-exit-start-recipe-1.png "Save and exit editor")
 
@@ -141,7 +141,7 @@ There are two pre-built recipe templates available in the **Integration Builder*
 
    1. Select **New/updated issue in Jira** recipe **trigger** in the editor.
    1. Specify a datetime before your pentest is in the **live** state using the **From** setting.
-      > ℹ️ The **From** setting allows recipes to retrieve past trigger events from a specified date and time. Instead of only picking up new trigger events (events created since the recipe was started), this setting enables the selection of events that have already occurred. When you start a recipe for the first time, it retrieves new or updated issues from the specified date and time. Once a recipe has been run or tested, this value cannot be changed.
+      > ℹ️ The **From** setting allows recipes to retrieve past trigger events from a specified date and time. Instead of only picking up new trigger events (events created since the recipe was started), this setting enables the selection of events that have already occurred. When you start a recipe for the first time, it retrieves new or updated issues starting from the specified date and time. Once a recipe has been ran or tested, this value cannot be changed.
       >
       > In the example below, the trigger for new or updated Jira issues has a **From** date of 7 Aug 2024, midnight PST.
    1. **Refresh** the editor to resolve the validation errors in the recipe.
