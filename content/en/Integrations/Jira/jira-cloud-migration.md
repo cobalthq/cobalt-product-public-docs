@@ -75,11 +75,11 @@ Assuming that this project is already set up with the native Jira Cloud integrat
 
    ![Search recipe](/integrations/Jira-Cloud-migration-search-recipe.png "Search recipe")
 
-1. Click on the **Use this recipe** button to save a copy of recipe into your workspace.
+1. Click on the **Use this recipe** button to save a copy of the recipe into your workspace.
 
    ![Use recipe](/integrations/Jira-Cloud-migration-use-recipe.png "Use recipe")
 
-1. Select the **Cobalt** folder to save a copy of the recipe and click on **Save and copy**.
+1. Select the **Cobalt** folder as the copy destination then click on **Save and copy**.
 
    > ℹ️ You can select any arbitrary folder to save a copy of the recipe.
 
@@ -95,12 +95,12 @@ Assuming that this project is already set up with the native Jira Cloud integrat
 
 #### Customize the recipe
 
-> ⚠️ To customize the recipes, you need to have the **Jira** connection set up. If you haven't set up a [connection](/integrations/integrationbuilder/#connection) to your Jira Cloud using the **Jira** [connector](/integrations/integrationbuilder/#connector) yet, you can learn how to manage your **Integration Builder** connections [here](/integrations/integrationbuilder/connect-your-applications/).
+> ⚠️ To customize the recipes, you need to have the **Jira** connection set up. If you haven't set up a [connection](/integrations/integrationbuilder/#connection) to your Jira Cloud instance using the **Jira** [connector](/integrations/integrationbuilder/#connector) yet, you can learn how to manage your **Integration Builder** connections [here](/integrations/integrationbuilder/connect-your-applications/).
 
 1. To configure the recipe's run condition, select the recipe **Trigger** in the editor and select a pentest from the list.
 
-   > ℹ️ By default, this recipe will be activated whenever there is a change in the status of any pentest finding within the Cobalt Platform. Once a specific pentest is chosen from the list, the recipe will only be triggered if the status change involves a finding related to the selected pentest. If it doesn't, the recipe will not be activated.
-
+   > ℹ️ By default, this recipe will be activated whenever there is a state change for any pentest finding within the Cobalt Platform. Once a specific pentest is chosen from the list, the recipe will only be triggered if the status change is for a finding related to the selected pentest. If it doesn't, the recipe will not be activated.
+   
    ![Configure finding state change trigger](/integrations/Jira-Cloud-migration-configure-finding-state-change-trigger.png "Configure finding state change trigger")
 
 1. To customize the issue creation in Jira Cloud, select the **Create issue in Jira** action and configure your Jira Cloud **Project issue type** from the dropdown.
@@ -111,13 +111,13 @@ Assuming that this project is already set up with the native Jira Cloud integrat
 
    This action creates the [external ticket reference](/integrations/integrationbuilder/how-to-guides/#external-ticket-references) in the Cobalt Platform. The following properties are required:
 
-|                      |                                                                                                                                                                                                                                                                                                                 |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Title**            | This property defines the appearance of the external ticket reference UI component in the Cobalt application. It is recommended to keep the default value and use the **Key** **datapill** of the Jira issue.                                                                                                   |
-| **Ticketing System** | Must be set to **Jira**. Please do not modify the default value.                                                                                                                                                                                                                                                |
-| **External URL**     | The URL should point to your Jira issue. It is recommended to use the `https://YOUR_DOMAIN.atlassian.net/browse/` text followed by the **Key** **datapill** of the Jira issue.                                                                                                                                  |
-| **External ID**      | If you do not plan to move the Jira issues between projects, please leave the value as is and use the **Key** **datapill** of the Jira issue. However, if you might plan to move the Jira issues between projects in the future, you must use the **ID** **datapill** of the Jira issue instead of the **Key**. |
-| **Finding ID**       | The ID of the pentest finding. It is already configured, so please do not make any changes to it.                                                                                                                                                                                                               |
+|                      |                                                                                                                                                                                                                                                                                                                                                                                                         |
+| -------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Title**            | This property defines the appearance of the external ticket reference UI component in the Cobalt application. It is recommended to keep the default value and use the **Key** **datapill** of the Jira issue.                                                                                                                                                                                           |
+| **Ticketing System** | Must be set to **Jira**. Please do not modify the default value.                                                                                                                                                                                                                                                                                                                                        |
+| **External URL**     | The URL should point to your Jira issue. It is recommended to use the `https://YOUR_DOMAIN.atlassian.net/browse/` text followed by the **Key** **datapill** of the Jira issue.                                                                                                                                                                                                                          |
+| **External ID**      | If you do not plan to move the Jira issues between projects, please leave the value as is and use the **Key** **datapill** of the Jira issue. If you plan to integrate with multiple Jira instances then you **must** use the **Key** **datapill**.  If you plan to move the Jira issues between projects in the future, you must use the **ID** **datapill** of the Jira issue instead of the **Key**. |
+| **Finding ID**       | The ID of the pentest finding. It is already configured, so please do not make any changes to it.                                                                                                                                                                                                                                                                                                       |
 
 ![Configure External URL](/integrations/Jira-Cloud-migration-configure-external-url.gif "Configure External URL")
 
