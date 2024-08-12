@@ -18,7 +18,7 @@ This guide is designed to help organizations transition from our native **Jira C
 
 ## Overview
 
-This document offers detailed, step-by-step instructions on utilizing **Integration Builder** recipes to establish synchronization between Cobalt pentest findings and a Jira issues.
+This document offers detailed, step-by-step instructions on utilizing **Integration Builder** recipes to establish synchronization between Cobalt pentest findings and Jira Cloud issues.
 The level of automation in your workflow is directly related to the number of recipes you configure to tailor the behavior to your specific requirements.
 
 We've added a variety of pre-built recipe templates to the Integration Builder's library to facilitate seamless bidirectional synchronization between your Jira Cloud instance and the Cobalt Platform. Depending on your workflow, you can choose to configure and use a subset of these recipe templates. The recipe templates are categorized into three groups:
