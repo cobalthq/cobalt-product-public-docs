@@ -34,7 +34,7 @@ Additionally, if you want to update your Jira issue's status based on the pentes
 
 ## Migration
 
-> ❗ Do not migrate the native Jira Cloud integration to the **Integration Builder** when the pentest is in the **live** state.
+> ❗ Do not migrate a pentest from the native Jira Cloud integration to the **Integration Builder** when the pentest is in the **live** state.
 
 ### Introduction
 
@@ -52,16 +52,14 @@ To better understand the required migration steps and the recipes' customization
 - **Done** (_default_, 'Done' category)
 - **Won't Do** (_custom_, 'Done' category)
 
-Now, assuming that this project is already set up with native Jira Cloud integration in the Cobalt application. The native Jira Cloud integration does the following:
+Assuming that this project is already set up with the native Jira Cloud integration in the Cobalt application, the native Jira Cloud integration does the following:
 
 ![Native Jira Cloud configuration](/integrations/Jira-Cloud-migration-native-jira-cloud-configuration.png "Native Jira Cloud configuration")
 
-1.  In the _Native Jira Cloud_ project
-1.  Create a **Task** Jira issue
+1.  Creates a **Task** Jira issue for a finding when it is moved to the Pending Fix state
 
     > ℹ️ The **Task** can be created via auto-push if configured for the pentest or manually from the pentest finding page.
 
-1.  When a pentest finding is submitted and is in the **Pending Fix** state.
 1.  Update the pentest finding to the **Ready for Retest** state when the Jira **Task** status changes to **Acceptance Testing**.
 1.  Update the pentest finding to the **Accepted Risk** state when the Jira **Task** status changes to **Won't Do**.
 
