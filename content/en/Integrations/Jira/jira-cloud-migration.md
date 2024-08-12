@@ -200,7 +200,7 @@ Modify the example Jira workflow by adding the following workflow transitions:
 
 ![Disallow Any status](/integrations/Jira-Cloud-migration-disallow-any-status.png "Disallow Any status")
 
-There are two pre-built recipe templates available in the **Integration Builder** library that can be used to update the status of a issue in Jira Cloud when the state of the pentest finding changes in the Cobalt Platform.
+There are two pre-built recipe templates available in the **Integration Builder** library that can be used to update the status of an issue in Jira Cloud when the state of the pentest finding changes in the Cobalt Platform.
 
 | Name                                                                                                 | Description                                                                                                                                                                           |
 | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
