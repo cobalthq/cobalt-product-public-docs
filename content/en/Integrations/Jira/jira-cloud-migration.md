@@ -60,8 +60,8 @@ Assuming that this project is already set up with the native Jira Cloud integrat
 
     > ℹ️ The **Task** can be created via auto-push if configured for the pentest or manually from the pentest finding page.
 
-1.  Update the pentest finding to the **Ready for Retest** state when the Jira **Task** status changes to **Acceptance Testing**.
-1.  Update the pentest finding to the **Accepted Risk** state when the Jira **Task** status changes to **Won't Do**.
+1.  Updates the pentest finding to the **Ready for Retest** state when the Jira **Task** status changes to **Acceptance Testing**.
+1.  Updates the pentest finding to the **Accepted Risk** state when the Jira **Task** status changes to **Won't Do**.
 
 ### Push finding from the Cobalt Platform to Jira Cloud
 
