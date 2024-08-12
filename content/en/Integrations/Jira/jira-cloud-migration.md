@@ -18,7 +18,7 @@ This guide is designed to help organizations transition from our native **Jira C
 
 ## Overview
 
-This document offers detailed, step-by-step instructions on utilizing **Integration Builder** recipes to establish synchronization between a Cobalt pentest finding and a Jira issue.
+This document offers detailed, step-by-step instructions on utilizing **Integration Builder** recipes to establish synchronization between Cobalt pentest findings and a Jira issues.
 The level of automation in your workflow is directly related to the number of recipes you configure to tailor the behavior to your specific requirements.
 
 We've added a variety of pre-built recipe templates to the Integration Builder's library to facilitate seamless bidirectional synchronization between your Jira Cloud instance and the Cobalt Platform. Depending on your workflow, you can choose to configure and use a subset of these recipe templates. The recipe templates are categorized into three groups:
@@ -28,9 +28,9 @@ We've added a variety of pre-built recipe templates to the Integration Builder's
 1. [Update Jira Cloud from the Cobalt Platform](#update-jira-cloud-from-the-cobalt-platform)
 
 Different types of recipes call for different Jira Cloud workflow configurations.
-For instance, creating a Jira issue when a pentest vulnerability is discovered requires no additional workflow customization.
-However, if you wish to update the pentest finding state in the Cobalt Platform when the Jira Cloud issue status changes, your workflow needs specific [issue statuses](https://support.atlassian.com/jira-cloud-administration/docs/what-are-issue-statuses-priorities-and-resolutions/#Issue-statuses).
-Additionally, if you want to update your Jira Cloud issue status based on the pentest finding state changes, you need to set up [transitions in your Jira workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows). This documentation will provide an example and cover the required Jira workflow changes later on.
+For instance, creating a Jira issue when a pentest finding is moved to the Pending Fix state requires no additional workflow customization.
+However, if you wish to update the pentest finding's state in the Cobalt Platform when the Jira issue's status changes, your workflow must contain specific [issue statuses](https://support.atlassian.com/jira-cloud-administration/docs/what-are-issue-statuses-priorities-and-resolutions/#Issue-statuses).
+Additionally, if you want to update your Jira issue's status based on the pentest finding's state changes, you need to set up [transitions in your Jira workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows). This documentation will provide an example and cover the required Jira workflow changes later on.
 
 ## Migration
 
