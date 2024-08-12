@@ -8,19 +8,20 @@ description: >
 
 {{% pageinfo %}}
 
-This guide is designed to help organizations transition from our native **Jira Cloud** integration to our much more powerful [**Integration Builder**](/integrations/integrationbuilder/).
+This guide is designed to help organizations transition from our native **Jira Cloud** integration to our highly customizable [**Integration Builder**](/integrations/integrationbuilder/).
 
 > ⚠️ This migration guide is not applicable if your organization uses **Jira Server** or **Jira Data Center**.
 
-> ⚠️ The Integration Builder is currently in Open Beta status. We do not recommend that all customers migrate to the Integration Builder at this time. We recommend that you migrate to the Integration Builder if our current generally-available Jira integration does not meet your needs.
+> ⚠️ The Integration Builder is currently in Open Beta status. We do not recommend that all users migrate to the Integration Builder at this time. We recommend that you migrate to the Integration Builder if our current generally-available Jira integration does not meet your needs.
 
 {{% /pageinfo %}}
 
 ## Overview
 
-The document offers detailed, step-by-step instructions on utilizing **Integration Builder** recipes to establish synchronization between a Cobalt pentest finding and a Jira issue. The level of automation in your workflow is directly related to the number of recipes you configure to tailor the behavior to your specific requirements.
+This document offers detailed, step-by-step instructions on utilizing **Integration Builder** recipes to establish synchronization between a Cobalt pentest finding and a Jira issue.
+The level of automation in your workflow is directly related to the number of recipes you configure to tailor the behavior to your specific requirements.
 
-We've added a variety of pre-built recipes to the Integration Builder's library to facilitate seamless bidirectional synchronization between your Jira Cloud and the Cobalt Platform. Depending on your workflow, you can choose to configure and use a subset of these recipes. The recipes are categorized into three groups:
+We've added a variety of pre-built recipe templates to the Integration Builder's library to facilitate seamless bidirectional synchronization between your Jira Cloud instance and the Cobalt Platform. Depending on your workflow, you can choose to configure and use a subset of these recipe templates. The recipe templates are categorized into three groups:
 
 1. [Push finding from the Cobalt Platform to Jira Cloud](#push-finding-from-the-cobalt-platform-to-jira-cloud)
 1. [Update the Cobalt Platform from Jira Cloud](#update-the-cobalt-platform-from-jira-cloud)
