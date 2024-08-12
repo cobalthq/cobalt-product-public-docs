@@ -285,7 +285,7 @@ Yes.
 
    ![Add optional field](/integrations/Jira-Cloud-migration-use-labels-1.png "Add optional field")
 
-   > ℹ️ The number of the available optional fields may very based on your Jira Cloud project.
+   > ℹ️ The number of the available optional fields may vary based on your Jira Cloud project.
 
 1. Choose the **Labels**.
 1. Confirm the dialog by clicking on **Apply changes**.
