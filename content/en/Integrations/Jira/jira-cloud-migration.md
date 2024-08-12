@@ -87,7 +87,7 @@ Assuming that this project is already set up with the native Jira Cloud integrat
 
    ![Save and copy](/integrations/Jira-Cloud-migration-save-and-copy.png "Save and copy")
 
-1. Click on **Customize recipe** to adjust the pre-build recipe template to your Jira Cloud configuration.
+1. Click on **Customize recipe** to adjust the pre-built recipe template to your Jira Cloud configuration.
 
    > ℹ️ The recipe is not ready for use yet. It needs the Jira Cloud project configuration, including the project name and the task Jira issue type to create.
 
