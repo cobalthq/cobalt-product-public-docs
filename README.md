@@ -135,7 +135,7 @@ In this case, the `../../special-instructions` link does not exist.
 alt attribute missing --- integrations/index.html --> /integrations/Jira.png
 ```
 
-With images, for accessibilty, we need to include "Alt Text". In this case, you might see Markdown code like:
+With images, for accessibility, we need to include "Alt Text". In this case, you might see Markdown code like:
 
 ```
 ![](/gsg/PentestFlowOverview.png)
