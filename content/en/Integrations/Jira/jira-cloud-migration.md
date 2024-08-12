@@ -176,7 +176,7 @@ There are two pre-built recipe templates available in the **Integration Builder*
 
 #### Manage Jira workflow transitions
 
-> ⚠️ The **Integration Builder**-based Jira Cloud integration is recommended over the native Jira Cloud integration. It offers the ability to automatically update the status of your Jira Cloud issues when the corresponding pentest finding changes. However, configuring Jira workflow transitions is necessary for this functionality. Without a transition, the Jira issue status cannot be programmatically altered. Reference the official Jira Cloud documentation on [adding a new transition to a workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows/#Adding-a-transition-to-a-workflow) for more details.
+> ⚠️ The **Integration Builder**-based Jira Cloud integration has more capabilities than the native Jira Cloud integration. It offers the ability to automatically update the status of your Jira Cloud issues when the state of the corresponding pentest finding changes. Configuring Jira workflow transitions is necessary for this functionality. Without a transition, the Jira issue status cannot be programmatically altered. Reference the official Jira Cloud documentation regarding [adding a new transition to a workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows/#Adding-a-transition-to-a-workflow) for more details.
 
 Modify the example Jira workflow by adding the following workflow transitions:
 
