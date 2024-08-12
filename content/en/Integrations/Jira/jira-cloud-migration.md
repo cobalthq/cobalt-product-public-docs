@@ -1,37 +1,40 @@
 ---
-title: "Migrate from native Jira Cloud to Integration Builder"
-linkTitle: "Migrate from native Jira Cloud to Integration Builder"
+title: "Migrate to Integration Builder"
+linkTitle: "Migrate to Integration Builder"
 weight: 50
 description: >
-  Learn how to migrate from the native Jira Cloud integration to the Integration Builder.
+  Migrate from the native Jira Cloud integration to the Integration Builder.
 ---
 
 {{% pageinfo %}}
 
-This guide is designed to assist organizations in transitioning from the native **Jira Cloud** integration to the new recipe-based integration created by the [**Integration Builder**](/integrations/integrationbuilder/).
+This guide is designed to help organizations transition from our native **Jira Cloud** integration to our highly customizable [**Integration Builder**](/integrations/integrationbuilder/).
 
-> ⚠️ Please note that this migration guide is not applicable if your organization uses a native **Jira Server** or a **Jira Data Center** integration.
+> ⚠️ This migration guide is not applicable if your organization uses **Jira Server** or **Jira Data Center**.
+
+> ⚠️ The Integration Builder is currently in Open Beta status. We do not recommend that all users migrate to the Integration Builder at this time. We recommend that you migrate to the Integration Builder if our current generally-available Jira integration does not meet your needs.
 
 {{% /pageinfo %}}
 
 ## Overview
 
-The document offers detailed, step-by-step instructions on utilizing **Integration Builder** recipes to establish synchronization between a Cobalt pentest finding and a Jira issue. The level of automation in your workflow is directly related to the number of recipes you configure to tailor the behavior to your specific requirements.
+This document offers detailed, step-by-step instructions on utilizing **Integration Builder** recipes to establish synchronization between Cobalt pentest findings and a Jira issues.
+The level of automation in your workflow is directly related to the number of recipes you configure to tailor the behavior to your specific requirements.
 
-We've added a variety of pre-built recipes to the Integration Builder's library to facilitate seamless bidirectional synchronization between your Jira Cloud and the Cobalt Platform. Depending on your workflow, you can choose to configure and use a subset of these recipes. The recipes are categorized into three groups:
+We've added a variety of pre-built recipe templates to the Integration Builder's library to facilitate seamless bidirectional synchronization between your Jira Cloud instance and the Cobalt Platform. Depending on your workflow, you can choose to configure and use a subset of these recipe templates. The recipe templates are categorized into three groups:
 
 1. [Push finding from the Cobalt Platform to Jira Cloud](#push-finding-from-the-cobalt-platform-to-jira-cloud)
 1. [Update the Cobalt Platform from Jira Cloud](#update-the-cobalt-platform-from-jira-cloud)
 1. [Update Jira Cloud from the Cobalt Platform](#update-jira-cloud-from-the-cobalt-platform)
 
 Different types of recipes call for different Jira Cloud workflow configurations.
-For instance, creating a Jira issue when a pentest vulnerability is discovered requires no additional workflow customization.
-However, if you wish to update the pentest finding state in the Cobalt Platform when the Jira Cloud issue status changes, your workflow needs specific [issue statuses](https://support.atlassian.com/jira-cloud-administration/docs/what-are-issue-statuses-priorities-and-resolutions/#Issue-statuses).
-Additionally, if you want to update your Jira Cloud issue status based on the pentest finding state changes, you need to set up [transitions in your Jira workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows). This documentation will provide an example and cover the required Jira workflow changes later on.
+For instance, creating a Jira issue when a pentest finding is moved to the Pending Fix state requires no additional workflow customization.
+However, if you wish to update the pentest finding's state in the Cobalt Platform when the Jira issue's status changes, your workflow must contain specific [issue statuses](https://support.atlassian.com/jira-cloud-administration/docs/what-are-issue-statuses-priorities-and-resolutions/#Issue-statuses).
+Additionally, if you want to update your Jira issue's status based on the pentest finding's state changes, you need to set up [transitions in your Jira workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows). This documentation will provide an example and cover the required Jira workflow changes later on.
 
 ## Migration
 
-> ❗ Do not migrate the native Jira Cloud integration to the **Integration Builder** when the pentest is in the **live** state.
+> ❗ Do not migrate a pentest from the native Jira Cloud integration to the **Integration Builder** when the pentest is in the **live** state.
 
 ### Introduction
 
@@ -49,16 +52,14 @@ To better understand the required migration steps and the recipes' customization
 - **Done** (_default_, 'Done' category)
 - **Won't Do** (_custom_, 'Done' category)
 
-Now, assuming that this project is already set up with native Jira Cloud integration in the Cobalt application. The native Jira Cloud integration does the following:
+Assuming that this project is already set up with the native Jira Cloud integration in the Cobalt application, the native Jira Cloud integration does the following:
 
 ![Native Jira Cloud configuration](/integrations/Jira-Cloud-migration-native-jira-cloud-configuration.png "Native Jira Cloud configuration")
 
-1.  In the _Native Jira Cloud_ project
-1.  Create a **Task** Jira issue
+1.  Creates a **Task** Jira issue for a finding when it is moved to the Pending Fix state
 
     > ℹ️ The **Task** can be created via auto-push if configured for the pentest or manually from the pentest finding page.
 
-1.  When a pentest finding is submitted and is in the **Pending Fix** state.
 1.  Update the pentest finding to the **Ready for Retest** state when the Jira **Task** status changes to **Acceptance Testing**.
 1.  Update the pentest finding to the **Accepted Risk** state when the Jira **Task** status changes to **Won't Do**.
 
@@ -74,11 +75,11 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
    ![Search recipe](/integrations/Jira-Cloud-migration-search-recipe.png "Search recipe")
 
-1. Click on the **Use this recipe** button to save a copy of recipe into your workspace.
+1. Click on the **Use this recipe** button to save a copy of the recipe into your workspace.
 
    ![Use recipe](/integrations/Jira-Cloud-migration-use-recipe.png "Use recipe")
 
-1. Select the **Cobalt** folder to save a copy of the recipe and click on **Save and copy**.
+1. Select the **Cobalt** folder as the copy destination then click on **Save and copy**.
 
    > ℹ️ You can select any arbitrary folder to save a copy of the recipe.
 
@@ -94,12 +95,12 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
 #### Customize the recipe
 
-> ⚠️ To customize the recipes, you need to have the **Jira** connection set up. If you haven't set up a [connection](/integrations/integrationbuilder/#connection) to your Jira Cloud using the **Jira** [connector](/integrations/integrationbuilder/#connector) yet, you can learn how to manage your **Integration Builder** connections [here](/integrations/integrationbuilder/connect-your-applications/).
+> ⚠️ To customize the recipes, you need to have the **Jira** connection set up. If you haven't set up a [connection](/integrations/integrationbuilder/#connection) to your Jira Cloud instance using the **Jira** [connector](/integrations/integrationbuilder/#connector) yet, you can learn how to manage your **Integration Builder** connections [here](/integrations/integrationbuilder/connect-your-applications/).
 
 1. To configure the recipe's run condition, select the recipe **Trigger** in the editor and select a pentest from the list.
 
-   > ℹ️ By default, this recipe will be activated whenever there is a change in the status of any pentest finding within the Cobalt Platform. Once a specific pentest is chosen from the list, the recipe will only be triggered if the status change involves a finding related to the selected pentest. If it doesn't, the recipe will not be activated.
-
+   > ℹ️ By default, this recipe will be activated whenever there is a state change for any pentest finding within the Cobalt Platform. Once a specific pentest is chosen from the list, the recipe will only be triggered if the status change is for a finding related to the selected pentest. If it doesn't, the recipe will not be activated.
+   
    ![Configure finding state change trigger](/integrations/Jira-Cloud-migration-configure-finding-state-change-trigger.png "Configure finding state change trigger")
 
 1. To customize the issue creation in Jira Cloud, select the **Create issue in Jira** action and configure your Jira Cloud **Project issue type** from the dropdown.
@@ -110,17 +111,17 @@ Now, assuming that this project is already set up with native Jira Cloud integra
 
    This action creates the [external ticket reference](/integrations/integrationbuilder/how-to-guides/#external-ticket-references) in the Cobalt Platform. The following properties are required:
 
-|                      |                                                                                                                                                                                                                                                                                                                 |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Title**            | This property defines the appearance of the external ticket reference UI component in the Cobalt application. It is recommended to keep the default value and use the **Key** **datapill** of the Jira issue.                                                                                                   |
-| **Ticketing System** | Must be set to **Jira**. Please do not modify the default value.                                                                                                                                                                                                                                                |
-| **External URL**     | The URL should point to your Jira issue. It is recommended to use the `https://YOUR_DOMAIN.atlassian.net/browse/` text followed by the **Key** **datapill** of the Jira issue.                                                                                                                                  |
-| **External ID**      | If you do not plan to move the Jira issues between projects, please leave the value as is and use the **Key** **datapill** of the Jira issue. However, if you might plan to move the Jira issues between projects in the future, you must use the **ID** **datapill** of the Jira issue instead of the **Key**. |
-| **Finding ID**       | The ID of the pentest finding. It is already configured, so please do not make any changes to it.                                                                                                                                                                                                               |
+|                      |                                                                                                                                                                                                                                                                                                                                                                                                         |
+| -------------------- |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Title**            | This property defines the appearance of the external ticket reference UI component in the Cobalt application. It is recommended to keep the default value and use the **Key** **datapill** of the Jira issue.                                                                                                                                                                                           |
+| **Ticketing System** | Must be set to **Jira**. Please do not modify the default value.                                                                                                                                                                                                                                                                                                                                        |
+| **External URL**     | The URL should point to your Jira issue. It is recommended to use the `https://YOUR_DOMAIN.atlassian.net/browse/` text followed by the **Key** **datapill** of the Jira issue.                                                                                                                                                                                                                          |
+| **External ID**      | If you do not plan to move the Jira issues between projects, please leave the value as is and use the **Key** **datapill** of the Jira issue. If you plan to integrate with multiple Jira instances then you **must** use the **Key** **datapill**.  If you plan to move the Jira issues between projects in the future, you must use the **ID** **datapill** of the Jira issue instead of the **Key**. |
+| **Finding ID**       | The ID of the pentest finding. It is already configured, so please do not make any changes to it.                                                                                                                                                                                                                                                                                                       |
 
 ![Configure External URL](/integrations/Jira-Cloud-migration-configure-external-url.gif "Configure External URL")
 
-1. **Save** the recipe changes, click on **Exit** to quit the recipe editor, and select **Start recipe** to start the recipe.
+1. **Save** the recipe changes, click on **Exit** to quit the recipe editor, and click **Start recipe** to start the recipe.
 
    ![Save and exit editor](/integrations/Jira-Cloud-migration-save-exit-start-recipe-1.png "Save and exit editor")
 
@@ -140,7 +141,7 @@ There are two pre-built recipe templates available in the **Integration Builder*
 
    1. Select **New/updated issue in Jira** recipe **trigger** in the editor.
    1. Specify a datetime before your pentest is in the **live** state using the **From** setting.
-      > ℹ️ The **From** setting allows recipes to retrieve past trigger events from a specified date and time. Instead of only picking up new trigger events (events created since the recipe was started), this setting enables the selection of events that have already occurred. When you start a recipe for the first time, it retrieves new or updated issues from the specified date and time. Once a recipe has been run or tested, this value cannot be changed.
+      > ℹ️ The **From** setting allows recipes to retrieve past trigger events from a specified date and time. Instead of only picking up new trigger events (events created since the recipe was started), this setting enables the selection of events that have already occurred. When you start a recipe for the first time, it retrieves new or updated issues starting from the specified date and time. Once a recipe has been ran or tested, this value cannot be changed.
       >
       > In the example below, the trigger for new or updated Jira issues has a **From** date of 7 Aug 2024, midnight PST.
    1. **Refresh** the editor to resolve the validation errors in the recipe.
@@ -175,7 +176,7 @@ There are two pre-built recipe templates available in the **Integration Builder*
 
 #### Manage Jira workflow transitions
 
-> ⚠️ The **Integration Builder**-based Jira Cloud integration is recommended over the native Jira Cloud integration. It offers the ability to automatically update the status of your Jira Cloud issues when the corresponding pentest finding changes. However, configuring Jira workflow transitions is necessary for this functionality. Without a transition, the Jira issue status cannot be programmatically altered. Reference the official Jira Cloud documentation on [adding a new transition to a workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows/#Adding-a-transition-to-a-workflow) for more details.
+> ⚠️ The **Integration Builder**-based Jira Cloud integration has more capabilities than the native Jira Cloud integration. It offers the ability to automatically update the status of your Jira Cloud issues when the state of the corresponding pentest finding changes. Configuring Jira workflow transitions is necessary for this functionality. Without a transition, the Jira issue status cannot be programmatically altered. Reference the official Jira Cloud documentation regarding [adding a new transition to a workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows/#Adding-a-transition-to-a-workflow) for more details.
 
 Modify the example Jira workflow by adding the following workflow transitions:
 
@@ -199,7 +200,7 @@ Modify the example Jira workflow by adding the following workflow transitions:
 
 ![Disallow Any status](/integrations/Jira-Cloud-migration-disallow-any-status.png "Disallow Any status")
 
-There are two pre-built recipe templates available in the **Integration Builder** library that can be used to update the status of a issue in Jira Cloud when the state of the pentest finding changes in the Cobalt Platform.
+There are two pre-built recipe templates available in the **Integration Builder** library that can be used to update the status of an issue in Jira Cloud when the state of the pentest finding changes in the Cobalt Platform.
 
 | Name                                                                                                 | Description                                                                                                                                                                           |
 | ---------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -251,7 +252,7 @@ If the pentest does not exist in the Cobalt Platform at the time of the migratio
 
 Yes.
 
-The recipe automatically uses the **Title** and **Tag** properties of the pentest finding to generate the **Summary** of the Jira issue. For instance, `My Test Finding-#PT25715_3`. You can use any text or **datapill** to create a **Summary** tailored to specific needs.
+The recipe automatically uses the **Title** and **Tag** properties of the pentest finding to generate the **Summary** of the Jira issue. For instance, `My Test Finding - #PT25715_3`. You can use any text or **datapill** to create a **Summary** tailored to specific needs.
 
 While the **Description** is not mandatory for creating a Jira issue, the recipe includes a default template. However, similar to the **Summary**, you can personalize the issue using any text or **datapill**.
 
