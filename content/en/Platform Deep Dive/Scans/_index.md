@@ -3,11 +3,11 @@ title: "DAST Scanner"
 linkTitle: "DAST Scanner"
 weight: 50
 description: >
-  DAST Scanner - Web Application Vulnerability Scanning
+  DAST Scanner - Web Application and API Vulnerability Scanning
 ---
 
 {{% pageinfo %}}
-Scan your Web Applications to discover external vulnerabilities.
+Scan your Web Applications and APIs to discover external vulnerabilities.
 {{% /pageinfo %}}
 
 The complexity of today's applications, combined with the constant evolution of cyber threats, makes it increasingly difficult to ensure security measures. Traditional methods of security assessment often fall short of providing continuous insights, leading to potential blind spots.
