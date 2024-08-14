@@ -87,6 +87,12 @@ https://example.com/account*
 posts/search?query=cobalt
 ```
 
+- **Custom Headers**: If you need to add custom headers to your requests, you can do so by adding them here. This is a valid example:
+```
+Header Name: Authorization
+Header Value: Bearer 123456
+```
+
 <!-- links -->
 [Authentication]: /platform-deep-dive/scans/target-auth
 
