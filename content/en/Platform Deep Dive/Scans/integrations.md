@@ -1,7 +1,7 @@
 ---
 title: "Integrations"
 linkTitle: "Integrations"
-weight: 40
+weight: 50
 description: Push DAST findings to your ticketing system!
 ---
 
