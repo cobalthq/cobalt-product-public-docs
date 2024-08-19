@@ -13,7 +13,7 @@ The crawler starts with the target URL and any configured [seed paths]. It tries
 If the internal app can be accessed via an IP whitelist, we can test it. However, if a VPN/jumpbox or similar setup is required, we don't support that level of advanced configuration yet.
 
 ## Why don't I receive email notifications?
-We send DAST emails to the organization owners only, not to the organization members. If you are an organization owner and still not receiving emails, please check your spam folder. If you still can't find the email, please contact us.
+We send DAST emails to the Organization Owners only, not to the Organization Members. If you are an Organization Owner and still not receiving emails, please check your spam folder. If you still can't find the email, please [contact us].
 
 ## My scan started to fail but I haven't changed anything. What's going on?
 Some common reasons are:
@@ -28,7 +28,7 @@ Go to the scan details page, where you can find more information about any exist
 We currently don't have the rate-limiting option open to customers. However, here are some suggestions:
 - Try to scan the app during off-peak hours.
 - Configure your server to return a status code 429 (Too Many Requests) when the scanner hits it too fast. Our scanner will respect this status code and slow down the requests.
-- If these solutions don't work for you, please contact us for more help.
+- If these solutions don't work for you, please [contact us] for more help.
 
 ## Once the DAST scan started, our system began emailing all the users with accounts/email addresses. What is the DAST Scanner doing that initiated emails?
 The DAST Scanner interacts with web pages similarly to how a human would, by clicking buttons and submitting forms on each crawled page. Do you have any critical pages or paths where you don't want the crawler to interact with buttons or submit forms? Examples include Settings, User Profiles, Security, Admin section, etc. Make sure the crawler is aware of which URLs to avoid to prevent unintended interactions and potential disruptions. You can add them to the Avoided URLs in the [target settings].
@@ -49,10 +49,10 @@ If the scan is completed, then the scanner didn't fail. However, you can check a
 We can't do that at the moment, but we have it as a future roadmap candidate. Due to some technical dependencies, we likely wouldn't be able to start on this soon.
 
 ## Do you support scans against targets with basic HTTP auth enabled?
-We don't have this feature open to customers yet. However, you can contact us if you can't work around this limitation to assist you.
+We don't have this feature open to customers yet. However, you can [contact us] if you can't work around this limitation to assist you.
 
 ## Does the DAST Scanner support 2FA login?
-We don't have this feature open to customers yet. However, you can contact us if you can't work around this limitation to assist you.
+We don't have this feature open to customers yet. However, you can [contact us] if you can't work around this limitation to assist you.
 
 ## Does the DAST Scanner support CAPTCHA?
 We don't support this feature yet. Here are some suggestions:
@@ -71,3 +71,4 @@ If the domains are different, then they are considered different targets. You ca
 [target settings]: /platform-deep-dive/scans/targets/#configuring-a-target
 [custom headers]: /platform-deep-dive/scans/target-auth/#custom-headers
 [seed paths]: platform-deep-dive/scans/targets/#configuring-a-target
+[contact us]: mailto:dast@cobalt.io
