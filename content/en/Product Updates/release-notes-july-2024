@@ -1,0 +1,39 @@
+---
+title: "Release Notes: July 2024"
+linkTitle: "July 2024"
+weight: 50
+description: >-
+     Explore What's New from Cobalt This Month
+---
+
+{{% pageinfo %}} 
+Stay Up-to-Date with the Latest Enhancements on the Cobalt Platform. 
+{{% /pageinfo %}}
+
+### July 2024
+
+
+#### Attack Surface Updates
+
+In response to customer feedback and to better align with the comprehensive capabilities of the feature, we are excited to announce that 'Domains' has now been revamped as 'Attack Surface.' This new name reflects the broader scope and enhanced functionality that this feature offers to our users.
+
+As part of this update, we are introducing the all-new 'Attack Surface Insights' feature. We understand that managing multiple domains and hosts can be challenging for our customers, making it crucial to prioritize effectively. The new insights feature aims to simplify this process by providing high-level insights, enabling users to identify key focus areas and prioritize tasks seamlessly.
+
+With intuitive charts and visual aids, customers can now gain a consolidated overview of the health status of their attack surface, empowering them to make informed decisions and optimize their security strategies. This update underscores our commitment to helping our users achieve a more robust and proactive security posture.
+
+![Attack Surface Insights](/release-notes/Attack Surface Insights.png "Attack Surface Insights")
+
+
+---
+left off here - delete line when ready
+#### API Scanning
+
+We are excited to introduce an advanced feature for users configuring a DAST target: the ability to select API with OpenAPI specifications and provide an OpenAPI/Swagger schema. This schema acts as a comprehensive map for the scanner, enabling it to effectively navigate and test all endpoints and functions of the API, ensuring thorough and accurate security testing.
+
+Notably, if a customer provides a URL to a live, published spec instead of uploading a static file, the scanner will dynamically fetch the schema before each scan. This ensures that the scanner always incorporates the most up-to-date version of the API specifications, enhancing the accuracy and relevance of the security assessments.
+
+This enhancement empowers our users to leverage the latest API technologies while maintaining proactive security testing, reinforcing our commitment to providing cutting-edge solutions for comprehensive security assessments.
+
+{{% image src="/deepdive/scans/2_AddTarget-API.png" alt="Add API target" %}}
+
+---
