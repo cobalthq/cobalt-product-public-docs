@@ -18,7 +18,7 @@ We send DAST emails to the Organization Owners only, not to the Organization Mem
 ## My scan started to fail but I haven't changed anything. What's going on?
 Some common reasons are:
 - The login credentials have expired.
-- The login form selectors have changed, such as different IDs or CSS classes.
+- The [login form] selectors have changed, such as different IDs or CSS classes.
 - The server blocked the scanner's IP address. This can happen if the scanner is hitting the server too fast or too many times in a short period.
 
 ## My scan failed but I don't know why. How can I find out what happened?
@@ -70,5 +70,6 @@ If the domains are different, then they are considered different targets. You ca
 
 [target settings]: /platform-deep-dive/scans/targets/#configuring-a-target
 [custom headers]: /platform-deep-dive/scans/target-auth/#custom-headers
-[seed paths]: platform-deep-dive/scans/targets/#configuring-a-target
+[seed paths]: /platform-deep-dive/scans/targets/#configuring-a-target
 [contact us]: mailto:dast@cobalt.io
+[login form]: /platform-deep-dive/scans/target-auth/#using-a-login-form
