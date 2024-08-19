@@ -95,16 +95,16 @@ Improper use of templates may lead to both [Cross-Site Scripting (XSS)](https://
 {{config.__class__.__init__.__globals__['os'].popen('ls').read()}}
 ```
 
-### Bypassing Blacklists
+### Bypassing Denylists
 
-Attackers may circumvent the blacklists that you configured.
+Attackers may circumvent the denylists that you configured.
  
 ```python
 @app.route("/page")
-blacklist = ["__class__",”request[request.”]
+denylist = ["__class__",”request[request.”]
 def page():
     name = request.values.get('name')
-    for bad_string in blacklist:
+    for bad_string in denylist:
         if  bad_string in name:
             return "HACKING ATTEMPT {}".format(bad_string), 400
         else:
@@ -114,7 +114,7 @@ def page():
 
 #### Analysis
 
-A threat actor can bypass `__class__` and retrieve the value of a new GET parameter using `request.args.param`. Because we included `request.args.param` in the blacklist, we can use a native Jinja2 function `| attr().`
+A threat actor can bypass `__class__` and retrieve the value of a new GET parameter using `request.args.param`. Because we included `request.args.param` in the denylist, we can use a native Jinja2 function `| attr().`
 
 #### Impact
 
@@ -148,7 +148,7 @@ To prevent an SSTI attack, never allow users to modify or create templates. If y
 
 Before using a template, identify and remove potentially malicious content.
 
-Make sure to efficiently analyze data that users pass. You can use various methods to do this, such as regular expression tools or whitelists of authorized expressions.
+Make sure to efficiently analyze data that users pass. You can use various methods to do this, such as regular expression tools or allowlists of authorized expressions.
 
 However, there is a drawback to this solution. Configuration errors can put your environment at risk.
 
