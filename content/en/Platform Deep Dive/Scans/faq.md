@@ -41,7 +41,7 @@ We don't have this fine-grained access control yet.
 
 ## The scan is completed but I see only one finding. Does this mean my app is secure? Or did the scanner fail?
 If the scan is completed, then the scanner didn't fail. However, you can check a few things:
-- Download the crawl report and check if the scanner visited all the pages you expected.
+- Download the [crawl report] and check if the scanner visited all the pages you expected.
 - Make sure the scanner was able to log in to the app.
 - Ensure the test user has enough permissions to access all the pages and perform different actions.
 
@@ -73,3 +73,4 @@ If the domains are different, then they are considered different targets. You ca
 [seed paths]: /platform-deep-dive/scans/targets/#configuring-a-target
 [contact us]: mailto:dast@cobalt.io
 [login form]: /platform-deep-dive/scans/target-auth/#using-a-login-form
+[crawl report]: /platform-deep-dive/scans/#crawl-report
