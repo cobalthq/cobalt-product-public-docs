@@ -279,7 +279,7 @@ To explore more XXE attack scenarios, refer to the OWASP [XML External Entity Pr
   - Use data formats such as JavaScript Object Notation (JSON) to prevent the serialization process that could prevent XXE attacks.
 - Use secure libraries.
   - Implement the latest patches in your XML libraries, and always use secure alternatives. Make sure to update the Simple Object Access Protocol (SOAP) to version 1.2 or later.
-- Implement whitelisting.
+- Implement allowlisting.
   - Sanitize and filter sensitive data within XML bodies to ensure that your application doesn't accept malicious payloads.
 - Use an XML Schema Definition (XSD) validator.
   - To validate the upload of XML and XSL files, use an XSD validator.
