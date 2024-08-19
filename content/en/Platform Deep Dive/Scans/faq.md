@@ -36,7 +36,7 @@ The DAST Scanner interacts with web pages similarly to how a human would, by cli
 ## Can you give access to our developers only to DAST and not to the pentests?
 We don't have this fine-grained access control yet.
 
-## My scan seems completed but the status says "Under Review." What does this mean?
+## My scan seems completed but the status says 'Under Review'. What does this mean?
 'Under Review' status is an intermediate status before 'Completed.' If some vulnerabilities need to be manually confirmed by our team, the scan is set to Under Review; after this manual review, the scan changes to Completed.
 
 ## The scan is completed but I see only one finding. Does this mean my app is secure? Or did the scanner fail?
