@@ -7,7 +7,7 @@ description: >
 ---
 
 ## How does the crawler work?
-The crawler starts with the target URL and any configured seed paths. It tries to follow and click all the links on a given page. The new pages and new injection points found are added to the list of URLs to scan. The crawler can detect patterns in the URLs and mark some URLs as duplicates. Some of the duplicates will be sampled to be scanned as well.
+The crawler starts with the target URL and any configured [seed paths]. It tries to follow and click all the links on a given page. The new pages and new injection points found are added to the list of URLs to scan. The crawler can detect patterns in the URLs and mark some URLs as duplicates. Some of the duplicates will be sampled to be scanned as well.
 
 ## Can we scan an internal app?
 If the internal app can be accessed via an IP whitelist, we can test it. However, if a VPN/jumpbox or similar setup is required, we don't support that level of advanced configuration yet.
@@ -70,3 +70,4 @@ If the domains are different, then they are considered different targets. You ca
 
 [target settings]: /platform-deep-dive/scans/targets/#configuring-a-target
 [custom headers]: /platform-deep-dive/scans/target-auth/#custom-headers
+[seed paths]: platform-deep-dive/scans/targets/#configuring-a-target
