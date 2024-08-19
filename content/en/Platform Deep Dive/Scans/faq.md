@@ -3,7 +3,7 @@ title: "FAQ"
 linkTitle: "FAQ"
 weight: 70
 description: >
-  Frequently asked questions about the DAST scanner.
+  Frequently asked questions about the DAST Scanner.
 ---
 
 ## How does the crawler work?
@@ -24,14 +24,14 @@ Some common reasons are:
 ## My scan failed but I don't know why. How can I find out what happened?
 Go to the scan details page, where you can find more information about any existing errors or warnings. Alternatively, go to the scans list, where you can find all the scans, with a tooltip next to failed scans providing a summary of errors and warnings.
 
-## We tried out the DAST scanner and it brought down our app. Basically, we DOS’d ourselves. Is there a less intrusive way to scan?
+## We tried out the DAST Scanner and it brought down our app. Basically, we DOS’d ourselves. Is there a less intrusive way to scan?
 We currently don't have the rate-limiting option open to customers. However, here are some suggestions:
 - Try to scan the app during off-peak hours.
 - Configure your server to return a status code 429 (Too Many Requests) when the scanner hits it too fast. Our scanner will respect this status code and slow down the requests.
 - If these solutions don't work for you, please contact us for more help.
 
 ## Once the DAST scan started, our system began emailing all the users with accounts/email addresses. What is the DAST Scanner doing that initiated emails?
-The DAST scanner interacts with web pages similarly to how a human would, by clicking buttons and submitting forms on each crawled page. Do you have any critical pages or paths where you don't want the crawler to interact with buttons or submit forms? Examples include Settings, User Profiles, Security, Admin section, etc. Make sure the crawler is aware of which URLs to avoid to prevent unintended interactions and potential disruptions. You can add them to the Avoided URLs in the [target settings].
+The DAST Scanner interacts with web pages similarly to how a human would, by clicking buttons and submitting forms on each crawled page. Do you have any critical pages or paths where you don't want the crawler to interact with buttons or submit forms? Examples include Settings, User Profiles, Security, Admin section, etc. Make sure the crawler is aware of which URLs to avoid to prevent unintended interactions and potential disruptions. You can add them to the Avoided URLs in the [target settings].
 
 ## Can you give access to our developers only to DAST and not to the pentests?
 We don't have this fine-grained access control yet.
@@ -51,10 +51,10 @@ We can't do that at the moment, but we have it as a future roadmap candidate. Du
 ## Do you support scans against targets with basic HTTP auth enabled?
 We don't have this feature open to customers yet. However, you can contact us if you can't work around this limitation to assist you.
 
-## Does the DAST scanner support 2FA login?
+## Does the DAST Scanner support 2FA login?
 We don't have this feature open to customers yet. However, you can contact us if you can't work around this limitation to assist you.
 
-## Does the DAST scanner support CAPTCHA?
+## Does the DAST Scanner support CAPTCHA?
 We don't support this feature yet. Here are some suggestions:
 - Disable CAPTCHA for the scanner's IP address.
 - Set an exception for the test user in your system to bypass CAPTCHA checks.

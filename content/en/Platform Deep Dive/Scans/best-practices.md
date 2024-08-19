@@ -8,7 +8,7 @@ description: Tips and tricks to maximize the effectiveness of your DAST scans fr
 ## Reachability
 
 To ensure a successful scan, you should first verify the reachability of the target URL you provide. Several factors can impact the reachability of the target, including:
-- IP restrictions: Ensure that the scanner's IP is whitelisted in your firewall. You can find our IP on the [DAST scanner page].
+- IP restrictions: Ensure that the scanner's IP is whitelisted in your firewall. You can find our IP on the [DAST Scanner page].
 - VPN restrictions: Make sure the scanner can access the target URL without a VPN.
 - Test the target URL in your browser from another network or location to confirm its accessibility.
 
@@ -31,7 +31,7 @@ Is your Target a Single Page Application built using technologies like Reactjs, 
 
 <!-- links -->
 
-[DAST scanner page]: /platform-deep-dive/scans
+[DAST Scanner page]: /platform-deep-dive/scans
 [sequence recorder]: /platform-deep-dive/scans/sequence-recorder
 [target URL]: /platform-deep-dive/scans/targets/#examples-of-dast-targets
 [custom headers]: /platform-deep-dive/scans/target-auth/#custom-headers
