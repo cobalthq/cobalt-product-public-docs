@@ -22,7 +22,7 @@ Some common reasons are:
 - The server blocked the scanner's IP address. This can happen if the scanner is hitting the server too fast or too many times in a short period.
 
 ## My scan failed but I don't know why. How can I find out what happened?
-Go to the scan details page, where you can find more information about any existing errors or warnings. Alternatively, go to the scans list, where you can find all the scans, with a tooltip next to failed scans providing a summary of errors and warnings.
+Go to the scan details page, where you can find more information about any existing errors or warnings.
 
 ## We tried out the DAST Scanner and it brought down our app. Basically, we DOS’d ourselves. Is there a less intrusive way to scan?
 We currently don't have the rate-limiting option open to customers. However, here are some suggestions:
