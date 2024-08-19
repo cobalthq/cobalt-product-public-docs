@@ -148,7 +148,7 @@ To prevent an SSTI attack, never allow users to modify or create templates. If y
 
 Before using a template, identify and remove potentially malicious content.
 
-Make sure to efficiently analyze data that users pass. You can use various methods to do this, such as regular expression tools or whitelists of authorized expressions.
+Make sure to efficiently analyze data that users pass. You can use various methods to do this, such as regular expression tools or allowlists of authorized expressions.
 
 However, there is a drawback to this solution. Configuration errors can put your environment at risk.
 
