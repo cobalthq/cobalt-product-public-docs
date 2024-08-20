@@ -63,8 +63,8 @@ We don't support this feature yet. Here are some suggestions:
 ## Does the DAST API scanner work with GraphQL APIs?
 Currently, we do not support standalone GraphQL API scanning. However, if there is a target with an interface that uses a GraphQL service as its backend API (e.g., SPA), then we can scan it. Standalone GraphQL API scanning is on our roadmap for future development.
 
-## We have two regional TLDs for our targets (for example, .de and .co.uk). Is this one target or multiple targets?
-If the domains are different, then they are considered different targets. You can add them as separate targets in the platform. Unlike /de and /co.uk, which are considered different paths of the same target.
+## We have two regional TLDs for our targets (e.g., example.de and example.co.uk). Is this one target or multiple targets?
+If the domains are different (e.g., example.de and example.co.uk), then they are considered different targets. You can add them as separate targets in the platform. Unlike example.com/de and example.com/co.uk, which are considered different paths of the same target.
 
 <!-- links -->
 
