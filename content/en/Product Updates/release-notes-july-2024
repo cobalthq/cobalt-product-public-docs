@@ -25,15 +25,59 @@ With intuitive charts and visual aids, customers can now gain a consolidated ove
 
 
 ---
-left off here - delete line when ready
-#### API Scanning
 
-We are excited to introduce an advanced feature for users configuring a DAST target: the ability to select API with OpenAPI specifications and provide an OpenAPI/Swagger schema. This schema acts as a comprehensive map for the scanner, enabling it to effectively navigate and test all endpoints and functions of the API, ensuring thorough and accurate security testing.
+#### Ticketing Integrations Released for DAST Scans
 
-Notably, if a customer provides a URL to a live, published spec instead of uploading a static file, the scanner will dynamically fetch the schema before each scan. This ensures that the scanner always incorporates the most up-to-date version of the API specifications, enhancing the accuracy and relevance of the security assessments.
+Customers have expressed a strong desire to seamlessly integrate their DAST findings directly into their ticketing systems, a highly requested feature for DAST. In response to this feedback, we have enhanced our public API and Integration Builder to empower customers to:
 
-This enhancement empowers our users to leverage the latest API technologies while maintaining proactive security testing, reinforcing our commitment to providing cutting-edge solutions for comprehensive security assessments.
+- Retrieve their DAST targets data
+- Access their DAST scans data
+- Retrieve their DAST findings data
 
-{{% image src="/deepdive/scans/2_AddTarget-API.png" alt="Add API target" %}}
+With these improvements, customers will now receive real-time notifications when a DAST finding is detected or resolved. Additionally, we have introduced recipe templates in the Integration Builder Library, allowing customers to effortlessly push their DAST findings to popular platforms such as Jira Cloud, GitHub Issues, and Azure DevOps Boards.
+
+## Steps to Integrate with Ticketing Systems
+
+<iframe src="https://play.vidyard.com/kVCJ1gQ6ywr1t2G3K7Z46m" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+---
+
+#### DAST Release: Extra Hosts
+
+By introducing the “Extra Hosts” section to the target’s “Advanced Settings” page, customers now have the ability to include APIs residing on different hostnames as extra hosts. This enhancement ensures that the API will undergo scanning as part of the web target. The significance of this feature lies in providing customers with a more comprehensive view of their application's security. By scanning the API along with the web target, customers can identify and address vulnerabilities that may have gone undetected through isolated web target scans. 
+
+This integrated approach enhances security measures and empowers customers to proactively address potential risks in their applications.
+
+![DAST Extra Hosts](/release-notes/extra-hosts.png "DAST Extra Hosts")
+
+---
+
+#### Email Notifications for DAST Scans
+
+We have implemented email notifications for the following key actions: successful scan completion, scan failure, target creation, and target deletion. These notifications will be sent to all organization owners and the Customer Success Manager (CSM). 
+
+This enhancement ensures that important stakeholders are promptly informed about significant events related to their security scans, enabling them to stay informed and take timely action when necessary.
+
+![DAST Email Notifications](/release-notes/email-target-created.png "DAST Email Notifications")
+
+---
+
+#### Secure Code Reviews
+
+We are pleased to announce that Secure Code Reviews are now available on the Cobalt platform! This comprehensive offering includes several key features, which are outlined below:
+
+- **Effortless Initiation:** Customers can start a Secure Code Review directly from the Engagements or Catalog tab in just a few clicks. No more Statement of Work is required, as customers can create a Secure Code Review Brief and submit it for review.
+
+- **Coverage Checklist:** The Coverage Checklist provides customers with transparency into the specific areas and aspects that are evaluated during the Secure Code Review. Customers can track the progress of testers, mark items as complete, or identify items that are not applicable to the current engagement.
+
+- **Findings:** Our highly experienced Cobalt Core pentesters specialize in diverse technology stacks and assess your codebase rigorously for vulnerabilities. Our Cybersecurity Services team oversees this comprehensive process, ensuring that potential threats are discovered and reported in real-time, allowing for quick remediation.
+
+- **Reporting:** Upon completion of the engagement, customers receive a comprehensive Secure Code Review Report that includes an Executive Summary, Scope of Work, Methodology, Findings Summary and Risk Rating, Storyboard, and individual Findings and Remediation Guidance. You can view a sample report here.
+
+This new offering is designed to enhance the security and integrity of your codebase. Customers can gain valuable insights into the thoroughness of the assessment, leverage the expertise of our testers, and receive detailed reporting to address potential risks and strengthen overall security measures.
+
+![Secure Code Reviews ](/release-notes/SCR.png "Secure Code Reviews")
+
+![Secure Code Reviews Brief ](/release-notes/SCR-Brief.png "Secure Code Reviews Brief")
 
 ---
