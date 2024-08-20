@@ -31,7 +31,7 @@ Is your Target a Single Page Application built using technologies like Reactjs, 
 
 <!-- links -->
 
-[DAST scanner page]: /platform-deep-dive/scans
+[DAST Scanner page]: /platform-deep-dive/scans
 [sequence recorder]: /platform-deep-dive/scans/sequence-recorder
 [target URL]: /platform-deep-dive/scans/targets/#examples-of-dast-targets
 [custom headers]: /platform-deep-dive/scans/target-auth/#custom-headers
