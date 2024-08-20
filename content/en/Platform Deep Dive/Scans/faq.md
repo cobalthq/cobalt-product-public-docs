@@ -46,7 +46,7 @@ If the scan is completed, then the scanner didn't fail. However, you can check a
 - Ensure the test user has enough permissions to access all the pages and perform different actions.
 
 ## Are you able to tailor vulnerability severities per target?
-We can't do that at the moment, but we have it as a future roadmap candidate. Due to some technical dependencies, we likely wouldn't be able to start on this soon.
+We can't do that at the moment, but we have it as a future roadmap candidate.
 
 ## Do you support scans against targets with basic HTTP auth enabled?
 We don't have this feature open to customers yet. However, you can [contact us] if you can't work around this limitation to assist you.
