@@ -46,4 +46,3 @@ This enhancement empowers our users to leverage the latest API technologies whil
 
 {{% image src="/deepdive/scans/2_AddTarget-API.png" alt="Add API target" %}}
 
----
