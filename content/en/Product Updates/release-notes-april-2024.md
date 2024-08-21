@@ -36,6 +36,5 @@ What challenges does a DRA engagement solve for customers?
 - **Domain Protection:** Asset discovery is crucial for identifying dangling domains previously owned and used by an organization before an attacker exploits for malicious activities including subdomain takeovers. Identifying these dormant assets is essential to maintaining the integrity of an organization's online presence, ensuring all digital assets are accounted for and secured.
 - **Compliance and Regulation:** Different organizations/industries have different compliance requirements for various regulations and industry standards and must prove they have taken both offensive and defensive measures to manage digital risk. Regular assessments can help these organizations identify if sensitive information is inadvertently being exposed, which might lead to compliance issues.
 - **Post-Incident OSINT Analysis or Breach Intelligence Analysis:** After a breach, organizations may need to gather information about the attackers, their methods, and any additional threats they might face. This information can be valuable for understanding the scope of the breach, identifying the responsible parties, and preventing future incidents.
----
 
 
