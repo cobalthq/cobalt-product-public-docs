@@ -25,7 +25,7 @@ These enhancements provide customers with immediate feedback on the progress of 
 View more scan controls available [here](https://docs.cobalt.io/platform-deep-dive/scans/scans/).
 {{% /pageinfo %}}
 
-![Scans Progress Tracker](/release-notes/Scan Progress.png "Scans Progress Tracker")
+![Scans Progress Tracker](/release-notes/Scan-Progress.png "Scans Progress Tracker")
 
 
 ---
