@@ -21,7 +21,7 @@ As part of this update, we are introducing the all-new 'Attack Surface Insights'
 
 With intuitive charts and visual aids, customers can now gain a consolidated overview of the health status of their attack surface, empowering them to make informed decisions and optimize their security strategies. This update underscores our commitment to helping our users achieve a more robust and proactive security posture.
 
-![Attack Surface Insights](/release-notes/Attack Surface Insights.png "Attack Surface Insights")
+![Attack Surface Insights](/release-notes/Attack-Surface-Insights.png "Attack Surface Insights")
 
 
 ---
