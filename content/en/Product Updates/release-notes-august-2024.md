@@ -37,8 +37,3 @@ The problem we identified was that targets were used in different parts of the a
 To address this issue, we have introduced a new field called "Associated Targets" for web or API-related assets. This feature allows customers to directly associate targets with their assets and includes the option to add targets not listed in the Attack Surface using free text. Any targets added to an asset will also be included in new pentests created for that asset. Furthermore, pentesters can now select which targets in scope for a pentest are related to specific findings, allowing for more detailed attribution at the target level.
 
 ![Create Asset - Add Associated Targets](/release-notes/associated-targets.png "Add Associated Targets")
-
----
-
-
----
