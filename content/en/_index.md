@@ -17,10 +17,11 @@ cascade:
 
 <div style="padding-right: 2.0625rem;">
 
-<div class="jumbotron px-5" style="background-color: #F8F9FB; margin-bottom: 4rem;">
+<div class="jumbotron px-5" style="background-color: #E5F3FA; margin-bottom: 4rem;">
        <h1>Welcome to Cobalt Documentation</h1>
-       <p class="my-3">Deep dive into our documentation to explore Cobalt—your all-in-one platform for pentesting your software.</p>
-       <a class="btn btn-outline-primary rounded" href="https://www.cobalt.io/" target="_blank">Explore Cobalt »</a>
+       <h3>Deep Dive into Cobalt</h3>
+       <p class="my-3">Explore our comprehensive documentation to uncover the full potential of Cobalt — the all-in-one platform designed for pentesting your software.</p>
+      
 </div>
 
 <div class="row g-4 my-3 px-5 row-cols-1 row-cols-lg-3">
