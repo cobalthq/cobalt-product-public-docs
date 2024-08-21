@@ -80,4 +80,3 @@ This new offering is designed to enhance the security and integrity of your code
 
 ![Secure Code Reviews Brief ](/release-notes/SCR-Brief.png "Secure Code Reviews Brief")
 
----
