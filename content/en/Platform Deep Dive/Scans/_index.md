@@ -17,7 +17,10 @@ The DAST Scanner addresses these challenges head-on. By combining the power of P
 To get started with the DAST Scanner, you will need to add a target. Every Cobalt Customer has access to one target for free unlimited scanning. Additional targets can be purchased. Learn more about [targets](/platform-deep-dive/scans/targets).
 
 {{% alert title="Note" color="primary" %}}
-We use the following IP Address to make requests to your target: **52.19.40.38**
+Our DAST Scanner makes requests from the following IP Address: **52.19.40.38**
+
+Please ensure this IP is added to your allow-list if you have a WAF or other controls in place. Additionally, if you have geo-blocking controls, our scanner runs from the EU, in Ireland. Please ensure your target is reachable from this IP and location. 
+
 {{% /alert %}}
 
 ## How to Use the DAST Scanner
