@@ -36,7 +36,7 @@ Customers have expressed a strong desire to seamlessly integrate their DAST find
 
 With these improvements, customers will now receive real-time notifications when a DAST finding is detected or resolved. Additionally, we have introduced recipe templates in the Integration Builder Library, allowing customers to effortlessly push their DAST findings to popular platforms such as Jira Cloud, GitHub Issues, and Azure DevOps Boards.
 
-## Steps to Integrate with Ticketing Systems
+##### Steps to Integrate with Ticketing Systems
 
 <iframe src="https://play.vidyard.com/kVCJ1gQ6ywr1t2G3K7Z46m" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
