@@ -33,6 +33,4 @@ We believe that this new chart will empower our customers to make informed decis
 
 ![Age by Severity Chart](/release-notes/age-by-severity.png "Age by Severity")
 
----
-
 
