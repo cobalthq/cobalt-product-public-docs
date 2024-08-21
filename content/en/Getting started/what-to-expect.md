@@ -26,7 +26,7 @@ results. Here's what you can expect:
    on your requirements for the pentest.
 1. As our pentesters analyze your asset, they'll add updates frequently. If they discover vulnerabilities ("[findings](/platform-deep-dive/pentests/findings/)"), you can start
    [remediating](/platform-deep-dive/pentests/findings/remediate-findings/) them before the pentest is complete.
-1. Once the pentest is complete, we move it from Live to Remediation.
+1. Once the pentest is complete, we move it from Live to Remediation. Remember to delete/disable or rotate credentials to prevent unauthorized access or misuse once the testing period is over.
 1. Review and analyze each [finding](/platform-deep-dive/pentests/findings/). You can:
     {{% process-findings %}}
 1. <a id="report-timing">When your pentest is in Remediation or Closed, you can download [pentest reports](/platform-deep-dive/pentests/reports/).
