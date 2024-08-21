@@ -27,8 +27,6 @@ We are thrilled to introduce Cobalt Engagements, a new platform feature that str
 
 Gone are the days of dealing with separate briefing documents, scoping questionnaires, and lengthy back-and-forth discussions to finalize a Statement of Work. With Cobalt Engagements, customers can now initiate a DRA engagement directly through our platform, simplifying and expediting the entire process.
 
-But that's not all - DRA is just the beginning. We are committed to continuously developing and introducing new engagements and functionality that will cater to our customers' evolving security needs. Stay tuned for more exciting updates in the future!![Severity Trend Chart](/release-notes/severity_trend.png "Severity Trend")
-
 ![DRA](/release-notes/DRA.png "DRA")
 
 What challenges does a DRA engagement solve for customers?
