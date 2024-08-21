@@ -1,7 +1,7 @@
 ---
 title: "Release Notes: August 2024"
 linkTitle: "August 2024"
-weight: 50
+weight: 44
 description: >-
      Explore What's New from Cobalt This Month
 ---
