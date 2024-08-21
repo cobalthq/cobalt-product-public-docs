@@ -93,8 +93,11 @@ cascade:
     </div>
 
 <div class="text mx-5">
-  <h3>Need More Help? Get in Touch!</h3>
-  <p>If you need help, don't hesitate to contact us.</p><ul><li>If you have a named Customer Success Manager, get in touch with them.</li><li>Otherwise, <a href="https://cobaltio.zendesk.com/hc/en-us/requests/new" target="_blank">submit a ticket</a> or send an email to <a href="mailto:support@cobalt.io" target="_blank">support@cobalt.io</a>.</ul>
+{{< alert title="Need Further Assistance? Contact Us!" color="primary" >}}
+If you need help, don't hesitate to reach out directly to your customer success manager, <a href="https://cobaltio.zendesk.com/hc/en-us/requests/new" target="_blank">submit a ticket</a>, or send us an email at <a href="mailto:support@cobalt.io" target="_blank">support@cobalt.io</a>.
+{{< /alert >}}
+</div>
+
 </div>
 
 </div>
