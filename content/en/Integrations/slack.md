@@ -22,12 +22,12 @@ Currently, Cobalt offers standard Slack recipes enabling:
     - Total number of Targets detected
     - Number of new Targets detected in the last 7 days
 
-You can configure the Slack integration using Cobalt’s [Integration Builder](https://docs.cobalt.io/integrations/integrationbuilder/) feature.
+You can configure the Slack integration using Cobalt’s [Integration Builder](/integrations/integrationbuilder/) feature.
 
 We will be adding more functionality to Slack over the coming months.
 
 ## Configure the Integration
-As an [Organization Owner](https://docs.cobalt.io/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](https://docs.cobalt.io/platform-deep-dive/collaboration/user-roles/#organization-member), you can:
+As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](/platform-deep-dive/collaboration/user-roles/#organization-member), you can:
 
 1. In Cobalt, navigate to Integrations, and click “[Open Integration Builder](https://app.us.cobalt.io/integrations/builder)”
 2. Go to the Library tab.
