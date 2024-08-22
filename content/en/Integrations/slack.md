@@ -73,7 +73,7 @@ You may want to deactivate the integration with Slack.
 2. Go to the **Projects** tab.
 3. Under **Connections**, select the connection you want to remove, and click **Delete** in the meatball menu.
 
-### Frequently Asked Questions
+## Frequently Asked Questions
 
 Q: The Workbot Slack App says it’s “Paid with a free trial” – will we be paying extra for this?
 A: Cobalt has a partnership deal with Workato, and there will be no extra costs for adding and using the Workbot.
