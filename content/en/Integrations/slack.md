@@ -3,9 +3,8 @@ title: "Integrate Slack with Cobalt"
 linkTitle: "Integrate Slack with Cobalt"
 weight: 20
 description: >
-Receive updates in Slack
-
-Learn how to set up an integration between Cobalt and Slack. The availability of this feature depends on your PtaaS tier.
+    Receive updates in Slack
+    Learn how to set up an integration between Cobalt and Slack. The availability of this feature depends on your PtaaS tier.
 ---
 
 {{% pageinfo %}}
