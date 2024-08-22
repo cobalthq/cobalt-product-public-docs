@@ -76,4 +76,5 @@ You may want to deactivate the integration with Slack.
 ## Frequently Asked Questions
 
 Q: The Workbot Slack App says it’s “Paid with a free trial” – will we be paying extra for this?
+
 A: Cobalt has a partnership deal with Workato, and there will be no extra costs for adding and using the Workbot.
