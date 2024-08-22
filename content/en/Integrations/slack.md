@@ -1,6 +1,6 @@
 ---
 title: "Integrate Slack with Cobalt"
-linkTitle: "Integrate Slack with Cobalt"
+linkTitle: "Slack"
 weight: 20
 description: >
     Receive updates in Slack
@@ -11,7 +11,7 @@ Learn how to set up an integration between Cobalt and Slack. The availability of
 {{% /pageinfo %}}
 
 
-### Integration Overview
+## Integration Overview
 Slack is a messaging platform for team collaboration.
 
 Currently, Cobalt offers standard Slack recipes enabling:
@@ -26,7 +26,7 @@ You can configure the Slack integration using Cobalt’s [Integration Builder](h
 
 We will be adding more functionality to Slack over the coming months.
 
-### Configure the Integration
+## Configure the Integration
 As an [Organization Owner](https://docs.cobalt.io/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](https://docs.cobalt.io/platform-deep-dive/collaboration/user-roles/#organization-member), you can:
 
 1. In Cobalt, navigate to Integrations, and click “[Open Integration Builder](https://app.us.cobalt.io/integrations/builder)”
@@ -66,16 +66,16 @@ With this done, you can go through the last steps of setting up the Slack integr
 
 6. Test the integration by clicking “Test Recipe.”
 
-### Deactivate the Integration
+## Deactivate the Integration
 You may want to deactivate the integration with Slack.
 
 1. In Cobalt, navigate to **Integrations**, and click “Open Integration Builder.”
 2. Go to the **Projects** tab.
 3. Under **Connections**, select the connection you want to remove, and click **Delete** in the meatball menu.
 
-### Troubleshooting
+## Troubleshooting
 
-#### Frequently Asked Questions
+### Frequently Asked Questions
 
 Q: The Workbot Slack App says it’s “Paid with a free trial” – will we be paying extra for this?
 A: Cobalt has a partnership deal with Workato, and there will be no extra costs for adding and using the Workbot.
