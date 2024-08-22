@@ -39,17 +39,17 @@ As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organiz
 
 Now the recipe has been added to your Org. Next steps will require you to have the Workato Workbot added to your Slack Workspace.
 
-1. Install Workbot in Slack
+###### 1. Install Workbot in Slack
 Go to the Slack App Directory: Visit the Slack App Directory and search for "Workbot."
 
 Install the App: Click the "Add to Slack" button to install Workbot to your workspace. You may need admin permissions to do this.
 Note: The Workbot Slack App says it’s “Paid with a free trial” – adding the Workato Workbot is free of charge, as Cobalt already has a partnership in place with Workato.
 
-2. Authorize Workbot
+###### 2. Authorize Workbot
 
 Authorization: Once you’ve installed the app, Slack will prompt you to authorize Workbot to access your workspace. Review the permissions and click “Authorize.”
 
-3. Add Workbot to a Slack Channel
+###### 3. Add Workbot to a Slack Channel
 Select a Channel: Decide which channel(s) you want Workbot to send messages to.
 
 Invite Workbot: In Slack, go to the channel you’ve chosen and type `/invite @Workbot` to invite the bot to the channel.
@@ -60,11 +60,11 @@ Once the Workbot is added to your Slack workspace, you need to add it to the spe
 
 With this done, you can go through the last steps of setting up the Slack integration in the Integration Builder:
 
-4. Give the connection a Name, e.g., “Cobalt Slack Connector.”
+###### 4. Give the connection a Name, e.g., “Cobalt Slack Connector.”
 
-5. In “Reply Channel,” pick the Slack channel you want the Workbot to send to in the dropdown.
+###### 5. In “Reply Channel,” pick the Slack channel you want the Workbot to send to in the dropdown.
 
-6. Test the integration by clicking “Test Recipe.”
+###### 6. Test the integration by clicking “Test Recipe.”
 
 ## Deactivate the Integration
 You may want to deactivate the integration with Slack.
