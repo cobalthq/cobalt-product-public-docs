@@ -12,6 +12,11 @@ aliases:
 Scan your Domains to discover Targets.
 {{% /pageinfo %}}
 
+{{% alert title="Note" color="primary" %}} Cobalt's Attack Surface features make requests from the following IP Addresses: 35.186.191.105 (US) and 34.89.192.162 (EU).
+
+Please add these IPs to your allow-list if you have a WAF or other controls in place to ensure your domains are reachable.
+{{% /alert %}}
+
 One of the largest cybersecurity challenges for enterprises today is understanding their complete attack surface and its risk posture. Oftentimes, organizations may have publicly discoverable assets that they didn’t previously know about, leaving them exposed to attack.
 
 Attack Surface is an attack surface discovery/monitoring (ASM) feature to help customers understand what Targets under their Domains are externally reachable, ensuring that all assets in their environment can be properly secured.
