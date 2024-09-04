@@ -54,6 +54,10 @@ We don't have this feature open to customers yet. However, you can [contact us] 
 ## Does the DAST Scanner support 2FA login?
 We don't have this feature open to customers yet. However, you can [contact us] if you can't work around this limitation to assist you.
 
+## We use an external service for form-based authentication. Can the DAST Scanner handle this?
+The DAST Scanner can handle this as long as you provide a login URL on the same domain as the target (e.g., `my.example.com/login`), and the crawler will follow the redirection to the external URL.
+When in doubt, you can use the [sequence recorder] to record the login sequence.
+
 ## Does the DAST Scanner support CAPTCHA?
 We don't support this feature yet. Here are some suggestions:
 - Disable CAPTCHA for the scanner's IP address.
@@ -74,3 +78,4 @@ If the domains are different (e.g., example.de and example.co.uk), then they are
 [contact us]: mailto:dast@cobalt.io
 [login form]: /platform-deep-dive/scans/target-auth/#using-a-login-form
 [crawl report]: /platform-deep-dive/scans/#crawl-report
+[sequence recorder]: /platform-deep-dive/scans/sequence-recorder
