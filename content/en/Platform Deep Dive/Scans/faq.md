@@ -55,7 +55,7 @@ We don't have this feature open to customers yet. However, you can [contact us] 
 We don't have this feature open to customers yet. However, you can [contact us] if you can't work around this limitation to assist you.
 
 ## We use an external service for form-based authentication. Can the DAST Scanner handle this?
-The DAST Scanner can handle this as long as you provide a login URL on the same domain as the target (e.g., `my.example.com/login`), and the crawler will follow the redirection to the external URL.
+The DAST Scanner can handle this as long as you provide a login URL on the same domain as the target (e.g., `my-app.example.com/login`), and the crawler will follow the redirection to the external URL.
 When in doubt, you can use the [sequence recorder] to record the login sequence.
 
 ## Does the DAST Scanner support CAPTCHA?
