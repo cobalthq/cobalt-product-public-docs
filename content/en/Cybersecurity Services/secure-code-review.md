@@ -40,6 +40,10 @@ Here are some steps that can be included in a secure code review:
 - Manually review business logic 
 - Provide recommendations on reasonable mitigations that could address discovered issues or suggested code changes or upgrade paths to fix findings (when applicable). 
 
+{{% alert title="Note" color="primary" %}}
+{{% various-tools %}}
+{{% /alert %}}
+
 #### Software Composition Analysis 
 
 During Software Composition Analysis (SCA), Cobalt analyzes open-source and third-party components for known vulnerabilities.
@@ -52,6 +56,17 @@ The six phases for SCA are:
 5. Risk Assessment
 6. Remediation Guidance  
 
+{{% alert title="Tools" color="primary" %}}
+Cobalt pentesters may use Software Composition Analysis tools such as:
+
+- Semgrep Pro
+- OWASP Dependency-Check
+- Snyk Open Source
+- Trivy
+- Sonatype
+- Jfrog Xray
+{{% /alert %}}
+
 #### Static Application Security Testing
 
 Cobalt leverages Static Application Security Testing (SAST) tools when performing secure code reviews which aids in the manual efforts when searching for patterns in large codebases. A benefit for using SAST tools is that it helps identify all instances of the vulnerability in the application. Some common findings found with a SAST tool are:
@@ -62,6 +77,18 @@ Cobalt leverages Static Application Security Testing (SAST) tools when performin
 - Insecure communications
 - Buffer overflows
 - Authorization flaws
+
+{{% alert title="Tools" color="primary" %}}
+Cobalt pentesters may use Static Application Security Testing tools such as:
+
+- Semgrep Pro
+- Bearer
+- Checkmarx
+- Fortify
+- Snyk
+- SonarQube
+- Veracode 
+{{% /alert %}}
 
 #### Manual Review of Business Logic
 
