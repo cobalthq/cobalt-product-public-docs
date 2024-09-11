@@ -35,9 +35,9 @@ At Cobalt, we follow [OWASP Secure Coding Guidelines](https://owasp.org/www-proj
 Here are some steps that can be included in a secure code review:
 
 - Analyze the software composition: Inventory open-source components and flag potential issues using software composition analysis (SCA) tools.
-- Perform Static Application Security Testing: Execute an automated SAST tool to identify common vulnerabilities
-- Manually validate the automated findings: Review and evaluate automated results to identify and validate true issues within critical functionality. Note: some finding classes - such as code injection - cannot be validated without active engagement of the running application. 
-- Manually review business logic 
+- Perform Static Application Security Testing: Execute an automated SAST tool to identify common vulnerabilities.
+- Manually validate the automated findings: Review and evaluate automated results to identify and validate true issues within critical functionality. **Note:** Some finding classes - such as code injection - cannot be validated without active engagement of the running application. 
+- Manually review business logic. 
 - Provide recommendations on reasonable mitigations that could address discovered issues or suggested code changes or upgrade paths to fix findings (when applicable). 
 
 {{% alert title="Note" color="primary" %}}
