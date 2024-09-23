@@ -28,7 +28,7 @@ Find out how to create a Cobalt Connector [here](integrations/integrationbuilder
 The following is a quick guide on how to create a Workato connection for Microsoft Outlook.
 In case you're looking for a more comprehensive and general guide on how to manage connections, check [here](integrations/integrationbuilder/connect-your-applications/).
 
-Go to the Integration Builder > Projects. Select or create a project on the left-side of the page. Then click on the "Create" button on the top-right and choose the "Connection" option.
+Go to the `Integration Builder` > `Projects`. Select or create a project on the left-side of the page. Then click on the "Create" button on the top-right and choose the "Connection" option.
 ![Create a connection for your project](/integrations/integration_builder/findings_outlook_notifications/create_connection_step1.png "Create a connection for your project")
 
 A "New Connection" page will show up. Look for "Outlook" and select the corresponding tile. You can optionally use the search field to quickly find the connection.
@@ -42,13 +42,26 @@ Once signed in with Microsoft, you should get a confirmation that the connection
 
 ### 3. Find and select a recipe
 
-Go to the Integration Builder > Library and look for Outlook.
-![Add filters](/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step1.png "Add filters")
+Go to the `Integration Builder` > `Library` and select Outlook. 
+![Outlook tile](/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step1.png "Outlook tile")
 
 Choose between both options:
 A. [Cobalt > Outlook] When pentest finding moved to Pending Fix, send email notification
 B. [Cobalt > Outlook] When DAST finding is detected, send email notification
+For the purpose of this guide, we'll go with "When pentest finding moved to Pending Fix, send email notifications". The process is very similar for DAST findings, so these steps should help you out in that case as well.
+![Outlook recipes](/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step2.png "Outlook recipes")
 
-For the sake of this guide, we'll assume you're interested in getting notified every time there's a new finding on a pentest. The process is very similar for DAST findings, so this should help you out in that case as well.
+Click on "Use this recipe".
+![Use Outlook recipe](/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step3.png "Use Outlook recipe")
 
-![Add filters](/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step1.png "Add filters")
+You will be prompted to copy the recipe. Choose a preferred location and click "Copy and save".
+![Copy Outlook recipe](/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step4.png "Copy Outlook recipe")
+
+Select the Cobalt trigger at the top of the flow diagram, in order to select the already created Cobalt Connector you want to use. In the sidebar you will be able to select which pentest you want the recipe to listen for findings from. Choose whichever you want to configure the recipe for.
+![Configure Cobalt connection](/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step5.png "Configure Cobalt connection")
+
+Select "Send email from Outlook Mail" at the bottom of the flow diagram. At the top of the page choose "Connection" to select the previously created Outlook connection. Then provide an email in the "To" field. You can optionally customize To, BCC, Subject and Message, among others as needed.
+![Configure Outlook connection](/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step6.png "Configure Outlook connection")
+
+Once ready, click "Save" at the top-right of the page.
+![Save recipe](/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step7.png "Save recipe")
