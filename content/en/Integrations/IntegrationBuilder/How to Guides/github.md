@@ -17,6 +17,11 @@ You can use Integration Builder to push pentest and/or DAST findings to GitHub I
 To use GitHub recipes, you must have a GitHub account and a repository where you
 want to push findings as issues.
 
+{{% expand "GitHub Documentation" %}}
+- [Create a GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
+- [Create a repository](https://docs.github.com/en/get-started/start-your-journey/hello-world#step-1-create-a-repository)
+{{% /expand %}}
+
 ## Set up the GitHub connection
 
 1. Click the create connection button
