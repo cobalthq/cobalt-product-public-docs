@@ -85,7 +85,7 @@ findings to GitHub issues, click the "Start recipe" button.
 
 ![Recipe running](/integrations/integration_builder/how_to_guides/github/17_recipe-running.png "Recipe running")
 
-## Testing the recipe
+## Test the recipe
 
 To test the recipe with pentest findings, follow the guide for
 [creating a test finding](/integrations/development/create-test-finding/).
@@ -93,3 +93,19 @@ To test the recipe with pentest findings, follow the guide for
 To test the recipe with [DAST scan](/platform-deep-dive/scans/)
 findings, run a scan against the target `https://brokencrystals.com` and wait
 for the scan to complete.
+
+## Edit the recipe
+
+To edit the recipe, you need to stop it first. Click the "Stop recipe" button at
+the top of the recipe page.
+
+![Stop recipe](/integrations/integration_builder/how_to_guides/github/17_recipe-running.png "Stop recipe")
+
+Click the "Edit" button to open the recipe editor.
+
+![Edit recipe](/integrations/integration_builder/how_to_guides/github/18_edit-recipe.png "Edit recipe")
+
+Make your changes in the recipe editor. Once you're finished, make sure to click
+the save button and re-start the recipe as shown in step 4 of the set up flow above.
+
+![Recipe editor](/integrations/integration_builder/how_to_guides/github/19_recipe-editor.png "Recipe editor")
