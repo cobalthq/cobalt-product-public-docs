@@ -21,32 +21,32 @@ want to push findings as issues.
 
 1. Click the create connection button
 
-![Create connection folder view](/integrations/integration_builder/how_to_guides/github/1_create-connection-start.png "Create connection folder view")
+![Create connection folder view](/integrations/integration_builder/how_to_guides/github/01_create-connection-start.png "Create connection folder view")
 
 2. Select the GitHub connector
 
-![Select GitHub connector](/integrations/integration_builder/how_to_guides/github/2_new-connection.png "Select GitHub connector")
+![Select GitHub connector](/integrations/integration_builder/how_to_guides/github/02_new-connection.png "Select GitHub connector")
 
 3. Input a name for the connection
 
-![Enter connection name](/integrations/integration_builder/how_to_guides/github/3_connect-to-github.png "Enter connection name")
+![Enter connection name](/integrations/integration_builder/how_to_guides/github/03_connect-to-github.png "Enter connection name")
 
 4. Authorize the connection
 
-![Authorize connection](/integrations/integration_builder/how_to_guides/github/4_oauth-authorize.png "Authorize connection")
-![Connected connection](/integrations/integration_builder/how_to_guides/github/5_connected "Connected connection")
+![Authorize connection](/integrations/integration_builder/how_to_guides/github/04_oauth-authorize.png "Authorize connection")
+![Connected](/integrations/integration_builder/how_to_guides/github/05_connected.png "Connected")
 
 5. Create a folder for the recipes
 
-![Create folder](/integrations/integration_builder/how_to_guides/github/6_create-folder.png "Create folder")
-![Name folder](/integrations/integration_builder/how_to_guides/github/7_name-folder.png "Name folder")
-![Folder created](/integrations/integration_builder/how_to_guides/github/8_folder-created.png "Folder created")
+![Create folder](/integrations/integration_builder/how_to_guides/github/06_create-folder.png "Create folder")
+![Name folder](/integrations/integration_builder/how_to_guides/github/07_name-folder.png "Name folder")
+![Folder created](/integrations/integration_builder/how_to_guides/github/08_folder-created.png "Folder created")
 
 ## Set up the GitHub recipe
 
 1. Navigate to the recipe library and click on GitHub
 
-![Recipe library](/integrations/integration_builder/how_to_guides/github/9_recipe-library.png "Recipe library")
+![Recipe library](/integrations/integration_builder/how_to_guides/github/09_recipe-library.png "Recipe library")
 
 2. Click on the recipe you want to use and copy it into the folder created in step 5 above.
 **Note:** This guide uses pentest findings, but there is also a recipe for DAST findings.
