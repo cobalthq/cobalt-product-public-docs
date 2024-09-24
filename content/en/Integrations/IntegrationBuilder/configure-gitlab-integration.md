@@ -14,11 +14,9 @@ To configure GitLab to create issues for new findings, you need three general st
 
 ### 1. Obtain a GitLab Project Access Token
 
-To obtain a GitLab project access token, go to your GitLab project settings, and then access tokens. Create a new access token and copy it.
+To obtain a GitLab project access token, go to your GitLab project settings,create a new project access token, and copy it to be used later.
 
-{{% image src="/integrations/integration_builder/gitlab/07-gitlab-get-access-token-1.png" alt="GitLab access tokens menu" %}}
-
-{{% image src="/integrations/integration_builder/gitlab/07-gitlab-get-access-token-2.png" alt="GitLab create project access token" %}}
+Follow [GitLab Docs](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) to learn more about creating a project access token.
 
 ### 2. Create a New Connection on the Cobalt Platform
 
