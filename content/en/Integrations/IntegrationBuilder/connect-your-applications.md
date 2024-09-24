@@ -12,15 +12,15 @@ Manage your connections within the Projects tab of the Integration Builder
 
 1. Click the create connection button
 
-![Create connection folder view](/integrations/integration_builder/connect_your_apps/set_up_connection/folder_view.png "Create connection folder view")
+{{% image src="/integrations/integration_builder/connect_your_apps/set_up_connection/folder_view.png" alt="Create connection folder view" %}}
 
 2. Select the connector for the application that you want to connect to
 
-![Select connector](/integrations/integration_builder/connect_your_apps/set_up_connection/select_connector.png "Select connector")
+{{% image src="/integrations/integration_builder/connect_your_apps/set_up_connection/select_connector.png" alt="Select connector" %}}
 
 3. Input the URL of the application to connect to and the authentication information
 
-![Enter system details](/integrations/integration_builder/connect_your_apps/set_up_connection/enter_system_details.png "Enter system details")
+{{% image src="/integrations/integration_builder/connect_your_apps/set_up_connection/enter_system_details.png" alt="Enter system details" %}}
 
 4. Click connect
 
@@ -30,11 +30,11 @@ You can now use triggers and actions within recipes to interact with the app you
 
 1. Select the connection that you would like to edit
 
-![Select connection](/integrations/integration_builder/connect_your_apps/edit_connection/select_connection.png "Select connection")
+{{% image src="/integrations/integration_builder/connect_your_apps/edit_connection/select_connection.png" alt="Select connection" %}}
 
 2. Disconnect the connection. Recipes that are using the connection will stop working while the connection is disconnected.
 
-![Disconnect connection](/integrations/integration_builder/connect_your_apps/edit_connection/disconnect_connection.png "Disconnect connection")
+{{% image src="/integrations/integration_builder/connect_your_apps/edit_connection/disconnect_connection.png" alt="Disconnect connection" %}}
 
 3. Update the connection information
 
@@ -46,7 +46,7 @@ You can now use triggers and actions within recipes to interact with the app you
 
 2. Click the Delete Connection button. Any recipes that use this connection will stop working
 
-![Delete connection](/integrations/integration_builder/connect_your_apps/delete_connection/delete_connection.png "Delete connection")
+{{% image src="/integrations/integration_builder/connect_your_apps/delete_connection/delete_connection.png" alt="Delete connection" %}}
 
 ## Available connectors
 
