@@ -13,7 +13,7 @@ In order to configure Outlook to send emails every time a new finding gets creat
   A. [Cobalt > Outlook] When pentest finding moved to Pending Fix, send email notification
   B. [Cobalt > Outlook] When DAST finding is detected, send email notification
 4. Copy and customize the recipe
-  1. Configure which pentest should trigger notififcaitons when findings get created.
+  1. Configure which pentest should trigger notifications when findings get created.
   2. Configure which email address to send the to.
 5. Start the recipe
 
@@ -51,6 +51,8 @@ B. [Cobalt > Outlook] When DAST finding is detected, send email notification
 For the purpose of this guide, we'll go with "When pentest finding moved to Pending Fix, send email notifications". The process is very similar for DAST findings, so these steps should help you out in that case as well.
 ![Outlook recipes](/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step2.png "Outlook recipes")
 
+### 4. Copy and customize the recipe
+
 Click on "Use this recipe".
 ![Use Outlook recipe](/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step3.png "Use Outlook recipe")
 
@@ -65,3 +67,13 @@ Select "Send email from Outlook Mail" at the bottom of the flow diagram. At the 
 
 Once ready, click "Save" at the top-right of the page.
 ![Save recipe](/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step7.png "Save recipe")
+
+### 5. Start the recipe
+After saving the recipe, select "Start recipe" at the top of the page. This may take a few seconds.
+![Start recipe](/integrations/integration_builder/findings_outlook_notifications/start_recipe.png "Start recipe")
+
+Once the recipe is running, you will see the jobs tab to monitor any events. This can be left open to verify whether a created finding triggers the desired notification.
+The recipe will continue running even when closing the tab, until "Stop recipe" gets clicked.
+
+![Running recipe](/integrations/integration_builder/findings_outlook_notifications/running_recipe.png "Running recipe")
+
