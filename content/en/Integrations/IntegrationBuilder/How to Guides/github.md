@@ -1,6 +1,6 @@
 ---
-title: "GitHub"
-linkTitle: "GitHub"
+title: "Push Findings to GitHub"
+linkTitle: "Push Findings to GitHub"
 weight: 40
 ---
 
@@ -8,7 +8,7 @@ weight: 40
 How to use Integration Builder to push findings to GitHub Issues.
 {{% /pageinfo %}}
 
-## Push findings to GitHub Issues
+## Push Findings to GitHub Issues
 
 You can use Integration Builder to push pentest and/or DAST findings to GitHub Issues.
 
@@ -22,68 +22,121 @@ want to push findings as issues.
 - [Create a repository](https://docs.github.com/en/get-started/start-your-journey/hello-world#step-1-create-a-repository)
 {{% /expand %}}
 
-## Set up the GitHub connection
+## Create the GitHub connection
 
-1. Click the create connection button
+If you haven't already, you need to create a connection to GitHub. If you
+already have a GitHub connection, you can skip this section.
 
-![Create connection folder view](/integrations/integration_builder/how_to_guides/github/01_create-connection-start.png "Create connection folder view")
+1. Navigate to the Projects tab of the Integration Builder.
 
-2. Select the GitHub connector
+1. Click the "Create" button to open the menu, then click "Connection."
 
-![Select GitHub connector](/integrations/integration_builder/how_to_guides/github/02_new-connection.png "Select GitHub connector")
+{{% image src="/integrations/integration_builder/how_to_guides/github/01_create-connection-start.png" alt="Create connection" %}}
 
-3. Input a name for the connection
+1. Click on the GitHub connector.
 
-![Enter connection name](/integrations/integration_builder/how_to_guides/github/03_connect-to-github.png "Enter connection name")
+{{% image src="/integrations/integration_builder/how_to_guides/github/02_new-connection.png" alt="Select GitHub connector" %}}
 
-4. Authorize the connection
+1. Input a name for the connection and click the "Connect" button.
 
-![Authorize connection](/integrations/integration_builder/how_to_guides/github/04_oauth-authorize.png "Authorize connection")
+{{% image src="/integrations/integration_builder/how_to_guides/github/03_connect-to-github.png" alt="Enter connection name" %}}
 
-![Connected](/integrations/integration_builder/how_to_guides/github/05_connected.png "Connected")
+1. Authorize the connection.
 
-5. Create a folder for your GitHub recipes inside the Cobalt project.
+{{% image src="/integrations/integration_builder/how_to_guides/github/04_oauth-authorize.png" alt="Authorize connection" %}}
+
+1. Once the connection is authorized, you will see the "Connected" status.
+
+{{% image src="/integrations/integration_builder/how_to_guides/github/05_connected.png" alt="Connected" %}}
+
+## Create a folder for your GitHub recipes
+
+1. Navigate to the Projects tab of the Integration Builder.
+
+1. Click the "Create" button to open the menu, then click "Folder."
+
+{{% image src="/integrations/integration_builder/how_to_guides/github/06_create-folder.png" alt="Create folder" %}}
+
+1. Input the folder name and click "Create folder."
 **NOTE**: We recommend naming the folder "GitHub" for keeping recipes organized
 by integrated system.
 
-![Create folder](/integrations/integration_builder/how_to_guides/github/06_create-folder.png "Create folder")
+{{% image src="/integrations/integration_builder/how_to_guides/github/07_name-folder.png" alt="Name folder" %}}
 
-![Name folder](/integrations/integration_builder/how_to_guides/github/07_name-folder.png "Name folder")
+1. The new folder will be empty by default.
 
-![Folder created](/integrations/integration_builder/how_to_guides/github/08_folder-created.png "Folder created")
+{{% image src="/integrations/integration_builder/how_to_guides/github/08_folder-created.png" alt="Folder created" %}}
 
 ## Set up the GitHub recipe
 
-1. Navigate to the recipe library and click on GitHub
+**Note:** This guide uses the pentest findings recipe, but there is also a recipe for DAST findings.
+You should be able to use the same steps for either recipe.
 
-![Recipe library](/integrations/integration_builder/how_to_guides/github/09_recipe-library.png "Recipe library")
+1. Navigate to the Library tab and click on GitHub.
 
-2. Click on the recipe you want to use and copy it into the folder created in step 5 above.
-**Note:** This guide uses pentest findings, but there is also a recipe for DAST findings.
+{{% image src="/integrations/integration_builder/how_to_guides/github/09_recipe-library.png" alt="Recipe library" %}}
 
-![Select recipe](/integrations/integration_builder/how_to_guides/github/10_select-recipe.png "Select recipe")
+1. Click on the recipe you want to use, then click "Use recipe."
 
-![Use recipe](/integrations/integration_builder/how_to_guides/github/11_use-recipe.png "Use recipe")
+{{% image src="/integrations/integration_builder/how_to_guides/github/10_select-recipe.png" alt="Select GitHub recipe" %}}
 
-![Copy recipe](/integrations/integration_builder/how_to_guides/github/12_copy-recipe.png "Copy recipe")
+{{% image src="/integrations/integration_builder/how_to_guides/github/11_use-recipe.png" alt="Use GitHub recipe" %}}
 
-3. You will need to customize the recipe to use your GitHub organization and
-repository. Click the button to customize the recipe, then enter or select your
-organization and repository name in the required fields. Make sure you save the
-recipe after customizing it.
+1. Select the folder you created and click "Copy and save."
 
-![Start customizing](/integrations/integration_builder/how_to_guides/github/13_customize-recipe-start.png "Start customizing")
+{{% image src="/integrations/integration_builder/how_to_guides/github/12_copy-recipe.png" alt="Copy GitHub recipe" %}}
 
-![Customize recipe](/integrations/integration_builder/how_to_guides/github/14_customize-recipe.png "Customize recipe")
+{{% image src="/integrations/integration_builder/how_to_guides/github/13_copy-and-save.png" alt="Copy and save" %}}
 
-![Save recipe](/integrations/integration_builder/how_to_guides/github/15_save-recipe.png "Save recipe")
+### Customize the recipe
 
-4. By default, the recipe will be in an inactive state. To start pushing your
+You will need to customize the recipe to use your GitHub organization and
+repository. You can optionally customize the content of the GitHub issues that
+the recipe creates.
+
+1. Click the "Customize recipe" button to open the recipe editor.
+
+{{% image src="/integrations/integration_builder/how_to_guides/github/14_customize-recipe-start.png" alt="Start customizing" %}}
+
+1. Click the link for step 17 in the error message at the top of the editor.
+
+{{% image src="/integrations/integration_builder/how_to_guides/github/15_customize-error.png" alt="Link for step 17" %}}
+
+1. Select or input your GitHub Organization and Repository name required fields.
+
+{{% image src="/integrations/integration_builder/how_to_guides/github/16_customize-recipe.png" alt="Input required fields" %}}
+
+  - **Optional**: Customize the content of the GitHub issues that the recipe creates.
+    - You can use datapills to populate the fields with dynamic values.
+    - You can type into the input fields to set static values.
+
+    {{% image src="/integrations/integration_builder/how_to_guides/github/24_customizable-fields.png" alt="Customizable fields" %}}
+
+    - Available fields:
+      - Issue title
+      - Body
+      - Assignees
+      - Labels (optional field, see below)
+      - Milestone ID (optional field, see below)
+
+      {{% image src="/integrations/integration_builder/how_to_guides/github/25_optional-fields.png" alt="Optional fields" %}}
+
+      {{% image src="/integrations/integration_builder/how_to_guides/github/26_select-optional-fields.png" alt="Select optional fields" %}}
+
+1. Click the "Save" button to save your changes.
+
+{{% image src="/integrations/integration_builder/how_to_guides/github/17_save-recipe.png" alt="Save recipe" %}}
+
+1. Click the "Exit" button to close the recipe editor.
+
+{{% image src="/integrations/integration_builder/how_to_guides/github/18_exit-recipe-editor.png" alt="Exit recipe editor" %}}
+
+1. By default, the recipe will be in an inactive state. To start pushing your
 findings to GitHub issues, click the "Start recipe" button.
 
-![Start recipe](/integrations/integration_builder/how_to_guides/github/16_start-recipe.png "Start recipe")
+{{% image src="/integrations/integration_builder/how_to_guides/github/19_start-recipe.png" alt="Start GitHub recipe" %}}
 
-![Recipe running](/integrations/integration_builder/how_to_guides/github/17_recipe-running.png "Recipe running")
+{{% image src="/integrations/integration_builder/how_to_guides/github/20_recipe-running.png" alt="Recipe running" %}}
 
 ## Test the recipe
 
@@ -96,16 +149,16 @@ for the scan to complete.
 
 ## Edit the recipe
 
-To edit the recipe, you need to stop it first. Click the "Stop recipe" button at
+1. To edit the recipe, you need to stop it first. Click the "Stop recipe" button at
 the top of the recipe page.
 
-![Stop recipe](/integrations/integration_builder/how_to_guides/github/17_recipe-running.png "Stop recipe")
+{{% image src="/integrations/integration_builder/how_to_guides/github/21_stop-recipe.png" alt="Stop recipe" %}}
 
-Click the "Edit" button to open the recipe editor.
+1. Click the "Edit" button to open the recipe editor.
 
-![Edit recipe](/integrations/integration_builder/how_to_guides/github/18_edit-recipe.png "Edit recipe")
+{{% image src="/integrations/integration_builder/how_to_guides/github/22_edit-recipe.png" alt="Edit recipe" %}}
 
-Make your changes in the recipe editor. Once you're finished, make sure to click
+1. Make your changes in the recipe editor. Once you're finished, make sure to click
 the save button and re-start the recipe as shown in step 4 of the set up flow above.
 
-![Recipe editor](/integrations/integration_builder/how_to_guides/github/19_recipe-editor.png "Recipe editor")
+{{% image src="/integrations/integration_builder/how_to_guides/github/23_recipe-editor.png" alt="Recipe editor" %}}
