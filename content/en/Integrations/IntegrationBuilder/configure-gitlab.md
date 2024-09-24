@@ -4,27 +4,27 @@ linkTitle: "Configure GitLab Integration"
 weight: 40
 ---
 
-## Configure GitLab integration for new findings
+## Configure GitLab Integration for New Findings
 
-In order to configure GitLab to create issues for new findings, you need to go through the following steps:
+To configure GitLab to create issues for new findings, follow these steps:
 
 1. Obtain a GitLab project access token.
 2. Create a new connection on the Cobalt platform.
 3. Create a new recipe on the Cobalt platform.
 
-### 1. Obtain a GitLab project access token
+### 1. Obtain a GitLab Project Access Token
 
-To obtain a GitLab project access token, go to your GitLab project, settings, and then access tokens. Create a new access token and copy it.
+To obtain a GitLab project access token, go to your GitLab project settings, and then access tokens. Create a new access token and copy it.
 
 {{% image src="/integrations/integration_builder/gitlab/07-gitlab-get-access-token-1.png" alt="GitLab access tokens menu" %}}
 
 {{% image src="/integrations/integration_builder/gitlab/07-gitlab-get-access-token-2.png" alt="GitLab create project access token" %}}
 
-### 2. Create a new connection on the Cobalt platform
+### 2. Create a New Connection on the Cobalt Platform
 
 From now on, we are working on the Cobalt platform side.
 
-Go to your integration builder page, and select your project
+Go to your integration builder page, and select your project.
 
 {{% image src="/integrations/integration_builder/gitlab/01-select-project.png" alt="Select project" %}}
 
@@ -52,9 +52,9 @@ Once done, click "Connect".
 
 {{% image src="/integrations/integration_builder/gitlab/08-connection-connected.png" alt="GitLab connection successful" %}}
 
-### 3. Create a new folder to better organize your recipes
+### 3. Create a New Folder to Better Organize Your Recipes
 
-Before creating a new recipe, it is better to create a new folder for all the future GitLab recipes.
+Before creating a new recipe, it is better to create a new folder for all future GitLab recipes.
 
 Go to the project page again, and click on the "Create" button on the top right. This time, choose "Folder".
 
@@ -70,7 +70,7 @@ Now you can see the new folder in the project.
 
 Now we have the option in the folder to create a new recipe. But it is better to reuse an existing recipe.
 
-### 4. Find an existing recipe
+### 4. Find an Existing Recipe
 
 Go to the "Library" tab and search for the GitLab recipe.
 
@@ -88,7 +88,7 @@ Once copied and saved, an initial customization is needed.
 
 {{% image src="/integrations/integration_builder/gitlab/15-recipe-needs-customization.png" alt="Customize recipe" %}}
 
-You can see in the recipe's graph that there is an error. And the highlighted step is the one causing the error.
+You can see in the recipe's graph that there is an error. The highlighted step is the one causing the error.
 
 {{% image src="/integrations/integration_builder/gitlab/16-error.png" alt="Recipe error" %}}
 
@@ -100,14 +100,14 @@ Select your GitLab project in the step's settings.
 
 {{% image src="/integrations/integration_builder/gitlab/18-select-gitlab-project.png" alt="Select GitLab project" %}}
 
-### 5. Customize the recipe
+### 5. Customize the Recipe
 
-Notice in the first step in the recipe (the trigger) is about a DAST finding. We need to change it to a pentest finding.
+Notice the first step in the recipe (the trigger) is about a DAST finding. We need to change it to a pentest finding.
 If you click on it, you can see the trigger's settings. Change the trigger name to "pentest finding" at the top, and change the trigger on use at the right to "Pentest finding published".
 
 {{% image src="/integrations/integration_builder/gitlab/19-customize-trigger.png" alt="Change trigger" %}}
 
-Once done, click "Save" then "Exist". Now you can see the recipe is saved and the error is gone. Let's start the recipe from the top right button.
+Once done, click "Save" then "Exit". Now you can see the recipe is saved and the error is gone. Let's start the recipe from the top right button.
 
 {{% image src="/integrations/integration_builder/gitlab/20-start-recipe.png" alt="Start recipe" %}}
 
@@ -123,7 +123,7 @@ Delete the wrong ID and choose "Finding ID" from the dropdown. This will automat
 
 {{% image src="/integrations/integration_builder/gitlab/23-error-step-select-correct-id.png" alt="Correct ID" %}}
 
-Now save and exist, and you will see that the error is gone. Start the recipe again. This may take a few seconds to run.
+Now save and exit, and you will see that the error is gone. Start the recipe again. This may take a few seconds to run.
 
 {{% image src="/integrations/integration_builder/gitlab/24-start-recipe.png" alt="Start recipe" %}}
 
@@ -131,5 +131,3 @@ Once the recipe is running, you will see the jobs tab to monitor any events. Thi
 The recipe will continue running even when closing the tab, until "Stop recipe" gets clicked.
 
 {{% image src="/integrations/integration_builder/gitlab/25-recipe-running.png" alt="Start recipe" %}}
-
-
