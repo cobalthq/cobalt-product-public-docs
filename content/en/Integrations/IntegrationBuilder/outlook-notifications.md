@@ -14,7 +14,7 @@ In order to configure Outlook to send emails every time a new finding gets creat
     - [Cobalt > Outlook] When DAST finding is detected, send email notification
 3. Copy and customize the recipe
     1. Configure which pentest should trigger notifications when findings get created.
-    2. Configure which email address to send the to.
+    2. Configure which email address to send the notification to.
 4. Start the recipe
 
 The following is a step-by-step guide to walk you through the configuration process.
@@ -46,7 +46,7 @@ Go to the `Integration Builder` > `Library` and select Outlook.
 
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step1.png" alt="Outlook tile" %}}
 
-Choose between both options:
+Choose one of the options:
 A. [Cobalt > Outlook] When pentest finding moved to Pending Fix, send email notification
 B. [Cobalt > Outlook] When DAST finding is detected, send email notification
 For the purpose of this guide, we'll go with "When pentest finding moved to Pending Fix, send email notifications". The process is very similar for DAST findings, so these steps should help you out in that case as well.
@@ -65,7 +65,7 @@ You will be prompted to copy the recipe. Choose a preferred location and click "
 
 #### 3.1 Configure which pentest should trigger notifications when findings get created
 
-Select the Cobalt trigger at the top of the flow diagram, in order to select the already created Cobalt Connector you want to use. In the sidebar you will be able to select which pentest you want the recipe to listen for findings from. Choose whichever you want to configure the recipe for.
+Select the Cobalt trigger at the top of the flow diagram. In the sidebar you can choose the pentest for which the recipe will trigger when new findings are created.
 
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step5.png" alt="Configure Cobalt connection" %}}
 
@@ -86,7 +86,7 @@ After saving the recipe, select "Start recipe" at the top of the page. This may 
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/start_recipe.png" alt="Start recipe" %}}
 
 Once the recipe is running, you will see the jobs tab to monitor any events. This can be left open to verify whether a created finding triggers the desired notification.
-The recipe will continue running even when closing the tab, until "Stop recipe" gets clicked.
+The recipe will continue running even when the tab is closed. Click "Stop recipe" if you need to stop running it, or to edit it.
 
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/running_recipe.png" alt="Running recipe" %}}
 
