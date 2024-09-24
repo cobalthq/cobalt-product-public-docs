@@ -4,6 +4,10 @@ linkTitle: "How to Guides"
 weight: 30
 ---
 
+{{% pageinfo %}}
+How-to guides for using the Integration Builder.
+{{% /pageinfo %}}
+
 ## Trigger filters
 
 Trigger filters can be used to limit the scope of a recipe trigger.

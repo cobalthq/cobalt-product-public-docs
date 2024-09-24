@@ -4,6 +4,10 @@ linkTitle: "Configure Outlook email notifications"
 weight: 40
 ---
 
+{{% pageinfo %}}
+How to use Integration Builder to receive email notifications about findings.
+{{% /pageinfo %}}
+
 ## Configure Outlook email notifications
 
 In order to configure Outlook to send emails every time a new finding gets created, we need to do the following:
