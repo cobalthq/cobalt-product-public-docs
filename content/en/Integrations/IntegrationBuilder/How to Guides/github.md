@@ -106,6 +106,35 @@ the recipe creates.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/16_customize-recipe.png" alt="Input required fields" %}}
 
+  - **Optional**: You can update the recipe trigger to run it for a specific
+  asset or pentest. By default, the recipe will be triggered for all pentests
+  within your org. (*Note*: If you are using the DAST recipe, you can select a
+  Target instead of an Asset or Pentest.)
+
+    - Click on the trigger to open the trigger editor, then click the button to
+      view optional fields.
+
+    {{% image src="/integrations/integration_builder/how_to_guides/github/27_update-trigger.png" alt="Edit trigger" %}}
+
+    - To specify an asset, select the checkbox for "Asset" then select an asset
+      from the list.
+
+    {{% image src="/integrations/integration_builder/how_to_guides/github/28_trigger-asset-field.png" alt="Asset field toggle" %}}
+
+    {{% image src="/integrations/integration_builder/how_to_guides/github/29_trigger-asset-selected.png" alt="Selected asset" %}}
+
+    - To specify a pentest, select the checkbox for "Pentest" then select a
+    pentest from the list.
+
+    {{% image src="/integrations/integration_builder/how_to_guides/github/30_trigger-pentest-field.png" alt="Pentest field toggle" %}}
+
+    {{% image src="/integrations/integration_builder/how_to_guides/github/31_trigger-pentest-selected.png" alt="Selected pentest" %}}
+
+    - To undo your changes, click the "Reset" button to return to the default
+    state.
+
+    {{% image src="/integrations/integration_builder/how_to_guides/github/32_trigger-reset.png" alt="Reset trigger" %}}
+
   - **Optional**: Customize the content of the GitHub issues that the recipe creates.
     - You can use datapills to populate the fields with dynamic values.
     - You can type into the input fields to set static values.
