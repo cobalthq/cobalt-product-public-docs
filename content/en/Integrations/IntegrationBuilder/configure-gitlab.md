@@ -6,7 +6,7 @@ weight: 40
 
 ## Configure GitLab Integration for New Findings
 
-To configure GitLab to create issues for new findings, follow these steps:
+To configure GitLab to create issues for new findings, you need three general steps:
 
 1. Obtain a GitLab project access token.
 2. Create a new connection on the Cobalt platform.
