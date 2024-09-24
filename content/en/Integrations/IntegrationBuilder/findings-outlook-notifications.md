@@ -1,6 +1,6 @@
 ---
-title: "Outlook email notifications for pending pentest findings"
-linkTitle: "Configure outlook email notifications for pending pentest findings"
+title: "Outlook email notifications"
+linkTitle: "Configure outlook email notifications"
 weight: 40
 ---
 
