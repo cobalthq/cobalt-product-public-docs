@@ -29,23 +29,23 @@ already have a GitHub connection, you can skip this section.
 
 1. Navigate to the Projects tab of the Integration Builder.
 
-1. Click the "Create" button to open the menu, then click "Connection."
+2. Click the "Create" button to open the menu, then click "Connection."
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/01_create-connection-start.png" alt="Create connection" %}}
 
-1. Click on the GitHub connector.
+3. Click on the GitHub connector.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/02_new-connection.png" alt="Select GitHub connector" %}}
 
-1. Input a name for the connection and click the "Connect" button.
+4. Input a name for the connection and click the "Connect" button.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/03_connect-to-github.png" alt="Enter connection name" %}}
 
-1. Authorize the connection.
+5. Authorize the connection.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/04_oauth-authorize.png" alt="Authorize connection" %}}
 
-1. Once the connection is authorized, you will see the "Connected" status.
+6. Once the connection is authorized, you will see the "Connected" status.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/05_connected.png" alt="Connected" %}}
 
@@ -53,17 +53,17 @@ already have a GitHub connection, you can skip this section.
 
 1. Navigate to the Projects tab of the Integration Builder.
 
-1. Click the "Create" button to open the menu, then click "Folder."
+2. Click the "Create" button to open the menu, then click "Folder."
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/06_create-folder.png" alt="Create folder" %}}
 
-1. Input the folder name and click "Create folder."
+3. Input the folder name and click "Create folder."
 **NOTE**: We recommend naming the folder "GitHub" for keeping recipes organized
 by integrated system.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/07_name-folder.png" alt="Name folder" %}}
 
-1. The new folder will be empty by default.
+4. The new folder will be empty by default.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/08_folder-created.png" alt="Folder created" %}}
 
@@ -76,13 +76,13 @@ You should be able to use the same steps for either recipe.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/09_recipe-library.png" alt="Recipe library" %}}
 
-1. Click on the recipe you want to use, then click "Use recipe."
+2. Click on the recipe you want to use, then click "Use recipe."
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/10_select-recipe.png" alt="Select GitHub recipe" %}}
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/11_use-recipe.png" alt="Use GitHub recipe" %}}
 
-1. Select the folder you created and click "Copy and save."
+3. Select the folder you created and click "Copy and save."
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/12_copy-recipe.png" alt="Copy GitHub recipe" %}}
 
@@ -98,11 +98,11 @@ the recipe creates.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/14_customize-recipe-start.png" alt="Start customizing" %}}
 
-1. Click the link for step 17 in the error message at the top of the editor.
+2. Click the link for step 17 in the error message at the top of the editor.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/15_customize-error.png" alt="Link for step 17" %}}
 
-1. Select or input your GitHub Organization and Repository name required fields.
+3. Select or input your GitHub Organization and Repository name required fields.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/16_customize-recipe.png" alt="Input required fields" %}}
 
@@ -123,15 +123,15 @@ the recipe creates.
 
       {{% image src="/integrations/integration_builder/how_to_guides/github/26_select-optional-fields.png" alt="Select optional fields" %}}
 
-1. Click the "Save" button to save your changes.
+4. Click the "Save" button to save your changes.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/17_save-recipe.png" alt="Save recipe" %}}
 
-1. Click the "Exit" button to close the recipe editor.
+5. Click the "Exit" button to close the recipe editor.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/18_exit-recipe-editor.png" alt="Exit recipe editor" %}}
 
-1. By default, the recipe will be in an inactive state. To start pushing your
+6. By default, the recipe will be in an inactive state. To start pushing your
 findings to GitHub issues, click the "Start recipe" button.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/19_start-recipe.png" alt="Start GitHub recipe" %}}
@@ -154,11 +154,11 @@ the top of the recipe page.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/21_stop-recipe.png" alt="Stop recipe" %}}
 
-1. Click the "Edit" button to open the recipe editor.
+2. Click the "Edit" button to open the recipe editor.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/22_edit-recipe.png" alt="Edit recipe" %}}
 
-1. Make your changes in the recipe editor. Once you're finished, make sure to click
-the save button and re-start the recipe as shown in step 4 of the set up flow above.
+3. Make your changes in the recipe editor. Once you're finished, make sure to
+click the save button and re-start the recipe as shown in the steps above.
 
 {{% image src="/integrations/integration_builder/how_to_guides/github/23_recipe-editor.png" alt="Recipe editor" %}}
