@@ -131,3 +131,5 @@ Once the recipe is running, you will see the jobs tab to monitor any events. Thi
 The recipe will continue running even when closing the tab, until "Stop recipe" gets clicked.
 
 {{% image src="/integrations/integration_builder/gitlab/25-recipe-running.png" alt="Start recipe" %}}
+
+You can [create a test Finding](/integrations/development/create-test-finding/) to test the recipe.
