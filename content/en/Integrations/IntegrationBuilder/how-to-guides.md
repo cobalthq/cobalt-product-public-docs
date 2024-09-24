@@ -12,17 +12,17 @@ when the finding whose state was updated is associated to a certain asset or pen
 
 To see the filters available for a trigger, click on your trigger and then click the `optional fields available` button.
 
-![Show trigger filters](/integrations/integration_builder/how_to_guides/trigger_filters/show_trigger_filters.png "Show trigger filters")
+{{% image src="/integrations/integration_builder/how_to_guides/trigger_filters/show_trigger_filters.png" alt="Show trigger filters" %}}
 
 You may then select the filters to add.
 
-![Add filters](/integrations/integration_builder/how_to_guides/trigger_filters/add_filters.png "Add filters")
+{{% image src="/integrations/integration_builder/how_to_guides/trigger_filters/add_filters.png" alt="Add filters" %}}
 
 You can then set the value of the trigger.
 Some trigger filters accept only a textual input.
 Some trigger filters accept textual input and have a dropdown box that may be used to select a value.
 
-![Set filter value](/integrations/integration_builder/how_to_guides/trigger_filters/set_filter_value.png "Set filter value")
+{{% image src="/integrations/integration_builder/how_to_guides/trigger_filters/set_filter_value.png" alt="Set filter value" %}}
 
 ## External Ticket References
 
@@ -47,8 +47,8 @@ For the above-mentioned purposes to be achieved, it is important that your ticke
 
 Here's an example of what these steps look like in a recipe:
 
-![Search ticket reference](/integrations/integration_builder/how_to_guides/external_ticket_references/search_ticket_reference.png "Search ticket reference")
-![Create ticket reference](/integrations/integration_builder/how_to_guides/external_ticket_references/create_ticket_reference.png "Create ticket reference")
+{{% image src="/integrations/integration_builder/how_to_guides/external_ticket_references/search_ticket_reference.png" alt="Search ticket reference" %}}
+{{% image src="/integrations/integration_builder/how_to_guides/external_ticket_references/create_ticket_reference.png" alt="Create ticket reference" %}}
 
 See [our public API documentation](/cobalt-api/v2/) for more information about the properties of an external ticket reference.
 
@@ -57,7 +57,7 @@ See [our public API documentation](/cobalt-api/v2/) for more information about t
 When you are building recipes for creating tickets in a ticketing system, you may want to customize the fields that you are setting on the tickets.
 To set extra optional fields for tickets, you can use the `optional fields available` button within the create ticket action to set extra fields.
 
-![Optional fields button](/integrations/integration_builder/how_to_guides/optional_fields_button.png "Optional fields button")
+{{% image src="/integrations/integration_builder/how_to_guides/optional_fields_button.png" alt="Optional fields button" %}}
 
 ## Mapping fields
 
@@ -68,7 +68,7 @@ When you select an action input, the "Recipe data" drawer will open.
 Within this drawer, the outputs from the actions and triggers within your recipe will appear as "data pills".
 You can simply drag-and-drop the data pills from the drawer into action input fields as desired.
 
-![Data pill mapping](/integrations/integration_builder/how_to_guides/data_pill_mapping.png "Data pill mapping")
+{{% image src="/integrations/integration_builder/how_to_guides/data_pill_mapping.png" alt="Data pill mapping" %}}
 
 ## Authentication best practices
 
