@@ -7,13 +7,14 @@ weight: 40
 ## Configure Outlook email notifications
 
 In order to configure Outlook to send emails every time a new finding gets created, we need to do the following:
+
 1. Create an Outlook connection.
 2. Find and select a recipe (2 options):
-  a. [Cobalt > Outlook] When pentest finding moved to Pending Fix, send email notification
-  b. [Cobalt > Outlook] When DAST finding is detected, send email notification
+    - [Cobalt > Outlook] When pentest finding moved to Pending Fix, send email notification
+    - [Cobalt > Outlook] When DAST finding is detected, send email notification
 3. Copy and customize the recipe
-  3.1. Configure which pentest should trigger notifications when findings get created.
-  3.2. Configure which email address to send the to.
+    1. Configure which pentest should trigger notifications when findings get created.
+    2. Configure which email address to send the to.
 4. Start the recipe
 
 The following is a step-by-step guide to walk you through the configuration process.
