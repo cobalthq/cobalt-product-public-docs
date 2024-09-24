@@ -1,7 +1,7 @@
 ---
 title: "Troubleshooting"
 linkTitle: "Troubleshooting"
-weight: 40
+weight: 50
 ---
 
 ## How to troubleshoot errors
