@@ -77,3 +77,4 @@ The recipe will continue running even when closing the tab, until "Stop recipe" 
 
 ![Running recipe](/integrations/integration_builder/findings_outlook_notifications/running_recipe.png "Running recipe")
 
+Check [Create Test Finding](integrations/development/create-test-finding/) to test the recipe.
