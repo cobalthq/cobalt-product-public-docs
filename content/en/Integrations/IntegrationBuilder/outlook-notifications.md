@@ -7,23 +7,18 @@ weight: 40
 ## Configure Outlook email notifications
 
 In order to configure Outlook to send emails every time a new finding gets created, we need to do the following:
-1. Create a Cobalt connection.
-2. Create an Outlook connection.
-3. Find and select a recipe (2 options):
+1. Create an Outlook connection.
+2. Find and select a recipe (2 options):
   a. [Cobalt > Outlook] When pentest finding moved to Pending Fix, send email notification
   b. [Cobalt > Outlook] When DAST finding is detected, send email notification
-4. Copy and customize the recipe
-  4.1. Configure which pentest should trigger notifications when findings get created.
-  4.2. Configure which email address to send the to.
-5. Start the recipe
+3. Copy and customize the recipe
+  3.1. Configure which pentest should trigger notifications when findings get created.
+  3.2. Configure which email address to send the to.
+4. Start the recipe
 
 The following is a step-by-step guide to walk you through the configuration process.
 
-### 1. Create a Cobalt connection
-
-Find out how to create a Cobalt Connector [here](/integrations/integrationbuilder/#connection).
-
-### 2. Create an Outlook connection
+### 1. Create an Outlook connection
 
 The following is a quick guide on how to create a Workato connection for Microsoft Outlook.
 In case you're looking for a more comprehensive and general guide on how to manage connections, check [here](/integrations/integrationbuilder/connect-your-applications/).
@@ -44,7 +39,7 @@ Once signed in with Microsoft, you should get a confirmation that the connection
 
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/create_connection_step4.png" alt="Save the connection" %}}
 
-### 3. Find and select a recipe
+### 2. Find and select a recipe
 
 Go to the `Integration Builder` > `Library` and select Outlook.
 
@@ -57,7 +52,7 @@ For the purpose of this guide, we'll go with "When pentest finding moved to Pend
 
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step2.png" alt="Outlook recipes" %}}
 
-### 4. Copy and customize the recipe
+### 3. Copy and customize the recipe
 
 Click on "Use this recipe".
 
@@ -67,13 +62,13 @@ You will be prompted to copy the recipe. Choose a preferred location and click "
 
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step4.png" alt="Copy Outlook recipe" %}}
 
-#### 4.1 Configure which pentest should trigger notifications when findings get created
+#### 3.1 Configure which pentest should trigger notifications when findings get created
 
 Select the Cobalt trigger at the top of the flow diagram, in order to select the already created Cobalt Connector you want to use. In the sidebar you will be able to select which pentest you want the recipe to listen for findings from. Choose whichever you want to configure the recipe for.
 
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step5.png" alt="Configure Cobalt connection" %}}
 
-#### 4.2 Configure which email address to send the to
+#### 3.2 Configure which email address to send the to
 
 Select "Send email from Outlook Mail" at the bottom of the flow diagram. At the top of the page choose "Connection" to select the previously created Outlook connection. Then provide an email in the "To" field. You can optionally customize To, BCC, Subject and Message, among others as needed.
 
@@ -83,7 +78,7 @@ Once ready, click "Save" at the top-right of the page.
 
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step7.png" alt="Save recipe" %}}
 
-### 5. Start the recipe
+### 4. Start the recipe
 
 After saving the recipe, select "Start recipe" at the top of the page. This may take a few seconds.
 
