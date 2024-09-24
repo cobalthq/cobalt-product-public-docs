@@ -36,7 +36,7 @@ A "New Connection" page will show up. Look for "Outlook" and select the correspo
 
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/create_connection_step2.png" alt="Pick an Outlook connection" %}}
 
-After selecting the connection type, a form will appear. Provide a name, select a location and click on "Sign in with Windows". If needed, you can configure "Advanced settings" as well.
+After selecting the connection type, a form will appear. Provide a name, select a location (we recommend `Cobalt` > `Connections`) and click on "Sign in with Microsoft". If needed, you can configure "Advanced settings" as well.
 
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/create_connection_step3.png" alt="Configure the connection" %}}
 
