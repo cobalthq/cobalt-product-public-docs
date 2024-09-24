@@ -47,8 +47,9 @@ Go to the `Integration Builder` > `Library` and select Outlook.
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step1.png" alt="Outlook tile" %}}
 
 Choose one of the options:
-A. [Cobalt > Outlook] When pentest finding moved to Pending Fix, send email notification
-B. [Cobalt > Outlook] When DAST finding is detected, send email notification
+  - [Cobalt > Outlook] When pentest finding moved to Pending Fix, send email notification
+  - [Cobalt > Outlook] When DAST finding is detected, send email notification
+
 For the purpose of this guide, we'll go with "When pentest finding moved to Pending Fix, send email notifications". The process is very similar for DAST findings, so these steps should help you out in that case as well.
 
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step2.png" alt="Outlook recipes" %}}
