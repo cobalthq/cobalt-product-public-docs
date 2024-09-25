@@ -8,22 +8,17 @@ weight: 40
 
 To configure GitLab to create issues for new findings, you need three general steps:
 
-1. Create a Cobalt connection.
-2. Obtain a GitLab project access token.
-3. Create a GitLab connection on the Cobalt platform.
-4. Create a new recipe on the Cobalt platform.
+1. Obtain a GitLab project access token.
+2. Create a GitLab connection on the Cobalt platform.
+3. Create a new recipe on the Cobalt platform.
 
-### 1. Create a Cobalt Connection.
-
-Find out how to create a Cobalt Connector [here](/integrations/integrationbuilder/#connection).
-
-### 2. Obtain a GitLab Project Access Token
+### 1. Obtain a GitLab Project Access Token
 
 To obtain a GitLab project access token, go to your GitLab project settings, create a new project access token, and copy it to use later.
 
 Follow [GitLab Docs](https://docs.gitlab.com/ee/user/project/settings/project_access_tokens.html) to learn more about creating a project access token.
 
-### 3. Create a GitLab Connection on the Cobalt Platform
+### 2. Create a GitLab Connection on the Cobalt Platform
 
 From now on, we are working on the Cobalt platform side.
 
@@ -55,7 +50,7 @@ Once done, click "Connect".
 
 {{% image src="/integrations/integration_builder/gitlab/08-connection-connected.png" alt="GitLab connection successful" %}}
 
-### 4. Create a New Folder to Better Organize Your Recipes
+### 3. Create a New Folder to Better Organize Your Recipes
 
 Before creating a new recipe, it is better to create a new folder for all future GitLab recipes.
 
@@ -73,7 +68,7 @@ Now you can see the new folder in the project.
 
 Now we have the option in the folder to create a new recipe. But it is better to reuse an existing recipe.
 
-### 5. Find an Existing Recipe
+### 4. Find an Existing Recipe
 
 Go to the "Library" tab and search for the GitLab recipe.
 
@@ -103,7 +98,7 @@ Select your GitLab project in the step's settings.
 
 {{% image src="/integrations/integration_builder/gitlab/18-select-gitlab-project.png" alt="Select GitLab project" %}}
 
-### 6. Customize the Recipe
+### 5. Customize the Recipe
 
 Notice the first step in the recipe (the trigger) is about a DAST finding. We need to change it to a pentest finding.
 If you click on it, you can see the trigger's settings. Change the trigger name to "pentest finding" at the top, and change the trigger on use at the right to "Pentest finding published".
