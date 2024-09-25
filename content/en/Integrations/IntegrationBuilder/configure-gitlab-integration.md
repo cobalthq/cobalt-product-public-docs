@@ -74,60 +74,39 @@ Go to the "Library" tab and search for the GitLab recipe.
 
 {{% image src="/integrations/integration_builder/gitlab/12-find-community-recipe.png" alt="Find GitLab recipe" %}}
 
-There is no GitLab recipe found for a new pentest finding, but a recipe for a DAST finding exists. We can use it as a base and customize it. Click on the recipe to see its details and click "Use this recipe".
+There are two recipes to choose from, depending on whether you're interested in creating GitLab issues to track a pentest finding or a DAST Scanner finding. We'll use the pentest finding recipe as a base and customize it. Click on the recipe to see its details and click "Use this recipe".
 
-{{% image src="/integrations/integration_builder/gitlab/13-use-recipe.png" alt="DAST recipe" %}}
+{{% image src="/integrations/integration_builder/gitlab/13-use-recipe.png" alt="Use recipe" %}}
 
 Choose to save the recipe in the folder you created earlier.
 
-{{% image src="/integrations/integration_builder/gitlab/14-use-recipe-folder.png" alt="Save recipe in folder" %}}
-
-Once copied and saved, an initial customization is needed.
-
-{{% image src="/integrations/integration_builder/gitlab/15-recipe-needs-customization.png" alt="Customize recipe" %}}
-
-You can see in the recipe's graph that there is an error. The highlighted step is the one causing the error.
-
-{{% image src="/integrations/integration_builder/gitlab/16-error.png" alt="Recipe error" %}}
-
-The existing error is due to a missing field for the GitLab project.
-
-{{% image src="/integrations/integration_builder/gitlab/17-click-step-with-error.png" alt="Recipe error" %}}
-
-Select your GitLab project in the step's settings.
-
-{{% image src="/integrations/integration_builder/gitlab/18-select-gitlab-project.png" alt="Select GitLab project" %}}
+{{% image src="/integrations/integration_builder/gitlab/14-copy-and-save.png" alt="Copy and save recipe" %}}
 
 ### 5. Customize the Recipe
 
-Notice the first step in the recipe (the trigger) is about a DAST finding. We need to change it to a pentest finding.
-If you click on it, you can see the trigger's settings. Change the trigger name to "pentest finding" at the top, and change the trigger on use at the right to "Pentest finding published".
+Once copied and saved, an initial customization is needed.
 
-{{% image src="/integrations/integration_builder/gitlab/19-customize-trigger.png" alt="Change trigger" %}}
+{{% image src="/integrations/integration_builder/gitlab/15-customize.png" alt="Customize recipe" %}}
 
-Once done, click "Save" then "Exit". Now you can see the recipe is saved and the error is gone. Let's start the recipe from the top right button.
+You can see in the recipe's graph that there is an error. The highlighted step is the one causing the error.
 
-{{% image src="/integrations/integration_builder/gitlab/20-start-recipe.png" alt="Start recipe" %}}
+{{% image src="/integrations/integration_builder/gitlab/16-recipe-error.png" alt="Recipe error" %}}
 
-You will see a new error message, and the steps with errors are highlighted. That's because some steps depend on info from the original DAST-related trigger. So we need to change that.
+The existing error is due to a missing field for setting the GitLab project.
 
-{{% image src="/integrations/integration_builder/gitlab/21-start-recipe-error.png" alt="Start recipe" %}}
+{{% image src="/integrations/integration_builder/gitlab/17-click-step-with-error.png" alt="Recipe step error" %}}
 
-If you click on the step with the error, the settings on the right will show an invalid ID. You need to change it to the correct pentest finding ID.
+Select your GitLab project in the step's settings, then save and exit the recipe.
 
-{{% image src="/integrations/integration_builder/gitlab/22-error-step-wrong-id.png" alt="Wrong ID" %}}
+{{% image src="/integrations/integration_builder/gitlab/18-select-gitlab-project-and-save.png" alt="Select GitLab project and save and exit" %}}
 
-Delete the wrong ID and choose "Finding ID" from the dropdown. This will automatically fill in the correct ID.
+Now there are no more errors. You can start the recipe. This may take a few seconds to run.
 
-{{% image src="/integrations/integration_builder/gitlab/23-error-step-select-correct-id.png" alt="Correct ID" %}}
+{{% image src="/integrations/integration_builder/gitlab/19-start-recipe.png" alt="Start recipe" %}}
 
-Now save and exit, and you will see that the error is gone. Start the recipe again. This may take a few seconds to run.
+Once the recipe is running, you will see the jobs tab to monitor any events. This can be left open to verify whether a created finding triggers the desired action. The recipe will continue running even when the tab is closed. Click "Stop recipe" if you need to stop running it. To edit the recipe, you must stop running it first.
 
-{{% image src="/integrations/integration_builder/gitlab/24-start-recipe.png" alt="Start recipe" %}}
-
-Once the recipe is running, you will see the jobs tab to monitor any events. This can be left open to verify whether a created finding triggers the desired action.
-The recipe will continue running even when closing the tab, until "Stop recipe" gets clicked.
-
-{{% image src="/integrations/integration_builder/gitlab/25-recipe-running.png" alt="Start recipe" %}}
+{{% image src="/integrations/integration_builder/gitlab/20-recipe-running.png" alt="Recipe running" %}}
 
 You can [create a test Finding](/integrations/development/create-test-finding/) to test the recipe.
+
