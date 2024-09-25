@@ -74,7 +74,7 @@ Select the Cobalt trigger at the top of the flow diagram. In the sidebar you can
 
 {{% image src="/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step5.png" alt="Configure Cobalt connection" %}}
 
-#### 3.2 Configure which email address to send the to
+#### 3.2 Configure which email address to send the notification to
 
 Select "Send email from Outlook Mail" at the bottom of the flow diagram. At the top of the page, choose "Connection" to select the previously created Outlook connection, then provide an email in the "To" field. You can optionally customize To, BCC, Subject, and Message, among others, as needed.
 
