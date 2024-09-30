@@ -4,10 +4,6 @@ linkTitle: "How to Guides"
 weight: 30
 ---
 
-{{% pageinfo %}}
-How-to guides for using the Integration Builder.
-{{% /pageinfo %}}
-
 ## Application Specific Guides
 
 | Application       | Use Case                        | Guide Link                            |
