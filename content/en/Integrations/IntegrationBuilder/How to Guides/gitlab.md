@@ -1,6 +1,6 @@
 ---
-title: "Configure GitLab Integration"
-linkTitle: "Configure GitLab Integration"
+title: "Create GitLab tickets for Findings"
+linkTitle: "Create GitLab tickets for Findings"
 weight: 40
 ---
 

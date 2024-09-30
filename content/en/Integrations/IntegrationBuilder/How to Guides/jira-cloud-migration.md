@@ -1,6 +1,6 @@
 ---
-title: "Migrate to Integration Builder"
-linkTitle: "Migrate to Integration Builder"
+title: "Create Jira tickets for Findings"
+linkTitle: "Create Jira tickets for Findings"
 weight: 50
 description: >
   Migrate from the native Jira Cloud integration to the Integration Builder.

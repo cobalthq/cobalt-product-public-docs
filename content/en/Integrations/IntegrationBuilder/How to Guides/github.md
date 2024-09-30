@@ -1,6 +1,6 @@
 ---
-title: "Push Findings to GitHub"
-linkTitle: "Push Findings to GitHub"
+title: "Create GitHub tickets for Findings"
+linkTitle: "Create GitHub tickets for Findings"
 weight: 40
 ---
 
