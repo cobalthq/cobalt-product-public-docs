@@ -5,10 +5,6 @@ weight: 50
 description: Push DAST findings to your ticketing system!
 ---
 
-{{% pageinfo %}}
-The DAST ticketing integration is currently in Open Beta.
-{{% /pageinfo %}}
-
 ## Overview
 
 The DAST ticketing integration allows you to push your DAST findings to your ticketing system as soon as vulnerabilities are detected.

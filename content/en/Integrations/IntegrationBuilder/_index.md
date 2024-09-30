@@ -4,10 +4,6 @@ linkTitle: "Integration Builder"
 weight: 10
 ---
 
-{{% pageinfo %}}
-The Integration Builder is currently in Open Beta.
-{{% /pageinfo %}}
-
 ## Overview
 
 The Cobalt Integration Builder is a no-code automation platform which enables customers to create and manage custom
