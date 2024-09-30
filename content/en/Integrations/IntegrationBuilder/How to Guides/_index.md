@@ -8,6 +8,15 @@ weight: 30
 How-to guides for using the Integration Builder.
 {{% /pageinfo %}}
 
+## Application Specific Guides
+
+| Application       | Use Case                        | Guide Link                            |
+|-------------------|---------------------------------|---------------------------------------|
+| GitHub            | Create tickets for findings     | [Click Here](./github)                |
+| GitLab            | Create tickets for findings     | [Click Here](./gitlab)                |
+| Microsoft Teams   | Send notifications for findings | [Click Here](./microsoft-teams)       |
+| Microsoft Outlook | Send notifications for findings | [Click Here](./outlook-notifications) |
+
 ## Trigger filters
 
 Trigger filters can be used to limit the scope of a recipe trigger.
