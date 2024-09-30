@@ -1,6 +1,6 @@
 ---
-title: "Configure Outlook email notifications"
-linkTitle: "Configure Outlook email notifications"
+title: "Send email notifications for Findings from Outlook"
+linkTitle: "Send email notifications for Findings from Outlook"
 weight: 40
 ---
 

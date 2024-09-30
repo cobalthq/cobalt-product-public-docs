@@ -1,6 +1,6 @@
 ---
-title: "Configure Microsoft Teams Integration"
-linkTitle: "Configure Microsoft Teams Integration"
+title: "Send MS Teams notifications for Findings"
+linkTitle: "Send MS Teams notifications for Findings"
 weight: 40
 ---
 
