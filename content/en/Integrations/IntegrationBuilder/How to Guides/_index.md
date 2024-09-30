@@ -8,6 +8,7 @@ weight: 30
 
 | Application       | Use Case                        | Guide Link                            |
 |-------------------|---------------------------------|---------------------------------------|
+| Jira Cloud        | Create tickets for findings     | [Click Here](./jira-cloud-migration)  |
 | GitHub            | Create tickets for findings     | [Click Here](./github)                |
 | GitLab            | Create tickets for findings     | [Click Here](./gitlab)                |
 | Microsoft Teams   | Send notifications for findings | [Click Here](./microsoft-teams)       |
