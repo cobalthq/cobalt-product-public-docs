@@ -14,7 +14,7 @@ To import assets from Google Sheets, you need to follow two general steps:
 
 1. Create a spreadsheet in Google Sheets.
 2. Create a Google Sheets connection.
-3. Select a recipe and customize it.
+3. Find and select the recipe
 4. Copy and customize the recipe
 5. Start the recipe
 
@@ -23,6 +23,8 @@ The following is a step-by-step guide to walk you through the configuration proc
 ### 1. Create a spreadsheet in Google Sheets
 
 To import assets from Google Sheets into the Cobalt platform, we first have to create a spreadsheet with the following columns: `Title`, `Type`, `Description`.
+
+`Title` and `Description` can be anything, but `Type` needs to be one of: `unknown`, `web`, `mobile`, `external_network`, `api`, `cloud_config`, `desktop_obsolete`, `internal_network`, `web_plus_api`, `web_plus_external_network`, `web_plus_mobile`, `wireless_network`, `iot`, `desktop`, `physical`, `other`, `web_plus_api_plus_external_network`, `internal_network_plus_external_network`, `mobile_plus_api`, `web_plus_mobile_plus_api`.
 
 Here's an example of what that could look like:
 {{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-spreadsheet-example.png" alt="Example spreadsheet" %}}
@@ -50,7 +52,7 @@ Once signed in with Google, you should get a confirmation that the connection go
 
 {{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-03-connection-created.png" alt="Connection Created" %}}
 
-### 3. Select a recipe and customize it
+### 3. Find and select the recipe
 
 Go to the `Integration Builder` > `Library` and select Outlook.
 
@@ -62,23 +64,45 @@ Select the "[Cobalt > Google Sheets] Import assets from Google Sheets" recipe.
 
 ### 4. Copy and customize the recipe
 
-<!-- Click on "Use this recipe".
+Click on "Use this recipe".
 
-{{% image src="/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step3.png" alt="Use Outlook recipe" %}}
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-3-click-use-recipe.png" alt="Use Recipe" %}}
 
 You will be prompted to copy the recipe. Choose a preferred location and click "Copy and save".
 
-{{% image src="/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step4.png" alt="Copy Outlook recipe" %}} -->
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-4-select-project.png" alt="Copy Google Sheets recipe" %}}
+
+There will be a prompt with a "Test recipe" button. Instead of testing, you will want to edit the recipe in order to set the Google Sheets connection. Click on "or edit your recipe before testing" below the button.
+
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-5-edit-recipe.png" alt="Edit recipe" %}}
+
+Select the first action from the flow chart (the one that gets the rows from Google Sheets). In the emerging sidebar on the right, select "Connection" at the top and then choose the connection created in [step 2 of this guide](#2-create-a-google-sheets-connection).
+
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-6-edit-connection-on-recipe.png" alt="Choose connection" %}}
+
+You will get a setup form in which you have to select the Google Drive where the spreadsheet created in [step 1](#1-create-a-spreadsheet-in-google-sheets) is stored. After that you can select the specific Spreadsheet and the Sheet (in case you renamed it). 
+
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-7-configure-sheet-in-recipe.png" alt="Setup connection" %}}
+
+At this point, the configuration is ready. In the top-right corner, click on "Save" followed by "Exit".
+
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-8-save-and-exit.png" alt="Save and Exit" %}}
 
 ### 5. Start the recipe
 
-<!-- After saving the recipe, select "Start recipe" at the top of the page. This may take a few seconds.
+This recipe is a function call, which means it can be integrated and called within another recipe. However, since we want to trigger it directly, we have to use a test environment.
+Click on the caret on the right of the "Start recipe" button, then on the "Test recipe" button. 
 
-{{% image src="/integrations/integration_builder/findings_outlook_notifications/start_recipe.png" alt="Start recipe" %}}
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-9-test-recipe.png" alt="Test recipe" %}}
 
-Once the recipe is running, you will see the jobs tab to monitor any events. This can be left open to verify whether a created finding triggers the desired notification.
-The recipe will continue running even when the tab is closed. Click "Stop recipe" if you need to stop running it, or to edit it.
+Within the prompt, click "Test recipe" in the bottom right.
 
-{{% image src="/integrations/integration_builder/findings_outlook_notifications/running_recipe.png" alt="Running recipe" %}}
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-10-trigger-recipe.png" alt="Trigger the recipe" %}}
 
-Check [Create Test Finding](/integrations/development/create-test-finding/) to test the recipe. -->
+You will see the "Jobs" tab confirming the successful execution of the test.
+
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-11-finished-run.png" alt="Jobs tab" %}}
+
+Finally, you can head over to the Cobalt platform and check the Assets page of your org. It should show the newly created assets.
+
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/asset-list.png" alt="Check result" %}}
