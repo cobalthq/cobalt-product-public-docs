@@ -16,7 +16,7 @@ defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 
 # Highlighting config
 pygmentsCodeFences = true
@@ -30,6 +30,7 @@ pygmentsStyle = "tango"
 # Configure how URLs look like per section.
 # [permalinks]
 # blog = "/:section/:year/:month/:day/:slug/"
+# uglyURLs = true
 
 ## Configuration for BlackFriday markdown parser: https://github.com/russross/blackfriday
 [blackfriday]
@@ -54,13 +55,14 @@ id = "G-DNN2LHSZ75"
 [languages]
 [languages.en]
 title = "  Product Docs"
-description = "Documentation for Penetration testing as a Service"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
+enableGitInfo = true
+[languages.en.params]
+description = "Documentation for Penetration testing as a Service"
 time_format_default = "January.01.2006"
 time_format_blog = "02.01.2006"
-enableGitInfo = true
 
 
 [markup]
