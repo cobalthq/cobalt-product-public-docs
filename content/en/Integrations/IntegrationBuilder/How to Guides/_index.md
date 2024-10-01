@@ -13,6 +13,7 @@ weight: 30
 | GitLab            | Create tickets for findings     | [Click Here](./gitlab)                |
 | Microsoft Teams   | Send notifications for findings | [Click Here](./microsoft-teams)       |
 | Microsoft Outlook | Send notifications for findings | [Click Here](./outlook-notifications) |
+| Google Sheets     | Import assets                   | [Click Here](./import-assets)         |
 
 ## Trigger filters
 
