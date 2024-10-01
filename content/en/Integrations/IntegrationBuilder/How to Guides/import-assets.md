@@ -25,7 +25,7 @@ The following is a step-by-step guide to walk you through the configuration proc
 To import assets from Google Sheets into the Cobalt platform, we first have to create a spreadsheet with the following columns: `Title`, `Type`, `Description`.
 
 Here's an example of what that could look like:
-{{% image src="/integrations/integration_builder/import-assets/google-sheets-spreadsheet-example.png" alt="Example spreadsheet" %}}
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-spreadsheet-example.png" alt="Example spreadsheet" %}}
 
 Once ready, give the file a name (optionally the specific sheet as well) and save it.
 
@@ -36,31 +36,29 @@ In case you're looking for a more comprehensive and general guide on how to mana
 
 Go to the `Integration Builder` > `Projects`. Select or create a project on the left-side of the page. Then click on the "Create" button on the top-right and choose the "Connection" option.
 
-{{% image src="/integrations/integration_builder/import-assets/google-sheets-00-create-connection.png" alt="Create a connection for your project" %}}
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-00-create-connection.png" alt="Create a connection for your project" %}}
 
 A "New Connection" page will show up. Look for "Google Sheets" and select the corresponding tile. You can optionally use the search field to quickly find the connection.
 
-{{% image src="/integrations/integration_builder/import-assets/google-sheets-01-select-connection-type.png" alt="Select connection type" %}}
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-01-select-connection-type.png" alt="Select connection type" %}}
 
 After selecting the connection type, a form will appear. Provide a name, select a location (we recommend `Cobalt` > `Connections`) and click on "Sign in with Google".
 
-{{% image src="/integrations/integration_builder/import-assets/google-sheets-02-create-connection-form.png" alt="Create connection form" %}}
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-02-create-connection-form.png" alt="Create connection form" %}}
 
 Once signed in with Google, you should get a confirmation that the connection got successfully created.
 
-{{% image src="/integrations/integration_builder/import-assets/google-sheets-03-connection-created.png" alt="Connection Created" %}}
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-03-connection-created.png" alt="Connection Created" %}}
 
 ### 3. Select a recipe and customize it
 
-<!-- Go to the `Integration Builder` > `Library` and select Outlook.
+Go to the `Integration Builder` > `Library` and select Outlook.
 
-{{% image src="/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step1.png" alt="Outlook tile" %}}
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-1-find-recipes.png" alt="Google Sheets tile" %}}
 
 Select the "[Cobalt > Google Sheets] Import assets from Google Sheets" recipe.
 
-For the purpose of this guide, we'll go with "When pentest finding moved to Pending Fix, send email notifications". The process is very similar for DAST findings, so these steps should help you out in that case as well.
-
-{{% image src="/integrations/integration_builder/findings_outlook_notifications/configure_outlook_notification_step2.png" alt="Outlook recipes" %}} -->
+{{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-2-select-import-recipe.png" alt="Google Sheets tile" %}}
 
 ### 4. Copy and customize the recipe
 
