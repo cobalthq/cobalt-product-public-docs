@@ -6,14 +6,14 @@ weight: 30
 
 ## Application Specific Guides
 
-| Application       | Use Case                        | Guide Link                            |
-|-------------------|---------------------------------|---------------------------------------|
-| Jira Cloud        | Create tickets for findings     | [Click Here](./jira-cloud-migration)  |
-| GitHub            | Create tickets for findings     | [Click Here](./github)                |
-| GitLab            | Create tickets for findings     | [Click Here](./gitlab)                |
-| Microsoft Teams   | Send notifications for findings | [Click Here](./microsoft-teams)       |
-| Microsoft Outlook | Send notifications for findings | [Click Here](./outlook-notifications) |
-| Google Sheets     | Import assets                   | [Click Here](./import-assets)         |
+| Application       | Use Case                        | Guide Link                                       |
+|-------------------|---------------------------------|--------------------------------------------------|
+| Jira Cloud        | Create tickets for findings     | [Click Here](./jira-cloud-migration)             |
+| GitHub            | Create tickets for findings     | [Click Here](./github)                           |
+| GitLab            | Create tickets for findings     | [Click Here](./gitlab)                           |
+| Microsoft Teams   | Send notifications for findings | [Click Here](./microsoft-teams)                  |
+| Microsoft Outlook | Send notifications for findings | [Click Here](./outlook-notifications)            |
+| Google Sheets     | Import assets                   | [Click Here](./import-assets-from-google-sheets) |
 
 ## Trigger filters
 

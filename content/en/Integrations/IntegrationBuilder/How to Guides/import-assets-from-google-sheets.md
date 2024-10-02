@@ -10,26 +10,45 @@ How to use Integration Builder to import assets from Google Sheets.
 
 ## Import assets from Google Sheets
 
-To import assets from Google Sheets, you need to follow two general steps:
+To import assets from Google Sheets, you need to follow five general steps:
 
 1. Create a spreadsheet in Google Sheets.
 2. Create a Google Sheets connection.
-3. Find and select the recipe
-4. Copy and customize the recipe
-5. Start the recipe
+3. Find and select the recipe.
+4. Copy and customize the recipe.
+5. Start the recipe.
 
 The following is a step-by-step guide to walk you through the configuration process.
 
 ### 1. Create a spreadsheet in Google Sheets
 
 To import assets from Google Sheets into the Cobalt platform, we first have to create a spreadsheet with the following columns: `Title`, `Type`, `Description`.
-
-`Title` and `Description` can be anything, but `Type` needs to be one of: `unknown`, `web`, `mobile`, `external_network`, `api`, `cloud_config`, `desktop_obsolete`, `internal_network`, `web_plus_api`, `web_plus_external_network`, `web_plus_mobile`, `wireless_network`, `iot`, `desktop`, `physical`, `other`, `web_plus_api_plus_external_network`, `internal_network_plus_external_network`, `mobile_plus_api`, `web_plus_mobile_plus_api`.
+`Title` and `Description` can be anything, but `Type` needs to be one of: 
+- `unknown`
+- `web`
+- `mobile`
+- `external_network`
+- `api`
+- `cloud_config`
+- `desktop_obsolete`
+- `internal_network`
+- `web_plus_api`
+- `web_plus_external_network`
+- `web_plus_mobile`
+- `wireless_network`
+- `iot`
+- `desktop`
+- `physical`
+- `other`
+- `web_plus_api_plus_external_network`
+- `internal_network_plus_external_network`
+- `mobile_plus_api`
+- `web_plus_mobile_plus_api`
 
 Here's an example of what that could look like:
 {{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-spreadsheet-example.png" alt="Example spreadsheet" %}}
 
-Once ready, give the file a name (optionally the specific sheet as well) and save it.
+Once ready, give the file a name (optionally, the specific sheet as well) and save it.
 
 ### 2. Create a Google Sheets connection
 
@@ -48,13 +67,13 @@ After selecting the connection type, a form will appear. Provide a name, select 
 
 {{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-02-create-connection-form.png" alt="Create connection form" %}}
 
-Once signed in with Google, you should get a confirmation that the connection got successfully created.
+Once signed in with Google, you should get a confirmation that the connection was successfully created.
 
 {{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-03-connection-created.png" alt="Connection Created" %}}
 
 ### 3. Find and select the recipe
 
-Go to the `Integration Builder` > `Library` and select Outlook.
+Go to the `Integration Builder` > `Library` and search for Google Sheets.
 
 {{% image src="/integrations/integration_builder/how_to_guides/import-assets/google-sheets-1-find-recipes.png" alt="Google Sheets tile" %}}
 
