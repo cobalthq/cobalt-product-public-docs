@@ -29,7 +29,7 @@ In addition, the following tools can help you verify ("lint") proposed documenta
 
 ### Tools in Evaluation:
 
-- [Vale](https://github.com/errata-ai/vale), a syntax-aware linter 
+- [Vale](https://github.com/errata-ai/vale), a syntax-aware linter
 - [Netlify](https://www.netlify.com/) for CI tests and doc deployment
 
 
@@ -57,21 +57,11 @@ To build and run the site locally, you need the following:
     hugo version
     ```
 
-- If you already have Hugo installed, and have just cloned this repository, you'll should then [install two more NPM packages](https://github.com/google/docsy#prerequisites).
+- If you already have Hugo installed, and have just cloned this repository, you'll should then [install NPM dependencies](https://github.com/google/docsy).
 
   ```
-  sudo npm install -D --save autoprefixer
-  sudo npm install -D --save postcss-cli
+  npm install
   ```
-
-- Set up the Docsy theme
-
-  ```
-  git submodule update --init --recursive
-  ```
-
-  - There's a bug, https://github.com/google/docsy/issues/626. Use the workaround described in the bug to point the
-     Docsy submodule to a specific commit.
 
 After you've made your working copy of the site repository, from its root folder, run:
 
@@ -81,7 +71,7 @@ hugo server -D
 
 ## Test Links and Alt Attributes
 
-You can test links and alt text attributes with [htmltest](https://github.com/wjdp/htmltest). 
+You can test links and alt text attributes with [htmltest](https://github.com/wjdp/htmltest).
 
 ### Install htmltest
 
@@ -141,7 +131,7 @@ With images, for accessibility, we need to include "Alt Text". In this case, you
 ![](/gsg/PentestFlowOverview.png)
 ```
 
-To accommodate screen readers, we need "Alt Text" similar to: 
+To accommodate screen readers, we need "Alt Text" similar to:
 
 ```
 ![UI Flow for Pentests](/gsg/PentestFlowOverview.png "UI Flow for Pentests")
@@ -182,7 +172,7 @@ As you run the website locally, you may run into the following errors:
 ```
 ➜ hugo server
 
-INFO 2021/01/21 21:07:55 Using config file: 
+INFO 2021/01/21 21:07:55 Using config file:
 Building sites … INFO 2021/01/21 21:07:55 syncing static files to /
 Built in 288 ms
 Error: Error building site: TOCSS: failed to transform "scss/main.scss" (text/x-scss): resource "scss/scss/main.scss_9fadf33d895a46083cdd64396b57ef68" not found in file cache
@@ -190,7 +180,7 @@ Error: Error building site: TOCSS: failed to transform "scss/main.scss" (text/x-
 
 This error occurs for one of the following reasons:
 
-- If you haven't installed the extended version of Hugo. 
+- If you haven't installed the extended version of Hugo.
   See the Docsy [user guide](https://www.docsy.dev/docs/getting-started/) for instructions on how to install Hugo.
 - If you haven't installed the `postcss-cli` NPM package.
 
@@ -222,6 +212,6 @@ the SOC2 conventions are a good practice. This repository deviates from SOC2 con
 
 - Allows updates to PRs without dismissing pull request approvals.
   - Supports minor changes, such as typo corrections, without having to restart the PR approval process.
-  - Until we have a repository that supports doc builds, the documentation team (of one) needs to copy and iterate. 
+  - Until we have a repository that supports doc builds, the documentation team (of one) needs to copy and iterate.
 - Allows administrators to bypass restrictions.
   - Supports "quality at speed" by allowing administrators to make / commit minor changes, such as typo corrections.
