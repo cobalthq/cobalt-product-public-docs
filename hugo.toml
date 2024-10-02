@@ -8,7 +8,7 @@ theme = ["docsy"]
 themesDir = "node_modules"
 
 # Will give values to .Lastmod etc.
-enableGitInfo = false
+enableGitInfo = true
 
 # Language settings
 contentDir = "content/en"
@@ -59,7 +59,6 @@ title = "  Product Docs"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
-enableGitInfo = true
 [languages.en.params]
 description = "Documentation for Penetration testing as a Service"
 time_format_default = "January.01.2006"
