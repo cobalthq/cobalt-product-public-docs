@@ -1,6 +1,6 @@
 ---
-title: "Import assets from Google Sheets"
-linkTitle: "Import assets from Google Sheets"
+title: "Import Assets from Google Sheets"
+linkTitle: "Import Assets from Google Sheets"
 weight: 60
 ---
 
@@ -10,20 +10,20 @@ How to use Integration Builder to import assets from Google Sheets.
 
 ## Import assets from Google Sheets
 
-To import assets from Google Sheets, you need to follow five general steps:
+To import assets from Google Sheets, follow these five general steps:
 
-1. Create a spreadsheet in Google Sheets.
-2. Create a Google Sheets connection.
-3. Find and select the recipe.
-4. Copy and customize the recipe.
-5. Start the recipe.
+1. Create a Spreadsheet in Google Sheets.
+2. Create a Google Sheets Connection.
+3. Find and Select the Recipe.
+4. Copy and Customize the Recipe.
+5. Start the Recipe.
 
 The following is a step-by-step guide to walk you through the configuration process.
 
-### 1. Create a spreadsheet in Google Sheets
+### 1. Create a Spreadsheet in Google Sheets
 
-To import assets from Google Sheets into the Cobalt platform, we first have to create a spreadsheet with the following columns: `Title`, `Type`, `Description`.
-`Title` and `Description` can be anything, but `Type` needs to be one of: 
+To import assets from Google Sheets into the Cobalt platform, first create a spreadsheet with the following columns: `Title`, `Type`, `Description`.
+`Title` and `Description` can be anything, but `Type` needs to be one of the following:
 - `unknown`
 - `web`
 - `mobile`
@@ -50,20 +50,20 @@ Here's an example of what that could look like:
 
 Once ready, give the file a name (optionally, the specific sheet as well) and save it.
 
-### 2. Create a Google Sheets connection
+### 2. Create a Google Sheets Connection
 
 The following is a quick guide on how to create a Workato connection for Google Sheets.
-In case you're looking for a more comprehensive and general guide on how to manage connections, check [here](/integrations/integrationbuilder/connect-your-applications/).
+If you're looking for a more comprehensive and general guide on how to manage connections, check [here](/integrations/integrationbuilder/connect-your-applications/).
 
-Go to the `Integration Builder` > `Projects`. Select or create a project on the left-side of the page. Then click on the "Create" button on the top-right and choose the "Connection" option.
+Go to the `Integration Builder` > `Projects`. Select or create a project on the left side of the page. Then click on the "Create" button on the top-right and choose the "Connection" option.
 
 {{% image src="/integrations/integration_builder/how_to_guides/import-assets-from-google-sheets/00-create-connection.png" alt="Create a connection for your project" %}}
 
-A "New Connection" page will show up. Look for "Google Sheets" and select the corresponding tile. You can optionally use the search field to quickly find the connection.
+A "New Connection" page will appear. Look for "Google Sheets" and select the corresponding tile. You can optionally use the search field to quickly find the connection.
 
 {{% image src="/integrations/integration_builder/how_to_guides/import-assets-from-google-sheets/01-select-connection-type.png" alt="Select connection type" %}}
 
-After selecting the connection type, a form will appear. Provide a name, select a location (we recommend `Cobalt` > `Connections`) and click on "Sign in with Google".
+After selecting the connection type, a form will appear. Provide a name, select a location (we recommend `Cobalt` > `Connections`), and click on "Sign in with Google".
 
 {{% image src="/integrations/integration_builder/how_to_guides/import-assets-from-google-sheets/02-create-connection-form.png" alt="Create connection form" %}}
 
@@ -71,7 +71,7 @@ Once signed in with Google, you should get a confirmation that the connection wa
 
 {{% image src="/integrations/integration_builder/how_to_guides/import-assets-from-google-sheets/03-connection-created.png" alt="Connection Created" %}}
 
-### 3. Find and select the recipe
+### 3. Find and Select the Recipe
 
 Go to the `Integration Builder` > `Library` and search for Google Sheets.
 
@@ -81,7 +81,7 @@ Select the "[Cobalt > Google Sheets] Import assets from Google Sheets" recipe.
 
 {{% image src="/integrations/integration_builder/how_to_guides/import-assets-from-google-sheets/2-select-import-recipe.png" alt="Google Sheets tile" %}}
 
-### 4. Copy and customize the recipe
+### 4. Copy and Customize the Recipe
 
 Click on "Use this recipe".
 
@@ -107,7 +107,7 @@ At this point, the configuration is ready. In the top-right corner, click on "Sa
 
 {{% image src="/integrations/integration_builder/how_to_guides/import-assets-from-google-sheets/8-save-and-exit.png" alt="Save and Exit" %}}
 
-### 5. Start the recipe
+### 5. Start the Recipe
 
 This recipe is a function call, which means it can be integrated and called within another recipe. However, since we want to trigger it directly, we have to use a test environment.
 Click on the caret on the right of the "Start recipe" button, then on the "Test recipe" button. 
