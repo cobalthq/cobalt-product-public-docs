@@ -5,6 +5,7 @@ command = "hugo --gc --minify"
 [build.environment]
 HUGO_VERSION = "0.135.0"
 HUGO_ENV = "production"
+NODE_VERSION = "20.17.0"
 
 [[redirects]]
   from = "https://cobalt-docs.netlify.app/*"
