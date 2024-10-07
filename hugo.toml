@@ -61,7 +61,7 @@ languageName ="English"
 weight = 1
 [languages.en.params]
 description = "Documentation for Penetration testing as a Service"
-time_format_default = "January.01.2006"
+time_format_default = "January.02.2006"
 time_format_blog = "02.01.2006"
 
 
