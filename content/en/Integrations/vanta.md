@@ -12,7 +12,7 @@ Configure the integration to sync Cobalt users, assets and findings with Vanta.
 
 ## Integration Overview
 
-Vanta is one of the leading trust management platforms, that helps simplify & centralize security for organizations of all sizes. Vanta help automate processes around compliance, including SOC2.
+Vanta is one of the leading trust management platforms, that helps simplify & centralize security for organizations of all sizes. Vanta helps automate processes around compliance, including SOC2.
 
 Using this integration, you can sync Cobalt Users, Assets and [findings](/platform-deep-dive/pentests/findings/) data with Vanta.
 
