@@ -1,22 +1,22 @@
 <div id="feedback">
 <br>
-<hr size="12" width="100%" color="0047AB">  
+<hr size="12" width="100%" color="0047AB">
 <br>
   <p><b>Was this page helpful?</b></p>
 
-        <a class="btn btn-primary mr-3 mb-4 feedback-yes">
-           Yes <i class="fas"></i>
-        </a>
-        <a class="btn btn-primary mr-3 mb-4 feedback-no">
-           No <i class="fas"></i>
-        </a>
-        <a class="btn btn-outline-primary mr-3 mb-4" href="https://github.com/cobalthq/cobalt-product-public-docs/issues/new">
-                Create an Issue <i class="fab"></i>
-        </a>
+  <button class="btn btn-primary me-2 mb-4" id="feedback-yes">
+     Yes <i class="fas"></i>
+  </button>
+  <button class="btn btn-primary me-2 mb-4" id="feedback-no">
+     No <i class="fas"></i>
+  </button>
+  <a class="btn btn-outline-primary me-2 mb-4" href="https://github.com/cobalthq/cobalt-product-public-docs/issues/new">
+    Create an Issue <i class="fab"></i>
+  </a>
 </div>
 <script>
-   const yesButton = document.querySelector('.feedback-yes');
-   const noButton = document.querySelector('.feedback-no');
+   const yesButton = document.querySelector('#feedback-yes');
+   const noButton = document.querySelector('#feedback-no');
 
    const disableButtons = () => {
       yesButton.classList.add('disabled')
