@@ -42,7 +42,7 @@ The Integration Builder provides a library of connectors for common business and
 ### Connection
 
 Integration Builder connects to apps to build recipes. Once authenticated, each the triggers and actions provided
-by that app become available to use across recipes. See authentication best practices.
+by that app become available to use across recipes. [See authentication best practices](/integrations/integrationbuilder/how-to-guides/#authentication-best-practices).
 
 <iframe src="https://play.vidyard.com/a22pBZVWCwGaWvs8VQZXEC" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
