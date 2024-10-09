@@ -7,7 +7,9 @@ description: >
 ---
 
 {{% pageinfo %}}
-Synchronize Cobalt pentest [findings](/platform-deep-dive/pentests/findings/) with Jira issues bi-directionally. The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/). <span style="background-color: #ECE6FA; padding: 2px;">To sync DAST & Engagement findings, use the [Integration Builder](/integrations/integrationbuilder/).</span> 
+Synchronize Cobalt pentest [findings](/platform-deep-dive/pentests/findings/) with Jira issues bi-directionally. The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/). 
+
+<span style="background-color: #ECE6FA; padding: 2px;">To sync DAST & Engagement findings, use the [Integration Builder](/integrations/integrationbuilder/).</span> 
 {{% /pageinfo %}}
 
 ## Overview
