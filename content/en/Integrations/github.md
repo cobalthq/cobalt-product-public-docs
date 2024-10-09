@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Learn how to set up an integration between Cobalt and GitHub (Cloud only). The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
+Learn how to set up an integration between Cobalt and GitHub (Cloud only). To sync DAST & Engagement findings, use the [Integration Builder](/integrations/integrationbuilder/). The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
 {{% /pageinfo %}}
 
 ## Integration Overview
