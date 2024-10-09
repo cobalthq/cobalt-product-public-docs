@@ -41,7 +41,7 @@ The Integration Builder provides a library of connectors for common business and
 
 ### Connection
 
-Integration Builder connects to apps to build recipes. Once authenticated, each the triggers and actions provided
+Integration Builder connects to apps to build recipes. Once authenticated, each of the triggers and actions provided
 by that app become available to use across recipes. [See authentication best practices](/integrations/integrationbuilder/how-to-guides/#authentication-best-practices).
 
 <iframe src="https://play.vidyard.com/a22pBZVWCwGaWvs8VQZXEC" width="640" height="360" frameborder="0" allowfullscreen></iframe>
@@ -68,7 +68,7 @@ Yes. You can create a connection to each environment of the application. Within 
 {{% /expand %}}
 <br>
 
-{{%expand "Do I pay extra for integration builder?" %}}
+{{%expand "Do I pay extra for the Integration Builder?" %}}
 <br>
 
 No. Integration Builder is included for all Premium & Enterprise customers.
@@ -76,7 +76,7 @@ No. Integration Builder is included for all Premium & Enterprise customers.
 {{% /expand %}}
 <br>
 
-{{%expand "Are there usage limits for Integration Builder?" %}}
+{{%expand "Are there usage limits for the Integration Builder?" %}}
 <br>
 
 Yes. Each customer organization is limited to 10,000 tasks, or individual processing steps. Contact us for additional tasks.
@@ -84,7 +84,7 @@ Yes. Each customer organization is limited to 10,000 tasks, or individual proces
 {{% /expand %}}
 <br>
 
-{{%expand "Is coding required to use Integration Builder?" %}}
+{{%expand "Is coding required to use the Integration Builder?" %}}
 <br>
 
 While basic knowledge of logic and data structures can be helpful, the Integration Builder’s visual interface allows
