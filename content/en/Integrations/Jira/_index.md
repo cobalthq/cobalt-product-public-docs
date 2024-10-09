@@ -7,14 +7,14 @@ description: >
 ---
 
 {{% pageinfo %}}
-Synchronize Cobalt [findings](/platform-deep-dive/pentests/findings/) with Jira issues bi-directionally. The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
+Synchronize Cobalt pentest [findings](/platform-deep-dive/pentests/findings/) with Jira issues bi-directionally. To sync DAST & Engagement findings, use the [Integration Builder](/integrations/integrationbuilder/). The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
 {{% /pageinfo %}}
 
 ## Overview
 
 As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](/platform-deep-dive/collaboration/user-roles/#organization-member), you can integrate Jira with Cobalt to streamline your workflows. With this integration, you can:
 
-- **Push Cobalt findings as issues** to your Jira project.
+- **Push Cobalt pentest findings as issues** to your Jira project.
   - The [auto-push](/integrations/jira/push-findings/#how-auto-push-works) option allows you to push findings to Jira automatically.
   - Pentest collaborators can also [push findings manually](/integrations/jira/push-findings/#push-findings-manually)—if they're not already synchronized.
 - **Synchronize the status of Jira issues with Cobalt findings** once your team has completed remediation.
