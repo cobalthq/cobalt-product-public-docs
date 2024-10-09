@@ -1,0 +1,9 @@
+Loading...
+
+<iframe id="cobalt-api-docs"></iframe>
+
+<script>
+const iframe = document.getElementById('cobalt-api-docs');
+const fragment = new URL(document.location).hash;
+iframe.src = 'https://cobalt-public-api.netlify.app/' + {{ .Page.Slug }} + `/${fragment}`;
+</script>

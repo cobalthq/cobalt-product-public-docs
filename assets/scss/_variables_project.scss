@@ -21,3 +21,13 @@ $link-hover-color: darken($link-color, 15%) !default;
 $link-hover-decoration: none !default;
 
 .td-page-meta--view { display: none !important; }
+
+#cobalt-api-docs {
+  position: absolute;
+  top: 4rem;
+  left: 16.66666667%;
+  width: calc(100% - 16.66666667%);
+  height: calc(100% - 4rem);
+  border: 0;
+  z-index: 5;
+}
