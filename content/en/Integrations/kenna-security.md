@@ -23,8 +23,8 @@ You can retrieve [findings](/platform-deep-dive/pentests/findings/) data from Co
 To configure the integration, you need the following:
 
 - **Cobalt API token**. Learn [how to create an API token](/cobalt-api/create-personal-api-token/).
-- **Cobalt organization token**. Learn [how to retrieve an organization token](https://docs.cobalt.io/cobalt-api/v1/#organizations) using the Cobalt API v1.
-  - Make sure that you use the [Cobalt API v1](https://docs.cobalt.io/cobalt-api/v1) and not v2. This integration doesn't support organization tokens from the API v2.
+- **Cobalt organization token**. Learn [how to retrieve an organization token](/cobalt-api/documentation/v1/#organizations) using the Cobalt API v1.
+  - Make sure that you use the [Cobalt API v1](/cobalt-api/documentation/v1) and not v2. This integration doesn't support organization tokens from the API v2.
 - **Kenna Security API key**. Learn [how to create an API key](https://help.kennasecurity.com/hc/en-us/articles/360029111331-API-Key-Generation-and-Permissions).
 - **Kenna Security connector ID**. Create a Kenna Security Data Importer connector, and copy the connector ID as described in [step 1](#step-1-create-a-kenna-security-data-importer-connector).
 

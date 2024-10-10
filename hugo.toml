@@ -85,7 +85,7 @@ time_format_blog = "02.01.2006"
   weight = 30
 [[menu.main]]
   name = 'API Docs'
-  url = 'https://docs.cobalt.io/cobalt-api/v2'
+  url = 'https://docs.cobalt.io/cobalt-api/documentation/v2'
   weight = 40
 
 # Everything below this are Site Params

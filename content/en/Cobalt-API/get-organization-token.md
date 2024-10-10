@@ -51,4 +51,4 @@ Include the organization token in the `X-Org-Token` header of your requests.
 -H "X-Org-Token: YOUR-V2-ORGANIZATION-TOKEN"
 ```
 
-For more information, see our API reference documentation on the [organizations](/cobalt-api/v2/#organizations) endpoint.
+For more information, see our API reference documentation on the [organizations](/cobalt-api/documentation/v2/#organizations) endpoint.

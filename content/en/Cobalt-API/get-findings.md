@@ -8,7 +8,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Use this document with our [Cobalt API documentation](/cobalt-api/v2) to retrieve Cobalt findings for all pentests.
+Use this document with our [Cobalt API documentation](/cobalt-api/documentation/v2) to retrieve Cobalt findings for all pentests.
 {{% /pageinfo %}}
 
 Complete the following steps:
@@ -123,7 +123,7 @@ You should see output similar to:
 </br>
 
 For more information on each parameter, see our API reference documentation on
-how to [get all findings](/cobalt-api/v2/#get-all-findings).
+how to [get all findings](/cobalt-api/documentation/v2/#get-all-findings).
 
 If the command is successful, you'll see the following HTTP code:
 
@@ -131,7 +131,7 @@ If the command is successful, you'll see the following HTTP code:
 |------------|------------------|
 | 200 OK | Findings for all pentests of an organization are returned. |
 
-For a list of error codes, see the [Errors](/cobalt-api/v2/#errors)
+For a list of error codes, see the [Errors](/cobalt-api/documentation/v2/#errors)
 section of our API reference.
 
 ## Step 2: Import Findings to Google Sheets
