@@ -8,7 +8,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Streamline your pentesting and development workflows with Cobalt integrations.
+Streamline your testing and development workflows with Cobalt integrations.
 {{% /pageinfo %}}
 
 {{< alert title="Note" color="primary" >}}

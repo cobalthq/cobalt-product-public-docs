@@ -7,7 +7,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Configure the integration to import Cobalt findings into the Kenna Security platform.
+Configure the integration to import Cobalt pentest findings into the Kenna Security platform.
 
 You can also refer to the Kenna Security [documentation](https://github.com/KennaSecurity/toolkit/tree/main/tasks/connectors/cobaltio#readme).
 {{% /pageinfo %}}
