@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="{{ .Site.Language.Lang }}" class="no-js">
   <head>
-    {{ if .Site.Params.GoogleAnalyticsID }}
-    {{ partial "analytics-gtag.html" . }}
-    {{ end }}  
+    {{ if .Site.Config.Services.GoogleAnalytics.ID }}
+      {{ partial "analytics-gtag.html" . }}
+    {{ end }}
     {{ partial "head.html" . }}
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
   </head>
@@ -21,7 +21,9 @@
             {{ partial "toc.html" . }}
           </aside>
           <main class="col-12 col-md-9 col-xl-8 pl-md-5" role="main">
-            {{ if not .Site.Params.ui.breadcrumb_disable }}{{ partial "breadcrumb.html" . }}{{ end }}
+            {{ if not .Site.Params.ui.breadcrumb_disable }}
+              {{ partial "breadcrumb.html" . }}
+            {{ end }}
             {{ block "main" . }}{{ end }}
           </main>
         </div>
