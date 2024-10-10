@@ -61,7 +61,7 @@ Here's an example of what these steps look like in a recipe:
 {{% image src="/integrations/integration_builder/how_to_guides/external_ticket_references/search_ticket_reference.png" alt="Search ticket reference" %}}
 {{% image src="/integrations/integration_builder/how_to_guides/external_ticket_references/create_ticket_reference.png" alt="Create ticket reference" %}}
 
-See [our public API documentation](/cobalt-api/v2/) for more information about the properties of an external ticket reference.
+See [our public API documentation](/cobalt-api/documentation/v2) for more information about the properties of an external ticket reference.
 
 ## Customizing fields
 

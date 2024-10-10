@@ -30,7 +30,7 @@ sequenceDiagram
 {{< /mermaid >}}
 <br>
 
-You can configure webhooks through the [API](/cobalt-api/v2/#webhooks) and in the [Cobalt UI](#configure-webhooks-in-the-ui).
+You can configure webhooks through the [API](/#webhooks) and in the [Cobalt UI](#configure-webhooks-in-the-ui).
 <!-- Provide a link to API docs or API use case. -->
 
 ## Before You Start
@@ -40,7 +40,7 @@ Before you start creating webhooks, complete the configuration in your app.
 1. Make sure that the **URL** where you want to receive notifications is valid and your services work properly. If possible, test your connections.
 1. (Optional) To add an extra layer of security to the integration, generate a **webhook secret** in your app. When we send a POST request to your URL, we include your secret in the request header. This allows you to validate that the API request is from Cobalt.
 
-Read our [Best Practices](/cobalt-api/v2/#best-practices) for more information.
+Read our [Best Practices](/cobalt-api/documentation/v2/#best-practices) for more information.
 
 ## Webhook Events
 
@@ -50,7 +50,7 @@ When you set up a webhook, you can **select events** to which you want to subscr
 |---|---|
 | <li>Pentest created</li><li>[Pentest state](/platform-deep-dive/pentests/pentest-process/pentest-states/) updated</li> | <li>Finding deleted</li><li>Finding published</li><li>[Finding state](/platform-deep-dive/pentests/findings/finding-states/) updated</li><li>Finding updated</li>
 
-For security reasons, we only post essential details about webhook events, such as their ID and type. To retrieve more information about the event, use the [Cobalt API](/cobalt-api/v2).
+For security reasons, we only post essential details about webhook events, such as their ID and type. To retrieve more information about the event, use the [Cobalt API](/cobalt-api/documentation/v2).
 
 {{% alert title="Note" color="primary" %}}
 For webhooks that you created before June 2023, you get updates for **all events**. You can adjust the configuration of your existing webhooks. Select the three-dot icon {{% three-dots %}} under **Actions**, select **Edit Webhook**, select webhook events in the overlay, and then select **Save** to confirm.
