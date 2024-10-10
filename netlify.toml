@@ -21,9 +21,9 @@ NODE_VERSION = "20.17.0"
 # Redirects for the old docs.cobalt.io API documentation to the new location
 [[redirects]]
   from = "/v1"
-  to = "/cobalt-api/v1"
+  to = "/cobalt-api/documentation/v1"
   status = 301
 [[redirects]]
   from = "/v2"
-  to = "/cobalt-api/v2"
+  to = "/cobalt-api/documentation/v2"
   status = 301
