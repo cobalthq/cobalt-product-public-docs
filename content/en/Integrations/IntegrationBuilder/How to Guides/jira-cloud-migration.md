@@ -10,9 +10,9 @@ description: >
 
 This guide is designed to help organizations transition from our native **Jira Cloud** integration to our highly customizable [**Integration Builder**](/integrations/integrationbuilder/).
 
-> ⚠️ This migration guide is not applicable if your organization uses **Jira Server** or **Jira Data Center**.
+> **⚠️** This migration guide is not applicable if your organization uses **Jira Server** or **Jira Data Center**.
 
-> ⚠️ The Integration Builder is currently in Open Beta status. We do not recommend that all users migrate to the Integration Builder at this time. We recommend that you migrate to the Integration Builder if our current generally-available Jira integration does not meet your needs.
+> **⚠️** The Integration Builder is currently in Open Beta status. We do not recommend that all users migrate to the Integration Builder at this time. We recommend that you migrate to the Integration Builder if our current generally-available Jira integration does not meet your needs.
 
 {{% /pageinfo %}}
 
@@ -58,7 +58,7 @@ Assuming that this project is already set up with the native Jira Cloud integrat
 
 1.  Creates a **Task** Jira issue for a finding when it is moved to the Pending Fix state
 
-    > ℹ️ The **Task** can be created via auto-push if configured for the pentest or manually from the pentest finding page.
+    > **ⓘ** The **Task** can be created via auto-push if configured for the pentest or manually from the pentest finding page.
 
 1.  Updates the pentest finding to the **Ready for Retest** state when the Jira **Task** status changes to **Acceptance Testing**.
 1.  Updates the pentest finding to the **Accepted Risk** state when the Jira **Task** status changes to **Won't Do**.
@@ -81,25 +81,25 @@ Assuming that this project is already set up with the native Jira Cloud integrat
 
 1. Select the **Cobalt** folder as the copy destination then click on **Save and copy**.
 
-   > ℹ️ You can select any arbitrary folder to save a copy of the recipe.
+   > **ⓘ** You can select any arbitrary folder to save a copy of the recipe.
 
-   > ℹ️ You can create a new folder before saving a copy of any recipes. To do so, click on the **Projects** tab in the **Integration Builder** and click on the plus sign (**+**) to **Create folder** from the project explorer sidebar.
+   > **ⓘ** You can create a new folder before saving a copy of any recipes. To do so, click on the **Projects** tab in the **Integration Builder** and click on the plus sign (**+**) to **Create folder** from the project explorer sidebar.
 
    ![Save and copy](/integrations/Jira-Cloud-migration-save-and-copy.png "Save and copy")
 
 1. Click on **Customize recipe** to adjust the pre-built recipe template to your Jira Cloud configuration.
 
-   > ℹ️ The recipe is not ready for use yet. It needs the Jira Cloud project configuration, including the project name and the task Jira issue type to create.
+   > **ⓘ** The recipe is not ready for use yet. It needs the Jira Cloud project configuration, including the project name and the task Jira issue type to create.
 
    ![Customize recipe](/integrations/Jira-Cloud-migration-customize-recipe.png "Customize recipe")
 
 #### Customize the recipe
 
-> ⚠️ To customize the recipes, you need to have the **Jira** connection set up. If you haven't set up a [connection](/integrations/integrationbuilder/#connection) to your Jira Cloud instance using the **Jira** [connector](/integrations/integrationbuilder/#connector) yet, you can learn how to manage your **Integration Builder** connections [here](/integrations/integrationbuilder/connect-your-applications/).
+> **⚠️** To customize the recipes, you need to have the **Jira** connection set up. If you haven't set up a [connection](/integrations/integrationbuilder/#connection) to your Jira Cloud instance using the **Jira** [connector](/integrations/integrationbuilder/#connector) yet, you can learn how to manage your **Integration Builder** connections [here](/integrations/integrationbuilder/connect-your-applications/).
 
 1. To configure the recipe's run condition, select the recipe **Trigger** in the editor and select a pentest from the list.
 
-   > ℹ️ By default, this recipe will be activated whenever there is a state change for any pentest finding within the Cobalt Platform. Once a specific pentest is chosen from the list, the recipe will only be triggered if the status change is for a finding related to the selected pentest. If it doesn't, the recipe will not be activated.
+   > **ⓘ** By default, this recipe will be activated whenever there is a state change for any pentest finding within the Cobalt Platform. Once a specific pentest is chosen from the list, the recipe will only be triggered if the status change is for a finding related to the selected pentest. If it doesn't, the recipe will not be activated.
    
    ![Configure finding state change trigger](/integrations/Jira-Cloud-migration-configure-finding-state-change-trigger.png "Configure finding state change trigger")
 
@@ -141,7 +141,7 @@ There are two pre-built recipe templates available in the **Integration Builder*
 
    1. Select **New/updated issue in Jira** recipe **trigger** in the editor.
    1. Specify a datetime before your pentest is in the **live** state using the **From** setting.
-      > ℹ️ The **From** setting allows recipes to retrieve past trigger events from a specified date and time. Instead of only picking up new trigger events (events created since the recipe was started), this setting enables the selection of events that have already occurred. When you start a recipe for the first time, it retrieves new or updated issues starting from the specified date and time. Once a recipe has been ran or tested, this value cannot be changed.
+      > **ⓘ** The **From** setting allows recipes to retrieve past trigger events from a specified date and time. Instead of only picking up new trigger events (events created since the recipe was started), this setting enables the selection of events that have already occurred. When you start a recipe for the first time, it retrieves new or updated issues starting from the specified date and time. Once a recipe has been ran or tested, this value cannot be changed.
       >
       > In the example below, the trigger for new or updated Jira issues has a **From** date of 7 Aug 2024, midnight PST.
    1. **Refresh** the editor to resolve the validation errors in the recipe.
@@ -156,7 +156,7 @@ There are two pre-built recipe templates available in the **Integration Builder*
 
    ![Issue filter condition](/integrations/Jira-Cloud-migration-issue-filter-condition.png "Issue filter condition")
 
-   > ⚠️ Remember to use the exact case-sensitive label of the expected Jira status.
+   > **⚠️** Remember to use the exact case-sensitive label of the expected Jira status.
    >
    > You can check the workflow statuses in your Jira Cloud project:
    >
@@ -170,13 +170,13 @@ There are two pre-built recipe templates available in the **Integration Builder*
 
    1. **Save** the editor, click on **Exit** to close the editor, and select **Start recipe**.
 
-> ℹ️ Follow the same customization steps for the **[Jira Cloud > Cobalt] Move pentest finding to 'Accepted Risk'** recipe. Make sure to use the correct Jira issue status, such as `Won't Do`, as indicated in the [example Jira workflow](#jira-workflow-statuses).
+> **ⓘ** Follow the same customization steps for the **[Jira Cloud > Cobalt] Move pentest finding to 'Accepted Risk'** recipe. Make sure to use the correct Jira issue status, such as `Won't Do`, as indicated in the [example Jira workflow](#jira-workflow-statuses).
 
 ### Update Jira Cloud from the Cobalt Platform
 
 #### Manage Jira workflow transitions
 
-> ⚠️ The **Integration Builder**-based Jira Cloud integration has more capabilities than the native Jira Cloud integration. It offers the ability to automatically update the status of your Jira Cloud issues when the state of the corresponding pentest finding changes. Configuring Jira workflow transitions is necessary for this functionality. Without a transition, the Jira issue status cannot be programmatically altered. Reference the official Jira Cloud documentation regarding [adding a new transition to a workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows/#Adding-a-transition-to-a-workflow) for more details.
+> **⚠️** The **Integration Builder**-based Jira Cloud integration has more capabilities than the native Jira Cloud integration. It offers the ability to automatically update the status of your Jira Cloud issues when the state of the corresponding pentest finding changes. Configuring Jira workflow transitions is necessary for this functionality. Without a transition, the Jira issue status cannot be programmatically altered. Reference the official Jira Cloud documentation regarding [adding a new transition to a workflow](https://support.atlassian.com/jira-cloud-administration/docs/work-with-issue-workflows/#Adding-a-transition-to-a-workflow) for more details.
 
 Modify the example Jira workflow by adding the following workflow transitions:
 
@@ -220,7 +220,7 @@ There are two pre-built recipe templates available in the **Integration Builder*
 
    1. **Save** the editor, click on **Exit** to close the editor, and select **Start recipe**.
 
-> ℹ️ Follow the same customization steps for the **[Cobalt > Jira Cloud] Move Jira issue to 'Done' when pentest finding fixed** recipe. Make sure to use the correct Jira workflow transition name, such as `accept_fix` to move the issue status from **Acceptance Testing** to **Done**, as indicated in the [example Jira workflow](#manage-jira-workflow-transitions).
+> **ⓘ** Follow the same customization steps for the **[Cobalt > Jira Cloud] Move Jira issue to 'Done' when pentest finding fixed** recipe. Make sure to use the correct Jira workflow transition name, such as `accept_fix` to move the issue status from **Acceptance Testing** to **Done**, as indicated in the [example Jira workflow](#manage-jira-workflow-transitions).
 
 ## Frequently Asked Questions
 
@@ -243,7 +243,7 @@ If the pentest does not exist in the Cobalt Platform at the time of the migratio
 
    ![Select the asset](/integrations/Jira-Cloud-migration-filter-by-asset-3.png "Select the asset")
 
-   > ℹ️ Alternatively, you can request your customer success manager to create a test organization for you. You can then use an **In-House** pentest with dummy pentest findings data to test your integration in a non-production environment. **In-House pentests do not consume credits.** You can run as many pentests as you want. For more details on how to generate test findings for an **In-House** pentest, click [here](/integrations/development/create-test-finding).
+   > **ⓘ** Alternatively, you can request your customer success manager to create a test organization for you. You can then use an **In-House** pentest with dummy pentest findings data to test your integration in a non-production environment. **In-House pentests do not consume credits.** You can run as many pentests as you want. For more details on how to generate test findings for an **In-House** pentest, click [here](/integrations/development/create-test-finding).
 
 {{% /expand %}}
 <br>
@@ -256,7 +256,7 @@ The recipe automatically uses the **Title** and **Tag** properties of the pentes
 
 While the **Description** is not mandatory for creating a Jira issue, the recipe includes a default template. However, similar to the **Summary**, you can personalize the issue using any text or **datapill**.
 
-> ℹ️ When hovering over a datapill, you can view its origin. For example, hovering over the **Title** **datapill** reveals that the value originates from the output of the second action: **Get pentest finding in Cobalt**, and it uses the **Title** property of the **Resource**.
+> **ⓘ** When hovering over a datapill, you can view its origin. For example, hovering over the **Title** **datapill** reveals that the value originates from the output of the second action: **Get pentest finding in Cobalt**, and it uses the **Title** property of the **Resource**.
 >
 > To understand the data structure of the **Resource** object representing a pentest finding, you may refer to the [Get a Finding](https://cobalt-public-api.netlify.app/v2/#get-a-finding) public API documentation.
 
@@ -285,7 +285,7 @@ Yes.
 
    ![Add optional field](/integrations/Jira-Cloud-migration-use-labels-1.png "Add optional field")
 
-   > ℹ️ The number of the available optional fields may vary based on your Jira Cloud project.
+   > **ⓘ** The number of the available optional fields may vary based on your Jira Cloud project.
 
 1. Choose the **Labels**.
 1. Confirm the dialog by clicking on **Apply changes**.
@@ -296,7 +296,7 @@ Yes.
 
    ![Specify labels](/integrations/Jira-Cloud-migration-use-labels-3.png "Specify labels")
 
-   > ⚠️ The **labels** are separated by a **comma**. Do not use spaces or any other whitespace characters to separate the labels.
+   > **⚠️** The **labels** are separated by a **comma**. Do not use spaces or any other whitespace characters to separate the labels.
    >
    > ✅ Correct
    >
@@ -317,7 +317,7 @@ Issues are identified by a **key** such as `ABC-123`, which specifies the projec
 
 Each issue also has an issue **ID**, which is a numeric identifier assigned sequentially across all projects. The issue **ID** remains unchanged, even if the issue is moved to a different project. Other information linked to the issue, such as attachments or people involved, can reference the issue **ID** and does not require updating if the issue is moved to another project. The issue **key**, on the other hand, quickly indicates the project to which the issue belongs.
 
-> ⚠️ If you plan to move Jira issues between projects, always use the Jira issue **ID** as the **External ID** when creating external ticket references or searching for them.
+> **⚠️** If you plan to move Jira issues between projects, always use the Jira issue **ID** as the **External ID** when creating external ticket references or searching for them.
 
 ![Change External ID](/integrations/Jira-Cloud-migration-change-external-id.gif "Change External ID")
 
