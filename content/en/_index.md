@@ -19,8 +19,9 @@ cascade:
 
 <div class="p-5" style="background-color: #F8F9FB; margin-bottom: 4rem;">
        <h1>Welcome to Cobalt Documentation</h1>
-       <p class="my-3">Deep dive into our documentation to explore Cobalt—your all-in-one platform for pentesting your software.</p>
-       <a class="btn btn-outline-primary rounded" href="https://www.cobalt.io/" target="_blank">Explore Cobalt »</a>
+       <h3>Deep Dive into Cobalt</h3>
+       <p class="my-3">Explore our comprehensive documentation to uncover the full potential of Cobalt — the all-in-one platform designed for pentesting your software.</p>
+      
 </div>
 
 <div class="row g-4 my-3 px-5 row-cols-1 row-cols-lg-3">
@@ -92,8 +93,13 @@ cascade:
     </div>
 
 <div class="text mx-5">
-  <h3>Need More Help? Get in Touch!</h3>
-  <p>If you need help, don't hesitate to contact us.</p><ul><li>If you have a named Customer Success Manager, get in touch with them.</li><li>Otherwise, <a href="https://cobaltio.zendesk.com/hc/en-us/requests/new" target="_blank">submit a ticket</a> or send an email to <a href="mailto:support@cobalt.io" target="_blank">support@cobalt.io</a>.</ul>
+{{< alert title="Need Further Assistance? Contact Us!" color="primary" >}}
+If you need help, don't hesitate to reach out directly to your customer success manager, <a href="https://cobaltio.zendesk.com/hc/en-us/requests/new" target="_blank">submit a ticket</a>, or send us an email at <a href="mailto:support@cobalt.io" target="_blank">support@cobalt.io</a>.
+{{< /alert >}}
+</div>
+
+</div>
+
 </div>
 
 </div>
