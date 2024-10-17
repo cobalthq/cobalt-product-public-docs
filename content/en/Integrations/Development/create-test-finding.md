@@ -95,6 +95,10 @@ description: >
 
 1. Click the dropdown for **Role** next to your username and select the desired role for the **In-House Pentest**.
 
+   ![Switch role](/integrations/Create-test-finding-switch-role.png "Switch role")
+
+   ![Switch role notification](/integrations/Create-test-finding-switch-role-success.png "Switch role notification")
+
    > **ⓘ** The application will automatically reload after changing your pentest collaborator role.
 
 ## Launch In-House Pentest
@@ -110,6 +114,8 @@ description: >
    > **ⓘ** The pentest should be in the **planned** state.
 
 1. Click the **Launch Pentest** button.
+
+   ![Launch pentest](/integrations/Create-test-finding-launch-pentest.png "Launch pentest")
 
    > **ⓘ** The pentest state changes to **live**.
 
