@@ -163,7 +163,7 @@ description: >
 
    ![Select 'Pending Fix' state](/integrations/Create-test-finding-select-pending-fix-state.png "Select 'Pending Fix' state")
 
-1. Set the **Likelihood**, **Business Impact**, and **Report Quality** values by clicking the circles (**●**) and then the **Submit evaluation** button.
+1. Set the **Likelihood** and the **Business Impact** values by clicking the circles (**●**) and then the **Submit evaluation** button.
 
    ![Submit evaluation](/integrations/Create-test-finding-submit-evaluation.png "Submit evaluation")
 
