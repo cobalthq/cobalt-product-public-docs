@@ -180,3 +180,5 @@ description: >
 1. View all pentest findings.
 
    ![In-House pentest findings](/integrations/Create-test-finding-pentest-vulns.png "In-House pentest findings")
+
+   > **ⓘ** Once you have added test findings to the **In-House Pentest**, remember to switch the user role back to **Team Member**. If you remain in the **In-House Pentester** role, certain integration-related UI elements, such as external tickets or the **Integrations** tab, will be hidden.
