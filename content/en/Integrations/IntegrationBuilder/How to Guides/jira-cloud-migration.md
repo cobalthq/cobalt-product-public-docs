@@ -12,8 +12,6 @@ This guide is designed to help organizations transition from our native **Jira C
 
 > **⚠️** This migration guide is not applicable if your organization uses **Jira Server** or **Jira Data Center**.
 
-> **⚠️** The Integration Builder is currently in Open Beta status. We do not recommend that all users migrate to the Integration Builder at this time. We recommend that you migrate to the Integration Builder if our current generally-available Jira integration does not meet your needs.
-
 {{% /pageinfo %}}
 
 ## Overview
