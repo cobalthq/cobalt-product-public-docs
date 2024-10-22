@@ -6,11 +6,13 @@ description: >
   Push Cobalt findings as issues to GitHub.
 ---
 
-{{% pageinfo color="warning" }}
+{{% pageinfo color="warning" %}}
 **Upgrade your GitHub integration**
 
 Our legacy GitHub integration will be deprecated on **January 1, 2025**. Migrate to our Integration Builder for more features and flexibility. [Learn more](https://docs.cobalt.io/integrations/integrationbuilder/how-to-guides/github/).
+{{% /pageinfo %}}
 
+{{% pageinfo %}}
 Learn how to set up an integration between Cobalt and GitHub (Cloud only). The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
 
 <span style="background-color: #ECE6FA; padding: 2px;">To sync DAST & Engagement findings, use the [Integration Builder](/integrations/integrationbuilder/).</span>
