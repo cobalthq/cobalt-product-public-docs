@@ -7,7 +7,9 @@ description: >
 ---
 
 {{% pageinfo %}}
-Integrate with Azure DevOps to create work items for your Cobalt findings and streamline your remediation workflows. The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
+Integrate with Azure DevOps to create work items for your Cobalt pentest findings and streamline your remediation workflows. The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/). 
+
+<span style="background-color: #ECE6FA; padding: 2px;">To sync DAST & Engagement findings, use the [Integration Builder](/integrations/integrationbuilder/).</span> 
 {{% /pageinfo %}}
 
 ## Overview
