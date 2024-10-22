@@ -6,10 +6,16 @@ description: >
   Push Cobalt findings as issues to GitHub.
 ---
 
-{{% pageinfo %}}
-Learn how to set up an integration between Cobalt and GitHub (Cloud only). The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/). 
+{{% pageinfo color="warning" }}
+**Upgrade your GitHub integration**
 
-<span style="background-color: #ECE6FA; padding: 2px;">To sync DAST & Engagement findings, use the [Integration Builder](/integrations/integrationbuilder/).</span> 
+Our legacy GitHub integration will be deprecated on **January 1, 2025**. Migrate to our Integration Builder for more features and flexibility. [Learn more](https://docs.cobalt.io/integrations/integrationbuilder/how-to-guides/github/).
+{{% /pageinfo %}}
+
+{{% pageinfo %}}
+Learn how to set up an integration between Cobalt and GitHub (Cloud only). The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
+
+<span style="background-color: #ECE6FA; padding: 2px;">To sync DAST & Engagement findings, use the [Integration Builder](/integrations/integrationbuilder/).</span>
 {{% /pageinfo %}}
 
 ## Integration Overview
@@ -34,7 +40,7 @@ As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organiz
 1. In Cobalt, navigate to **Pentests**, and select the desired pentest.
 1. Go to the **Integrations** tab.
 1. Follow the instructions in the UI under **GitHub**.<br><br>
-  ![Configure the integration between Cobalt and GitHub](/integrations/configure-GitHub-integration.png "Configure the integration between Cobalt and GitHub")
+   ![Configure the integration between Cobalt and GitHub](/integrations/configure-GitHub-integration.png "Configure the integration between Cobalt and GitHub")
 
 ## Push Findings to GitHub
 
@@ -48,7 +54,7 @@ To push a finding to GitHub:
 
 1. On the pentest page, go to the **Findings** tab, and select the desired finding.
 1. Select **External Issue Tracking**, then select **Create issue on GitHub**.<br><br>
-  ![Push a Cobalt finding to GitHub](/integrations/push-finding-to-GitHub.png "Push a Cobalt finding to GitHub")
+   ![Push a Cobalt finding to GitHub](/integrations/push-finding-to-GitHub.png "Push a Cobalt finding to GitHub")
 
 A new issue is created in your GitHub repository, and the issue number appears under **External Issue Tracking** in Cobalt. Click the link to navigate to the issue.
 
