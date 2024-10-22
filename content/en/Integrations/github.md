@@ -9,7 +9,7 @@ description: >
 {{% pageinfo color="warning" %}}
 **Upgrade your GitHub integration**
 
-Our legacy GitHub integration will be deprecated on **January 1, 2025**. Migrate to our Integration Builder for more features and flexibility. [Learn more](https://docs.cobalt.io/integrations/integrationbuilder/how-to-guides/github/).
+Our legacy GitHub integration will be deprecated on **January 1, 2025**. Migrate to our Integration Builder for more features and flexibility. [Learn more](/integrations/integrationbuilder/how-to-guides/github/).
 {{% /pageinfo %}}
 
 {{% pageinfo %}}
