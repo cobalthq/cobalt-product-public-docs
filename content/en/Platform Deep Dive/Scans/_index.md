@@ -64,9 +64,8 @@ Further information about scan statuses, transitions, and progress tracking can 
 
 {{% image src="/deepdive/scans/ScanProfiles.png" alt="Scan Profiles" %}}
 
-Scan profiles determine how a target gets scanned and are specific to the target's type (e.g. Web or API).
-In simple terms: They establish the desired balance between speed and accuracy of a scan.
-While we won't go into details here, you can find a description for every scan profile in the corresponding dropdown.
+Scan profiles determine how a target is scanned and are tailored to the target type, such as a web application or an API.
+They balance the speed and accuracy of the scan. Detailed descriptions for each scan profile are available in the corresponding dropdown menu.
 
 ### Scan Results
 
