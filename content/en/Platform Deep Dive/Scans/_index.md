@@ -40,7 +40,7 @@ Please ensure this IP is added to your allow-list if you have a WAF or other con
 See more about how to configure a target in [configuring a target]
 
 
-### Scan Scheduling
+### Start a Scan
 
 - To run a scan, select "Scan Now”. This will start a scan immediately.
 
@@ -58,7 +58,14 @@ See more about how to configure a target in [configuring a target]
 
 {{% image src="/deepdive/scans/11_ScheduledScansView.png" alt="Scheduled Scans View - Targets" %}}
 
-Information about scan statuses, transitions, and progress tracking can be found [here].
+Further information about scan statuses, transitions, and progress tracking can be found [here].
+
+#### Scan Profiles
+
+{{% image src="/deepdive/scans/ScanProfiles.png" alt="Scan Profiles" %}}
+
+Scan profiles determine how a target is scanned and are tailored to the target type, such as a web application or an API.
+They balance the speed and accuracy of the scan. Detailed descriptions for each scan profile are available in the corresponding dropdown menu.
 
 ### Scan Results
 
