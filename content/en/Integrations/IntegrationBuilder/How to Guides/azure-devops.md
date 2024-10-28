@@ -8,10 +8,12 @@ weight: 40
 
 To set up Azure DevOps to create Work Items for new findings, follow these two main steps:
 
-1. Create an Azure DevOps connection.
-2. Create a new Azure DevOps recipe.
+1. [Create an Azure DevOps connection](#create-an-azure-devops-connection).
+2. [Create a new Azure DevOps recipe](#create-a-new-azure-devops-recipe).
 
-### Create a New Folder for Your Azure DevOps Recipes
+### Create an Azure DevOps connection
+
+#### Create a New Folder for Your Azure DevOps Recipes
 
 Before you begin, it's a good idea to create a new folder for all your future Azure DevOps recipes.
 
@@ -21,13 +23,13 @@ Click the "Create" button at the top right, then select "Folder".
 
 {{% image src="/integrations/integration_builder/how_to_guides/azure-devops/01-create-folder.png" alt="Create a new folder" %}}
 
-Name the new folder and choose its location. Then click "Create Folder".
+Name the new folder and choose its location. Then click "Create folder".
 
 {{% image src="/integrations/integration_builder/how_to_guides/azure-devops/02-create-folder-modal.png" alt="Folder details" %}}
 
 You should now see the new folder in the project.
 
-### Create an Azure DevOps Connection
+#### Create an Azure DevOps Connection
 
 Click the "Create" button at the top right, then select "Connection".
 
@@ -51,7 +53,9 @@ You should now see the new connection in the project, and it is connected.
 
 {{% image src="/integrations/integration_builder/how_to_guides/azure-devops/07-connection-connected.png" alt="Connection connected" %}}
 
-### Create a New Azure DevOps Recipe
+### Create a new Azure DevOps recipe
+
+#### Create a New Azure DevOps Recipe
 
 Go to the "Library" tab and search for the "create work item" recipe.
 
@@ -65,7 +69,7 @@ Save the recipe in the folder you created earlier.
 
 {{% image src="/integrations/integration_builder/how_to_guides/azure-devops/10-recipe-location.png" alt="Recipe location" %}}
 
-### Customize the Recipe
+#### Customize the Recipe
 
 Once copied and saved, initial customization is needed.
 
