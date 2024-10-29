@@ -8,8 +8,8 @@ weight: 40
 
 To set up Azure DevOps to create Work Items for new findings, follow these two main steps:
 
-1. [Create an Azure DevOps connection](#create-an-azure-devops-connection).
-2. [Create a new Azure DevOps recipe](#create-a-new-azure-devops-recipe).
+1. [Create an Azure DevOps connection](#create-an-azure-devops-connection)
+1. [Create a new Azure DevOps recipe](#create-a-new-azure-devops-recipe)
 
 ### Create a New Folder for Your Azure DevOps Recipes
 
