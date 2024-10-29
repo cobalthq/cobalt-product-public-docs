@@ -11,6 +11,7 @@ weight: 30
 | Jira Cloud        | Create tickets for findings     | [Click Here](./jira-cloud-migration)             |
 | GitHub            | Create tickets for findings     | [Click Here](./github)                           |
 | GitLab            | Create tickets for findings     | [Click Here](./gitlab)                           |
+| Azure DevOps      | Create tickets for findings     | [Click Here](./azure-devops)                     |
 | Microsoft Teams   | Send notifications for findings | [Click Here](./microsoft-teams)                  |
 | Microsoft Outlook | Send notifications for findings | [Click Here](./outlook-notifications)            |
 | Google Sheets     | Import assets                   | [Click Here](./import-assets-from-google-sheets) |
