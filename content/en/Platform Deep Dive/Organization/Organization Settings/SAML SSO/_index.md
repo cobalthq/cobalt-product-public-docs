@@ -84,6 +84,8 @@ SP-initiated SSO once your SAML configuration is set up:
   - Users with matching email addresses will be automatically redirected from
   our sign in form to your IdP to complete the authentication flow
   - This will have the same effect as enabling **Enforce SAML**
+  - **Note**: It is recommended to leave this field blank until after you have
+  tested your SAML connection and confirmed it's working.
 
 ## Enforce SAML SSO
 
@@ -98,6 +100,9 @@ To enforce SAML SSO for your organization:
 1. Under **SAML Single Sign-on (SSO)**, turn on the **Enforce SAML** toggle, and confirm your action.<br><br>
     ![Manage SAML enforcement for your organization](/deepdive/SAML-enforcement.png "Manage SAML enforcement for your organization")
 1. Notify users that now they must sign in through the selected identity provider. We don't send any notifications, so make sure that SAML enforcement doesn't disrupt your workflows.
+
+**Note**: It is recommended to leave this turned off until after you have tested
+your SAML connection and confirmed it's working.
 
 ## Configuration Instructions for Specific Identity Providers
 
