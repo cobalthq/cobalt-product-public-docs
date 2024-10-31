@@ -3,11 +3,10 @@ title: "Release Notes: April 2024"
 linkTitle: "April 2024"
 weight: 48
 description: >-
-     Explore What's New from Cobalt This Month
 ---
 
 {{% pageinfo %}} 
-Stay Up-to-Date with the Latest Enhancements on the Cobalt Platform. 
+     Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
 ### April 2024
