@@ -45,7 +45,7 @@ Customers utilizing Service Provider initiated SAML SSO can now seamlessly acces
 
 This URL simplifies the user experience by automatically redirecting users to their designated SAML identity provider. For convenient access, users relying on SAML SSO for sign-in can now bookmark this link and effortlessly sign in to Cobalt. 
 
-![Create Asset - Add Associated Targets](/release-notes/saml-updates.png "SAML Updates")
+![Create Asset - SAML Updates](/release-notes/saml-updates.png "SAML Updates")
 
 ---
 
@@ -57,7 +57,7 @@ Previously, findings were listed in the order of creation (e.g., PT1234_1, PT123
 
 This change applies to both the detailed findings section and the post-test remediation table, ensuring a more intuitive and user-friendly experience with our pentest reports.
 
-![Create Asset - Add Associated Targets](/release-notes/pentest-report-order.png "Improved Pentest Findings Order")
+![Create Asset - Improved Pentest Findings Order](/release-notes/pentest-report-order.png "Improved Pentest Findings Order")
 
 ---
 
@@ -67,4 +67,4 @@ In the past, there was no effortless way to ensure that customers had appropriat
 
 To address this issue, we have integrated email reminders and prompts within the Cobalt platform. These notifications will prompt customers to confirm that they have either deleted, disabled, or rotated their used credentials at the conclusion of a test and again when the retest period expires.
 
-![Create Asset - Add Associated Targets](/release-notes/confirm-credential-deletion.png "Confirm Credential Deletion/Rotation")
+![Create Asset - Confirm Credential Deletion/Rotation](/release-notes/confirm-credential-deletion.png "Confirm Credential Deletion/Rotation")
