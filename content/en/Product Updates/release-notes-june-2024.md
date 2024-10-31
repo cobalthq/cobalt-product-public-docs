@@ -3,11 +3,10 @@ title: "Release Notes: June 2024"
 linkTitle: "June 2024"
 weight: 46
 description: >-
-     Explore What's New from Cobalt This Month
 ---
 
 {{% pageinfo %}} 
-Stay Up-to-Date with the Latest Enhancements on the Cobalt Platform. 
+Explorew What's New from Cobalt This Month
 {{% /pageinfo %}}
 
 ### June 2024
