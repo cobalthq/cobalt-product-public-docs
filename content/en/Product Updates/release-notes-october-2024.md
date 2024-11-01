@@ -34,5 +34,3 @@ For more information, have a look at our [Scan Profiles documentation.](https://
 
 ![Scan Profiles](/release-notes/scan-profiles.png "Scan Profiles")
 
----
-
