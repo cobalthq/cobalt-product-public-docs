@@ -15,7 +15,7 @@ Explore What's New from Cobalt This Month
 
 We revamped the attestation letter's style for better PDF viewing and downloading, aligning it with our current brand guidelines.
 
-![Attestation Letter Improvements](/release-notes/attestation-letter.png “Attestation “Letter Improvements")
+![Attestation Letter Improvements](/release-notes/attestation-letter.png “Attestation Letter Improvements")
 
 ---
 
@@ -23,7 +23,7 @@ We revamped the attestation letter's style for better PDF viewing and downloadin
 
 Similar to the Attestation letter, our other report types' (Full Report, Full Report with Finding Details, Customer Letter, Attestation Report) PDF downloads required a makeover to ensure a refined appearance and improved clarity.
 
-![Test Report Covers Updated](/release-notes/test-report-covers.png “Test “Report Covers Updated")
+![Test Report Covers Updated](/release-notes/test-report-covers.png “Test Report Covers Updated")
 
 ---
 
