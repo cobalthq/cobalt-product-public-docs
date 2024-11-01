@@ -15,12 +15,7 @@ description: >-
 
 We revamped the attestation letter's style for better PDF viewing and downloading, aligning it with our current brand guidelines.
 
-{{% pageinfo color="info" %}}
-View more scan controls available [here](https://docs.cobalt.io/platform-deep-dive/scans/scans/).
-{{% /pageinfo %}}
-
 ![Attestation Letter Improvements](/release-notes/attestation-letter.png “Attestation “Letter Improvements")
-
 
 ---
 
