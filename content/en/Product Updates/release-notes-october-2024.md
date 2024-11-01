@@ -1,5 +1,5 @@
 ---
-title: "Release Notes: September 2024"
+title: "Release Notes: October 2024"
 linkTitle: "October 2024"
 weight: 42
 description: >-
