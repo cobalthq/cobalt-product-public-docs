@@ -35,7 +35,7 @@ The problem we identified was that targets were used in different parts of the a
 
 To address this issue, we have introduced a new field called "Associated Targets" for web or API-related assets. This feature allows customers to directly associate targets with their assets and includes the option to add targets not listed in the Attack Surface using free text. Any targets added to an asset will also be included in new pentests created for that asset. Furthermore, pentesters can now select which targets in scope for a pentest are related to specific findings, allowing for more detailed attribution at the target level.
 
-![Create Asset - Add Associated Targets](/release-notes/associated-targets.png "Add Associated Targets")
+![Add Associated Targets](/release-notes/associated-targets.png "Add Associated Targets")
 
 ---
 
@@ -45,7 +45,7 @@ Customers utilizing Service Provider initiated SAML SSO can now seamlessly acces
 
 This URL simplifies the user experience by automatically redirecting users to their designated SAML identity provider. For convenient access, users relying on SAML SSO for sign-in can now bookmark this link and effortlessly sign in to Cobalt. 
 
-![Create Asset - SAML Updates](/release-notes/saml-updates.png "SAML Updates")
+![SAML Updates](/release-notes/saml-updates.png "SAML Updates")
 
 ---
 
@@ -57,7 +57,7 @@ Previously, findings were listed in the order of creation (e.g., PT1234_1, PT123
 
 This change applies to both the detailed findings section and the post-test remediation table, ensuring a more intuitive and user-friendly experience with our pentest reports.
 
-![Create Asset - Improved Pentest Findings Order](/release-notes/pentest-report-order.png "Improved Pentest Findings Order")
+![Improved Pentest Findings Order](/release-notes/pentest-report-order.png "Improved Pentest Findings Order")
 
 ---
 
@@ -67,4 +67,4 @@ In the past, there was no effortless way to ensure that customers had appropriat
 
 To address this issue, we have integrated email reminders and prompts within the Cobalt platform. These notifications will prompt customers to confirm that they have either deleted, disabled, or rotated their used credentials at the conclusion of a test and again when the retest period expires.
 
-![Create Asset - Confirm Credential Deletion/Rotation](/release-notes/confirm-credential-deletion.png "Confirm Credential Deletion/Rotation")
+![Confirm Credential Deletion/Rotation](/release-notes/confirm-credential-deletion.png "Confirm Credential Deletion/Rotation")
