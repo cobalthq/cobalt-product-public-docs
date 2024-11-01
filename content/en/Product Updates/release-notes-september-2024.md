@@ -6,7 +6,7 @@ description: >-
 ---
 
 {{% pageinfo %}} 
-     Explore What's New from Cobalt This Month
+Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
 ### September 2024
