@@ -56,11 +56,15 @@ If your browser is set to block all third-party cookies, you must allow cookies 
 
 If you are using one of the recipe templates available in our library to push pentest findings to your ticketing system,
 then your recipe is using the __Pentest finding state updated__ trigger.
+
 Recipes using this trigger will only run if the state of a pentest finding is updated while the recipe is running.
-If the state of a pentest finding is updated while the recipe is stopped, the recipe will never run for that finding,
+If the state of a pentest finding is updated while the recipe is stopped, the recipe will never run for that finding - 
 even if the recipe is started after the finding's state has been updated.
+
 If the finding is still in the __Pending Fix__ state, you can manually re-trigger the recipe for the finding by
 changing the state of the finding to __Accepted Risk__ and then back to __Pending Fix__.
+
 When you are updating the state of the finding to __Accepted Risk__, you should use the reason 
 __other__ and type in "re-trigger integration" for historical records.
+
 We plan to provide a more elegant solution for this in the future.
