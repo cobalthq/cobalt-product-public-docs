@@ -9,10 +9,8 @@ description: >-
 Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
-### August 2024
 
-
-#### DAST Scan Controls & Progress Tracker
+## DAST Scan Controls & Progress Tracker
 
 We recently added scan controls to the Cobalt platform that enable customers to have better visibility into the duration and progress of their security scans. With these new controls, customers are able to pause, cancel, and resume a scan as needed. The controls are available on both the target and scan pages, accurately reflecting the current status of the scan.
 
@@ -29,7 +27,7 @@ View more scan controls available [here](https://docs.cobalt.io/platform-deep-di
 
 ---
 
-#### Targets as Structured Data
+## Targets as Structured Data
 
 The problem we identified was that targets were used in different parts of the application, such as in Attack Surface, DAST, Pentests, and Findings, without a structured connection between them. For instance, there was no clear association between a finding and the targets in scope for a pentest, leading to missed opportunities in capturing these associations.
 
@@ -39,7 +37,7 @@ To address this issue, we have introduced a new field called "Associated Targets
 
 ---
 
-#### Enhanced SAML Configuration Page in Org Settings
+## Enhanced SAML Configuration Page in Org Settings
 
 Customers utilizing Service Provider initiated SAML SSO can now seamlessly access this feature directly within the platform. After configuring SAML settings, organizations will now display a Cobalt Sign In URL. 
 
@@ -49,7 +47,7 @@ This URL simplifies the user experience by automatically redirecting users to th
 
 ---
 
-#### Improved Findings Order on the Pentest Report for Enhanced Clarity
+## Improved Findings Order on the Pentest Report for Enhanced Clarity
 
 Based on customer feedback, we have enhanced the ordering of findings to prioritize clarity and actionable insights.
 
@@ -61,7 +59,7 @@ This change applies to both the detailed findings section and the post-test reme
 
 ---
 
-#### Customer Credential Deletion Workflow
+## Customer Credential Deletion Workflow
 
 In the past, there was no effortless way to ensure that customers had appropriately managed their credentials after testing, potentially leaving sensitive data vulnerable. 
 
