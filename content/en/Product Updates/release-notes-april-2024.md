@@ -9,10 +9,8 @@ description: >-
 Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
-### April 2024
 
-
-#### DAST Transition from Beta to General Availability
+## DAST Transition from Beta to General Availability
 
 We are excited to announce that our DAST scanner is now officially out of beta and available for General Availability to all Cobalt customers. With this release, all customers can now leverage our new DAST scanner feature, allowing them to create an unlimited number of scans for one target. Please note that additional targets can be purchased as needed to expand your scanning capabilities.
 
@@ -20,7 +18,7 @@ We are excited to announce that our DAST scanner is now officially out of beta a
 
 ---
 
-#### Cobalt Engagements: Introducing Digital Risk Assessments
+## Cobalt Engagements: Introducing Digital Risk Assessments
 
 We are thrilled to introduce Cobalt Engagements, a new platform feature that streamlines the process of conducting Digital Risk Assessments (DRA) and empowers customers to take control of their offensive security testing like never before.
 
