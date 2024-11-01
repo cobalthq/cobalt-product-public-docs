@@ -15,7 +15,7 @@ Explore What's New from Cobalt This Month
 
 We revamped the attestation letter's style for better PDF viewing and downloading, aligning it with our current brand guidelines.
 
-![Attestation Letter Improvements](/release-notes/attestation-letter.png “Attestation Letter Improvements")
+![Attestation Letter Improvements](/release-notes/attestation-letter.png "Attestation Letter Improvements")
 
 ---
 
@@ -23,7 +23,7 @@ We revamped the attestation letter's style for better PDF viewing and downloadin
 
 Similar to the Attestation letter, our other report types' (Full Report, Full Report with Finding Details, Customer Letter, Attestation Report) PDF downloads required a makeover to ensure a refined appearance and improved clarity.
 
-![Test Report Covers Updated](/release-notes/test-report-covers.png “Test Report Covers Updated")
+![Test Report Covers Updated](/release-notes/test-report-covers.png "Test Report Covers Updated")
 
 ---
 
@@ -37,7 +37,7 @@ The Integration Builder posed a learning curve for customers, requiring signific
 _Action:_
 We’ve introduced an in-app assistant to guide customers in setting up new integrations and updating existing ones. Additionally, provided application-specific guides in product documentation to facilitate common integration implementations.
 
-![Integration Builder Assistant](/release-notes/integrations-builder-assistant.png “Integration Builder Assistant")
+![Integration Builder Assistant](/release-notes/integrations-builder-assistant.png "Integration Builder Assistant")
 
 ##### Notification Management
 
@@ -47,5 +47,5 @@ Customers were not receiving notifications about integration errors, leading to 
 _Action:_
 We’ve developed a notifications management interface within the Integration Builder, enabling users to set up notifications to any email address, including individuals, distribution lists, and monitoring systems.
 
-![Integration Builder Notification Management](/release-notes/integration-builder-notifications.png “Integration Builder Notification Management")
+![Integration Builder Notification Management](/release-notes/integration-builder-notifications.png "Integration Builder Notification Management")
 
