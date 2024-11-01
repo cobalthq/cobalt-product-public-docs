@@ -28,7 +28,9 @@ We’ve now enhanced our public API to enable users to:
 
 We've implemented the option for users to select their preferred scan profile to customize scan behavior according to their specific requirements. Users can choose from a selection of 8 different profiles for immediate and scheduled scans, with more to be added if needed. Notably, scan profiles are target-specific, with different profiles available for API and web targets.
 
-[For more information, have a look at the related docs.](https://docs.cobalt.io/platform-deep-dive/scans/#scan-profiles)
+{{% pageinfo color="info" %}}
+For more information, have a look at our [Scan Profiles documentation.](https://docs.cobalt.io/platform-deep-dive/scans/#scan-profiles)
+{{% /pageinfo %}}
 
 ![Scan Profiles](/release-notes/scan-profiles.png "Scan Profiles")
 
