@@ -16,6 +16,8 @@ You can also refer to the Kenna Security [documentation](https://github.com/Kenn
 
 [Kenna Security](https://www.cisco.com/c/en/us/products/security/kenna-is-part-of-cisco.html) is a risk and vulnerability intelligence platform.
 
+![Hero Image](static/deepdive/placeholder-image.png "Placeholder Hero Image")
+
 You can retrieve [findings](/platform-deep-dive/pentests/findings/) data from Cobalt using the API and import it into Kenna Security. Then you can measure risk associated with vulnerabilities and prioritize remediation efforts on the Kenna Security platform.
 
 ## What You Need
