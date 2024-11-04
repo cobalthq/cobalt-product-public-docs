@@ -3,17 +3,14 @@ title: "Release Notes: May 2024"
 linkTitle: "May 2024"
 weight: 47
 description: >-
-     Explore What's New from Cobalt This Month
 ---
 
 {{% pageinfo %}} 
-Stay Up-to-Date with the Latest Enhancements on the Cobalt Platform. 
+Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
-### May 2024
 
-
-#### New Sequence Recorder for DAST scanning
+## New Sequence Recorder for DAST scanning
 
 We are thrilled to introduce Cobalt’s Sequence Recorder, a powerful browser plugin designed to enhance the DAST scanning experience. This innovative tool records your browser actions, providing invaluable assistance in setting up an authenticated target. The recorded actions are subsequently utilized by the scans to authenticate to the target, offering a seamless and efficient process.
 
@@ -23,7 +20,7 @@ With this cutting-edge feature, we can now address a wider range of use cases fo
 
 ---
 
-#### Introducing the Age by Severity Chart
+## Introducing the Age by Severity Chart
 
 We are excited to unveil a significant update on our Home page and Insights page - the introduction of the ‘Age by Severity’ chart, which replaces the previous ‘Time to Fix’ chart. This new feature provides a fresh perspective by focusing on the age of Open Findings, urging customers to take proactive actions towards addressing security issues.
 

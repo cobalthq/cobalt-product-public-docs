@@ -3,17 +3,14 @@ title: "Release Notes: March 2024"
 linkTitle: "March 2024"
 weight: 49
 description: >-
-     Explore What's New from Cobalt This Month
 ---
 
 {{% pageinfo %}} 
-Stay Up-to-Date with the Latest Enhancements on the Cobalt Platform. 
+Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
-### March 2024
 
-
-#### Services Platform Page is Renamed to Catalog
+## Services Platform Page is Renamed to Catalog
 
 To prepare for the impending launch of Engagements in April 2024, we have renamed the 'Services' page to 'Catalog'. The Catalog will serve as a centralized location housing our complete range of offensive security services. From this hub, customers will have the ability to create or request new offerings. Our aim is to make all of our services easy to access from one location, as our offerings continue to expand.
 
@@ -22,7 +19,7 @@ To prepare for the impending launch of Engagements in April 2024, we have rename
 
 ---
 
-#### New Chart in Insights
+## New Chart in Insights
 
 Cobalt now offers a clear and simple overview of how customers manage their open findings over time with our new Severity Trend chart. This chart has been seamlessly integrated into our new Home page as well as Insights, ensuring that our customers have access to valuable insights and actionable data to support their offensive security program.
 
@@ -30,7 +27,7 @@ Cobalt now offers a clear and simple overview of how customers manage their open
 
 ---
 
-#### New Home Page Launches
+## New Home Page Launches
 
 We are excited to announce the launch of our new 'Home' page on the Cobalt platform. This centralized dashboard will serve as the welcome screen for our customers when they log in, providing them with a single-pane view of their testing activity. 
 

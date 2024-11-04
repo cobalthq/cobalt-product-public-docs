@@ -3,17 +3,14 @@ title: "Release Notes: January 2024"
 linkTitle: "January 2024"
 weight: 50
 description: >-
-     Explore What's New from Cobalt This Month
 ---
 
 {{% pageinfo %}} 
-Stay Up-to-Date with the Latest Enhancements on the Cobalt Platform. 
+Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
-### January 2024
 
-
-#### Enhancements to Improve Transparency and Accountability in Carry Over Finding Process
+## Enhancements to Improve Transparency and Accountability in Carry Over Finding Process
 
 To address issues with findings not being carried over from previous pentests, we have implemented the following improvements:
 
