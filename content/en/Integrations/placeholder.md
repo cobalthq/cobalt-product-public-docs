@@ -1,6 +1,6 @@
 ---
 title: "PLACEHOLDER"
-linkTitle: "Kenna Security"
+linkTitle: "PLACEHOLDER"
 weight: 70
 description: >
   Set up an integration with Kenna Security.
