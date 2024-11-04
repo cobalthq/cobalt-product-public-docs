@@ -9,10 +9,8 @@ description: >-
 Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
-### June 2024
 
-
-#### Recurring Scheduled Scans
+## Recurring Scheduled Scans
 
 As part of our commitment to continually improve our platform, we are thrilled to announce the introduction of recurring scheduled scans to Cobalt DAST Scanner. This highly-requested feature makes it easier than ever to set up and run automatic scans on a recurring basis.
 
@@ -35,7 +33,7 @@ As part of our commitment to continually improve our platform, we are thrilled t
 
 ---
 
-#### API Scanning
+## API Scanning
 
 We are excited to introduce an advanced feature for users configuring a DAST target: the ability to select API with OpenAPI specifications and provide an OpenAPI/Swagger schema. This schema acts as a comprehensive map for the scanner, enabling it to effectively navigate and test all endpoints and functions of the API, ensuring thorough and accurate security testing.
 

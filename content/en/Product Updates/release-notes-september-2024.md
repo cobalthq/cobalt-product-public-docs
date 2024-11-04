@@ -9,9 +9,7 @@ description: >-
 Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
-### September 2024
-
-#### Updated Pentest Attestation Letters
+## Updated Pentest Attestation Letters
 
 We revamped the attestation letter's style for better PDF viewing and downloading, aligning it with our current brand guidelines.
 
@@ -19,7 +17,7 @@ We revamped the attestation letter's style for better PDF viewing and downloadin
 
 ---
 
-#### Enhanced Downloaded PDF Report Styles
+## Enhanced Downloaded PDF Report Styles
 
 Similar to the Attestation letter, our other report types' (Full Report, Full Report with Finding Details, Customer Letter, Attestation Report) PDF downloads required a makeover to ensure a refined appearance and improved clarity.
 
@@ -27,9 +25,9 @@ Similar to the Attestation letter, our other report types' (Full Report, Full Re
 
 ---
 
-#### Integration Builder Enhancements
+## Integration Builder Enhancements
 
-##### Assistant
+### Assistant
 
 _Problem:_
 The Integration Builder posed a learning curve for customers, requiring significant support before independent usage.
@@ -39,7 +37,7 @@ We’ve introduced an in-app assistant to guide customers in setting up new inte
 
 ![Integration Builder Assistant](/release-notes/integrations-builder-assistant.png "Integration Builder Assistant")
 
-##### Notification Management
+### Notification Management
 
 _Problem:_
 Customers were not receiving notifications about integration errors, leading to delayed issue identification and resolution.

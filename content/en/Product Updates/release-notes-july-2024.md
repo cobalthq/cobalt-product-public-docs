@@ -9,10 +9,8 @@ description: >-
 Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
-### July 2024
 
-
-#### Attack Surface Updates
+## Attack Surface Updates
 
 In response to customer feedback and to better align with the comprehensive capabilities of the feature, we are excited to announce that 'Domains' has now been revamped as 'Attack Surface.' This new name reflects the broader scope and enhanced functionality that this feature offers to our users.
 
@@ -25,7 +23,7 @@ With intuitive charts and visual aids, customers can now gain a consolidated ove
 
 ---
 
-#### Ticketing Integrations Released for DAST Scans
+## Ticketing Integrations Released for DAST Scans
 
 Customers have expressed a strong desire to seamlessly integrate their DAST findings directly into their ticketing systems, a highly requested feature for DAST. In response to this feedback, we have enhanced our public API and Integration Builder to empower customers to:
 
@@ -35,13 +33,13 @@ Customers have expressed a strong desire to seamlessly integrate their DAST find
 
 With these improvements, customers will now receive real-time notifications when a DAST finding is detected or resolved. Additionally, we have introduced recipe templates in the Integration Builder Library, allowing customers to effortlessly push their DAST findings to popular platforms such as Jira Cloud, GitHub Issues, and Azure DevOps Boards.
 
-##### Steps to Integrate with Ticketing Systems
+#### Steps to Integrate with Ticketing Systems
 
 <iframe src="https://play.vidyard.com/kVCJ1gQ6ywr1t2G3K7Z46m" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-#### DAST Release: Extra Hosts
+## DAST Release: Extra Hosts
 
 By introducing the “Extra Hosts” section to the target’s “Advanced Settings” page, customers now have the ability to include APIs residing on different hostnames as extra hosts. This enhancement ensures that the API will undergo scanning as part of the web target. The significance of this feature lies in providing customers with a more comprehensive view of their application's security. By scanning the API along with the web target, customers can identify and address vulnerabilities that may have gone undetected through isolated web target scans. 
 
@@ -51,7 +49,7 @@ This integrated approach enhances security measures and empowers customers to pr
 
 ---
 
-#### Email Notifications for DAST Scans
+## Email Notifications for DAST Scans
 
 We have implemented email notifications for the following key actions: successful scan completion, scan failure, target creation, and target deletion. These notifications will be sent to all organization owners and the Customer Success Manager (CSM). 
 
@@ -61,7 +59,7 @@ This enhancement ensures that important stakeholders are promptly informed about
 
 ---
 
-#### Secure Code Reviews
+## Secure Code Reviews
 
 We are pleased to announce that Secure Code Reviews are now available on the Cobalt platform! This comprehensive offering includes several key features, which are outlined below:
 
