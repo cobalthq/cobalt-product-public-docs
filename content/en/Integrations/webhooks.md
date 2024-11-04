@@ -12,7 +12,7 @@ Configure webhooks to subscribe to real-time updates for your pentests.
 
 ## Introducing Webhooks
 
-With our API-based webhooks, you can set up an integration between your app and the Cobalt platform to get notifications for pentest events. We’ll send you updates for each event to your URL through an HTTP POST request. Maria adding new text.
+With our API-based webhooks, you can set up an integration between your app and the Cobalt platform to get notifications for pentest events. We’ll send you updates for each event to your URL through an HTTP POST request. Maria adding new text. Another change by me.
 
 When you work with an API, you can become aware of new data in the following ways:
 
