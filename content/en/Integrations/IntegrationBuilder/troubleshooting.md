@@ -51,3 +51,20 @@ You can now click "Start recipe" to start the restored version of your recipe.
 If forms do not appear while you are attempting to create a connection or configure a recipe, the most likely cause is that your browser is blocking third party cookies.
 
 If your browser is set to block all third-party cookies, you must allow cookies for `cobalt.io` by following [these instructions](https://support.google.com/chrome/answer/95647?sjid=8733712878597538106-NA#zippy=%2Callow-or-block-third-party-cookies%2Callow-third-party-cookies-for-a-specific-site).
+
+## Job has not run to create a ticket for a pentest finding
+
+If you are using one of the recipe templates available in our library to push pentest findings to your ticketing system,
+then your recipe is using the __Pentest finding state updated__ trigger.
+
+Recipes using this trigger will only run a job if the state of a pentest finding is updated while the recipe is in the __started__ state.
+If the state of a pentest finding is updated while the recipe is in the __stopped__ state, then the recipe will never run for that finding - 
+even if the recipe is started after the finding's state has been updated.
+
+If the finding is still in the __Pending Fix__ state, you can manually re-trigger the recipe for the finding by
+changing the state of the finding to __Accepted Risk__ and then back to __Pending Fix__.
+
+When you are updating the state of the finding to __Accepted Risk__, you should use the reason 
+__other__ and type in "re-trigger integration" for historical records.
+
+We plan to provide a more elegant solution for this in the future.
