@@ -85,10 +85,3 @@ cascade:
         </div>
       </div>
     </div>
-
-<div class="text mx-5">
-  <h3>Need More Help? Get in Touch!</h3>
-  <p>If you need help, don't hesitate to contact us.</p><ul><li>If you have a named Customer Success Manager, get in touch with them.</li><li>Otherwise, <a href="https://cobaltio.zendesk.com/hc/en-us/requests/new" target="_blank">submit a ticket</a> or send an email to <a href="mailto:support@cobalt.io" target="_blank">support@cobalt.io</a>.</ul>
-</div>
-
-</div>
