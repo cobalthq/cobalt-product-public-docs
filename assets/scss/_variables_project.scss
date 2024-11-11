@@ -37,6 +37,11 @@ nav ul li a {
     color: #0047AB !important;
 }
 
+nav.foldable-nav .ul-1 .with-child>label:before {
+    display: none;
+
+}
+
 .td-box--dark,.td-footer {
     color: #fff;
     background-color: #002243 !important; 
