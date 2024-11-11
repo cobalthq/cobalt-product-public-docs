@@ -46,8 +46,9 @@ nav.foldable-nav .ul-1 .with-child>label:before {
   padding-left: 1rem; // Adjust the padding as needed
 }
 
-nav.foldable-nav .ul-1>li {
-    padding-left: 0em;
+nav.foldable-nav .with-child ul {
+    margin-top: 0em;
+    margin-left: -1.5em;
 }
 
 .td-box--dark,.td-footer {
