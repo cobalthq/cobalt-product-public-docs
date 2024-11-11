@@ -7,8 +7,8 @@ nav ul li a {
   padding-left: 0.5rem;
 }
 
-.td-navbar {
-    background: #4185EB; !important;
+.navbar-nav {
+    background: #4185EB; 
 }
 
 .navbar-nav .nav-link {
@@ -19,8 +19,9 @@ nav ul li a {
 }
 
 
-.td-footer {
-  background-color: #002243; !important;
+.td-box--dark,.td-footer {
+    color: #fff;
+    background-color: #002243;
 }
 
 $td-enable-google-fonts: false;
