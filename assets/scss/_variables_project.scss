@@ -24,11 +24,9 @@ nav ul li a {
 .td-box--dark,.td-footer {
     color: #fff;
     background-color: #002243 !important; 
+    max-height: 100px !important;
   }
 
-.td-footer {
-  height: 100px !important; 
-}
 
 $td-enable-google-fonts: false;
 
