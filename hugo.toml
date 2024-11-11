@@ -55,14 +55,14 @@ id = "G-DNN2LHSZ75"
 
 [languages]
 [languages.en]
-title = "  Product Docs"
+title = " "
 languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.en.params]
 description = "Documentation for Penetration testing as a Service"
-time_format_default = "January.02.2006"
-time_format_blog = "02.01.2006"
+time_format_default = "January 02, 2006"
+time_format_blog = "01.02.2006"
 
 
 [markup]
@@ -72,21 +72,14 @@ time_format_blog = "02.01.2006"
 
 [menu]
 [[menu.main]]
-  name = 'Cobalt Home'
-  url = 'https://www.cobalt.io/'
-  weight = 10
-[[menu.main]]
-  name = 'Support'
-  url = 'https://cobaltio.zendesk.com/hc/en-us/requests/new'
+  name = 'API Docs'
+  url = 'https://docs.cobalt.io/cobalt-api/documentation/v2'
   weight = 20
 [[menu.main]]
   name = 'Blog'
   url = 'https://www.cobalt.io/blog'
   weight = 30
-[[menu.main]]
-  name = 'API Docs'
-  url = 'https://docs.cobalt.io/cobalt-api/documentation/v2'
-  weight = 40
+
 
 # Everything below this are Site Params
 
@@ -165,11 +158,6 @@ no = 'Sorry to hear that. Please <a href="https://github.com/cobalthq/cobalt-pro
 	url = "https://twitter.com/cobalt_io"
 	icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news"
-[[params.links.user]]
-	name ="Instagram"
-	url = "https://www.instagram.com/cobalt_io/?hl=en"
-	icon = "fab fa-instagram"
-        desc = "Check what we post on Instagram"
 [[params.links.user]]
 	name ="YouTube"
 	url = "https://www.youtube.com/channel/UCsWLzFUqOmAmjfP_CKMnO3g"
