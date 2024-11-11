@@ -15,7 +15,7 @@ cascade:
     path: "/**"
 ---
 
-<img src="/homepage/hero.png" class="centered-image" alt="Explore Cobalt">
+<img src="/homepage/hero.png" alt="Explore Cobalt"  width="100%">
 
 
 <div style="padding-right: 2.0625rem;">
@@ -24,7 +24,7 @@ cascade:
        <div class="feature-icon d-inline-flex align-items-left justify-content-left fs-2 mb-3">
          <a href="/getting-started/" tabindex="-1" aria-hidden="true"><img src="/homepage/getting-started.svg" alt="Getting Started" title="Getting Started"></a>
        </div>
-       <h3 class="fs-2"><a href="/getting-started/">Getting Started</a></h3>
+       <h4><a href="/methodologies/" class="custom-link-color">Getting Started</a></h4>
        <p>Use our step-by-step guide to launch your first pentest. Set up an asset, specify pentest details—and get the ball rolling.</p>
      </div>
      <div class="feature col">
