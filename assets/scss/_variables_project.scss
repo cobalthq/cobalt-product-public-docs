@@ -7,9 +7,10 @@ nav ul li a {
   padding-left: 0.5rem;
 }
 
-.navbar-nav {
-    background: #4185EB !important; 
+.navbar,.td-navbar {
+  background: #4185EB !important;
 }
+
 
 .navbar-nav .nav-link {
   color: #ffffff; // Change the default link color
