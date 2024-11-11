@@ -50,6 +50,12 @@ nav.foldable-nav .with-child ul {
     margin-left: -1.5em !important;
 }
 
+.td-sidebar-nav .td-sidebar-link.tree-root {
+    font-weight: 700;
+    border-bottom: 1px solid #4185eb52;
+    margin-bottom: .5rem;
+}
+
 .td-box--dark,.td-footer {
     color: #fff;
     background-color: #002243 !important; 
