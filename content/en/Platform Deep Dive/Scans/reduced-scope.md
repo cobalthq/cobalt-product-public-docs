@@ -24,11 +24,11 @@ Rather than scanning the entire target, specify a subset of URLs within your tar
 3. Add the URLs you want to include in your partial scan.
    - Use wildcards (`*`) to include all sub-pages of a specific URL. For example, `https://www.example.com/blog/*` would include all pages within the blog section.
 4. Add and enable as many URLs as you need to define the intended reduced scope.
-   {{% image src="/deepdive/scans/extra-hosts/ExtraHosts_Create.png" alt="Configured Reduced Scope" %}}
+   {{% image src="/deepdive/scans/partial-scans-configured.png" alt="Configured Reduced Scope" %}}
 6. Save your changes.
 7. Select **Scan Now** for the target to start a Partial Scan.
    - When starting a scan, you can temporarily enable or disable individual URLs within your Reduced Scope through the checkbox next to each URL.
-   {{% image src="/deepdive/scans/extra-hosts/ExtraHosts_Create.png" alt="Reduced Scope Scan Now" %}}
+   {{% image src="/deepdive/scans/partial-scans-modal.png" alt="Reduced Scope Scan Now" %}}
 
 
 ### Other Considerations
