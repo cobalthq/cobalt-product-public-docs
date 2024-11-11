@@ -154,10 +154,10 @@ no = 'Sorry to hear that. Please <a href="https://github.com/cobalthq/cobalt-pro
 	icon = "fab fa-linkedin-in"
         desc = "Follow us on LinkedIn to learn more about what we do"
 [[params.links.user]]
-	name ="Twitter"
+	name ="X"
 	url = "https://twitter.com/cobalt_io"
-	icon = "fab fa-twitter"
-        desc = "Follow us on Twitter to get the latest news"
+	icon = "fab fa-x-twitter"
+        desc = "Follow us on X to get the latest news"
 [[params.links.user]]
 	name ="YouTube"
 	url = "https://www.youtube.com/channel/UCsWLzFUqOmAmjfP_CKMnO3g"
