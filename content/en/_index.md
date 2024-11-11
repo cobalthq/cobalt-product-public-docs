@@ -10,7 +10,7 @@ weight: 20
 
 
 
-<div class="row g-4 my-3 row-cols-1 row-cols-lg-3">
+<div class="row g-4 my-3 px-5 row-cols-1 row-cols-lg-3">
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left fs-2 mb-3">
          <a href="/getting-started/" tabindex="-1" aria-hidden="true"><img src="/homepage/getting-started.svg" alt="Getting Started" title="Getting Started"></a>
@@ -34,7 +34,7 @@ weight: 20
      </div>
    </div>
 
-<div class="row my-3 g-4 row-cols-1 row-cols-lg-3" style="margin-bottom: 4rem;">
+<div class="row my-3 g-4 px-5 row-cols-1 row-cols-lg-3" style="margin-bottom: 4rem;">
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left fs-2 mb-3">
          <a href="/platform-deep-dive/assets/" tabindex="-1" aria-hidden="true"><img src="/homepage/asset-types.svg" alt="Asset Types" title="Asset Types"></a>
