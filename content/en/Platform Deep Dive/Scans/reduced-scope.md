@@ -27,9 +27,8 @@ Rather than scanning the entire target, specify a subset of URLs within your tar
    {{% image src="/deepdive/scans/partial-scans-configured.png" alt="Configured Reduced Scope" %}}
 6. Save your changes.
 7. Select **Scan Now** for the target to start a Partial Scan.
+{{% image src="/deepdive/scans/partial-scans-modal.png" alt="Reduced Scope Scan Now" %}}
    - When starting a scan, you can temporarily enable or disable individual URLs within your Reduced Scope through the checkbox next to each URL.
- {{% image src="/deepdive/scans/partial-scans-modal.png" alt="Reduced Scope Scan Now" %}}
-
 
 ### Other Considerations
 
