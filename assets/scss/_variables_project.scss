@@ -24,6 +24,10 @@ nav ul li a {
 }
 }
 
+.td-search:not(:focus-within) {
+    color: r#fff !important;
+}
+
 .custom-link-color {
   color: #000;
 }
