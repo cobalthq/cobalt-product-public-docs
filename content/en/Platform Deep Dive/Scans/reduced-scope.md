@@ -2,11 +2,8 @@
 title: "Partial Scans: Reduced Scope"
 linkTitle: "Partial Scans: Reduced Scope"
 weight: 50
+description: Define a specific set of URLs within your target to scan
 ---
-
-{{% pageinfo %}}
-Define a specific set of URLs within your target to scan to enable faster, more focused security assessments.
-{{% /pageinfo %}}
 
 Rather than scanning the entire target, specify a subset of URLs within your target to scan by defining a Reduced Scope in your target settings. This is particularly useful when you want to focus on specific areas of your application, such as new features or high-risk areas.
 
