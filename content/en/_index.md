@@ -15,10 +15,9 @@ cascade:
     path: "/**"
 ---
 
-<div style="padding-right: 2.0625rem;">
-
 ![Explore Cobalt](/homepage/hero.png "Explore Cobalt")
 
+<div style="padding-right: 2.0625rem;">
 <div class="row g-4 my-3 px-5 row-cols-1 row-cols-lg-3">
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left fs-2 mb-3">
