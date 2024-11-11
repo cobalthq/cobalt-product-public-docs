@@ -4,15 +4,6 @@ type: "docs"
 hidden: true
 weight: 20
 
-cascade:
-- type: "blog"
-  # set to false to include a blog section in the section nav along with docs
-  toc_root: false
-  _target:
-    path: "/blog/**"
-- type: "docs"
-  _target:
-    path: "/**"
 ---
 
 <img src="/homepage/hero.png" alt="Explore Cobalt"  width="100%">
