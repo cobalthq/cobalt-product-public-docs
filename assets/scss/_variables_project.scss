@@ -28,6 +28,12 @@ nav ul li a {
   color: #000;
 }
 
+nav.foldable-nav .td-sidebar-nav__section,nav.foldable-nav .with-child ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+    background: #F1F7FF;
+}
 .td-box--dark,.td-footer {
     color: #fff;
     background-color: #002243 !important; 
