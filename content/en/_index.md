@@ -1,6 +1,7 @@
 ---
 linkTitle: "Home"
 type: "docs"
+hidden: true
 no_list: true
 weight: 20
 
