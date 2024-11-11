@@ -14,9 +14,9 @@ cascade:
   _target:
     path: "/**"
 ---
-
+<div style="padding-right: 2.0625rem;">
 <img src="/homepage/hero.png" alt="Explore Cobalt"  width="100%">
-
+</div>
 
 
 <div class="row g-4 my-3 px-5 row-cols-1 row-cols-lg-3">
