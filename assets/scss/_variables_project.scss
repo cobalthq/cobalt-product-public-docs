@@ -46,6 +46,10 @@ nav.foldable-nav .ul-1 .with-child>label:before {
   padding-left: 1rem; // Adjust the padding as needed
 }
 
+nav.foldable-nav .ul-1>li {
+    padding-left: 0rem;
+}
+
 .td-box--dark,.td-footer {
     color: #fff;
     background-color: #002243 !important; 
