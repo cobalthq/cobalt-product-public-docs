@@ -15,7 +15,8 @@ cascade:
     path: "/**"
 ---
 
-![Explore Cobalt](/homepage/hero.png "Explore Cobalt")
+<img src="/homepage/hero.png" class="centered-image" alt="Explore Cobalt">
+
 
 <div style="padding-right: 2.0625rem;">
 <div class="row g-4 my-3 px-5 row-cols-1 row-cols-lg-3">
