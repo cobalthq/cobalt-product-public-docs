@@ -8,8 +8,7 @@ nav ul li a {
 }
 
 .navbar-nav {
-    background: #4185EB; 
-}
+    background: #4185EB !important; }
 
 .navbar-nav .nav-link {
   color: #ffffff; // Change the default link color
@@ -21,8 +20,7 @@ nav ul li a {
 
 .td-box--dark,.td-footer {
     color: #fff;
-    background-color: #002243;
-}
+    background-color: #002243 !important; }
 
 $td-enable-google-fonts: false;
 
