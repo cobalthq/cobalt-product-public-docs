@@ -2,6 +2,7 @@
 title: "Partial Scans: Reduced Scope"
 linkTitle: "Partial Scans: Reduced Scope"
 weight: 50
+no_list: true
 description: Define a specific set of URLs within your target to scan
 ---
 
