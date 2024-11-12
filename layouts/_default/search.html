@@ -1,4 +1,6 @@
-
+{{ define "main" }}
+<section class="row td-search-result">
+{{ with .Site.Params.gcs_engine_id }}
 <script>
 (function() {
 var cx = '{{ . }}';
@@ -11,4 +13,7 @@ s.parentNode.insertBefore(gcse, s);
 })();
 </script>
 			<gcse:searchresults-only></gcse:searchresults-only>
+{{ end }}
+</section>
 
+{{ end }}
