@@ -71,7 +71,7 @@ cascade:
   <div class="col-md-6">
     <div class="card">
       <div class="card-content">
-  <h3><b class="title-color">Try Our DAST Scanner</b></h3>        
+<h3><b class="gradient-text">Try Our DAST Scanner</b></h3>
         <p>Continuously monitor your attack surface and uncover vulnerabilities with Cobalt's automated DAST scans. Free unlimited scanning for one target.</p>
         <a href="/platform-deep-dive/scans/">Learn more »</a>
       </div>
@@ -80,7 +80,7 @@ cascade:
   <div class="col-md-6">
     <div class="card">
       <div class="card-content">
-<h3><b style="background: -webkit-linear-gradient(#0047AB, #6500CC); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Try Engagements</b></h3>
+<h3><b class="gradient-text">Try Engagements</b></h3>
         <p>Go beyond pentesting with Cobalt engagements. Gain a deeper understanding of your security posture through comprehensive assessments like Secure Code Reviews and Digital Risk Assessments.</p>
         <a href="/cybersecurity-services/">Learn more »</a>
       </div>
