@@ -2,6 +2,7 @@
 title: "Pentest Management Platform"
 linkTitle: "Pentest Management Platform"
 weight: 5
+no_list: true
 aliases: /platform-deep-dive/pentests/pmp/
 description: >
   Manage your in-house pentests on the Cobalt platform.
