@@ -120,6 +120,12 @@ nav.foldable-nav .with-child ul {
   color: #000000;
 }
 
+.gradient-text {
+  background: linear-gradient(to right, #0047AB, #6500CC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 $td-enable-google-fonts: true;
 
 $google_font_name: "Inter";
