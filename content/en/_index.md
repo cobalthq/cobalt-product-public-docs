@@ -71,7 +71,7 @@ cascade:
   <div class="col-md-6">
     <div class="card">
       <div class="card-content">
-  <h3><b class="title-color">Try our DAST Scanner</b></h3>        
+  <h3><b class="title-color">Try Our DAST Scanner</b></h3>        
         <p>Continuously monitor your attack surface and uncover vulnerabilities with Cobalt's automated DAST scans. Free unlimited scanning for one target.</p>
         <a href="/platform-deep-dive/scans/">Learn more »</a>
       </div>
