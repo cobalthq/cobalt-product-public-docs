@@ -67,7 +67,7 @@ cascade:
      </div>
    </div>
 
-
+<div class="row align-items-md-stretch my-5">
 <div class="col-md-6">
         <div class="h-100 p-5 border rounded-lg card" style="border-color: #D6E3FD">
           <h3><b>Try our DAST Scanner</b></h3>
@@ -77,7 +77,7 @@ cascade:
       </div>
       <div class="col-md-6">
         <div class="h-100 p-5 border rounded-lg card" style="border-color: #D6E3FD">
-          <h3>Try Engagements</h3>
+          <h3><b>Try Engagements</b></h3>
           <p>Go beyond pentesting with Cobalt engagements. Gain a deeper understanding of your security posture through comprehensive assessments like Secure Code Reviews and Digital Risk Assessments.</p>
        <a href="/cybersecurity-services/">Learn more »</a><br>
         </div>
