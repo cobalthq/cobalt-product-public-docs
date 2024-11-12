@@ -81,10 +81,11 @@ nav.foldable-nav .with-child ul {
 }
 
 
+
 .card {
   background-color: #ffffff !important; 
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   border: rgba(255, 255, 255, 0) !important;
   border-radius: 10px;
@@ -92,9 +93,14 @@ nav.foldable-nav .with-child ul {
   padding: 20px;
 }
 
+.card-content {
+  display: flex; /* Create a horizontal layout for content and image */
+  align-items: flex-start;
+}
+
 .card-image {
   float: left;
-  width: 50px; /* Adjust the width as needed */
+  width: 75px; /* Adjust the width as needed */
   height: auto;
   margin-right: 10px;
 }
