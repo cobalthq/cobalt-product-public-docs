@@ -1,6 +1,5 @@
 {{ define "main" }}
 <section class="row td-search-result">
-<div class="col-12 col-md-8 offset-md-2">
 <h2 class="ml-4">{{ .Title }}</h2>
 {{ with .Site.Params.gcs_engine_id }}
 <script>
@@ -16,7 +15,6 @@ s.parentNode.insertBefore(gcse, s);
 </script>
 			<gcse:searchresults-only></gcse:searchresults-only>
 {{ end }}
-</div>
 </section>
 
 {{ end }}
