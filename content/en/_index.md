@@ -24,21 +24,21 @@ cascade:
        <div class="feature-icon d-inline-flex align-items-left justify-content-left fs-2 mb-3">
          <a href="/getting-started/" tabindex="-1" aria-hidden="true"><img src="/homepage/getting-started.svg" alt="Getting Started" title="Getting Started"></a>
        </div>
-       <h4><a href="/getting-started/" class="custom-link-color">Getting Started</a></h4>
+       <h4><a href="/getting-started/" class="custom-link-color"><b>Getting Started</b></a></h4>
        <p>Use our step-by-step guide to launch your first pentest. Set up an asset, specify pentest details—and get the ball rolling.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left bg-gradient fs-2 mb-3">
          <a href="/methodologies/" tabindex="-1" aria-hidden="true"><img src="/homepage/methodologies.svg" alt="Methodologies" title="Methodologies"></a>
        </div>
-       <h4><a href="/methodologies/" class="custom-link-color">Methodologies</a></h4>
+       <h4><a href="/methodologies/" class="custom-link-color"><b>Methodologies</b></a></h4>
        <p>Read about the methodologies that our pentesters use to test different types of assets: Web, API, Mobile, and more.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left bg-gradient fs-2 mb-3">
          <a href="/platform-deep-dive/pentests/pentest-types/" tabindex="-1" aria-hidden="true"><img src="/homepage/pentest-types.svg" alt="Pentest Types" title="Pentest Types"></a>
        </div>
-       <h4><a href="/platform-deep-dive/pentests/pentest-types/" class="custom-link-color">Pentest Types</a></h4>
+       <h4><a href="/platform-deep-dive/pentests/pentest-types/" class="custom-link-color"><b>Pentest Types</b></a></h4>
        <p>Learn about the pentest types that we offer. Make your security stronger with Agile and Comprehensive Pentests.</p>
      </div>
    </div>
@@ -48,48 +48,44 @@ cascade:
        <div class="feature-icon d-inline-flex align-items-left justify-content-left fs-2 mb-3">
          <a href="/platform-deep-dive/assets/" tabindex="-1" aria-hidden="true"><img src="/homepage/asset-types.svg" alt="Asset Types" title="Asset Types"></a>
        </div>
-       <h4><a href="/platform-deep-dive/assets/asset-types/" class="custom-link-color">Asset Types</a></h4>
+       <h4><a href="/platform-deep-dive/assets/asset-types/" class="custom-link-color"><b>Asset Types</b></a></h4>
        <p>An asset is a software component of value to be tested, such as a web application or API. Explore the asset types we support.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left bg-gradient fs-2 mb-3">
          <a href="/integrations/" tabindex="-1" aria-hidden="true"><img src="/homepage/integrations.svg" alt="Integrations" title="Integrations"></a>
        </div>
-       <h4><a href="/integrations/" class="custom-link-color">Integrations</a></h4>
+       <h4><a href="/integrations/" class="custom-link-color"><b>Integrations</b></a></h4>
        <p>Integrate third-party apps to streamline your workflows, and configure webhooks to get real-time pentest updates.</p>
      </div>
      <div class="feature col">
        <div class="feature-icon d-inline-flex align-items-left justify-content-left bg-gradient fs-2 mb-3">
          <a href="/product-updates/" tabindex="-1" aria-hidden="true"><img src="/homepage/whats-new.svg" alt="What's New" title="What's New"></a>
        </div>
-       <h4><a href="/product-updates/" class="custom-link-color">What's New</a></h4>
+       <h4><a href="/product-updates/" class="custom-link-color"><b>What's New</b></a></h4>
        <p>We regularly ship updates to the Cobalt platform. Read our monthly release blog to stay on top of the latest news.</p>
      </div>
    </div>
 
-
 <div class="row align-items-md-stretch my-5">
-      <div class="col-md-6">
-        <div class="h-100 p-5 border rounded-lg" style="border-color: #D6E3FD">
-          <h3>Manage Your In-House Pentests</h3>
-          <p class="my-2">{{% beta-label %}}</p>
-          <p>Increase the efficiency and quality of your in-house pentests with the Cobalt Pentest Management Platform. Manage all your pentests in one place to streamline your end-to-end processes and standardize reporting.</p>
-          <a href="/pmp/">Learn more »</a>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="h-100 p-5 border rounded-lg" style="border-color: #D6E3FD">
-          <h3>Try Beta Integrations</h3>
-          <p class="my-2">{{% beta-label %}}</p>
-          <p>Request to enable a beta integration for your next pentest to streamline your remediation workflows. Customize the configuration to suit your needs, and start pushing Cobalt findings to your preferred task management software.</p>
-       <a href="/integrations/beta/">Request an integration »</a><br>
-        </div>
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-content">
+  <h3><b class="title-color">Try Our DAST Scanner</b></h3>        
+        <p>Continuously monitor your attack surface and uncover vulnerabilities with Cobalt's automated DAST scans. Free unlimited scanning for one target.</p>
+        <a href="/platform-deep-dive/scans/">Learn more »</a>
       </div>
     </div>
-
-
-<div class="text mx-5">
-
+  </div>
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-content">
+  <h3><b class="title-color">Try Engagements</b></h3>        
+        <p>Go beyond pentesting with Cobalt engagements. Gain a deeper understanding of your security posture through comprehensive assessments like Secure Code Reviews and Digital Risk Assessments.</p>
+        <a href="/cybersecurity-services/">Learn more »</a>
+      </div>
+    </div>
+  </div>
 </div>
 
 </div>
