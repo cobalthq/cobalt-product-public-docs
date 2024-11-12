@@ -2,6 +2,7 @@
 title: "Product Updates"
 linkTitle: "What's New"
 weight: 700
+list: no_list
 description: >
 ---
 
