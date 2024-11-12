@@ -94,6 +94,13 @@ $link-hover-color: darken($link-color, 15%) !default;
 $link-hover-decoration: none !default;
 
 .td-page-meta--view { display: none !important; }
+.td-page-meta__view { display: none !important; }
+.td-page-meta__edit { display: none !important; }
+.td-page-meta__child { display: none !important; }
+.td-page-meta__issue { display: none !important; }
+.td-page-meta__project-issue { display: none !important; }
+
+
 
 #cobalt-api-docs {
   position: absolute;
