@@ -24,7 +24,7 @@ cascade:
        <div class="feature-icon d-inline-flex align-items-left justify-content-left fs-2 mb-3">
          <a href="/getting-started/" tabindex="-1" aria-hidden="true"><img src="/homepage/getting-started.svg" alt="Getting Started" title="Getting Started"></a>
        </div>
-       <h4><a href="/getting-started/" class="custom-link-color">Getting Started</a></h4>
+       <h4><a href="/getting-started/" class="custom-link-color"><b>Getting Started</b></a></h4>
        <p>Use our step-by-step guide to launch your first pentest. Set up an asset, specify pentest details—and get the ball rolling.</p>
      </div>
      <div class="feature col">
