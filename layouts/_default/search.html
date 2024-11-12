@@ -1,5 +1,4 @@
 {{ define "main" }}
-<section class="row td-search-result">
 <h2>{{ .Title }}</h2>
 {{ with .Site.Params.gcs_engine_id }}
 <script>
@@ -15,6 +14,5 @@ s.parentNode.insertBefore(gcse, s);
 </script>
 			<gcse:searchresults-only></gcse:searchresults-only>
 {{ end }}
-</section>
 
 {{ end }}
