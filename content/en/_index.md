@@ -68,8 +68,9 @@ cascade:
    </div>
 
 <div class="row align-items-md-stretch my-5">
-<div class="col-md-6">
-        <div class="h-100 p-5 border rounded-lg card" style="border-color: rgba(255, 255, 255, 0)">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-content">
       <img src="/homepage/dast.svg" alt="DAST" class="card-image">
           <h3><b>Try our DAST Scanner</b></h3>
           <p>Continuously monitor your attack surface and uncover vulnerabilities with Cobalt's automated DAST scans. Free unlimited scanning for one target.</p>
@@ -77,7 +78,8 @@ cascade:
         </div>
       </div>
       <div class="col-md-6">
-        <div class="h-100 p-5 border rounded-lg card" style="border-color: rgba(255, 255, 255, 0)">
+    <div class="card">
+      <div class="card-content">
       <img src="/homepage/engagements.svg" alt="Engagements" class="card-image">
           <h3><b>Try Engagements</b></h3>
           <p>Go beyond pentesting with Cobalt engagements. Gain a deeper understanding of your security posture through comprehensive assessments like Secure Code Reviews and Digital Risk Assessments.</p>
