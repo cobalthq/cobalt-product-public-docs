@@ -3,6 +3,7 @@ title: "Cobalt API"
 linkTitle: "Cobalt API"
 weight: 100
 aliases: /apiusecases/
+no_list: true
 description: >
   Includes practical uses for our API.
 ---
