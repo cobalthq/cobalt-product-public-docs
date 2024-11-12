@@ -17,10 +17,10 @@ nav ul li a {
 }
 
 .navbar-nav .nav-link {
-  color: #ffffff; // Change the default link color
+  color: #ffffff !important; // Change the default link color
 
   &:hover {
-    color: #002243; // Change the hover color
+    color: #002243 !important; // Change the hover color
 }
 }
 
