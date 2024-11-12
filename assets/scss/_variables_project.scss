@@ -87,6 +87,13 @@ nav.foldable-nav .with-child ul {
     border-color: rgba(255, 255, 255, 0) !important;
 }
 
+.card-image {
+  float: left;
+  width: 50px; /* Adjust the width as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
 $td-enable-google-fonts: true;
 
 $google_font_name: "Inter";
