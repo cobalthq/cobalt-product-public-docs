@@ -131,6 +131,70 @@ When you have finished the HTTP connection configuration, click on **Connect**.
 
 ### Create a recipe
 
+#### Use case
+
+To illustrate, we want to create a recipe that updates a system via an HTTP API once a pentest finding has been fixed. For instance, if a Cross-Site Scripting (XSS) vulnerability has been addressed, we want to store relevant details such as the finding category, its severity, the finding's ID, and the ID of the pentest itself. We will achieve this by sending an HTTP POST request with the necessary information included in the request body.
+
+Assuming the request body that the HTTP service requires is as follows:
+
+```json
+{
+  "cobalt_finding_id": "vl_id01",
+  "cobalt_pentest_id": "pt_id01",
+  "title": "XSS vulnerability",
+  "severity": "low",
+  "type_category": "Cross-Site Scripting (XSS)"
+}
+```
+
+You can update this information using the following HTTP request with `curl`:
+
+```sh
+curl --location "https://echo.free.beeceptor.com/api/v2/finding/fixed" \
+--request POST \
+--header "Content-Type: application/json" \
+--header "Authorization: Bearer YOUR-PERSONAL-API-TOKEN" \
+--data '{"cobalt_finding_id":"vl_id01","cobalt_pentest_id":"pt_id01","title":"XSS vulnerability","severity":"low","type_category":"Cross-Site Scripting (XSS)"}'
+```
+
+**ⓘ** Replace `https://echo.free.beeceptor.com/api/v2/finding/fixed` with the appropriate URL and `YOUR-PERSONAL-API-TOKEN` with your actual API token.
+
+Let's create a recipe that utilizes our HTTP connection to make the same update. Start by navigating to the Projects tab, selecting the previously created folder, clicking on the "Create" button in the top right corner, and then choosing "Recipe."
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/13-create-recipe.png" alt="Create recipe" %}}
+
+Next, specify the recipe's name and location. Make sure to select **Trigger from an app** as the starting point, and then click on **Start building**.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/14-create-recipe-details.png" alt="Recipe details" %}}
+
+#### Use a Trigger
+
+Select the trigger that will initiate the recipe. We want the recipe to activate when the status of a pentest finding is updated in the Cobalt Platform. Search for the Cobalt Connector and select it.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/15-trigger-recipe-select-app.png" alt="Select app for trigger" %}}
+
+Search for the 'Pentest finding status updated' trigger and select it.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/16-trigger-recipe-select-trigger.png" alt="Select trigger" %}}
+
+Choose the configured Cobalt connection for the trigger.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/17-trigger-recipe-select-connection.png" alt="Select connection for trigger" %}}
+
+By default, this trigger runs when any pentest finding status is updated to "Fixed." To ensure the recipe runs only when the status of the associated pentest we have configured is updated, we need to filter the events. Click on "2 optional fields are available."
+
+> **ⓘ** The number of optional fields may vary depending on the type and version of the selected recipe trigger.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/18-filter-trigger-by-pentest.png" alt="Filter trigger by pentest" %}}
+
+Select the "Pentest" checkbox and then click on "Apply changes" in the modal.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/19-filter-trigger-by-pentest-modal.png" alt="Filter trigger by pentest modal" %}}
+
+A new "Pentest" dropdown will appear in the UI; select the appropriate pentest from this list. Filtering by pentest or asset is optional, so this step is provided for educational purposes only.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/20-filter-trigger-by-pentest-select-from-list.png" alt="Select from list" %}}
+
 #### Use an HTTP action
 
 #### Configure the request body
@@ -193,22 +257,6 @@ curl --location "https://echo.free.beeceptor.com/api/v2/finding/fixed" \
 ```
 
 ---
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/13-create-recipe.png" alt="Create recipe" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/14-create-recipe-details.png" alt="Recipe details" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/15-trigger-recipe-select-app.png" alt="Select app for trigger" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/16-trigger-recipe-select-trigger.png" alt="Select trigger" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/17-trigger-recipe-select-connection.png" alt="Select connection for trigger" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/18-filter-trigger-by-pentest.png" alt="Filter trigger by pentest" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/19-filter-trigger-by-pentest-modal.png" alt="Filter trigger by pentest modal" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/20-filter-trigger-by-pentest-select-from-list.png" alt="Select from list" %}}
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/21-use-get-pentest-finding-action.png" alt="Use get pentest finding action" %}}
 
