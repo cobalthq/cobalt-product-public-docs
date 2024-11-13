@@ -2,6 +2,7 @@
 title: "Define Your Assets"
 linkTitle: "Define Your Assets"
 weight: 10
+no_list: true
 description: >
   Security professionals perform pentests on your assets. Collect the info they need.
 ---
