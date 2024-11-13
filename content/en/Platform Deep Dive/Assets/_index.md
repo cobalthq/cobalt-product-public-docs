@@ -2,6 +2,7 @@
 title: "Assets"
 linkTitle: "Assets"
 weight: 10
+no_list: true
 description: >
   Assets are _what_ we pentest.
 ---
