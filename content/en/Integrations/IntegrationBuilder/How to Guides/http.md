@@ -45,19 +45,89 @@ Name the new folder and choose its location. Then click "Create folder".
 
 You should now see the new folder in the project.
 
+Create a dedicated folder folder for the connection by repeating the above steps.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/03-create-connection-folder.png" alt="Create connection folder" %}}
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/04-create-connection-folder-modal.png" alt="Connection folder details" %}}
+
+You should see now the new folder for the connection.
+
 ### Create an HTTP connection
+
+Click the "Create" button at the top right, then select "Connection".
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/05-create-connection.png" alt="Create a new connection" %}}
+
+Search for the HTTP connection and click on it.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/06-search-http-connection.png" alt="Search HTTP connection" %}}
+
+Fill in the connection name and the recipe location.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/07-http-connection-details.png" alt="HTTP connection details" %}}
 
 #### Configure the authentication type
 
+The HTTP connection supports several authentication types. This section outlines a few of them and the required configuration steps. It includes:
+
+- [Basic](#basic)
+- [Header authorization (Bearer token)](#header-authorization-bearer-token)
+
+Select the appropriate authentication type from the dropdown menu.
+
 ##### Basic
+
+The **Basic** authentication type requires the username and password. It can be an API token as an alternative to using the username and password. This information is encoded in Base64 during transit using SSL.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/08-http-connection-auth-basic.png" alt="HTTP connection basic auth" %}}
 
 ##### Header authorization (Bearer token)
 
+Use this authentication method if you have a generated token for authorization. For example, if you possess a bearer token, set the header key to `Authorization` and the value to `Bearer my_api_token`. This header with the token will be included in each HTTP request.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/09-http-connection-auth-header.png" alt="HTTP connection header auth" %}}
+
+> **ⓘ** Ensure you write `Bearer my_api_token` in the header value field, not just `my_api_token`.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/10-http-connection-auth-header-show.png" alt="HTTP connection header auth show" %}}
+
 ### Base URL
 
-#### Security
+To limit outbound requests to a designated URL, you can set a base URL for your HTTP connection. This ensures that all users of the connection can only access the specified server or application.
 
-#### Maintainability
+There are several benefits to setting a base URL:
+
+1. **Ensuring Security Over the HTTP Connector**  
+   Data governance is essential, particularly when data is shared between multiple applications. By establishing a base URL, you ensure that your sensitive information will only travel through a specified endpoint, domain, or host.
+
+2. **Use the Correct API Version**  
+   Verify that all requests target the appropriate API version of the intended application. Once the base URL is defined, all requests are directed to the same endpoint, including the API version.
+
+3. **Maintainability**  
+   Setting the base URL makes it easier to adapt as API versions evolve. By defining a base URL, you can swiftly modify request URLs without the necessity to individually update each action. For instance, you can set the base URL to a particular version of your REST API. When it is time to change the API version, you need only to adjust the base URL of the HTTP connection.
+
+#### How It Works
+
+When an HTTP action runs, the Base URL along with the action's Request URL is combined to create the final request URL. Consider it this way: **Base URL** + **Action Request URL** = **Final request URL**.
+
+For example:
+
+- Base URL: `https://echo.free.beeceptor.com/api/v2/`
+- Action Request URL: `/thing/data`
+- Final request URL: `https://echo.free.beeceptor.com/api/v2/thing/data`
+
+Set your API endpoint as the base URL.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/11-http-connection-base-url.png" alt="HTTP connection base URL" %}}
+
+> **ⓘ** This example utilizes a free HTTP echo server that provides a JSON response mirroring the content of the data sent in an HTTP request. More details about the example server can be found at https://beeceptor.com/resources/http-echo/.
+
+When you have finished the HTTP connection configuration, click on **Connect**.
+
+{{% image src="/integrations/integration_builder/how_to_guides/http/12-http-connection-connected.png" alt="HTTP connection connected" %}}
+
+> **ⓘ** The credentials and the accuracy of the authentication type configuration are not verified when you click **Connect**. The **Connected** status simply means that all required fields for the HTTP connection have been filled out. Subsequent steps will demonstrate how the credentials will be tested.
 
 ### Create a recipe
 
@@ -73,7 +143,7 @@ You should now see the new folder in the project.
 
 #### Read the HTTP requests and responses
 
-----
+---
 
 ```json
 {
@@ -112,7 +182,7 @@ You should now see the new folder in the project.
 }
 ```
 
-----
+---
 
 ```sh
 curl --location "https://echo.free.beeceptor.com/api/v2/finding/fixed" \
@@ -122,27 +192,7 @@ curl --location "https://echo.free.beeceptor.com/api/v2/finding/fixed" \
 --data '{"cobalt_finding_id":"vl_id01","cobalt_pentest_id":"pt_id01","title":"XSS vulnerability","severity":"low","type_category":"Cross-Site Scripting (XSS)"}'
 ```
 
-----
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/03-create-connection-folder.png" alt="Create connection folder" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/04-create-connection-folder-modal.png" alt="Connection folder details" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/05-create-connection.png" alt="Create connection" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/06-search-http-connector.png" alt="Search HTTP connector" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/07-http-connection-details.png" alt="HTTP connection details" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/08-http-connection-auth-basic.png" alt="HTTP connection basic auth" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/09-http-connection-auth-header.png" alt="HTTP connection header auth" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/10-http-connection-auth-header-show.png" alt="HTTP connection header auth show" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/11-http-connection-base-url.png" alt="HTTP connection base URL" %}}
-
-{{% image src="/integrations/integration_builder/how_to_guides/http/12-http-connection-connected.png" alt="HTTP connection connected" %}}
+---
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/13-create-recipe.png" alt="Create recipe" %}}
 
