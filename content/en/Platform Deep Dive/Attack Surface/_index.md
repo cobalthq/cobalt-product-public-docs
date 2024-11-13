@@ -2,6 +2,7 @@
 title: "Attack Surface"
 linkTitle: "Attack Surface"
 weight: 40
+no_list: true
 description: >
   Attack Surface Discovery and Monitoring.
 aliases:
