@@ -3,6 +3,7 @@ title: "Organization"
 linkTitle: "Organization"
 weight: 60
 aliases: /platform-deep-dive/collaboration/organization/
+no_list: true
 description: >
   Collaborate on pentests with team members from your organization.
 ---
