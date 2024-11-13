@@ -3,6 +3,7 @@ title: "Configure Organization Settings"
 linkTitle: "Organization Settings"
 weight: 70
 aliases: /platform-deep-dive/collaboration/organization/organization-settings/
+no_list: true
 description: >
   Adjust settings for your organization.
 ---
