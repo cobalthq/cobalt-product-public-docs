@@ -2,6 +2,7 @@
 title: "Cobalt Credits"
 linkTitle: "Credits"
 weight: 60
+no_list: true
 description: >
   We offer a flexible consumption model.
 ---
