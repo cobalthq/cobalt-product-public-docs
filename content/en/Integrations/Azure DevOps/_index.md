@@ -1,6 +1,7 @@
 ---
 title: "Integrate Azure DevOps with Cobalt"
 linkTitle: "Azure DevOps"
+no_list: true
 weight: 20
 description: >
   Push Cobalt findings as work items to Azure DevOps.

@@ -2,6 +2,7 @@
 title: "Platform Deep Dive"
 linkTitle: "Platform Deep Dive"
 weight: 10
+no_list: true
 description: >
   Explore the features of the Cobalt platform.
 ---

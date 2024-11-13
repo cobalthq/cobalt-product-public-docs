@@ -2,6 +2,7 @@
 title: "Cobalt Account"
 linkTitle: "Cobalt Account"
 weight: 80
+no_list: true
 description: >
   Discover how to manage your Cobalt account.
 ---

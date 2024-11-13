@@ -1,6 +1,7 @@
 ---
 title: "Getting Started"
 linkTitle: "Getting Started"
+no_list: true
 weight: 2
 description: >
   How to get started with Cobalt.

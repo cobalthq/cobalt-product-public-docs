@@ -3,6 +3,7 @@ title: "Configure SAML SSO"
 linkTitle: "SAML SSO"
 weight: 20
 aliases: /platform-deep-dive/collaboration/organization/organization-settings/saml-sso/
+no_list: true
 description: >
   Enable SAML SSO for your organization.
 ---

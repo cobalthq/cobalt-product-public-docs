@@ -2,6 +2,7 @@
 title: "Cobalt Penetration Testing Methodologies"
 linkTitle: "Methodologies"
 weight: 7
+no_list: true
 description: >
   An overview of Cobalt pentest methodologies.
 aliases:
