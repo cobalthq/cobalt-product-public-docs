@@ -1,6 +1,7 @@
 ---
 title: "How to Guides"
 linkTitle: "How to Guides"
+no_list: true
 weight: 30
 ---
 
