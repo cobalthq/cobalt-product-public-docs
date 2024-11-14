@@ -15,7 +15,6 @@ weight: 30
 | Microsoft Teams   | Send notifications for findings | [Click Here](./microsoft-teams)                  |
 | Microsoft Outlook | Send notifications for findings | [Click Here](./outlook-notifications)            |
 | Google Sheets     | Import assets                   | [Click Here](./import-assets-from-google-sheets) |
-| Generic HTTP      | Send HTTP requests              | [Click Here](./http)                             |
 
 ## Trigger filters
 
