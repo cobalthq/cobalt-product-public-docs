@@ -140,10 +140,11 @@ a:hover {
     text-decoration: none;
 }
 
-.btn-outline-primary, div.drawio button {
-     btn-hover-bg: #4185EB !important;
-
+.btn-outline-primary {
+  background-color: #4185EB;
+  border-color: #0047AB;
 }
+
 
 $bs-link-color: #0047AB;
 $bs-link-hover-color: #002243;
