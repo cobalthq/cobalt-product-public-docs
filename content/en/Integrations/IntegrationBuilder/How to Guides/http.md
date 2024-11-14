@@ -25,9 +25,9 @@ In this example, we will create an **Integration Builder** recipe that activates
 
 ### HTTP connector
 
-The generic HTTP connector lets you work with cloud applications using their APIs. This helps you create triggers and actions on the Workato platform for your integration recipes.
+The generic HTTP connector allows you to interact with cloud applications through their APIs. This enables you to create actions in your workflows that communicate with your service via HTTP.
 
-If you want to create or update an entry in your system, you can send a POST request with a JSON body. If you need to get some data from your application, you can use a GET request with your query parameters.
+To create or update an entry in your system, you can send a POST request containing a JSON body. If you need to retrieve data from your application, you can use a GET request along with your query parameters.
 
 #### Crete a new folder for your HTTP connection and recipes
 
