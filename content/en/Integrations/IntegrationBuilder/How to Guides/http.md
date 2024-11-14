@@ -114,8 +114,8 @@ When an HTTP action runs, the Base URL along with the action's Request URL is co
 For example:
 
 - Base URL: `https://echo.free.beeceptor.com/api/v2/`
-- Action Request URL: `/thing/data`
-- Final request URL: `https://echo.free.beeceptor.com/api/v2/thing/data`
+- Action Request URL: `finding/fixed`
+- Final request URL: `https://echo.free.beeceptor.com/api/v2/finding/fixed`
 
 Set your API endpoint as the base URL.
 
