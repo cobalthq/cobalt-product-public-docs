@@ -1,8 +1,8 @@
 ---
 title: "HTTP Connector"
 linkTitle: "HTTP Connector"
-weight: 10
-description: "Guide to integrate HTTP services with our platform."
+weight: 60
+description: "Guide to integrate HTTP services with Cobalt"
 ---
 
 {{% pageinfo %}}
@@ -334,6 +334,6 @@ Select the "Cobalt finding fixed via HTTP" action and check the "Input" tab. Ver
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/43-recipe-run-log-valid-fix-input.png" alt="Recipe run log valid fix input" %}}
 
-Click on the "Output" tab; this shows the HTTP response from the service to our POST request. Since this example uses an echo server, we should see the auth headers set by the HTTP connector in the response body. And they are present.
+Click on the "Output" tab to view the HTTP response from the service in response to our POST request. Since this example utilizes an echo server, we should observe the authentication headers set by the HTTP connector in the response body. These headers are indeed present.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/44-recipe-run-log-valid-fix-output.png" alt="Recipe run log valid fix output" %}}
