@@ -267,7 +267,7 @@ You can also adjust the "Response content type" and the "Encoding" of the respon
 
 ##### Review the HTTP configuration
 
-> **❗** Exercise extra caution when working with production systems and using independent HTTP methods. You may want to cancel the wizard at this point and proceed with the configuration manually.
+> **❗** Exercise extra caution when working with production systems and using idempotent HTTP methods. You may want to cancel the wizard at this point and proceed with the configuration manually.
 
 When you click the "Send request" button, the HTTP action will send a request to the API with the specified body and any optional headers. Your authentication type and credentials will be used and verified when sending a sample request.
 
