@@ -13,15 +13,15 @@ The HTTP connector allows you to connect with any cloud application or service t
 
 In this example, we will create an **Integration Builder** recipe that activates when the state of a pentest finding changes to "fixed". This recipe will interact with a service by mapping Cobalt-specific data to the format required by the API. Throughout this example, you will learn the following:
 
-- [What an HTTP connector is](#http-connector).
-- [How to create an HTTP connection](#create-an-http-connection).
-- [How to configure the authentication type](#configure-the-authentication-type).
-- [How to set the base URL](#base-url).
-- [How to use the HTTP action](#use-the-http-action).
-- [How to configure the HTTP method and the request URL](#configure-the-http-method-and-the-request-url).
-- [How to configure and send a sample request](#configure-and-send-a-sample-request).
-- [How to map Cobalt data to the API's format](#map-cobalt-data).
-- [How to read the HTTP requests and responses from the job logs](#read-the-http-requests-and-responses).
+- [What an HTTP connector is](#http-connector)
+- [How to create an HTTP connection](#create-an-http-connection)
+- [How to configure the authentication type](#configure-the-authentication-type)
+- [How to set the base URL](#base-url)
+- [How to use the HTTP action](#use-the-http-action)
+- [How to configure the HTTP method and the request URL](#configure-the-http-method-and-the-request-url)
+- [How to configure and send a sample request](#configure-and-send-a-sample-request)
+- [How to map Cobalt data to the API's format](#map-cobalt-data)
+- [How to read the HTTP requests and responses from the job logs](#read-the-http-requests-and-responses)
 
 ### HTTP connector
 
@@ -127,7 +127,7 @@ When you have finished the HTTP connection configuration, click on **Connect**.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/12-http-connection-connected.png" alt="HTTP connection connected" %}}
 
-> **ⓘ** The credentials and the accuracy of the authentication type configuration are not verified when you click **Connect**. The **Connected** status simply means that all required fields for the HTTP connection have been filled out. Subsequent steps will demonstrate how the credentials will be tested.
+> **ⓘ** The credentials and the accuracy of the authentication type configuration are not verified when you click **Connect**. The **Connected** status simply means that all required fields for the HTTP connection have been filled out. Subsequent steps will demonstrate how the credentials will be tested via [configuring sending a sample request](#configure-and-send-a-sample-request).
 
 ### Create a recipe
 
@@ -153,11 +153,11 @@ You can update this information using the following HTTP request with `curl`:
 curl --location "https://echo.free.beeceptor.com/api/v2/finding/fixed" \
 --request POST \
 --header "Content-Type: application/json" \
---header "Authorization: Bearer YOUR-PERSONAL-API-TOKEN" \
+--header "Authorization: Bearer my_api_token" \
 --data '{"cobalt_finding_id":"vl_id01","cobalt_pentest_id":"pt_id01","title":"XSS vulnerability","severity":"low","type_category":"Cross-Site Scripting (XSS)"}'
 ```
 
-> **ⓘ** Replace `https://echo.free.beeceptor.com/api/v2/finding/fixed` with the appropriate URL and `YOUR-PERSONAL-API-TOKEN` with your actual API token.
+> **ⓘ** Replace `https://echo.free.beeceptor.com/api/v2/finding/fixed` with the appropriate URL and `my_api_token` with your actual API token.
 
 Let's create a recipe that utilizes our HTTP connection to make the same update. Start by navigating to the Projects tab, selecting the previously created folder, clicking on the "Create" button in the top right corner, and then choosing "Recipe."
 
@@ -181,9 +181,11 @@ Choose the configured Cobalt connection for the trigger.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/17-trigger-recipe-select-connection.png" alt="Select connection for trigger" %}}
 
-By default, this trigger runs when any pentest finding status is updated to "Fixed." To ensure the recipe runs only when the status of the associated pentest we have configured is updated, we need to filter the events. Click on "2 optional fields are available."
+By default, this trigger runs when any pentest finding status is updated. To ensure the recipe runs only when the status of the associated pentest we have configured is updated, we need to filter the events. Click on "2 optional fields are available."
 
 > **ⓘ** The number of optional fields may vary depending on the type and version of the selected recipe trigger.
+
+> **ⓘ** This example implements a pentest finding status filter using an "IF condition" in the recipe. There are other alternative solutions, which will be discussed later.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/18-filter-trigger-by-pentest.png" alt="Filter trigger by pentest" %}}
 
@@ -201,7 +203,7 @@ A new "Pentest" dropdown will appear in the UI; select the appropriate pentest f
 
 In this hypothetical use case, the recipe must update only the findings that are in the 'Fixed' state, while ignoring all other finding statuses. To accomplish this, the recipe will use an action to retrieve the pentest finding by its unique ID and will include an "IF condition" to filter out irrelevant status updates.
 
-To add an action, click the plus sign (+), select "Action in app" from the popup menu, choose the Cobalt Connector, and search for the "Get pentest finding" action on the right-hand side.
+To add an action, click the plus sign (**+**), select "Action in app" from the popup menu, choose the Cobalt Connector, and search for the "Get pentest finding" action on the right-hand side.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/21-use-get-pentest-finding-action.png" alt="Use get pentest finding action" %}}
 
@@ -211,17 +213,17 @@ Click on the "Finding ID" field and drag the "Finding ID" datapill from the "Pen
 
 #### Filter with **IF condition**
 
-To add an "IF condition", click the plus sign (+) and select the "IF condition" from the popup. Using the drag and drop technique, set the "Data field" of the "IF branch" to the "state" of the pentest finding, select the "equals" from the "Condition" dropdown, and set the expected value to be `valid_fix`.
+To add an "IF condition", click the plus sign (**+**) and select the "IF condition" from the popup. Using the drag and drop technique, set the "Data field" of the "IF condition" to the "state" of the pentest finding, select the "equals" from the "Condition" dropdown, and set the expected value to be `valid_fix`.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/23-filter-pentest-finding-by-state.png" alt="Filter pentest finding by state" %}}
 
 > **ⓘ** When filtering pentest findings by status, please use the technical API value instead of the UI name. The correct value is `valid_fix`, not `Fixed`. For detailed information on pentest finding statuses and the mappings between API values and UI names, please refer to the API documentation at https://cobalt-public-api.netlify.app/v2/#states.
 
-> **ⓘ** Additionally, you can utilize the "Previous Finding State" and "Current Finding State" trigger filters to achieve the same outcome. When using an If branch within the recipe to filter pentest finding statuses, the recipe can execute independently of the current and previous statuses of the pentest. In contrast, if filters are applied to the trigger, the recipe will only activate when the filter conditions are satisfied, making the If branch filtering unnecessary.
+> **ⓘ** Additionally, you can utilize the "Previous Finding State" and "Current Finding State" trigger filters to achieve the same outcome. When using an IF condition within the recipe to filter pentest finding statuses, the recipe can execute independently of the current and previous statuses of the pentest. In contrast, if filters are applied to the trigger, the recipe will only activate when the filter conditions are satisfied, making the IF conditional filtering unnecessary.
 
 #### Use the HTTP action
 
-To add an HTTP action, click the plus sign (+) for the "Yes" branch of the "IF condition", select "Action in app" from the popup menu, choose HTTP.
+To add an HTTP action, click the plus sign (**+**) for the "Yes" branch of the "IF condition", select "Action in app" from the popup menu, choose HTTP.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/24-use-http-action.png" alt="Use HTTP action" %}}
 
@@ -267,7 +269,9 @@ You can also adjust the "Response content type" and the "Encoding" of the respon
 
 > **❗** Exercise extra caution when working with production systems and using independent HTTP methods. You may want to cancel the wizard at this point and proceed with the configuration manually.
 
-When you click the "Send request" button, the HTTP action will send a request to the API with the specified body and any optional headers. Your authentication type and credentials will be used and verified when sending a sample request. Sending a sample request might made an undesired update in your system.
+When you click the "Send request" button, the HTTP action will send a request to the API with the specified body and any optional headers. Your authentication type and credentials will be used and verified when sending a sample request.
+
+> **❗** **Sending a sample request might made an undesired update in your production system.**
 
 You can review the HTTP request made by the action, and also investigate the response body.
 
@@ -301,16 +305,16 @@ To view the recipe in action, you need to start it first. This may take a few se
 
 {{% image src="/integrations/integration_builder/how_to_guides/azure-devops/18-start-recipe.png" alt="Start recipe" %}}
 
-Once the recipe is running, you can monitor events by checking the Jobs tab. This tab can remain open to verify if a created finding triggers the desired action. The recipe will continue to run even if you close the tab. If you need to stop the recipe, simply click "Stop recipe." To make any edits to the recipe, you must stop it first.
+Once the recipe is running, you can monitor events by checking the "Jobs" tab. This tab can remain open to verify if a the pentest finding status update triggers the desired action. The recipe will continue to run even if you close the tab. If you need to stop the recipe, simply click "Stop recipe." To make any edits to the recipe, you must stop it first.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/37-recipe-did-start.png" alt="Recipe did start" %}}
 
-> **ⓘ** To test the recipe with pentest findings, follow the guide for
+> **ⓘ** To test the recipe with pentest findings using an In-House pentest, follow the guide for
 > [creating a test finding](/integrations/development/create-test-finding/).
 
 #### Read the HTTP requests and responses
 
-When a pentest finding is submitted by a tester, it will have the status "Pending Fix."
+When a pentest finding is submitted by a tester, it will be in the status of "Pending Fix."
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/38-finding-pending-fix.png" alt="Finding pending fix" %}}
 
@@ -318,7 +322,7 @@ Let's verify that our recipe has run. Go to the recipe you created, and select t
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/39-recipe-run-pending-fix.png" alt="Recipe run pending fix" %}}
 
-When you select the trigger, the actions, or the IF condition, you can see additional debug information. For example, the recipe has run, it looked up the pentest finding, but the pentest finding status was `need_fix` (which corresponds to "Pending Fix" in the UI). Therefore, the condition evaluated to false, and the HTTP action did not run. This is the expected behavior.
+When you select the trigger, the actions, or the IF condition, you can see additional debug information for the selected step. For example, the recipe has run, it looked up the pentest finding, but the pentest finding status was `need_fix` (which corresponds to "Pending Fix" in the UI). Therefore, the condition evaluated to false, and the HTTP action did not run. All is looking correct; this is the expected behavior.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/40-recipe-run-log-pending-fix.png" alt="Recipe run log pending fix" %}}
 
@@ -328,12 +332,14 @@ After the pentest finding status changes to "Fixed" in Cobalt, another job runs 
 
 Let's investigate the most recent job result from the "Jobs" tab of the recipe.
 
+> **ⓘ** The status of a pentest finding changes more than twice when transitioning from "Pending Fix" to "Fixed", indicating that more than two jobs have been executed.
+
 {{% image src="/integrations/integration_builder/how_to_guides/http/42-recipe-run-valid-fix.png" alt="Recipe run valid fix" %}}
 
-Select the "Cobalt finding fixed via HTTP" action and check the "Input" tab. Verify that the request body is as expected. Ensure that any custom headers you have configured are present in the output request. However, note that the authentication header **is not** visible in the action. Setting the auth header is the responsibility of the connector.
+Select the "Cobalt finding fixed via HTTP" action and check the "Input" tab. Verify that the request body is as expected. Ensure that any custom headers you have configured are present in the output request. However, note that the authentication header **is not** visible in the action. This is correct. Setting the auth header is the responsibility of the connector and the credentials are not visible for the action.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/43-recipe-run-log-valid-fix-input.png" alt="Recipe run log valid fix input" %}}
 
-Click on the "Output" tab to view the HTTP response from the service in response to our POST request. Since this example utilizes an echo server, we should observe the authentication headers set by the HTTP connector in the response body. These headers are indeed present.
+Click on the "Output" tab to view the HTTP response from the service in response to our POST request. Since this example utilizes an echo server, we should observe the authentication headers with the token set by the HTTP connector in the response body. These headers are indeed present.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/44-recipe-run-log-valid-fix-output.png" alt="Recipe run log valid fix output" %}}
