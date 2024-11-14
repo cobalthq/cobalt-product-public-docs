@@ -11,7 +11,7 @@ The HTTP connector allows you to connect with any cloud application or service t
 💡 The HTTP connector can be particularly useful for organizations looking to integrate with services without officially supported connectors.
 {{% /pageinfo %}}
 
-In this example, we will create an **Integration Builder** recipe that activates when the state of a pentest finding changes to "fixed". This recipe will interact with a service by mapping Cobalt-specific data to the format required by the API. Throughout this example, you will learn the following:
+In this example, we will create a recipe using the Integration Builder that updates a system via HTTP whenever a pentest finding is resolved. Throughout this example, you will learn the following:
 
 - [What an HTTP connector is](#http-connector)
 - [How to create an HTTP connection](#create-an-http-connection)
