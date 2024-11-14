@@ -9,7 +9,7 @@ description: >-
 Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
-## Partial Scans
+## Partial Scans: Reduced Scope
 
 Users can now quickly scan only specific parts of their applications and APIs, rather than waiting for a full scan, to focus on high-risk areas or new code changes.
 
@@ -22,6 +22,10 @@ Users can now quickly scan only specific parts of their applications and APIs, r
 - Minimizes scan durations by targeting specific sections of an application or API
 - Prioritizes high-risk areas by focusing scans on critical or recently updated sections
 - Reduces vulnerability noise, allowing users to concentrate on the most important security issues and potentially improving overall scanning efficiency.
+
+{{% pageinfo color="info" %}}
+For more information, have a look at our [Partial Scans: Reduced Scope documentation.](https://docs.cobalt.io/platform-deep-dive/scans/reduced-scope/)
+{{% /pageinfo %}}
 
 ![Partial Scans](/release-notes/partial-scans.png "Partial Scans")
 
