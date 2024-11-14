@@ -29,7 +29,7 @@ For more information, have a look at our [Partial Scans: Reduced Scope documenta
 
 ![Partial Scans](/release-notes/partial-scans.png "Partial Scans")
 
---
+---
 
 ## Notification Preferences Enhanced for Pentests
 
