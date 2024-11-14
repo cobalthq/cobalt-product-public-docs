@@ -14,14 +14,14 @@ The HTTP connector allows you to connect with any cloud application or service t
 In this example, we will create an **Integration Builder** recipe that activates when the state of a pentest finding changes to "fixed". This recipe will interact with a service by mapping Cobalt-specific data to the format required by the API. Throughout this example, you will learn the following:
 
 - [What an HTTP connector is](#http-connector).
-- How to create an HTTP connection.
-- How to configure the authentication type.
-- How to set the base URL.
-- How to use the HTTP action.
-- How to configure the request body.
-- How to set the request headers.
-- How to map Cobalt data to the API's format.
-- How to read the HTTP requests and responses from the job logs.
+- [How to create an HTTP connection](#create-an-http-connection).
+- [How to configure the authentication type](#configure-the-authentication-type).
+- [How to set the base URL](#base-url).
+- [How to use the HTTP action](#use-the-http-action).
+- [How to configure the HTTP method and the request URL](#configure-the-http-method-and-the-request-url).
+- [How to configure and send a sample request](#configure-and-send-a-sample-request).
+- [How to map Cobalt data to the API's format](#map-cobalt-data).
+- [How to read the HTTP requests and responses from the job logs](#read-the-http-requests-and-responses).
 
 ### HTTP connector
 
