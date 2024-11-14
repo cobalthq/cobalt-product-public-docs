@@ -241,7 +241,7 @@ To begin, please provide the relative API endpoint path you wish to call, along 
 
 > **ⓘ** Note that we have configured the HTTP connector with a base URL, so this example will use the relative path. If you have chosen not to use a base URL for the HTTP connection, you will need to specify the absolute API endpoint.
 
-In this example, we want to update our hypothetical system with the finding ID, type category, severity, and pentest IDs using a POST "method call". The endpoint is located at `https://echo.free.beeceptor.com/api/v2/finding/fixed`, but because we have previously configured the base URL as `https://echo.free.beeceptor.com/api/v2`, we will use the relative path as the "Request URL", which is `/finding/fixed`. Proceed to the next wizard page with the "Next" button.
+In this example, we want to update our hypothetical system with the finding ID, type category, severity, and pentest IDs using a POST "method call". The endpoint is located at `https://echo.free.beeceptor.com/api/v2/finding/fixed`, but because we have previously configured the base URL as `https://echo.free.beeceptor.com/api/v2`, we will use the relative path as the "Request URL", which is `finding/fixed`. Proceed to the next wizard page with the "Next" button.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/27-use-http-action-config-url.png" alt="Configure URL for HTTP action" %}}
 
