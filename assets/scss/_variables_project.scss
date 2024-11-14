@@ -139,6 +139,13 @@ a:hover {
     color: #002243 !important;
     text-decoration: none;
 }
+
+.btn-outline-primary:hover {
+  background-color: #D1E4FF !important;
+  border-color:  #0047AB !important;
+}
+
+
 $bs-link-color: #0047AB;
 $bs-link-hover-color: #002243;
 
