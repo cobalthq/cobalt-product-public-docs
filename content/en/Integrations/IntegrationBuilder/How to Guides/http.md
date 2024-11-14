@@ -45,7 +45,7 @@ Name the new folder and choose its location. Then click "Create folder".
 
 You should now see the new folder in the project.
 
-Create a dedicated folder folder for the connection by repeating the above steps.
+Create a dedicated folder for the connection by repeating the above steps.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/03-create-connection-folder.png" alt="Create connection folder" %}}
 
