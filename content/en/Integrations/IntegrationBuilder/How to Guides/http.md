@@ -127,7 +127,7 @@ When you have finished the HTTP connection configuration, click on **Connect**.
 
 {{% image src="/integrations/integration_builder/how_to_guides/http/12-http-connection-connected.png" alt="HTTP connection connected" %}}
 
-> **ⓘ** The credentials and the accuracy of the authentication type configuration are not verified when you click **Connect**. The **Connected** status simply means that all required fields for the HTTP connection have been filled out. Subsequent steps will demonstrate how the credentials will be tested via [configuring sending a sample request](#configure-and-send-a-sample-request).
+> **ⓘ** The credentials and the accuracy of the authentication type configuration are not verified when you click **Connect**. The **Connected** status simply means that all required fields for the HTTP connection have been filled out. Subsequent steps will demonstrate how the credentials will be tested via [configuring and sending a sample request](#configure-and-send-a-sample-request).
 
 ### Create a recipe
 
