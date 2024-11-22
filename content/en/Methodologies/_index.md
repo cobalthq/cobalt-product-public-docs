@@ -32,6 +32,7 @@ asset.
 - [Cloud](/methodologies/cloud/)
 - [Desktop](/methodologies/desktop/)
 - [Azure AD](/methodologies/azure-ad/)
+- [AI/LLM] (/methodologies/ai-llm/)
 
 In most cases, the Methodology is fixed, based on the [Asset Type](/platform-deep-dive/assets/asset-types/)
 you defined earlier. However, if you selected a combined asset type, such as Web + API, you
