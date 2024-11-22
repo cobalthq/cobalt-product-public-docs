@@ -9,6 +9,21 @@ description: >-
 Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
+
+## Target Directory {{< beta-label >}}
+
+We've introduced a central directory feature that allows customers to conveniently track their targets across Pentests and ASM modules, providing a cohesive and organized approach to managing these crucial units.
+
+<strong>Benefits</strong>:
+- The addition of the Target directory offers customers enhanced capabilities to analyze and segment their data effectively, enabling them to gain deeper insights and make more informed decisions based on the structured tracking of targets.
+- Accessible through a new tab under Assets, the Target directory offers a user-friendly interface for customers to navigate and manage their targets with ease.
+
+This beta feature is now accessible to all customers, empowering them with improved tools to streamline target tracking and optimize their operational processes.
+
+![Target Directory](/release-notes/target-directory.png "Target Directory")
+
+---
+
 ## Partial Scans: Reduced Scope
 
 Users can now quickly scan only specific parts of their applications and APIs, rather than waiting for a full scan, to focus on high-risk areas or new code changes.
