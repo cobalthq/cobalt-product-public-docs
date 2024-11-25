@@ -18,7 +18,7 @@ In addition, we have also added a progress tracker to the scan details page. Thi
 
 These enhancements provide customers with immediate feedback on the progress of their scans, making it easier for them to identify any issues that may arise during the scanning process. 
 
-{{% pageinfo color="info" %}}
+{{% pageinfo color="blue" %}}
 View more scan controls available [here](https://docs.cobalt.io/platform-deep-dive/scans/scans/).
 {{% /pageinfo %}}
 
