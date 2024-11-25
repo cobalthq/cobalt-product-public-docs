@@ -136,15 +136,56 @@ a {
 }
 
 a:hover {
-    color: #002243 !important;
+    color: #4185EB !important;
     text-decoration: none;
 }
 
 .btn-outline-primary:hover {
-  background-color: #D1E4FF !important;
-  border-color:  #0047AB !important;
+  background-color: #0047AB !important;
+  border-color: #0047AB !important;
+  color: #fff !important; /* Set the text color to white */
 }
 
+.btn-outline-primary {
+  width: 185px !important; /* Adjust the width as needed */
+}
+
+.pageinfo {
+    font-weight: 500;
+    background: #F1EAFF !important;
+    color: inherit;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    padding-bottom: .5rem;
+}
+
+/* Variations with different colors */
+.pageinfo-blue {
+  background-color: #D1E4FF !important;
+  color: inherit;
+}
+
+.pageinfo-green {
+  background-color: #D7F4F0 !important;
+  color: #333;
+}
+
+.pageinfo-yellow {
+  background-color: #FFF7DB !important;
+  color: #333;
+}
+
+.fa-chevron-right::before {
+    content: "\f054"; 
+    font-size: medium !important;
+    color: #0047ab;
+}
+
+.fa-chevron-down::before {
+    content: "\f078";
+    font-size: medium !important;
+    color: #0047ab;
+}
 
 $bs-link-color: #0047AB;
 $bs-link-hover-color: #002243;

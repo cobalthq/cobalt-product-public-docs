@@ -50,7 +50,7 @@ Users can now quickly scan only specific parts of their applications and APIs, r
 - Prioritizes high-risk areas by focusing scans on critical or recently updated sections
 - Reduces vulnerability noise, allowing users to concentrate on the most important security issues and potentially improving overall scanning efficiency.
 
-{{% pageinfo color="info" %}}
+{{% pageinfo color="blue" %}}
 For more information, have a look at our [Partial Scans: Reduced Scope documentation.](https://docs.cobalt.io/platform-deep-dive/scans/reduced-scope/)
 {{% /pageinfo %}}
 
