@@ -82,7 +82,7 @@ cascade:
     <div class="card">
       <div class="card-content">
 <h3><b class="gradient-text">Try Engagements</b></h3>
-        <p>Go beyond pentesting with Cobalt engagements. Gain a deeper understanding of your security posture through comprehensive assessments like Secure Code Reviews and Digital Risk Assessments.</p>
+        <p>Gain a deeper understanding of your security posture through comprehensive assessments like Secure Code Reviews and Digital Risk Assessments.</p>
          <a class="btn btn-outline-primary rounded" href="/cybersecurity-services/">Learn More »</a>
       </div>
     </div>
