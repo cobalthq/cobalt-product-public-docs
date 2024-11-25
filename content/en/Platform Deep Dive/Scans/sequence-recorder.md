@@ -6,18 +6,17 @@ description: >
   More information about login sequence recorder
 ---
 
-# Sequence recorder
 
 Cobalt's Sequence Recorder is a browser plugin that records your actions in the browser. This can specifically
 help you with setting up an authenticated target. These actions will then be
 replayed by the scans when trying to authenticate to the target.
 
-# Installation
+## Installation
 
 You can install the [Chrome browser extension] or the [Firefox add-on] as you would normally
 install any other browser plugin.
 
-# Usage
+## Usage
 
 Once installed, click on Cobalt's extension icon, a small window will pop up. Type in there
 the URL of the target that you'd like to add authentication to and click `Start Recording`
