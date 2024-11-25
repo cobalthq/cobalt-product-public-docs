@@ -8,7 +8,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-<span style="background-color: #ECE6FA; padding: 2px;">{{% asset-definition %}}</span> Once you've created an asset, you can launch pentests for it.
+{{% asset-definition %}} Once you've created an asset, you can launch pentests for it.
 {{% /pageinfo %}}
 
 ## Create an Asset
