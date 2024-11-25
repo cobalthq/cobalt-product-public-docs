@@ -10,6 +10,25 @@ Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
 
+## Enhanced AI/LLM Pentests Offering
+
+We have enhanced our AI/LLM offerings to provide customers with a more streamlined and intuitive experience:
+- The "Prompt Injection" methodology has been exclusively tailored as an agile test, offering a precise and focused scope representation.
+- We have rebranded "OWASP Top 10 LLMs" to "LLM" and positioned it as a comprehensive assessment, reflecting its full-spectrum coverage of LLM security.
+
+<b>Enhancements in Product:</b>
+- Catalog tile updated to reflect a starting credit price of 4 credits for agile tests.
+- Description of the "LLM" methodology updated to highlight its comprehensive nature.
+- Methodology selection streamlined: Agile method displays "Prompt Injection," while Comprehensive method displays "LLM."
+
+{{% pageinfo color="info" %}}
+For more information, have a look at our [Partial Scans: Reduced Scope documentation.](https://docs.cobalt.io/platform-deep-dive/scans/reduced-scope/)
+{{% /pageinfo %}}
+
+![Enhanced AI/LLM Pentest Offering](/release-notes/ai-llm-release-notes.png "Enhanced AI/LLM Pentest Offering")
+
+---
+
 ## Target Directory 
 
 We've introduced a central directory feature that allows customers to conveniently track their targets across their Pentests, DAST, and Attack Surface, providing a cohesive and organized approach to managing these crucial units.
