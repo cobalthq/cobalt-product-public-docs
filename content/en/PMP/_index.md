@@ -45,6 +45,7 @@ The Cobalt Pentest Management Platform is designed to increase the efficiency an
       <div class="card-content">
 <h3><b class="gradient-text">In-House Pentester</b></h3>
         <p>I perform pentests for my organization.</p>
+        <p></p>
         <a class="btn btn-outline-primary rounded" href="/pmp/complete-pentest/">Read the Guide »</a>
       </div>
     </div>
