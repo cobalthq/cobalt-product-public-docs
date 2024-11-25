@@ -22,7 +22,7 @@ We have enhanced our AI/LLM offerings to provide customers with a more streamlin
 - Methodology selection streamlined: Agile method displays "Prompt Injection," while Comprehensive method displays "LLM."
 
 {{% pageinfo color="info" %}}
-For more information, have a look at our [Partial Scans: Reduced Scope documentation.](https://docs.cobalt.io/platform-deep-dive/scans/reduced-scope/)
+For more information, have a look at our [AI/LLM Pentest Methodologies.](https://docs.cobalt.io/methodologies/ai-llm/)
 {{% /pageinfo %}}
 
 ![Enhanced AI/LLM Pentest Offering](/release-notes/ai-llm-release-notes.png "Enhanced AI/LLM Pentest Offering")
