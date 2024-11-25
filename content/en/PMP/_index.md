@@ -9,7 +9,6 @@ description: >
 ---
 
 {{% pageinfo color="info" %}}
-<p><span style="color:#6633d9; font-weight:500; background-color: #ece6fa; padding: 2px 4px; border-radius: 2px;">Beta</span></p>
 <p>With the Pentest Management Platform (PMP), you can launch and manage your in-house pentests with Cobalt. Set up a pentest, invite your own pentesters, and analyze pentest results in one place—on the platform you already know.</p>
 <p>You can run in-house pentests with pentesters of your choice: from your organization, a third-party company, or both. Cobalt pentesters are not involved in the testing process.</p>
 {{% /pageinfo %}}
