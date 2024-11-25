@@ -159,6 +159,22 @@ a:hover {
     padding-bottom: .5rem;
 }
 
+/* Variations with different colors */
+.pageinfo-blue {
+  background-color: #D1E4FF !important;
+  color: inherit;
+}
+
+.pageinfo-green {
+  background-color: #D7F4F0 !important;
+  color: #333;
+}
+
+.pageinfo-yellow {
+  background-color: #FFF7DB !important;
+  color: #333;
+}
+
 $bs-link-color: #0047AB;
 $bs-link-hover-color: #002243;
 
