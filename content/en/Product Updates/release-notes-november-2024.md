@@ -10,16 +10,13 @@ Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
 
-## Enhanced AI/LLM Pentests Offering
+## AI/LLM Pentests
 
-We have enhanced our AI/LLM offerings to provide customers with a more streamlined and intuitive experience:
-- The "Prompt Injection" methodology has been exclusively tailored as an agile test, offering a precise and focused scope representation.
-- We have rebranded "OWASP Top 10 LLMs" to "LLM" and positioned it as a comprehensive assessment, reflecting its full-spectrum coverage of LLM security.
+We've upgraded our AI/LLM security assessment offerings to provide a more focused and efficient experience:
+- Our "OWASP Top 10 LLMs" assessment is now simply "LLM." This comprehensive assessment provides full-spectrum security coverage for your LLM applications, including their web and API connections. (Starts at 16 credits)
+- "Prompt Injection" is now a standalone agile test, offering a targeted and efficient approach to identifying this specific vulnerability. (Starts at 4 credits)
 
-<b>Enhancements in Product:</b>
-- Catalog tile updated to reflect a starting credit price of 4 credits for agile tests.
-- Description of the "LLM" methodology updated to highlight its comprehensive nature.
-- Methodology selection streamlined: Agile method displays "Prompt Injection," while Comprehensive method displays "LLM."
+These changes are reflected in the UI, making it easier to find and select the assessment that best suits your needs.
 
 {{% pageinfo color="info" %}}
 For more information, have a look at our [AI/LLM Pentest Methodologies.](https://docs.cobalt.io/methodologies/ai-llm/)
