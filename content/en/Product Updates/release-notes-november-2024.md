@@ -10,6 +10,18 @@ Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
 
+## AI/LLM Pentests
+
+We've upgraded our AI/LLM security assessment offerings to provide a more focused and efficient experience:
+- Our "OWASP Top 10 LLMs" assessment is now simply "LLM." This comprehensive assessment provides full-spectrum security coverage for your LLM applications, including their web and API connections. (Starts at 16 credits)
+- "Prompt Injection" is now a standalone agile test, offering a targeted and efficient approach to identifying this specific vulnerability. (Starts at 4 credits)
+
+These changes are reflected in the UI, making it easier to find and select the assessment that best suits your needs.
+
+![Enhanced AI/LLM Pentest Offering](/release-notes/ai-llm-release-notes.png "Enhanced AI/LLM Pentest Offering")
+
+---
+
 ## Target Directory 
 
 We've introduced a central directory feature that allows customers to conveniently track their targets across their Pentests, DAST, and Attack Surface, providing a cohesive and organized approach to managing these crucial units.
