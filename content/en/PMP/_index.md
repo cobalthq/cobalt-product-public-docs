@@ -30,21 +30,24 @@ The Cobalt Pentest Management Platform is designed to increase the efficiency an
 
 ## What's Your Role?
 
-<div style="padding-right: 2.0625rem;">
-<div class="row align-items-md-stretch my-4">
-      <div class="col-md-6">
-        <div class="h-100 p-5 border rounded-lg" style="border-color: #D6E3FD">
-          <h3>Pentest Manager</h3>
-          <p>I manage and collaborate on pentests for my organization.</p>
-          <a class="btn btn-outline-primary rounded" href="/pmp/manage-pentests/">Read the Guide »</a>
-        </div>
+<div class="row align-items-md-stretch my-5">
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-content">
+<h3><b class="gradient-text">Pentest Manager</b></h3>
+        <p>I manage and collaborate on pentests for my organization.</p>
+        <a class="btn btn-outline-primary rounded" href="/pmp/manage-pentests/">Read the Guide »</a>
       </div>
-      <div class="col-md-6">
-        <div class="h-100 p-5 border rounded-lg" style="border-color: #D6E3FD">
-          <h3>In-House Pentester</h3>
-          <p>I perform pentests for my organization.</p>
-          <a class="btn btn-outline-primary rounded" href="/pmp/complete-pentest/">Read the Guide »</a>
-        </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card">
+      <div class="card-content">
+<h3><b class="gradient-text">In-House Pentester</b></h3>
+        <p>I perform pentests for my organization.</p>
+        <a class="btn btn-outline-primary rounded" href="/pmp/complete-pentest/">Read the Guide »</a>
       </div>
+    </div>
+  </div>
 </div>
-</div>
+
