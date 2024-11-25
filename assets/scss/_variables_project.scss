@@ -175,6 +175,18 @@ a:hover {
   color: #333;
 }
 
+.custom-chevron {
+    /* Your desired chevron styles here */
+    font-size: large !important; /* Adjust font size for a larger chevron */
+    color: #0047ab;
+    transform: rotate(0deg); /* Initial state: pointing down */
+    transition: transform 0.2s ease-in-out; /* Smooth rotation transition */
+}
+
+.custom-chevron.expanded {
+    transform: rotate(180deg); /* Rotated state: pointing up */
+}
+
 $bs-link-color: #0047AB;
 $bs-link-hover-color: #002243;
 
