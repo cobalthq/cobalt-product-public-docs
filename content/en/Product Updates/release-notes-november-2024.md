@@ -18,10 +18,6 @@ We've upgraded our AI/LLM security assessment offerings to provide a more focuse
 
 These changes are reflected in the UI, making it easier to find and select the assessment that best suits your needs.
 
-{{% pageinfo color="info" %}}
-For more information, have a look at our [AI/LLM Pentest Methodologies.](https://docs.cobalt.io/methodologies/ai-llm/)
-{{% /pageinfo %}}
-
 ![Enhanced AI/LLM Pentest Offering](/release-notes/ai-llm-release-notes.png "Enhanced AI/LLM Pentest Offering")
 
 ---
