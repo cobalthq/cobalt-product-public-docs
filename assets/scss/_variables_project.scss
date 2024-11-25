@@ -175,16 +175,16 @@ a:hover {
   color: #333;
 }
 
-.custom-chevron {
-    /* Your desired chevron styles here */
-    font-size: large !important; /* Adjust font size for a larger chevron */
+.fa-chevron-right::before {
+    content: "\f054" 
+    font-size: large !important;
     color: #0047ab;
-    transform: rotate(0deg); /* Initial state: pointing down */
-    transition: transform 0.2s ease-in-out; /* Smooth rotation transition */
 }
 
-.custom-chevron.expanded {
-    transform: rotate(180deg); /* Rotated state: pointing up */
+.fa-chevron-down::before {
+    content: "\f078"
+    font-size: large !important;
+    color: #0047ab;
 }
 
 $bs-link-color: #0047AB;
