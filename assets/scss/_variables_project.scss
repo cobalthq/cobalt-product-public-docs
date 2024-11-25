@@ -141,8 +141,13 @@ a:hover {
 }
 
 .btn-outline-primary:hover {
-  background-color: #D1E4FF !important;
-  border-color:  #0047AB !important;
+  background-color: #0047AB !important;
+  border-color: #0047AB !important;
+  color: #fff !important; /* Set the text color to white */
+}
+
+.btn-outline-primary {
+  width: 150px !important; /* Adjust the width as needed */
 }
 
 
