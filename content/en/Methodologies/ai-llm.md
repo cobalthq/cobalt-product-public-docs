@@ -6,8 +6,6 @@ description: >
   Review Cobalt pentest methodologies for an AI/LLM application.
 ---
 
-## AI/LLM Pentesting
-
 Cobalt offers two levels of Artificial Intelligence (AI) and Large Language Model (LLM) pentesting of Web and Web + API Assets. 
 
 - [LLM/AI Prompt Injection](#llm-prompt-injection) (+4 credits)
