@@ -163,19 +163,13 @@ To scope a pentest for a Desktop asset, specify the number of the following char
 
 ### AI/LLM Pentesting
 
-Cobalt offers two levels of AI/LLM pentesting of Web related Assets. 
+To scope an AI/LLM pentest specify the Number of independent LLM features to be tested.
 
-- [LLM/AI Prompt Injection](#llm-prompt-injection) (+5 credits)
-Focus on testing the security of your AI systems against prompt injection attacks. These attacks manipulate the AI’s input to generate malicious output, which can compromise the system’s integrity and confidentiality.
-
-- [LLM/AI Owasp Top 10](#llm-owasp-top-ten) (+16 credits)
-Test your LLMs against the Open Web Application Security Project (OWASP) Top 10 most critical web application security risks. Ensure they’re protected against unauthorized access, data breaches, and disruptions
-
-To scope a AI/LLM pentest specify the Number of independent LLM features to be tested.
+| Parameter | Definition | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
+|---|---|---|
+| LLM Features | <p>A specific capability or functionality exhibited by a Large Language Model (LLM). | <p>Enter the total number of LLM features within your application that need to be tested. Example of a feature include a chatbot.</li></ul> |
 
 If multiple independent features are selected, the results will be documented in the same report and findings will reported in the same pentest. If seperate reports are needed, it's recommended to run seperate pentests for them.
-
-AI/LLM pentests can be run both as a Comprehensive pentest (including a thorough final pentest analysis and report) and as an Agile pentest (no final report).
 
 AI/LLM pentests are available for Web assets only.
 
