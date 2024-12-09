@@ -8,11 +8,11 @@ description: >
 ---
 
 A finding represents a potential security vulnerability or weakness identified during a security assessment. These assessments can encompass various methodologies, including:
-- Penetration Tests: In-depth manual assessments where security experts simulate real-world attacks to uncover vulnerabilities.
-- Secure Code Reviews: Manual analysis of source code to detect security vulnerabilities early in the software development lifecycle.
-- Digital Risk Assessments: Evaluations of your online presence to identify potential threats to your brand reputation, data security, and compliance.
-- DAST Scans: Automated scans that analyze running web applications and APIs to identify security flaws.
-- Attack Surface Scans: Insights derived from continuous attack surface monitoring, which automatically discovers and tracks your internet-facing assets for potential risks.
+- **Penetration Tests**: In-depth manual assessments where security experts simulate real-world attacks to uncover vulnerabilities.
+- **Secure Code Reviews**: Manual analysis of source code to detect security vulnerabilities early in the software development lifecycle.
+- **Digital Risk Assessments**: Evaluations of your online presence to identify potential threats to your brand reputation, data security, and compliance.
+- **DAST Scans**: Automated scans that analyze running web applications and APIs to identify security flaws.
+- **Attack Surface Scans**: Insights derived from continuous attack surface monitoring, which automatically discovers and tracks your internet-facing assets for potential risks.
 
 Regardless of the test type, findings detail the identified vulnerability, its potential impact, and recommendations for remediation. This information empowers you to prioritize and address security gaps effectively.
 
