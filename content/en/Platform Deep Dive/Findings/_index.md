@@ -24,9 +24,9 @@ You can manage findings using the Cobalt API. Learn more in our [API documentati
 
 To view all findings reported within your organization, navigate to the **Findings** page. You need an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](/platform-deep-dive/collaboration/user-roles/#organization-member) role to view this page.
 
-{{% alert title="Note" color="primary" %}}
+{{< alert title="Note" color="primary" >}}
 Organization Members will be limited in their Findings view, depending on [group](/platform-deep-dive/collaboration/groups) membership.
-{{% /alert %}}
+{{< /alert >}}
 
 ![View all findings reported within an organization](/deepdive/Findings-org-view-2.png "View all findings reported within an organization")
 
