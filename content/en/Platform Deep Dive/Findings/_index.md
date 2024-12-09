@@ -1,7 +1,7 @@
 ---
 title: "Findings"
 linkTitle: "Findings"
-weight: 10
+weight: 15
 no_list: true
 description: >
   Review and remediate findings that our pentesters discover.
