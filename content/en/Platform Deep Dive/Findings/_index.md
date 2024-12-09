@@ -28,7 +28,7 @@ To view all findings reported within your organization, navigate to the **Findin
 Organization Members will be limited in their Findings view, depending on [group](/platform-deep-dive/collaboration/groups) membership.
 {{% /alert %}}
 
-![View all findings reported within an organization](/deepdive/findings-organization-view.png "View all findings reported within an organization")
+![View all findings reported within an organization](/deepdive/findings-organization-view-2.png "View all findings reported within an organization")
 
 Here, you can filter findings by:
 
