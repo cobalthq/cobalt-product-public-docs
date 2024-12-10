@@ -2,7 +2,7 @@
 title: "Blackout Period"
 linkTitle: "Blackout Period"
 weight: 45
-description: Define a specific set of URLs within your target to scan
+description: Schedule blackout periods to automatically pause and resume your DAST scans
 ---
 
 Blackout periods allow you to temporarily pause your DAST scans to avoid conflicts with other activities or to prevent disruptions during sensitive times.
@@ -22,9 +22,10 @@ Blackout periods allow you to temporarily pause your DAST scans to avoid conflic
 
 1. Go to your target's settings.
 2. In the Scanner tab, locate the **Blackout Period** section.
-3. Set the start and end times for when the scan will be paused and resumed.
-4. Select the days of the week.
-6. Save your changes.
+3. Enable the feature by toggling the switch component.
+   - Note: Disabling the feature does not delete your saved blackout periods.
+5. Define the start and end time/day for when the scan will be paused and resumed.
+7. Save your changes.
 
 ## Other Considerations
 
