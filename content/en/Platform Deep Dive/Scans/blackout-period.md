@@ -13,10 +13,10 @@ Blackout periods allow you to temporarily pause your DAST scans to avoid conflic
 
 ## Use Cases
 
-- **Planned maintenance:** Suspend scans during scheduled maintenance windows to prevent interference with system updates or infrastructure changes.
-- **High-traffic events:** Pause scans during peak traffic periods or marketing campaigns to avoid performance impacts on your application.
-- **Vulnerability remediation:** Temporarily disable scans while you're actively fixing identified vulnerabilities to prevent redundant alerts.
-- **Third-party integrations:** Prevent scans from interfering with scheduled tasks from other tools or services integrated with your application.
+- **Planned Maintenance:** Suspend scans during scheduled maintenance windows to prevent interference with system updates or infrastructure changes.
+- **High-Traffic Events:** Pause scans during peak traffic periods or marketing campaigns to avoid performance impacts on your application.
+- **Vulnerability Remediation:** Temporarily disable scans while you're actively fixing identified vulnerabilities to prevent redundant alerts.
+- **Third-Party Integrations:** Prevent scans from interfering with scheduled tasks from other tools or services integrated with your application.
 
 ## Setting Up the Blackout Period
 
