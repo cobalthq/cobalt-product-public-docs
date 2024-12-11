@@ -65,6 +65,23 @@ Here's an example of what these steps look like in a recipe:
 
 See [our public API documentation](/cobalt-api/documentation/v2) for more information about the properties of an external ticket reference.
 
+## Manually Disconnect a Pentest Finding from a Ticket
+
+You can manually disconnect a pentest finding from a ticket by following these steps:
+
+1. Navigate to the pentest finding in the Cobalt UI
+2. In the "External Tickets" section of the sidebar on the right side of the screen, hover over the ticket you want to disconnect so that the disconnect button appears. The disconnect button looks like 2 chain links with a slash through them.
+3. Click the disconnect button
+4. Confirm that you want to disconnect the ticket
+
+{{% image src="/integrations/integration_builder/how_to_guides/external_ticket_references/disconnect_ticket_button.png" alt="Disconnect Ticket Button" %}}
+
+Here's a video showing the full process:
+
+<iframe src="https://www.loom.com/embed/7d835829d6f74d62b1e34c2d959670b8?sid=3d0488fd-ee6c-445a-9c9f-ae6a80c19797" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
+Disconnecting a finding from a ticket will NOT delete the ticket in your ticketing system.
+
 ## Customizing fields
 
 When you are building recipes for creating tickets in a ticketing system, you may want to customize the fields that you are setting on the tickets.
