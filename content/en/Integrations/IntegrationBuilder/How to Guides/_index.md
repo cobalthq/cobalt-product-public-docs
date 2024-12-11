@@ -70,7 +70,7 @@ See [our public API documentation](/cobalt-api/documentation/v2) for more inform
 You can manually disconnect a pentest finding from a ticket by following these steps:
 
 1. Navigate to the pentest finding in the Cobalt UI
-2. In the "External Tickets" section of the sidebar on the right side of the screen, hover over the ticket you wish to disconnect so that the "Disconnect" button appears
+2. In the "External Tickets" section of the sidebar on the right side of the screen, hover over the ticket you want to disconnect so that the "Disconnect" button appears
 3. Click the "Disconnect" button
 4. Confirm that you wish to disconnect the ticket
 
