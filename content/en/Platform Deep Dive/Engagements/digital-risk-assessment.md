@@ -22,9 +22,9 @@ Digital Risk Assessment is a type of engagement outside of our standard Pentesti
 | **Retesting** | Yes - according to your [credit tier](https://www.cobalt.io/pentest-pricing) |
 | **Earliest start date** | Earliest start date will be based on availability. <i>Typical start dates of 3-5 business dates once test is submitted to In Review</i> |
 | **Test duration** | Typically 10 days. <i>Finalized once test is moved to Planned</i> |
-| **Report due date** | 5 business days after the test end date. Report will be delivered as a PDF within Reports section of the platform |
-| **Kick off call** | Not included |
-| **Debrief call** | Not included |
+| **Report due date** | 5 business days after the test end date. |
+| **Kick off call** | Available upon request |
+| **Debrief call** | Available upon request |
 
 ### Methodology Details
 
