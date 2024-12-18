@@ -22,9 +22,9 @@ Secure code reviews are a specialized type of engagement that is not included in
 | **Retesting** | Yes - according to your [credit tier](https://www.cobalt.io/pentest-pricing) |
 | **Earliest start date** | Earliest start date will be based on availability. <i>Typical start dates of 3-5 business dates once test is submitted to In Review</i> |
 | **Test duration** | Typically between 8 - 20 days, depending on the scope. <i>The exact duration will be finalized once moved to Planned.</i> |
-| **Report due date** | 5 business days after the test end date. Report will be delivered as a PDF within the **Report** section of the platform |
-| **Kick off call** | Not included |
-| **Debrief call** | Not included |
+| **Report due date** | 5 business days after the test end date. |
+| **Kick off call** | Available upon request |
+| **Debrief call** | Available upon request |
 
 <sup>*</sup>dependent upon organization’s credit price 
 
