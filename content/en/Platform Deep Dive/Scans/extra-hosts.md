@@ -19,9 +19,6 @@ Oftentimes, a web application will send requests to a domain that's different fr
 {{% image src="/deepdive/scans/extra-hosts/ExtraHosts_Create.png" alt="Extra Hosts form" %}}
 
 Every extra host needs to have a domain, which should not include a protocol. It's important for the domain to consist of a FQDN and an optional subdomain. During submission, the domain will be checked for reachability. If the domain is not reachable an error will show and prevent the extra host from getting created.
-{{% alert title="Note" color="primary" %}}
-A maximum of 5 extra hosts can be added per target. Contact support to add more.
-{{% /alert %}}
 
 Extra hosts can be configured similarly to API targets, although the options are more restricted. If needed, an extra host can be provided with custom headers and cookies. These can be used for any kind of purpose, ranging from authentication to security requirements.
 
