@@ -24,9 +24,9 @@ Blackout periods allow you to temporarily pause your DAST scans to avoid conflic
 2. In the Scanner tab, locate the **Blackout Period** section.
 3. Enable the feature by toggling the switch component.
    {{% image src="/deepdive/scans/blackout-period-disabled.png" alt="Blackout Period - Disabled" %}}
-5. Define the start and end time/day in your local timezone for when the scan will be paused and resumed.
+4. Define the start and end time/day in your local timezone for when the scan will be paused and resumed.
    {{% image src="/deepdive/scans/blackout-period-enabled.png" alt="Blackout Period - Enabled" %}}
-7. Save your changes.
+5. Save your changes.
 
 {{% alert title="Note" color="primary" %}}
 Disabling the feature does not delete your saved blackout periods
