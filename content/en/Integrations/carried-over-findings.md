@@ -18,7 +18,7 @@ This means that your integration will create a new ticket for the carried over f
 
 ### Avoid creating new tickets for Carried-Over Findings
 
-If you do not want your integration to create a new ticket a for carried over finding when a ticket already exists for the original finding, 
+If you do not want your integration to create a new ticket for a carried-over finding when a ticket already exists for the original finding, 
 you can configure your integration to use the alternative carry-over handling logic at the pentest level.
 If you would like to use the non-default carry-over handling logic, we recommend performing the following configuration step before launching a new pentest:
 
