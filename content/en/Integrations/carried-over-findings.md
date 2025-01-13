@@ -28,3 +28,10 @@ If you would like to use the non-default carry-over handling logic, we recommend
 4. Click save
 
 {{% image src="/integrations/carry-over-findings/carryover-ticket-handling-config.png" alt="UI config option" %}}
+
+### What does Re-associating the existing ticket do?
+
+When the carried over finding is moved to the Pending Fix state, the following will happen:
+
+1. The ticket will be unlinked from the original finding
+2. The ticket will be linked to the carried over finding
