@@ -9,7 +9,7 @@ description: >
 ### What is a Carried-Over Finding?
 
 When you conduct a pentest on an asset that still has unfixed findings from a previous pentest, pentesters can "carry over" the findings to the new pentest.
-When the pentester carries over the finding, the new finding will start in the Pending Fix state and the original finding's state will be set to "Carried Over".
+When the pentester carries over the finding, the original finding's state will be set to "Carried Over".
 
 ### Default integration behavior for Carried-Over Findings
 
