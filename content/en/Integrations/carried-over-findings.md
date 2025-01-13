@@ -31,5 +31,4 @@ If you would like to use the non-default carry-over handling logic, we recommend
 3. In the "Ticket creation for carry over findings" tile, click the radio button for the "Re-associate existing ticket" option
 4. Click save
 
-![config](static/integrations/carry-over-findings/carryover-ticket-handling-config.png)
-
+{{% image src="/integrations/carry-over-findings/carryover-ticket-handling-config.png" alt="UI config option" %}}
