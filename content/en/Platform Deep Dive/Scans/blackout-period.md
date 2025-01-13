@@ -38,4 +38,3 @@ Disabling the feature does not delete your saved blackout periods
 - Ensure your blackout periods do not overlap with critical security testing windows to maintain continuous vulnerability assessment.
 - Consider setting reminders for upcoming blackout periods to avoid unintended lapses in security coverage.
 
-
