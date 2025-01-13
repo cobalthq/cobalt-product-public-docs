@@ -22,7 +22,7 @@ If you do not want your integration to create a new ticket for a carried-over fi
 you can configure your integration (at the pentest level) to use the alternative carry-over handling logic.
 If you would like to use the non-default carry-over handling logic, we recommend performing the following configuration steps before launching a new pentest:
 
-1. Navigate to the pentest in the Cobalt UI
+1. Navigate to the new pentest in the Cobalt UI
 2. Navigate to the Integrations tab
 3. In the "Ticket creation for carry over findings" tile, click the radio button for the "Re-associate existing ticket" option
 4. Click save
