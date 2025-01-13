@@ -6,10 +6,6 @@ description: >
   Configure integrations behavior for carried over findings.
 ---
 
-{{% pageinfo %}}
-Configure integrations behavior for carried over findings.
-{{% /pageinfo %}}
-
 ### What is a Carried-Over Finding?
 
 When you conduct a pentest on an asset that still has unfixed findings from a previous pentest, pentesters can "carry over" the findings to the new pentest.
