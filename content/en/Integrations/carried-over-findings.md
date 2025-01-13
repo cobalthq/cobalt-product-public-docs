@@ -1,7 +1,7 @@
 ---
 title: "Carried Over Findings"
 linkTitle: "Carried Over Findings"
-weight: 30
+weight: 140
 description: >
   Configure integrations behavior for carried over findings.
 ---
