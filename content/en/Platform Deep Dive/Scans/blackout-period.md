@@ -28,6 +28,10 @@ Blackout periods allow you to temporarily pause your DAST scans to avoid conflic
    {{% image src="/deepdive/scans/blackout-period-enabled.png" alt="Blackout Period - Enabled" %}}
 7. Save your changes.
 
+{{% alert title="Note" color="primary" %}}
+Disabling the feature does not delete your saved blackout periods.
+{{% /alert %}}
+
 ## Other Considerations
 
 - While a blackout period is active, no new scans will be initiated, and any in-progress scans will be paused.
