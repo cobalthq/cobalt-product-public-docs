@@ -35,3 +35,9 @@ When the carried over finding is moved to the Pending Fix state, the following w
 
 1. The ticket will be unlinked from the original finding
 2. The ticket will be linked to the carried over finding
+
+### Which integrations are supported?
+
+* Native Jira Cloud integration
+* Native Jira Data Center (server) integration
+* Integration Builder External Ticket References
