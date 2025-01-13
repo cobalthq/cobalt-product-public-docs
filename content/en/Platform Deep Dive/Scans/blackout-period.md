@@ -29,7 +29,7 @@ Blackout periods allow you to temporarily pause your DAST scans to avoid conflic
 7. Save your changes.
 
 {{% alert title="Note" color="primary" %}}
-Disabling the feature does not delete your saved blackout periods.
+Disabling the feature does not delete your saved blackout periods
 {{% /alert %}}
 
 ## Other Considerations
