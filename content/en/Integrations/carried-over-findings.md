@@ -3,7 +3,7 @@ title: "Carried Over Findings"
 linkTitle: "Carried Over Findings"
 weight: 140
 description: >
-  Configure integration behavior for carried over findings.
+  Configure integration behavior for carried over findings
 ---
 
 ### What is a Carried-Over Finding?
