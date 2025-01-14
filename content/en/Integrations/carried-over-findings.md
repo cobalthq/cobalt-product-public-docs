@@ -16,7 +16,7 @@ When the pentester carries over the finding, the original finding's state will b
 By default, ticketing integrations will treat carried over findings as new findings. 
 This means that your integration will create a new ticket for the carried over finding regardless of the existence of a ticket for the original finding.
 
-### Avoid creating new Tickets for Carried-Over Findings
+### Avoid Creating New Tickets for Carried-Over Findings
 
 If you do not want your integration to create a new ticket for a carried-over finding when a ticket already exists for the original finding, 
 you can configure your integration (at the pentest level) to use the alternative carry-over handling logic.
@@ -29,14 +29,14 @@ If you would like to use the non-default carry-over handling logic, we recommend
 
 {{% image src="/integrations/carry-over-findings/carryover-ticket-handling-config.png" alt="UI config option" %}}
 
-### What does Re-associating the existing Ticket do?
+### What Does Re-associating the Existing Ticket Do?
 
 When the carried over finding is moved to the Pending Fix state, the following will happen:
 
 1. The ticket will be unlinked from the original finding
 2. The ticket will be linked to the carried over finding
 
-### Which Integrations are supported?
+### Which Integrations Are Supported?
 
 * Native Jira Cloud integration
 * Native Jira Data Center (server) integration
