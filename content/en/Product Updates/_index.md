@@ -12,6 +12,7 @@ We cover updates to the Cobalt platform in our release notes below.
 
 ## 2024
 
+- [December 2024](/product-updates/release-notes-December-2024/)
 - [November 2024](/product-updates/release-notes-November-2024/)
 - [October 2024](/product-updates/release-notes-October-2024/)
 - [September 2024](/product-updates/release-notes-September-2024/)
