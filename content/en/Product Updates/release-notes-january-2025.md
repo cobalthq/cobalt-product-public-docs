@@ -10,25 +10,32 @@ Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
 
-## Partial Scans: Reduced Scope
+## Ticketing Integration for Carried Over Findings
 
-Users can now quickly scan only specific parts of their applications and APIs, rather than waiting for a full scan, to focus on high-risk areas or new code changes.
+<strong>Problem</strong>
+Previously, our ticketing integrations would create new tickets for findings carried over by pentesters to new pentests, causing inconvenience for some customers who did not want multiple tickets for the same issue, especially larger clients.
 
-- In the target settings: we added a new card for users to add + manage specific URLs to scan
-- In the Scan Now modal: we added a section where users can additionally manage/override the added URLs
+<strong>Solution</strong>
+We have introduced a configuration option at the pentest level that modifies the integration behavior to re-associate an existing ticket, if available, to the carried over finding. With this feature enabled, when a carried over finding is marked for pending fix:
 
-<strong>Key Benefits:</strong>
+- The existing ticket is unlinked from the original finding
+- The existing ticket is linked to the carried over finding
+- No new ticket is generated
 
-- Accelerates feedback cycles by enabling the scanning of only relevant code changes
-- Minimizes scan durations by targeting specific sections of an application or API
-- Prioritizes high-risk areas by focusing scans on critical or recently updated sections
-- Reduces vulnerability noise, allowing users to concentrate on the most important security issues and potentially improving overall scanning efficiency.
+<strong>Supported Integrations</strong>
+- The Integration Builder
+- Native Jira Cloud integration
+- Native Jira Data Center (server) integration
+
+<strong>Benefits</strong>
+- Customer Flexibility: Clients who prefer not to have new tickets created for carried over findings can now opt-in to this feature.
+- Customization Options: The ticketing integration behavior remains unchanged for customers who are comfortable with the current system and choose not to enable this functionality.
 
 {{% pageinfo color="blue" %}}
-For more information, have a look at our [Partial Scans: Reduced Scope documentation.](https://docs.cobalt.io/platform-deep-dive/scans/reduced-scope/)
+For more information, have a look at our [Carried Over Findings documentation.](https://docs.cobalt.io/integrations/carried-over-findings/)
 {{% /pageinfo %}}
 
-![Partial Scans](/release-notes/partial-scans.png "Partial Scans")
+{{% image src="/integrations/carry-over-findings/carryover-ticket-handling-config.png" alt="UI config option" %}}
 
 ---
 
