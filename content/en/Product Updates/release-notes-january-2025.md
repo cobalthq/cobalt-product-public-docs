@@ -13,10 +13,10 @@ Explore What's New from Cobalt This Month
 ## Ticketing Integration for Carried Over Findings
 
 <strong>Problem</strong>
-Previously, our ticketing integrations would create new tickets for findings carried over by pentesters to new pentests, causing inconvenience for some customers who did not want multiple tickets for the same issue, especially larger clients.
+<p>Previously, our ticketing integrations would create new tickets for findings carried over by pentesters to new pentests, causing inconvenience for some customers who did not want multiple tickets for the same issue, especially larger clients.</p>
 
 <strong>Solution</strong>
-We have introduced a configuration option at the pentest level that modifies the integration behavior to re-associate an existing ticket, if available, to the carried over finding. With this feature enabled, when a carried over finding is marked for pending fix:
+<p>We have introduced a configuration option at the pentest level that modifies the integration behavior to re-associate an existing ticket, if available, to the carried over finding. With this feature enabled, when a carried over finding is marked for pending fix:</p>
 
 - The existing ticket is unlinked from the original finding
 - The existing ticket is linked to the carried over finding
