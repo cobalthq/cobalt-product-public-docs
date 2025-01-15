@@ -1,7 +1,7 @@
 ---
-title: "Release Notes: November 2024"
-linkTitle: "November 2024"
-weight: 41
+title: "Release Notes: December 2024"
+linkTitle: "December 2024"
+weight: 40
 description: >-
 ---
 
