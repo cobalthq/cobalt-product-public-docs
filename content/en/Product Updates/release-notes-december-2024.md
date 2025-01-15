@@ -12,7 +12,7 @@ Explore What's New from Cobalt This Month
 
 ## Findings Aggregation
 
-You can now conveniently view findings from a wide range of test types across Cobalt, this includes:
+We are pleased to announce that you can now effortlessly access findings from a diverse range of test types within Cobalt. This includes:
 - Pentest
 - Secure Code Reviews
 - Digital Risk Assessments
@@ -20,7 +20,7 @@ You can now conveniently view findings from a wide range of test types across Co
 - DAST Scans
 
 {{% pageinfo color="blue" %}}
-For more information, have a look at the [Findings documentation.]([https://docs.cobalt.io/platform-deep-dive/scans/reduced-scope/](https://docs.cobalt.io/platform-deep-dive/findings/))
+For more information, have a look at the [Findings documentation.](https://docs.cobalt.io/platform-deep-dive/findings/)
 {{% /pageinfo %}}
 
 ![View all findings reported within an organization](/deepdive/Findings-org-view-2.png "View all findings reported within an organization")
