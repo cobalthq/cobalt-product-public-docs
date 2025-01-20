@@ -25,7 +25,7 @@ The Cobalt Pentest Management Platform is designed to increase the efficiency an
 
 - **Visualize your end-to-end pentest program** in a single platform
 - **Reduce administrative work** for faster turnaround times and remediation efforts
-- **Integrate findings** into your SDLC via Jira and GitHub, or use the Cobalt API
+- **Integrate findings** into your SDLC using ticketing systems like Jira or the Cobalt API
 - **Standardize reporting** with customizable and automated templates
 - **Track program improvements** by leveraging ongoing test data and analytics
 

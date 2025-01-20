@@ -33,7 +33,7 @@ A Pentest Team Member **has access to a specific pentest with the following perm
 - [Collaborate on a pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/) in the Cobalt app and in Slack.
 - [Manage users](/platform-deep-dive/collaboration/manage-collaborators/) for a pentest.
 - View pentest activity updates and pentester updates.
-- Manage integrations for a pentest: Jira and GitHub.
+- Manage native Jira integrations for a pentest.
 
 A Pentest Team Member has no access to any information related to the organization, unless they're also an Organization Owner or Member.
 
