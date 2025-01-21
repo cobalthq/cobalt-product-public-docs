@@ -169,7 +169,8 @@ During an AD engagement, a pentester may perform offline password cracking again
 - Performing AS-REP roasting attacks
 - Dumping SAM databases
 - Performing attacks with Mimikatz
-- Password cracking will allow Cobalt’s pentesters to escalate privileges and move laterally within the network.
+
+Password cracking will allow Cobalt’s pentesters to escalate privileges and move laterally within the network.
 
 {{% alert title="Tools" color="primary" %}}
 During this testing phase, pentesters use multiple tools, such as:
