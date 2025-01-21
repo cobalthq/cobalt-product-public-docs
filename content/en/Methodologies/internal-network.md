@@ -19,7 +19,6 @@ Penetration testing of an internal network includes the following stages:
 - Service discovery (#service-discovery)
 - Vulnerability scans (#vulnerability-scans)
 - Manual assessment (#manual-assessment)
-- Additional testing
 - Reporting, triaging, and retesting (#reporting-triaging-and-retesting)
   
 {{% alert title="Note" color="primary" %}}
@@ -146,12 +145,14 @@ Cobalt’s pentesters scan all web and FTP servers in the internal network for p
 - Insecure credentials
 
 ### Email Servers
+
 Cobalt’s pentesters check SMTP, POP3, and IMAP on the mail gateway for open relay vulnerabilities. Your mail servers should:
 
 - Accept mail _only_ for the organization’s domains.
 - Not relay mail for other domains.
 
 ### Network Attached Devices
+
 Printers inside corporate networks can be shared with the entire organization and may be a member of an AD network. These devices may use insecure default credentials or be vulnerable to web application attacks.
 
 VOIP phones are a common presence on an internal network and can be vulnerable to misconfigurations, SIP vulnerabilities, and outdated firmware that may allow remote code execution (RCE).
@@ -159,6 +160,7 @@ VOIP phones are a common presence on an internal network and can be vulnerable t
 Cobalt’s pentesters test printers and phones against all common attacks and make sure that they use secure credentials.
 
 ### Password Cracking
+
 During an AD engagement, a pentester may perform offline password cracking against hashes obtained during the engagement. Some common techniques of obtaining hashes include:
 
 - Conducting LLMNR/NBNS poisoning attacks
