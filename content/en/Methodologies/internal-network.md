@@ -16,10 +16,10 @@ Internal network penetration testing is a process in which a tester uses simulat
 {{% osstmm-methodology %}}
 
 Penetration testing of an internal network includes the following stages:
-- Service discovery (#service-discovery)
-- Vulnerability scans (#vulnerability-scans)
-- Manual assessment (#manual-assessment)
-- Reporting, triaging, and retesting (#reporting-triaging-and-retesting)
+- [Service discovery] (#service-discovery)
+- [Vulnerability scans] (#vulnerability-scans)
+- [Manual assessment] (#manual-assessment)
+- [Reporting, triaging, and retesting] (#reporting-triaging-and-retesting)
   
 {{% alert title="Note" color="primary" %}}
 {{% various-tools %}}
