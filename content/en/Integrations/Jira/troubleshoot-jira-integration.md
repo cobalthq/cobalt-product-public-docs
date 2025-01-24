@@ -42,11 +42,11 @@ If the problem persists, please follow the steps below for your hosting option. 
 
 {{% /expand %}}
 
-{{%expand "Jira Server or Data Center:" %}}
+{{%expand "Jira Data Center:" %}}
 <br>
 
 - Check if the integration user has proper permissions. The user must have permission to create tickets in the selected Jira project.
-- Provide Jira logs to your Customer Success Manager for further troubleshooting. See [how to retrieve Jira Server logs](#retrieve-jira-server-logs-for-troubleshooting).
+- Provide Jira logs to your Customer Success Manager for further troubleshooting. See [how to retrieve Jira Data Center logs](#retrieve-jira-server-logs-for-troubleshooting).
 
 {{% /expand %}}
 <br>
