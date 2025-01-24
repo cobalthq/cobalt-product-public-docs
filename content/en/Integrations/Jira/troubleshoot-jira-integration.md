@@ -88,9 +88,9 @@ to allow outbound HTTPS connections to the appropriate Cobalt IP address for you
 | United States | 104.18.30.198 |
 | Europe        | 141.101.90.96 |
 
-## Retrieve Jira Server Logs for Troubleshooting
+## Retrieve Jira Data Center Logs for Troubleshooting
 
-Learn how to retrieve Jira logs for the [Cobalt for Jira DC/Server](https://marketplace.atlassian.com/apps/1224424/cobalt-for-jira-dc-server) plugin.
+Learn how to retrieve Jira logs for the [Cobalt for Jira DC](https://marketplace.atlassian.com/apps/1224424/cobalt-for-jira-dc-server) plugin.
 
 ### Step 1: Enable Logs
 
@@ -115,7 +115,7 @@ Once you've enabled logs, you can retrieve them. The procedure differs depending
 
 To find the location of logs, navigate to **Administration** > **System** > **System Info**.
 
-![View the location of logs in Jira Server](/integrations/jira-server-logs.png "View the location of logs in Jira Server")
+![View the location of logs in Jira Data Center](/integrations/jira-server-logs.png "View the location of logs in Jira Data Center")
 
 Numbers in the file name indicate that the logs roll over. For example, `atlassian-jira.log`, then `atlassian-jira.log.1`, then `atlassian-jira.log.2`, and so on.
 
@@ -131,7 +131,7 @@ If you can't access the actual files, you can use a plugin to read the file and 
 1. In Jira, go to the **Manage apps** page.
 1. Under **Lastlog Add-on**, select **View log**. You should see the log file.
 
-![Retrieve Jira Server logs using the Last Log add-on](/integrations/jira-server-logs-Lastlog.png "Retrieve Jira Server logs using the Last Log add-on")
+![Retrieve Jira Data Center logs using the Last Log add-on](/integrations/jira-server-logs-Lastlog.png "Retrieve Jira Data Center logs using the Last Log add-on")
 
 Numbers in the file name indicate that the logs roll over. For example, `atlassian-jira.log`, then `atlassian-jira.log.1`, then `atlassian-jira.log.2`, and so on.
 
