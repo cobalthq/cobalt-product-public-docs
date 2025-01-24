@@ -9,7 +9,7 @@ description: >
 {{% pageinfo %}}
 Learn how to integrate **Jira Cloud** with Cobalt. The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
 
-If your organization uses Jira Server or Data Center, see [Jira Server and Data Center Integration](/integrations/jira/jira-server-dc/).
+If your organization uses Jira Data Center, see [Jira Data Center Integration](/integrations/jira/jira-server-dc/).
 {{% /pageinfo %}}
 
 ## Configuration
