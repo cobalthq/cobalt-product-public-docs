@@ -10,7 +10,7 @@ description: >
 
 This guide is designed to help organizations transition from our native **Jira Cloud** integration to our highly customizable [**Integration Builder**](/integrations/integrationbuilder/).
 
-> **⚠️** This migration guide is not applicable if your organization uses **Jira Server** or **Jira Data Center**.
+> **⚠️** This migration guide is not applicable if your organization uses **Jira Data Center**.
 
 {{% /pageinfo %}}
 
