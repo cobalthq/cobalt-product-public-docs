@@ -45,7 +45,7 @@ The Integration Builder provides a library of connectors for common business and
 The Integration Builder connects to apps to build recipes. Once authenticated, each of the triggers and actions provided
 by that app become available to use across recipes. [See authentication best practices](/integrations/integrationbuilder/how-to-guides/#authentication-best-practices).
 
-<iframe src="https://play.vidyard.com/a22pBZVWCwGaWvs8VQZXEC" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe width="466" height="301" src="https://www.loom.com/embed/91a63de90ccd4b70aac14e92efaf0d91?sid=d48ac160-d52e-490b-a64e-5e540efe9c90" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Frequently Asked Questions
 

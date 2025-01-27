@@ -26,7 +26,7 @@ Please ensure this IP is added to your allow-list if you have a WAF or other con
 
 ## How to Use the DAST Scanner
 
-<iframe src="https://play.vidyard.com/t2kwGzh5zhfgP5rupyKrrB" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe width="466" height="301" src="https://www.loom.com/embed/cf8be3aade454a69abad5fdabb85a77e?sid=b77edc51-9a23-4386-bfb3-bd7f41c542fd" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Add a Target
 

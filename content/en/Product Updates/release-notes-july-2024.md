@@ -35,7 +35,7 @@ With these improvements, customers will now receive real-time notifications when
 
 #### Steps to Integrate with Ticketing Systems
 
-<iframe src="https://play.vidyard.com/kVCJ1gQ6ywr1t2G3K7Z46m" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe width="466" height="301" src="https://www.loom.com/embed/7d61c971c7cc47daa750bf41ff247831?sid=90aed5ca-a8ba-4f19-bf22-62d904186731" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ---
 
