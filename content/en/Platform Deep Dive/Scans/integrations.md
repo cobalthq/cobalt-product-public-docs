@@ -8,11 +8,13 @@ description: Push DAST findings to your ticketing system!
 ## Overview
 
 The DAST ticketing integration allows you to push your DAST findings to your ticketing system as soon as vulnerabilities are detected.
-At this time, the integration supports the following ticketing systems:
+This integration supports several ticketing systems, including but not limited to: 
 
 * Jira Cloud
 * GitHub Issues
 * Azure DevOps Boards
+
+For a complete list of supported applications, please refer to the [available connectors](/integrations/integrationbuilder/connect-your-applications/#available-connectors) section.
 
 ## How it Works
 
