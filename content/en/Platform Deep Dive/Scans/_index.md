@@ -26,7 +26,7 @@ Please ensure this IP is added to your allow-list if you have a WAF or other con
 
 ## How to Use the DAST Scanner
 
-<iframe width="466" height="301" src="https://www.loom.com/share/cf8be3aade454a69abad5fdabb85a77e?sid=bd8761a2-480f-4db1-922b-9adeac7136b7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe width="466" height="301" src="https://www.loom.com/embed/cf8be3aade454a69abad5fdabb85a77e?sid=b77edc51-9a23-4386-bfb3-bd7f41c542fd" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ### Add a Target
 
