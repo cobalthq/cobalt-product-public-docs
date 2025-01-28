@@ -5,10 +5,9 @@ weight: 47
 description: >-
 ---
 
-{{% pageinfo %}} 
+{{% pageinfo %}}
 Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
-
 
 ## New Sequence Recorder for DAST scanning
 
@@ -16,7 +15,7 @@ We are thrilled to introduce Cobalt’s Sequence Recorder, a powerful browser pl
 
 With this cutting-edge feature, we can now address a wider range of use cases for our customers who require multi-step login authentication. This enhancement reflects our commitment to providing comprehensive solutions that cater to the diverse needs of our valued users.
 
-{{% image src="/deepdive/scans/sequence-recorder/recorder1.png" alt="Start Recording" %}}
+{{% image src="/scans/sequence-recorder/recorder1.png" alt="Start Recording" %}}
 
 ---
 
@@ -29,5 +28,3 @@ For instance, if a customer has 20 findings and has resolved two within two days
 We believe that this new chart will empower our customers to make informed decisions and drive timely resolutions for their security vulnerabilities.
 
 ![Age by Severity Chart](/release-notes/age-by-severity.png "Age by Severity")
-
-
