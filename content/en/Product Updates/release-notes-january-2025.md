@@ -14,11 +14,11 @@ Explore What's New from Cobalt This Month
 
 <strong>Problem</strong>
 - Customers needed a way to pause DAST scans during maintenance, high-traffic events, or other sensitive times to avoid conflicts, performance issues, or inaccurate results. Previously, they had to manually pause scans + resume them later, which was inconvenient and could lead to missed vulnerabilities if scans weren't restarted.
-- (Bonus: Timestamps + inputs were set in UTC, which is not as accessible and required some extra thinkin' to translate to local timezones).
+- Timestamps + inputs were set in UTC, which is not as accessible and required some extra thinkin' to translate to local timezones.
 
 <strong>Solution</strong>
 - The Blackout Period feature (located in the target settings) allows customers to schedule specific times and days for scans to be automatically paused and resumed, eliminating the need for manual intervention.
-- (Bonus: all timestamps + inputs within the DAST UI are displayed to the user in their local timezone)
+- All timestamps + inputs within the DAST UI are now displayed to the user in their local timezone.
 
 <strong>Benefits</strong>
 - <strong>Convenience + Automation:</strong> No more manual stopping and starting of scans.
