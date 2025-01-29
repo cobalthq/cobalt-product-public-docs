@@ -10,6 +10,31 @@ Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
 
+## DAST Release: Blackout Period
+
+<strong>Problem</strong>
+<p>- Customers needed a way to pause DAST scans during maintenance, high-traffic events, or other sensitive times to avoid conflicts, performance issues, or inaccurate results. Previously, they had to manually pause scans + resume them later, which was inconvenient and could lead to missed vulnerabilities if scans weren't restarted.
+- (Bonus: Timestamps + inputs were set in UTC, which is not as accessible and required some extra thinkin' to translate to local timezones).</p>
+
+<strong>Solution</strong>
+<p>- The Blackout Period feature (located in the target settings) allows customers to schedule specific times and days for scans to be automatically paused and resumed, eliminating the need for manual intervention.
+- (Bonus: all timestamps + inputs within the DAST UI are displayed to the user in their local timezone)</p>
+
+<strong>Benefits</strong>
+- <strong>Convenience + Automation:</strong> No more manual stopping and starting of scans.
+- <strong>Flexibility:</strong> Customers can define blackout periods that precisely match their needs.
+- <strong>Continuous Security:</strong> Ensures critical security testing windows are maintained, as scans automatically resume.
+- <strong>Efficiency:</strong> Prevents wasted time + resources on scans that might be affected by temporary events or maintenance activities.
+- <strong>Peace of Mind:</strong> Customers can confidently schedule maintenance or other activities without worrying about disrupting their security scans or missing potential vulnerabilities.
+
+{{% pageinfo color="blue" %}}
+For more information, have a look at our [Blackout Period documentation.](https://docs.cobalt.io/platform-deep-dive/scans/blackout-period/)
+{{% /pageinfo %}}
+
+{{% image src="/deepdive/scans/blackout-period-enabled.png" alt="Blackout Period - Enabled" %}}
+
+---
+
 ## Ticketing Integration for Carried Over Findings
 
 <strong>Problem</strong>
