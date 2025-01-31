@@ -30,7 +30,7 @@ Explore What's New from Cobalt This Month
 - <strong>Peace of Mind:</strong> Customers can confidently schedule maintenance or other activities without worrying about disrupting their security scans or missing potential vulnerabilities.
 
 {{% pageinfo color="blue" %}}
-For more information, have a look at our [Blackout Period documentation.](https://docs.cobalt.io/platform-deep-dive/scans/blackout-period/)
+For more information, have a look at our [Blackout Period documentation.](/scans/blackout-period/)
 {{% /pageinfo %}}
 
 {{% image src="/scans/blackout-period-enabled.png" alt="Blackout Period - Enabled" %}}
