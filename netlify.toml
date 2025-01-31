@@ -29,5 +29,5 @@ NODE_VERSION = "20.17.0"
   status = 301
 [[redirects]]
   from = "/platform-deep-dive/scans*"
-  to = "/scans:splat"
+  to = "/scans/:splat"
   status = 301
