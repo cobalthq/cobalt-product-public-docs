@@ -5,10 +5,9 @@ weight: 46
 description: >-
 ---
 
-{{% pageinfo %}} 
+{{% pageinfo %}}
 Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
-
 
 ## Recurring Scheduled Scans
 
@@ -16,20 +15,19 @@ As part of our commitment to continually improve our platform, we are thrilled t
 
 - To run a scan, select "Scan Now”. This will start a scan immediately.
 
-{{% image src="/deepdive/scans/4_StartScanTargets.png" alt="Start Scan - Targets" %}}
+{{% image src="/scans/4_StartScanTargets.png" alt="Start Scan - Targets" %}}
 
-- Selecting "Scan Later..." allows setting a specific start date and time for the scan. 
+- Selecting "Scan Later..." allows setting a specific start date and time for the scan.
   - This can also be a recurring schedule, if an option other than "None" is selected in the "Recurrence" dropdown.
   - The accepted recurrences are: Hourly, daily, weekly, monthly and quarterly.
 
-{{% image src="/deepdive/scans/10_ScheduledScanForm.png" alt="Scan Later - Targets" %}}
+{{% image src="/scans/10_ScheduledScanForm.png" alt="Scan Later - Targets" %}}
 
--  Upcoming scheduled scans can be viewed under the "Scheduled Scans" tab.
-  - Recurring scheduled scans are marked with a "Recurring" label, while one-off scans don't have any labeling.
-  - The "Start Date" always refers to the date of the next scheduled scan.
+- Upcoming scheduled scans can be viewed under the "Scheduled Scans" tab.
+- Recurring scheduled scans are marked with a "Recurring" label, while one-off scans don't have any labeling.
+- The "Start Date" always refers to the date of the next scheduled scan.
 
-{{% image src="/deepdive/scans/11_ScheduledScansView.png" alt="Scheduled Scans View - Targets" %}}
-
+{{% image src="/scans/11_ScheduledScansView.png" alt="Scheduled Scans View - Targets" %}}
 
 ---
 
@@ -42,4 +40,3 @@ Notably, if a customer provides a URL to a live, published spec instead of uploa
 This enhancement empowers our users to leverage the latest API technologies while maintaining proactive security testing, reinforcing our commitment to providing cutting-edge solutions for comprehensive security assessments.
 
 {{% image src="/deepdive/scans/2_AddTarget-API.png" alt="Add API target" %}}
-
