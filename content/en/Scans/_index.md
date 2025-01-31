@@ -1,7 +1,7 @@
 ---
 title: "DAST Scanner"
 linkTitle: "DAST Scanner"
-weight: 50
+weight: 25
 no_list: true
 description: >
   DAST Scanner - Web Application and API Vulnerability Scanning
@@ -20,7 +20,7 @@ To get started with the DAST Scanner, you will need to add a target. Every Cobal
 {{% alert title="Note" color="primary" %}}
 Our DAST Scanner makes requests from the following IP Address: **52.19.40.38**
 
-Please ensure this IP is added to your allow-list if you have a WAF or other controls in place. Additionally, if you have geo-blocking controls, our scanner runs from the EU, in Ireland. Please ensure your target is reachable from this IP and location. 
+Please ensure this IP is added to your allow-list if you have a WAF or other controls in place. Additionally, if you have geo-blocking controls, our scanner runs from the EU, in Ireland. Please ensure your target is reachable from this IP and location.
 
 {{% /alert %}}
 
@@ -40,22 +40,21 @@ Please ensure this IP is added to your allow-list if you have a WAF or other con
 
 See more about how to configure a target in [configuring a target]
 
-
 ### Start a Scan
 
 - To run a scan, select "Scan Now”. This will start a scan immediately.
 
 {{% image src="/deepdive/scans/4_StartScanTargets.png" alt="Start Scan - Targets" %}}
 
-- Selecting "Scan Later..." allows setting a specific start date and time for the scan. 
+- Selecting "Scan Later..." allows setting a specific start date and time for the scan.
   - This can also be a recurring schedule, if an option other than "None" is selected in the "Recurrence" dropdown.
   - The accepted recurrences are: Hourly, daily, weekly, monthly and quarterly.
 
 {{% image src="/deepdive/scans/10_ScheduledScanForm.png" alt="Scan Later - Targets" %}}
 
--  Upcoming scheduled scans can be viewed under the "Scheduled Scans" tab.
-  - Recurring scheduled scans are marked with a "Recurring" label, while one-off scans don't have any labeling.
-  - The "Start Date" always refers to the date of the next scheduled scan.
+- Upcoming scheduled scans can be viewed under the "Scheduled Scans" tab.
+- Recurring scheduled scans are marked with a "Recurring" label, while one-off scans don't have any labeling.
+- The "Start Date" always refers to the date of the next scheduled scan.
 
 {{% image src="/deepdive/scans/11_ScheduledScansView.png" alt="Scheduled Scans View - Targets" %}}
 
@@ -71,11 +70,11 @@ They balance the speed and accuracy of the scan. Detailed descriptions for each 
 ### Scan Results
 
 - Once a scan is complete, you have two options to View Results
-    - You can view the results on the target
+  - You can view the results on the target
 
     {{% image src="/deepdive/scans/5_TargetScanResultsSampleReport.png" alt="Target - Scan Results Sample Report" %}}
 
-    - Or, navigate to the scans tab and view results for individual scans.
+  - Or, navigate to the scans tab and view results for individual scans.
 
     {{% image src="/deepdive/scans/6_ScansSampleFindingsReport.png" alt="Scans Sample Findings Report" %}}
 
@@ -100,12 +99,12 @@ They balance the speed and accuracy of the scan. Detailed descriptions for each 
     - **Re-test**: The user has remediated the vulnerability and is ready to retest the finding. Submitting a retest is the only way to mark a vulnerability as “fixed”.
 
 - Retest Finding
-    - You can retest individual findings.
-    - Navigate to the finding you want to retest and select “retest”
+  - You can retest individual findings.
+  - Navigate to the finding you want to retest and select “retest”
 
     {{% image src="/deepdive/scans/9_Retest_Finding.png" alt="Retest Finding" %}}
 
-    - If the scan engine does not find the vulnerability again it will automatically mark the finding as “Fixed”.  If the issue still persists, it will move back to its previous state.
+  - If the scan engine does not find the vulnerability again it will automatically mark the finding as “Fixed”.  If the issue still persists, it will move back to its previous state.
 
 ### Reports
 
@@ -126,20 +125,20 @@ Most of these reports are PDF reports, except for the crawl report, which is a C
 
 It is the default report type and contains:
 
-* A scan summary
-* A settings summary
-* A technical summary
-* An exhaustive test list
-* All findings
-* Information about vulnerabilities (impact, causes, and prevention methods).
+- A scan summary
+- A settings summary
+- A technical summary
+- An exhaustive test list
+- All findings
+- Information about vulnerabilities (impact, causes, and prevention methods).
 
 ##### Executive Report
 
 It is a high-level view report of the scan and only contains:
 
-* A scan summary
-* A settings summary
-* A technical summary
+- A scan summary
+- A settings summary
+- A technical summary
 
 ##### PCI-DSS
 
@@ -149,13 +148,11 @@ with the PCI-DSS requirements checklist.
 
 The report indicates if a target was tested for the requirements checklist and if it passed each item on the list.
 
-
 ##### OWASP Top 10
 
 It is similar to the PCI-DSS report but considers the most recent OWASP Top 10. OWASP Top 10 scan report
 uses a popular framework provided by OWASP that lists the top 10 security risks of web applications.
 Auditors often use this framework when performing a company's security audit.
-
 
 ##### ISO 27001
 
@@ -164,7 +161,6 @@ to verify which controls a target is passing or failing. ISO 27001 is like the s
 adds a section to the scan summary with the ISO 27001 requirements checklist.
 
 The report indicates if a target was tested for the requirements checklist and if it passed each item on the list.
-
 
 ##### Crawl report
 
@@ -176,16 +172,14 @@ Before and while doing tests, the crawler will navigate your website to find eve
 while testing every input it might find. Then those URLs are sent to the scanner to be tested
 for any vulnerabilities.
 
-
 Coverage is a fundamental aspect of a scan, as it may be the difference between a useful, successful scan and
 an uninformative scan.
 
 ## How to Contact Support
 
-For support, please reach out to your CSM or email us at dast@cobalt.io.
+For support, please reach out to your CSM or email us at <dast@cobalt.io>.
 
 <!-- links -->
 
-[Report types]: #report-types
 [configuring a target]: /platform-deep-dive/scans/targets#adding-a-web-or-api-target
 [here]: /platform-deep-dive/scans/scans
