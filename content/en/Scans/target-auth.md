@@ -31,7 +31,7 @@ To enable authentication for a web target, you can go to the target's Advanced S
 
 To add authentication using a simple login form, go to the target's Advanced Settings, then toggle on the “Login form” option. To simplify the configuration, we require the Login URL and at least one field name with its respective value.
 
-<img src="/deepdive/scans/3_AuthenticatedScan.png" alt="Authenticated Scan" class='image-box' style='width: 75%;'>
+<img src="/scans/3_AuthenticatedScan.png" alt="Authenticated Scan" class='image-box' style='width: 75%;'>
 
 ### The Login URL
 
@@ -120,7 +120,7 @@ Once you have a sequence recorded, go to the target's Advanced Settings, toggle 
 
 You can upload multiple sequences and enable only the one you want to use for the scan.
 
-{{% image src="/deepdive/scans/3.1_LoginSequence.png" alt="Login Sequence" %}}
+{{% image src="/scans/3.1_LoginSequence.png" alt="Login Sequence" %}}
 
 ## API Target Authentication
 
@@ -140,13 +140,13 @@ To enable API authentication, go to the API target's Advanced Settings and follo
 
 3. Click 'Authenticate' to validate the configuration.
 
-{{% image src="/deepdive/scans/API-Auth-1.png" alt="API authentication - authenticate" %}}
+{{% image src="/scans/API-Auth-1.png" alt="API authentication - authenticate" %}}
 
 4. If the authentication is successful, choose the token to use from the response. The DAST Scanner will use this token in the subsequent requests.
 
 5. You need then to choose where to place the token, the field name for the token, and value prefix if needed.
 
-{{% image src="/deepdive/scans/API-Auth-2.png" alt="API authentication - save" %}}
+{{% image src="/scans/API-Auth-2.png" alt="API authentication - save" %}}
 
 ### Custom Headers
 
@@ -160,7 +160,7 @@ Instead of using the authentication method, you can also define custom headers t
 
 4. You can add multiple headers if needed.
 
-{{% image src="/deepdive/scans/scanner-tab/Custom-Headers.png" alt="Custom Headers" %}}
+{{% image src="/scans/scanner-tab/Custom-Headers.png" alt="Custom Headers" %}}
 
 
 ### API Parameter Custom Values
@@ -177,4 +177,4 @@ In this scenario, you have a fixed API key that must be placed in a specific par
 
 4. You can add multiple parameters if needed.
 
-{{% image src="/deepdive/scans/scanner-tab/API-Parameter.png" alt="API parameter Custom Values" %}}
+{{% image src="/scans/scanner-tab/API-Parameter.png" alt="API parameter Custom Values" %}}

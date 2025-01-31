@@ -39,4 +39,4 @@ Notably, if a customer provides a URL to a live, published spec instead of uploa
 
 This enhancement empowers our users to leverage the latest API technologies while maintaining proactive security testing, reinforcing our commitment to providing cutting-edge solutions for comprehensive security assessments.
 
-{{% image src="/deepdive/scans/2_AddTarget-API.png" alt="Add API target" %}}
+{{% image src="/scans/2_AddTarget-API.png" alt="Add API target" %}}

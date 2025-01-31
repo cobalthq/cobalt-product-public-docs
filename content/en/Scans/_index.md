@@ -32,11 +32,11 @@ Please ensure this IP is added to your allow-list if you have a WAF or other con
 
 - To add a [target](/platform-deep-dive/scans/targets), select the Add Target button
 
-{{% image src="/deepdive/scans/1_CreateTarget.png" alt="Create Target" %}}
+{{% image src="/scans/1_CreateTarget.png" alt="Create Target" %}}
 
 - Add a name for the target and the URL
 
-{{% image src="/deepdive/scans/2_AddTarget.png" alt="Add Target" %}}
+{{% image src="/scans/2_AddTarget.png" alt="Add Target" %}}
 
 See more about how to configure a target in [configuring a target]
 
@@ -44,25 +44,25 @@ See more about how to configure a target in [configuring a target]
 
 - To run a scan, select "Scan Now”. This will start a scan immediately.
 
-{{% image src="/deepdive/scans/4_StartScanTargets.png" alt="Start Scan - Targets" %}}
+{{% image src="/scans/4_StartScanTargets.png" alt="Start Scan - Targets" %}}
 
 - Selecting "Scan Later..." allows setting a specific start date and time for the scan.
   - This can also be a recurring schedule, if an option other than "None" is selected in the "Recurrence" dropdown.
   - The accepted recurrences are: Hourly, daily, weekly, monthly and quarterly.
 
-{{% image src="/deepdive/scans/10_ScheduledScanForm.png" alt="Scan Later - Targets" %}}
+{{% image src="/scans/10_ScheduledScanForm.png" alt="Scan Later - Targets" %}}
 
 - Upcoming scheduled scans can be viewed under the "Scheduled Scans" tab.
 - Recurring scheduled scans are marked with a "Recurring" label, while one-off scans don't have any labeling.
 - The "Start Date" always refers to the date of the next scheduled scan.
 
-{{% image src="/deepdive/scans/11_ScheduledScansView.png" alt="Scheduled Scans View - Targets" %}}
+{{% image src="/scans/11_ScheduledScansView.png" alt="Scheduled Scans View - Targets" %}}
 
 Further information about scan statuses, transitions, and progress tracking can be found [here].
 
 #### Scan Profiles
 
-{{% image src="/deepdive/scans/ScanProfiles.png" alt="Scan Profiles" %}}
+{{% image src="/scans/ScanProfiles.png" alt="Scan Profiles" %}}
 
 Scan profiles determine how a target is scanned and are tailored to the target type, such as a web application or an API.
 They balance the speed and accuracy of the scan. Detailed descriptions for each scan profile are available in the corresponding dropdown menu.
@@ -72,21 +72,21 @@ They balance the speed and accuracy of the scan. Detailed descriptions for each 
 - Once a scan is complete, you have two options to View Results
   - You can view the results on the target
 
-    {{% image src="/deepdive/scans/5_TargetScanResultsSampleReport.png" alt="Target - Scan Results Sample Report" %}}
+    {{% image src="/scans/5_TargetScanResultsSampleReport.png" alt="Target - Scan Results Sample Report" %}}
 
   - Or, navigate to the scans tab and view results for individual scans.
 
-    {{% image src="/deepdive/scans/6_ScansSampleFindingsReport.png" alt="Scans Sample Findings Report" %}}
+    {{% image src="/scans/6_ScansSampleFindingsReport.png" alt="Scans Sample Findings Report" %}}
 
 ### Failed Scans
 
 - If the scan fails, navigate to the scans list or the scan details page to see the reason for the failed scan(s).
 
   - Scan List View:
-    {{% image src="/deepdive/scans/scan-failed-01.png" alt="Scan failed" %}}
+    {{% image src="/scans/scan-failed-01.png" alt="Scan failed" %}}
 
   - Scan Details View:
-    {{% image src="/deepdive/scans/scan-failed-02.png" alt="Scan failed" %}}
+    {{% image src="/scans/scan-failed-02.png" alt="Scan failed" %}}
 
 ### Finding States
 
@@ -102,7 +102,7 @@ They balance the speed and accuracy of the scan. Detailed descriptions for each 
   - You can retest individual findings.
   - Navigate to the finding you want to retest and select “retest”
 
-    {{% image src="/deepdive/scans/9_Retest_Finding.png" alt="Retest Finding" %}}
+    {{% image src="/scans/9_Retest_Finding.png" alt="Retest Finding" %}}
 
   - If the scan engine does not find the vulnerability again it will automatically mark the finding as “Fixed”.  If the issue still persists, it will move back to its previous state.
 
@@ -112,7 +112,7 @@ For compliance and to better understand the results of your scans, we provide di
 
 From Targets, click `Download` to select the report you want to download:
 
-{{% image src="/deepdive/scans/7_ViewReport.png" alt="View Report" %}}
+{{% image src="/scans/7_ViewReport.png" alt="View Report" %}}
 
 You can also do this from the scans list or the scan details page.
 
