@@ -1,6 +1,9 @@
 Because Cobalt pentesters execute pentests for internal networks remotely, they need:
 
 - Access to the internal corporate network through a stable VPN connection.
+
+OR
+
 - A lightweight Linux server inside the network that serves as a [jump box](/getting-started/glossary/#jump-box) from which pentesters can scan and test the internal network during the assessment.
 
 Depending on your network setup, do the following:
