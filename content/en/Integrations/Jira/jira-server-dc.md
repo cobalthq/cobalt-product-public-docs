@@ -23,7 +23,7 @@ If your organization uses Jira Cloud, see [Jira Cloud Integration](/integrations
 
 1. In Cobalt, go to **Integrations** > **Jira**.
 1. Under **What type of Jira setup are you using?**, select **Jira Data Center**.<br><br>
-    ![Select to configure the integration with Jira Data Center in Cobalt](/integrations/configure-jira-server-dc-integration.png "Select to configure the integration with Jira Data Center in Cobalt")
+    ![Select to configure the integration with Jira Data Center in Cobalt](/integrations/configure-jira-dc-integration.png "Select to configure the integration with Jira Data Center in Cobalt")
 1. Follow the instructions in the UI to install and connect the [Cobalt for Jira DC](https://marketplace.atlassian.com/apps/1224424/cobalt-for-jira-dc-server?tab=overview&hosting=datacenter) plugin.
 1. Return to the Cobalt app, and check the integration status. You should see your Jira instance on the **Jira Integration** page.<br><br>
     ![Jira integration status in Cobalt](/integrations/jira-integration-status.png "Jira integration status in Cobalt")
