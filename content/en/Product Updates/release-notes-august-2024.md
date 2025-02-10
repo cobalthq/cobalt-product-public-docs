@@ -5,10 +5,9 @@ weight: 44
 description: >-
 ---
 
-{{% pageinfo %}} 
+{{% pageinfo %}}
 Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
-
 
 ## DAST Scan Controls & Progress Tracker
 
@@ -16,14 +15,13 @@ We recently added scan controls to the Cobalt platform that enable customers to 
 
 In addition, we have also added a progress tracker to the scan details page. This tracker provides real-time insights into the duration of the scan and breaks down the progress into three key components: fingerprinting, crawling and scanning, also including error/warning messages when needed.
 
-These enhancements provide customers with immediate feedback on the progress of their scans, making it easier for them to identify any issues that may arise during the scanning process. 
+These enhancements provide customers with immediate feedback on the progress of their scans, making it easier for them to identify any issues that may arise during the scanning process.
 
 {{% pageinfo color="blue" %}}
-View more scan controls available [here](https://docs.cobalt.io/platform-deep-dive/scans/scans/).
+View more scan controls available [here](/scans/scans/).
 {{% /pageinfo %}}
 
 ![Scans Progress Tracker](/release-notes/Scan-Progress.png "Scans Progress Tracker")
-
 
 ---
 
@@ -39,9 +37,9 @@ To address this issue, we have introduced a new field called "Associated Targets
 
 ## Enhanced SAML Configuration Page in Org Settings
 
-Customers utilizing Service Provider initiated SAML SSO can now seamlessly access this feature directly within the platform. After configuring SAML settings, organizations will now display a Cobalt Sign In URL. 
+Customers utilizing Service Provider initiated SAML SSO can now seamlessly access this feature directly within the platform. After configuring SAML settings, organizations will now display a Cobalt Sign In URL.
 
-This URL simplifies the user experience by automatically redirecting users to their designated SAML identity provider. For convenient access, users relying on SAML SSO for sign-in can now bookmark this link and effortlessly sign in to Cobalt. 
+This URL simplifies the user experience by automatically redirecting users to their designated SAML identity provider. For convenient access, users relying on SAML SSO for sign-in can now bookmark this link and effortlessly sign in to Cobalt.
 
 ![SAML Updates](/release-notes/saml-updates.png "SAML Updates")
 
@@ -61,7 +59,7 @@ This change applies to both the detailed findings section and the post-test reme
 
 ## Customer Credential Deletion Workflow
 
-In the past, there was no effortless way to ensure that customers had appropriately managed their credentials after testing, potentially leaving sensitive data vulnerable. 
+In the past, there was no effortless way to ensure that customers had appropriately managed their credentials after testing, potentially leaving sensitive data vulnerable.
 
 To address this issue, we have integrated email reminders and prompts within the Cobalt platform. These notifications will prompt customers to confirm that they have either deleted, disabled, or rotated their used credentials at the conclusion of a test and again when the retest period expires.
 

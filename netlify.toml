@@ -27,3 +27,7 @@ NODE_VERSION = "20.17.0"
   from = "/v2"
   to = "/cobalt-api/documentation/v2"
   status = 301
+[[redirects]]
+  from = "/platform-deep-dive/scans*"
+  to = "/scans/:splat"
+  status = 301

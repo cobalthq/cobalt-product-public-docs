@@ -34,19 +34,19 @@ description: >
 
 A scan can have the following states:
 
-{{% image src="/deepdive/scans/scans/ScanStatuses.png" alt="scan statuses" class="mt0" %}}
+{{% image src="/scans/scans/ScanStatuses.png" alt="scan statuses" class="mt0" %}}
 
 To start a scan, you can either **start** it immediately or **schedule** it for a later point in time. This can even be on a [recurring basis].
 
-{{% image src="/deepdive/scans/scans/StartScan.png" alt="start scan button" class="borderless-image mb0" %}}
+{{% image src="/scans/scans/StartScan.png" alt="start scan button" class="borderless-image mb0" %}}
 
 Initially, a scan will get **queued** while the scanner is waiting for resource allocation. Once the scan has the required resources, it will show up as **Running**.
 
-{{% image src="/deepdive/scans/scans/PauseScan.png" alt="pause scan button" class="borderless-image mb0" %}}
+{{% image src="/scans/scans/PauseScan.png" alt="pause scan button" class="borderless-image mb0" %}}
 
 A running scan can either be **paused** or **canceled**. Canceling a scan will finish all of its sub-processes and won't allow the scan to be restarted again.
 
-{{% image src="/deepdive/scans/scans/ResumeScan.png" alt="resume scan button" class="borderless-image mb0" %}}
+{{% image src="/scans/scans/ResumeScan.png" alt="resume scan button" class="borderless-image mb0" %}}
 
 If you want to still have the option to **resume** a scan later on, use the pausing functionality. Once paused, a scan will stay in this state for up to 7 days, after which it will get canceled automatically. A paused scan can also be canceled directly, if needed.
 
@@ -56,7 +56,7 @@ If some vulnerabilities need to be manually confirmed, the scan will show as **U
 
 ## Components
 
-{{% image src="/deepdive/scans/scans/PausedComponents.png" alt="paused scan components" class="mx0 mt0" %}}
+{{% image src="/scans/scans/PausedComponents.png" alt="paused scan components" class="mx0 mt0" %}}
 
 A scan is subdivided into 3 components that partially overlap each other:
 1. Fingerprinting: Identifies the technologies used on the target. Examples: React or Cloudflare.
@@ -71,27 +71,27 @@ If any issues arise as part of a component's activity, these will show up as war
 Each component will have its own progress bar to provide quick visual feedback.
 Aside from the bars filling up as each component progresses, the color of the bar may change as well to reflect its state:
 
-{{% image src="/deepdive/scans/scans/LightGreyProgressBar.png" alt="light grey progress bar" class="borderless-image width400 ml25" %}}
+{{% image src="/scans/scans/LightGreyProgressBar.png" alt="light grey progress bar" class="borderless-image width400 ml25" %}}
 
 - Light grey: The specific component hasn't started yet or the whole scan is paused.
 
-{{% image src="/deepdive/scans/scans/BlueProgressBar.png" alt="blue progress bar" class="borderless-image width400 ml25" %}}
+{{% image src="/scans/scans/BlueProgressBar.png" alt="blue progress bar" class="borderless-image width400 ml25" %}}
 
 - Blue: The component has started and is making progress.
 
-{{% image src="/deepdive/scans/scans/GreenProgressBar.png" alt="green progress bar" class="borderless-image width400 ml25" %}}
+{{% image src="/scans/scans/GreenProgressBar.png" alt="green progress bar" class="borderless-image width400 ml25" %}}
 
 - Green: The component has successfully completed its duty.
 
-{{% image src="/deepdive/scans/scans/RedProgressBar.png" alt="red progress bar" class="borderless-image width400 ml25" %}}
+{{% image src="/scans/scans/RedProgressBar.png" alt="red progress bar" class="borderless-image width400 ml25" %}}
 
 - Red: The component failed. Whenever this occurs, details will show below the progress bar.
 
-{{% image src="/deepdive/scans/scans/YellowProgressBar.png" alt="yellow progress bar" class="borderless-image width400 ml25" %}}
+{{% image src="/scans/scans/YellowProgressBar.png" alt="yellow progress bar" class="borderless-image width400 ml25" %}}
 
 - Yellow: The component didn't fail but there's potential for improvement, since it didn't run optimally. Details will show below the progress bar.
 
-{{% image src="/deepdive/scans/scans/DarkGreyProgressBar.png" alt="dark grey progress bar" class="borderless-image width400 ml25" %}}
+{{% image src="/scans/scans/DarkGreyProgressBar.png" alt="dark grey progress bar" class="borderless-image width400 ml25" %}}
 
 - Dark grey: The whole scan has been canceled.
 

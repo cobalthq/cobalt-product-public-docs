@@ -5,22 +5,24 @@ weight: 39
 description: >-
 ---
 
-{{% pageinfo %}} 
+{{% pageinfo %}}
 Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
-
 
 ## DAST Release: Blackout Period
 
 <strong>Problem</strong>
+
 - Customers needed a way to pause DAST scans during maintenance, high-traffic events, or other sensitive times to avoid conflicts, performance issues, or inaccurate results. Previously, they had to manually pause scans + resume them later, which was inconvenient and could lead to missed vulnerabilities if scans weren't restarted.
 - Timestamps + inputs were set in UTC, which is not as accessible and required some extra thinkin' to translate to local timezones.
 
 <strong>Solution</strong>
+
 - The Blackout Period feature (located in the target settings) allows customers to schedule specific times and days for scans to be automatically paused and resumed, eliminating the need for manual intervention.
 - All timestamps + inputs within the DAST UI are now displayed to the user in their local timezone.
 
 <strong>Benefits</strong>
+
 - <strong>Convenience + Automation:</strong> No more manual stopping and starting of scans.
 - <strong>Flexibility:</strong> Customers can define blackout periods that precisely match their needs.
 - <strong>Continuous Security:</strong> Ensures critical security testing windows are maintained, as scans automatically resume.
@@ -28,10 +30,10 @@ Explore What's New from Cobalt This Month
 - <strong>Peace of Mind:</strong> Customers can confidently schedule maintenance or other activities without worrying about disrupting their security scans or missing potential vulnerabilities.
 
 {{% pageinfo color="blue" %}}
-For more information, have a look at our [Blackout Period documentation.](https://docs.cobalt.io/platform-deep-dive/scans/blackout-period/)
+For more information, have a look at our [Blackout Period documentation.](/scans/blackout-period/)
 {{% /pageinfo %}}
 
-{{% image src="/deepdive/scans/blackout-period-enabled.png" alt="Blackout Period - Enabled" %}}
+{{% image src="/scans/blackout-period-enabled.png" alt="Blackout Period - Enabled" %}}
 
 ---
 
@@ -48,11 +50,13 @@ For more information, have a look at our [Blackout Period documentation.](https:
 - No new ticket is generated
 
 <strong>Supported Integrations</strong>
+
 - The Integration Builder
 - Native Jira Cloud integration
 - Native Jira Data Center (server) integration
 
 <strong>Benefits</strong>
+
 - Customer Flexibility: Clients who prefer not to have new tickets created for carried over findings can now opt-in to this feature.
 - Customization Options: The ticketing integration behavior remains unchanged for customers who are comfortable with the current system and choose not to enable this functionality.
 
@@ -63,4 +67,3 @@ For more information, have a look at our [Carried Over Findings documentation.](
 {{% image src="/integrations/carry-over-findings/carryover-ticket-handling-config.png" alt="UI config option" %}}
 
 ---
-
