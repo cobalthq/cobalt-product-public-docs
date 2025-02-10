@@ -54,5 +54,15 @@ The [2025 OWASP LLM Top 10](https://genai.owasp.org/llm-top-10/) identifies the 
 - **LLM09**: Misinformation
 - **LLM10**: Unbounded Consumption
 
+{{% alert title="Tools" color="primary" %}}
+Our pentesters may use tools such as:
+
+- Adversarial Robustness Toolbox (ART)
+- CleverHans
+- Foolbox
+- Burp Suite / OWASP ZAP
+- AI Fairness 360 / Fairlearn
+
+{{% /alert %}}
 
 [Learn more](/getting-started/planning/#aillm-pentesting) about how to scope an AI/LLM pentest.
