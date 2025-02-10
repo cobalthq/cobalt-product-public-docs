@@ -17,12 +17,12 @@ Focus on testing the security of your AI systems against prompt injection attack
 Test your LLMs against the [Open Web Application Security Project (OWASP) Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/). Our tests check whether your AI applications are protected against unauthorized access, data breaches, and disruptions. For full coverage of your LLM and its web and API connections, this is run as a Comprehensive pentest, which includes a final pentest analysis and report.
 
 For a Full Coverage LLM, we perform the following steps to ensure complete coverage:
-- [Targeted Scope Initial Reconnaissance](/#targeted-scope-initial-reconnaissance) 
-- [Application Services](/#application-services)
-- [Training Dataset & Processing](/#training-dataset--processing)
-- [LLM Production Services](/#llm-production-services)
-- [Plugins](/#plugins)
-- [Downstream Services](/#downstream-services)
+- [Targeted Scope Initial Reconnaissance](/methodologies/ai-llm/#targeted-scope-initial-reconnaissance) 
+- [Application Services](/methodologies/ai-llm/#application-services)
+- [Training Dataset & Processing](/methodologies/ai-llm/#training-dataset--processing)
+- [LLM Production Services](/methodologies/ai-llm/#llm-production-services)
+- [Plugins](/methodologies/ai-llm/#plugins)
+- [Downstream Services](/methodologies/ai-llm/#downstream-services)
 
 
 ### Targeted Scope Initial Reconnaissance
