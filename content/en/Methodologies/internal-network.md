@@ -15,107 +15,81 @@ Internal network penetration testing is a process in which a tester uses simulat
 
 {{% osstmm-methodology %}}
 
-![Internal network penetration testing methodology process](/methodologies/external-internal-network-pentest-methodology-process.png "Internal network penetration testing methodology process")
-
-<!-- The diagrams for internal and external networks are identical, Aug 6, 2021. -->
-
 Penetration testing of an internal network includes the following stages:
-
-{{% network-stages-toc %}}
-
+- [Service discovery](#service-discovery)
+- [Vulnerability scans](#vulnerability-scans)
+- [Manual assessment](#manual-assessment)
+- [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
+  
 {{% alert title="Note" color="primary" %}}
 {{% various-tools %}}
 {{% /alert %}}
-
-{{% network-requirements %}}
 
 ## Prerequisites
 
 {{% internal-network-requirements %}}
 
+For an internal network pentest, Cobalt recommends deploying the jump box as realistically as possible by placing it on the same network and VLAN that a pentester could use during an on-site assessment.
+
+In case of multiple potential locations, prioritize a user network with active traffic, such as a corporate IT network, over less active segments (e.g., a conference room network).  A busier network will create a more realistic and comprehensive testing environment.
+
 {{% alert title="Note" color="primary" %}}
 {{% internal-network-system-req %}}
 {{% /alert %}}
 
-## Target Scope Reconnaissance
 
-{{% network-recon-intro %}}
 
-An attacker may have multiple avenues of exploration. Cobalt pentesters explore all of these avenues to gather information that an attacker could use to gain access to internal resources, such as:
-
-- Brute-forcing credentials by using discovered company email formats
-- Building password dictionaries containing public business information from the corporate website
-
-{{% network-recon-list %}}
-
-{{% alert title="Tools" color="primary" %}}
-During this testing phase, pentesters use multiple tools, such as:
-
-- Nmap
-- Nikto
-- Shodan
-{{% /alert %}}
 
 ## Service Discovery
 
-{{% network-service-discovery-intro %}}
+### Port Scans
 
-- [Port scans](#port-scans)
-- [Testing for PCI](#testing-for-pci), if needed
-- [Further investigation](#further-investigation)
+Pentesters perform a complete port scan on the provided internal network ranges. This provides a detailed breakdown of the machines and services running inside the corporate network and what functions they perform.
+
+Based on the results of the initial port scan, Cobalt’s pentesters identified the following:
+
+- Host discovery
+- Port identification
+- Version numbers for services running
+- Operating Systems (OS) in use
+
+For example, the following services require access to the network to function:
+- File servers
+- Mail servers
+- Web servers
+- Network attached devices (Printers and phones)
+- FTP servers
+- Active Directory (AD) servers and clients
+
+All of these services leave characteristic signatures that a port scan can detect.
 
 {{% alert title="Tools" color="primary" %}}
 During this testing phase, pentesters use multiple tools, such as:
 
 - Nmap
-- Nikto
-- Metasploit
-- Nessus
-- testssl.sh
+- Masscan
 {{% /alert %}}
 
-{{% network-service-discovery-limitations %}}
-
-### Port Scans
-
-Pentesters perform a complete port scan on the provided internal network ranges. This gives a detailed breakdown of the machines and resources running inside the corporate network and what functions they perform.
-
-For example, the following services require access to the network to function:
-
-- Antivirus
-- Backup and file servers
-- Mail servers
-- Web and patch deployment servers
-- Printers
-- FTP servers
-- Azure Active Directory (AD) servers and clients
-
-All of these services leave characteristic signatures that a port scan can detect.
-
-### Testing for PCI
-
-If needed, pentesters test the network segmentation required for the [Payment Card Industry (PCI) Digital Security Standard (DSS)](https://www.pcisecuritystandards.org/) compliance. This includes checking whether all out-of-scope systems are prevented from:
-
-- Communicating with systems in the Cardholder Data Environment (CDE)
-- Impacting the security of the CDE
-
-### Further Investigation
-
-{{% network-sd-further-investigation %}}
 
 ## Vulnerability Scans
 
-Cobalt pentesters follow up by identifying vulnerabilities in the internal-facing portion of the network. Their goal is to penetrate internal endpoints and gain access to the organization's resources.
+Cobalt’s pentesters perform vulnerability scans to provide a comprehensive test. This phase of the test is to look for cracks in the internal network that the pentester can later attempt to exploit. The following vulnerabilities are often found when performing vulnerability scans:
 
-{{% network-vuln-scan-problems %}}
+- Identifying misconfigurations, such as default passwords and weak permissions
+- Detecting outdated software and OS
+- Identifying the use of insecure network services
+- Weak encryption methods 
+
+Note: Exploitation of these vulnerabilities does not occur in this phase of the test.
 
 {{% alert title="Tools" color="primary" %}}
 During this testing phase, pentesters use multiple tools, such as:
 
 - Nessus
-- Acunetix
+- QualysGuard
 - Metasploit
-- Nexpose
+- Nikto
+- InsightVM
 {{% /alert %}}
 
 ## Manual Assessment
@@ -123,49 +97,55 @@ During this testing phase, pentesters use multiple tools, such as:
 {{% network-manual-intro %}}
 
 {{% network-manual-list %}}
-- Azure Active Directory servers and all associated clients
-- Printers
-- File servers
+- Web/FTP/Email/DNS servers
+- Active Directory (AD) servers and all associated clients
+- Domain Controllers (DC)
+- Network attached devices
+- SMB servers and file servers
 - Other services that are in place on the internal IP address range
 
-{{% network-manual-stages-intro %}}
+Note: As certain vulnerabilities and exploits could paralyze, damage, or alter the content of the network, Cobalt’s pentesters do not perform these attacks. They do make note of the possible risks. For example, Cobalt’s pentesters will not run exploits that:
 
-- [Azure Active Directory networks](#azure-active-directory-networks)
-- [Routers](#routers)
-- [Firewalls](#firewalls)
-- [Web and FTP servers](#web-and-ftp-servers)
-- [Email servers](#email-servers)
-- [Printers](#printers)
+- Disable certain services.
+- Deny service from outside systems.
+- May affect customers, such as Denial of Service (DoS) attacks.
+- Disable the ability of an organization to function.
 
-{{% alert title="Tools" color="primary" %}}
-During this testing phase, pentesters use multiple tools, such as:
+### Active Directory Environments (Windows Only)
 
-- Ettercap
-- Metasploit
-- sqlmap
-- Responder
-- hping3
-{{% /alert %}}
-
-### Azure Active Directory Networks
-
-{{% azure-ad-definition %}} Organizations use this service on Windows domain networks.
+AD is an identity and access management solution. Organizations use this service on Windows domain networks and other OS.
 
 Depending on the configuration and patch level, a pentester might find a path to take over the corporate network by compromising the Domain Controller (DC).
 
-### Routers
+Some key areas that Cobalt’s pentesters might focus on during Active Directory testing are:
 
-{{% network-manual-routers %}}
+- Weak password policies
+- Old or weak protocols
+- Kerberos vulnerabilities
+- Use of cached or cleartext credentials
+- Misconfigured trust relationships
+- ACDS misconfigured permissions
 
-### Firewalls
+During the AD phase of the engagement, Cobalt’s pentesters will coordinate with your team to perform password spraying attacks. Please note that you can opt out of this.
 
-{{% network-manual-firewall %}}
+### SMB Testing
+
+Server Message Block (SMB) is a communication protocol that enables communication between computers and devices over a network. SMB is commonly used for file sharing, printer access, and domain services.
+
+Cobalt’s pentesters enumerate SMB servers and attempt to exploit common vulnerabilities, such as:
+
+- SMB message signing disabled
+- Missing critical patches
+- Null sessions 
+- SMB file shares with weak or missing authentication
+- SMB relay attacks
+- Insecure SMB encryption
 
 ### Web and FTP Servers
 
 Web servers are vulnerable to defacement attacks, or could be used as a launching pad for further attacks against hosts based locally to the web server.
 
-Cobalt pentesters scan all web and FTP servers in the internal network for potential exploits and vulnerabilities, such as:
+Cobalt’s pentesters scan all web and FTP servers in the internal network for potential exploits and vulnerabilities, such as:
 
 - Poor patching policy
 - Default installation
@@ -173,17 +153,41 @@ Cobalt pentesters scan all web and FTP servers in the internal network for poten
 
 ### Email Servers
 
-{{% network-manual-email %}}
+Cobalt’s pentesters check SMTP, POP3, and IMAP on the mail gateway for open relay vulnerabilities. Your mail servers should:
 
-### Printers
+- Accept mail _only_ for the organization’s domains.
+- Not relay mail for other domains.
 
-Printers inside corporate networks can be shared with the entire organization, and in some cases may be a member of an Azure AD network. These devices may use insecure default credentials or be vulnerable to web application attacks.
+### Network Attached Devices
 
-Our pentesters test printers against all common attacks and make sure that they use secure credentials.
+Printers inside corporate networks can be shared with the entire organization and may be a member of an AD network. These devices may use insecure default credentials or be vulnerable to web application attacks.
 
-## Additional Testing
+VOIP phones are a common presence on an internal network and can be vulnerable to misconfigurations, SIP vulnerabilities, and outdated firmware that may allow remote code execution (RCE).
 
-{{% network-additional-testing %}}
+Cobalt’s pentesters test printers and phones against all common attacks and make sure that they use secure credentials.
+
+### Password Cracking
+
+During an AD engagement, a pentester may perform offline password cracking against hashes obtained during the engagement. Some common techniques of obtaining hashes include:
+
+- Conducting LLMNR/NBNS poisoning attacks
+- Extracting NTDS.dit databases
+- Performing Kerberoasting attacks
+- Performing AS-REP roasting attacks
+- Dumping SAM databases
+- Performing attacks with Mimikatz
+
+Password cracking will allow Cobalt’s pentesters to escalate privileges and move laterally within the network.
+
+{{% alert title="Tools" color="primary" %}}
+During this testing phase, pentesters use multiple tools, such as:
+
+- Ettercap
+- Metasploit
+- Nmap
+- Responder
+- Impacket
+{{% /alert %}}
 
 ## Reporting, Triaging, and Retesting
 
