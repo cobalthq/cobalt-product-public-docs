@@ -29,9 +29,16 @@ Penetration testing of an internal network includes the following stages:
 
 {{% internal-network-requirements %}}
 
+For an internal network pentest, Cobalt recommends deploying the jump box as realistically as possible by placing it on the same network and VLAN that a pentester could use during an on-site assessment.
+
+In case of multiple potential locations, prioritize a user network with active traffic, such as a corporate IT network, over less active segments (e.g., a conference room network).  A busier network will create a more realistic and comprehensive testing environment.
+
 {{% alert title="Note" color="primary" %}}
 {{% internal-network-system-req %}}
 {{% /alert %}}
+
+
+
 
 ## Service Discovery
 
@@ -104,7 +111,7 @@ Note: As certain vulnerabilities and exploits could paralyze, damage, or alter t
 - May affect customers, such as Denial of Service (DoS) attacks.
 - Disable the ability of an organization to function.
 
-### Active Directory Environments
+### Active Directory Environments (Windows Only)
 
 AD is an identity and access management solution. Organizations use this service on Windows domain networks and other OS.
 
