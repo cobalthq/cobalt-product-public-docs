@@ -50,9 +50,9 @@ Once the grace period is over, we revoke access to the platform from all organiz
 To renew your contract, reach out to your Customer Success Manager or support@cobalt.io.
 {{< /alert >}}
 
-## Download Your Organization's Pentest Data
+## Download Your Organization's Data
 
-To export pentest data for your organization, you can:
+To export data for your organization, you can:
 
 - Use the Cobalt API. Read our [API documentation](/cobalt-api/documentation/v2) for details. You can send API requests to retrieve pentest data, such as:
   - [All pentests](/cobalt-api/documentation/v2/#get-all-pentests)
