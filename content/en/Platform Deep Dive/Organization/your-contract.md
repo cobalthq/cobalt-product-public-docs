@@ -72,12 +72,12 @@ To export data for your organization, you can:
    {{%expand "To download all findings for a pentest:" %}}
    1. On the pentest page, navigate to the **Findings** tab.
    2. To clear all filters, select **Clear all**.
-   3. Select **Download CSV**.<br><br>
+   3. Select **Download CSV**.
    {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
 
    {{%expand "To download a report as a PDF file:" %}}
-   {{% download-report-steps %}}<br><br>
+   {{% download-report-steps %}}
    {{% image src="/deepdive/download-report.png" alt="Download reports for a Comprehensive Pentest" %}}
    {{% /expand%}}
 
