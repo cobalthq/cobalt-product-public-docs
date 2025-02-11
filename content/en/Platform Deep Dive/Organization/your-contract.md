@@ -81,32 +81,32 @@ To export data for your organization, you can:
    ![Download reports for a Comprehensive Pentest](/deepdive/download-report.png "Download reports for a Comprehensive Pentest")
    {{% /expand%}}
 
-  {{%expand "To download engagement reports:" %}}
-  1.
-  2. <br><br>
-  {{% /expand%}}
-
-  {{%expand "To download all findings across different test types:" %}}
-  1.
-  2. <br><br>
-  {{% /expand%}}
-
-  {{%expand "To download all domains:" %}}
-  1.
-  2. <br><br>
-  {{% /expand%}}
-
-  {{%expand "To download individual DAST reports:" %}}
-  1.
-  2. <br><br>
-  {{% /expand%}}
-
-  {{%expand "To download the credit ledger:" %}}
-  1.
-  2. <br><br>
-  {{% /expand%}}
-
-  {{%expand "To download insights:" %}}
-  1.
-  2. <br><br>
-  {{% /expand%}}
+   {{%expand "To download engagement reports:" %}}
+   1.
+   2. <br><br>
+   {{% /expand%}}
+  
+   {{%expand "To download all findings across different test types:" %}}
+   1.
+   2. <br><br>
+   {{% /expand%}}
+  
+   {{%expand "To download all domains:" %}}
+   1.
+   2. <br><br>
+   {{% /expand%}}
+  
+   {{%expand "To download individual DAST reports:" %}}
+   1.
+   2. <br><br>
+   {{% /expand%}}
+  
+   {{%expand "To download the credit ledger:" %}}
+   1.
+   2. <br><br>
+   {{% /expand%}}
+  
+   {{%expand "To download insights:" %}}
+   1.
+   2. <br><br>
+   {{% /expand%}}
