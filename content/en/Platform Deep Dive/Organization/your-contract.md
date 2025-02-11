@@ -71,8 +71,8 @@ To export data for your organization, you can:
 - **Manually download data in the Cobalt app.** Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key for specific instructions.
    {{%expand "To download all findings for a pentest:" %}}
    1. On the pentest page, navigate to the **Findings** tab.
-   1. To clear all filters, select **Clear all**.
-   1. Select **Download CSV**.<br><br>
+   2. To clear all filters, select **Clear all**.
+   3. Select **Download CSV**.<br><br>
    ![Download all findings for a pentest](/deepdive/download-findings.png "Download all findings for a pentest")
    {{% /expand%}}
 
@@ -80,3 +80,33 @@ To export data for your organization, you can:
    {{% download-report-steps %}}<br><br>
    ![Download reports for a Comprehensive Pentest](/deepdive/download-report.png "Download reports for a Comprehensive Pentest")
    {{% /expand%}}
+
+  {{%expand "To download engagement reports:" %}}
+  1.
+  2. 
+  {{% /expand%}}
+
+  {{%expand "To download all findings across different test types:" %}}
+  1.
+  2. 
+  {{% /expand%}}
+
+  {{%expand "To download all domains:" %}}
+  1.
+  2. 
+  {{% /expand%}}
+
+  {{%expand "To download individual DAST reports:" %}}
+  1.
+  2. 
+  {{% /expand%}}
+
+  {{%expand "To download the credit ledger:" %}}
+  1.
+  2. 
+  {{% /expand%}}
+
+  {{%expand "To download insights:" %}}
+  1.
+  2. 
+  {{% /expand%}}
