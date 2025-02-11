@@ -9,7 +9,7 @@ description: >
 {{% pageinfo %}}
 Learn how to integrate **Jira Cloud** with Cobalt. The availability of this feature depends on your [PtaaS tier](/platform-deep-dive/credits/ptaas-tiers/).
 
-If your organization uses Jira Server or Data Center, see [Jira Server and Data Center Integration](/integrations/jira/jira-server-dc/).
+If your organization uses Jira Data Center, see [Jira Data Center Integration](/integrations/jira/jira-server-dc/).
 {{% /pageinfo %}}
 
 ## Configuration
@@ -22,11 +22,11 @@ If your organization uses Jira Server or Data Center, see [Jira Server and Data 
 ### Step 1: Connect the Jira Plugin
 
 1. In Cobalt, go to **Integrations** > **Jira**.
-1. Under **What type of Jira setup are you using?**, select **Jira Cloud**.<br><br>
-    ![Select to configure the integration with Jira Cloud in Cobalt](/integrations/configure-jira-cloud-integration.png "Select to configure the integration with Jira Cloud in Cobalt")
+1. Under **What type of Jira setup are you using?**, select **Jira Cloud**.
+    {{% image src="/integrations/configure-jira-cloud-integration.png" alt="Select to configure the integration with Jira Cloud in Cobalt" %}}
 1. Follow the instructions in the UI to install and connect the [Cobalt for Jira Cloud](https://marketplace.atlassian.com/apps/1222623/cobalt-for-jira-cloud?hosting=cloud&tab=overview) plugin.
-1. Return to the Cobalt app, and check the integration status. You should see your Jira instance on the **Jira Integration** page.<br><br>
-    ![Jira integration status in Cobalt](/integrations/jira-integration-status.png "Jira integration status in Cobalt")
+1. Return to the Cobalt app, and check the integration status. You should see your Jira instance on the **Jira Integration** page.<br>
+    {{% image src="/integrations/jira-integration-status.png" alt="Jira integration status in Cobalt" %}}
 
 When you're done, configure the integration for specific pentests.
 
@@ -35,15 +35,15 @@ When you're done, configure the integration for specific pentests.
 Once you've connected the Jira plugin, configure the integration for specific pentests.
 
 1. In Cobalt, go to **Integrations** > **Jira** > **Configuration**. Here, you can see pentests for which you can configure the integration. 
-1. For the desired pentest, select the gear icon ![Gear icon](/icons/Gear.png "Gear icon").<br><br>
-    ![Select a pentest for which you want to configure the Jira integration](/integrations/configure-jira-integration-for-pentest.png "Select a pentest for which you want to configure the Jira integration")
+1. For the desired pentest, select the gear icon ![Gear icon](/icons/Gear.png "Gear icon").
+    {{% image src="/integrations/configure-jira-integration-for-pentest.png" alt="Select a pentest for which you want to configure the Jira integration" %}}
 1. In the overlay that appears, configure integration parameters:
     - **Jira Project**
     - **Issue Type**
-    - **Labels** to add to Jira issues<br><br>
-    ![Configure Jira integration parameters for a pentest](/integrations/jira-configuration-parameters-for-pentest-1.png "Configure Jira integration parameters for a pentest")
-    - **State Mapping (Jira to Cobalt)**: Map Jira issue statuses to Cobalt finding states.<br><br>
-    ![Map Jira issue statuses to Cobalt finding states](/integrations/jira-configuration-parameters-for-pentest-2.png "Map Jira issue statuses to Cobalt finding states")
+    - **Labels** to add to Jira issues
+    {{% image src="/integrations/jira-configuration-parameters-for-pentest-1.png" alt="Configure Jira integration parameters for a pentest" %}}
+    - **State Mapping (Jira to Cobalt)**: Map Jira issue statuses to Cobalt finding states.
+    {{% image src="/integrations/jira-configuration-parameters-for-pentest-2.png" alt="Map Jira issue statuses to Cobalt finding states" %}}
 1. Select **Save**.
 
 ## How the Integration Works

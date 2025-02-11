@@ -8,23 +8,23 @@ description: >
 
 {{% pageinfo %}}
 Learn how to reconfigure your Jira integration if you:
-- [Migrate from Jira Server or Data Center (DC) to Jira Cloud](#migrating-from-jira-serverdc-to-jira-cloud)
+- [Migrate from Jira Data Center (DC) to Jira Cloud](#migrating-from-jira-serverdc-to-jira-cloud)
 - [Switch to a new Jira Cloud instance](#switching-to-a-new-jira-cloud-instance)
 {{% /pageinfo %}}
 
-## Migrating from Jira Server/DC to Jira Cloud
+## Migrating from Jira DC to Jira Cloud
 
-If you're migrating entirely from Jira Server/DC to Jira Cloud, do the following:
+If you're migrating entirely from Jira DC to Jira Cloud, do the following:
 
-1. Uninstall the Cobalt Jira plugin from your Jira Server/DC.
+1. Uninstall the Cobalt Jira plugin from your Jira DC.
 1. In Cobalt, delete the integration. Navigate to **Integrations** > **Jira**, and select **Delete**.<br><br>
     ![Delete a Jira integration in Cobalt](/integrations/delete-jira.png "Delete a Jira integration in Cobalt")
-1. Follow the Atlassian [guide](https://www.atlassian.com/migration/plan/cloud-guide) to migrate from Jira Server/DC to Cloud.
+1. Follow the Atlassian [guide](https://www.atlassian.com/migration/plan/cloud-guide) to migrate from Jira DC to Cloud.
     - **Important**: Don't change Jira project names while migrating.
 1. [Integrate Jira Cloud with Cobalt](/integrations/jira/jira-cloud/).
-1. Contact your Customer Success Manager to have findings with associated Jira issues in the old Jira Server/DC instance reassociated with issues on the new Jira Cloud instance. Provide the following information:
+1. Contact your Customer Success Manager to have findings with associated Jira issues in the old Jira DC instance reassociated with issues on the new Jira Cloud instance. Provide the following information:
     - Your organization name
-    - URL of the old Jira Server/DC instance
+    - URL of the old Jira DC instance
     - URL of the new Jira Cloud instance
     - [Tags](/getting-started/glossary/#pentest-tag) of pentests for which finding-to-ticket associations should be updated
 
@@ -36,7 +36,7 @@ The Cobalt Jira plugin does not store any data that needs to be migrated. Jira t
 
 Follow this guide if:
 
-- You're **not** migrating from Jira Server/DC to Jira Cloud; and
+- You're **not** migrating from Jira DC to Jira Cloud; and
 - You've set up a new Jira Cloud environment and want to switch the instance connected with Cobalt.
 
 You can reconfigure the integration in two ways:

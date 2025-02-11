@@ -27,7 +27,7 @@ The integration works through **Cobalt plugins for Jira** available on the Atlas
 | Jira Setup | Cobalt Plugin for Jira | Configuration Guide |
 |---|---|---|
 | Jira Cloud | [Cobalt for Jira Cloud](https://marketplace.atlassian.com/apps/1222623/cobalt-for-jira-cloud) | [Jira Cloud Integration](/integrations/jira/jira-cloud/) |
-| Jira Server and Data Center | [Cobalt for Jira DC/Server](https://marketplace.atlassian.com/apps/1224424/cobalt-for-jira-dc-server) | [Jira Server and Data Center Integration](/integrations/jira/jira-server-dc/) |
+| Jira Data Center | [Cobalt for Jira DC](https://marketplace.atlassian.com/apps/1224424/cobalt-for-jira-dc-server) | [Jira Data Center Integration](/integrations/jira/jira-server-dc/) |
 
 If you have problems with your integration, see our [troubleshooting guide](/integrations/jira/troubleshoot-jira-integration/). To get more help, please contact your Customer Success Manager.
 
