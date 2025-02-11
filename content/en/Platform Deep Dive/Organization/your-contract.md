@@ -54,7 +54,7 @@ To renew your contract, reach out to your Customer Success Manager or support@co
 
 To export data for your organization, you can:
 
-- Use the Cobalt API. Read our [API documentation](/cobalt-api/documentation/v2) for details. You can send API requests to retrieve the following data:
+- **Use the Cobalt API.** Read our [API documentation](/cobalt-api/documentation/v2) for details. You can send API requests to retrieve the following data:
   - Pentests
     - [All pentests](/cobalt-api/documentation/v2/#get-all-pentests)
     - [All pentest findings](/cobalt-api/documentation/v2/#get-all-findings)
@@ -68,7 +68,7 @@ To export data for your organization, you can:
     - [Get all DAST targets](/cobalt-api/documentation/v2/#get-all-dast-targets)
   - Attack Surface 
     - [????](/cobalt-api/documentation/v2/#get-attack-surface)
-- Manually download [findings](/platform-deep-dive/pentests/findings/) and [reports](/platform-deep-dive/pentests/reports/) for each pentest in the Cobalt app. Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key for instructions.
+- **Manually download data in the Cobalt app.** Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key for specific instructions.
    {{%expand "To download all findings for a pentest:" %}}
    1. On the pentest page, navigate to the **Findings** tab.
    1. To clear all filters, select **Clear all**.
