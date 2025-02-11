@@ -83,29 +83,29 @@ To export data for your organization, you can:
 
    {{%expand "To download engagement reports:" %}}
    1. On the engagement page, navigate to the **Report** tab.
-   2. <br><br>
+   2. XXXX
    {{% /expand%}}
   
    {{%expand "To download all findings across different test types:" %}}
-   1. On the Findings page, apply any filters as needed, and select **Download CSV**.<br><br>
+   1. On the Findings page, apply any filters as needed, and select **Download CSV**.
    {{% /expand%}}
   
    {{%expand "To download all domains:" %}}
    1. On the Attack Surface page, select a domain.
    2. Filter targets by Seen, Unseen, or All, and apply any additional filters as needed.
-   3. Select **Download CSV**.<br><br>
+   3. Select **Download CSV**.
    {{% /expand%}}
   
    {{%expand "To download individual DAST reports:" %}}
    1. On the DAST Scanner page, select the **Download** for a target.
      2. The same option is available on the Scans page and individual scan detail page.   
-   3. Select from a list of report types to download.<br><br>
+   3. Select from a list of report types to download.
    {{% /expand%}}
   
    {{%expand "To download the credit ledger:" %}}
-   1. On the Credits page, select **Download CSV**.<br><br>
+   1. On the Credits page, select **Download CSV**.
    {{% /expand%}}
   
    {{%expand "To download insights:" %}}
-   1. On the Insights page, apply any filters as needed, and select **Download CSV**.<br><br>
+   1. On the Insights page, apply any filters as needed, and select **Download CSV**.
    {{% /expand%}}
