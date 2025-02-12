@@ -101,7 +101,7 @@ To export data for your organization, you can:
   
    {{%expand "A DAST report:" %}}
    1. On the **DAST Scanner** page, navigate to the **Targets** tab.
-       The same option is available on the Scans page and individual scan detail page.   
+      *The same option is available on the Scans page and individual scan detail page.   
    2. For any one target, select **Download**.
    3. Select from a list of report types to download.
    {{% image src="/deepdive/download-DAST-report.png" alt="Download a DAST report" %}}
