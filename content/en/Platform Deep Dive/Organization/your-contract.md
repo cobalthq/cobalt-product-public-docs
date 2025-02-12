@@ -54,19 +54,23 @@ To renew your contract, reach out to your Customer Success Manager or support@co
 
 To export data for your organization, you can:
 
-- **Use the Cobalt API.** Read our [API documentation](/cobalt-api/documentation/v2) for details. You can send API requests to retrieve the following data:
-  - Pentests
-    - [All pentests](/cobalt-api/documentation/v2/#get-all-pentests)
-    - [All pentest findings](/cobalt-api/documentation/v2/#get-all-findings)
-    - [A pentest report](/cobalt-api/documentation/v2/#get-a-pentest-report)
-  - Engagements
-    - [Get all engagements](/cobalt-api/documentation/v2/#get-all-engagements)
-    - [Get all engagement findings](/cobalt-api/documentation/v2/#get-all-engagement-findings)
-  - DAST
-    - [Get all DAST findings](/cobalt-api/documentation/v2/#get-all-dast-findings)
-    - [Get all DAST targets](/cobalt-api/documentation/v2/#get-all-dast-targets)
+### Use the Cobalt API
 
-- **Manually download data in the Cobalt app.** Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key next to each item below for specific instructions.
+Read our [API documentation](/cobalt-api/documentation/v2) for details. You can send API requests to retrieve the following data:
+- Pentests
+   - [All pentests](/cobalt-api/documentation/v2/#get-all-pentests)
+   - [All pentest findings](/cobalt-api/documentation/v2/#get-all-findings)
+   - [A pentest report](/cobalt-api/documentation/v2/#get-a-pentest-report)
+- Engagements
+   - [Get all engagements](/cobalt-api/documentation/v2/#get-all-engagements)
+   - [Get all engagement findings](/cobalt-api/documentation/v2/#get-all-engagement-findings)
+- DAST
+   - [Get all DAST findings](/cobalt-api/documentation/v2/#get-all-dast-findings)
+   - [Get all DAST targets](/cobalt-api/documentation/v2/#get-all-dast-targets)
+
+### Manually download data in the Cobalt app
+
+Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key next to each item below for specific instructions.
 
    {{%expand "All findings for a pentest:" %}}
    1. On the pentest page, navigate to the **Findings** tab.
