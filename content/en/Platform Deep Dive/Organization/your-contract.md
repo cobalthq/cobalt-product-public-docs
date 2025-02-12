@@ -72,61 +72,53 @@ To export data for your organization, you can:
    1. On the pentest page, navigate to the **Findings** tab.
    2. To clear all filters, select **Clear all**.
    3. Select **Download CSV**.
-   {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
+   {{% image src="/deepdive/download-pentest-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
-   <br>
 
    {{%expand "A pentest report:" %}}
    {{% download-report-steps %}}
-   {{% image src="/deepdive/download-report.png" alt="Download reports for a Comprehensive Pentest" %}}
+   {{% image src="/deepdive/download-pentest-report.png" alt="Download reports for a Comprehensive Pentest" %}}
    {{% /expand%}}
-   <br>
 
    {{%expand "An engagement report:" %}}
    1. On the engagement page, navigate to the **Report** tab.
    2. XXXX
-   {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
+   {{% image src="/deepdive/download-engagement-report.png" alt="Download an engagement report" %}}
    3. 
    {{% /expand%}}
-   <br>
   
    {{%expand "All findings across different test types:" %}}
    1. Navigate to the **Findings** page.
    2. Apply any filters as needed.
    3. Select **Download CSV**.
-   {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
+   {{% image src="/deepdive/download-findings.png" alt="Download all findings" %}}
    {{% /expand%}}
-   <br>
   
    {{%expand "All Attack Surface domains:" %}}
    1. Navigate to the **Attack Surface** page.
    2. Select a domain.
    3. Filter targets by Seen, Unseen, or All, and apply any additional filters as needed.
    4. Select **Download CSV**.
-   {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
+   {{% image src="/deepdive/download-ASM-domains.png" alt="Download all Attack Surface Domains" %}}
    {{% /expand%}}
-   <br>
   
    {{%expand "A DAST report:" %}}
    1. Navigate to the **DAST Scanner** page.
    2. For any one target, select **Download**.
      3. The same option is available on the Scans page and individual scan detail page.   
    4. Select from a list of report types to download.
-   {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
+   {{% image src="/deepdive/download-DAST-report.png" alt="Download a DAST report" %}}
    {{% /expand%}}
-   <br>
 
-   {{%expand "Findings insights:" %}}
+   {{%expand "Insights:" %}}
    1. Navigate to the **Insights** page.
    2. Apply any filters as needed.
    3. Select **Download CSV**.
-   {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
+   {{% image src="/deepdive/download-insights.png" alt="Download insights" %}}
    {{% /expand%}}
-   <br>
 
    {{%expand "Credit ledger:" %}}
    1. Navigate to the **Credits** page.
    2. Select **Download CSV**.
-   {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
+   {{% image src="/deepdive/download-credits.png" alt="Download credit ledger" %}}
    {{% /expand%}}
-   <br>
