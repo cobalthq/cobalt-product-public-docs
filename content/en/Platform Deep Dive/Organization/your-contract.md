@@ -79,23 +79,27 @@ Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-ri
    3. Select **Download CSV**.
    {{% image src="/deepdive/download-pentest-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
+   <br>
 
    {{%expand "A pentest report:" %}}
    {{% download-report-steps %}}
    {{% image src="/deepdive/download-pentest-report.png" alt="Download reports for a Comprehensive Pentest" %}}
    {{% /expand%}}
+   <br>
 
    {{%expand "An engagement report:" %}}
    1. On the engagement page, navigate to the **Report** tab.
    2. XXXX
    {{% image src="/deepdive/download-engagement-report.png" alt="Download an engagement report" %}}
    {{% /expand%}}
+   <br>
   
    {{%expand "All findings across different test types:" %}}
    1. On the main **Findings** page, apply any filters as needed.
    2. Select **Download CSV**.
    {{% image src="/deepdive/download-findings.png" alt="Download all findings" %}}
    {{% /expand%}}
+   <br>
   
    {{%expand "All Attack Surface domains:" %}}
    1. On the **Attack Surface** page, select a domain.
@@ -104,6 +108,7 @@ Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-ri
    3. Select **Download CSV**.
    {{% image src="/deepdive/download-ASM-domains-2.png" alt="Download all Attack Surface Domains" %}}
    {{% /expand%}}
+   <br>
   
    {{%expand "A DAST report:" %}}
    1. On the **DAST Scanner** page, navigate to the **Targets** tab.
@@ -112,14 +117,17 @@ Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-ri
    3. Select from a list of report types to download.
    {{% image src="/deepdive/download-DAST-report.png" alt="Download a DAST report" %}}
    {{% /expand%}}
+   <br>
 
    {{%expand "Insights:" %}}
    1. On the **Insights** page, apply any filters as needed.
    2. Select **Download CSV**.
    {{% image src="/deepdive/download-insights.png" alt="Download insights" %}}
    {{% /expand%}}
+   <br>
 
    {{%expand "Credit ledger:" %}}
    - On the **Credits** page, select **Download CSV**.
    {{% image src="/deepdive/download-credits.png" alt="Download credit ledger" %}}
    {{% /expand%}}
+   <br>
