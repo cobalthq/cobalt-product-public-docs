@@ -95,8 +95,8 @@ To export data for your organization, you can:
    {{%expand "All Attack Surface domains:" %}}
    1. On the **Attack Surface** page, select a domain.
    {{% image src="/deepdive/download-ASM-domains-1.png" alt="Download all Attack Surface Domains" %}}
-   3. Filter targets by Seen, Unseen, or All, and apply any additional filters as needed.
-   4. Select **Download CSV**.
+   2. Filter targets by Seen, Unseen, or All, and apply any additional filters as needed.
+   3. Select **Download CSV**.
    {{% image src="/deepdive/download-ASM-domains-2.png" alt="Download all Attack Surface Domains" %}}
    {{% /expand%}}
   
