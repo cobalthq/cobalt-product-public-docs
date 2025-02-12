@@ -57,14 +57,14 @@ To export data for your organization, you can:
 ### Use the Cobalt API
 
 Read our [API documentation](/cobalt-api/documentation/v2) for details. You can send API requests to retrieve the following data:
-- Pentests
+- **Pentests**
    - [All pentests](/cobalt-api/documentation/v2/#get-all-pentests)
    - [All pentest findings](/cobalt-api/documentation/v2/#get-all-findings)
    - [A pentest report](/cobalt-api/documentation/v2/#get-a-pentest-report)
-- Engagements
+- **Engagements**
    - [All engagements](/cobalt-api/documentation/v2/#get-all-engagements)
    - [All engagement findings](/cobalt-api/documentation/v2/#get-all-engagement-findings)
-- DAST
+- **DAST**
    - [All DAST targets](/cobalt-api/documentation/v2/#get-all-dast-targets)
    - [All DAST findings](/cobalt-api/documentation/v2/#get-all-dast-findings)
 
@@ -73,12 +73,12 @@ Read our [API documentation](/cobalt-api/documentation/v2) for details. You can 
 
 Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key next to each item below for specific instructions.
 
-   {{%expand "All findings for a pentest:" %}}
-   1. On the pentest page, navigate to the **Findings** tab.
-   2. To clear all filters, select **Clear all**.
-   3. Select **Download CSV**.
-   {{% image src="/deepdive/download-pentest-findings.png" alt="Download all findings for a pentest" %}}
-   {{% /expand%}}
+       {{%expand "All findings for a pentest:" %}}
+       1. On the pentest page, navigate to the **Findings** tab.
+       2. To clear all filters, select **Clear all**.
+       3. Select **Download CSV**.
+       {{% image src="/deepdive/download-pentest-findings.png" alt="Download all findings for a pentest" %}}
+       {{% /expand%}}
 
    {{%expand "A pentest report:" %}}
    {{% download-report-steps %}}
