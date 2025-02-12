@@ -74,11 +74,13 @@ To export data for your organization, you can:
    3. Select **Download CSV**.
    {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
+   <br>
 
    {{%expand "A pentest report:" %}}
    {{% download-report-steps %}}
    {{% image src="/deepdive/download-report.png" alt="Download reports for a Comprehensive Pentest" %}}
    {{% /expand%}}
+   <br>
 
    {{%expand "An engagement report:" %}}
    1. On the engagement page, navigate to the **Report** tab.
@@ -86,6 +88,7 @@ To export data for your organization, you can:
    {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
    3. 
    {{% /expand%}}
+   <br>
   
    {{%expand "All findings across different test types:" %}}
    1. Navigate to the **Findings** page.
@@ -93,6 +96,7 @@ To export data for your organization, you can:
    3. Select **Download CSV**.
    {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
+   <br>
   
    {{%expand "All Attack Surface domains:" %}}
    1. Navigate to the **Attack Surface** page.
@@ -101,6 +105,7 @@ To export data for your organization, you can:
    4. Select **Download CSV**.
    {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
+   <br>
   
    {{%expand "A DAST report:" %}}
    1. Navigate to the **DAST Scanner** page.
@@ -109,6 +114,7 @@ To export data for your organization, you can:
    4. Select from a list of report types to download.
    {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
+   <br>
 
    {{%expand "Findings insights:" %}}
    1. Navigate to the **Insights** page.
@@ -116,9 +122,11 @@ To export data for your organization, you can:
    3. Select **Download CSV**.
    {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
+   <br>
 
    {{%expand "Credit ledger:" %}}
    1. Navigate to the **Credits** page.
    2. Select **Download CSV**.
    {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
+   <br>
