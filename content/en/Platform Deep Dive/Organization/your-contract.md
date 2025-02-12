@@ -76,7 +76,7 @@ Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-ri
    {{%expand "All findings for a pentest:" %}}
    1. On the pentest page, navigate to the **Findings** tab.
    2. To clear all filters, select **Clear all**.
-   3. Select **Download CSV**.
+   3. Select **Download**.
    {{% image src="/deepdive/download-pentest-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
    <br>
