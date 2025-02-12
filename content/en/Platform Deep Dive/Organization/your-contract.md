@@ -62,11 +62,12 @@ Read our [API documentation](/cobalt-api/documentation/v2) for details. You can 
    - [All pentest findings](/cobalt-api/documentation/v2/#get-all-findings)
    - [A pentest report](/cobalt-api/documentation/v2/#get-a-pentest-report)
 - Engagements
-   - [Get all engagements](/cobalt-api/documentation/v2/#get-all-engagements)
-   - [Get all engagement findings](/cobalt-api/documentation/v2/#get-all-engagement-findings)
+   - [All engagements](/cobalt-api/documentation/v2/#get-all-engagements)
+   - [All engagement findings](/cobalt-api/documentation/v2/#get-all-engagement-findings)
 - DAST
-   - [Get all DAST findings](/cobalt-api/documentation/v2/#get-all-dast-findings)
-   - [Get all DAST targets](/cobalt-api/documentation/v2/#get-all-dast-targets)
+   - [All DAST targets](/cobalt-api/documentation/v2/#get-all-dast-targets)
+   - [All DAST findings](/cobalt-api/documentation/v2/#get-all-dast-findings)
+
 
 ### Manually download data in the Cobalt app
 
