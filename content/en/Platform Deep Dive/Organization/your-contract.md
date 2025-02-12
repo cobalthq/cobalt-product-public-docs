@@ -68,44 +68,44 @@ To export data for your organization, you can:
     - [Get all DAST targets](/cobalt-api/documentation/v2/#get-all-dast-targets)
   - Attack Surface 
     - [????](/cobalt-api/documentation/v2/#get-attack-surface)
-- **Manually download data in the Cobalt app.** Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key for specific instructions.
-   {{%expand "To download all findings for a pentest:" %}}
+- **Manually download data in the Cobalt app.** Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key next to each item below for specific instructions.
+   {{%expand "Download all findings for a pentest:" %}}
    1. On the pentest page, navigate to the **Findings** tab.
    2. To clear all filters, select **Clear all**.
    3. Select **Download CSV**.
    {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
 
-   {{%expand "To download a report as a PDF file:" %}}
+   {{%expand "Download a report as a PDF file:" %}}
    {{% download-report-steps %}}
    {{% image src="/deepdive/download-report.png" alt="Download reports for a Comprehensive Pentest" %}}
    {{% /expand%}}
 
-   {{%expand "To download engagement reports:" %}}
+   {{%expand "Download engagement reports:" %}}
    1. On the engagement page, navigate to the **Report** tab.
    2. XXXX
    {{% /expand%}}
   
-   {{%expand "To download all findings across different test types:" %}}
+   {{%expand "Download all findings across different test types:" %}}
    1. On the Findings page, apply any filters as needed, and select **Download CSV**.
    {{% /expand%}}
   
-   {{%expand "To download all domains:" %}}
+   {{%expand "Download all domains:" %}}
    1. On the Attack Surface page, select a domain.
    2. Filter targets by Seen, Unseen, or All, and apply any additional filters as needed.
    3. Select **Download CSV**.
    {{% /expand%}}
   
-   {{%expand "To download individual DAST reports:" %}}
+   {{%expand "Download individual DAST reports:" %}}
    1. On the DAST Scanner page, select the **Download** for a target.
      2. The same option is available on the Scans page and individual scan detail page.   
    3. Select from a list of report types to download.
    {{% /expand%}}
   
-   {{%expand "To download the credit ledger:" %}}
+   {{%expand "Download the credit ledger:" %}}
    1. On the Credits page, select **Download CSV**.
    {{% /expand%}}
   
-   {{%expand "To download insights:" %}}
+   {{%expand "Download insights:" %}}
    1. On the Insights page, apply any filters as needed, and select **Download CSV**.
    {{% /expand%}}
