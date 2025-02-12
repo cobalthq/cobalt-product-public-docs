@@ -75,7 +75,7 @@ To export data for your organization, you can:
    {{% image src="/deepdive/download-pentest-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
 
-   {{%expand "A pentest report:" %}}
+   {{%expand "A Comprehensive pentest report:" %}}
    {{% download-report-steps %}}
    {{% image src="/deepdive/download-pentest-report.png" alt="Download reports for a Comprehensive Pentest" %}}
    {{% /expand%}}
@@ -118,7 +118,7 @@ To export data for your organization, you can:
    {{% /expand%}}
 
    {{%expand "Credit ledger:" %}}
-   1. Navigate to the **Credits** page.
-   2. Select **Download CSV**.
+   - Navigate to the **Credits** page.
+   - Select **Download CSV**.
    {{% image src="/deepdive/download-credits.png" alt="Download credit ledger" %}}
    {{% /expand%}}
