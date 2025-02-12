@@ -89,7 +89,8 @@ Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-ri
 
    {{%expand "An engagement report:" %}}
    1. On the engagement page, navigate to the **Report** tab.
-   2. XXXX
+   2. Select the report type.
+   3. Select **Download**.
    {{% image src="/deepdive/download-engagement-report.png" alt="Download an engagement report" %}}
    {{% /expand%}}
    <br>
