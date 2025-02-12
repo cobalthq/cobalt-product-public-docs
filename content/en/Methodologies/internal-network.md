@@ -94,9 +94,8 @@ During this testing phase, pentesters use multiple tools, such as:
 
 ## Manual Assessment
 
-{{% network-manual-intro %}}
+During manual assessment, Cobalt’s pentesters examine specific resources that they identified. In most cases, pentesters focus on visibly open services:
 
-{{% network-manual-list %}}
 - Web/FTP/Email/DNS servers
 - Active Directory (AD) servers and all associated clients
 - Domain Controllers (DC)
