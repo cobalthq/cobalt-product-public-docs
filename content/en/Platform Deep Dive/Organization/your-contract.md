@@ -73,12 +73,12 @@ Read our [API documentation](/cobalt-api/documentation/v2) for details. You can 
 
 Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key next to each item below for specific instructions.
 
-       {{%expand "All findings for a pentest:" %}}
-       1. On the pentest page, navigate to the **Findings** tab.
-       2. To clear all filters, select **Clear all**.
-       3. Select **Download CSV**.
-       {{% image src="/deepdive/download-pentest-findings.png" alt="Download all findings for a pentest" %}}
-       {{% /expand%}}
+   {{%expand "All findings for a pentest:" %}}
+   1. On the pentest page, navigate to the **Findings** tab.
+   2. To clear all filters, select **Clear all**.
+   3. Select **Download CSV**.
+   {{% image src="/deepdive/download-pentest-findings.png" alt="Download all findings for a pentest" %}}
+   {{% /expand%}}
 
    {{%expand "A pentest report:" %}}
    {{% download-report-steps %}}
