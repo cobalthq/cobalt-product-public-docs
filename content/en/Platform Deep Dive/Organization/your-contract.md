@@ -84,41 +84,36 @@ To export data for your organization, you can:
    1. On the engagement page, navigate to the **Report** tab.
    2. XXXX
    {{% image src="/deepdive/download-engagement-report.png" alt="Download an engagement report" %}}
-   3. 
    {{% /expand%}}
   
    {{%expand "All findings across different test types:" %}}
-   1. Navigate to the **Findings** page.
-   2. Apply any filters as needed.
-   3. Select **Download CSV**.
+   1. On the main **Findings** page, apply any filters as needed.
+   2. Select **Download CSV**.
    {{% image src="/deepdive/download-findings.png" alt="Download all findings" %}}
    {{% /expand%}}
   
    {{%expand "All Attack Surface domains:" %}}
-   1. Navigate to the **Attack Surface** page.
-   2. Select a domain.
-   3. Filter targets by Seen, Unseen, or All, and apply any additional filters as needed.
-   4. Select **Download CSV**.
+   1. On the **Attack Surface** page, select a domain.
+   2. Filter targets by Seen, Unseen, or All, and apply any additional filters as needed.
+   3. Select **Download CSV**.
    {{% image src="/deepdive/download-ASM-domains.png" alt="Download all Attack Surface Domains" %}}
    {{% /expand%}}
   
    {{%expand "A DAST report:" %}}
-   1. Navigate to the **DAST Scanner** page.
+   1. On the **DAST Scanner** page, navigate to the **Targets** tab.
+     a. The same option is available on the Scans page and individual scan detail page.   
    2. For any one target, select **Download**.
-     3. The same option is available on the Scans page and individual scan detail page.   
-   4. Select from a list of report types to download.
+   3. Select from a list of report types to download.
    {{% image src="/deepdive/download-DAST-report.png" alt="Download a DAST report" %}}
    {{% /expand%}}
 
    {{%expand "Insights:" %}}
-   1. Navigate to the **Insights** page.
-   2. Apply any filters as needed.
-   3. Select **Download CSV**.
+   1. On the **Insights** page, apply any filters as needed.
+   2. Select **Download CSV**.
    {{% image src="/deepdive/download-insights.png" alt="Download insights" %}}
    {{% /expand%}}
 
    {{%expand "Credit ledger:" %}}
-   - Navigate to the **Credits** page.
-   - Select **Download CSV**.
+   - On the **Credits** page, select **Download CSV**.
    {{% image src="/deepdive/download-credits.png" alt="Download credit ledger" %}}
    {{% /expand%}}
