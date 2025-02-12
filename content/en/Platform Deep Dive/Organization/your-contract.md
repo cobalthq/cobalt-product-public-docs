@@ -67,6 +67,7 @@ To export data for your organization, you can:
     - [Get all DAST targets](/cobalt-api/documentation/v2/#get-all-dast-targets)
 
 - **Manually download data in the Cobalt app.** Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key next to each item below for specific instructions.
+
    {{%expand "Download all findings for a pentest:" %}}
    1. On the pentest page, navigate to the **Findings** tab.
    2. To clear all filters, select **Clear all**.
@@ -85,25 +86,32 @@ To export data for your organization, you can:
    {{% /expand%}}
   
    {{%expand "Download all findings across different test types:" %}}
-   1. On the Findings page, apply any filters as needed, and select **Download CSV**.
-   {{% /expand%}}
-  
-   {{%expand "Download all Attack Surface domains:" %}}
-   1. On the Attack Surface page, select a domain.
-   2. Filter targets by Seen, Unseen, or All, and apply any additional filters as needed.
+   1. Navigate to the **Findings** page.
+   2. Apply any filters as needed.
    3. Select **Download CSV**.
    {{% /expand%}}
   
+   {{%expand "Download all Attack Surface domains:" %}}
+   1. Navigate to the **Attack Surface** page.
+   2. Select a domain.
+   3. Filter targets by Seen, Unseen, or All, and apply any additional filters as needed.
+   4. Select **Download CSV**.
+   {{% /expand%}}
+  
    {{%expand "Download a DAST report:" %}}
-   1. On the DAST Scanner page, select the **Download** for a target.
-     2. The same option is available on the Scans page and individual scan detail page.   
-   3. Select from a list of report types to download.
+   1. Navigate to the **DAST Scanner** page.
+   2. For any one target, select **Download**.
+     3. The same option is available on the Scans page and individual scan detail page.   
+   4. Select from a list of report types to download.
    {{% /expand%}}
-  
-   {{%expand "Download the credit ledger:" %}}
-   1. On the Credits page, select **Download CSV**.
-   {{% /expand%}}
-  
+
    {{%expand "Download asset insights:" %}}
-   1. On the Insights page, apply any filters as needed, and select **Download CSV**.
+   1. Navigate to the **Insights** page.
+   2. Apply any filters as needed.
+   3. Select **Download CSV**.
+   {{% /expand%}}
+
+   {{%expand "Download the credit ledger:" %}}
+   1. Navigate to the **Credits** page.
+   2. Select **Download CSV**.
    {{% /expand%}}
