@@ -105,7 +105,7 @@ To export data for your organization, you can:
    4. Select from a list of report types to download.
    {{% /expand%}}
 
-   {{%expand "Download asset insights:" %}}
+   {{%expand "Download findings insights:" %}}
    1. Navigate to the **Insights** page.
    2. Apply any filters as needed.
    3. Select **Download CSV**.
