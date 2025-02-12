@@ -97,7 +97,7 @@ Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-ri
   
    {{%expand "All findings across different test types:" %}}
    1. On the main **Findings** page, apply any filters as needed.
-   2. Select **Download CSV**.
+   2. Select **Download**.
    {{% image src="/deepdive/download-findings.png" alt="Download all findings" %}}
    {{% /expand%}}
    <br>
@@ -105,7 +105,7 @@ Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-ri
    {{%expand "All Attack Surface domains:" %}}
    1. On the **Attack Surface** page, select a domain.
    {{% image src="/deepdive/download-ASM-domains-1.png" alt="Download all Attack Surface Domains" %}}
-   2. Filter targets by Seen, Unseen, or All, and apply any additional filters as needed.
+   2. Filter targets by Seen, Unused, or All, and apply any additional filters as needed.
    3. Select **Download CSV**.
    {{% image src="/deepdive/download-ASM-domains-2.png" alt="Download all Attack Surface Domains" %}}
    {{% /expand%}}
@@ -113,16 +113,16 @@ Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-ri
   
    {{%expand "A DAST report:" %}}
    1. On the **DAST Scanner** page, navigate to the **Targets** tab.
-      * The same option is available on the Scans page and individual scan detail page.   
    2. For any one target, select **Download**.
    3. Select from a list of report types to download.
+      * The same option is available on the Scans page and individual scan detail page.
    {{% image src="/deepdive/download-DAST-report.png" alt="Download a DAST report" %}}
    {{% /expand%}}
    <br>
 
    {{%expand "Insights:" %}}
    1. On the **Insights** page, apply any filters as needed.
-   2. Select **Download CSV**.
+   2. Select **Download**.
    {{% image src="/deepdive/download-insights.png" alt="Download insights" %}}
    {{% /expand%}}
    <br>
