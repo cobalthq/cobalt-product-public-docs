@@ -64,10 +64,8 @@ To export data for your organization, you can:
     - [Get all engagement findings](/cobalt-api/documentation/v2/#get-all-engagement-findings)
   - DAST
     - [Get all DAST findings](/cobalt-api/documentation/v2/#get-all-dast-findings)
-    - [Get all DAST scans](/cobalt-api/documentation/v2/#get-all-dast-scans)
     - [Get all DAST targets](/cobalt-api/documentation/v2/#get-all-dast-targets)
-  - Attack Surface 
-    - [????](/cobalt-api/documentation/v2/#get-attack-surface)
+
 - **Manually download data in the Cobalt app.** Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key next to each item below for specific instructions.
    {{%expand "Download all findings for a pentest:" %}}
    1. On the pentest page, navigate to the **Findings** tab.
@@ -76,12 +74,12 @@ To export data for your organization, you can:
    {{% image src="/deepdive/download-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
 
-   {{%expand "Download a report as a PDF file:" %}}
+   {{%expand "Download a pentest report:" %}}
    {{% download-report-steps %}}
    {{% image src="/deepdive/download-report.png" alt="Download reports for a Comprehensive Pentest" %}}
    {{% /expand%}}
 
-   {{%expand "Download engagement reports:" %}}
+   {{%expand "Download an engagement report:" %}}
    1. On the engagement page, navigate to the **Report** tab.
    2. XXXX
    {{% /expand%}}
@@ -90,13 +88,13 @@ To export data for your organization, you can:
    1. On the Findings page, apply any filters as needed, and select **Download CSV**.
    {{% /expand%}}
   
-   {{%expand "Download all domains:" %}}
+   {{%expand "Download all Attack Surface domains:" %}}
    1. On the Attack Surface page, select a domain.
    2. Filter targets by Seen, Unseen, or All, and apply any additional filters as needed.
    3. Select **Download CSV**.
    {{% /expand%}}
   
-   {{%expand "Download individual DAST reports:" %}}
+   {{%expand "Download a DAST report:" %}}
    1. On the DAST Scanner page, select the **Download** for a target.
      2. The same option is available on the Scans page and individual scan detail page.   
    3. Select from a list of report types to download.
@@ -106,6 +104,6 @@ To export data for your organization, you can:
    1. On the Credits page, select **Download CSV**.
    {{% /expand%}}
   
-   {{%expand "Download insights:" %}}
+   {{%expand "Download asset insights:" %}}
    1. On the Insights page, apply any filters as needed, and select **Download CSV**.
    {{% /expand%}}
