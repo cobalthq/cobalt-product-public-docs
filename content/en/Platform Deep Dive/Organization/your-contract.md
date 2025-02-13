@@ -82,7 +82,7 @@ Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-ri
    <br>
 
    {{%expand "A pentest report:" %}}
-   {{% download-report-steps %}}
+   {{% download-pentest-report-steps %}}
    {{% image src="/deepdive/download-pentest-report.png" alt="Download reports for a Comprehensive Pentest" %}}
    {{% /expand%}}
    <br>
