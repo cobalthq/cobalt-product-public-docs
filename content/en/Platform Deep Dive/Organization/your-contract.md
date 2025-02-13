@@ -115,7 +115,7 @@ Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-ri
    1. On the **DAST Scanner** page, navigate to the **Targets** tab.
    2. For any one target, select **Download**.
    3. Select from a list of report types to download.
-      * The same option is available on the Scans page and individual scan detail page.
+      * The same option is available on the Scans page and individual scan details page.
    {{% image src="/deepdive/download-DAST-report.png" alt="Download a DAST report" %}}
    {{% /expand%}}
    <br>
