@@ -50,23 +50,85 @@ Once the grace period is over, we revoke access to the platform from all organiz
 To renew your contract, reach out to your Customer Success Manager or support@cobalt.io.
 {{< /alert >}}
 
-## Download Your Organization's Pentest Data
+## Download Your Organization's Data
 
-To export pentest data for your organization, you can:
+To export data for your organization, you can:
 
-- Use the Cobalt API. Read our [API documentation](/cobalt-api/documentation/v2) for details. You can send API requests to retrieve pentest data, such as:
-  - [All pentests](/cobalt-api/documentation/v2/#get-all-pentests)
-  - [All findings](/cobalt-api/documentation/v2/#get-all-findings)
-  - [A pentest report](/cobalt-api/documentation/v2/#get-a-pentest-report)
-- Manually download [findings](/platform-deep-dive/pentests/findings/) and [reports](/platform-deep-dive/pentests/reports/) for each pentest in the Cobalt app. Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key for instructions.
-   {{%expand "To download all findings for a pentest:" %}}
+### Use the Cobalt API
+
+Read our [API documentation](/cobalt-api/documentation/v2) for details. You can send API requests to retrieve the following data:
+- **Pentests**
+   - [All pentests](/cobalt-api/documentation/v2/#get-all-pentests)
+   - [All pentest findings](/cobalt-api/documentation/v2/#get-all-findings)
+   - [A pentest report](/cobalt-api/documentation/v2/#get-a-pentest-report)
+- **Engagements**
+   - [All engagements](/cobalt-api/documentation/v2/#get-all-engagements)
+   - [All engagement findings](/cobalt-api/documentation/v2/#get-all-engagement-findings)
+- **DAST**
+   - [All DAST targets](/cobalt-api/documentation/v2/#get-all-dast-targets)
+   - [All DAST findings](/cobalt-api/documentation/v2/#get-all-dast-findings)
+
+
+### Manually download data in the Cobalt app
+
+Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key next to each item below for specific instructions.
+
+   {{%expand "All findings for a pentest:" %}}
    1. On the pentest page, navigate to the **Findings** tab.
-   1. To clear all filters, select **Clear all**.
-   1. Select **Download CSV**.<br><br>
-   ![Download all findings for a pentest](/deepdive/download-findings.png "Download all findings for a pentest")
+   2. To clear all filters, select **Clear all**.
+   3. Select **Download**.
+   {{% image src="/deepdive/download-pentest-findings.png" alt="Download all findings for a pentest" %}}
    {{% /expand%}}
+   <br>
 
-   {{%expand "To download a report as a PDF file:" %}}
-   {{% download-report-steps %}}<br><br>
-   ![Download reports for a Comprehensive Pentest](/deepdive/download-report.png "Download reports for a Comprehensive Pentest")
+   {{%expand "A pentest report:" %}}
+   {{% download-pentest-report-steps %}}
+   {{% image src="/deepdive/download-pentest-report.png" alt="Download reports for a Comprehensive Pentest" %}}
    {{% /expand%}}
+   <br>
+
+   {{%expand "An engagement report:" %}}
+   1. On the engagement page, navigate to the **Report** tab.
+   2. Select the report type.
+   3. Select **Download**.
+   {{% image src="/deepdive/download-engagement-report.png" alt="Download an engagement report" %}}
+   {{% /expand%}}
+   <br>
+  
+   {{%expand "All findings across different test types:" %}}
+   1. On the main **Findings** page, apply any filters as needed.
+   2. Select **Download**.
+   {{% image src="/deepdive/download-findings.png" alt="Download all findings" %}}
+   {{% /expand%}}
+   <br>
+  
+   {{%expand "All Attack Surface domains:" %}}
+   1. On the **Attack Surface** page, select a domain.
+   {{% image src="/deepdive/download-ASM-domains-1.png" alt="Download all Attack Surface Domains" %}}
+   2. Filter targets by Seen, Unused, or All, and apply any additional filters as needed.
+   3. Select **Download CSV**.
+   {{% image src="/deepdive/download-ASM-domains-2.png" alt="Download all Attack Surface Domains" %}}
+   {{% /expand%}}
+   <br>
+  
+   {{%expand "A DAST report:" %}}
+   1. On the **DAST Scanner** page, navigate to the **Targets** tab.
+   2. For any one target, select **Download**.
+   3. Select from a list of report types to download.
+      * The same option is available on the Scans page and individual scan details page.
+   {{% image src="/deepdive/download-DAST-report.png" alt="Download a DAST report" %}}
+   {{% /expand%}}
+   <br>
+
+   {{%expand "Insights:" %}}
+   1. On the **Insights** page, apply any filters as needed.
+   2. Select **Download**.
+   {{% image src="/deepdive/download-insights.png" alt="Download insights" %}}
+   {{% /expand%}}
+   <br>
+
+   {{%expand "Credit ledger:" %}}
+   - On the **Credits** page, select **Download CSV**.
+   {{% image src="/deepdive/download-credits.png" alt="Download credit ledger" %}}
+   {{% /expand%}}
+   <br>
