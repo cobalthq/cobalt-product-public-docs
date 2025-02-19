@@ -51,7 +51,7 @@ Cobalt tests any installed plugins for exploitations that pertain to overrelianc
 ### Downstream Services
 Cobalt will review services to confirm that library exploitation, plugin scams, compromised packages, and outdated or depreciated third-party components with documented vulnerabilities have not impacted training data. Cobalt will also review if any configurations are in place for human approval and if authorization is implemented in downstream systems.
 
-## Additional Methodology Information:
+### Additional Methodology Information:
 The [2025 OWASP LLM Top 10](https://genai.owasp.org/llm-top-10/) identifies the following vulnerabilities:
 
 - **LLM01**: Prompt Injection
