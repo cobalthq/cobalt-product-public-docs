@@ -6,14 +6,14 @@ description: >
   Review Cobalt pentest methodologies for an AI/LLM application.
 ---
 
-Cobalt follows an industry-standard methodology based on the [OWASP Top 10 for Large Language Model Applications]([https://genai.owasp.org/llm-top-10/](https://owasp.org/www-project-top-10-for-large-language-model-applications/)). 
+Cobalt follows an industry-standard methodology based on the [OWASP Top 10 for Large Language Model Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/). 
 
 Cobalt offers two levels of Artificial Intelligence (AI) and Large Language Model (LLM) pentesting for Web and Web + API Assets.
 
-- [LLM/AI Prompt Injection](#llm-prompt-injection) (+4 credits)
-Cobalt focused on testing AI systems security against prompt injection attacks. These attacks manipulate the AI’s input to generate malicious output, which can compromise the system’s integrity and confidentiality. Prompt Injection AI/LLM pentests are run as an Agile pentest with an [automated report](/platform-deep-dive/pentests/reports/#pentest-report-types).
+### Prompt Injection (+4 credits)
+Cobalt focuses on testing AI systems security against prompt injection attacks. These attacks manipulate the AI’s input to generate malicious output, which can compromise the system’s integrity and confidentiality. Prompt Injection AI/LLM pentests are run as an Agile pentest with an [automated report](/platform-deep-dive/pentests/reports/#pentest-report-types).
 
-- [Full Coverage LLM](#llm) (+16 credits)
+### Full Coverage LLM (+16 credits)
 Cobalt tests LLMs against the [Open Web Application Security Project (OWASP) Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/). Cobalt checks if AI applications are protected against unauthorized access, data breaches, and disruptions. This is run as a Comprehensive pentest for full coverage of the LLM, and its web and API connections, which includes a final pentest analysis and report.
 
 For a Full Coverage LLM, Cobalt performs the following steps to ensure complete coverage:
