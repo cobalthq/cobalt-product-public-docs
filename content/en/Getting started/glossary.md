@@ -141,7 +141,7 @@ A systematic process for identifying, analyzing, and prioritizing potential thre
 
 ## Dynamic Web Page
 
-A web page with dynamic content that a user can interact with. The content can be built on the server or the client side. Contrast with [Static Web Pages](#static-web-page).
+A unique web page that facilitates user interaction, such as submitting data, entering parameters, or uploading content. Contrast with [Static Web Pages](#static-web-page).
 
 ## Environment
 
