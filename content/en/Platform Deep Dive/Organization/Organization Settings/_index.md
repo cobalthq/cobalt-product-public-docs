@@ -28,5 +28,4 @@ Both [Organization Owners](/platform-deep-dive/collaboration/user-roles/#organiz
 
 Only [Organization Owners](/platform-deep-dive/collaboration/user-roles/#organization-owner) can manage security settings on the **Identity & Access** tab:
 
-- [Enforce two-factor authentication](/platform-deep-dive/organization/organization-settings/enforce-2fa/) for all users within the organization.
 - Configure [SAML-based single sign-on (SSO)](/platform-deep-dive/organization/organization-settings/saml-sso/).
