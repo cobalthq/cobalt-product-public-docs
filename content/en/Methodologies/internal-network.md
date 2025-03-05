@@ -15,6 +15,8 @@ Internal network penetration testing is a process in which a tester uses simulat
 
 {{% osstmm-methodology %}}
 
+![External internal network pentest methodology process](/methodologies/external-internal-network-pentest-methodology-process.png "External internal network pentest methodology process")
+
 Penetration testing of an internal network includes the following stages:
 - [Service discovery](#service-discovery)
 - [Vulnerability scans](#vulnerability-scans)
