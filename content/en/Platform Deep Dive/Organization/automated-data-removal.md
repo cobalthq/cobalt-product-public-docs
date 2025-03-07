@@ -13,15 +13,11 @@ When your organization's contract expires, the associated data will be removed a
 
 When your contract ends, a 30-day grace period begins during which you will still have access to the platform to export any necessary data. You will also receive a notification about this. If the contract is renewed, the grace period will be lifted.
 
-<!-- ![Contract gate after grace period](/deepdive/ContractGateAfterGracePeriod.png "Contract gate after grace period") -->
 {{% image src="/deepdive/ContractGateAfterGracePeriod.png" alt="scan statuses" class="mt0" %}}
-
 
 After the grace period, access to the platform will be revoked. However, your data will remain in our system for an additional 90 days (termination period). 
 
-<!-- ![Confirm to retain data](/deepdive/ConfirmToRetainData.png "Confirm to retain data") -->
 {{% image src="/deepdive/ConfirmToRetainData.png" alt="scan statuses" class="mt0" %}}
-
 
 You can extend this termination period by an additional 90 days if confirmed before the end of the initial period.
 
@@ -43,6 +39,8 @@ The following user roles will receive email notifications about data removal:
 - Customer Success Managers
 
 ## Notification Schedule
+
+{{% image src="/deepdive/DataRemovalReminder.png" alt="scan statuses" class="mt0" %}}
 
 The following notifications will be sent:
 
