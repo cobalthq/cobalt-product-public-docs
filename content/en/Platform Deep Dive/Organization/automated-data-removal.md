@@ -18,7 +18,7 @@ After the grace period, you will still be able to sign in to the platform but wi
 
 {{% image src="/deepdive/ConfirmToRetainData.png" alt="confirm to retain data" class="mt0" %}}
 
-You can extend this termination period by an additional 90 days if confirmed before the end of the initial period. The termination period can only be extended once and only organization owners will be able to do this.
+You can extend this termination period by an additional 90 days if confirmed before the end of the initial period. The termination period can only be extended once and only Organization Owners will be able to do this.
 If you wish to have your data removed earlier, please reach out to your Customer Success Manager (CSM).
 
 ## Data Subject to Removal
