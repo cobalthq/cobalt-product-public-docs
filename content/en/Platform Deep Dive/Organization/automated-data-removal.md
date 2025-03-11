@@ -10,7 +10,7 @@ description: >
 When your organization's contract expires, the associated data will be removed after a predefined period of time. This period can be extended based on certain conditions. Learn more about our [privacy policy](https://cobalt.io/terms#privacy).
 {{% /pageinfo %}}
 
-When your contract ends, a 15-day grace period begins during which you will still have access to the platform to [export any necessary data](/platform-deep-dive/organization/your-contract/#download-your-organizations-data). Organization Owners will also receive a notification about this. If the contract is renewed, full access to your account will be restored.
+When your contract ends, a 15-day grace period begins during which you will still have access to the platform to [export any necessary data](/platform-deep-dive/organization/your-contract/#download-your-organizations-data). If the contract is renewed, full access to your account will be restored.
 
 {{% image src="/deepdive/ContractGateAfterGracePeriod.png" alt="contract gate after grace period" class="mt0" %}}
 
