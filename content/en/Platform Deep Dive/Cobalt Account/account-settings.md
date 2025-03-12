@@ -53,13 +53,6 @@ To manage two-factor authentication (2FA) settings for your account, select **Se
 
 ### Two-Factor Authentication
 
-{{% alert title="Note" color="primary" %}}
-
-Starting March 19, all users signing in with a username/password will be required to set up a 2FA method.
-If you don't have 2FA configured by then, you will be asked to configure it the next time you sign in.
-
-{{% /alert %}}
-
 #### Enable Two-Factor Authentication
 
 If you're **signing in with your email and password**, you can enable two-factor authentication (2FA) to protect your account. 2FA adds another layer of security to your account by requiring more than just a password to sign in.
