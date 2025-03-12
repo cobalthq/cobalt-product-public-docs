@@ -2,7 +2,7 @@
 title: "Azure Active Directory Penetration Testing Methodologies"
 nav_exclude: true
 linkTitle: "Azure AD Methodologies"
-weight: 220
+weight: 0
 description: >
   Review Cobalt pentest methodologies for Azure Active Directory.
 ---
