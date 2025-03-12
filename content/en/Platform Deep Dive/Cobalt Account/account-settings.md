@@ -55,7 +55,7 @@ To manage two-factor authentication (2FA) settings for your account, select **Se
 
 {{% alert title="Note" color="primary" %}}
 
-Starting March 19 all users signing in with username/password will be required to set up a 2FA method.
+Starting March 19, all users signing in with a username/password will be required to set up a 2FA method.
 If you don't have 2FA configured by then, you will be asked to configure it the next time you sign in.
 
 {{% /alert %}}
