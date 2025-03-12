@@ -1,5 +1,6 @@
 ---
 title: "Azure Active Directory Penetration Testing Methodologies"
+nav_exclude: true
 linkTitle: "Azure AD Methodologies"
 weight: 220
 description: >
