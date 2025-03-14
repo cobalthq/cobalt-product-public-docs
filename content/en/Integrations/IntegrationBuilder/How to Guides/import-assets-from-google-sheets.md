@@ -24,26 +24,20 @@ The following is a step-by-step guide to walk you through the configuration proc
 
 To import assets from Google Sheets into the Cobalt platform, first create a spreadsheet with the following columns: `Title`, `Type`, `Description`.
 `Title` and `Description` can be anything, but `Type` needs to be one of the following:
-- `unknown`
+
 - `web`
 - `mobile`
 - `external_network`
 - `api`
-- `cloud_config`
-- `desktop_obsolete`
 - `internal_network`
 - `web_plus_api`
 - `web_plus_external_network`
 - `web_plus_mobile`
-- `wireless_network`
-- `iot`
-- `desktop`
-- `physical`
-- `other`
+- `web_plus_mobile_plus_api`
 - `web_plus_api_plus_external_network`
 - `internal_network_plus_external_network`
 - `mobile_plus_api`
-- `web_plus_mobile_plus_api`
+
 
 Here's an example of what that could look like:
 {{% image src="/integrations/integration_builder/how_to_guides/import-assets-from-google-sheets/spreadsheet-example.png" alt="Example spreadsheet" %}}

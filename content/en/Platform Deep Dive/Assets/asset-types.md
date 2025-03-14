@@ -13,7 +13,3 @@ description: >
 We can perform pentests on assets in the following categories:
 
 {{% asset-types-table %}}
-
-{{< alert title="Additional Asset Types" color="primary" >}}
-We support additional asset types for advanced engagements conducted by the Cobalt Cybersecurity Services team: **IoT**, **Physical**, **Wireless Network**, and more. Learn more about [Cybersecurity Services](/cybersecurity-services/).
-{{< /alert >}}

@@ -71,22 +71,6 @@ network, include the location in the diagram.
 Add network information, including the IP address / hostname of the
 jump box.
 
-### Cloud Configuration Assets
-
-Our pentesters need to know how you've set up and use your cloud assets.
-Even when your cloud assets stand alone, they may share features with 
-other types of assets.
-
-For example, if you have dedicated roles to maintain cloud assets, describe
-them as you would describe a web app asset.
-
-Make sure to include the:
-
-- Cloud provider
-- Service
-- Unique users / roles
-- Applicable network / architecture diagrams
-
 ## Attachments
 
 To share more about your assets, you can upload the documentation of your choice under **Attachment(s)**. Our app limits uploads to 100 MB.
