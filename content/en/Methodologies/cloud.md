@@ -1,7 +1,7 @@
 ---
 title: "Cloud Configuration Pentests"
 linkTitle: "Cloud Configuration Pentest Methodologies"
-weight: 0
+toc_hide = true
 description: >
   Review methodologies for Cloud Configurations.
 aliases:
