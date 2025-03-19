@@ -57,11 +57,11 @@ To manage two-factor authentication (2FA) settings for your account, select **Se
 
 If you're **signing in with your email and password**, you will only be able to access your account after enabling two-factor authentication. In case it's not configured, you will be required to do so right after signing in. 2FA adds another layer of security to your account by asking for more than just a password.
 
-![Setup Authenticator](/deepdive/SetupAuthenticatorDuringSignin.png "Setup Authenticator")
+{{% image src="SetupAuthenticatorDuringSignin.png" alt="Setup Authenticator" %}}
 
 Follow the instructions on the screen to complete the process. Use an authenticator of your choice, such as [Authy](https://authy.com/) or [Google Authenticator](https://support.google.com/accounts/answer/1066447).
 
-![Copy Recovery Code](/deepdive/CopyRecoveryCode.png "Copy Recovery Code")
+{{% image src="CopyRecoveryCode.png" alt="Copy Recovery Code" %}}
 
 After selecting Continue, you will see your [recovery code](/getting-started/glossary/#recovery-code). Save the code. After you close the overlay, you won’t see the code again.
 
@@ -69,7 +69,7 @@ After selecting Continue, you will see your [recovery code](/getting-started/glo
 
 #### Manage 2FA Devices
 
-![Manage 2FA](/deepdive/Manage2FA.png "Manage 2FA")
+{{% image src="Manage2FA.png" alt="Manage 2FA" %}}
 
 When you add a new 2FA device, it appears on the account security page<!--under **Current Devices**-->. Here, you can see the authenticator app that generates one-time codes required for authentication to your Cobalt account.
 
@@ -81,7 +81,7 @@ You can remove your current 2FA device and add a new one for added security, ass
 
 To remove a 2FA device:
 
-![Remove authenticator device](/deepdive/RemoveAuthenticatorDevice.png "Manage Authenticator Devices")
+{{% image src="RemoveAuthenticatorDevice.png" alt="Remove authenticator device" %}}
 
 1. Navigate to https://app.cobalt.io/settings/security/2fa.
 1. Under **Two-Factor Authentication (2FA)**, select **Manage**.
@@ -100,4 +100,4 @@ Learn how to:
 - [Create an API token](/cobalt-api/create-personal-api-token/)
 - [Revoke API tokens](/cobalt-api/revoke-personal-api-tokens/)
 
-![Create and manage API tokens to work with the Cobalt API](/deepdive/API-tokens-page.png "API Tokens page")
+{{% image src="/scans/10_ScheduledScanForm.png" alt="API Tokens page" %}}
