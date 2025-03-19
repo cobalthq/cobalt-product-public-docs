@@ -2,6 +2,7 @@
 title: "Cybersecurity Services"
 linkTitle: "Cybersecurity Services"
 weight: 6
+toc_hide: = true
 no_list: true
 description: >
   Run engagements with the Cobalt Cybersecurity Services team.
