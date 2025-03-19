@@ -1,17 +1,17 @@
 ---
-title: "Cobalt Penetration Testing Methodologies"
+title: "Cobalt Testing Methodologies"
 linkTitle: "Methodologies"
 weight: 7
 no_list: true
 description: >
-  An overview of Cobalt pentest methodologies.
+  An overview of Cobalt methodologies.
 aliases:
     - /getting-started/pentest-objectives/methodologies/
     - /platform-deep-dive/pentests/pentest-process/methodologies/
 ---
 
 {{% pageinfo %}}
-Cobalt pentesters follow specific methodologies for different types of assets.
+Cobalt pentesters follow specific methodologies for different test and asset types.
 {{% /pageinfo %}}
 
 By default, our pentesters test for industry standard vulnerabilities from:
@@ -29,24 +29,11 @@ asset.
 - [Mobile](/methodologies/mobile/)
 - [Internal Network](/methodologies/internal-network/)
 - [External Network](/methodologies/external-network/)
-- [Cloud](/methodologies/cloud/)
 - [Desktop](/methodologies/desktop/)
-- [Azure AD](/methodologies/azure-ad/)
 - [AI/LLM](/methodologies/ai-llm/)
 
-In most cases, the Methodology is fixed, based on the [Asset Type](/platform-deep-dive/assets/asset-types/)
-you defined earlier. However, if you selected a combined asset type, such as Web + API, you
+The Methodology is usually fixed, based on the Test Type or the [Asset Type](/platform-deep-dive/assets/asset-types/)
+you defined earlier. If you choose a combined asset type, such as Web + API, you
 can limit the test to either of the individual methodologies:
 
 ![Choice of Methodologies](/gsg/WebOrAPI.png "Choose a pentest methodology for Web + API assets")
-
-Review the methodology for your asset, from the links shown earlier. Each methodology
-includes default requirements based on standards such as:
-
-- [OWASP](/getting-started/glossary/#open-web-application-security-project-owasp)
-- [OSSTMM](/getting-started/glossary/#open-source-security-testing-methodology-manual-osstmm)
-
-You're welcome to include additional requirements.
-
-Next, you'll want to set up and share [Test Credentials](/getting-started/pentest-objectives/test-credentials/) for your
-pentesters.

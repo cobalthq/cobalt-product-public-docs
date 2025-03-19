@@ -63,7 +63,7 @@ weight = 1
 description = "Documentation for Penetration testing as a Service"
 time_format_default = "January 02, 2006"
 time_format_blog = "01.02.2006"
-
+hidden = "true"
 
 [markup]
   [markup.goldmark]

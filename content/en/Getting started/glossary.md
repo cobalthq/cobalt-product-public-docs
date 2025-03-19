@@ -295,10 +295,6 @@ Pentest identifier on the Cobalt platform that starts with `#`. You can see the 
 
 ![Pentest tag](/gsg/pentest-tag.png "Pentest tag")
 
-## Projects (Cloud Assets)
-
-All resources included in your cloud [asset](#asset). For example, [AWS defines a project](https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/create-project.html) as a collection of resources associated with an asset.
-
 ## PtaaS Pentest
 
 A pentest that [Cobalt pentesters](#pentester) perform on the Cobalt [Pentest as a Service (PtaaS)](#pentest-as-a-service-ptaas) platform for a customer. This includes the following pentest types:
@@ -368,10 +364,6 @@ A user assigned as the point of contact on a pentest may be contacted by Cobalt 
 
 Learn more about [assigning a point of contact](/getting-started/planning/#assign-a-point-of-contact).
 
-## Projects (Cloud Assets)
-
-All resources included in your cloud [asset](#asset). For example, [AWS defines a project](https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/create-project.html) as a collection of resources associated with an asset.
-
 ## Recovery Code
 
 A recovery option, with [2FA](#multi-factor-authentication) enabled, to regain entry into your account if you lose access to your device and/or authenticator app.
@@ -386,10 +378,6 @@ To fix a vulnerability identified by a pentest or incident report. Examples:
 Contrast with [mitigate](#mitigate). This reflects how we use **remediate** at
 Cobalt, and differs slightly from the NIST definition of 
 [remediation](https://csrc.nist.gov/glossary/term/remediation).
-
-## Resource Group (Cloud)
-
-A set of resources in a cloud [asset](#asset). For more information, see [Google GCP documentation](https://cloud.google.com/monitoring/groups).
 
 ## RESTful API
 
