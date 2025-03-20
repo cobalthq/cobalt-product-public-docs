@@ -53,48 +53,35 @@ To manage two-factor authentication (2FA) settings for your account, select **Se
 
 ### Two-Factor Authentication
 
-{{% alert title="Note" color="primary" %}}
-
-Starting March 19, all users signing in with a username/password will be required to set up a 2FA method.
-If you don't have 2FA configured by then, you will be asked to configure it the next time you sign in.
-
-{{% /alert %}}
-
 #### Enable Two-Factor Authentication
 
-If you're **signing in with your email and password**, you can enable two-factor authentication (2FA) to protect your account. 2FA adds another layer of security to your account by requiring more than just a password to sign in.
+If you're **signing in with your email and password**, you will only be able to access your account after enabling two-factor authentication. In case it's not configured, you will be required to do so right after signing in. 2FA adds another layer of security to your account by asking for more than just a password.
 
-- Even if your organization doesn't [enforce 2FA](/platform-deep-dive/organization/organization-settings/enforce-2fa/) for all users, we recommend that you enable it to enhance your account security.
-- If you're signing in through single sign-on, 2FA doesn't apply. This includes [SAML SSO](/getting-started/sign-in/#saml-sso) and OAuth.
+{{% image src="/deepdive/SetupAuthenticatorDuringSignin.png" alt="Setup Authenticator" %}}
 
-To enable 2FA on your account:
+Follow the instructions on the screen to complete the process. Use an authenticator of your choice, such as [Authy](https://authy.com/) or [Google Authenticator](https://support.google.com/accounts/answer/1066447).
 
-<iframe width="600" height="301" src="https://www.loom.com/embed/3b33b59038374e2fa09f6f3f0fb5a2fb?sid=4a203b01-bbdd-4957-b5a0-64ceeb37d002?hide_owner=true&hide_share=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{{% image src="/deepdive/CopyRecoveryCode.png" alt="Copy Recovery Code" %}}
 
-1. Navigate to https://app.cobalt.io/settings/security/2fa.
-2. Under **Two-Factor Authentication (2FA)**, select **Manage**, and reauthenticate to your account.
-3. To add a new authenticator device, select **Set Up**.
-4. Follow the instructions on the screen to complete the process. Use an authenticator of your choice, such as [Authy](https://authy.com/) or [Google Authenticator](https://support.google.com/accounts/answer/1066447).
-5. After selecting **Continue**, you will see your [recovery code](/getting-started/glossary/#recovery-code). Save the code. After you close the overlay, you won’t see the code again.
+After selecting Continue, you will see your [recovery code](/getting-started/glossary/#recovery-code). Save the code. After you close the overlay, you won’t see the code again.
 
-Now, each time you sign in to Cobalt, you must enter a one-time code from your authenticator app. If you have problems signing in with 2FA, see our [troubleshooting tips](/platform-deep-dive/cobalt-account/account-recovery/#problems-with-two-factor-authentication).
+> If you're signing in through single sign-on, 2FA doesn't apply. This includes [SAML SSO](/getting-started/sign-in/#saml-sso) and OAuth.
 
 #### Manage 2FA Devices
+
+{{% image src="/deepdive/Manage2FA.png" alt="Manage 2FA" %}}
 
 When you add a new 2FA device, it appears on the account security page<!--under **Current Devices**-->. Here, you can see the authenticator app that generates one-time codes required for authentication to your Cobalt account.
 
 #### Reset Two-Factor Authentication
 
-We don't recommend turning off 2FA on your account. However, you may need to reset your 2FA methods when:
+We don't recommend turning off 2FA on your account. However, you may need to reset your 2FA methods when your authenticator device was lost or stolen.
 
-- Your authenticator device was lost or stolen.
-
-You can remove your current 2FA device and add a new one for added security.
+You can remove your current 2FA device and add a new one for added security, assuming you're still signed in or marked your machine to be remembered for 30 days (during sign-in).
 
 To remove a 2FA device:
 
-<iframe width="600" height="426" src="https://www.loom.com/embed/779b1b5ca1754b5aa7f7d4247202c836?sid=419a5bf0-1eed-4447-a215-73eb581321e8?hide_owner=true&hide_share=true&hideEmbedTopBar=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+{{% image src="/deepdive/RemoveAuthenticatorDevice.png" alt="Remove authenticator device" %}}
 
 1. Navigate to https://app.cobalt.io/settings/security/2fa.
 1. Under **Two-Factor Authentication (2FA)**, select **Manage**.
@@ -102,7 +89,7 @@ To remove a 2FA device:
 
 Now you can add a new 2FA device to protect your account.
 
-If you lose access to your authenticator, ask your Organization Owner to turn off 2FA or use your recovery code. For details, see [Lost Access to Your Authenticator](/platform-deep-dive/cobalt-account/account-recovery/#lost-access-to-your-authenticator).
+If you lost access to your authenticator and don't have access to the security setting anymore, ask your Organization Owner to turn off 2FA or use your recovery code. For details, see [Lost Access to Your Authenticator](/platform-deep-dive/cobalt-account/account-recovery/#lost-access-to-your-authenticator).
 
 ## Create and Manage API Tokens
 
@@ -113,4 +100,4 @@ Learn how to:
 - [Create an API token](/cobalt-api/create-personal-api-token/)
 - [Revoke API tokens](/cobalt-api/revoke-personal-api-tokens/)
 
-![Create and manage API tokens to work with the Cobalt API](/deepdive/API-tokens-page.png "API Tokens page")
+{{% image src="/scans/10_ScheduledScanForm.png" alt="API Tokens page" %}}
