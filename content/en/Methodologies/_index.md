@@ -1,5 +1,5 @@
 ---
-title: "Cobalt Testing Methodologies"
+title: "Cobalt Methodologies"
 linkTitle: "Methodologies"
 weight: 7
 no_list: true
@@ -29,6 +29,7 @@ asset.
 - [Mobile](/methodologies/mobile/)
 - [Internal Network](/methodologies/internal-network/)
 - [External Network](/methodologies/external-network/)
+- [Cloud Configuration Review](/methodologies/cloud-configuration-review/)
 - [Desktop](/methodologies/desktop/)
 - [AI/LLM](/methodologies/ai-llm/)
 

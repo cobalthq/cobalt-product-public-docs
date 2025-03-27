@@ -10,6 +10,6 @@ description: >
 {{% asset-definition %}}
 {{% /pageinfo %}}
 
-We can perform pentests on assets in the following categories:
+We provide security services for assets in the following categories:
 
 {{% asset-types-table %}}

@@ -69,6 +69,7 @@ Scoping parameters differ for each [asset type](/platform-deep-dive/assets/asset
 - [API](#api)
 - [External Network](#external-network)
 - [Internal Network](#internal-network)
+- [Cloud Config](#cloud-configuration-review)
 - [Desktop](#desktop)
 - [AI/LLM Pentest](#aillm-pentesting)
 - [Assets of multiple types](#assets-of-multiple-types)
@@ -130,6 +131,23 @@ To scope a pentest for an Internal Network asset, specify the number of IP addre
 | Parameter | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|
 | IP Addresses | Enter the number of active IP addresses in your internal network that need to be tested. |
+
+### Cloud Configuration Review
+
+Cobalt pentesters can conduct a configuration review of the following Cloud Service Providers: 
+
+- Amazon Web Services (AWS)
+- Microsoft Azure Cloud (Azure)
+- Google Cloud Platform (GCP)
+
+To scope a cloud configuration review, specify the number of the following characteristics of the asset that need to be reviewed.
+
+![Scoping parameters for a Cloud Configuration asset](/gsg/pentest-scoping-cloud-config.png "Scoping parameters for a Cloud Configuration asset")
+
+| Parameter | Definition | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
+|---|---|---|
+| Accounts, Projects, or Resource Groups | <p>Accounts refer to accounts in your AWS cloud asset.</p><p>[Projects](/getting-started/glossary/#projects-cloud-assets) are all resources included in your GCP cloud asset.</p><p>[Resource Groups](/getting-started/glossary/#resource-group-cloud) are sets of resources in an Azure cloud asset. | <p>Enter the total number of accounts, projects, or resource groups in your cloud asset that need to be reviewed.<ul><li>**AWS**: The number of AWS accounts within the AWS Organization. The IAM user that pentesters will use to enumerate and assess AWS configurations is set based upon these accounts.</li><li>**GCP**: The cloud configuration size is based on _Projects_. In Identity and Access Management (IAM), access is managed through IAM policies. An IAM policy can be attached to a Google Cloud Project. Each policy contains a collection of role bindings that associate one or more principals, such as users or service accounts, with an IAM role.</li><li>**Azure**: Subscriptions may contain various Resource Groups—containers that hold related resources for an Azure solution. The CIS Benchmark for Azure is assessed at the Subscription level.</li></ul> |
+| Unique Service Instances | <p>Unique services are the different functionalities that you’ve configured in your cloud environment. | <p>Enter the number of unique services in your cloud asset that need to be reviewed.<ul><li>Examples of services: EC2, S3, Comprehend, Kubernetes, Azure Bot Service, Cloud Storage, Azure Container Service.</li><li>Cobalt sizes _Unique Instance of Services Used_ for Cloud Configuration Reviews as we’re enumerating configurations, not hosts. Example: 100 EC2 instances using the same base image are considered redundant from the configuration perspective and counted as 1 unique service.</li></ul> |
 
 ### Desktop
 

@@ -10,7 +10,7 @@ description: >
 Help us find the right pentesters for your asset.
 {{% /pageinfo %}}
 
-For each asset, we provide guidance for each of the following asset types:  
+We provide guidance for each of the following asset types:  
 
 {{% asset-types-table %}}
 
