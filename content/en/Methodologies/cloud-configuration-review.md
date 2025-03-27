@@ -1,7 +1,7 @@
 ---
 title: "Cloud Configuration Review"
 linkTitle: "Cloud Configuration Review Methodologies"
-toc_hide: = true
+weight: = 200
 description: >
   Review methodologies for Cloud Configuration Reviews.
 aliases:
