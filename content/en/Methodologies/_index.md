@@ -29,6 +29,7 @@ asset.
 - [Mobile](/methodologies/mobile/)
 - [Internal Network](/methodologies/internal-network/)
 - [External Network](/methodologies/external-network/)
+- [Cloud Configuration Review](/methodologies/cloud-configuration-review/)
 - [Desktop](/methodologies/desktop/)
 - [AI/LLM](/methodologies/ai-llm/)
 
