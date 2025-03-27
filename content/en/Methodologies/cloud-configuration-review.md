@@ -70,7 +70,7 @@ Cloud Configuration Reviews meet the Security standards based on the Center for 
 
 [AWS CIS Benchmarks](https://www.cisecurity.org/benchmark/amazon_web_services) cover IAM, Storage, Logging, Monitoring, and Networking.
 
-#### Specific services that can be covered as part of the AWS configuration review include:
+Specific services that can be covered as part of the AWS configuration review include:
 
 1. AWS Cloudtrail
 2. AWS Cloudwatch
