@@ -141,7 +141,8 @@ Cobalt pentesters can conduct a configuration review of the following Cloud Serv
 - Google Cloud Platform (GCP)
 
 To scope a cloud configuration review, specify the number of the following characteristics of the asset that need to be reviewed.
-![Scoping parameters for an Internal Network asset](/gsg/pentest-scoping-ip-addresses.png "Scoping parameters for an Internal Network asset")
+
+![Scoping parameters for a Cloud Configuration asset](/gsg/pentest-scoping-cloud-config.png "Scoping parameters for a Cloud Configuration asset")
 
 | Parameter | Definition | <span style="background-color: #ECE6FA; padding: 2px;">Scoping Guidelines</span> |
 |---|---|---|
