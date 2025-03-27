@@ -3,7 +3,7 @@ title: "Cloud Configuration Review"
 linkTitle: "Cloud Configuration Review Methodologies"
 weight: 200
 description: >
-  Review methodologies for Cloud Configuration Reviews.
+  Review Cobalt methodologies for a Cloud Configuration Review.
 aliases:
     - /getting-started/pentest-objectives/methodologies/cloud/
     - /platform-deep-dive/pentests/pentest-process/methodologies/cloud/
