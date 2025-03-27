@@ -15,7 +15,6 @@ Secure code reviews are a specialized type of engagement that is not included in
 
 | **Feature** | Description |
 |---|---|
-| **Fulfilled by** | Cybersecurity Services |
 | **Number of credits** | Starting from 8 credits<sup>*</sup>, minimum of 4 days of effort |
 | **Number of testers** | Dependent on scope |
 | **Collaboration** | Slack |
