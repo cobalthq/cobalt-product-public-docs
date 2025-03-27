@@ -10,7 +10,7 @@ aliases:
 ---
 
 {{% pageinfo %}}
-{{% pentest-rigor %}}
+A Cloud Configuration Review is a configuration assessment of your AWS, Azure or GCP cloud environment against established security standards, including CIS benchmarks. This is a review-based assessment and does not include active exploitation of vulnerabilities. 
 {{% /pageinfo %}}
 
 We support Cloud Configuration Reviews for the following cloud environments:
