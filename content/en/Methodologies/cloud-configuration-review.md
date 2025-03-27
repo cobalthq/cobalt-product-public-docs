@@ -10,7 +10,7 @@ aliases:
 ---
 
 {{% pageinfo %}}
-A Cloud Configuration Review is a configuration assessment of your AWS, Azure or GCP cloud environment against established security standards, including CIS benchmarks. This is a review-based assessment and does not include active exploitation of vulnerabilities. 
+A Cloud Configuration Review is a configuration assessment of your AWS, Azure or GCP cloud environment against established security standards, including CIS benchmarks. This assessment is focused on reviewing and evaluating potential vulnerabilities without engaging in active exploitation.
 {{% /pageinfo %}}
 
 We support Cloud Configuration Reviews for the following cloud environments:
@@ -21,7 +21,7 @@ We support Cloud Configuration Reviews for the following cloud environments:
 
 Cobalt conducts a configuration review of your AWS, Azure, or GCP cloud environment against established security standards, including CIS benchmarks. 
 
-The goal of this assessment is to identify misconfigurations. We will outline the potential impact, and provide recommendations for remediation. Example findings include: overly permissive IAM policies, open security groups, and unencrypted storage buckets. **A Cloud Configuration Review does not involve active attempts to exploit vulnerabilities**. 
+The goal of this assessment is to identify misconfigurations. We will outline the potential impact, and provide recommendations for remediation. Example findings include: overly permissive IAM policies, open security groups, and unencrypted storage buckets. **This assessment is focused on reviewing and evaluating potential vulnerabilities without engaging in active exploitation.**. 
 
 For Cloud Configuration Reviews, our team follows these steps: 
 - Target scope reconnaissance
@@ -64,7 +64,7 @@ If available, you should also include the architecture of your cloud environment
 
 ### What is covered
 
-An AWS Cloud Configuration Review will identify misconfigurations. **This is a review-based assessment and does not include active exploitation of vulnerabilities**.
+An AWS Cloud Configuration Review will identify misconfigurations. **This assessment is focused on reviewing and evaluating potential vulnerabilities without engaging in active exploitation.**
 
 Cloud Configuration Reviews meet the Security standards based on the Center for Internet Security (CIS) Benchmarks. 
 
@@ -98,7 +98,7 @@ Our pentesters need access to review your GCP configurations. You should prepare
 
 ### What is covered
 
-A GCP Cloud Configuration Review will identify misconfigurations. **This is a review-based assessment and does not include active exploitation of vulnerabilities**.
+A GCP Cloud Configuration Review will identify misconfigurations. **This assessment is focused on reviewing and evaluating potential vulnerabilities without engaging in active exploitation.**
 
 Cloud Configuration Reviews meet the Security standards based on the Center for Internet Security (CIS) Benchmarks. 
 
@@ -120,7 +120,7 @@ Our pentesters need access to review your Azure configurations. You should prepa
 
 ### What is covered
 
-An Azure Cloud Configuration Review will identify misconfigurations. **This is a review-based assessment and does not include active exploitation of vulnerabilities**.
+An Azure Cloud Configuration Review will identify misconfigurations. **This assessment is focused on reviewing and evaluating potential vulnerabilities without engaging in active exploitation.**
 
 Cloud Configuration Reviews meet the Security standards based on the Center for Internet Security (CIS) Benchmarks. 
 
