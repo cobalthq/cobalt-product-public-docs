@@ -71,6 +71,16 @@ network, include the location in the diagram.
 Add network information, including the IP address / hostname of the
 jump box.
 
+### Cloud Configuration Assets
+
+Our pentesters need to know how you've set up and use your cloud assets.
+
+Make sure to include the:
+
+- Cloud provider
+- Services
+- Applicable network / architecture diagrams
+
 ## Attachments
 
 To share more about your assets, you can upload the documentation of your choice under **Attachment(s)**. Our app limits uploads to 100 MB.
