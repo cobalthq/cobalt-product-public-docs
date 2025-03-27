@@ -15,9 +15,9 @@ A Cloud Configuration Review is a configuration assessment of your AWS, Azure or
 
 We support Cloud Configuration Reviews for the following cloud environments:
 
-- Amazon AWS
-- Google Cloud Platform (GCP)
-- Microsoft Azure
+- [Amazon AWS](/methodologies/cloud-configuration-review/#amazon-aws)
+- [Google Cloud Platform (GCP)](/methodologies/cloud-configuration-review/#google-cloud-platform-gcp)
+- [Microsoft Azure](/methodologies/cloud-configuration-review/#microsoft-azure)
 
 Cobalt conducts a configuration review of your AWS, Azure, or GCP cloud environment against established security standards, including CIS benchmarks. 
 
