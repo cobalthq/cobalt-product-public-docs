@@ -14,6 +14,10 @@ cited in the [References](#references).
 The definitions included in this page may vary from the cited standards, based on how
 we configure and use Cobalt software.
 
+## Accounts (Cloud Assets)
+
+An AWS account is a container for your AWS resources. For more information, see [Amazon AWS documentation](https://docs.aws.amazon.com/organizations/latest/userguide/orgs_getting-started_concepts.html#account).
+
 ## Aggregated Risk
 
 {{% aggregated-risk-definition %}}
@@ -295,6 +299,10 @@ Pentest identifier on the Cobalt platform that starts with `#`. You can see the 
 
 ![Pentest tag](/gsg/pentest-tag.png "Pentest tag")
 
+## Projects (Cloud Assets)
+
+All resources included in your cloud [asset](#asset). For example, [AWS defines a project](https://docs.aws.amazon.com/lookout-for-equipment/latest/ug/create-project.html) as a collection of resources associated with an asset.
+
 ## PtaaS Pentest
 
 A pentest that [Cobalt pentesters](#pentester) perform on the Cobalt [Pentest as a Service (PtaaS)](#pentest-as-a-service-ptaas) platform for a customer. This includes the following pentest types:
@@ -367,6 +375,10 @@ Learn more about [assigning a point of contact](/getting-started/planning/#assig
 ## Recovery Code
 
 A recovery option, with [2FA](#multi-factor-authentication) enabled, to regain entry into your account if you lose access to your device and/or authenticator app.
+
+## Resource Group (Cloud)
+
+A set of resources in a cloud [asset](#asset). For more information, see [Google GCP documentation](https://cloud.google.com/monitoring/groups).
 
 ## Remediate
 
