@@ -69,7 +69,7 @@ Scoping parameters differ for each [asset type](/platform-deep-dive/assets/asset
 - [API](#api)
 - [External Network](#external-network)
 - [Internal Network](#internal-network)
-- [Cloud Config](#cloud-configu)
+- [Cloud Config](#cloud-configuration-review)
 - [Desktop](#desktop)
 - [AI/LLM Pentest](#aillm-pentesting)
 - [Assets of multiple types](#assets-of-multiple-types)
