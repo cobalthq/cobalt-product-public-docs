@@ -1,5 +1,5 @@
 ---
-title: "Cobalt Testing Methodologies"
+title: "Cobalt Methodologies"
 linkTitle: "Methodologies"
 weight: 7
 no_list: true
