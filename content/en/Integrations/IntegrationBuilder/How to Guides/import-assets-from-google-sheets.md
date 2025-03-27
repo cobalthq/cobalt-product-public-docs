@@ -29,6 +29,7 @@ To import assets from Google Sheets into the Cobalt platform, first create a spr
 - `mobile`
 - `external_network`
 - `api`
+- `cloud_config`
 - `internal_network`
 - `web_plus_api`
 - `web_plus_external_network`
