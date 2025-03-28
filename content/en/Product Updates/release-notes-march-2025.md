@@ -9,7 +9,7 @@ description: >-
 Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
-## CVSS v3.1 Scoring for Enhanced Vulnerability Severity Assessment
+## CVSS v3.1 Scoring
 <strong>Problem</strong>
 
 Customers have expressed the need for a clear, standardized severity rating that offers a consistent and objective view of vulnerability severity. The existing OWASP-based ratings, while providing valuable context, were subjective and made it difficult for customers to obtain a standardized and objective assessment of risk.
