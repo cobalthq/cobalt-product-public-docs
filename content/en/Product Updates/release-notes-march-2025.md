@@ -24,5 +24,5 @@ New CVSS v3.1 scoring to all new findings! Our pentesters will now complete the 
 - <strong>Guarantees Consistent Data:</strong> With structured CVSS scores for all findings, we are eliminating inconsistencies and providing a designated location for this information. This reduces the risk of customers requesting this information, only for it to be omitted by testers.
 - <strong>Improves Risk Assessment:</strong> The addition of CVSS v3.1 scoring provides an additional data input for our customers to better understand findings and prioritize risk accordingly.
 
-{{% image src="/scans/cvss.png" alt="CVSS v3.1" %}}
+{{% image src="/release-notes/cvss.png" alt="CVSS v3.1" %}}
 
