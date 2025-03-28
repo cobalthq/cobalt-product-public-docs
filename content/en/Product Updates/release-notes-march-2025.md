@@ -31,8 +31,7 @@ New CVSS v3.1 scoring to all new findings! Our pentesters will now complete the 
 ## New Test Coverage Section in Comprehensive Reports
 <strong>Problem</strong>
 
-We were facing a perception that our testing lacked sufficient coverage and depth, particularly when vulnerability reports were minimal.
-
+We want to demonstrate the coverage and depth within our comprehesnvie testing. You will see a new test coverage section.
 <strong>Solution</strong>
 
 To address this, we've added a "Test Coverage" section to our final reports (for comprehensive pentests only). This new section provides an overview of testing, a results column, and associated findings.
