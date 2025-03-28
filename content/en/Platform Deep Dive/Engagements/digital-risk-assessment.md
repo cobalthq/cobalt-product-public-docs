@@ -15,7 +15,6 @@ Digital Risk Assessment is a type of engagement outside of our standard Pentesti
 
 | **Feature** | Description |
 |---|---|
-| **Fulfilled by** | Cybersecurity Services |
 | **Number of credits** | Typically between 6  - 12 credits, dependent on scope |
 | **Number of testers** | 1 tester |
 | **Collaboration** | Slack |
