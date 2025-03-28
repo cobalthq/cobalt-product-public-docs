@@ -19,7 +19,7 @@ We support Cloud Configuration Reviews for the following cloud environments:
 
 Cobalt conducts a configuration review of your AWS, Azure, or GCP cloud environment against established security standards, including CIS benchmarks. 
 
-The goal of this assessment is to identify misconfigurations. We will outline the potential impact, and provide recommendations for remediation. Example findings include: overly permissive IAM policies, open security groups, and unencrypted storage buckets. **This assessment is focused on reviewing and evaluating potential vulnerabilities without engaging in active exploitation.**. 
+The goal of this assessment is to identify misconfigurations. We will outline the potential impact, and provide recommendations for remediation. Example findings include: overly permissive IAM policies, open security groups, and unencrypted storage buckets. **This assessment is focused on reviewing and evaluating potential vulnerabilities without engaging in active exploitation.** 
 
 For Cloud Configuration Reviews, our team follows these steps: 
 - Target scope reconnaissance
