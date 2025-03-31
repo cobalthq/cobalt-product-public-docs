@@ -12,7 +12,8 @@ Explore What's New from Cobalt This Month
 ## CVSS v3.1 Scoring
 <strong>Problem</strong>
 
-Customers have expressed the need for a clear, standardized severity rating that offers a consistent and objective view of vulnerability severity. The existing OWASP-based ratings, while providing valuable context, were subjective and made it difficult for customers to obtain a standardized and objective assessment of risk.</br>
+Customers have expressed the need for a clear, standardized severity rating that offers a consistent and objective view of vulnerability severity. The existing OWASP-based ratings, while providing valuable context, were subjective and made it difficult for customers to obtain a standardized and objective assessment of risk.
+</br>
 
 <strong>Solution</strong>
 
