@@ -35,9 +35,9 @@ By following the steps below, you can configure the default carry-over finding h
 
 By following the steps below, you can configure the carry-over finding handling behavior of your integrations for a single pentest.
 
-1. Navigate to the new pentest in the Cobalt UI
+1. Navigate to the pentest in the Cobalt UI
 2. Navigate to the Integrations tab
-3. In the "Ticket creation for carry over findings" tile, click the radio button for the "Re-associate existing ticket" option
+3. In the "Ticket creation for carry over findings" section, click the radio button for the "Re-associate existing ticket" option
 4. Click save
 
 {{% image src="/integrations/carry-over-findings/carryover-ticket-handling-config.png" alt="UI config option" %}}
