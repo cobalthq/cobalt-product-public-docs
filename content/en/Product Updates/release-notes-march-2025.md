@@ -13,7 +13,6 @@ Explore What's New from Cobalt This Month
 <strong>Problem</strong>
 
 Customers have expressed the need for a clear, standardized severity rating that offers a consistent and objective view of vulnerability severity. The existing OWASP-based ratings, while providing valuable context, were subjective and made it difficult for customers to obtain a standardized and objective assessment of risk.
-</br>
 
 <strong>Solution</strong>
 
@@ -33,6 +32,7 @@ New CVSS v3.1 scoring to all new findings! Our pentesters will now complete the 
 <strong>Problem</strong>
 
 We want to demonstrate the coverage and depth within our comprehesnvie testing. You will see a new test coverage section.
+
 <strong>Solution</strong>
 
 To address this, we've added a "Test Coverage" section to our final reports (for comprehensive pentests only). This new section provides an overview of testing, a results column, and associated findings.
