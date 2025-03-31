@@ -19,8 +19,21 @@ This means that your integration will create a new ticket for the carried over f
 ### Avoid Creating New Tickets for Carried-Over Findings
 
 If you do not want your integration to create a new ticket for a carried-over finding when a ticket already exists for the original finding, 
-you can configure your integration (at the pentest level) to use the alternative carry-over handling logic.
-If you would like to use the non-default carry-over handling logic, we recommend performing the following configuration steps before launching a new pentest:
+you can configure your integration to use the alternative carry-over handling logic.
+
+#### Global Configuration for New Pentests
+
+By following the steps below, you can configure the default carry-over finding handling behavior of your integrations for all newly created pentests.
+
+1. Navigate to the Integrations page using the main Cobalt navigation bar
+2. Locate the "Default Integration Settings" section within the Integrations page
+3. Click the gear icon
+4. Click the radio button for the "Re-associate existing ticket" option
+5. Click save
+
+#### Pentest-specific Configuration
+
+By following the steps below, you can configure the carry-over finding handling behavior of your integrations for a single pentest.
 
 1. Navigate to the new pentest in the Cobalt UI
 2. Navigate to the Integrations tab
