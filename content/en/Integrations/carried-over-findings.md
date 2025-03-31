@@ -27,8 +27,8 @@ By following the steps below, you can configure the default carry-over finding h
 
 1. Navigate to the Integrations page using the main Cobalt navigation bar
 2. Locate the "Default Integration Settings" section within the Integrations page
-3. Click the gear icon
-4. Click the radio button for the "Re-associate existing ticket" option
+3. Click the gear icon {{% image src="/integrations/carry-over-findings/DEFAULT_INT_SETTINGS_CARD.png" alt="UI config option" %}}
+4. Click the radio button for the "Re-associate existing ticket" option {{% image src="/integrations/carry-over-findings/DEFAULT_INT_SETTINGS_MODAL.png" alt="UI config option" %}}
 5. Click save
 
 #### Pentest-specific Configuration
