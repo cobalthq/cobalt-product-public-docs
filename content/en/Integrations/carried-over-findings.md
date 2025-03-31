@@ -23,7 +23,7 @@ you can configure your integration to use the alternative carry-over handling lo
 
 #### Global Configuration for New Pentests
 
-By following the steps below, you can configure the default carry-over finding handling behavior of your integrations for all newly created pentests.
+By following the steps below, you can configure the default carry-over finding handling behavior of your integrations for all newly created pentests. This configuration change will not apply to pentests that have already been created.
 
 1. Navigate to the Integrations page using the main Cobalt navigation bar
 2. Locate the "Default Integration Settings" section within the Integrations page
