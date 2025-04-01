@@ -19,12 +19,31 @@ This means that your integration will create a new ticket for the carried over f
 ### Avoid Creating New Tickets for Carried-Over Findings
 
 If you do not want your integration to create a new ticket for a carried-over finding when a ticket already exists for the original finding, 
-you can configure your integration (at the pentest level) to use the alternative carry-over handling logic.
-If you would like to use the non-default carry-over handling logic, we recommend performing the following configuration steps before launching a new pentest:
+you can configure your integration to use the alternative carry-over handling logic.
 
-1. Navigate to the new pentest in the Cobalt UI
+#### Global Configuration for New Pentests
+
+By following the steps below, you can configure the default carry-over finding handling behavior of your integrations for all newly created pentests. This configuration change will not apply to pentests that have already been created.
+
+1. Navigate to the Integrations page using the main Cobalt navigation bar
+2. Locate the "Default Integration Settings" section within the Integrations page
+3. Click the gear icon
+
+{{% image src="/integrations/carry-over-findings/DEFAULT_INT_SETTINGS_CARD.png" alt="Default Integration Settings Section" %}}
+
+4. Click the radio button for the "Re-associate existing ticket" option
+
+{{% image src="/integrations/carry-over-findings/DEFAULT_INT_SETTINGS_MODAL.png" alt="Default Integration Settings Modal" %}}
+
+5. Click save
+
+#### Pentest-specific Configuration
+
+By following the steps below, you can configure the carry-over finding handling behavior of your integrations for a single pentest.
+
+1. Navigate to the pentest in the Cobalt UI
 2. Navigate to the Integrations tab
-3. In the "Ticket creation for carry over findings" tile, click the radio button for the "Re-associate existing ticket" option
+3. In the "Ticket creation for carry over findings" section, click the radio button for the "Re-associate existing ticket" option
 4. Click save
 
 {{% image src="/integrations/carry-over-findings/carryover-ticket-handling-config.png" alt="UI config option" %}}
