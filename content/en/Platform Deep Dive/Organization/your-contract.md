@@ -40,11 +40,12 @@ When your organization's contract is about to expire, we notify you in advance. 
 
 After the contract expiration date, a **15-day grace period** starts.
 
-- Within the grace period, you still have access to the platform. Be sure to [download the data you need](#download-your-organizations-pentest-data) within this time frame.
+- Within the grace period, you still have access to the organization's data. Be sure to [download the data you need](#download-your-organizations-pentest-data) within this time frame.
 - Your remaining [credits](/platform-deep-dive/credits/) expire.
 - You can no longer submit pentests for review or findings for retest.
+- At the same time the grace period starts, the [automated data removal](/platform-deep-dive/organization/automated-data-removal) process starts counting down.
 
-Once the grace period is over, we revoke access to the platform from all organization users. If you renew your contract, you'll get full access to the platform and your organization data.
+Once the grace period is over, we revoke access to your organization's data. If you renew your contract, you'll get full access to the platform and your organization data.
 
 {{< alert title="Tip" color="primary" >}}
 To renew your contract, reach out to your Customer Success Manager or support@cobalt.io.
