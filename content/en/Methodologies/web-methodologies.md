@@ -10,7 +10,7 @@ aliases:
 ---
 
 {{% pageinfo %}}
-Web application penetration testing is a structured process in which pentesters simulate real-world attacks to identify security vulnerabilities in web applications. This ensures robust security controls, protects sensitive data, and strengthens overall application security.
+Web application pentesting is a structured process in which pentesters simulate real-world attacks to identify security vulnerabilities in web applications. This ensures robust security controls, protects sensitive data, and strengthens overall application security.
 {{% /pageinfo %}}
 
 Cobalt follows an industry-standard methodology based primarily on the OWASP Application Security Verification Standard (ASVS), the OWASP Testing Guide, and the OWASP Top 10 risks. Cobalt’s approach combines manual and automated testing techniques, using best-in-class security tools to ensure comprehensive coverage.
