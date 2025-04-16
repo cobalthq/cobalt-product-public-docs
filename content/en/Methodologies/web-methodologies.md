@@ -10,186 +10,155 @@ aliases:
 ---
 
 {{% pageinfo %}}
-Web application penetration testing is a process in which a tester uses simulated attacks to identify potential security vulnerabilities in a web application.
+Web application penetration testing is a structured process in which pentesters simulate real-world attacks to identify security vulnerabilities in web applications. This ensures robust security controls, protects sensitive data, and strengthens overall application security.
 {{% /pageinfo %}}
 
-We follow an industry-standard methodology primarily based on the OWASP Application Security Verification Standard (ASVS) and Testing Guide. In support, we use a number of manual and automated tools, described in the following steps, to ensure full coverage.
+Cobalt follows an industry-standard methodology based primarily on the OWASP Application Security Verification Standard (ASVS), the OWASP Testing Guide, and the OWASP Top 10 risks. Cobalt’s approach combines manual and automated testing techniques, using best-in-class security tools to ensure comprehensive coverage.
 
 ![Web application penetration testing methodology process](/methodologies/web-app-pentest-methodology-process.png "Web application penetration testing methodology process")
 
 Penetration testing of a web application includes the following stages:
 
-- [Target scope reconnaissance](#target-scope-reconnaissance)
-- [Business and application logic mapping](#business-and-application-logic-mapping)
-- [Automated web crawling and web scanner configuration tweaking](#automated-web-crawling-and-web-scanner-configuration-tweakings)
-- [Authenticated vulnerability scanning / Manual crawling](#authenticated-vulnerability-scanning--manual-crawling)
-- [Manual web vulnerability tests / exploit reviews / microservices](#manual-web-vulnerability-tests--exploit-reviews--microservices)
-- [Ongoing assessments](#ongoing-assessments)
-- [Reporting, triaging, and retesting](#reporting-triaging-and-retesting)
+- [Target Scope Reconnaissance](#target-scope-reconnaissance)
+- [Business and Application Logic Mapping](#business-and-application-logic-mapping)
+- [Automated Web Crawling and Web Scanner Configuration](#automated-web-crawling-and-web-scanner-configuration)
+- [Vulnerability Scanning](#vulnerability-scanning)
+- [Manual Web Vulnerability Tests and Exploit Reviews](#manual-web-vulnerability-tests-and-exploit-reviews)
+- [Advanced Security Testing for Modern Web Apps](#advanced-security-testing-for-modern-web-apps)
+- [Ongoing Security Assessments and Continuous Testing](#ongoing-security-assessments-and-continuous-testing)
+- [Reporting, Triaging, and Retesting](#reporting-triaging-and-retesting)
 
 {{% alert title="Note" color="primary" %}}
 {{% various-tools %}}
 {{% /alert %}}
 
-Cobalt pentesters do not need access to the source code of your application, unless you specify it as a requirement. We look at the application logic by working with your app.
+During the assessment, Cobalt evaluates application security through black-box and gray-box testing methodologies, identifying security flaws in business logic, authentication, authorization, and input handling. 
 
-Tests of a Web asset include tests of APIs used to populate content on that asset. If you have additional APIs, you may consider setting up:
-
+While web application tests cover APIs used to serve application content, additional API security tests can be requested separately. These combinations include:
 - A combined Web + API test
-- A separate test for APIs
+- A Web test and a separate test for APIs
 
 ## Target Scope Reconnaissance
 
-Based on the pentest brief prepared by the client, Cobalt pentesters search for
-information about the targets and investigate the scope. This information
-includes:
+During this phase, Cobalt’s pentesters gather and analyze publicly available information about the target application, including:
 
-- Web application URLs
-- Descriptions of application logic
-- Functions critical to the business
+- Application URLs and subdomains
+- Business logic overview and key functionalities
+- Identification of critical assets and high-value targets
 
-Pentesters then confirm that they can:
+Cobalt’s pentesters confirm the following before proceeding:
 
-- Reach and scan the targets
-- Test the functionality of the application
+- The ability to reach and scan the target(s)
+- Testing permissions and authentication mechanisms
+- Application functionality
+
 
 {{% alert title="Tools" color="primary" %}}
 Cobalt pentesters may use reconnaissance scanning tools such as:
 
-- Recon-ng
-- Dnscan
-- Dirble
-- Aquatone
-- Masscan
+- Burp Suite (Professional or Community)
+- Zed Application Proxy (ZAP) Scanner
+- Curl
+
 {{% /alert %}}
 
 ## Business and Application Logic Mapping
 
-Pentesters manually examine the target applications to map:
+Cobalt manually reviews the application's business logic, workflows, and access controls. We analyze the following security aspects:
 
-- Business functions
-- Workflows
-- Underlying processes
-
-They also build a matrix of the access controls within the application based on
-supported roles and actions. Our pentesters use this matrix to plan further security
-tests, which determines:
-
-- How well these controls are enforced
-- How an attacker can bypass these controls
+- User Roles & Access Control Mapping: Reviewing Role-Based Access Control (RBAC) and Attribute-Based Access Control (ABAC) models
+- Business Logic Abuse Scenarios: Identifying vulnerabilities that could bypass intended workflows
+- Session & Authentication Mechanisms: Evaluating session management and Multi-Factor Authentication (MFA) protections
+- Client-Side vs. Server-Side Controls: Ensuring proper enforcement on the server-side
 
 {{% alert title="Tools" color="primary" %}}
 Cobalt pentesters may use application logic analysis tools such as:
 
 - Burp Suite Pro/Community
-- Postman
 - OWASP Zed Attack Proxy
 {{% /alert %}}
 
-## Automated Web Crawling and Web Scanner Configuration Tweakings
+## Automated Web Crawling and Web Scanner Configuration
 
-Our pentesters use both commercial and freeware security tools to assess the targeted
-application. They'll modify these tools as needed, to make sure that scanning can find
-security issues on every segment of your asset, and the application as a whole.
+Automated scans are fine-tuned to maximize detection accuracy while minimizing noise. This phase includes:
 
-In addition, our pentesters run automated crawls to:
-
-- Identify any pages are available to unauthenticated users
-- Determine the full site tree
+- Identifying unauthenticated and authenticated endpoints
+- Enumerating input fields, hidden parameters, and dynamic pages
+- Ensuring all sections of the application are included in security scans
 
 {{% alert title="Tools" color="primary" %}}
 Cobalt pentesters may use web crawling and scanning tools such as:
 
-- Nmap
 - Burp Suite Pro/Community
-- Nikto
+- Dirb
 {{% /alert %}}
 
-## Authenticated Vulnerability Scanning / Manual Crawling
+## Vulnerability Scanning
 
-In this part of the pentest process, our pentesters:
+### Unauthenticated Scanning
 
-- Use automated tools for web application crawling
-  - Verify the results manually
-- Run manual crawling tests for better coverage
-  - Verify authentication on protected areas of the application
+Cobalt’s pentesters assess the application from the perspective of an external, unauthenticated attacker. This phase helps identify vulnerabilities that are exposed to the public or prior to login. In this part of the pentest process, our pentesters:
+- Perform automated scanning of publicly accessible endpoints and services
+- Enumerate available routes, APIs, and metadata (e.g., error messages, headers)
+- Test for improper access controls on restricted resources
+- Identify information disclosure through verbose errors, misconfigured headers, or open directories.
+- Assess login functionality for brute-force resilience, enumeration vectors, and insecure implementations
+- Check for exposed administrative panels, forgotten endpoints, or outdated components
 
-With automated scanning, our pentesters:
+### Authenticated Scanning
 
-- Assess the application using the authenticated sessions where applicable
+Cobalt’s pentesters leverage authenticated sessions to identify security risks that require privileged access. This phase includes:
+- Automated scanning using authenticated user sessions
+- Verification of session management flaws (e.g., session fixation, JWT misconfigurations)
+- Manual business logic validation and anti-automation testing
+- Identification of weak authentication mechanisms
 
-Our pentesters use extreme caution to minimize impact on the targeted system.
 
 {{% alert title="Tools" color="primary" %}}
 Cobalt pentesters may use vulnerability scanning tools such as:
 
 - WPScan
+- SQLmap
+- Nuclei
 - Burp Suite Pro/Community
-- sqlmap
 {{% /alert %}}
 
-## Manual Web Vulnerability Tests / Exploit Reviews / Microservices
+## Manual Web Vulnerability Tests and Exploit Reviews
 
-Cobalt pentesters use tool-assisted manual tests to identify and analyze the
-following parts of the app for vulnerabilities:
+This phase focuses on manual security testing to uncover vulnerabilities that automated scanners miss. It includes:
+- Injection Attacks (SQL, XSS, Command Injection, SSRF, etc.)
+- Broken Access Controls & IDOR Testing (OWASP Top 10 2021: #1 Risk)
+- Session Management Attacks (Session Hijacking, Token Replay, Cookie Tampering)
+- Weak Cryptographic Implementations (Improper storage of credentials, weak encryption)
+- Modern Web App Attacks (DOM-based XSS, CSP Bypasses, Prototype Pollution)
+- Microservices Security (CORS misconfigurations, unauthorized API interactions)
+- Business Logic
 
-- Functionality
-- Business logic
-- Deployment
-
-The assessment identifies published vulnerabilities, including those listed in the 
-
-- OWASP Top 10
-- CVE reports or tracked by CVE entries
-
-Our pentesters also consider the workflows and business logic into consideration
-when they identify vulnerabilities in the application.
-
-The assessment includes tests for vulnerabilities such as:
-
-- Injection attacks that probe the robustness of server-validation routines
-- Session management flaws that could allow user impersonation
-- Flaws in access control that expose data or enable users to gain elevated privileges
-
-If the application includes microservices, our pentesters focus on interactions
-between different systems. They examine the implementation of:
-
-- Access control management
-- Cross-Origin Resource Sharing (CORS)
-
-We thoroughly examine:
-
-- Access control management
-  - Cross-Origin Resource Sharing (CORS) implementation
-- Vulnerabilities outlined in the OWASP [API Security Project](https://owasp.org/www-project-api-security/)
-
-For each finding, pentesters determine the risk associated with each issue by:
-
-- Demonstrating how the issue could be exploited
-- Evaluating its impact within the context of the business function, data, and
-  users of the asset
-- Setting up a Proof-of-Concept exploitation to:
-  - Demonstrate the presence of the vulnerability
-  - Minimize potential adverse impact to the application, its data, and its underlying systems
 
 {{% alert title="Tools" color="primary" %}}
 Cobalt pentesters use multiple testing and exploitation tools, such as:
 
-- Burp Suite Pro/Community
+- Burp Suite Pro/Community (Intruder & Repeater)
 - OWASP ZAP
 - Dirble
-- Nuclei
+- JWT_Tool (for JWT manipulation testing)
+- Corsy (for CORS misconfiguration testing)
 {{% /alert %}}
 
-## Ongoing Assessments
+## Advanced Security Testing for Modern Web Apps
 
-Our pentesters report their findings, in real time, through the Cobalt platform.
-They also:
+With the rise of Single Page Applications (SPAs), microservices, and cloud-based applications. Cobalt performs additional security tests, including:
+- Client-Side JavaScript Security Audits (Detection of vulnerable dependencies, inline script injection risks)
+- WebSockets & Real-Time Communication Testing
+- Cross-Origin Resource Sharing (CORS) Exploitability Checks
 
-- Assess all risks
-- Recommend steps for remediation
+## Ongoing Security Assessments and Continuous Testing
 
-You're welcome to communicate with our pentesters for each of their findings.
+Cobalt provides real-time security feedback throughout the engagement, enabling:
+- Collaboration with developers and security teams
+- Ongoing risk analysis & vulnerability triaging
+- Proactive remediation guidance
+
 
 ## Reporting, Triaging, and Retesting
 
