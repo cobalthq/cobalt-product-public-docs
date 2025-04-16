@@ -32,7 +32,7 @@ Penetration testing of a web application includes the following stages:
 
 During the assessment, Cobalt evaluates application security through [black-box](/methodologies/#black-box-testing) or [grey-box](/methodologies/#grey-box-testing) testing methodologies, identifying security flaws in business logic, authentication, authorization, and input handling. 
 
-Standard web application pentests include testing of APIs that serve application content. For more in-depth API testing, set up a dedicated API pentest or create a combined Web + API pentest. To learn which methodology aligns with your use case, refer to [Selecting Your Test Type: Web or API](/methodologies/selecting-your-test-type).
+Standard web application pentests include testing of APIs that serve application content. For more in-depth API testing, set up a dedicated API pentest or create a combined Web + API pentest. To learn which methodology aligns with your use case, refer to [Selecting Your Test Type: Web or API](/methodologies/web-api-test-type).
 
 
 ## Target Scope Reconnaissance
