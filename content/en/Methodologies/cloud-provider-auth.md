@@ -1,6 +1,6 @@
 ---
-title: "Cloud Hosting Provider Authorization"
-linkTitle: "Cloud Hosting Provider Authorization"
+title: "Cloud Provider Authorization"
+linkTitle: "Cloud Provider Authorization"
 toc_hide: = true
 weight: 0
 
