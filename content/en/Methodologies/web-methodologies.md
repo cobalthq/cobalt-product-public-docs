@@ -15,8 +15,6 @@ Web application pentesting is a structured process in which pentesters simulate 
 
 Cobalt follows an industry-standard methodology based primarily on the OWASP Application Security Verification Standard (ASVS), the OWASP Testing Guide, and the OWASP Top 10 risks. Cobalt’s approach combines manual and automated testing techniques, using best-in-class security tools to ensure comprehensive coverage.
 
-![Web application penetration testing methodology process](/methodologies/web-app-pentest-methodology-process.png "Web application penetration testing methodology process")
-
 Penetration testing of a web application includes the following stages:
 
 - [Target Scope Reconnaissance](#target-scope-reconnaissance)
