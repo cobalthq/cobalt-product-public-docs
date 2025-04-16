@@ -133,6 +133,7 @@ This phase focuses on manual security testing to uncover vulnerabilities that au
 - Modern Web App Attacks (DOM-based XSS, CSP Bypasses, Prototype Pollution)
 - Microservices Security (CORS misconfigurations, unauthorized API interactions)
 - Business Logic
+- Testing the web server for external network vulnerabilities. **Note: This is not a full external network penetration test.**
 
 
 {{% alert title="Tools" color="primary" %}}
