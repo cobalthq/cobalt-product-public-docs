@@ -45,7 +45,7 @@ Understanding the level of testing access provided to the team is critical to de
 
 ### Black-box Testing
 
-In a black-box engagement, testers are given no internal knowledge of the application or infrastructure. They simulate an external attacker with no privileged access, relying entirely on publicly available information and exposed functionality. This approach tests how the application performs under real-world attack conditions but may not uncover deeper or logic-based flaws due to limited visibility.
+In a black-box engagement, testers are given no internal knowledge of the application or infrastructure. They simulate an external attacker with no privileged access, relying entirely on publicly available information and exposed functionality. This approach tests how the application performs under real-world attack conditions but may not uncover deeper or logic-based flaws due to limited visibility. Testing will cease immediately and the Customer will be contacted if the pentester gains access to the application or network.
 
 ### Grey-box Testing
 
