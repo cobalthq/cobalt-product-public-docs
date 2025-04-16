@@ -32,7 +32,8 @@ For Cloud Configuration Reviews, our team follows these steps:
 
 In general, the cloud providers that we work with no longer need to know before
 we perform our audit. However, each cloud provider may have their own procedure.
-We've included links to procedures that we know of in the section for each provider.
+
+For more details on the relevant procedures and policies, visit [Cloud Provider Authorization](/methodologies/cloud-provider-auth) documentation.
 
 ### Source IP Addresses
 
