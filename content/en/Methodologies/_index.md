@@ -21,7 +21,7 @@ By default, our pentesters test for industry standard vulnerabilities from:
 - [Open Source Security Testing Methodology Manual (OSSTMM)](https://www.isecom.org/OSSTMM.3.pdf) (PDF).
   - Used for internal and external networks.
 
-For more information on how we pentest, refer to the detailed pages associated with your
+For more information, refer to the detailed pages associated with your
 asset.
 
 - [Web](/methodologies/web-methodologies/)
