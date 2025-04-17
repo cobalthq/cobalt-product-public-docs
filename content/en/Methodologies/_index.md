@@ -33,7 +33,7 @@ asset.
 - [Desktop](/methodologies/desktop/)
 - [AI/LLM](/methodologies/ai-llm/)
 
-The Methodology is usually fixed, based on the Test Type or the [Asset Type](/platform-deep-dive/assets/asset-types/)
+The methodology is usually fixed, based on the Test Type or the [Asset Type](/platform-deep-dive/assets/asset-types/)
 you defined earlier. If you choose a combined asset type, such as Web + API, you
 can limit the test to either of the individual methodologies:
 
