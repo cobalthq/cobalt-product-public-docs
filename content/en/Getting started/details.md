@@ -53,7 +53,7 @@ in comments.
 
 ![Target Environment](/gsg/TargetEnvironment.png "Describe the environment that you want tested.")
 
-[Learn the key differences in testing across production, staging, and development.](
+[Learn the key differences in testing across production, staging, and development.](/getting-started/testing-environments)
 
 ### Controls
 
