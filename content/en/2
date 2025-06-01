@@ -1,0 +1,49 @@
+Until today, to see what's happening with your pentests, you had to go to the Cobalt Platform or run a REST call through the Cobalt API. With webhooks, you can now get this information automatically and in real time, so your teams can integrate, automate, and analyze your testing data as easily as possible. 
+
+Polling API vs. Webhooks
+When you work with an API, you can become aware of new data in the following ways:
+
+Repeatedly send requests to the same API endpoint to retrieve new information, which is known as polling.
+Configure a webhook that automatically sends new data to a specified consumer URL.
+API compared to Webhooks visual comparison
+
+The webhooks approach has multiple advantages over API polling:
+
+Less resource-intensive because you do not need to run polling jobs constantly
+Avoid API call spikes and reaching your maximum limit of requests
+Get real-time information without depending on polling frequency
+Webhooks are here to help you speed up your security actions and processes through a simple, lightweight push model. When you subscribe to a webhook, we’ll send you updates for pentest events to your URL through an HTTP POST request. 
+
+See our documentation for more information on how to set up a webhook. You can create a new webhook through our API or in the Cobalt Platform in the Integrations Hub.
+
+Webhooks Push Data to You in Real Time
+Think about webhooks like the email client on your phone. You are not refreshing your email  client every minute to check if there are new emails. Your smartphone pushes a notification to you when you have a new email.
+
+In a similar way, the initial version of Cobalt’s webhooks will push notifications to your endpoints when:
+
+Pentest is created
+Pentest state is changed
+Finding is published
+Finding state is changed
+Finding is updated
+In the meantime, we continue working on improving our webhooks, so expect:
+
+More events
+Webhooks event versioning
+Filtering of events based on topics, e.g. only events for “Pentest created” 
+Extending events to synchronize asset data with external tools
+Adding more information to the webhooks events without leaking any sensitive data
+Adapt and Integrate Cobalt Data Into Your Security Tools
+Integrations play a significant role in scaling pentest programs and effectively managing pentest data across a myriad of tools and workflows. The overall lack of integrations can prolong the lead time to triage and remediate vulnerabilities, which in turn compromises the view of your risk landscape.
+
+You can leverage webhooks and adapt them to your existing workflows or add new integrations, for example:
+
+Be alerted of an event, then use the API to learn more.
+Build a custom dashboard to visualize or analyze pentest program events.
+Send data to incident management tools.
+Send events to collaboration apps, such as Slack and Microsoft Teams.
+Trigger internal notification systems to alert people, for example when a new pentest starts.
+Build your own automation plugins and tools.
+In closing, the webhook release should empower you to have a better return on investment for your pentesting. Have a use case that webhooks could support? What else would you like to see covered by webhooks? You can share your feedback and suggestions by emailing us at integrations@cobalt.io.
+
+Stay tuned for our next posts on APIs with use cases and recipes on how to leverage webhooks with real-world integrations. 
