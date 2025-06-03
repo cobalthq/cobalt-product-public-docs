@@ -5,6 +5,8 @@ on:
       # All branches.
       - '**'        # Matches all branches.
       - '!main'   # Excludes main.
+permissions:
+  contents: read
 jobs:
   build:
     runs-on: ubuntu-latest
