@@ -44,4 +44,4 @@ updates:
     # Once that is available we'll need to upgrade Hugo as well (see netlify.toml).
     ignore:
       - dependency-name: "docsy"
-        update-types: [ "version-update:semver-major", "version-update:semver-minor", "version-update:semver-path" ]
+        update-types: [ "version-update:semver-major", "version-update:semver-minor", "version-update:semver-patch" ]
