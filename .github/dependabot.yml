@@ -40,3 +40,8 @@ updates:
         update-types:
         - "minor"
         - "patch"
+    # Temporary - pending release of docsy newer than 0.12.0.  See comment on PR 646.
+    # Once that is available we'll need to upgrade Hugo as well (see netlify.toml).
+    ignore:
+      - dependency-name: "docsy"
+        update-types: [ "version-update:semver-major", "version-update:semver-minor", "version-update:semver-path" ]
