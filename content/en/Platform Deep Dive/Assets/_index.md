@@ -2,7 +2,6 @@
 title: "Assets"
 linkTitle: "Assets"
 weight: 50
-toc_hide: true
 description: >
   Assets are _what_ we pentest.
 ---
