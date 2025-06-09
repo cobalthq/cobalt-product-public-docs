@@ -1,7 +1,7 @@
 ---
 title: "Release Notes: June 2025"
 linkTitle: "June 2025"
-weight: 39
+weight: 37
 description: >-
 ---
 
