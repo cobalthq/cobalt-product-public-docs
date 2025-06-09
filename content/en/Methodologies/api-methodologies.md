@@ -21,12 +21,12 @@ This methodology focuses on identifying and mitigating security risks in API aut
 Penetration testing of an API includes the following stages:
 
 - [Target Scope Reconnaissance](#target-scope-reconnaissance)
-- [Business and Application Logic Mapping] (#business-and-application-logic-mapping)
-- [Automated API Enumeration and Scanning] (#automated-api-enumeration-and-scanning)
-- [Authenticated Vulnerability Scanning and Manual Crawling] (#authenticated-vulnerability-scanning-and-manual-crawling)
-- [Manual API Vulnerability Testing and Exploitation] (#manual-api-vulnerability-testing-and-exploitation)
-- [Ongoing Security Assessments and Continuous Testing] (#ongoing-security-assessments-and-continuous-testing)
-- [Reporting, Triaging, and Retesting] (#reporting-triaging-and-retesting)
+- [Business and Application Logic Mapping](#business-and-application-logic-mapping)
+- [Automated API Enumeration and Scanning](#automated-api-enumeration-and-scanning)
+- [Authenticated Vulnerability Scanning and Manual Crawling](#authenticated-vulnerability-scanning-and-manual-crawling)
+- [Manual API Vulnerability Testing and Exploitation](#manual-api-vulnerability-testing-and-exploitation)
+- [Ongoing Security Assessments and Continuous Testing](#ongoing-security-assessments-and-continuous-testing)
+- [Reporting, Triaging, and Retesting](#reporting-triaging-and-retesting)
 
 ## Target Scope Reconnaissance
 
@@ -49,6 +49,7 @@ Cobalt pentesters may use tools such as:
 {{% /alert %}}
 
 ## Business and Application Logic Mapping
+
 Cobalt’s pentesters conduct a manual assessment to map API functionalities, workflows, and security boundaries, which includes:
 
 - **Access Control Matrix Construction:** Systematically define user roles and their permissible actions across each API endpoint and HTTP method, ensuring alignment between intended access policies and actual enforcement.
