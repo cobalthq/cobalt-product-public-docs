@@ -1,11 +1,9 @@
 ---
 title: "Analyze Your Assets Using Insights"
 linkTitle: "Insights"
-weight: 0
-toc_hide: =true
+weight: 40
 description: >
   Get insights into the security posture of your assets.
-aliases: ["/platform-deep-dive/insights"]
 ---
 
 {{% pageinfo %}}
