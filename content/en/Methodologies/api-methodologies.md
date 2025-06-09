@@ -14,188 +14,105 @@ aliases:
 {{% pentest-rigor %}}
 {{% /pageinfo %}}
 
-We use the penetration testing methodologies listed on the page. If you want to know more
-about each methodology, navigate to the page associated with your asset.
+Cobalt follows an industry-standard methodology based primarily on the OWASP Application Security Verification Standard (ASVS), the OWASP Testing Guide, and the OWASP Top 10 risks. Cobalt’s approach combines manual and automated testing techniques, using best-in-class security tools to ensure comprehensive coverage.
 
-## API
+This methodology focuses on identifying and mitigating security risks in API authentication, authorization, input validation, access control, cryptographic security, session management, and business logic flaws. The Core Pentesters evaluate the target API against these controls to uncover security weaknesses, including those cataloged in CVE databases and the OWASP API Security Top 10.
 
-The Cobalt team of pentesters do not need access to the underlying web application source code,
-unless you specify it as a requirement.
+Penetration testing of an API includes the following stages:
 
-When you set up a pentest for an API asset in the UI, you'll see the following in the
-**Objectives** text box:
+- [Target Scope Reconnaissance](#target-scope-reconnaissance)
+- [Business and Application Logic Mapping] (#business-and-application-logic-mapping)
+- [Automated API Enumeration and Scanning] (#automated-api-enumeration-and-scanning)
+- [Authenticated Vulnerability Scanning and Manual Crawling] (#authenticated-vulnerability-scanning-and-manual-crawling)
+- [Manual API Vulnerability Testing and Exploitation] (#manual-api-vulnerability-testing-and-exploitation)
+- [Ongoing Security Assessments and Continuous Testing] (#ongoing-security-assessments-and-continuous-testing)
+- [Reporting, Triaging, and Retesting] (#reporting-triaging-and-retesting)
 
-```
-Coverage of OWASP top 10, ASVS and application logic.
-```
+## Target Scope Reconnaissance
 
-Learn more about these objectives from OWASP:
+During this phase, Cobalt’s pentesters gather and analyze publicly available information about the target application, including:
 
-- [OWASP API Security Top 10](https://owasp.org/www-project-api-security)
-- [OWASP Application Security Verification Standard (ASVS)](https://owasp.org/www-project-application-security-verification-standard)
+- **Endpoint Discovery:** Identify and catalog all API endpoints—both publicly documented and covertly exposed—to establish the complete attack surface. 
+- **Authentication & Session Workflows:** Map user and machine-level authentication flows and session management mechanisms, ensuring comprehensive validation of access controls.
+- **Business Logic & Data Classification:** Chart critical workflows and classify data sensitivity, enabling prioritized testing of high-risk operations.
+- **Reachability & Filtering:** Validate endpoint accessibility under varying network conditions and assess any applied filtering or throttling controls.
 
-We look at application logic by working with your app.
+We do not perform any third-party testing during the engagement. This means functionality like third-party logins (e.g., "Login with Google," "Login with Facebook") is out of scope.
 
-### Methodology Details
+{{% alert title="Tools" color="primary" %}}
+Cobalt pentesters may use tools such as:
 
-We base our methodology primarily on the OWASP Application Security Verification Standard (ASVS)
-and Testing Guide. Our team takes the following steps to ensure full coverage:
+- Burp Suite (Professional or Community)
+- Zed Application Proxy (ZAP) Scanner
+- Postman
 
-Select the <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> key for more information on each step.
+{{% /alert %}}
 
-{{% expand "Target scope reconnaissance" %}}
-</br>
+## Business and Application Logic Mapping
+Cobalt’s pentesters conduct a manual assessment to map API functionalities, workflows, and security boundaries, which includes:
 
-Our pentesters start by collecting the information that they need about your API. This information includes:
+- **Access Control Matrix Construction:** Systematically define user roles and their permissible actions across each API endpoint and HTTP method, ensuring alignment between intended access policies and actual enforcement.
+- **Sensitive Endpoint Identification:** Classify high-risk API operations that handle critical business functions or sensitive data, prioritizing them for in-depth security evaluation.
+- **Business Logic Flaw Analysis:** Examine application workflows for deviations or gaps that can be exploited to bypass intended security controls or manipulate system state.
 
-- API URLs
-- API documentation
-- The target environment
-- Your business logic
-- Critical workflows
-- Roles and permissions available within your app
+## Automated API Enumeration and Scanning
 
-Our pentesters also confirm that they can access and run documented commands on
-your API. If you require access tokens or API keys to use your API, our
-pentesters may need accounts on your system, with instructions, to set that up.
+Cobalt’s pentesters use commercial and open-source API security tools to perform:
 
-{{% api-scan-tools %}}
+- **Schema-Driven Scanner Configuration:** Initialize automated tools with formal API specifications to guarantee exhaustive and structured testing.
+- **Automated Endpoint Crawling:** Use crawler engines and collection runners to traverse every accessible path, both authenticated and unauthenticated. 
+- **Payload Generation & Fuzzing:** Inject both generic and context-specific inputs to provoke anomalous behavior or uncover hidden logic.
+- **Contract & Schema Validation:** Automatically verify request and response structures against their formal definitions to detect deviations.
+- **Misconfiguration Detection:** Identify common security oversights in API deployments through pre-configured or custom rule sets. 
 
-{{% /expand %}}
+{{% alert title="Tools" color="primary" %}}
+Cobalt pentesters may use tools such as:
 
-{{% expand "Business and application logic mapping" %}}
-</br>
+- Burp Suite (Professional or Community)
+- Zed Application Proxy (ZAP) Scanner
+- Ffuf
+- sslscan
 
-Our pentesters manually examine the target application to map its:
+{{% /alert %}}
 
-- Business functions
-- Workflows
-- The underlying processes
+## Authenticated Vulnerability Scanning and Manual Crawling
 
-Our pentesters also build a matrix of access controls within the app based on:
+Cobalt conducts authenticated vulnerability scanning using valid API credentials or tokens, allowing our pentesters to test your API from the perspective of a legitimate user. Within this phase, Cobalt pentesters focus on:
 
-- A list of available roles
-- The actions supported for each role
+- **Session Token Handling:** Evaluate token lifecycle, integrity, and invalidation mechanisms to prevent unauthorized access and replay attacks.
+- **Parameter Discovery:** Uncover undocumented or optional inputs that could expose hidden functionality or elevate privileges.
+- **Deep Crawling:** Manually orchestrate chained and iterative requests to traverse complex workflows and trigger mass data exposure.
+- **Parallel Session Crawling:** Operate multiple authenticated sessions concurrently to surface race conditions or state desynchronization issues.
+- **Authentication Bypass Testing:** Manipulate request and environment parameters to circumvent intended authentication controls.
 
-Our pentesters use this matrix to create additional security tests to:
+## Manual API Vulnerability Testing and Exploitation
 
-- Determine how well these controls are enforced
-- Identify if someone can bypass these controls
+Cobalt’s pentesters conduct manual API testing, using specialized tools to check for vulnerabilities related to:
 
-{{% api-scan-tools-part %}}
+- **Authentication & Authorization:** Manually verify authentication flows and enforce access controls, ensuring only authorized users can perform each operation.
+- **Injection & Parsing:** Test untrusted inputs against backend interpreters to detect common flaws like SQL, command, or XML/JSON injection vulnerabilities.
+- **Business Logic Abuse:** Assess application workflows for exploitable deviations that could compromise business rules or allow for abuse.
+- **Data Exposure & Error Handling:** Evaluate response content and error messages to ensure sensitive data isn't inadvertently disclosed.
+- **Access Control Evasion & Privilege Escalation:** Exploit misconfigurations or logic gaps to elevate privileges or perform unauthorized operations.
+- **Forced Parameter Switching:** Swap parameter values between requests (e.g., accountFrom ↔ accountTo) to test transaction logic for vulnerabilities.
 
-{{% /expand %}}
+{{% alert title="Tools" color="primary" %}}
+Cobalt pentesters may use tools such as:
 
-{{% expand "Automated web crawling and web scanner configuration tweaking" %}}
-</br>
+- Burp Suite (Professional or Community)
+- Zed Application Proxy (ZAP) Scanner
+- Postman
 
-Our pentesters may use commercial and open source security tools to assess
-your API. They ensure that appropriate tools cover the whole scope of the app.
-They also make sure to cover every segment for security issues.
+{{% /alert %}}
 
-They may have to manually tweak their tools to ensure optimized performance. 
+## Ongoing Security Assessments and Continuous Testing
 
-In addition, our pentesters perform automated crawls to identify:
+Cobalt provides real-time security feedback throughout the engagement, enabling:
+- Collaboration with developers and security teams
+- Ongoing risk analysis & vulnerability triaging
+- Proactive remediation guidance
 
-- Pages available to unauthenticated users
-- The directory tree of your website
 
-{{% api-scan-tools %}}
-
-{{% /expand %}}
-
-{{% expand "Authenticated vulnerability scanning and manual crawling" %}}
-</br>
-
-Our pentesters run several tests in this area, including:
-
-- Automated crawling tests, followed by manual verification
-- Additional manual crawling tests for better coverage:
-  - Includes application areas protected by authentication
-  - Where applicable, our pentesters run automated scans with the authenticated session
-
-Our pentesters use extreme caution to minimize impact on the targeted system.
-
-{{% api-scan-tools-part %}}
-- Nikto
-- Nessus
-
-{{% /expand %}}
-
-{{% expand "Manual API vulnerability testing and exploitation" %}}
-</br>
-
-Cobalt pentesters use manual testing tools to identify and analyze the following aspects of the API asset:
-
-- Functionality
-- Workflows
-- Business logic
-- Vulnerabilities in deployment and implementation
-
-The assessment identifies known vulnerabilities, including those listed in the:
-
-- [OWASP API Top 10](https://owasp.org/www-project-api-security/)
-- [CVE](https://cve.mitre.org/)
-
-Our pentesters also:
-
-- Run injection attacks that probe the robustness of server-validation routines
-- Look for session management flaws that may allow user impersonation
-- Investigate flaws in access control that expose data or enable users to gain elevated privileges
-
-Beyond these tests, our pentesters also:
-
-- Test how well the design and implementation protects data against unauthorized access or disclosure
-- Review how the endpoints validate input
-- Review how the API handles access tokens
-- Review how the API responds to error conditions or invalid states
-- Consider how resistant the API is to accidental misuse or unintended mistakes by a user that would lead to security issues
-
-For microservices, our pentesters focus on the interactions between different systems. Specifically, we examine:
-
-- Access control management
-- Cross-Origin Resource Sharing (CORS) implementation
-- Vulnerabilities outlined in the [OWASP API Security Project](https://owasp.org/www-project-api-security/)
-
-Our pentesters identify the risk associated with each finding, based on:
-
-- A demonstration of the exploit
-- An evaluation of the impact on the asset, with respect to:
-  - Business functionality
-  - Data
-  - Users
-
-When our pentesters "exploit" a finding, they demonstrate the presence of the vulnerability
-while minimizing potential adverse impact to the application, its data, and underlying systems.  
-
-{{% api-scan-tools-part %}}
-- sqlmap  
-- Postman  
-
-{{% /expand %}}
-
-{{% expand "Ongoing assessments" %}}
-</br>
-
-Our pentesters report their findings, in real time, through the Cobalt platform.
-They also:
-
-- Assess all risks
-- Recommend steps for remediation
-
-You're welcome to communicate with our pentesters for each of their findings.
-
-{{% /expand %}}
-
-{{% expand "Reporting, triaging, and retesting" %}}
-</br>
+## Reporting, Triaging, and Retesting
 
 {{% report-triage-retest %}}
-
-{{% /expand %}}
-
-![API pentest flow](/gsg/APIPentest.png)
-
-## Additional Requirements
-
-{{% additional-requirements %}}
