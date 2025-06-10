@@ -2,9 +2,12 @@
 title: "Insights"
 linkTitle: "Insights"
 weight: 10
-description: >
-  Insights provides comprehensive data on pentest results, remediation progress, and overall performance.
+description: >-
 ---
+
+{{% pageinfo %}}
+Insights provides comprehensive data on pentest results, remediation progress, and overall performance.
+{{% /pageinfo %}}
 
 ## A Comprehensive View of Your Security Posture
 
