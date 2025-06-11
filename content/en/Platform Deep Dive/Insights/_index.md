@@ -3,6 +3,7 @@ title: "Insights"
 linkTitle: "Insights"
 weight: 10
 description: >-
+aliases: ["/assets/insights/"]
 ---
 
 {{% pageinfo %}}
