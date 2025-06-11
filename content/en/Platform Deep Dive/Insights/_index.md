@@ -15,7 +15,7 @@ The Insights page is designed to give you a comprehensive view of your security 
 
 1. [Findings](/platform-deep-dive/insights/#findings)
 2. [Assets](/platform-deep-dive/insights/#assets)
-3. [Benchmark](/platform-deep-dive/insights/#benchmark) {{% beta-label %}} 
+3. [Benchmark](/platform-deep-dive/insights/#benchmark-span-stylecolor6633d9-font-weight500-background-color-ece6fa-padding-2px-4px-border-radius-2pxbetaspan) {{% beta-label %}} 
 
 Use the filters to refine the displayed data, filters include:
 - **Groups:** Groups are specific teams that you have assigned to assets
