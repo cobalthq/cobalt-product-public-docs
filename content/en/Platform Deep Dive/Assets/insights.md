@@ -1,7 +1,8 @@
 ---
 title: "Analyze Your Assets Using Insights"
 linkTitle: "Insights"
-weight: 40
+weight: 0
+toc_hide: =true
 description: >
   Get insights into the security posture of your assets.
 ---
