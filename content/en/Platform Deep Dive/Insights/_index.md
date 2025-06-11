@@ -61,8 +61,10 @@ The Assets tab includes the following charts to help you visualize your data:
 
 - **Risk Overview:** Aggregated Risk is calculated by summing the individual risks of all findings discovered during a pentest on a specific asset. This score is then compared against the Cobalt Average, which is the average Aggregated Risk derived from all pentests conducted across all Cobalt customers in a given year, providing a benchmark for your asset's performance.
    - ℹ️ **How to use this data:** Compare your Aggregated Risk to the Cobalt Average to see how your security posture stands compared to others.
+     
 - **All Findings by Type broken down by Asset:** This section categorizes findings by their specific vulnerability types for each asset. We define these types based on industry standards like the Common Vulnerabilities and Exposures (CVE) database. If an asset has more than 10 unique finding types, we'll display the top 10 most frequent types and group the rest under "Remaining Types."
    - ℹ️ **How to use this data:** Identify shortcomings in how your systems were developed and what the engineering team should focus on. Find patterns emerging across multiple asset types. Based on this data, you may want to arrange a training for your teams to fix the root cause of findings.
+     
 - **Findings by Status and Severity:** For each asset, this provides a breakdown of findings by their current status and severity levels.  Pending Fix findings are displayed by severity. Fixed, Accepted Risk, and Carried Over findings are shown as actioned counts. 
    - ℹ️ **How to use this data:** Analyze the number of findings that pentesters reported on each asset. Identify assets with Pending Fix Critical findings to start remediating them first. 
 
@@ -74,9 +76,12 @@ The Benchmark tab includes the following charts to help you visualize your data:
 
 - **Resolution Rate of Critical and High Pentest Findings:** This metric shows the percentage of your Critical and High-severity pentest findings that are Resolved (Fixed or Accepted Risk).
    - ℹ️ **How to use this data:** Use this to understand how effectively your team is addressing the most severe findings compared to industry peers. A higher percentage indicates a more efficient remediation process.
+     
 - **Percentage of Pentest Findings that are Critical & High:** This is the proportion of all your reported findings that are classified as Critical or High-severity.
    - ℹ️ **How to use this data:** This helps you assess the overall severity of findings discovered in your assets compared to the industry. A lower percentage might suggest more robust security controls upfront or a different risk profile.
+     
 - **Median Time to Remediate (MTTR) Critical & High Pentest Findings:** The median number of days from when a Critical or High-severity finding is reported until it's Resolved (Fixed or Accepted Risk).
    - ℹ️ **How to use this data:** This metric is crucial for evaluating your team's agility and response time to critical threats. A lower median time signifies faster remediation and reduced exposure windows.
-- **Median Age of Unresolved Findings:** The median age (in days) of your open Critical and High-severity Pending Fix findings. This metric is compared against the half-life benchmark from the State of Pentesting Report.
+     
+- **Median Age of Unresolved Critical & High Pentest Findings:** The median age (in days) of your open Critical and High-severity Pending Fix findings. This metric is compared against the half-life benchmark from the State of Pentesting Report.
    - ℹ️ **How to use this data:** Use this to understand the longevity of your most severe unaddressed risks. Comparing it to the half-life benchmark helps you see if your critical findings are lingering longer than industry averages, prompting you to prioritize and expedite resolution.
