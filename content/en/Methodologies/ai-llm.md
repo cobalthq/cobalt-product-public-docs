@@ -51,7 +51,7 @@ Pentesters conduct reconnaissance in the following areas:
 {{% alert title="Tools" color="primary" %}}
 Cobalt may use tools such as:
 - Burp Suite
-- OWASP ZAP
+- ZAP
 
 {{% /alert %}}
 
@@ -124,7 +124,8 @@ Cobalt may use tools such as:
 - Adversarial Robustness Toolbox (ART)
 - CleverHans
 - Foolbox
-- Burp Suite / OWASP ZAP
+- Burp Suite
+- ZAP
 - AI Fairness 360 / Fairlearn
 
 {{% /alert %}}
