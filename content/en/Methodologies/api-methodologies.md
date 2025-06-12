@@ -18,6 +18,8 @@ Cobalt follows an industry-standard methodology based primarily on the OWASP App
 
 This methodology focuses on identifying and mitigating security risks in API authentication, authorization, input validation, access control, cryptographic security, session management, and business logic flaws. The Core Pentesters evaluate the target API against these controls to uncover security weaknesses, including those cataloged in CVE databases and the OWASP API Security Top 10.
 
+For details on what is out of scope, please refer to the [Out of Scope Testing](/methodologies/#out-of-scope-testing) documentation.
+
 Penetration testing of an API includes the following stages:
 
 - [Target Scope Reconnaissance](#target-scope-reconnaissance)
