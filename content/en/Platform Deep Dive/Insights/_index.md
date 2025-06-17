@@ -3,8 +3,7 @@ title: "Insights"
 linkTitle: "Insights"
 weight: 10
 description: >-
-aliases:
-  - /platform-deep-dive/assets/insights/
+url: /platform-deep-dive/assets/insights/ 
 ---
 
 {{% pageinfo %}}
