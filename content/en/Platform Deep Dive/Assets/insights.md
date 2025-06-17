@@ -5,7 +5,7 @@ weight: 0
 toc_hide: =true
 description: >
   Get insights into the security posture of your assets.
-
+url: /platform-deep-dive/insights/
 ---
 
 {{% pageinfo %}}
