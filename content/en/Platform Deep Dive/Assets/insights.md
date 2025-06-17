@@ -5,7 +5,7 @@ weight: 0
 toc_hide: =true
 description: >
   Get insights into the security posture of your assets.
-  aliases:
+aliases:
 - /platform-deep-dive/insights
 ---
 
