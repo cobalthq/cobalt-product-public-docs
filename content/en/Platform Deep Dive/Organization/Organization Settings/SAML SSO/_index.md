@@ -9,7 +9,7 @@ description: >
 ---
 
 {{% pageinfo %}}
-Cobalt supports **identity provider-initiated SAML single sign-on (SSO)**. As an Organization Owner, you can configure SAML SSO with your preferred identity provider.
+Cobalt supports **SAML single sign-on (SSO)**. As an Organization Owner, you can configure SAML SSO with your preferred identity provider.
 {{% /pageinfo %}}
 
 ## SAML SSO Overview
@@ -42,35 +42,41 @@ If [SAML SSO enforcement](#enforce-saml-sso) is off and the Identity Provider Do
 
 Here’s a general configuration workflow for SAML SSO:
 
-1. Create a Cobalt application within the selected identity provider.
-    - For each provider, see how configuration parameters map between their platform and Cobalt.
-1. Set up the integration in the Cobalt app.
-    - Navigate to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
+1. Create a Cobalt application within the selected identity provider
+    - For each provider, see how configuration parameters map between their platform and Cobalt
+1. Set up the integration in the Cobalt app
+    - Navigate to **Settings** > **Identity & Access**
+    - Under **Configure SAML**, select **Configure**
     - Enter the following values from your identity provider:
       - **IdP SSO URL**
-      - **IdP Certificate** (Make sure to include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`.)
+      - **IdP Certificate**
+        - Make sure to include `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----`
       - **Identity Provider Domains** (optional)
         - Enter your email domain(s) here if you want your users to be
-        automatically redirected from our sign in form to your IdP (SP-initiated
-        SSO)
+        automatically redirected from our sign in form to your identity provider
+        (AKA service provider initiated SSO)
         - This will have the same effect as **Enforce SAML** for any user
         that signs in with a matching email address
     - Select **Save Configuration**.<br>
-    ![Configure SAML SSO in the Cobalt app](/deepdive/configure-saml-sso-overlay.png "Configure SAML SSO in the Cobalt app")
-1. Complete the configuration in the identity provider system. Enter the following values from Cobalt:
-    - **ACS URL**: (unique value for each organization).
-      - Example: `https://login.app.us.cobalt.io/login/callback?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`).
-    - **Entity ID**: `https://api.us.cobalt.io/users/saml/metadata`
-    - **Metadata**: If your identity provider requires the SAML metadata file, it can be obtained at the following URL.
-      - Example: `https://login.app.us.cobalt.io/samlp/metadata?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`).
-1. Test your SAML configuration.
-1. If the test is successful, assign users to the SAML app in the IdP.
-1. Notify users that now they can sign in through the selected identity provider. We don't send any notifications to users.
+      ![Configure SAML SSO in the Cobalt app](/deepdive/configure-saml-sso-overlay.png "Configure SAML SSO in the Cobalt app")
+1. Complete the configuration in the identity provider system.
+    - Copy and paste the values provided by Cobalt:
+      - **ACS URL**
+        - Unique for each organization
+        - Example: `https://login.app.us.cobalt.io/login/callback?connection=[your_connection_id]`
+      - **Entity ID**
+        - `https://api.us.cobalt.io/users/saml/metadata`
+      - **Metadata** (optional)
+        - If your identity provider requires the SAML metadata file, it can be obtained using this URL format: `https://login.app.us.cobalt.io/samlp/metadata?connection=[your_connection_id]`
+        - Use the connection id from ACS URL
+1. Test your SAML configuration
+1. If the test is successful, assign users to the SAML app in your identity provider
+1. Notify users that now they can sign in through the selected identity provider
+    - We don't send any notifications to users
 
 We don’t synchronize user datastores, so make sure that all users:
-
-- Joined your organization in Cobalt, confirmed their email address, and created a password.
-- Are provisioned within your identity provider with the same email address that they use in Cobalt.
+- Joined your organization in Cobalt, confirmed their email address, and created a password
+- Are provisioned within your identity provider with the same email address that they use in Cobalt
 
 If you have problems setting up SAML SSO, see our [troubleshooting tips](#troubleshoot-your-saml-sso-configuration).
 
@@ -79,14 +85,15 @@ If you have problems setting up SAML SSO, see our [troubleshooting tips](#troubl
 Cobalt now supports SP-initiated SSO. There are two ways you can access
 SP-initiated SSO once your SAML configuration is set up:
 
-- Use the following URL format: `https://app.us.cobalt.io/users/saml/sign_in?connection=example-org`
-  - Replace `example-org` with your organization's slug
-- Add **Identity Provider Domains** to your SAML configuration
-  - Users with matching email addresses will be automatically redirected from
-  our sign in form to your IdP to complete the authentication flow
+1. Use the Cobalt Sign In URL
+  - Copy and paste from the Service Provider Details section of your SAML
+  Configuration on the Identity & Access tab of the Settings page
+1. Add **Identity Provider Domains** to your SAML configuration
+  - Users with a matching email address will be automatically redirected from
+  our sign in form to your identity provider to complete the authentication flow
   - This will have the same effect as enabling **Enforce SAML**
   - **Note**: It is recommended to leave this field blank until after you have
-  tested your SAML connection and confirmed it's working.
+  tested your SAML connection and confirmed it's working
 
 ## Enforce SAML SSO
 
