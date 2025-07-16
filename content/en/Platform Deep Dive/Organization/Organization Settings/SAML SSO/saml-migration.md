@@ -22,8 +22,8 @@ This page is for [Organization Owners](/platform-deep-dive/collaboration/user-ro
 Here is a summary of updates:
 
 - Our **Assertion Consumer Service (ACS) URL** is no longer `https://api.cobalt.io/users/saml/auth`, but is now unique per organization. To get your unique ACS URL, go to **Settings** > **Identity & Access** > **Configure SAML** in the Cobalt app.
-  - Example ACS URL: `https://login.app.us.cobalt.io/login/callback?connection=example-org`, where the string after `=` is the organization's **slug** (`example-org`). You can also see the slug in **Settings** > **General**.
-- Our **Audience Restriction** now contains a location subdomain.
+  - Example ACS URL: `https://login.app.us.cobalt.io/login/callback?connection=[your_connection_id]`
+  - Our **Audience Restriction** now contains a location subdomain.
   - Example Audience: `https://api.us.cobalt.io/users/saml/metadata`
   - For EU data center: `https://api.eu.cobalt.io/users/saml/metadata`
 - We no longer require a **RelayState** within the assertion.
@@ -140,8 +140,8 @@ To update your existing SAML configuration with Okta for a non-gallery SAML app:
 To update your existing SAML configuration with Okta for a [gallery SAML app for Cobalt](https://www.okta.com/integrations/cobalt/):
 
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
-    - Copy the organization's **slug** that appears after `=` in the ACS URL. You can also see the slug in **Settings** > **General**.<br><br>
-    ![Organization's slug in the ACS URL](/deepdive/slug-acs-url.png "Organization's slug in the ACS URL")
+    - Copy the organization's **connection id** that appears after `connection=` in the ACS URL.<br><br>
+    ![Organization's connection id in the ACS URL](/deepdive/connection-id-acs-url.png "Organization's connection id in the ACS URL")
 1. In Okta, go to your gallery SAML app for Cobalt. Select the **Sign On** tab, then select **Edit**.
     - Delete the **Default Relay State** value.<br><br>
     ![Delete the Default Relay State in your gallery Cobalt SAML app in Okta](/deepdive/Cobalt-configuration-for-Okta-preintegrated-app-3.png "Delete the Default Relay State in your gallery Cobalt SAML app in Okta")
@@ -149,8 +149,8 @@ To update your existing SAML configuration with Okta for a [gallery SAML app for
         - Copy the **Sign on URL**.
         - Download or copy the **Signing Certificate**.<br><br>
     ![Update your SAML configuration in a gallery Cobalt SAML app in Okta](/deepdive/Cobalt-configuration-for-Okta-manual-app-2.png "Update your SAML configuration in a gallery Cobalt SAML app in Okta")
-    - Under **Advanced Sign-on Settings**, in the **Slug** field, enter your organization’s slug from Cobalt.<br><br>
-    ![Enter your organization's slug in a gallery Cobalt SAML app in Okta](/deepdive/Cobalt-configuration-for-Okta-preintegrated-app-1.png "Enter your organization's slug in a gallery Cobalt SAML app in Okta")
+    - Under **Advanced Sign-on Settings**, in the **Slug** field, enter your organization’s connection id from Cobalt.<br><br>
+    ![Enter your organization's connection id in a gallery Cobalt SAML app in Okta](/deepdive/Cobalt-configuration-for-Okta-preintegrated-app-1.png "Enter your organization's connection id in a gallery Cobalt SAML app in Okta")
     - Save the changes.<br><br>
 1. In Cobalt, go to **Settings** > **Identity & Access**. Under **Configure SAML**, select **Configure**.
     - **IdP SSO URL**: Enter the **Sign on URL** from Okta.
@@ -182,7 +182,7 @@ When updating your existing SAML setup, ensure that:
 
 - The **ACS URL** and **Entity ID** are correct in the IdP system.
 - The **Relay State** in the IdP system is blank. We no longer support it in the new SAML implementation.
-- The organization's **Slug** is accurate. The slug appears after `=` in the ACS URL. You can also find the slug in **Settings** > **General**.<br><br>
-![Organization's slug in the ACS URL](/deepdive/slug-acs-url.png "Organization's slug in the ACS URL")
+- The organization's **connection id** is accurate. The connection id appears after `connection=` in the ACS URL.<br><br>
+![Organization's connection id in the ACS URL](/deepdive/connection-id-acs-url.png "Organization's connection id in the ACS URL")
 
 To get help, contact your Customer Success Manager (CSM) or support@cobalt.io.
