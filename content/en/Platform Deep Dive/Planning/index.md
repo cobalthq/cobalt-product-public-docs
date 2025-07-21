@@ -5,6 +5,8 @@ weight: 35
 no_list: true
 description: >
   The Planning feature empowers you to efficiently visualize and manage your annual security program directly within the platform. The feature offers the following key benefits:
+url: /platform-deep-dive/planning
+  
 ---
 
 ## Key Benefits
