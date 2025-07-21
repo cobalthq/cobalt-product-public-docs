@@ -5,13 +5,12 @@ weight: 35
 no_list: true
 description: >
   The Planning feature empowers you to efficiently visualize and manage your annual security program directly within the platform. The feature offers the following key benefits:
-url: /platform-deep-dive/planning
   
 ---
 
 ## Key Benefits
 
-- **Centralized Pentest Management:** View and manage all test activities across your assets in a single, consolidated view, eliminating the need for manual tracking across disparate tools.
+- **Centralized Program Management:** View and manage all test activities across your assets in a single, consolidated view, eliminating the need for manual tracking across disparate tools.
 - **Enhanced Visibility:** Gain insights into credit spending, identify security testing gaps across teams, and make informed decisions to optimize your security program.
 - **Improved Efficiency:** Streamline the planning process, enabling you to map out your annual security program with ease and improve communication and accountability across teams.
 
