@@ -2,7 +2,7 @@
 title: "Planning"
 linkTitle: "Planning"
 weight: 35
-toc_hide: =true
+no_list: =true
 description: >
   The Planning feature empowers you to efficiently visualize and manage your annual security program directly within the platform. The feature offers the following key benefits:
 ---
