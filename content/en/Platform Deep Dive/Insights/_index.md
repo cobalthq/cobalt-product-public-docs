@@ -14,8 +14,8 @@ Insights provides comprehensive data on pentest results, remediation progress, a
 
 The Insights page is designed to give you a comprehensive view of your security program and performance, organized into three distinct tabs:
 
-1. [Findings](/platform-deep-dive/insights/#findings)
-2. [Assets](/platform-deep-dive/insights/#assets)
+1. [Findings](/platform-deep-dive/assets/insights/#findings)
+2. [Assets](/platform-deep-dive/assets/insights/#assets)
 3. [Benchmark](/platform-deep-dive/assets/insights/#benchmark-span-stylecolor6633d9-font-weight500-background-color-ece6fa-padding-2px-4px-border-radius-2pxbetaspan) {{% beta-label %}} 
 
 Use the filters to refine the displayed data, filters include:
