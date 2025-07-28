@@ -1,6 +1,6 @@
 ---
 title: "Integrate Microsoft Teams with Cobalt"
-linkTitle: "MS Teams"
+linkTitle: "Microsoft Teams"
 weight: 25
 description: >
     Receive updates in Microsoft Teams
@@ -32,16 +32,16 @@ Connect your Microsoft Teams workspace to your Cobalt Organization in order to s
 
 ### Install Cobalt Teams Application in Your Teams Instance
 As an administrator for your Microsoft Teams instance, you can add the Cobalt app to your environment by:
-1. Go to Microsoft Teams store
+1. Go to Apps within your Microsoft Teams interface
 2. Search “Cobalt Pentesting and Offensive Security”
-3. Click “Install”
-
-<!-- As an [Organization Owner](/platform-deep-dive/collaboration/user-roles/#organization-owner) or [Member](/platform-deep-dive/collaboration/user-roles/#organization-member), you can: -->
+3. Click “Add”
 
 ### Uninstall Teams Integration
 To remove the Cobalt app from your Microsoft Teams instance: 
-1. Navigate to the "Apps" section, then "Manage your apps". Find the app you want to remove, expand it to see where it's used, and then select "Remove" for each context. 
-2. If you're an administrator, you can remove apps from the Teams admin center.
+1. Navigate to the "Apps" section within Microsoft Teams, then "Manage your apps".
+2. Find the Cobalt Pentesting and Offensive Security app; expand it to see where it's used. 
+3. Click the trash can icon to remove from each channel as needed. 
+Note: If you're a Teams Administrator, you can also remove apps from the Teams admin center.
 
 Here’s what to expect once you’ve removed the Cobalt app:
 - Data synchronization between Cobalt and Microsoft Teams stops.
@@ -99,37 +99,49 @@ If you have issues or need support, contact support@cobalt.io.
 
 ## Frequently Asked Questions
 Q: Do all messages in my Teams channel get synced to the Cobalt pentest?
+
 A: No. Only messages or replies sent using the Cobalt bot will be synced to Cobalt.  Any other communication within the channel, using the standard Teams messaging features, will remain private to that channel, and are not visible to Cobalt. 
 
 Q: Do I need to provide pentesters and staff with access to Microsoft Teams?
+
 A: No.  Pentesters and Cobalt staff can see and respond to messages posted via the Microsoft Teams integration using the Pentest Chat within the Cobalt platform. 
 
 Q: Do all members of my Teams channel need to have access to the Cobalt platform?
+
 A: No. You can invite anybody you wish from your organization to the Teams channel, even those without a Cobalt account.  All members of the channel will be able to post, respond and view communications from the associated pentest.  
 
 Q: Can Cobalt access data in my Microsoft Teams instance when I use this integration?
+
 A: No. Cobalt has no visibility or access to your Teams system, except for messages posted using the Cobalt bot.
 
 Q: Where do messages sent from Teams appear in the Cobalt platform?
+
 A: Messages are synchronized to the Cobalt Chat for the pentest or engagement that they are associated with.  
 
 Q: Who can see the messages sent using the integration?
+
 A: Messages sent to Cobalt from the Teams bot will be visible to Cobalt users who have been granted access to the associated pentest (including your Cobalt Staff members, Pentesters, and any team members that you have invited to the pentest in the Cobalt platform).  After you’ve connected a Teams channel to a pentest, messages posted using the Cobalt bot will be syndicated to the connected pentest’s InApp chat on the Cobalt platform, and vice versa. Users with access to the Teams channel will be able to see the messages originating from the Cobalt InApp chat on the connected pentest. 
 
 Q: How do I control who sees the Cobalt discussions in Teams?
+
 A: Anybody you add to a Teams channel that is connected to a Cobalt pentest will be able to see the discussion.  Cobalt has no visibility or control over the membership of your Teams channels.  As such, it is the customer’s responsibility to manage access in Teams. 
 
 Q: Can I subscribe to multiple Cobalt pentests from the same Teams channel?
+
 A: No, a Teams channel can only be connected to one Cobalt pentest.  To connect another pentest, you may remove the original connection, then connect the new test.  Otherwise, you must create a new channel. 
 
 Q: Can I discuss a specific Cobalt finding using the integration?
+
 A: Currently the integration supports Cobalt’s Pentest Chat only, not Finding chat.  You may reference a finding ID when sending a message, but the message will remain in the Pentest Chat, and will not be directly associated to the specific finding. 
 
 Q: Does the integration support threading?
+
 A: No, threaded messaging  is not currently supported, but will be in a future release. 
 
 Q: Does the integration support file attachments?
+
 A: No, attachments are not currently supported, but will be in a future release. 
 
 Q: Does the integration support reactions?
+
 A: No, emoji reactions are not currently supported, but will be in a future release.
