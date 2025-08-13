@@ -482,6 +482,10 @@ Specialized pentests, as seen in the Cobalt UI, are custom engagements, not stan
 
 A web page with static content that doesn't change depending on the user or location. Contrast with [Dynamic Web Pages](#dynamic-web-page).
 
+## Subscriptions (Cloud) 
+
+A logical container for your resource groups in a cloud asset. For more information, see [Azure documentation](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources#management-levels-and-hierarchy).
+
 ## Traditional Web Application
 
 A web application that consists of a web browser on the client side and a web server. Most of the application logic is performed on the server side.
