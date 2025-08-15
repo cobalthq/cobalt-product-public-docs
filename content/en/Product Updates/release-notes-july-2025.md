@@ -13,7 +13,7 @@ Explore What's New from Cobalt This Month
 
 Get a visual overview of when your tests start and end with the new Planning Calendar View. This makes it easier to track your testing schedule and see at a glance when tests are starting and ending.
 
-![Calendar](/release-notes/calendar-july-25.png "Calendar")
+{{% image src="/release-notes/calendar-july-25.png" alt="Calendar" %}}
 
 ---
 
@@ -23,7 +23,7 @@ You can now download a CSV of your tests within a specific contract period to ea
 
 These updates give you greater visibility into your test schedule and budget, allowing for more strategic planning and communication.
 
-![Credit Visualization & Download](/release-notes/credit-download-july-25.png "Calendar")
+{{% image src="/release-notes/credit-download-july-25.png" alt="Credit Visualization & Download" %}}
 
 ---
 
