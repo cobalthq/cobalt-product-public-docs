@@ -15,7 +15,7 @@ We’ve built a new presales scoping experience to streamline the process of pla
 
 This makes it faster and simpler for prospective customers to define their program and understand the credits they'll need to get started with Cobalt.
 
-![Scoping Assistant](/release-notes/pre-sales-scoping-april-25.png "Scoping Assistant")
+{{% image src="/release-notes/pre-sales-scoping-april-25.png" alt="Scoping Assistant" %}}
 
 ---
 
