@@ -2,7 +2,7 @@
 title: "Product Updates"
 linkTitle: "What's New"
 weight: 700
-toc_hide: = true
+no_list: true
 description: >
 ---
 
