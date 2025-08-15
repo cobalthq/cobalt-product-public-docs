@@ -15,7 +15,7 @@ Compare your organization’s pentest performance against industry peers using c
 
 This provides valuable context for your security posture and helps you justify resources to stakeholders.
 
-![Benchmarks](/release-notes/Org-insights-june-25.png "Benchmarks")
+{{% image src="/release-notes/Org-insights-june-25.png" alt="Benchmarks" %}}
 
 ---
 
@@ -25,7 +25,7 @@ The pentest brief has a new look! You’ll see an updated UI and branding.
 
 The new view also makes it easier to review your pentest team, including the assigned CSM for your organization.
 
-![Pentest Brief](/release-notes/pt-view-june-25.png "Pentest Brief")
+{{% image src="/release-notes/pt-view-june-25.png" alt="Pentest Brief" %}}
 
 ---
 
