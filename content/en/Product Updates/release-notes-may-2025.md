@@ -15,4 +15,4 @@ You can now set your organization's industry and company size within the org set
 
 This provides the team with additional context to better understand your organization and its needs.
 
-![Industry & Company Size](/release-notes/org-profile-company-size-may-25.png "Industry & Size")
+{{% image src="/release-notes/org-profile-company-size-may-25.png" alt="Industry & Size" %}}
