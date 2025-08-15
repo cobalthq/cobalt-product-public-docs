@@ -14,3 +14,5 @@ Explore What's New from Cobalt This Month
 You can now set your organization's industry and company size within the org settings. 
 
 This provides the team with additional context to better understand your organization and its needs.
+
+![Industry & Company Size](/release-notes/org-profile-company-size-may-25.png "Industry & Size")
