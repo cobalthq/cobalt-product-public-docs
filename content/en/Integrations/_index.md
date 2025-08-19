@@ -12,7 +12,7 @@ Streamline your testing and development workflows with Cobalt integrations.
 {{% /pageinfo %}}
 
 {{< alert title="Note" color="primary" >}}
-{{< tier-feature >}}
+{{< tier-feature-html >}}
 {{< /alert >}}
 
 {{% get-started-integrations %}}
