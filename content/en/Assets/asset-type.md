@@ -4,13 +4,15 @@ linkTitle: "Specify Asset Type"
 weight: 20
 description: >
   What kind of asset do you have?
+aliases:
+  - /getting-started/assets/asset-type/
 ---
 
 {{% pageinfo %}}
 Help us find the right pentesters for your asset.
 {{% /pageinfo %}}
 
-We provide guidance for each of the following asset types:  
+We provide guidance for each of the following asset types:
 
 {{% asset-types-table %}}
 

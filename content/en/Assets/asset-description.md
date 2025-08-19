@@ -1,9 +1,11 @@
 ---
 title: "Describe Your Assets"
 linkTitle: "Describe Your Assets"
-weight: 50
+weight: 30
 description: >
   Better descriptions help our pentesters test your assets properly.
+aliases:
+  - /getting-started/assets/asset-description/
 ---
 
 {{% pageinfo %}}
@@ -47,7 +49,7 @@ For web assets, define the application type. For example, some web assets may be
 
 Web and API assets frequently include dedicated reference documentation. For example,
 RESTful API assets frequently include OpenAPI-based documents that describe the
-properties associated with each endpoint. 
+properties associated with each endpoint.
 
 ### Web Asset Description
 
@@ -86,12 +88,13 @@ Make sure to include the:
 To share more about your assets, you can upload the documentation of your choice under **Attachment(s)**. Our app limits uploads to 100 MB.
 
 {{%expand "Accepted file categories and formats:" %}}
+
 - Archives (.gz, .rar, .tar, .zip)
 - Documents (.doc, .docx, .pdf, .txt)
 - Images (.gif, .jpg, .jpeg, .png)
 - Spreadsheets (.csv, .xls, .xlsx)
 - Videos (.mov, .mp4)
-{{% /expand%}}
+  {{% /expand%}}
 
 {{< alert title="Tip" color="primary" >}}
 You can add a video walk-through of your asset as an attachment. This will give pentesters more context about the asset they need to test.<br><br>Screen recording instructions vary depending on your device and operating system. As an example, read [how to record the screen on your Mac](https://support.apple.com/en-gb/HT208721).
@@ -113,7 +116,7 @@ templates:
 - User role matrix
 
 We've included suggested data in the downloadable Excel (.xlsx) files.
-We encourage you to replace this information with other data, and upload it 
+We encourage you to replace this information with other data, and upload it
 with any other documentation for your asset.
 
 Now you can start [setting up a pentest](/getting-started/select-pentest-type/).
