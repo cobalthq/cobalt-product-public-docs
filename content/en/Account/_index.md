@@ -1,9 +1,11 @@
 ---
 title: "Sign In to Cobalt"
-linkTitle: "Sign In"
-weight: 9
+linkTitle: "Account"
+weight: 70
 description: >
-  Start the pentest process. Sign in to the Cobalt app.
+  Manage your account access. Sign in to the Cobalt app.
+aliases:
+  - /getting-started/sign-in/
 ---
 
 {{% pageinfo %}}
@@ -28,7 +30,7 @@ Depending on the configurations of your organization, you can sign in to Cobalt 
 - From the Cobalt {{% sign-in %}} page, with:
   - Your email address and password.
   - Your Google account with which you were invited to Cobalt.<br><br>
-  ![Cobalt Sign In page](/gsg/Cobalt-sign-in-page.png "Cobalt Sign In page")
+    ![Cobalt Sign In page](/gsg/Cobalt-sign-in-page.png "Cobalt Sign In page")
 
 {{< alert title="Tip" color="primary" >}}
 If you have problems signing in, see [Troubleshoot Sign-in Issues](/platform-deep-dive/cobalt-account/account-recovery/).

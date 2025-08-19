@@ -1,3 +1,4 @@
 # Redirects from what the browser requests to what we serve
 /platform-deep-dive/assets/*    /assets/:splat   301
 /platform-deep-dive/pentests/*  /pentests/:splat 301
+/getting-started/sign-in/       /account/         301
