@@ -1,6 +1,6 @@
 ---
-title: "Define an Asset"
-linkTitle: "Create Your Assets"
+title: "Create an Asset"
+linkTitle: "Create an Asset"
 weight: 10
 no_list: true
 description: >

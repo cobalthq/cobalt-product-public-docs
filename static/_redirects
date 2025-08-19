@@ -3,3 +3,6 @@
 /platform-deep-dive/pentests/*  /pentests/:splat 301
 /getting-started/sign-in/       /account/         301
 /getting-started/assets/*       /assets/:splat    301
+/getting-started/pentest-preparation/  /pentests/preparation/   301
+/getting-started/what-to-expect/       /pentests/what-to-expect/ 301
+/getting-started/glossary/             /glossary/                301

@@ -1,9 +1,11 @@
 ---
 title: "Glossary"
 linkTitle: "Glossary"
-weight: 400
+weight: 999
 description: >
- Learn more about the language of software security.
+  Learn more about the language of software security.
+aliases:
+  - /getting-started/glossary/
 ---
 
 {{% pageinfo %}}
@@ -22,7 +24,7 @@ An AWS account is a container for your AWS resources. For more information, see 
 
 {{% aggregated-risk-definition %}}
 
-The [risk](/platform-deep-dive/pentests/findings/severity-levels/) of an individual finding is the likelihood multiplied by the impact (Risk = Likelihood * Impact).
+The [risk](/platform-deep-dive/pentests/findings/severity-levels/) of an individual finding is the likelihood multiplied by the impact (Risk = Likelihood \* Impact).
 
 ## Allowlist
 
@@ -41,8 +43,8 @@ When [scoping a pentest for an API asset](/getting-started/planning/#api), ignor
 
 Some [RESTful API](#restful-api) endpoints include additional information that may make them seem different. For example, the following two URLs are in fact the same endpoint, as the content after the ampersand (&) describes an action on data sent from that URL:
 
-- example.com/endpoint1&_prettyPrint=true
-- example.com/endpoint1&_prettyPrint=false
+- example.com/endpoint1&\_prettyPrint=true
+- example.com/endpoint1&\_prettyPrint=false
 
 [GraphQL operates](https://graphql.org/learn/serving-over-http/#uris-routes) on a single API endpoint. Functionally, GraphQL queries and mutations are similar to RESTful GET, POST, PUT, and other commands.
 
@@ -80,7 +82,7 @@ relates to pentests of web application technical security controls.
 
 ## Attacker
 
-Sometimes also known as a threat actor, malicious hacker, "black hat hacker," or "cracker." May be 
+Sometimes also known as a threat actor, malicious hacker, "black hat hacker," or "cracker." May be
 an individual, a group, or even a nation-state. Specified as "attacker" in Cobalt pentest reports.
 
 ## Attestation Letter
@@ -222,7 +224,7 @@ Examples:
 - Review and update a codebase for issues identified on specific files
 
 Contrast with [remediate](#remediate). This reflects how we use **mitigate** at
-Cobalt, and differs slightly from the NIST definition of 
+Cobalt, and differs slightly from the NIST definition of
 [mitigate](https://csrc.nist.gov/glossary/term/mitigate).
 
 ## Mobile Screen
@@ -234,9 +236,11 @@ You may have multiple screens of an archetype. For example, you may have 10 mobi
 For pentests of a mobile [asset](#asset), we need the number of screens that you have, for each operating system that you support.
 
 ## Multi-factor Authentication
+
 <!-- `Multi-factor` is consistent with Google terminology  -->
 
 Authentication which uses two or more different factors, which may include:
+
 - Something you know, such as a password or a PIN number
 - Something you have, such as an identity token
 - Something you are, which works with biometric authentication
@@ -272,9 +276,10 @@ penetration testing programs.
 
 A summary of all vulnerability reports, including observations on positive security measures. Target audiences: executives, security engineers, and developers. Includes:
 
-- Executive Summary 
+- Executive Summary
   - Describes the tests performed with criteria.
 - Executive Analysis
+
   - Includes a high-level summary of vulnerabilities.
 
 - Scope of Work
@@ -345,9 +350,10 @@ You may want a Comprehensive Pentest for:
 
 A summary of all vulnerability reports, including observations on positive security measures. Target audiences: executives, security engineers, and developers. Includes:
 
-- Executive Summary 
+- Executive Summary
   - Describes the tests performed with criteria.
 - Executive Analysis
+
   - Includes a high-level summary of vulnerabilities.
 
 - Scope of Work
@@ -388,7 +394,7 @@ To fix a vulnerability identified by a pentest or incident report. Examples:
 - Update directly affected code
 
 Contrast with [mitigate](#mitigate). This reflects how we use **remediate** at
-Cobalt, and differs slightly from the NIST definition of 
+Cobalt, and differs slightly from the NIST definition of
 [remediation](https://csrc.nist.gov/glossary/term/remediation).
 
 ## RESTful API
@@ -438,9 +444,9 @@ In the identity provider-initiated (IdP-initiated) [SAML SSO](#saml-single-sign-
 
 ## Secure Code Review
 
-A Secure Code Review is the human-led examination of software’s source code in order to identify security vulnerabilities 
-that are the result of design flaws, but proven to be valid security issues. It is an important part of any organization's 
-software development life cycle (SDLC) and helps improve the overall quality and security of the software and an organization's 
+A Secure Code Review is the human-led examination of software’s source code in order to identify security vulnerabilities
+that are the result of design flaws, but proven to be valid security issues. It is an important part of any organization's
+software development life cycle (SDLC) and helps improve the overall quality and security of the software and an organization's
 overall security posture.
 
 ## Security Assertion Markup Language
@@ -482,7 +488,7 @@ Specialized pentests, as seen in the Cobalt UI, are custom engagements, not stan
 
 A web page with static content that doesn't change depending on the user or location. Contrast with [Dynamic Web Pages](#dynamic-web-page).
 
-## Subscriptions (Cloud) 
+## Subscriptions (Cloud)
 
 A logical container for your resource groups in a cloud asset. For more information, see [Azure documentation](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-setup-guide/organize-resources#management-levels-and-hierarchy).
 
