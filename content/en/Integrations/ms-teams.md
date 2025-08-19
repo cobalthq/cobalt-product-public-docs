@@ -67,7 +67,7 @@ To communicate with the Cobalt pentest team through Microsoft Teams, you must co
 6. Review the confirmation message from the Cobalt bot to verify the correct pentest has been connected to the channel. 
 Note:  Only one pentest can be connected to a Teams channel.  
 
-### Disconnected Teams Channel(s)
+### Disconnect Teams Channel(s)
 Once you’ve connected your Microsoft Teams instance, you can view all pentests connected to Teams channels.  
 
 1. After logging in to Cobalt, go to Integrations > Microsoft Teams > Configuration. Here, you can see pentests for which you have connected Teams channels.
@@ -86,12 +86,6 @@ Once a Teams channel has been connected to a Cobalt pentest, you can send messag
 You can also use the bot command “@Cobalt chat” then type your message. 
 Once sent, the message will appear in the Cobalt Chat for the associated pentest, and will be syndicated to your Teams channel for visibility to the other channel members. 
 
-### Reply to a Message from Teams
-When a message is posted to Cobalt Chat, either from the Cobalt platform or using the Microsoft Teams integration, the Cobalt bot will post the content of the message to the subscribed Teams channel.  To reply to the message:
-1. Click the “Reply” button on the message
-2. Enter the response in the “Reply” dialog
-3. Click “Send Reply”
-
 ### Get Help within Teams
 You can also use the bot command “@Cobalt help” to view a list of the available commands and what they are used for.
 
@@ -107,7 +101,7 @@ If you have issues or need support, contact support@cobalt.io.
 A: No. Only messages or replies sent using the Cobalt bot will be synced to Cobalt.  Any other communication within the channel, using the standard Teams messaging features, will remain private to that channel, and are not visible to Cobalt. 
 
 
-**Q: Do I need to provide pentesters and staff with access to Microsoft Teams?**
+**Q: Do I need to provide pentesters and Cobalt staff with access to Microsoft Teams?**
 
 A: No.  Pentesters and Cobalt staff can see and respond to messages posted via the Microsoft Teams integration using the Pentest Chat within the Cobalt platform. 
 
