@@ -25,7 +25,7 @@
 # Getting Started wildcard moves (Hugo aliases handle most, but these catch edge cases)
 
 /getting-started/assets/* /assets/:splat 301
-/getting-started/pentest-objectives/* /pentests/:splat 301
+/getting-started/pentest-objectives/* /pentests/pentest-objectives/:splat 301
 /getting-started/* /pentests/:splat 301
 
 # PMP (Pentest Management Platform) moves
