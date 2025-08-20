@@ -6,3 +6,9 @@
 /getting-started/pentest-preparation/  /pentests/preparation/   301
 /getting-started/what-to-expect/       /pentests/what-to-expect/ 301
 /getting-started/glossary/             /glossary/                301
+/getting-started/planning/             /pentests/planning/ 301
+/getting-started/review-pentest/       /pentests/review-pentest/ 301
+/getting-started/pentest-objectives/pentest-target/        /pentests/pentest-target/ 301
+/getting-started/pentest-objectives/test-credentials/      /pentests/test-credentials/ 301
+/getting-started/pentest-objectives/special-instructions/  /pentests/special-instructions/ 301
+/getting-started/pentest-objectives/stack/                 /assets/stack/     301

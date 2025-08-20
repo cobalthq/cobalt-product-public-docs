@@ -20,7 +20,7 @@ Take your first steps to get started:
 
 ## Prepare for a Pentest
 
-<a class="btn btn-outline-primary rounded" href="/getting-started/pentest-preparation/">Pentest Preparation Checklist »</a>
+<a class="btn btn-outline-primary rounded" href="/pentests/preparation/">Pentest Preparation Checklist »</a>
 
 - **Make your teams aware of the upcoming pentest**.
   - Notify everyone who should be aware of the pentest. Ensure that the pentest doesn’t disrupt anyone’s workflows.
@@ -35,37 +35,27 @@ Take your first steps to get started:
 
 ## Launch a Pentest
 
-[Sign in to Cobalt](/getting-started/sign-in/), and start with [defining your assets](/getting-started/assets/). Here are the steps you need to take.
+[Sign in to Cobalt](/account/), and start with [defining your assets](/assets/create-asset/). Here are the steps you need to take.
 
 ![Workflow for creating a pentest](/gsg/CreatePentestFlowFull.png "Workflow for creating a pentest")
 
 {{% expand "Click to learn more." %}}
 
-1. Define your [assets](/getting-started/assets/). Our pentesters analyze all kinds of
+1. Define your [assets](/assets/create-asset/). Our pentesters analyze all kinds of
    assets, from web apps to internal networks.
-1. Select the [pentest type](/getting-started/select-pentest-type/). We offer [Agile](/getting-started/glossary/#agile-pentest) and [Comprehensive Pentests](/getting-started/glossary/#comprehensive-pentest).
-1. [Review your asset](/getting-started/review-asset/).
-1. Set [requirements](/getting-started/pentest-objectives/) for your pentest.
+1. [Create a pentest](/pentests/create-pentest/) and set requirements. We offer [Agile](/glossary/#agile-pentest) and [Comprehensive Pentests](/glossary/#comprehensive-pentest).
    - By default, our pentesters use standards defined by the
      [Open Web Application Security
-     Project (OWASP)](/getting-started/glossary/#open-web-application-security-project-owasp) and in
+     Project (OWASP)](/glossary/#open-web-application-security-project-owasp) and in
      the [Open Source Security Testing Methodology
-     Manual](/getting-started/glossary/#open-source-security-testing-methodology-manual-osstmm).
-   - Add and modify the objectives of your choice.
+     Manual](/glossary/#open-source-security-testing-methodology-manual-osstmm).
    - To help our penetration testers, include more information about your asset,
      such as architecture and coding language. You'll see more details about
-     what to include when you [define your assets](/getting-started/assets/).
-1. Define [details](/getting-started/details/) of your environment.
-   Is your asset in production or in development? Is part of your system
-   on a Cloud platform?
-1. [Plan and scope](/getting-started/planning/) the test. Define your desired pentest start
-   date, and specify the pentest scope. We need time to find the best available pentesters for your assets.
-1. [Review your pentest request](/getting-started/review-pentest/) to make
-   sure you've included _all_ information that our pentesters need.
+     what to include when you [define your assets](/assets/create-asset/).
 
 Once you've set up a pentest, we start analyzing your asset. When
 possible, we share results even before we create your report. Here's what
-you can [expect](/getting-started/what-to-expect/).
+you can [expect](/pentests/what-to-expect/).
 
 {{% /expand %}}
 
@@ -93,7 +83,7 @@ To learn more, please see <a href="/platform-deep-dive/collaboration/user-roles/
 
 {{% expand "What is an asset?" %}}
 <br>
-{{% asset-definition %}} Learn more about the <a href="/platform-deep-dive/assets/asset-types/">asset types</a> we support. Once you've created an asset, you can launch pentests for it.
+{{% asset-definition %}} Learn more about the <a href="/assets/asset-types/">asset types</a> we support. Once you've created an asset, you can launch pentests for it.
 <br><br>
 {{% /expand %}}
 

@@ -4,6 +4,8 @@ linkTitle: "Technology Stack"
 weight: 180
 description: >
   Your pentesters need to know the technologies behind your asset.
+aliases:
+  - /getting-started/pentest-objectives/stack/
 ---
 
 {{% pageinfo %}}
@@ -32,7 +34,7 @@ languages as well.
 ### Mobile
 
 For some, mobile apps are an extension of web apps. If you have a dedicated mobile app,
-your pentester needs to know the language used to develop that app. 
+your pentester needs to know the language used to develop that app.
 
 You may have used one of the [Web](#web) app languages. You may have
 also used one or more of the languages that designed for mobile apps. In either
