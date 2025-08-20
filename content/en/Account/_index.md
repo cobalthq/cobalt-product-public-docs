@@ -1,7 +1,7 @@
 ---
 title: "Sign In to Cobalt"
 linkTitle: "Account"
-weight: 70
+weight: 90
 description: >
   Manage your account access. Sign in to the Cobalt app.
 aliases:

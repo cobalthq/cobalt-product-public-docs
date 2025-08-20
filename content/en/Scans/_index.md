@@ -1,7 +1,7 @@
 ---
 title: "DAST Scanner"
 linkTitle: "DAST Scanner"
-weight: 50
+weight: 80
 no_list: true
 description: >
   DAST Scanner - Web Application and API Vulnerability Scanning
@@ -70,6 +70,7 @@ They balance the speed and accuracy of the scan. Detailed descriptions for each 
 ### Scan Results
 
 - Once a scan is complete, you have two options to View Results
+
   - You can view the results on the target
 
     {{% image src="/scans/5_TargetScanResultsSampleReport.png" alt="Target - Scan Results Sample Report" %}}
@@ -91,20 +92,22 @@ They balance the speed and accuracy of the scan. Detailed descriptions for each 
 ### Finding States
 
 - Move Finding State
+
   - You can update the state for each finding
   - Each finding has the following states:
     - **Pending Fix** (default): A vulnerability was found in a scan and has not been remediated
-    - **Declined**: This is a false positive and not relevant to your application  (Each of these gets reviewed internally by Cobalt)
+    - **Declined**: This is a false positive and not relevant to your application (Each of these gets reviewed internally by Cobalt)
     - **Accepted Risk**: This is a known vulnerability but due to a mitigating control, the user accepts the risk.
     - **Re-test**: The user has remediated the vulnerability and is ready to retest the finding. Submitting a retest is the only way to mark a vulnerability as “fixed”.
 
 - Retest Finding
+
   - You can retest individual findings.
   - Navigate to the finding you want to retest and select “retest”
 
     {{% image src="/scans/9_Retest_Finding.png" alt="Retest Finding" %}}
 
-  - If the scan engine does not find the vulnerability again it will automatically mark the finding as “Fixed”.  If the issue still persists, it will move back to its previous state.
+  - If the scan engine does not find the vulnerability again it will automatically mark the finding as “Fixed”. If the issue still persists, it will move back to its previous state.
 
 ### Reports
 

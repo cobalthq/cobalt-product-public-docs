@@ -1,7 +1,7 @@
 ---
 title: "Organization"
 linkTitle: "Organization"
-weight: 60
+weight: 110
 aliases: /platform-deep-dive/collaboration/organization/
 no_list: true
 description: >
