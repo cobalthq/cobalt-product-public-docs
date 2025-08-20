@@ -1,14 +1,20 @@
 # Redirects from what the browser requests to what we serve
+
+# Platform Deep Dive section moves (wildcard catches all subsections)
 /platform-deep-dive/assets/*    /assets/:splat   301
 /platform-deep-dive/pentests/*  /pentests/:splat 301
-/getting-started/sign-in/       /account/         301
-/getting-started/assets/*       /assets/:splat    301
-/getting-started/pentest-preparation/  /pentests/preparation/   301
-/getting-started/what-to-expect/       /pentests/what-to-expect/ 301
-/getting-started/glossary/             /glossary/                301
-/getting-started/planning/             /pentests/planning/ 301
-/getting-started/review-pentest/       /pentests/review-pentest/ 301
-/getting-started/pentest-objectives/pentest-target/        /pentests/pentest-target/ 301
-/getting-started/pentest-objectives/test-credentials/      /pentests/test-credentials/ 301
-/getting-started/pentest-objectives/special-instructions/  /pentests/special-instructions/ 301
-/getting-started/pentest-objectives/stack/                 /assets/stack/     301
+
+# Getting Started section moves
+# Special cases first (most specific matches first)
+/getting-started/sign-in/                       /account/         301
+/getting-started/glossary/                      /glossary/        301
+/getting-started/pentest-objectives/stack/      /assets/stack/    301
+
+# Asset-related moves (wildcard)
+/getting-started/assets/*                       /assets/:splat    301
+
+# Pentest objectives moves (wildcard for all objectives except stack)
+/getting-started/pentest-objectives/*           /pentests/:splat  301
+
+# All other getting-started pages → pentests (catch-all)
+/getting-started/*                              /pentests/:splat  301
