@@ -6,7 +6,8 @@
 
 /platform-deep-dive/pentests/pentest-process/pentest-states/ /pentests/pentest-states/ 301
 /platform-deep-dive/pentests/pentest-process/coverage-checklist/ /pentests/coverage-checklist/ 301
-/platform-deep-dive/pentests/pentest-process/ /pentests/pentest-process/ 301
+/platform-deep-dive/pentests/pentest-process/pentest-states/ /pentests/pentest-states/ 301
+/platform-deep-dive/pentests/pentest-process/coverage-checklist/ /pentests/coverage-checklist/ 301
 
 # Platform Deep Dive wildcards (general moves)
 
