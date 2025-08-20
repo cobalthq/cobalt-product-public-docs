@@ -10,8 +10,8 @@
 
 # Platform Deep Dive wildcards (general moves)
 
-/platform-deep-dive/assets/ /assets/:splat 301
-/platform-deep-dive/pentests/ /pentests/:splat 301
+/platform-deep-dive/assets/* /assets/:splat 301
+/platform-deep-dive/pentests/* /pentests/:splat 301
 
 # Getting Started section moves
 
@@ -24,11 +24,11 @@
 
 # Getting Started wildcard moves (Hugo aliases handle most, but these catch edge cases)
 
-/getting-started/assets/ /assets/:splat 301
-/getting-started/pentest-objectives/ /pentests/:splat 301
-/getting-started/ /pentests/:splat 301
+/getting-started/assets/* /assets/:splat 301
+/getting-started/pentest-objectives/* /pentests/:splat 301
+/getting-started/* /pentests/:splat 301
 
 # PMP (Pentest Management Platform) moves
 
 /pmp/ /pentests/in-house/ 301
-/pmp/ /pentests/in-house/:splat 301
+/pmp/* /pentests/in-house/:splat 301
