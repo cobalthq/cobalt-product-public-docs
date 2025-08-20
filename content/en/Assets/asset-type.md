@@ -4,8 +4,6 @@ linkTitle: "Specify Asset Type"
 weight: 20
 description: >
   What kind of asset do you have?
-aliases:
-  - /getting-started/assets/asset-type/
 ---
 
 {{% pageinfo %}}

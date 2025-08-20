@@ -4,8 +4,6 @@ linkTitle: "Describe Your Assets"
 weight: 30
 description: >
   Better descriptions help our pentesters test your assets properly.
-aliases:
-  - /getting-started/assets/asset-description/
 ---
 
 {{% pageinfo %}}

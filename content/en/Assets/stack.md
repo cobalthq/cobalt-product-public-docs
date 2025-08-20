@@ -4,8 +4,6 @@ linkTitle: "Technology Stack"
 weight: 180
 description: >
   Your pentesters need to know the technologies behind your asset.
-aliases:
-  - /getting-started/pentest-objectives/stack/
 ---
 
 {{% pageinfo %}}

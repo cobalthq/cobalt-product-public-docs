@@ -4,8 +4,6 @@ linkTitle: "Account"
 weight: 90
 description: >
   Manage your account access. Sign in to the Cobalt app.
-aliases:
-  - /getting-started/sign-in/
 ---
 
 {{% pageinfo %}}
