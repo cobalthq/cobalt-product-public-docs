@@ -1,7 +1,7 @@
 ---
 title: "Cobalt API"
 linkTitle: "Cobalt API"
-weight: 100
+weight: 140
 aliases: /apiusecases/
 no_list: true
 description: >
@@ -25,7 +25,7 @@ Here are some examples of how you can scale your workflows:
 
 Read our comprehensive API documentation to learn how to send specific API requests and view examples.
 
-<a href="/cobalt-api/documentation/v2" target="_blank" class="btn btn-outline-primary rounded">Go to API Docs  »</a>
+<a href="/cobalt-api/documentation/v2" target="_blank" class="btn btn-outline-primary rounded">Go to API Docs »</a>
 
 ## Authentication
 
@@ -44,7 +44,19 @@ If you run `curl` from the command line, we recommend that you use the
 Without the `| jq .`, you may have output that looks like:
 
 ```json
-{"pagination":{"next_page":null,"prev_page":null},"data":[{"resource":{"id":"YOUR-ORG-ID","name":"ORG-NAME","token":"YOUR-V2-ORGANIZATION-TOKEN"},"links":{"ui":{"url":"URL-WITH-YOUR-PENTESTS"}}}]}
+{
+  "pagination": { "next_page": null, "prev_page": null },
+  "data": [
+    {
+      "resource": {
+        "id": "YOUR-ORG-ID",
+        "name": "ORG-NAME",
+        "token": "YOUR-V2-ORGANIZATION-TOKEN"
+      },
+      "links": { "ui": { "url": "URL-WITH-YOUR-PENTESTS" } }
+    }
+  ]
+}
 ```
 
 If you add a `| jq .` to the end of your REST call, you may find it easier to
@@ -71,7 +83,6 @@ read the output:
     }
   ]
 }
-
 ```
 
 For your convenience, we include `| jq .` in all of our sample REST calls that

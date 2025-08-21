@@ -1,13 +1,13 @@
 ---
 title: "Cobalt Methodologies"
 linkTitle: "Methodologies"
-weight: 7
+weight: 60
 no_list: true
 description: >
   An overview of Cobalt methodologies.
 aliases:
-    - /getting-started/pentest-objectives/methodologies/
-    - /platform-deep-dive/pentests/pentest-process/methodologies/
+  - /getting-started/pentest-objectives/methodologies/
+  - /platform-deep-dive/pentests/pentest-process/methodologies/
 ---
 
 {{% pageinfo %}}
@@ -39,7 +39,7 @@ can limit the test to either of the individual methodologies:
 
 ![Choice of Methodologies](/gsg/WebOrAPI.png "Choose a pentest methodology for Web + API assets")
 
-## Testing Approaches 
+## Testing Approaches
 
 Understanding the level of testing access provided to the team is critical to defining the scope and depth of testing. We offer three standard approaches:
 
@@ -60,9 +60,11 @@ In a white-box engagement, testers are given full access to internal documentati
 When you engage Cobalt for a pentest, it's important to understand what's usually outside the boundaries of the test. This clarity helps manage expectations and ensures the test focuses on the most relevant areas of your digital security. Here are a few key areas that generally fall out of scope:
 
 ### Denial-of-Service (DoS/DDoS) Testing
+
 Direct Denial-of-Service (DoS) or Distributed Denial-of-Service (DDoS) testing is **not included** in a standard Cobalt pentest.
 
 _Why it's excluded:_
+
 - DoS attacks are designed to crash or overwhelm services. Performing these tests could lead to significant downtime for your critical business operations.
 - Uncontrolled DoS testing can be indistinguishable from a malicious attack, and it might inadvertently affect other organizations that share infrastructure with you.
 - Assessing DoS/DDoS resilience usually requires specific performance and load testing. This is often done in controlled staging environments, not as part of a general security pentest.
@@ -72,10 +74,12 @@ _Why it's excluded:_
 Cobalt pentests primarily concentrate on the custom code and configurations implemented. Cobalt does not delve into the inherent security of third-party applications and libraries.
 
 For example, if you use a third-party service like Okta or Auth0 for authentication:
+
 - Cobalt will test the connection and integration between your application and the authentication service. This includes looking for vulnerabilities in how your application communicates with Okta/Auth0, how it handles tokens, or if there are any misconfigurations that could expose your users.
 - Cobalt will not test the security of Okta's or Auth0's own authentication system. The security of their underlying platform, their servers, and their internal code is the responsibility of those vendors.
 
 _Why they're excluded:_
+
 - The security of third-party products is primarily the vendor's responsibility. Organizations should rely on vendor security attestations, audit reports, and their own due diligence when choosing these solutions.
 - Cobalt pentesters typically don't have the legal authorization or the necessary technical access to conduct in-depth testing on a third-party vendor's infrastructure.
 - If third-party components are included in the scope, Cobalt testers will focus on how they are integrated and configured within your environment, rather than attempting to uncover vulnerabilities within the third-party product itself.

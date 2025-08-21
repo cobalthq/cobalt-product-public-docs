@@ -1,7 +1,7 @@
 ---
 title: "Best Practices for Security"
 linkTitle: "Security Best Practices"
-weight: 600
+weight: 150
 no_list: true
 description: >
   Recommendations for developers focused on security.
@@ -26,10 +26,10 @@ until we have enough articles to actually organize. -->
 Once we've merged content into this guide, we'll list them in the following table with the
 date of release.
 
-| Article | Release Date | Author |
-| ----- | ----- | ----- |
-|[Protect Against XXE Attacks](/bestpractices/protect-against-xxe/)                | 2022-12-02   | {{% harsh-bothra %}} |
-|[Insecure Deserialization](/bestpractices/insecure-deserialization/)                | 2022-12-02   | {{% farid %}} |
+| Article                                                                             | Release Date | Author                |
+| ----------------------------------------------------------------------------------- | ------------ | --------------------- |
+| [Protect Against XXE Attacks](/bestpractices/protect-against-xxe/)                  | 2022-12-02   | {{% harsh-bothra %}}  |
+| [Insecure Deserialization](/bestpractices/insecure-deserialization/)                | 2022-12-02   | {{% farid %}}         |
 | [Prevent Insecure Design in SQL](/bestpractices/secure-design/)                     | 2022-10-21   | {{% shashank %}}      |
 | [Protect Your APIs With Rate Limiting](/bestpractices/api-rate-limiting/)           | 2022-10-21   | {{% payloadartist %}} |
 | [Prevent Server-Side Template Injections](/bestpractices/prevent-ssti/)             | 2022-10-21   | {{% unstabl3 %}}      |

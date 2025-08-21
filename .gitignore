@@ -5,3 +5,4 @@ tech-doc-hugo/
 tmp/
 .DS_Store
 .idea
+_vendor/

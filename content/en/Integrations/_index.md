@@ -1,7 +1,7 @@
 ---
 title: "Cobalt Integrations"
 linkTitle: "Integrations"
-weight: 110
+weight: 130
 no_list: true
 description: >
   Integrate third-party apps and configure webhooks.
@@ -12,7 +12,7 @@ Streamline your testing and development workflows with Cobalt integrations.
 {{% /pageinfo %}}
 
 {{< alert title="Note" color="primary" >}}
-{{< tier-feature >}}
+{{< tier-feature-html >}}
 {{< /alert >}}
 
 {{% get-started-integrations %}}

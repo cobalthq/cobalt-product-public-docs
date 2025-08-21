@@ -32,17 +32,11 @@ In addition, the following tools can help you verify ("lint") proposed documenta
 - [Vale](https://github.com/errata-ai/vale), a syntax-aware linter
 - [Netlify](https://www.netlify.com/) for CI tests and doc deployment
 
-
 ## Docsy
 
 [Docsy](https://github.com/google/docsy) is a Hugo theme for technical documentation sites, providing easy site navigation, structure, and more.
 
-This repository includes the theme as a Git submodule:
-
-```bash
-▶ git submodule
- f82dd5efa0eb5a03086498686f9e60f7bd2bb5f3 themes/docsy (remotes/origin/tekton-example-23-gf82dd5e)
-```
+This repository uses Docsy via Hugo Modules (not a git submodule) so that theme dependencies (for example, Font Awesome and Bootstrap) are resolved correctly.
 
 The theme is based on the [Docsy Example Project](https://example.docsy.dev/). For detailed theme instructions, see the Docsy user guide: https://docsy.dev/docs/.
 
@@ -51,6 +45,7 @@ The theme is based on the [Docsy Example Project](https://example.docsy.dev/). F
 To build and run the site locally, you need the following:
 
 - A recent `extended` version of [Hugo](https://gohugo.io). For more information, see the [Docsy Getting Started Guide](https://www.docsy.dev/docs/getting-started/#prerequisites-and-installation) guide.
+
   - If you're installing Hugo on MacOS using `brew`, the default installation is the `extended` version. To confirm, run:
 
     ```
@@ -62,6 +57,24 @@ To build and run the site locally, you need the following:
   ```
   npm install
   ```
+
+### Quick start (local dev)
+
+```
+# Check Hugo version (verified working with the one below)
+hugo version
+# hugo v0.148.2+extended+withdeploy darwin/arm64 BuildDate=2025-07-27T12:43:24Z VendorInfo=brew
+
+# Install dependencies
+npm install
+
+# Initialize Hugo Modules once (skip if go.mod already exists)
+hugo mod init cobalt-product-public-docs
+
+# Fetch and vendor theme dependencies
+hugo mod get -u
+hugo mod vendor
+```
 
 After you've made your working copy of the site repository, from its root folder, run:
 
@@ -117,6 +130,7 @@ target does not exist --- platform-deep-dive/pentests/pentest-process/methodolog
 ```
 
 In this case, the `../../special-instructions` link does not exist.
+
 - Links like this are prone to trouble, as they're relative links. Fix: use "absolute links".
 
 #### Alt Text Missing
@@ -207,7 +221,7 @@ Internal Cobalt #docs channel or ana-dashuk-cobalt.
 
 ## SOC2 Compliance
 
-SOC2 is not a requirement, as this repository does *not* host customer-exposed production workloads. However,
+SOC2 is not a requirement, as this repository does _not_ host customer-exposed production workloads. However,
 the SOC2 conventions are a good practice. This repository deviates from SOC2 conventions in the following ways for the noted reasons:
 
 - Allows updates to PRs without dismissing pull request approvals.

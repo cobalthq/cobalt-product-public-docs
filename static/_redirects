@@ -1,1 +1,46 @@
 # Redirects from what the browser requests to what we serve
+
+# Platform Deep Dive section moves
+
+# Special pentest-process flattening (most specific first)
+
+/platform-deep-dive/pentests/pentest-process/pentest-states/ /pentests/pentest-states/ 301
+/platform-deep-dive/pentests/pentest-process/coverage-checklist/ /pentests/coverage-checklist/ 301
+
+# Platform Deep Dive wildcards (general moves)
+
+/platform-deep-dive/assets/* /assets/:splat 301
+/platform-deep-dive/pentests/* /pentests/:splat 301
+/platform-deep-dive/cobalt-account/* /account/:splat 301
+
+# Getting Started section moves
+
+# Special cases first (most specific matches first)
+
+/getting-started/sign-in/ /account/sign-in/ 301
+/getting-started/glossary/ /glossary/ 301
+/getting-started/pentest-preparation/ /pentests/preparation/ 301
+/getting-started/assets/ /assets/create-asset/ 301
+/getting-started/pentest-objectives/stack/ /assets/stack/ 301
+
+# Getting Started specific redirects to create-pentest.md sections
+
+/getting-started/select-pentest-type/ /pentests/create-pentest/#overview 301
+/getting-started/review-asset/ /pentests/create-pentest/#asset-details 301
+/getting-started/pentest-objectives/ /pentests/create-pentest/#pentest-details 301
+/getting-started/pentest-objectives/pentest-target/ /pentests/create-pentest/#pentest-details 301
+/getting-started/pentest-objectives/test-credentials/ /pentests/create-pentest/#pentest-details 301
+/getting-started/pentest-objectives/special-instructions/ /pentests/create-pentest/#pentest-details 301
+/getting-started/details/ /pentests/create-pentest/#pentest-details 301
+/getting-started/planning/ /pentests/create-pentest/#scope-test-period 301
+/getting-started/review-pentest/ /pentests/create-pentest/#preparation 301
+
+# Getting Started wildcard moves (Hugo aliases handle most, but these catch edge cases)
+
+/getting-started/assets/* /assets/:splat 301
+/getting-started/* /pentests/:splat 301
+
+# PMP (Pentest Management Platform) moves
+
+/pmp/ /pentests/in-house/ 301
+/pmp/* /pentests/in-house/:splat 301

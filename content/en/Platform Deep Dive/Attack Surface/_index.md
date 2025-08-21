@@ -1,12 +1,12 @@
 ---
 title: "Attack Surface"
 linkTitle: "Attack Surface"
-weight: 40
+weight: 70
 no_list: true
 description: >
   Attack Surface Discovery and Monitoring.
 aliases:
-- domains
+  - domains
 ---
 
 {{% pageinfo %}}
