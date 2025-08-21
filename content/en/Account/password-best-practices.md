@@ -2,6 +2,7 @@
 title: "Password Best Practices"
 linkTitle: "Password Best Practices"
 weight: 40
+
 description: >
   Learn how to create a strong password.
 ---
@@ -20,7 +21,7 @@ Follow best practices when creating a password for your Cobalt account. A strong
     - Lowercase letters: a–z
     - Uppercase letters: A–Z
     - Numbers: 0–9
-    - Special characters: !@#$%^&*
+    - Special characters: !@#$%^&\*
 - We don't allow common passwords such as `password`, `123456`, or `qwerty`.
 
 Example of a strong password: `1$WinterIsComing$1` (don't use this example).

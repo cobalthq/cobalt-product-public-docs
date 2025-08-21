@@ -2,6 +2,7 @@
 title: "Account Settings"
 linkTitle: "Account Settings"
 weight: 30
+
 description: >
   Explore your Cobalt account.
 ---

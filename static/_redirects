@@ -13,14 +13,16 @@
 
 /platform-deep-dive/assets/* /assets/:splat 301
 /platform-deep-dive/pentests/* /pentests/:splat 301
+/platform-deep-dive/cobalt-account/* /account/:splat 301
 
 # Getting Started section moves
 
 # Special cases first (most specific matches first)
 
-/getting-started/sign-in/ /account/ 301
+/getting-started/sign-in/ /account/sign-in/ 301
 /getting-started/glossary/ /glossary/ 301
 /getting-started/pentest-preparation/ /pentests/preparation/ 301
+/getting-started/assets/ /assets/create-asset/ 301
 /getting-started/pentest-objectives/stack/ /assets/stack/ 301
 
 # Getting Started specific redirects to create-pentest.md sections

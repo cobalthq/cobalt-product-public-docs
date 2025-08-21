@@ -2,7 +2,8 @@
 title: "Troubleshoot Sign-in Issues"
 linkTitle: "Troubleshoot Sign-in Issues"
 weight: 20
-aliases: /getting-started/sign-in/account-recovery/
+aliases:
+  - /getting-started/sign-in/account-recovery/
 description: >
   Troubleshoot common sign-in issues.
 ---
@@ -35,7 +36,7 @@ Follow these instructions if you can't sign in to Cobalt because:
 - Sign in from another browser.
 - Turn on incognito mode in your browser.
 - Clear your browsing data.
-{{% /expand %}}
+  {{% /expand %}}
 
 ## Problems with Two-Factor Authentication
 
@@ -66,7 +67,7 @@ To turn off 2FA for a user:
 1. On the **People** page, locate the user who needs help with 2FA.
 1. Select the three-dot icon {{% three-dots %}} on the right, and then select **Turn Off 2FA**.
    - We recommend that you verify the user's identity before turning off 2FA.<br>
-   ![Turn off 2FA for a user](/deepdive/TurnOff2FA.png "Turn off 2FA for a user")
+     ![Turn off 2FA for a user](/deepdive/TurnOff2FA.png "Turn off 2FA for a user")
 1. Select **Confirm** in the overlay that appears.
 
 ### One-Time Codes Don't Work
@@ -130,13 +131,13 @@ When you see the **Verify Your Browser** message upon signing in, do the followi
 
 1. Check your email that you used to sign in to Cobalt.
 1. In the email prompting you to verify your browser, double-check the details of your last sign-in attempt, and select **Verify Browser**.
-    - If you don't recognize this sign-in attempt, do the following:
-       - Contact {{% csm-support %}}. {{% compromised-account-action %}}
-       - [Change your password](/platform-deep-dive/cobalt-account/account-settings/#change-your-password), and [reset two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#reset-two-factor-authentication).
-    - Make sure to verify your browser before the link in the email expires.
+   - If you don't recognize this sign-in attempt, do the following:
+     - Contact {{% csm-support %}}. {{% compromised-account-action %}}
+     - [Change your password](/platform-deep-dive/cobalt-account/account-settings/#change-your-password), and [reset two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#reset-two-factor-authentication).
+   - Make sure to verify your browser before the link in the email expires.
 1. We save the browser information and sign you in to the Cobalt app.
-    - You get an email confirming that we verified your new browser.
-    - Next time you sign in from this browser, you don't need to verify it again.
+   - You get an email confirming that we verified your new browser.
+   - Next time you sign in from this browser, you don't need to verify it again.
 
 To enhance your account security, we recommend that you [enable two-factor authentication](/platform-deep-dive/cobalt-account/account-settings/#enable-two-factor-authentication).
 
@@ -174,6 +175,7 @@ If the Cobalt {{% sign-in %}} page doesn't load, try to clear your browser's cac
 Instructions vary depending on the browser and operating system you're using. There may be several ways to complete this action.
 
 {{%expand "See instructions." %}}
+
 - **Chrome**:
   - **Windows**: Press Ctrl + F5.
   - **Mac**: Press ⌘ Cmd + Shift + R.
@@ -182,7 +184,7 @@ Instructions vary depending on the browser and operating system you're using. Th
   - **Mac**: Press ⌘ Cmd + Shift + R.
 - **Safari**: Press Option + ⌘ Cmd + E.
 - **Microsoft Edge**: Press Ctrl + F5.
-{{% /expand %}}
+  {{% /expand %}}
 
 ## Account Was Compromised
 
@@ -197,7 +199,7 @@ If you have access to your Cobalt account, do the following:
 
 Here are the most common error messages you may see upon signing in to Cobalt.
 
-| Error | Details | Troubleshooting Steps |
-|---|---|---|
+| Error                                                      | Details                                                       | Troubleshooting Steps                                                                                                                                                        |
+| ---------------------------------------------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `You have to confirm your email address before continuing` | You haven't fully set up your account on the Cobalt platform. | Confirm your email address by clicking the link in the email invitation, and then create a password. Learn more about [setting up your account](#account-isnt-fully-set-up). |
-| `Invalid email or password` | The email address or password that you're using is incorrect. | See our [troubleshooting tips](#email-or-password-is-invalid).  |
+| `Invalid email or password`                                | The email address or password that you're using is incorrect. | See our [troubleshooting tips](#email-or-password-is-invalid).                                                                                                               |
