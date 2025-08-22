@@ -12,7 +12,7 @@
 
 # Getting Started section moves
 
-## Special cases first (most specific matches first)
+# Special cases first (most specific matches first)
 
 /getting-started/sign-in/ /account/sign-in/ 301
 /getting-started/glossary/ /glossary/ 301
