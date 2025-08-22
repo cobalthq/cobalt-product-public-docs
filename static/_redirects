@@ -20,7 +20,7 @@
 /getting-started/assets/ /assets/create-asset/ 301
 /getting-started/pentest-objectives/stack/ /assets/stack/ 301
 
-## Getting Started specific redirects to create-pentest.md sections
+# Getting Started specific redirects to create-pentest.md sections
 
 /getting-started/select-pentest-type/ /pentests/create-pentest/#overview 301
 /getting-started/review-asset/ /pentests/create-pentest/#asset-details 301
