@@ -1,7 +1,7 @@
 ---
 title: "Cobalt API"
 linkTitle: "Cobalt API"
-weight: 140
+weight: 160
 aliases: /apiusecases/
 no_list: true
 description: >

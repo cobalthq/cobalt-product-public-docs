@@ -1,7 +1,7 @@
 ---
 title: "Collaboration"
 linkTitle: "Collaboration"
-weight: 100
+weight: 120
 no_list: true
 description: >
   Collaborate on pentests.

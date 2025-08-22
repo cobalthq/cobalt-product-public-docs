@@ -1,7 +1,7 @@
 ---
 title: "DAST Scanner"
 linkTitle: "DAST Scanner"
-weight: 80
+weight: 100
 no_list: true
 description: >
   DAST Scanner - Web Application and API Vulnerability Scanning

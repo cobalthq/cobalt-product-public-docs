@@ -1,17 +1,14 @@
 # Redirects from what the browser requests to what we serve
 
-# Platform Deep Dive section moves
-
-# Special pentest-process flattening (most specific first)
+# Platform Deep Dive section moves (most specific first)
 
 /platform-deep-dive/pentests/pentest-process/pentest-states/ /pentests/pentest-states/ 301
 /platform-deep-dive/pentests/pentest-process/coverage-checklist/ /pentests/coverage-checklist/ 301
-
-# Platform Deep Dive wildcards (general moves)
-
 /platform-deep-dive/assets/* /assets/:splat 301
 /platform-deep-dive/pentests/* /pentests/:splat 301
 /platform-deep-dive/cobalt-account/* /account/:splat 301
+/platform-deep-dive/ /getting-started/ 301
+/platform-deep-dive/* /:splat 301
 
 # Getting Started section moves
 
