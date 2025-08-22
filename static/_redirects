@@ -32,7 +32,7 @@
 /getting-started/planning/ /pentests/create-pentest/#scope-test-period 301
 /getting-started/review-pentest/ /pentests/create-pentest/#preparation 301
 
-## Getting Started wildcard moves (Hugo aliases handle most, but these catch edge cases)
+# Getting Started wildcard moves (Hugo aliases handle most, but these catch edge cases)
 
 /getting-started/assets/* /assets/:splat 301
 /getting-started/* /pentests/:splat 301
