@@ -1,13 +1,14 @@
 ---
 title: "Findings"
 linkTitle: "Findings"
-weight: 15
+weight: 50
 no_list: true
 description: >
   Review and remediate findings that our pentesters discover.
 ---
 
 A finding represents a potential security vulnerability or weakness identified during a security assessment. These assessments can encompass various methodologies, including:
+
 - **Penetration Tests**: In-depth manual assessments where security experts simulate real-world attacks to uncover vulnerabilities.
 - **Secure Code Reviews**: Manual analysis of source code to detect security vulnerabilities early in the software development lifecycle.
 - **Digital Risk Assessments**: Evaluations of your online presence to identify potential threats to your brand reputation, data security, and compliance.

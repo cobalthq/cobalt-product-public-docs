@@ -1,7 +1,7 @@
 ---
 title: "Attack Surface"
 linkTitle: "Attack Surface"
-weight: 70
+weight: 90
 no_list: true
 description: >
   Attack Surface Discovery and Monitoring.

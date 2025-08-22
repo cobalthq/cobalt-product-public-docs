@@ -1,7 +1,7 @@
 ---
 title: "Cobalt Methodologies"
 linkTitle: "Methodologies"
-weight: 60
+weight: 80
 no_list: true
 description: >
   An overview of Cobalt methodologies.

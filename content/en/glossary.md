@@ -1,7 +1,7 @@
 ---
 title: "Glossary"
 linkTitle: "Glossary"
-weight: 999
+weight: 180
 description: >
   Learn more about the language of software security.
 ---
