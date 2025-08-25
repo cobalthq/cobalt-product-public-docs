@@ -153,7 +153,7 @@ include:
 - A hardware diagram which depicts connections on your network
 
 You can upload this information to your asset, as described in the section on
-[Attachments](/getting-started/assets/asset-description/#attachments).
+[Attachments](/assets/create-asset/#attachments).
 
 ### Cloud Configuration
 
