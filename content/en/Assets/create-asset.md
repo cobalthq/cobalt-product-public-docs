@@ -101,7 +101,7 @@ technologies can vary by asset:
 
 {{% image src="/gsg/TechnologyStack.png" alt="Technology stack for your asset" %}}
 
-When you create or update a Web, Mobile, API, or combined [asset](/getting-started/assets/), you can [add a technology stack](/platform-deep-dive/assets/risk-advisories/#add-a-technology-stack-for-your-asset) for it. Technologies that you selected from a predefined list on the asset details page populate in the **Technology Stack** field in the pentest wizard.
+When you create or update a Web, Mobile, API, or combined asset, you can [add a technology stack](assets/risk-advisories/#add-a-technology-stack-for-your-asset) for it. Technologies that you selected from a predefined list on the asset details page populate in the **Technology Stack** field in the pentest wizard.
 
 - You can add more technologies for your pentest, in addition to those that you specified for your asset earlier.
 - We don't show a predefined list of technologies in the **Technology Stack** list in the pentest wizard, as opposed to the asset details page. Type a technology, and press Enter to confirm.
