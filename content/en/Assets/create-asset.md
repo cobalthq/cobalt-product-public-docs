@@ -219,6 +219,6 @@ Now you can start [setting up a pentest](/getting-started/select-pentest-type/).
 - Assign internal teams or business units to manage specific assets in Cobalt.
 - Assign a compliance audit type the asset is subject to, such as `SOC 2`, `PCI-DSS`, or `CREST`.
 
-You can also add asset tags using the Cobalt API. Learn more in our [API documentation](/cobalt-api/documentation/v2/#assets).
-
 {{% image src="/gsg/asset-tags.png" alt="Add custom tags to Cobalt assets" %}}
+
+You can also add asset tags using the Cobalt API. Learn more in our [API documentation](/cobalt-api/documentation/v2/#assets).
