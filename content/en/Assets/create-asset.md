@@ -44,7 +44,7 @@ For all assets, we'd appreciate a:
 - Description of important functions or features
 - Business risks associated with each function and feature
 
-Include links to published documentation related to the asset. You can upload documentation, diagrams, and more in various file formats under [Attachments](#attachments).
+Include links to published documentation related to the asset. You can upload documentation, diagrams, and more in various file formats under [Attachments](/assets/create-asset/#attachments).
 
 The following sections detail additional needs for different kinds of assets:
 
@@ -222,3 +222,4 @@ Now you can start [setting up a pentest](/getting-started/select-pentest-type/).
 You can also add asset tags using the Cobalt API. Learn more in our [API documentation](/cobalt-api/documentation/v2/#assets).
 
 {{% image src="/gsg/asset-tags.png" alt="Add custom tags to Cobalt assets" %}}
+
