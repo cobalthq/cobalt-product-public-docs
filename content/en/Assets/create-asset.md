@@ -191,7 +191,7 @@ To share more about your assets, you can upload the documentation of your choice
 You can add a video walk-through of your asset as an attachment. This will give pentesters more context about the asset they need to test.<br><br>Screen recording instructions vary depending on your device and operating system. As an example, read [how to record the screen on your Mac](https://support.apple.com/en-gb/HT208721).
 {{< /alert >}}
 
-![Asset Attachments Screen](/gsg/AssetAttachments.png "Uploads related to your asset")
+{{% image src="/gsg/AssetAttachments.png" alt="Uploads related to your asset" %}}
 
 If you'd like to upload files in a different format, you can try to:
 
@@ -221,4 +221,4 @@ Now you can start [setting up a pentest](/getting-started/select-pentest-type/).
 
 You can also add asset tags using the Cobalt API. Learn more in our [API documentation](/cobalt-api/documentation/v2/#assets).
 
-![Add custom tags to Cobalt assets](/gsg/asset-tags.png "Add custom tags to Cobalt assets")
+{{% image src="/gsg/asset-tags.png" alt="Add custom tags to Cobalt assets" %}}
