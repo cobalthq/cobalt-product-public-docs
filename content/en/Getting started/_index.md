@@ -11,81 +11,33 @@ description: >
 Visualize your journey with Cobalt, and launch your first pentest to make your security stronger.
 {{% /pageinfo %}}
 
-Take your first steps to get started:
+Optimize your Cobalt experience and maximize your security impact by completing these key steps:
 
-- [Prepare for a pentest](#prepare-for-a-pentest)
-- [Launch a pentest](#launch-a-pentest)
-- Read answers to [frequently asked questions](#frequently-asked-questions)
-- Learn how to [get in touch with Cobalt](#get-in-touch)
+{{% image src="/homepage/getting-started.png" alt="Get Started Steps" %}}
 
-## Prepare for a Pentest
+### 1. Discover Your Attack Surface
 
-<a class="btn btn-outline-primary rounded" href="/pentests/preparation/">Pentest Preparation Checklist »</a>
+Find all of your externally reachable targets by scanning your domains. Our [Attack Surface](/attack-surface) feature automatically maps your internet-facing assets, so you can easily see what's exposed and identify potential vulnerabilities.
+ 
+### 2. Automate Vulnerability Scanning
 
-- **Make your teams aware of the upcoming pentest**.
-  - Notify everyone who should be aware of the pentest. Ensure that the pentest doesn’t disrupt anyone’s workflows.
-  - Prepare credentials and account details for pentesters.
-- **Be responsive to pentest results**.
-  - Pentesters will share vulnerabilities ([findings](/platform-deep-dive/pentests/findings/)) that they discover in real time. Start remediating them. [Collaborate on the pentest](/platform-deep-dive/collaboration/collaborate-on-pentests/) and ask questions if you need help.
-- **Be available to help find solutions to problems**.
-  - Most of the time pentesters are cautious and don't perform any actions that have detrimental effects on your software. However, as a precautionary measure, you should prepare for the worst. Prepare a backup copy of your software (especially when testing a production environment), and have a team ready to respond to any unexpected events.
-  - Establish communication with pentesters in [Slack](/platform-deep-dive/collaboration/collaborate-on-pentests/#use-slack-for-communication), and let them know you are there—available and responsive.
-- **Communicate significant changes to your environment made during a test to pentesters**.
-  - If you make significant changes to your environment during a test (including remediating vulnerabilities), make sure to communicate this to our pentesters. Any major updates to your asset that you make when the pentest is Live may impact pentesters' workflows and the testing process.
+Start scanning for vulnerabilities in your web applications and APIs with our [Dynamic Application Security Testing (DAST) scanner](/scans). Every customer gets one target for FREE with unlimited scanning.
 
-## Launch a Pentest
+### 3. Define Your Assets
 
-[Sign in to Cobalt](/account/), and start with [defining your assets](/assets/create-asset/). Here are the steps you need to take.
+Clearly [define your assets](/assets/create-asset) to ensure your pentests are comprehensive and efficient. Your [assets](/assets/asset-types) are the web applications, APIs, or other systems you want to have tested.
 
-![Workflow for creating a pentest](/gsg/CreatePentestFlowFull.png "Workflow for creating a pentest")
+### 4. Start a Pentest
 
-{{% expand "Click to learn more." %}}
+Schedule and launch a [pentest](/pentests) directly from the Cobalt platform. Choose your desired start date and testing methodology to begin protecting your assets.
 
-1. Define your [assets](/assets/create-asset/). Our pentesters analyze all kinds of
-   assets, from web apps to internal networks.
-1. [Create a pentest](/pentests/create-pentest/) and set requirements. We offer [Agile](/glossary/#agile-pentest) and [Comprehensive Pentests](/glossary/#comprehensive-pentest).
-   - By default, our pentesters use standards defined by the
-     [Open Web Application Security
-     Project (OWASP)](/glossary/#open-web-application-security-project-owasp) and in
-     the [Open Source Security Testing Methodology
-     Manual](/glossary/#open-source-security-testing-methodology-manual-osstmm).
-   - To help our penetration testers, include more information about your asset,
-     such as architecture and coding language. You'll see more details about
-     what to include when you [define your assets](/assets/create-asset/).
+### 5. Integrate Your Tools
 
-Once you've set up a pentest, we start analyzing your asset. When
-possible, we share results even before we create your report. Here's what
-you can [expect](/pentests/what-to-expect/).
+Connect Cobalt with the tools you already use, like Jira or GitHub, using our [Integration Builder](/integrations/integrationbuilder). This no-code platform lets you automate security workflows and share data seamlessly.
 
-{{% /expand %}}
+### 6. Plan Your Security Program
 
-## Frequently Asked Questions
-
-Click <i style="font-size:x-large; color: #0047AB" class="fas fa-chevron-right"></i> to view answers.
-
-{{% expand "What is an organization?" %}}
-<br>
-When you receive an email invitation from Cobalt, you join a specific organization with a role assigned to you. Within an organization, you and your team get access to the Cobalt platform and the pentest experience. Learn more about <a href="/platform-deep-dive/organization/">organizations</a>.
-<br><br>
-{{% /expand %}}
-
-{{% expand "How do I add people to my organization?" %}}
-<br>
-Organization Owners can manage users for their organization. For instructions, see <a href="/platform-deep-dive/organization/manage-users/#invite-users">Invite Users</a>.
-<br><br>
-{{% /expand %}}
-
-{{% expand "What user roles are available?" %}}
-<br>
-To learn more, please see <a href="/platform-deep-dive/collaboration/user-roles/">User Roles and Permissions</a>.
-<br><br>
-{{% /expand %}}
-
-{{% expand "What is an asset?" %}}
-<br>
-{{% asset-definition %}} Learn more about the <a href="/assets/asset-types/">asset types</a> we support. Once you've created an asset, you can launch pentests for it.
-<br><br>
-{{% /expand %}}
+Centrally visualize and manage your annual testing program. Use our [Planning](/planning) feature to plan, track, and execute all of your tests in one place.
 
 ## Get in Touch
 
