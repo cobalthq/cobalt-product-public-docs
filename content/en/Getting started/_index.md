@@ -13,7 +13,7 @@ Visualize your journey with Cobalt, and launch your first pentest to make your s
 
 Optimize your Cobalt experience and maximize your security impact by completing these key steps:
 
-{{% image src="get-started.png" alt="Get Started Steps" %}}
+{{% image src="getting-started.png" alt="Get Started Steps" %}}
 
 ### 1. Discover Your Attack Surface
 
