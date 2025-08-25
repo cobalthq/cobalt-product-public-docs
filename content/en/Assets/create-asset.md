@@ -222,4 +222,3 @@ Now you can start [setting up a pentest](/getting-started/select-pentest-type/).
 You can also add asset tags using the Cobalt API. Learn more in our [API documentation](/cobalt-api/documentation/v2/#assets).
 
 {{% image src="/gsg/asset-tags.png" alt="Add custom tags to Cobalt assets" %}}
-
