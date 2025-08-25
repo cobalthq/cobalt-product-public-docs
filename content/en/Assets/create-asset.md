@@ -26,7 +26,7 @@ The **Asset** screen prompts you for the following information:
 - **Asset Title**: Set up a descriptive name to attract attention from the best pentesters.
 - **Asset Image**: Use it to help identify what you need from a list of assets.
 - **[Asset Type](/getting-started/assets/asset-type/)**: Select one of the options described in the linked page.
-- **[Technology Stack](/platform-deep-dive/assets/risk-advisories/#add-a-technology-stack-for-your-asset)** (for Web, Mobile, API, and combined asset types): Add a technology stack for your asset. You can preview [potential vulnerabilities](/platform-deep-dive/assets/risk-advisories/) based on the [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) standard for this stack.
+- **[Technology Stack](/assets/create-asset/#technology-stack)** (for Web, Mobile, API, and combined asset types): Add a technology stack for your asset. You can preview [potential vulnerabilities](/platform-deep-dive/assets/risk-advisories/) based on the [Common Vulnerabilities and Exposures (CVE)](https://www.cve.org/) standard for this stack.
 - **[Asset Description](/getting-started/assets/asset-description/)**: Add information that can help your pentesters fully analyze your asset.
 - **[Attachments](/getting-started/assets/asset-description/#attachments)**: Upload documentation, architecture diagrams, images, spreadsheets, or videos related to your asset.
 - **[Assigned Group](/platform-deep-dive/collaboration/groups)**: The group that is assigned to the asset will have exclusive access to it and its associated pentests and findings. [Learn how to create a group](/platform-deep-dive/collaboration/groups).
