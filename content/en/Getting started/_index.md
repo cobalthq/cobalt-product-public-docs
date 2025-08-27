@@ -43,9 +43,7 @@ Centrally visualize and manage your annual testing program. Use our [Planning](/
 
 If you need help, don't hesitate to contact us.
 
-- If you have a named Customer Success Manager, get in touch with them.
-- Otherwise, [submit a ticket](https://cobaltio.zendesk.com/hc/en-us/requests/new) or send an email to support@cobalt.io.
+- **For general support**: Reach out to your Customer Success Manager (CSM). You can find their name and contact information on your platform's homepage or on any pentest brief.
+- **For all other inquiries**: Send an email to support@cobalt.io. We process all support requests within one business day.
 
-We process support requests within one business day.
-
-If you find a security issue on the Cobalt platform, please report it to security@cobalt.io. Learn more about our [security practices](https://cobalt.io/security/practices).
+If you find a security issue on the Cobalt platform, report it to security@cobalt.io. Learn more about our [security practices](https://cobalt.io/security/practices).
