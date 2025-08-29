@@ -25,3 +25,10 @@ The downloadable CSV from the findings page has been updated with new data and c
 - **First Reported At**: The date a finding was first reported in a previous pentest.
 - **First Reported Tag**: The unique tag of the initial pentest where the finding appeared.
 - **Previously Reported Count**: The total number of times the finding has been previously reported.
+
+## New Pentest Creation Workflow
+
+Easily plan and scope your pentest with our new, guided workflow. Our clear, step-by-step process helps you define your targets and objectives, provide all the essential information for our testers, and set the stage for a successful pentest.
+
+{{% image src="/release-notes/Carried-over-finding-section.png" alt="Carried Over Finding Indicator" %}}
+
