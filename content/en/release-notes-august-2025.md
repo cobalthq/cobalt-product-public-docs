@@ -15,8 +15,8 @@ We've added a new "Carried Over Findings" section to individual findings with a 
 
 Additionally, an indicator in the finding’s title will now clearly show that it is a carried-over finding.
 
-{{% image src="/release-notes/calendar-july-25.png" alt="Calendar" %}}
-{{% image src="/release-notes/calendar-july-25.png" alt="Calendar" %}}
+{{% image src="/release-notes/Carried-over-finding-indicator.png" alt="Carried Over Finding Section" %}}
+{{% image src="/release-notes/Carried-over-finding-section.png" alt="Carried Over Finding Indicator" %}}
 
 ## Updated Findings CSV Download
 
@@ -25,5 +25,3 @@ The downloadable CSV from the findings page has been updated with new data and c
 - **First Reported At**: The date a finding was first reported in a previous pentest.
 - **First Reported Tag**: The unique tag of the initial pentest where the finding appeared.
 - **Previously Reported Count**: The total number of times the finding has been previously reported.
-
-{{% image src="/release-notes/calendar-july-25.png" alt="Calendar" %}}
