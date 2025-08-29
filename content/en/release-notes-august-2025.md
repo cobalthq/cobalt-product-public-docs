@@ -9,7 +9,7 @@ description: >-
 Explore What's New from Cobalt This Month
 {{% /pageinfo %}}
 
-## New Carried Over Findings Section  
+## Carried Over Findings History
 
 We've added a new "Carried Over Findings" section to individual findings with a previous history. This feature provides a clear view of a finding’s lifecycle, allowing you to easily see when and where it was first reported. For findings with extensive history, you can simply expand or collapse the list. 
 
