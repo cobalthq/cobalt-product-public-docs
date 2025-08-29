@@ -30,5 +30,5 @@ The downloadable CSV from the findings page has been updated with new data and c
 
 Easily plan and scope your pentest with our new, guided workflow. Our clear, step-by-step process helps you define your targets and objectives, provide all the essential information for our testers, and set the stage for a successful pentest.
 
-{{% image src="/release-notes/Carried-over-finding-section.png" alt="Carried Over Finding Indicator" %}}
+{{% image src="/release-notes/pt-worklow.png" alt="New Pentest Creation Workflow" %}}
 
