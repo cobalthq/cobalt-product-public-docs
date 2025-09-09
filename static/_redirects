@@ -29,7 +29,7 @@
 /getting-started/pentest-objectives/test-credentials/ /pentests/create-pentest/pentest-details 301
 /getting-started/pentest-objectives/special-instructions/ /pentests/create-pentest/pentest-details 301
 /getting-started/details/ /pentests/create-pentest/pentest-details 301
-/getting-started/planning/ /pentests/create-pentest/scope-test-period 301
+/getting-started/planning/ /pentests/create-pentest/scope-and-test-period 301
 /getting-started/review-pentest/ /pentests/create-pentest/preparation 301
 
 # Getting Started wildcard moves (Hugo aliases handle most, but these catch edge cases)
