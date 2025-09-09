@@ -39,7 +39,7 @@ cascade:
        <div class="feature-icon d-inline-flex align-items-left justify-content-left bg-gradient fs-2 mb-3">
          <a href="/platform-deep-dive/pentests/pentest-types/" tabindex="-1" aria-hidden="true"><img src="/homepage/pentest-types.svg" alt="Pentest Types" title="Pentest Types"></a>
        </div>
-       <h4><a href="/pentests/createpentest/overview/#3-set-the-test-focus" class="custom-link-color"><b>Pentest Types</b></a></h4>
+       <h4><a href="/pentests/create-pentest/overview/#3-set-the-test-focus" class="custom-link-color"><b>Pentest Types</b></a></h4>
        <p>Learn about the pentests types that we offer. Match your security and reporting needs with narrow or broad scoped pentests.</p>
      </div>
    </div>
