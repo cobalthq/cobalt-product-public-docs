@@ -205,7 +205,15 @@ $link-hover-decoration: none !default;
 
 .td-page-meta--view { display: none !important; }
 
+/* Hide Edit this page links */
+.td-page-meta--edit { display: none !important; }
+.td-page-meta__edit { display: none !important; }
 
+/* Hide other page meta links */
+.td-page-meta--child { display: none !important; }
+.td-page-meta__child { display: none !important; }
+.td-page-meta--issue { display: none !important; }
+.td-page-meta__issue { display: none !important; }
 
 #cobalt-api-docs {
   position: absolute;
