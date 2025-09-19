@@ -64,11 +64,3 @@ We support two-factor authentication (2FA) **for users who sign in with their em
 {{< alert title="Tip" color="primary" >}}
 {{% 2fa-see-troubleshooting %}}
 {{< /alert >}}
-
-## Browser Verification
-
-{{% browser-verification-intro %}}
-
-{{< alert title="Tip" color="primary" >}}
-If you see the **Verify Your Browser** message upon signing in, follow the steps described in [We Don't Recognize Your Browser](/account/account-recovery/#we-dont-recognize-your-browser).
-{{< /alert >}}
