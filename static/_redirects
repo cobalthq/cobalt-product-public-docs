@@ -42,8 +42,6 @@
 /pmp/ /pentests/in-house/ 301
 /pmp/* /pentests/in-house/:splat 301
 
-# Best Practice Moves 
-
 # Best practices redirects to external site
 [[redirects]]
   from = "/bestpractices/protect-against-xxe/"
