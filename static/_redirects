@@ -44,5 +44,5 @@
 
 # Best Practice Moves 
 
-/bestpractices/ https://www.cobalt.io/learning-center 301
-/bestpractices/protect-against-xxe/ https://www.cobalt.io/blog/how-to-execute-an-xml-external-entity-injection-xxe 301
+/bestpractices/ https://www.cobalt.io/learning-center/ 301
+/bestpractices/protect-against-xxe/ https://www.cobalt.io/blog/how-to-execute-an-xml-external-entity-injection-xxe/ 301
