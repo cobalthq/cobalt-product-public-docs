@@ -41,3 +41,8 @@
 
 /pmp/ /pentests/in-house/ 301
 /pmp/* /pentests/in-house/:splat 301
+
+# Best Practice Moves 
+
+/bestpractices/ https://www.cobalt.io/learning-center 301
+/bestpractices/protect-against-xxe/ https://www.cobalt.io/blog/how-to-execute-an-xml-external-entity-injection-xxe 301
