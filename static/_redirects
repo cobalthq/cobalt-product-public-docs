@@ -44,5 +44,15 @@
 
 # Best Practice Moves 
 
-/bestpractices/ https://www.cobalt.io/learning-center/ 301
-/bestpractices/protect-against-xxe/ https://www.cobalt.io/blog/how-to-execute-an-xml-external-entity-injection-xxe/ 301
+# Best practices redirects to external site
+[[redirects]]
+  from = "/bestpractices/protect-against-xxe/"
+  to = "https://www.cobalt.io/blog/how-to-execute-an-xml-external-entity-injection-xxe/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bestpractices/*"
+  to = "https://www.cobalt.io/learning-center/"
+  status = 301
+  force = true
