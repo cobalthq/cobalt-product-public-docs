@@ -31,3 +31,58 @@ NODE_VERSION = "20.17.0"
   from = "/platform-deep-dive/scans*"
   to = "/scans/:splat"
   status = 301
+
+# Best practices redirects to external site
+[[redirects]]
+  from = "/bestpractices/protect-against-xxe/"
+  to = "https://www.cobalt.io/blog/how-to-execute-an-xml-external-entity-injection-xxe/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bestpractices/insecure-deserialization/"
+  to = "https://www.cobalt.io/blog/the-anatomy-of-deserialization-attacks"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bestpractices/secure-design/"
+  to = "https://www.cobalt.io/learning-center/pentester-guide-to-prevent-insecure-design-in-sql"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bestpractices/api-rate-limiting/"
+  to = "https://www.cobalt.io/vulnerability-wiki/v2-authentication/no-rate-limiting-on-a-form"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bestpractices/prevent-ssti/"
+  to = "https://www.cobalt.io/blog/a-pentesters-guide-to-server-side-template-injection-ssti"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/bestpractices/input-validation/"
+  to = "https://www.cobalt.io/vulnerability-wiki/v5-validation-sanitization"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bestpractices/prevent-security-misconfig/"
+  to = "https://www.cobalt.io/blog/prevent-security-misconfigurations"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bestpractices/protect-against-ssrf/"
+  to = "https://www.cobalt.io/learning-center/server-side-request-forgery-ssrf-overview"
+  status = 301
+  force = true
+  
+[[redirects]]
+  from = "/bestpractices/*"
+  to = "https://www.cobalt.io/learning-center/"
+  status = 301
+  force = true
