@@ -2,7 +2,7 @@
 title: "Best Practices for Security"
 linkTitle: "Security Best Practices"
 weight: 170
-no_list: true
+toc_hide: = true
 description: >
   Recommendations for developers focused on security.
 ---
