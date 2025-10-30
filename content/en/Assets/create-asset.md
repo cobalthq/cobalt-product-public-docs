@@ -84,7 +84,7 @@ Our pentesters need network diagrams to know what to test on a network. If you'v
 
 Add network information, including the IP address / hostname of the jump box.
 
-### Cloud Configuration Assets
+### Cloud Network Assets
 
 Our pentesters need to know how you've set up and use your cloud assets.
 
@@ -155,20 +155,20 @@ include:
 You can upload this information to your asset, as described in the section on
 [Attachments](/assets/create-asset/#attachments).
 
-### Cloud Configuration
+### Cloud Network
 
-We can help users test their cloud configurations by service. In general, cloud
-services correspond to what may be installed on internal servers. But you also need
-to specify cloud components for the Technology Stack.
+We can help users test their cloud configurations. While cloud
+services often mirror components you might run on internal servers, specify the appropriate cloud resources when defining your Technology Stack.
 
-In this case, cloud configuration technology stacks correspond to the services that you
-might buy from a cloud provider such as Google, Amazon, or Microsoft.
-To help you list the right components, we provide this list of examples:
+A cloud technology stacks correspond to the services that you
+might buy from a cloud provider (such as Google Cloud, Amazon Web Services, or Microsoft Azure).
+
+Here are some common examples of services to include:
 
 - APIs
-- VPNs
-- S3 Buckets
-- Databases (SQL, RDMS)
+- Databases (e.g., SQL, RDMS)
+- Networking (e.g., VPNs)
+- Storage Services (e.g., S3 Buckets
 - Remote Desktops
 - Virtual Machines
 
