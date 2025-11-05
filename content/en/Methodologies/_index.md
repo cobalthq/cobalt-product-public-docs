@@ -84,7 +84,7 @@ _Why they're excluded:_
 - Cobalt pentesters typically don't have the legal authorization or the necessary technical access to conduct in-depth testing on a third-party vendor's infrastructure.
 - If third-party components are included in the scope, Cobalt testers will focus on how they are integrated and configured within your environment, rather than attempting to uncover vulnerabilities within the third-party product itself.
 
-## Cobalt Testing and Traffic Details:
+## Cobalt Testing and Traffic Details
 
 The following outlines the typical traffic profile generated during a Cobalt engagement.
 
