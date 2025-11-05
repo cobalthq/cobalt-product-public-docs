@@ -83,3 +83,19 @@ _Why they're excluded:_
 - The security of third-party products is primarily the vendor's responsibility. Organizations should rely on vendor security attestations, audit reports, and their own due diligence when choosing these solutions.
 - Cobalt pentesters typically don't have the legal authorization or the necessary technical access to conduct in-depth testing on a third-party vendor's infrastructure.
 - If third-party components are included in the scope, Cobalt testers will focus on how they are integrated and configured within your environment, rather than attempting to uncover vulnerabilities within the third-party product itself.
+
+## Cobalt Testing and Traffic Details
+
+The following outlines the typical traffic profile generated during a Cobalt engagement.
+
+### Source IPs
+
+All network traffic associated with a Cobalt pentest originates from a controlled range of [IPs](https://docs.cobalt.io/pentests/create-pentest/preparation/#2-add-our-ips-to-your-allowlist), ensuring that the traffic is easily identifiable. All testing traffic passes through Cobalt VPNs, which can be stopped as needed in an emergency.
+
+### Expected Traffic Volume
+Our testing is primarily focused on manual techniques, which produce a light traffic load; however, there are some automated phases that generate brief, higher spikes.
+
+| Metric | Typical Activity | Peak Activity |
+|---|---|---|
+| Expected Peak Bandwidth  | Manual techniques typically use an order of magnitude less than the peak. | May peak at 100 Mbps (0.1 Gbps) when running brief, intensive scans.  |
+| Expected Peak Queries Per Second (QPS) | The majority of testing is manual, which typically produces less than 10 QPS. | The test may have brief periods of 10–100 QPS.  |
