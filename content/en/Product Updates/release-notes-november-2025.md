@@ -25,6 +25,9 @@ This is your new primary list, showing only the vulnerabilities discovered in th
 - Quick Filtering: Tiles at the top count findings by state, providing instant filtering.
 - Sort, Export, Search: Use search, sort, and export tools to prioritize your remediation list.
 
+{{% image src="/release-notes/Current-Findings.png" alt="Current Findings" %}}
+
+
 ### Historical Findings
 
 This tab gives you full visibility into open findings from previous pentests on the same asset.
@@ -32,5 +35,5 @@ This tab gives you full visibility into open findings from previous pentests on 
 - Triage Transparency: Pentesters use this tab to verify if past issues are still reproducible. You gain a clear paper trail of this process, seeing which findings are Carried Over (unfixed) or marked Fixed.
 - Accountability: This separation allows you to track tester decisions and provides full historical context for auditing and planning future remediation sprints.
 
-{{% image src="/release-notes/Carried-over-finding-indicator.png" alt="Carried Over Finding Section" %}}
+{{% image src="/release-notes/Historical-Findings.png" alt="Historical Findings" %}}
 
