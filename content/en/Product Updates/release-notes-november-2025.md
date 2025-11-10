@@ -31,3 +31,6 @@ This tab gives you full visibility into open findings from previous pentests on 
 
 - Triage Transparency: Pentesters use this tab to verify if past issues are still reproducible. You gain a clear paper trail of this process, seeing which findings are Carried Over (unfixed) or marked Fixed.
 - Accountability: This separation allows you to track tester decisions and provides full historical context for auditing and planning future remediation sprints.
+
+{{% image src="/release-notes/Carried-over-finding-indicator.png" alt="Carried Over Finding Section" %}}
+
