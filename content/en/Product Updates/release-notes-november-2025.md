@@ -1,6 +1,6 @@
 ---
-title: "Release Notes: October 2025"
-linkTitle: "October 2025"
+title: "Release Notes: November 2025"
+linkTitle: "November 2025"
 weight: 33
 description: >-
 ---
