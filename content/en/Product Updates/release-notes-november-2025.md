@@ -36,4 +36,3 @@ This tab gives you full visibility into open findings from previous pentests on 
 - Accountability: This separation allows you to track tester decisions and provides full historical context for auditing and planning future remediation sprints.
 
 {{% image src="/release-notes/Historical-Findings.png" alt="Historical Findings" %}}
-
