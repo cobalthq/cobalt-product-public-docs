@@ -42,13 +42,13 @@ Navigate to: **Azure Portal → App registrations → Cobalt Offensive Security 
 
 Add the following **Microsoft Graph Application Permissions**:
 - **ChannelMessage.Read.All** - Read all channel messages across the organization to enable bot message synchronization
-- **Chat.Read.WhereInstalled** - Read chat messages only in conversations where the Cobalt app is installed (RSC permission)
+- **Chat.Read.WhereInstalled** - Read chat messages only in conversations where the Cobalt Offensive Security app is installed (RSC permission)
 - **Files.Read.All** - Read file metadata and properties for attachments shared in Teams conversations
 - **Sites.Read.All** - Download file content from SharePoint sites when files are shared through Teams
 
 After adding these permissions, an administrator must click **"Grant admin consent"** to activate them.
 
-**Security Note**: The Cobalt app only accesses Teams channels where it is explicitly added. While `ChannelMessage.Read.All` and file permissions have organization-wide scope at the API level, the app's functionality is limited to channels where it's installed and only processes messages directed to the bot. `Chat.Read.WhereInstalled` uses Resource Specific Consent (RSC) to restrict access exclusively to chats where the app is present.
+**Security Note**: The Cobalt Offensive Security app only accesses Teams channels where it is explicitly added. While `ChannelMessage.Read.All` and file permissions have organization-wide scope at the API level, the app's functionality is limited to channels where it's installed and only processes messages directed to the bot. `Chat.Read.WhereInstalled` uses Resource Specific Consent (RSC) to restrict access exclusively to chats where the app is present.
 
 ### Install Cobalt Teams Application in Your Teams Instance
 As an administrator for your Microsoft Teams instance, you can add the Cobalt Offensive Security app to your environment by:
