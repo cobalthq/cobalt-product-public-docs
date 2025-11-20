@@ -155,7 +155,6 @@ Instructions vary depending on the browser and operating system you're using. Th
 - **Firefox**:
   - **Windows**: Press Ctrl + F5.
   - **Mac**: Press ⌘ Cmd + Shift + R.
-- **Safari**: Press Option + ⌘ Cmd + E.
 - **Microsoft Edge**: Press Ctrl + F5.
   {{% /expand %}}
 
