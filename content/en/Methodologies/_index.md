@@ -21,17 +21,15 @@ By default, our pentesters test for industry standard vulnerabilities from:
 - [Open Source Security Testing Methodology Manual (OSSTMM)](https://www.isecom.org/OSSTMM.3.pdf) (PDF).
   - Used for internal and external networks.
 
-For more information, refer to the detailed pages associated with your
-asset.
+For more information, refer to the detailed pages:
 
 - [Web](/methodologies/web-methodologies/)
 - [API](/methodologies/api-methodologies/)
 - [Mobile](/methodologies/mobile/)
 - [Internal Network](/methodologies/internal-network/)
 - [External Network](/methodologies/external-network/)
-- Cloud Network
--   [Cloud Configuration Review](/methodologies/cloud-configuration-review/)
--   [Cloud Pentest](/methodologies/cloud-pentest/)
+- [Cloud Configuration Review](/methodologies/cloud-configuration-review/)
+- [Cloud Pentest](/methodologies/cloud-pentest/)
 - [Desktop](/methodologies/desktop/)
 - [AI/LLM](/methodologies/ai-llm/)
 
