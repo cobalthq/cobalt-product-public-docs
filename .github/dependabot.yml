@@ -8,6 +8,8 @@ updates:
       timezone: "US/Pacific"
     commit-message:
       prefix: "github-actions"
+    cooldown:
+      default-days: 30   # Wait 30 days for any updates
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
@@ -16,6 +18,10 @@ updates:
       timezone: "US/Pacific"
     commit-message:
       prefix: "gomod"
+    cooldown:
+      semver-major-days: 30   # Wait 30 days for major updates
+      semver-minor-days: 7    # Wait 7 days for minor updates
+      semver-patch-days: 3    # Wait 3 days for patch updates
     groups:
       minor-updates: # Update all minor and security versions
         applies-to: version-updates
@@ -32,6 +38,10 @@ updates:
       timezone: "US/Pacific"
     commit-message:
       prefix: "npm"
+    cooldown:
+      semver-major-days: 30   # Wait 30 days for major updates
+      semver-minor-days: 7    # Wait 7 days for minor updates
+      semver-patch-days: 3    # Wait 3 days for patch updates
     groups:
       minor-updates: # Update all minor and security versions
         applies-to: version-updates
