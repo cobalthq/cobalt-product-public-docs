@@ -28,7 +28,7 @@ Integrate with Microsoft Teams to seamlessly collaborate with Cobalt pentesters 
 
 ### Limitations
 Please be aware of the following considerations when using this integration. We are working to improve the integration and address these limitations.
-- Messages will not appear as threads in Teams or Cobalt Chat
+- Messages will not appear as threads in Teams or Cobalt Chat.
 - A Teams channel can only be connected to a single Cobalt pentest.
 - Editing a Teams message does not retry the attempt to sync to the Cobalt platform.
 
