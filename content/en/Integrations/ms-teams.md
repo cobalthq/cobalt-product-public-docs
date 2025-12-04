@@ -162,11 +162,6 @@ A: Currently the integration supports Cobalt’s Pentest Chat only, not Finding 
 A: No, threaded messaging  is not currently supported, but will be in a future release. 
 
 
-**Q: Does the integration support file attachments?**
-
-A: No, attachments are not currently supported, but will be in a future release. 
-
-
 **Q: Does the integration support reactions?**
 
 A: No, emoji reactions are not currently supported, but will be in a future release.
