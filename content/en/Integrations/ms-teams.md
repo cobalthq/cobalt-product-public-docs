@@ -20,6 +20,7 @@ Integrate with Microsoft Teams to seamlessly collaborate with Cobalt pentesters 
 
 ### How it Works
 - Install the Cobalt Offensive Security app, from the Microsoft Teams app store, into your Teams environment
+  - **Note:** If you have an EU account, install the "Cobalt Offensive Security EU" app instead
 - In Teams, a channel manager adds the Cobalt Offensive Security app to a Teams channel, authenticates to Cobalt, and selects the specific pentest to connect to the channel
 - Members of the Teams channel can use the Cobalt Offensive Security app to post or reply to messages, directly from Teams
 - Pentest team members with a Cobalt account, as well as Cobalt’s pentesters and staff, can see, respond, or send new messages from Cobalt’s Pentest Chat, which are syndicated to the connected Teams channels
@@ -27,7 +28,7 @@ Integrate with Microsoft Teams to seamlessly collaborate with Cobalt pentesters 
 
 ### Limitations
 Please be aware of the following considerations when using this integration. We are working to improve the integration and address these limitations.
-- Messages will not appear as threads in Teams or Cobalt Chat
+- Messages will not appear as threads in Teams or Cobalt Chat.
 - A Teams channel can only be connected to a single Cobalt pentest.
 - Editing a Teams message does not retry the attempt to sync to the Cobalt platform.
 
