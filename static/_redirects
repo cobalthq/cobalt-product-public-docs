@@ -4,6 +4,7 @@
 
 /platform-deep-dive/pentests/pentest-process/pentest-states/ /pentests/pentest-states/ 301
 /platform-deep-dive/pentests/pentest-process/coverage-checklist/ /pentests/coverage-checklist/ 301
+/platform-deep-dive/pentests/pentest-types/ /pentests/create-pentest/overview/#3-set-the-test-focus/ 301
 /platform-deep-dive/assets/* /assets/:splat 301
 /platform-deep-dive/pentests/* /pentests/:splat 301
 /platform-deep-dive/cobalt-account/* /account/:splat 301
