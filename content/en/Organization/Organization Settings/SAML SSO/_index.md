@@ -90,7 +90,7 @@ SP-initiated SSO once your SAML configuration is set up:
 
 ## Enforce SAML SSO
 
-SAML SSO enforcement reqiures organization users to sign in to Cobalt only through [SAML SSO](/getting-started/glossary/#saml-single-sign-on-sso).
+SAML SSO enforcement requires organization users to sign in to Cobalt only through [SAML SSO](/getting-started/glossary/#saml-single-sign-on-sso).
 Once the enforcement is on, other authentication methods will no longer work. This affects the following roles:
 
 {{% owner-member-team-member %}}
