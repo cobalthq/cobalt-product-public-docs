@@ -10,6 +10,9 @@ description: >
 We cover updates to the Cobalt platform in our release notes below.
 {{% /pageinfo %}}
 
+## 2026
+- [January 2026](/product-updates/release-notes-January-2026/)
+
 ## 2025
 
 - [November 2025](/product-updates/release-notes-November-2025/)
