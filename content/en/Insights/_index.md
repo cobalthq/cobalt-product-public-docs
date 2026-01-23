@@ -15,7 +15,7 @@ The Insights page is designed to give you a comprehensive view of your security 
 
 1. [Findings](/platform-deep-dive/insights/#findings)
 2. [Assets](/platform-deep-dive/insights/#assets)
-3. [Benchmark](/platform-deep-dive/insights/#benchmark-span-stylecolor6633d9-font-weight500-background-color-ece6fa-padding-2px-4px-border-radius-2pxbetaspan) {{% beta-label %}}
+3. [Benchmark](/platform-deep-dive/insights/#benchmark)
 
 Use the filters to refine the displayed data, filters include:
 
@@ -69,7 +69,7 @@ The Assets tab includes the following charts to help you visualize your data:
 - **Findings by Status and Severity:** For each asset, this provides a breakdown of findings by their current status and severity levels. Pending Fix findings are displayed by severity. Fixed, Accepted Risk, and Carried Over findings are shown as actioned counts.
   - ℹ️ **How to use this data:** Analyze the number of findings that pentesters reported on each asset. Identify assets with Pending Fix Critical findings to start remediating them first.
 
-### Benchmark {{% beta-label %}}
+### Benchmark
 
 Compare your organization's performance against industry benchmarks, drawing insights from the State of Pentesting Report 2025. This comparison focuses exclusively on critical and high-severity pentest findings.
 
