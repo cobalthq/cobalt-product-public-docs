@@ -17,7 +17,7 @@ All activities are limited to the assets and scope defined in the engagement bri
 
 Activities conducted within a Digital Risk Assessment are noted within the brief:
 
-<!-- REORGANIZED: the original flat list is preserved in full below, regrouped into categories for readability. All original items are retained verbatim. To revert to a single flat list, delete the four headings. -->
+<!-- REORGANIZED: the original flat list is preserved in full below, regrouped into categories for readability. -->
 
 #### Organization and infrastructure footprint
 
@@ -46,9 +46,7 @@ Activities conducted within a Digital Risk Assessment are noted within the brief
 - Building layouts
 - Online brand protection
 
-<!-- ADDED: data-handling note. Passive OSINT routinely collects personal and third-party data, so the methodology should state how that data is handled. Align the specifics with your actual privacy/contractual obligations. -->
+<!-- ADDED: data-handling note. Passive OSINT routinely collects personal and third-party data, so the methodology should state how that data is handled.  -->
 #### Data handling
 
 Information collected during the assessment may include personal or third-party data. Such information is collected, stored, and reported in accordance with Cobalt's data-handling obligations and applicable privacy regulations, and findings are shared only with authorized client recipients.
-
-<!-- NOTE: nothing from the original document was removed. The HTML comments above are review annotations and should be deleted before publishing. -->
